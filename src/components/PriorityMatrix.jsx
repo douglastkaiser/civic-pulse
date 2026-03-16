@@ -114,7 +114,7 @@ export default function PriorityMatrix({ issues, onSelectIssue, selectedIssueId 
   }
 
   return (
-    <div className="bg-bg-panel border border-border rounded-lg p-3 flex flex-col h-full">
+    <div className="bg-bg-panel border border-border rounded-lg p-3 flex flex-col h-full panel-hover">
       <h2 className="font-mono text-sm font-bold text-text-primary tracking-wide mb-2">
         PRIORITY MATRIX
       </h2>

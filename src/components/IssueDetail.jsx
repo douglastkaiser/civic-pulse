@@ -11,7 +11,7 @@ export default function IssueDetail({ issue, onClose }) {
   const quadrant = QUADRANT_LABELS[issue.quadrant] || QUADRANT_LABELS.background
 
   return (
-    <div className="bg-bg-panel border border-border rounded-lg p-4 flex flex-col h-full overflow-hidden">
+    <div className="bg-bg-panel border border-border rounded-lg p-4 flex flex-col h-full overflow-hidden panel-hover animate-fade-in">
       <div className="flex items-start justify-between mb-3">
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2 mb-1">

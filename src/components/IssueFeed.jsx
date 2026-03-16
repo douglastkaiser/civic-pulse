@@ -32,7 +32,7 @@ export default function IssueFeed({ issues, onSelectIssue, selectedIssueId }) {
 
   if (!issues?.length) {
     return (
-      <div className="bg-bg-panel border border-border rounded-lg p-4 flex flex-col h-full">
+      <div className="bg-bg-panel border border-border rounded-lg p-4 flex flex-col h-full panel-hover">
         <h2 className="font-mono text-sm font-bold text-text-primary tracking-wide mb-3">
           ISSUES
         </h2>
@@ -47,7 +47,7 @@ export default function IssueFeed({ issues, onSelectIssue, selectedIssueId }) {
   }
 
   return (
-    <div className="bg-bg-panel border border-border rounded-lg p-3 flex flex-col h-full overflow-hidden">
+    <div className="bg-bg-panel border border-border rounded-lg p-3 flex flex-col h-full overflow-hidden panel-hover">
       <div className="flex items-center justify-between mb-2">
         <h2 className="font-mono text-sm font-bold text-text-primary tracking-wide">
           ISSUES

@@ -2,7 +2,7 @@ import FreshnessIndicator from './FreshnessIndicator'
 
 export default function TabBar({ profiles, freshness, activeId, onSelect }) {
   return (
-    <div className="flex border-b border-border bg-bg-panel overflow-x-auto">
+    <div className="flex border-b border-border bg-bg-panel overflow-x-auto scrollbar-hide">
       {profiles.map((profile) => {
         const isActive = profile.id === activeId
         const f = freshness?.profiles?.[profile.id]
@@ -18,8 +18,8 @@ export default function TabBar({ profiles, freshness, activeId, onSelect }) {
             key={profile.id}
             onClick={() => onSelect(profile.id)}
             className={`
-              flex items-center gap-2 px-4 py-2.5 font-mono text-sm whitespace-nowrap
-              transition-colors border-b-2 hover:bg-bg-elevated
+              flex items-center gap-2 px-3 sm:px-4 py-2.5 font-mono text-sm whitespace-nowrap
+              transition-all duration-150 border-b-2 hover:bg-bg-elevated
               ${isActive
                 ? 'border-accent-blue text-text-primary'
                 : 'border-transparent text-text-secondary hover:text-text-primary'

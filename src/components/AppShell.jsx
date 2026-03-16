@@ -33,7 +33,7 @@ export default function AppShell() {
   }
 
   return (
-    <div className="min-h-screen bg-bg-primary flex flex-col">
+    <div className="h-screen bg-bg-primary flex flex-col overflow-hidden">
       <header className="flex items-center justify-between px-4 py-2 bg-bg-panel border-b border-border">
         <div className="flex items-center gap-3">
           <h1 className="font-mono text-base font-bold text-text-primary tracking-wider">
@@ -57,8 +57,10 @@ export default function AppShell() {
         activeId={activeId}
         onSelect={setActiveId}
       />
-      <main className="flex-1 overflow-hidden">
-        <ProfileDashboard profileId={activeId} freshness={freshness} />
+      <main className="flex-1 overflow-auto lg:overflow-hidden">
+        <div key={activeId} className="h-full animate-fade-in">
+          <ProfileDashboard profileId={activeId} freshness={freshness} />
+        </div>
       </main>
     </div>
   )

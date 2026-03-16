@@ -48,7 +48,7 @@ export default function ManifestoPanel({ profile }) {
   const { manifesto, manifesto_inputs_complete, political_context } = profile
 
   return (
-    <div className="bg-bg-panel border border-border rounded-lg p-4 flex flex-col h-full overflow-hidden">
+    <div className="bg-bg-panel border border-border rounded-lg p-4 flex flex-col h-full overflow-hidden panel-hover">
       <div className="flex items-center justify-between mb-3">
         <h2 className="font-mono text-sm font-bold text-text-primary tracking-wide">
           MANIFESTO

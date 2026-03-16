@@ -6,14 +6,14 @@ function Section({ title, children, defaultOpen = false }) {
     <div className="border-b border-border last:border-b-0">
       <button
         onClick={() => setOpen(!open)}
-        className="w-full flex items-center justify-between py-2 text-left"
+        className="w-full flex items-center justify-between py-2 text-left hover:text-text-secondary transition-colors"
       >
         <span className="font-mono text-xs font-bold text-text-tertiary tracking-wide">
           {title}
         </span>
         <span className="text-xs text-text-tertiary">{open ? '▾' : '▸'}</span>
       </button>
-      {open && <div className="pb-3">{children}</div>}
+      {open && <div className="pb-3 section-content">{children}</div>}
     </div>
   )
 }
@@ -134,7 +134,7 @@ export default function LocationPanel({ location }) {
   const orgs = location.political_organizations
 
   return (
-    <div className="bg-bg-panel border border-border rounded-lg p-4 flex flex-col h-full overflow-hidden">
+    <div className="bg-bg-panel border border-border rounded-lg p-4 flex flex-col h-full overflow-hidden panel-hover">
       <div className="flex items-center justify-between mb-3">
         <h2 className="font-mono text-sm font-bold text-text-primary tracking-wide">
           LOCATION LANDSCAPE

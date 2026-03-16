@@ -62,7 +62,7 @@ export default function NextStepsPanel({ profile }) {
   const steps = profile?.next_steps
 
   return (
-    <div className="bg-bg-panel border border-border rounded-lg p-4 flex flex-col h-full overflow-hidden">
+    <div className="bg-bg-panel border border-border rounded-lg p-4 flex flex-col h-full overflow-hidden panel-hover">
       <h2 className="font-mono text-sm font-bold text-text-primary tracking-wide mb-3">
         NEXT STEPS
       </h2>
