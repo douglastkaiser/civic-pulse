@@ -1,0 +1,78 @@
+{
+  "id": "brooklyn-ny",
+  "display_name": "Brooklyn EA",
+  "location": {
+    "zip": "11201",
+    "city": "New York City",
+    "borough": "Brooklyn",
+    "county": "Kings County",
+    "state": "New York",
+    "city_council_district": "TBD",
+    "state_assembly_district": "TBD",
+    "state_senate_district": "TBD",
+    "us_congress_district": "TBD",
+    "school_district": "NYC DOE"
+  },
+  "values": {
+    "growth_vs_preservation": 0.7,
+    "local_vs_central": 0.0,
+    "market_vs_regulation": 0.3,
+    "individual_vs_collective": 0.2,
+    "fiscal_prudence_vs_investment": 0.4,
+    "process_vs_speed": 0.6,
+    "expertise_vs_democracy": 0.7,
+    "safety_vs_liberty": -0.1,
+    "present_vs_future": 0.8,
+    "universal_vs_targeted": 0.4
+  },
+  "issue_salience": {
+    "Housing & Land Use": 90,
+    "Technology & Innovation": 85,
+    "Healthcare Access": 75,
+    "Economic Development": 70,
+    "Transportation & Transit": 65,
+    "Public Education": 60,
+    "Environmental Protection": 55,
+    "Taxation & Public Finance": 50,
+    "Government Transparency": 50,
+    "Civil Rights & Social Equity": 45,
+    "Public Safety": 40,
+    "Parks & Public Spaces": 30,
+    "Water & Natural Resources": 20,
+    "Immigration": 35,
+    "Higher Education": 40
+  },
+  "engagement_appetite": {
+    "hours_per_week": "0-1",
+    "attend_public_meeting": "no",
+    "submit_public_comment": "maybe",
+    "contact_elected_official": "maybe",
+    "donate_to_campaigns": "yes",
+    "volunteer_for_campaign": "no"
+  },
+  "manifesto_inputs_complete": false,
+  "manifesto": {
+    "narrative": "[DRAFT — Profile incomplete. Awaiting full questionnaire responses.]\n\nI approach politics through an effective altruist lens: what interventions produce the most good per dollar or hour invested? This makes me instinctively skeptical of symbolic policy and drawn to evidence-backed programs with measurable outcomes.\n\nI'm pro-natalist — I believe society should make it dramatically easier for people to have children if they want them, through better parental leave, childcare infrastructure, housing affordability, and healthcare access. This isn't a conservative position; it's a recognition that our current systems are failing young families.\n\nIn New York, housing is the existential issue. The city's inability to build enough housing is a policy failure that cascades into everything else — childcare costs, commute times, inequality, brain drain. I support City of Yes and any reform that makes it easier to build.\n\nI lean technocratic. I'd rather have decisions made by people with domain expertise than by political consensus. I think most political discourse is an enormous waste of human capital, which is part of why I don't engage much with it — but I recognize that disengagement is itself a political choice with consequences.",
+    "identity_tags": [
+      "effective altruist",
+      "technocratic",
+      "pro-natalist",
+      "YIMBY",
+      "evidence-driven",
+      "future-oriented"
+    ],
+    "issue_positions": []
+  },
+  "political_context": {
+    "party_lean": "left-leaning independent",
+    "key_descriptors": [
+      "Effective altruist framework",
+      "Pro-natalist",
+      "Tech industry",
+      "YIMBY in NYC context",
+      "Utilitarian ethics",
+      "Low engagement appetite — high donation willingness"
+    ],
+    "incomplete_note": "Needs full questionnaire to refine values tradeoffs and issue positions. Current manifesto is a draft based on archetype assumptions."
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "id": "austin-78702",
+  "last_updated": "2026-03-16T12:00:00Z",
+  "governing_bodies": [
+    {
+      "name": "Austin City Council",
+      "type": "city_council",
+      "url": "https://www.austintexas.gov/austin-city-council",
+      "your_representative": {
+        "name": "Natasha Harper-Madison",
+        "district": "District 1",
+        "note": "Term-limited Jan 2027. Open seat election Nov 3, 2026. Current candidates: Steven Brown, Alexandria Anderson.",
+        "contact_email": "district1@austintexas.gov",
+        "alignment_notes": "Generally supportive of housing development and equity initiatives"
+      },
+      "mayor": "Kirk Watson",
+      "meeting_schedule": "Thursdays, 10am, Austin City Hall, 301 W 2nd St",
+      "agenda_source": "https://austintexas.legistar.com/",
+      "public_comment_process": "Sign up online at austintexas.gov/speakup by noon the day before, or register in person. 3 minutes per speaker. Remote participation available."
+    },
+    {
+      "name": "Travis County Commissioners Court",
+      "type": "county_commission",
+      "url": "https://www.traviscountytx.gov/commissioners-court",
+      "your_representative": {
+        "name": "Margaret Gómez (current) — Runoff pending",
+        "district": "Precinct 4",
+        "note": "May 26, 2026 Democratic runoff for this seat. Candidates: Susanna Ledesma Morales (leading), opponent TBD. Low-turnout runoff = high individual vote impact.",
+        "contact_email": "commissioners.court@traviscountytx.gov"
+      },
+      "county_judge": "Andy Brown",
+      "meeting_schedule": "Tuesdays, 9am, Travis County Administration Building",
+      "agenda_source": "https://traviscotx.portal.civicclerk.com/",
+      "public_comment_process": "Online registration opens 8pm two nights before meeting, closes 8am day-of. Remote participation by phone. In-person also available."
+    },
+    {
+      "name": "Austin ISD Board of Trustees",
+      "type": "school_board",
+      "url": "https://www.austinisd.org/board",
+      "meeting_schedule": "Monthly, typically 3rd Thursday",
+      "agenda_source": "https://www.austinisd.org/board/meetings"
+    },
+    {
+      "name": "Capital Metro Board",
+      "type": "transit_authority",
+      "url": "https://www.capmetro.org/board",
+      "meeting_schedule": "Monthly",
+      "note": "Oversees Project Connect light rail implementation"
+    },
+    {
+      "name": "Texas House of Representatives, HD-51",
+      "type": "state_legislature",
+      "your_representative": {
+        "name": "TBD — verify current member",
+        "note": "Texas Legislature meets in odd-year sessions (2025 session concluded). Interim charges may be relevant."
+      }
+    },
+    {
+      "name": "U.S. House of Representatives, CD-37",
+      "type": "federal",
+      "your_representative": {
+        "name": "Lloyd Doggett",
+        "note": "Verify current status"
+      }
+    }
+  ],
+  "political_organizations": {
+    "advocacy_orgs": [
+      {
+        "name": "AURA (Austinites for Urban Rail Action)",
+        "focus": "Housing, transit, land use reform",
+        "alignment": "Very high — core YIMBY org in Austin",
+        "url": "https://www.aura-atx.org",
+        "how_to_engage": "Monthly meetings, public comment coordination, endorsements, volunteer opportunities"
+      },
+      {
+        "name": "Austin Habitat for Humanity",
+        "focus": "Affordable housing construction and advocacy",
+        "alignment": "High on housing supply goals",
+        "url": "https://www.austinhabitat.org"
+      },
+      {
+        "name": "Transit Forward",
+        "focus": "Public transit advocacy, Project Connect support",
+        "alignment": "High on transit issues",
+        "url": "https://transitforward.org"
+      }
+    ],
+    "official_party": [
+      {
+        "name": "Travis County Democratic Party",
+        "focus": "Primary endorsements, precinct organizing, voter mobilization",
+        "alignment": "Partial — shared social positions, diverges on economic framing and populist rhetoric",
+        "url": "https://traviscountydemocrats.org",
+        "note": "Doug's precinct: 401. Relevant for primary endorsements and runoff mobilization."
+      }
+    ],
+    "citizen_groups": [
+      {
+        "name": "East Austin neighborhood planning teams",
+        "focus": "Neighborhood-level land use input for 78702 area",
+        "how_to_engage": "Attend meetings — direct channel to influence local zoning decisions"
+      }
+    ],
+    "media_and_info": [
+      {
+        "name": "Austin Monitor",
+        "type": "Local news — best council coverage",
+        "url": "https://www.austinmonitor.com"
+      },
+      {
+        "name": "The Austin Bulldog",
+        "type": "Investigative local journalism",
+        "url": "https://theaustinbulldog.org"
+      },
+      {
+        "name": "Community Impact — Austin",
+        "type": "Hyperlocal news and development tracking",
+        "url": "https://communityimpact.com/austin/"
+      },
+      {
+        "name": "KUT News",
+        "type": "Public radio — local politics coverage",
+        "url": "https://www.kut.org"
+      }
+    ]
+  },
+  "upcoming_elections": [
+    {
+      "race": "Travis County Commissioner Precinct 4 — Democratic Runoff",
+      "date": "2026-05-26",
+      "candidates": ["Susanna Ledesma Morales", "TBD"],
+      "relevance": "Directly represents your precinct. Very low expected turnout = outsized individual vote impact. HIGH PRIORITY.",
+      "action": "Verify voter registration. Research candidates. Consider volunteering — small canvassing effort could shift outcome."
+    },
+    {
+      "race": "Austin City Council District 1",
+      "date": "2026-11-03",
+      "candidates": ["Steven Brown", "Alexandria Anderson", "others expected"],
+      "relevance": "Your city council district. Harper-Madison is term-limited. Open seat = rare opportunity to influence who represents you. Filing deadline: Aug 17, 2026.",
+      "action": "Monitor candidate announcements. Evaluate alignment with your priorities. Consider early engagement/donation to preferred candidate."
+    }
+  ],
+  "key_political_dynamics": "Austin politics center on a housing/growth vs. neighborhood preservation tension. The current council leans pro-development with Mayor Watson providing a pragmatic anchor, but faces organized NIMBY opposition on specific projects. The Nov 2026 city council elections (Districts 1, 3, 5, 8, 9) will shape Austin's direction on housing for the next 4 years. District 1 is the most consequential for 78702 residents — it's an open seat for the first time in 8 years. Travis County is solidly blue; meaningful political competition is within the Democratic primary. The May 26 Pct 4 runoff is the next actionable election."
+}

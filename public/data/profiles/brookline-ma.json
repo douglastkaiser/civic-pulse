@@ -1,0 +1,74 @@
+{
+  "id": "brookline-ma",
+  "display_name": "Brookline",
+  "location": {
+    "zip": "02445",
+    "city": "Brookline",
+    "county": "Norfolk County",
+    "state": "Massachusetts",
+    "government_type": "Town Meeting + Select Board",
+    "state_rep_district": "TBD",
+    "state_senate_district": "TBD",
+    "us_congress_district": "TBD",
+    "school_district": "Brookline Public Schools"
+  },
+  "values": {
+    "growth_vs_preservation": 0.5,
+    "local_vs_central": 0.1,
+    "market_vs_regulation": 0.2,
+    "individual_vs_collective": 0.0,
+    "fiscal_prudence_vs_investment": 0.2,
+    "process_vs_speed": 0.3,
+    "expertise_vs_democracy": 0.5,
+    "safety_vs_liberty": -0.2,
+    "present_vs_future": 0.5,
+    "universal_vs_targeted": 0.0
+  },
+  "issue_salience": {
+    "Housing & Land Use": 80,
+    "Technology & Innovation": 75,
+    "Transportation & Transit": 70,
+    "Public Education": 65,
+    "Economic Development": 55,
+    "Environmental Protection": 60,
+    "Taxation & Public Finance": 55,
+    "Government Transparency": 50,
+    "Healthcare Access": 45,
+    "Civil Rights & Social Equity": 45,
+    "Public Safety": 40,
+    "Parks & Public Spaces": 45,
+    "Higher Education": 50,
+    "Water & Natural Resources": 25,
+    "Immigration": 30
+  },
+  "engagement_appetite": {
+    "hours_per_week": "0-1",
+    "attend_public_meeting": "maybe",
+    "submit_public_comment": "maybe",
+    "contact_elected_official": "maybe",
+    "donate_to_campaigns": "yes",
+    "volunteer_for_campaign": "no"
+  },
+  "manifesto_inputs_complete": false,
+  "manifesto": {
+    "narrative": "[DRAFT — Profile incomplete. Awaiting questionnaire.]\n\nPlaceholder for a left-leaning tech professional in Brookline. Brookline has Town Meeting government — historically NIMBY but shifting on housing. Interesting test case for YIMBY values meeting a traditionally resistant community. MBTA Communities Act compliance has been a major flashpoint.",
+    "identity_tags": [
+      "tech professional",
+      "YIMBY-curious",
+      "socially liberal",
+      "town meeting participant potential"
+    ],
+    "issue_positions": []
+  },
+  "political_context": {
+    "party_lean": "left-leaning Democrat",
+    "key_descriptors": [
+      "Tech industry",
+      "Pro-housing in NIMBY-leaning town",
+      "Town Meeting government context",
+      "MBTA Communities Act is key local issue",
+      "Socially liberal, fiscally moderate"
+    ],
+    "incomplete_note": "Skeleton profile. Needs full questionnaire completion."
+  }
+}

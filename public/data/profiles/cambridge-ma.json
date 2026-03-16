@@ -1,0 +1,75 @@
+{
+  "id": "cambridge-ma",
+  "display_name": "Cambridge",
+  "location": {
+    "zip": "02139",
+    "city": "Cambridge",
+    "county": "Middlesex County",
+    "state": "Massachusetts",
+    "city_council_type": "proportional representation (Plan E)",
+    "state_rep_district": "TBD",
+    "state_senate_district": "TBD",
+    "us_congress_district": "TBD",
+    "school_district": "Cambridge Public Schools"
+  },
+  "values": {
+    "growth_vs_preservation": 0.6,
+    "local_vs_central": 0.1,
+    "market_vs_regulation": 0.3,
+    "individual_vs_collective": 0.0,
+    "fiscal_prudence_vs_investment": 0.3,
+    "process_vs_speed": 0.4,
+    "expertise_vs_democracy": 0.6,
+    "safety_vs_liberty": -0.2,
+    "present_vs_future": 0.6,
+    "universal_vs_targeted": 0.1
+  },
+  "issue_salience": {
+    "Housing & Land Use": 85,
+    "Technology & Innovation": 80,
+    "Transportation & Transit": 70,
+    "Economic Development": 65,
+    "Environmental Protection": 60,
+    "Public Education": 55,
+    "Taxation & Public Finance": 50,
+    "Government Transparency": 55,
+    "Healthcare Access": 45,
+    "Civil Rights & Social Equity": 50,
+    "Public Safety": 35,
+    "Parks & Public Spaces": 40,
+    "Higher Education": 60,
+    "Water & Natural Resources": 25,
+    "Immigration": 30
+  },
+  "engagement_appetite": {
+    "hours_per_week": "0-1",
+    "attend_public_meeting": "maybe",
+    "submit_public_comment": "maybe",
+    "contact_elected_official": "maybe",
+    "donate_to_campaigns": "yes",
+    "volunteer_for_campaign": "no"
+  },
+  "manifesto_inputs_complete": false,
+  "manifesto": {
+    "narrative": "[DRAFT — Profile incomplete. Awaiting questionnaire.]\n\nPlaceholder for a left-leaning tech professional in the Kendall Square / Cambridge ecosystem. Likely pro-housing, pro-innovation, socially liberal, fiscally moderate. Cambridge has a unique proportional representation city council (Plan E government) which makes local politics unusually interesting.",
+    "identity_tags": [
+      "tech professional",
+      "pro-housing",
+      "innovation-oriented",
+      "socially liberal",
+      "fiscally moderate"
+    ],
+    "issue_positions": []
+  },
+  "political_context": {
+    "party_lean": "left-leaning Democrat",
+    "key_descriptors": [
+      "Tech industry / Kendall Square",
+      "Pro-housing in constrained market",
+      "Pro-innovation",
+      "Socially liberal",
+      "Fiscally moderate"
+    ],
+    "incomplete_note": "Skeleton profile. Needs full questionnaire completion."
+  }
+}

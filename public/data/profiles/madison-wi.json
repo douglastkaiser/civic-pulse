@@ -1,0 +1,77 @@
+{
+  "id": "madison-wi",
+  "display_name": "Madison",
+  "location": {
+    "zip": "53703",
+    "city": "Madison",
+    "county": "Dane County",
+    "state": "Wisconsin",
+    "city_council_district": "TBD",
+    "state_assembly_district": "TBD",
+    "state_senate_district": "TBD",
+    "us_congress_district": "TBD",
+    "school_district": "Madison Metropolitan School District"
+  },
+  "values": {
+    "growth_vs_preservation": 0.1,
+    "local_vs_central": -0.2,
+    "market_vs_regulation": -0.2,
+    "individual_vs_collective": -0.3,
+    "fiscal_prudence_vs_investment": -0.1,
+    "process_vs_speed": -0.2,
+    "expertise_vs_democracy": -0.1,
+    "safety_vs_liberty": -0.3,
+    "present_vs_future": 0.1,
+    "universal_vs_targeted": -0.3
+  },
+  "issue_salience": {
+    "Public Education": 85,
+    "Healthcare Access": 80,
+    "Environmental Protection": 75,
+    "Housing & Land Use": 60,
+    "Civil Rights & Social Equity": 65,
+    "Transportation & Transit": 50,
+    "Public Safety": 55,
+    "Taxation & Public Finance": 45,
+    "Economic Development": 40,
+    "Parks & Public Spaces": 55,
+    "Government Transparency": 35,
+    "Water & Natural Resources": 50,
+    "Technology & Innovation": 30,
+    "Immigration": 40,
+    "Higher Education": 70
+  },
+  "engagement_appetite": {
+    "hours_per_week": "0-1",
+    "attend_public_meeting": "no",
+    "submit_public_comment": "no",
+    "contact_elected_official": "maybe",
+    "donate_to_campaigns": "maybe",
+    "volunteer_for_campaign": "no"
+  },
+  "manifesto_inputs_complete": false,
+  "manifesto": {
+    "narrative": "[DRAFT — Profile incomplete. This represents a left-leaning median voter archetype.]\n\nI vote Democratic in every election but I wouldn't call myself an activist. I care about good schools, accessible healthcare, and protecting the environment. I think the government should do more to help people, not less, but I don't spend a lot of time thinking about the specifics of how.\n\nMadison is a great place to live and I'd like to keep it that way. I'm vaguely aware that housing costs are rising and that the city council argues about zoning, but I haven't formed strong opinions on density or development. I trust the university community and generally think expertise should guide policy.\n\nI'm uncomfortable with how polarized everything has become. I wish politics were less about fighting and more about solving problems. I vote in presidential elections reliably but I'll admit I sometimes skip local elections because I don't know enough about the candidates.",
+    "identity_tags": [
+      "default Democrat",
+      "education-focused",
+      "environmentally conscious",
+      "low-engagement",
+      "pragmatic",
+      "community-oriented"
+    ],
+    "issue_positions": []
+  },
+  "political_context": {
+    "party_lean": "left-leaning Democrat",
+    "key_descriptors": [
+      "Median Democratic voter",
+      "Education and healthcare focused",
+      "College town sensibility",
+      "Low political engagement",
+      "Values stability and community",
+      "Persuadable on housing if framed right"
+    ],
+    "incomplete_note": "Intentionally represents a low-engagement voter. The tool's value proposition for this profile is activating latent civic interest through accessible information."
+  }
+}

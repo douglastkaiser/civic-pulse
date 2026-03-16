@@ -1,0 +1,35 @@
+{
+  "id": "brooklyn-ny",
+  "last_updated": "2026-03-16T12:00:00Z",
+  "governing_bodies": [
+    {
+      "name": "New York City Council",
+      "type": "city_council",
+      "note": "Brooklyn has multiple council districts. Need specific address to determine district.",
+      "agenda_source": "https://legistar.council.nyc.gov/"
+    },
+    {
+      "name": "Kings County (Brooklyn) — part of NYC citywide government",
+      "type": "county",
+      "note": "Brooklyn borough president is a key local figure"
+    },
+    {
+      "name": "New York State Legislature",
+      "type": "state_legislature",
+      "note": "Need specific address for Assembly and Senate district"
+    }
+  ],
+  "political_organizations": {
+    "advocacy_orgs": [
+      {
+        "name": "Open New York",
+        "focus": "YIMBY / pro-housing advocacy",
+        "alignment": "High",
+        "url": "https://www.opennewyork.city"
+      }
+    ]
+  },
+  "key_political_dynamics": "NYC housing politics are dominated by City of Yes implementation, individual neighborhood rezonings, and the perennial tension between development and community preservation. Brooklyn has some of the most contested local politics in the city. The effective altruist community is concentrated in Brooklyn and has growing but still nascent political engagement at the local level.",
+  "needs_enrichment": true,
+  "enrichment_notes": "Need specific address to determine: city council district, state assembly/senate districts, community board. Location data is skeleton-level."
+}

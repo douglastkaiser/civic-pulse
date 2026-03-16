@@ -1,0 +1,34 @@
+{
+  "id": "cambridge-ma",
+  "last_updated": "2026-03-16T12:00:00Z",
+  "governing_bodies": [
+    {
+      "name": "Cambridge City Council",
+      "type": "city_council",
+      "note": "UNIQUE: Cambridge uses proportional representation (Plan E). All 9 council members elected at-large via ranked choice voting. No districts — every resident can engage with any council member.",
+      "url": "https://www.cambridgema.gov/citycouncil"
+    },
+    {
+      "name": "Middlesex County",
+      "type": "county",
+      "note": "Massachusetts abolished most county government functions. Middlesex County government is largely ceremonial."
+    },
+    {
+      "name": "Massachusetts State Legislature",
+      "type": "state_legislature",
+      "note": "Need specific address for state rep and senate districts"
+    }
+  ],
+  "political_organizations": {
+    "advocacy_orgs": [
+      {
+        "name": "A Better Cambridge",
+        "focus": "Pro-housing, pro-development advocacy",
+        "alignment": "High",
+        "url": "https://www.abettercambridge.org"
+      }
+    ]
+  },
+  "key_political_dynamics": "Cambridge's proportional representation system makes its politics unique — council elections are citywide with ranked choice voting, creating unusual coalition dynamics. Housing is the dominant local issue, with tension between Kendall Square tech growth and residential neighborhood preservation. The MBTA Communities Act requires Cambridge to zone for more housing near transit — compliance has been contentious statewide. Massachusetts has been active on housing/zoning reform at the state level.",
+  "needs_enrichment": true
+}
