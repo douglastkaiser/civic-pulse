@@ -42,10 +42,10 @@ export default function AppShell() {
           <span className="text-xs text-text-tertiary font-mono">v0.1</span>
         </div>
         <a
-          href="https://github.com"
+          href="https://github.com/douglastkaiser/civic-pulse/actions/workflows/pipeline.yml"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-xs text-text-tertiary hover:text-text-secondary font-mono transition-colors"
+          className="text-xs text-text-tertiary hover:text-accent-blue font-mono transition-colors px-2 py-1 rounded hover:bg-accent-blue/10"
           title="Trigger data refresh via GitHub Actions"
         >
           ↻ Refresh

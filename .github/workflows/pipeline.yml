@@ -1,0 +1,63 @@
+name: Run Data Pipeline
+
+on:
+  workflow_dispatch:
+    inputs:
+      profiles:
+        description: 'Profile IDs (comma-separated, or leave empty for all)'
+        required: false
+        default: ''
+      scrape_only:
+        description: 'Scrape only (skip Claude API processing)'
+        required: false
+        type: boolean
+        default: false
+  schedule:
+    - cron: '0 6 * * 1'  # Weekly on Monday at 6am UTC
+
+permissions:
+  contents: write
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Run pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          ARGS=""
+          if [ -n "${{ github.event.inputs.profiles }}" ]; then
+            IFS=',' read -ra PROFILES <<< "${{ github.event.inputs.profiles }}"
+            ARGS="${PROFILES[*]}"
+          fi
+          if [ "${{ github.event.inputs.scrape_only }}" = "true" ]; then
+            ARGS="$ARGS --scrape-only"
+          fi
+          python scripts/pipeline.py $ARGS
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/
+          if git diff --cached --quiet; then
+            echo "No data changes to commit"
+          else
+            git commit -m "Update data via pipeline run [skip ci]"
+            git push
+          fi
+
+  deploy:
+    needs: pipeline
+    if: success()
+    uses: ./.github/workflows/deploy.yml
