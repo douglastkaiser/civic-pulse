@@ -1,0 +1,57 @@
+{
+  "profiles": {
+    "austin-78702": {
+      "manifesto_generated": "2026-03-16T12:00:00Z",
+      "manifesto_inputs_complete": true,
+      "location_scraped": "2026-03-16T12:00:00Z",
+      "issues_scraped": "2026-03-16T12:00:00Z",
+      "issues_scored": "2026-03-16T12:00:00Z",
+      "next_steps_generated": "2026-03-16T12:00:00Z",
+      "needs_rescrape": false,
+      "needs_manifesto_update": false
+    },
+    "brooklyn-ny": {
+      "manifesto_generated": "2026-03-16T12:00:00Z",
+      "manifesto_inputs_complete": false,
+      "location_scraped": "2026-03-16T12:00:00Z",
+      "issues_scraped": null,
+      "issues_scored": null,
+      "next_steps_generated": null,
+      "needs_rescrape": true,
+      "needs_manifesto_update": true
+    },
+    "madison-wi": {
+      "manifesto_generated": "2026-03-16T12:00:00Z",
+      "manifesto_inputs_complete": false,
+      "location_scraped": "2026-03-16T12:00:00Z",
+      "issues_scraped": null,
+      "issues_scored": null,
+      "next_steps_generated": null,
+      "needs_rescrape": true,
+      "needs_manifesto_update": true
+    },
+    "cambridge-ma": {
+      "manifesto_generated": "2026-03-16T12:00:00Z",
+      "manifesto_inputs_complete": false,
+      "location_scraped": "2026-03-16T12:00:00Z",
+      "issues_scraped": null,
+      "issues_scored": null,
+      "next_steps_generated": null,
+      "needs_rescrape": true,
+      "needs_manifesto_update": true
+    },
+    "brookline-ma": {
+      "manifesto_generated": "2026-03-16T12:00:00Z",
+      "manifesto_inputs_complete": false,
+      "location_scraped": "2026-03-16T12:00:00Z",
+      "issues_scraped": null,
+      "issues_scored": null,
+      "next_steps_generated": null,
+      "needs_rescrape": true,
+      "needs_manifesto_update": true
+    }
+  },
+  "last_full_run": "2026-03-16T12:00:00Z",
+  "last_run_status": "partial",
+  "last_run_errors": ["brooklyn-ny: issues not scraped", "madison-wi: issues not scraped", "cambridge-ma: issues not scraped", "brookline-ma: issues not scraped"]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "brookline-ma",
+  "last_updated": "2026-03-16T12:00:00Z",
+  "governing_bodies": [
+    {
+      "name": "Brookline Select Board",
+      "type": "select_board",
+      "note": "5-member elected board. Executive body of the town."
+    },
+    {
+      "name": "Brookline Town Meeting",
+      "type": "town_meeting",
+      "note": "UNIQUE: Representative Town Meeting with ~240 elected members from 16 precincts. This is the legislative body. Meets several times a year. Any resident can attend and speak, but only elected Town Meeting members vote. Getting elected as a TMM is relatively easy and is the most direct path to local political influence.",
+      "url": "https://www.brooklinema.gov/156/Town-Meeting"
+    },
+    {
+      "name": "Norfolk County",
+      "type": "county",
+      "note": "Limited county government in Massachusetts"
+    },
+    {
+      "name": "Massachusetts State Legislature",
+      "type": "state_legislature",
+      "note": "Need specific address for districts"
+    }
+  ],
+  "political_organizations": {
+    "advocacy_orgs": [
+      {
+        "name": "Brookline for Everyone",
+        "focus": "Pro-housing advocacy",
+        "alignment": "High",
+        "note": "Active in MBTA Communities Act compliance fight"
+      }
+    ]
+  },
+  "key_political_dynamics": "Brookline has Town Meeting government — the most directly democratic form of local governance in the US. Historically NIMBY-leaning but shifting as younger residents push for housing. The MBTA Communities Act has been a major flashpoint — the state law requires communities near MBTA stations to zone for multifamily housing, and Brookline's compliance process has been politically contentious. Getting elected as a Town Meeting Member (TMM) is one of the highest-impact, lowest-barrier entry points to local politics anywhere in the country.",
+  "needs_enrichment": true
+}

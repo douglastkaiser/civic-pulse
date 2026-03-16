@@ -1,0 +1,177 @@
+{
+  "id": "austin-78702",
+  "display_name": "Doug · ATX",
+  "location": {
+    "zip": "78702",
+    "city": "Austin",
+    "county": "Travis County",
+    "state": "Texas",
+    "state_house_district": "HD-51",
+    "state_senate_district": "SD-14",
+    "us_congress_district": "CD-37",
+    "county_precinct": "Precinct 4",
+    "city_council_district": "District 1",
+    "school_district": "Austin ISD"
+  },
+  "values": {
+    "growth_vs_preservation": 0.8,
+    "local_vs_central": -0.3,
+    "market_vs_regulation": 0.4,
+    "individual_vs_collective": 0.1,
+    "fiscal_prudence_vs_investment": 0.3,
+    "process_vs_speed": 0.5,
+    "expertise_vs_democracy": 0.6,
+    "safety_vs_liberty": -0.2,
+    "present_vs_future": 0.7,
+    "universal_vs_targeted": -0.1
+  },
+  "issue_salience": {
+    "Housing & Land Use": 95,
+    "Economic Development": 80,
+    "Transportation & Transit": 75,
+    "Taxation & Public Finance": 70,
+    "Government Transparency": 65,
+    "Technology & Innovation": 60,
+    "Environmental Protection": 55,
+    "Public Education": 50,
+    "Civil Rights & Social Equity": 50,
+    "Healthcare Access": 45,
+    "Public Safety": 40,
+    "Parks & Public Spaces": 35,
+    "Water & Natural Resources": 30,
+    "Immigration": 25,
+    "Higher Education": 20
+  },
+  "engagement_appetite": {
+    "hours_per_week": "1-3",
+    "attend_public_meeting": "maybe",
+    "submit_public_comment": "yes",
+    "contact_elected_official": "yes",
+    "donate_to_campaigns": "yes",
+    "volunteer_for_campaign": "maybe"
+  },
+  "manifesto_inputs_complete": true,
+  "manifesto": {
+    "narrative": "I believe in building. Austin's future depends on our willingness to grow — to add housing, to invest in transit, to let density happen where it makes sense. I'm not interested in preserving a version of Austin that only exists in nostalgia; I'm interested in making a city that works for the people who live here now and the people who will live here next.\n\nI'm a Democrat, but I'm not a populist. I believe in progressive taxation, robust public services, and strong social safety nets — but I believe these things work best when paired with fiscal discipline, evidence-based policy, and a government that respects market dynamics rather than fighting them. When I hear class-warfare rhetoric from my own party, I wince — not because the underlying concerns are wrong, but because the framing is counterproductive and the proposed solutions are often worse than the problems they claim to solve.\n\nWhat drives me politically is competence. I want elected officials who understand the systems they're governing, who make decisions based on data rather than ideology, and who measure success by outcomes rather than intentions. I'd rather have a boring pragmatist who gets things built than an inspiring ideologue who gives great speeches and accomplishes nothing.\n\nLocally, that means I'm YIMBY to my core. The housing crisis is a supply problem, and the solution is building more housing at every price point. I support upzoning along transit corridors, reforming parking minimums, streamlining permitting, and telling neighborhood preservation groups — respectfully but firmly — that their aesthetic preferences don't outweigh other people's need for somewhere to live.",
+    "identity_tags": [
+      "pragmatic urbanist",
+      "YIMBY",
+      "fiscal moderate",
+      "evidence-driven",
+      "pro-growth liberal",
+      "technocratic Democrat"
+    ],
+    "issue_positions": [
+      {
+        "domain": "Housing & Land Use",
+        "stance": "Strongly pro-development, pro-density, anti-NIMBY",
+        "local_implication": "Support land use reform in Austin, upzoning along transit corridors, HOME initiative implementation",
+        "likely_allies": "AURA, pro-housing council members, developers, urbanist community",
+        "likely_friction": "Neighborhood preservation groups, some progressives who prioritize mandated affordability percentages over total supply"
+      },
+      {
+        "domain": "Economic Development",
+        "stance": "Pro-growth with smart incentive structures, skeptical of unconditioned subsidies",
+        "local_implication": "Support Austin's tech economy growth while ensuring public infrastructure keeps pace",
+        "likely_allies": "Austin Chamber, tech sector, fiscal moderates",
+        "likely_friction": "Anti-growth activists, some progressive council members skeptical of corporate incentives"
+      },
+      {
+        "domain": "Transportation & Transit",
+        "stance": "Pro-transit investment, pro-density near transit, support Project Connect",
+        "local_implication": "Advocate for light rail implementation, bus rapid transit, reduced car dependency in urban core",
+        "likely_allies": "AURA, Transit Forward, CapMetro advocates",
+        "likely_friction": "Suburban car-dependent voters, fiscal conservatives who oppose transit bond spending"
+      },
+      {
+        "domain": "Taxation & Public Finance",
+        "stance": "Support progressive taxation but demand fiscal accountability and measurable ROI on spending",
+        "local_implication": "Scrutinize Austin city budget for efficiency, support property tax reform that doesn't discourage development",
+        "likely_allies": "Fiscal moderates on council, Austin Bulldog/monitor watchdog outlets",
+        "likely_friction": "Both anti-tax conservatives and spend-first progressives"
+      },
+      {
+        "domain": "Government Transparency",
+        "stance": "Strong advocate for open data, transparent decision-making, and public accountability",
+        "local_implication": "Support Austin's open data initiatives, push for more accessible council proceedings",
+        "likely_allies": "Austin Monitor, civic tech community, good-government advocates",
+        "likely_friction": "Entrenched bureaucratic interests, some officials who prefer operating with less scrutiny"
+      }
+    ]
+  },
+  "political_context": {
+    "party_lean": "moderate Democrat",
+    "key_descriptors": [
+      "Pro-housing / YIMBY",
+      "Pro-development",
+      "Liberal technocrat",
+      "Progressive tax + fiscal discipline",
+      "Anti-populist framing",
+      "Electability over ideology"
+    ]
+  },
+  "next_steps": {
+    "immediate": [
+      {
+        "action": "Verify voter registration for May 26 runoff",
+        "detail": "votetexas.gov",
+        "time": "5 min",
+        "impact": "HIGH",
+        "reason": "Low-turnout runoff = outsized vote weight"
+      },
+      {
+        "action": "Research Pct 4 runoff candidates",
+        "detail": "Compare positions on development, transportation, county budget priorities",
+        "time": "30 min",
+        "impact": "HIGH",
+        "reason": null
+      }
+    ],
+    "this_month": [
+      {
+        "action": "Monitor District 1 council race developments",
+        "detail": "Steven Brown's anti-developer positioning may conflict with your YIMBY values. Watch for additional candidates before Aug 17 filing deadline.",
+        "time": "15 min/week",
+        "impact": "HIGH",
+        "reason": null
+      },
+      {
+        "action": "Follow golf course rezoning (445 acres)",
+        "detail": "Track when public hearings are scheduled. This is the biggest single housing opportunity in Austin. Be ready to submit public comment when hearings open.",
+        "time": "Ongoing",
+        "impact": "HIGH",
+        "reason": null
+      }
+    ],
+    "medium_term": [
+      {
+        "action": "Attend one AURA monthly meeting",
+        "detail": "Highest-alignment org for your priorities. One visit to evaluate fit.",
+        "time": "2 hours",
+        "impact": "MEDIUM",
+        "reason": null
+      },
+      {
+        "action": "Sign up for Austin Monitor newsletter",
+        "detail": "Best local political coverage, keeps you informed between pipeline runs.",
+        "time": "2 min",
+        "impact": "LOW EFFORT, ONGOING VALUE",
+        "reason": null
+      }
+    ],
+    "strategic": [
+      {
+        "action": "Organize for May 26 Pct 4 runoff",
+        "detail": "The runoff will have ~8-12% turnout. A small organized group (5-10 people) doing targeted outreach in your precinct could meaningfully shift the outcome. 10 hours over 4 weekends.",
+        "impact": "VERY HIGH",
+        "reason": "Requires social coordination"
+      },
+      {
+        "action": "Early engagement in District 1 open seat race",
+        "detail": "The Nov 2026 District 1 open seat is a once-in-8-years opportunity. Early engagement with a pro-housing candidate (or recruiting one) has maximum leverage now before the field solidifies.",
+        "impact": "VERY HIGH",
+        "reason": null
+      }
+    ]
+  }
+}

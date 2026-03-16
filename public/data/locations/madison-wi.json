@@ -1,0 +1,39 @@
+{
+  "id": "madison-wi",
+  "last_updated": "2026-03-16T12:00:00Z",
+  "governing_bodies": [
+    {
+      "name": "Madison Common Council",
+      "type": "city_council",
+      "note": "Madison uses 'alders' (alderpersons). 20 districts. Need specific address for district.",
+      "url": "https://www.cityofmadison.com/council",
+      "agenda_source": "https://madison.legistar.com/"
+    },
+    {
+      "name": "Dane County Board of Supervisors",
+      "type": "county_commission",
+      "url": "https://board.countyofdane.com/"
+    },
+    {
+      "name": "Madison Metropolitan School District",
+      "type": "school_board"
+    },
+    {
+      "name": "Wisconsin State Legislature",
+      "type": "state_legislature",
+      "note": "Historically gerrymandered — new maps in effect as of 2024. Need specific address for districts."
+    }
+  ],
+  "political_organizations": {
+    "advocacy_orgs": [
+      {
+        "name": "Madison YIMBY",
+        "focus": "Pro-housing advocacy",
+        "alignment": "Moderate — aligns on housing but this profile is less engaged on the issue"
+      }
+    ]
+  },
+  "key_political_dynamics": "Madison is one of the most progressive cities in the Midwest, dominated by the UW-Madison community. Local politics often focus on education funding, policing reform, and environmental issues. Housing is an emerging issue as the city grows. Wisconsin state politics feature a Democratic governor (Evers) working against a historically gerrymandered (now redrawn) legislature. State-level education funding and Medicaid expansion are key ongoing fights.",
+  "needs_enrichment": true,
+  "enrichment_notes": "Need specific address for alder district and state legislative districts. Madison uses Legistar — scraper should work."
+}
