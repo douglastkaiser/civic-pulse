@@ -1,0 +1,153 @@
+import { NavLink } from 'react-router-dom'
+import { useState, useEffect } from 'react'
+import { ORG_IDS, loadOrg, loadFreshness } from '../lib/data'
+import FreshnessIndicator from './FreshnessIndicator'
+
+export default function Sidebar() {
+  const [orgs, setOrgs] = useState([])
+  const [freshness, setFreshness] = useState(null)
+  const [orgsExpanded, setOrgsExpanded] = useState(true)
+  const [mobileOpen, setMobileOpen] = useState(false)
+
+  useEffect(() => {
+    Promise.all(ORG_IDS.map((id) => loadOrg(id)))
+      .then(setOrgs)
+      .catch((err) => console.error('Failed to load orgs:', err))
+
+    loadFreshness()
+      .then(setFreshness)
+      .catch(() => {})
+  }, [])
+
+  const latestTimestamp = freshness?.profiles?.['austin-78702']
+    ? [
+        freshness.profiles['austin-78702'].issues_scraped,
+        freshness.profiles['austin-78702'].location_scraped,
+        freshness.profiles['austin-78702'].manifesto_generated,
+      ]
+        .filter(Boolean)
+        .sort()
+        .pop()
+    : null
+
+  const navLinkClass = ({ isActive }) =>
+    `flex items-center gap-2 px-3 py-2 text-sm font-mono rounded transition-colors duration-150 ${
+      isActive
+        ? 'bg-accent-blue/15 text-accent-blue border-l-2 border-accent-blue'
+        : 'text-text-secondary hover:text-text-primary hover:bg-bg-elevated'
+    }`
+
+  const handleNavClick = () => {
+    setMobileOpen(false)
+  }
+
+  const sidebarContent = (
+    <>
+      {/* Navigation */}
+      <nav className="flex-1 overflow-y-auto p-2 space-y-1">
+        <NavLink to="/dashboard" className={navLinkClass} onClick={handleNavClick}>
+          <span className="text-xs">▸</span>
+          MY DASHBOARD
+        </NavLink>
+
+        <div className="mt-4">
+          <button
+            onClick={() => setOrgsExpanded(!orgsExpanded)}
+            className="flex items-center gap-2 px-3 py-1.5 text-xs font-mono font-bold text-text-tertiary tracking-wide w-full text-left hover:text-text-secondary transition-colors"
+          >
+            <span>{orgsExpanded ? '▾' : '▸'}</span>
+            ORGANIZATIONS
+          </button>
+
+          {orgsExpanded && (
+            <div className="ml-2 space-y-0.5 mt-1">
+              {orgs.map((org) => (
+                <NavLink
+                  key={org.id}
+                  to={`/org/${org.id}`}
+                  className={navLinkClass}
+                  onClick={handleNavClick}
+                >
+                  <span className="text-xs">├─</span>
+                  <span className="truncate text-xs">{org.name}</span>
+                </NavLink>
+              ))}
+              <NavLink to="/org/new" className={navLinkClass} onClick={handleNavClick}>
+                <span className="text-xs">├─</span>
+                <span className="text-accent-green text-xs">+ New Organization</span>
+              </NavLink>
+            </div>
+          )}
+        </div>
+      </nav>
+
+      {/* Footer */}
+      <div className="p-3 border-t border-border space-y-2">
+        <div className="flex items-center gap-2 text-xs text-text-tertiary font-mono">
+          <span>Last sync:</span>
+          {latestTimestamp ? (
+            <FreshnessIndicator timestamp={latestTimestamp} size={6} />
+          ) : (
+            <span>—</span>
+          )}
+        </div>
+        <a
+          href="https://github.com/douglastkaiser/civic-pulse/actions/workflows/pipeline.yml"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-xs text-text-tertiary hover:text-accent-blue font-mono transition-colors flex items-center gap-1"
+          title="Opens GitHub Actions where you can trigger a data refresh"
+        >
+          ↻ Refresh
+        </a>
+      </div>
+    </>
+  )
+
+  return (
+    <>
+      {/* Mobile hamburger button */}
+      <button
+        onClick={() => setMobileOpen(!mobileOpen)}
+        className="lg:hidden fixed top-2 left-2 z-50 p-2 bg-bg-panel border border-border rounded text-text-primary font-mono text-sm"
+        aria-label="Toggle navigation"
+      >
+        {mobileOpen ? '✕' : '☰'}
+      </button>
+
+      {/* Mobile overlay */}
+      {mobileOpen && (
+        <div
+          className="lg:hidden fixed inset-0 bg-black/50 z-30"
+          onClick={() => setMobileOpen(false)}
+        />
+      )}
+
+      {/* Sidebar - desktop */}
+      <aside className="hidden lg:flex w-56 h-full bg-bg-panel border-r border-border flex-col flex-shrink-0">
+        <div className="px-4 py-3 border-b border-border">
+          <h1 className="font-mono text-base font-bold text-text-primary tracking-wider">
+            CIVIC PULSE
+          </h1>
+          <span className="text-xs text-text-tertiary font-mono">v0.2</span>
+        </div>
+        {sidebarContent}
+      </aside>
+
+      {/* Sidebar - mobile */}
+      <aside
+        className={`lg:hidden fixed top-0 left-0 h-full w-64 bg-bg-panel border-r border-border flex flex-col z-40 transition-transform duration-200 ${
+          mobileOpen ? 'translate-x-0' : '-translate-x-full'
+        }`}
+      >
+        <div className="px-4 py-3 border-b border-border">
+          <h1 className="font-mono text-base font-bold text-text-primary tracking-wider">
+            CIVIC PULSE
+          </h1>
+          <span className="text-xs text-text-tertiary font-mono">v0.2</span>
+        </div>
+        {sidebarContent}
+      </aside>
+    </>
+  )
+}

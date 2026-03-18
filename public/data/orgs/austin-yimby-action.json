@@ -1,0 +1,118 @@
+{
+  "id": "austin-yimby-action",
+  "name": "Austin YIMBY Action",
+  "tagline": "More homes, more neighbors, more Austin.",
+  "mission": "We advocate for abundant housing at every price point in Austin through land use reform, transit-oriented development, and streamlined permitting. We believe the housing crisis is a supply problem with a supply solution.",
+  "geographic_scope": {
+    "city": "Austin",
+    "county": "Travis County",
+    "state": "Texas"
+  },
+  "founded": "2026-03-18",
+  "political_positioning": {
+    "description": "Pro-development, pro-density, pro-transit. Fiscally pragmatic. Socially liberal. Not affiliated with any party but aligned with pro-housing Democrats and moderate Republicans on land use issues.",
+    "compass_cloud": {
+      "economic_center": 0.2,
+      "economic_spread": 0.3,
+      "social_center": -0.3,
+      "social_spread": 0.2
+    }
+  },
+  "key_policy_positions": [
+    "Support upzoning along transit corridors",
+    "Eliminate parking minimums citywide",
+    "Streamline permitting to reduce housing construction timelines",
+    "Support the HOME Initiative implementation",
+    "Advocate for the Jimmy Clay/Roy Kizer golf course redevelopment",
+    "Oppose organized NIMBY efforts to block infill development"
+  ],
+  "active_campaigns": [
+    {
+      "id": "golf-course-rezone",
+      "title": "Support 445-Acre Golf Course Rezoning",
+      "status": "active",
+      "priority": "high",
+      "summary": "The city has initiated rezoning of the Jimmy Clay and Roy Kizer golf courses. This is the single largest housing development opportunity in Austin. We need organized pro-housing voices at every public hearing.",
+      "next_actions": [
+        "Monitor for public hearing schedule announcement",
+        "Prepare template public comment supporting residential/mixed-use zoning",
+        "Coordinate with AURA on joint advocacy strategy"
+      ]
+    },
+    {
+      "id": "d1-candidate-engagement",
+      "title": "District 1 Council Race — Pro-Housing Candidate Engagement",
+      "status": "planning",
+      "priority": "high",
+      "summary": "Open seat in District 1 (East Austin). This council member will vote on every housing issue for 4 years. We need to engage candidates on housing positions early, before the field solidifies.",
+      "next_actions": [
+        "Draft housing policy questionnaire for D1 candidates",
+        "Schedule meet-and-greets with declared candidates",
+        "Identify and recruit potential pro-housing candidate if current field is insufficient"
+      ]
+    },
+    {
+      "id": "pct4-runoff-mobilization",
+      "title": "Pct 4 Commissioner Runoff — Voter Mobilization",
+      "status": "active",
+      "priority": "medium",
+      "summary": "May 26 Democratic runoff. County commissioners influence land use and transportation infrastructure. Low turnout = high leverage for organized groups.",
+      "next_actions": [
+        "Research both candidates' positions on development",
+        "Prepare endorsement recommendation",
+        "Organize precinct-level voter outreach (target: 5-10 volunteers, 4 weekends)"
+      ]
+    }
+  ],
+  "aligned_organizations": [
+    {"name": "AURA", "relationship": "Strong ally — coordinate on most housing issues"},
+    {"name": "Transit Forward", "relationship": "Ally on transit-oriented development"},
+    {"name": "Austin Habitat for Humanity", "relationship": "Aligned on housing supply goals"}
+  ],
+  "engagement_pipeline": {
+    "awareness": "Social media, local press coverage of housing issues",
+    "interest": "Attend one of our monthly briefings or read our issue guides",
+    "action": "Show up at a public hearing, submit public comment, contact your council member",
+    "leadership": "Join the steering committee, lead a campaign, represent us at planning commission"
+  },
+  "practical_next_steps_for_org": {
+    "immediate": [
+      {
+        "action": "Set up candidate questionnaire for D1 race",
+        "owner": "Steering committee",
+        "deadline": "2026-04-15",
+        "effort": "3 hours",
+        "impact": "high"
+      },
+      {
+        "action": "Draft Pct 4 runoff endorsement analysis",
+        "owner": "Policy team",
+        "deadline": "2026-04-01",
+        "effort": "2 hours",
+        "impact": "high"
+      }
+    ],
+    "medium_term": [
+      {
+        "action": "Recruit 10 volunteers for Pct 4 canvassing",
+        "deadline": "2026-05-01",
+        "effort": "5 hours outreach",
+        "impact": "very high"
+      },
+      {
+        "action": "Prepare testimony toolkit for golf course rezoning hearings",
+        "deadline": "When hearings are scheduled",
+        "effort": "4 hours",
+        "impact": "high"
+      }
+    ],
+    "strategic": [
+      {
+        "action": "Build coalition with AURA for November council elections",
+        "timeframe": "Q2-Q3 2026",
+        "impact": "very high",
+        "notes": "Combined endorsement slate across Districts 1, 3, 5, 8, 9 would have significant influence"
+      }
+    ]
+  }
+}

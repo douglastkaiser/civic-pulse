@@ -1,4 +1,5 @@
 import { useState, useMemo } from 'react'
+import ContextTooltip from './shared/ContextTooltip'
 
 const QUADRANT_COLORS = {
   act_now: '#22c55e',
@@ -100,13 +101,14 @@ export default function IssueFeed({ issues, onSelectIssue, selectedIssueId }) {
                   )}
                 </div>
               </div>
-              <div className="flex gap-1.5 flex-shrink-0 text-xs font-mono">
-                <span className="text-text-secondary" title="Importance">
+              <div className="flex items-center gap-1.5 flex-shrink-0 text-xs font-mono">
+                <span className="text-text-secondary">
                   I:{issue.importance_score}
                 </span>
-                <span className="text-text-tertiary" title="Impact">
+                <span className="text-text-tertiary">
                   M:{issue.impact_score}
                 </span>
+                <ContextTooltip text="I: Importance — how much this issue affects your stated priorities. M: Impact — how much influence you can have on the outcome." />
               </div>
             </div>
           </button>

@@ -1,3 +1,6 @@
+import AiGeneratedBadge from './shared/AiGeneratedBadge'
+import ContextTooltip from './shared/ContextTooltip'
+
 const IMPACT_COLORS = {
   HIGH: 'bg-accent-red/15 text-accent-red border-accent-red/30',
   'VERY HIGH': 'bg-accent-red/20 text-accent-red border-accent-red/40',
@@ -63,9 +66,13 @@ export default function NextStepsPanel({ profile }) {
 
   return (
     <div className="bg-bg-panel border border-border rounded-lg p-4 flex flex-col h-full overflow-hidden panel-hover">
-      <h2 className="font-mono text-sm font-bold text-text-primary tracking-wide mb-3">
-        NEXT STEPS
-      </h2>
+      <div className="flex items-center gap-2 mb-3">
+        <h2 className="font-mono text-sm font-bold text-text-primary tracking-wide">
+          NEXT STEPS
+        </h2>
+        <AiGeneratedBadge />
+        <ContextTooltip text="These actions are recommended based on your values, your location, current political opportunities, and effort-to-impact ratio. They are ordered by a combination of urgency and leverage." />
+      </div>
       {steps ? (
         <div className="flex-1 overflow-y-auto min-h-0">
           <StepSection

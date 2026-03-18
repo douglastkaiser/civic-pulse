@@ -71,6 +71,72 @@ body {
   box-shadow: 0 0 0 1px rgba(59, 130, 246, 0.05);
 }
 
+/* AI Generated Badge tooltip */
+.ai-badge-wrapper {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+.ai-badge-tooltip {
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: max-content;
+  max-width: 300px;
+  padding: 8px 12px;
+  background: #1a2236;
+  color: #e2e8f0;
+  border: 1px solid #1e2d4a;
+  border-radius: 6px;
+  font-size: 11px;
+  line-height: 1.5;
+  font-family: 'DM Sans', sans-serif;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+  transition-delay: 0s;
+  z-index: 50;
+  white-space: normal;
+}
+.ai-badge-wrapper:hover .ai-badge-tooltip {
+  opacity: 1;
+  transition-delay: 0.2s;
+}
+
+/* Context Tooltip */
+.context-tooltip-wrapper {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+.context-tooltip-content {
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: max-content;
+  max-width: 300px;
+  padding: 8px 12px;
+  background: #1a2236;
+  color: #e2e8f0;
+  border: 1px solid #1e2d4a;
+  border-radius: 6px;
+  font-size: 11px;
+  line-height: 1.5;
+  font-family: 'DM Sans', sans-serif;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+  transition-delay: 0s;
+  z-index: 50;
+  white-space: normal;
+}
+.context-tooltip-wrapper:hover .context-tooltip-content {
+  opacity: 1;
+  transition-delay: 0.2s;
+}
+
 /* Collapsible section animation */
 .section-content {
   animation: slide-down 0.15s ease-out;

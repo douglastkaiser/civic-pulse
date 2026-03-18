@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import ContextTooltip from './shared/ContextTooltip'
 
 function Section({ title, children, defaultOpen = false }) {
   const [open, setOpen] = useState(defaultOpen)
@@ -136,9 +137,12 @@ export default function LocationPanel({ location }) {
   return (
     <div className="bg-bg-panel border border-border rounded-lg p-4 flex flex-col h-full overflow-hidden panel-hover">
       <div className="flex items-center justify-between mb-3">
-        <h2 className="font-mono text-sm font-bold text-text-primary tracking-wide">
-          LOCATION LANDSCAPE
-        </h2>
+        <div className="flex items-center gap-2">
+          <h2 className="font-mono text-sm font-bold text-text-primary tracking-wide">
+            LOCATION LANDSCAPE
+          </h2>
+          <ContextTooltip text="This maps the political infrastructure around your address: who represents you, what organizations align with your values, and what the key political dynamics are in your area." />
+        </div>
         {location.needs_enrichment && (
           <span className="text-xs text-accent-amber font-mono">⚠ INCOMPLETE</span>
         )}
