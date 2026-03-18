@@ -36,6 +36,8 @@
       "title": "Childcare Desert Mapping & Advocacy",
       "status": "active",
       "priority": "high",
+      "importance_score": 88,
+      "impact_score": 82,
       "summary": "Use public data to map Austin's childcare deserts — areas with no licensed childcare providers within reasonable distance — and overlay with population density, family demographics, and income data. The resulting map becomes the advocacy tool: it shows exactly where the gaps are and makes the case for targeted facility expansion.\n\nSimultaneously, monitor the $5,046,004 Raising Travis County childcare investment to ensure the money goes where the need is greatest. Track how the funds are allocated, which providers receive support, and whether the investment actually expands capacity in underserved areas or just subsidizes existing providers in well-served ones.\n\nAdvocate for childcare facility zoning reform — current rules make it unnecessarily difficult to open home-based and small-center childcare in residential areas. This is a deregulatory reform that should appeal across the political spectrum.",
       "theory_of_change": "Data-driven advocacy works because it makes the invisible visible. Council members and county commissioners can ignore abstract complaints about childcare scarcity but cannot ignore a map showing their district is a childcare desert. The $5M county investment creates an accountability hook — public money requires public scrutiny. Zoning reform for childcare facilities is achievable because it aligns with both left (equity, access) and right (deregulation, property rights) values, making it a rare bipartisan opportunity.",
       "next_actions": [
@@ -52,6 +54,8 @@
       "title": "Austin Family-Friendly Employer Index",
       "status": "planning",
       "priority": "high",
+      "importance_score": 78,
+      "impact_score": 72,
       "summary": "Research and publish a scorecard of Austin's top 50 employers on parental leave duration and pay, childcare benefits (subsidies, on-site care, backup care), flexible/remote work policies, and family support (fertility benefits, adoption support, family medical leave beyond FMLA).\n\nName names. Create competitive pressure. In Austin's tight tech labor market, being publicly ranked as family-unfriendly is a recruiting liability. The index gives companies a reason to improve and gives workers information to make informed employment decisions.\n\nAdvocate for the City of Austin to require paid parental leave disclosures from city contractors — a lever the city actually has without state legislation.",
       "theory_of_change": "Transparency creates competitive pressure in tight labor markets. When employer A's parental leave policy is publicly compared to employer B's, the laggard faces recruiting disadvantage. This works especially well in Austin's tech sector where talent competition is fierce and workers have options. The city contractor disclosure requirement adds a policy lever that doesn't require state legislation. Published rankings get media coverage, which amplifies the pressure beyond the direct readership.",
       "next_actions": [
@@ -68,6 +72,8 @@
       "title": "Family-Sized Housing Campaign",
       "status": "planning",
       "priority": "medium",
+      "importance_score": 70,
+      "impact_score": 55,
       "summary": "Connect with Austin YIMBY Action's housing advocacy to ensure new development includes family-appropriate units — not just studios and 1-bedrooms. Family-sized housing (2BR+) is the scarcest and most expensive segment of Austin's market because developers maximize unit count at smaller sizes.\n\nAdvocate for family-sized unit incentives in new developments: density bonuses for projects that include a minimum percentage of 2BR+ units, reduced parking requirements for family units near transit, and support for co-housing and innovative family housing models.\n\nThis campaign explicitly connects the pro-family and pro-housing movements. Building more housing of every type is the single most effective pro-family policy available at the local level.",
       "theory_of_change": "The housing supply argument is already winning in Austin politics. This campaign adds a powerful constituency — parents and prospective parents — to the pro-housing coalition. 'Build family-sized housing' is a more emotionally resonant message than 'increase housing supply' and reaches audiences who might not respond to urbanist framing. By working through the existing YIMBY coalition rather than creating parallel advocacy, we amplify rather than fragment the pro-building movement.",
       "next_actions": [
@@ -81,13 +87,13 @@
     }
   ],
   "aligned_organizations": [
-    {"name": "Austin YIMBY Action", "relationship": "Primary cross-movement ally. Their housing supply advocacy directly enables family formation. Our family-sized housing campaign feeds into their development advocacy. Shared interest in council elections and golf course rezoning."},
-    {"name": "AURA", "relationship": "Aligned on housing supply and affordability. Their policy expertise informs our family housing advocacy."},
-    {"name": "Austin Tech Alliance", "relationship": "Potential partner for employer index distribution and family-friendly workplace advocacy. Tech employer network."},
-    {"name": "United Way for Greater Austin", "relationship": "Aligned on childcare access and family economic stability. Potential data sharing partner for childcare mapping."},
-    {"name": "Workforce Solutions Capital Area", "relationship": "Administers childcare subsidy programs. Key information source for understanding childcare access barriers."},
-    {"name": "Austin ISD", "relationship": "Shared interest in keeping families in urban Austin. School quality and enrollment data inform housing advocacy."},
-    {"name": "Any Baby Can", "relationship": "Austin-based family support nonprofit. Aligned on early childhood and family services infrastructure."}
+    {"name": "Austin YIMBY Action", "relationship": "Primary cross-movement ally. Their housing supply advocacy directly enables family formation. Our family-sized housing campaign feeds into their development advocacy. Shared interest in council elections and golf course rezoning.", "url": "https://www.austinyimby.org"},
+    {"name": "AURA", "relationship": "Aligned on housing supply and affordability. Their policy expertise informs our family housing advocacy.", "url": "https://aura-atx.org"},
+    {"name": "Austin Tech Alliance", "relationship": "Potential partner for employer index distribution and family-friendly workplace advocacy. Tech employer network.", "url": "https://austintechalliance.org"},
+    {"name": "United Way for Greater Austin", "relationship": "Aligned on childcare access and family economic stability. Potential data sharing partner for childcare mapping.", "url": "https://unitedwayaustin.org"},
+    {"name": "Workforce Solutions Capital Area", "relationship": "Administers childcare subsidy programs. Key information source for understanding childcare access barriers.", "url": "https://wfsca.org"},
+    {"name": "Austin ISD", "relationship": "Shared interest in keeping families in urban Austin. School quality and enrollment data inform housing advocacy.", "url": "https://www.austinisd.org"},
+    {"name": "Any Baby Can", "relationship": "Austin-based family support nonprofit. Aligned on early childhood and family services infrastructure.", "url": "https://anybabycan.org"}
   ],
   "engagement_pipeline": {
     "awareness": "Social media, tech community forums, parenting groups, childcare provider networks. Publish the employer index and childcare desert map for organic distribution.",

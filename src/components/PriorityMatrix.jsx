@@ -1,6 +1,7 @@
-import { useMemo } from 'react'
+import { useState, useMemo } from 'react'
 import Plot from 'react-plotly.js'
 import ContextTooltip from './shared/ContextTooltip'
+import DetailModal from './shared/DetailModal'
 
 const QUADRANT_COLORS = {
   act_now: '#22c55e',
@@ -20,7 +21,7 @@ function getMarkerSize(issue) {
   return 10
 }
 
-export default function PriorityMatrix({ issues, onSelectIssue, selectedIssueId }) {
+function MatrixPlot({ issues, selectedIssueId, onSelectIssue }) {
   const data = useMemo(() => {
     if (!issues?.length) return []
 
@@ -115,35 +116,80 @@ export default function PriorityMatrix({ issues, onSelectIssue, selectedIssueId 
   }
 
   return (
-    <div className="bg-bg-panel border border-border rounded-lg p-3 flex flex-col h-full panel-hover">
-      <div className="flex items-center gap-2 mb-2">
-        <h2 className="font-mono text-sm font-bold text-text-primary tracking-wide">
-          PRIORITY MATRIX
-        </h2>
-        <ContextTooltip text="Issues are plotted by how much they align with your stated values (importance) vs. how much leverage you have to affect the outcome (impact). Top-right quadrant items are where your time is best spent." />
-      </div>
-      {issues?.length > 0 ? (
-        <div className="flex-1 min-h-0">
-          <Plot
-            data={data}
-            layout={layout}
-            config={config}
-            onClick={handleClick}
-            useResizeHandler
-            className="w-full h-full"
-            style={{ width: '100%', height: '100%' }}
-          />
+    <Plot
+      data={data}
+      layout={layout}
+      config={config}
+      onClick={handleClick}
+      useResizeHandler
+      className="w-full h-full"
+      style={{ width: '100%', height: '100%' }}
+    />
+  )
+}
+
+export default function PriorityMatrix({ issues, onSelectIssue, selectedIssueId }) {
+  const [modalOpen, setModalOpen] = useState(false)
+
+  return (
+    <>
+      <div className="bg-bg-panel border border-border rounded-lg p-3 flex flex-col h-full panel-hover">
+        <div className="flex items-center gap-2 mb-2">
+          <h2 className="font-mono text-sm font-bold text-text-primary tracking-wide">
+            PRIORITY MATRIX
+          </h2>
+          <ContextTooltip text="Issues are plotted by how much they align with your stated values (importance) vs. how much leverage you have to affect the outcome (impact). Top-right quadrant items are where your time is best spent." />
+          <button
+            onClick={() => setModalOpen(true)}
+            className="ml-auto text-xs text-text-tertiary hover:text-accent-blue font-mono transition-colors px-1.5 py-0.5 rounded hover:bg-bg-elevated"
+            title="Expand to full view"
+          >
+            ⤢
+          </button>
         </div>
-      ) : (
-        <div className="flex-1 flex items-center justify-center">
-          <div className="text-center">
-            <div className="text-text-tertiary text-sm font-mono mb-2">No issues data</div>
-            <div className="text-text-tertiary text-xs">
-              Run the pipeline to populate issues for this location.
+        {issues?.length > 0 ? (
+          <div className="flex-1 min-h-0">
+            <MatrixPlot
+              issues={issues}
+              selectedIssueId={selectedIssueId}
+              onSelectIssue={onSelectIssue}
+            />
+          </div>
+        ) : (
+          <div className="flex-1 flex items-center justify-center">
+            <div className="text-center">
+              <div className="text-text-tertiary text-sm font-mono mb-2">No issues data</div>
+              <div className="text-text-tertiary text-xs">
+                Run the pipeline to populate issues for this location.
+              </div>
             </div>
           </div>
+        )}
+      </div>
+
+      {/* Expanded modal view */}
+      <DetailModal
+        open={modalOpen}
+        onClose={() => setModalOpen(false)}
+        title="PRIORITY MATRIX"
+      >
+        <div className="flex items-center gap-2 mb-4">
+          <ContextTooltip text="Issues are plotted by how much they align with your stated values (importance) vs. how much leverage you have to affect the outcome (impact). Top-right quadrant items are where your time is best spent." />
         </div>
-      )}
-    </div>
+        {issues?.length > 0 ? (
+          <div style={{ height: '70vh' }}>
+            <MatrixPlot
+              issues={issues}
+              selectedIssueId={selectedIssueId}
+              onSelectIssue={onSelectIssue}
+            />
+          </div>
+        ) : (
+          <div className="flex items-center justify-center h-64">
+            <div className="text-text-tertiary text-sm font-mono">No issues data</div>
+          </div>
+        )}
+      </DetailModal>
+    </>
   )
 }

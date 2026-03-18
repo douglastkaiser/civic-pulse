@@ -37,6 +37,8 @@
       "title": "Defend Project Connect",
       "status": "active",
       "priority": "high",
+      "importance_score": 95,
+      "impact_score": 85,
       "summary": "Project Connect is Austin's $8.23 billion light rail and transit expansion program, approved by voters in November 2020 with 58% support. It generates approximately $166 million per year in dedicated tax revenue and has accumulated over $400 million in reserves. The project is seeking approximately $4 billion in federal funding through the FTA Capital Investment Grant program and cleared federal environmental review in January 2026.\n\nHowever, AG Ken Paxton has challenged the legality of the funding mechanism at the Texas Supreme Court. A ruling could come any week. If the court sides with Paxton, it could unravel the entire program — not just the light rail but the bus network improvements, the anti-displacement funds, and the transit-oriented development plans that depend on the system.\n\nThis campaign coordinates rapid response preparation for the court ruling, federal funding advocacy to ensure Austin's application stays competitive, and public education about what Project Connect means for housing, mobility, and the city's future.",
       "theory_of_change": "The court ruling is binary — win or lose — but the political environment around it is not. A mobilized, visible pro-transit constituency makes it harder for state officials to celebrate a loss and easier for city leadership to find alternative paths if needed. On the federal side, demonstrated local support strengthens the FTA application. Every week of organized advocacy improves the odds on both fronts.",
       "next_actions": [
@@ -53,6 +55,8 @@
       "title": "2026 Council Elections",
       "status": "active",
       "priority": "high",
+      "importance_score": 90,
+      "impact_score": 78,
       "summary": "Five Austin City Council seats are on the November 2026 ballot: Districts 1, 3, 5, 8, and 9. District 1 (East Austin / 78702) is an open seat for the first time in 8 years — the most competitive and consequential race. The next council will vote on Project Connect implementation, HOME Initiative enforcement, the golf course rezoning, and every major development case for the next four years.\n\nAdditionally, the Travis County Commissioner Precinct 4 Democratic runoff on May 26, 2026 is a high-leverage opportunity. County commissioners influence land use, transportation infrastructure funding, and regional planning. With extremely low expected turnout in a runoff, a small organized group can meaningfully influence the outcome.\n\nThis campaign develops a pro-building scorecard for current council members, creates a candidate questionnaire for all races, and provides a deep-dive analysis of each district — starting with the District 1 open seat.",
       "theory_of_change": "Council members are the final decision-makers on every zoning case, infrastructure investment, and development policy in Austin. Electing even 2-3 additional pro-building members shifts the median vote on council and locks in the current reform trajectory. The Pct 4 runoff is a bonus: in a low-turnout election, 50-100 organized voters can determine the outcome, and county commissioners control key transportation and land use decisions. Early candidate engagement locks in pro-building commitments before candidates calibrate to the general electorate.",
       "next_actions": [
@@ -71,6 +75,8 @@
       "title": "Golf Course Rezoning — 445 Acres",
       "status": "active",
       "priority": "high",
+      "importance_score": 85,
+      "impact_score": 90,
       "summary": "The City of Austin has initiated rezoning of the Jimmy Clay and Roy Kizer golf courses — 445 acres of city-owned land in southeast Austin. This is potentially the largest single housing development opportunity in Austin's history. The site's size, public ownership, and location near existing transit routes make it uniquely suited for a mixed-use, transit-oriented development that could include thousands of housing units at multiple price points.\n\nThe rezoning will go through public hearings where organized NIMBY opposition will attempt to block or water down the proposal. We need pro-housing voices at every hearing, prepared testimony, and coalition coordination to ensure this opportunity produces the maximum amount of housing.",
       "theory_of_change": "Public hearings are where rezoning cases are won or lost. Council members count speakers and read comments. If the only organized voices at the hearing are opponents, the rezoning gets weakened or denied. Showing up in numbers with prepared, specific testimony about the housing need and the site's potential shifts the political calculation. Coalition letters from multiple organizations amplify the signal.",
       "next_actions": [
@@ -87,6 +93,8 @@
       "title": "Ongoing Housing Advocacy",
       "status": "active",
       "priority": "medium",
+      "importance_score": 65,
+      "impact_score": 50,
       "summary": "Beyond the marquee campaigns, Austin's housing future is shaped by dozens of individual rezoning cases, planning commission decisions, and permitting processes every month. The HOME Initiative changed the rules, but implementation is where the rules meet reality. We monitor individual rezoning applications, provide testimony at planning commission hearings, track permitting timelines and bottlenecks, and hold city staff accountable for implementing the HOME Initiative as intended — not watering it down through bureaucratic interpretation.\n\nThis is the unglamorous, week-in-week-out work that determines whether Austin's reform moment actually translates into built housing.",
       "theory_of_change": "Zoning reform is necessary but not sufficient. Without ongoing monitoring, bureaucratic inertia and case-by-case NIMBY opposition can effectively nullify reforms. Consistent presence at planning commission meetings and individual case hearings creates a reputation for organized pro-housing advocacy that shifts the default expectation. Staff and commissioners who know that pro-housing groups are watching and will show up are less likely to quietly undermine implementation.",
       "next_actions": [
@@ -99,14 +107,14 @@
     }
   ],
   "aligned_organizations": [
-    {"name": "AURA", "relationship": "Strong ally — coordinate on most housing and land use issues. Deepest policy expertise in Austin's urbanist ecosystem."},
-    {"name": "Transit Forward", "relationship": "Primary ally on Project Connect defense and transit-oriented development. Co-coordinate rapid response for TX Supreme Court ruling."},
-    {"name": "Austin Habitat for Humanity", "relationship": "Aligned on housing supply and affordability goals. Credible voice on housing need from direct service perspective."},
-    {"name": "Downtown Austin Alliance", "relationship": "Ally on urban density, downtown development, and transit. Business community perspective strengthens coalition breadth."},
-    {"name": "Austin Chamber of Commerce", "relationship": "Issue-specific ally on housing supply and workforce housing. Engaged on economic competitiveness arguments for density."},
-    {"name": "Austin Monitor", "relationship": "Independent local news source covering city government. Key information source for tracking council actions and development cases."},
-    {"name": "Austin Bulldog", "relationship": "Investigative local journalism. Information source for government accountability and policy implementation tracking."},
-    {"name": "League of Women Voters", "relationship": "Potential co-sponsor for candidate forums in 2026 council races. Nonpartisan credibility adds legitimacy to voter education efforts."},
+    {"name": "AURA", "relationship": "Strong ally — coordinate on most housing and land use issues. Deepest policy expertise in Austin's urbanist ecosystem.", "url": "https://aura-atx.org"},
+    {"name": "Transit Forward", "relationship": "Primary ally on Project Connect defense and transit-oriented development. Co-coordinate rapid response for TX Supreme Court ruling.", "url": "https://transitforward.org"},
+    {"name": "Austin Habitat for Humanity", "relationship": "Aligned on housing supply and affordability goals. Credible voice on housing need from direct service perspective.", "url": "https://austinhabitat.org"},
+    {"name": "Downtown Austin Alliance", "relationship": "Ally on urban density, downtown development, and transit. Business community perspective strengthens coalition breadth.", "url": "https://downtownaustin.com"},
+    {"name": "Austin Chamber of Commerce", "relationship": "Issue-specific ally on housing supply and workforce housing. Engaged on economic competitiveness arguments for density.", "url": "https://austinchamber.com"},
+    {"name": "Austin Monitor", "relationship": "Independent local news source covering city government. Key information source for tracking council actions and development cases.", "url": "https://austinmonitor.com"},
+    {"name": "Austin Bulldog", "relationship": "Investigative local journalism. Information source for government accountability and policy implementation tracking.", "url": "https://austinbulldog.org"},
+    {"name": "League of Women Voters", "relationship": "Potential co-sponsor for candidate forums in 2026 council races. Nonpartisan credibility adds legitimacy to voter education efforts.", "url": "https://lwvaustin.org"},
     {"name": "Austin Abundance Project", "relationship": "Cross-movement ally. Their family-sized housing campaign directly connects to our housing supply advocacy. More housing at every size enables family formation."}
   ],
   "engagement_pipeline": {
