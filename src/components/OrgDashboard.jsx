@@ -113,6 +113,13 @@ export default function OrgDashboard() {
     'AURA': { economic: -0.1, social: -0.4, spread: 0.1 },
     'Transit Forward': { economic: -0.15, social: -0.3, spread: 0.1 },
     'Austin Habitat for Humanity': { economic: -0.05, social: -0.2, spread: 0.12 },
+    'Downtown Austin Alliance': { economic: 0.2, social: -0.15, spread: 0.1 },
+    'Austin Chamber of Commerce': { economic: 0.3, social: 0.0, spread: 0.15 },
+    'League of Women Voters': { economic: -0.1, social: -0.3, spread: 0.1 },
+    'Austin Abundance Project': { economic: -0.15, social: -0.25, spread: 0.15 },
+    'Austin YIMBY Action': { economic: 0.1, social: -0.2, spread: 0.15 },
+    'Austin Tech Alliance': { economic: 0.15, social: -0.2, spread: 0.1 },
+    'United Way for Greater Austin': { economic: -0.2, social: -0.25, spread: 0.1 },
   }
   org.aligned_organizations?.forEach((ally) => {
     const pos = orgPositions[ally.name]

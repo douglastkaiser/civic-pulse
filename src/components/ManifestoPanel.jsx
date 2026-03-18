@@ -50,15 +50,26 @@ export default function ManifestoPanel({ profile }) {
 
   const { manifesto, manifesto_inputs_complete, political_context } = profile
 
+  // Build a short collapsed summary (1-2 sentences max)
+  const collapsedSummary = manifesto?.manifesto_summary
+    ? (manifesto.manifesto_summary.length > 140
+        ? manifesto.manifesto_summary.slice(0, 140).replace(/\s+\S*$/, '') + '…'
+        : manifesto.manifesto_summary)
+    : 'Your political profile and positions.'
+
   return (
     <div className="bg-bg-panel border border-border rounded-lg p-4 flex flex-col h-full overflow-hidden panel-hover">
-      <div className="flex items-center justify-between mb-3">
-        <div className="flex items-center gap-2">
+      <div className="flex items-center justify-between mb-2">
+        <button
+          onClick={() => setExpanded(!expanded)}
+          className="flex items-center gap-2 text-left hover:opacity-80 transition-opacity"
+        >
+          <span className="text-xs text-text-tertiary">{expanded ? '▾' : '▸'}</span>
           <h2 className="font-mono text-sm font-bold text-text-primary tracking-wide">
             MANIFESTO
           </h2>
           <AiGeneratedBadge />
-        </div>
+        </button>
         {political_context?.party_lean && (
           <span className="text-xs text-text-tertiary font-mono">
             {political_context.party_lean}
@@ -67,64 +78,75 @@ export default function ManifestoPanel({ profile }) {
       </div>
 
       {!manifesto_inputs_complete && (
-        <div className="mb-3 px-3 py-1.5 bg-accent-amber/10 border border-accent-amber/30 rounded text-xs text-accent-amber font-mono">
+        <div className="mb-2 px-3 py-1.5 bg-accent-amber/10 border border-accent-amber/30 rounded text-xs text-accent-amber font-mono">
           DRAFT — Profile Incomplete
         </div>
       )}
 
-      <div className="flex-1 overflow-y-auto space-y-3 min-h-0">
-        {/* Identity Tags — always visible */}
-        {manifesto?.identity_tags?.length > 0 && (
-          <div className="flex flex-wrap gap-1.5">
-            {manifesto.identity_tags.map((tag) => (
-              <span
-                key={tag}
-                className="px-2 py-0.5 text-xs rounded-full bg-accent-blue/15 text-accent-blue border border-accent-blue/30"
-              >
-                {tag}
-              </span>
-            ))}
-          </div>
-        )}
+      {/* Collapsed: show only short summary */}
+      {!expanded && (
+        <p className="text-xs text-text-secondary leading-relaxed">
+          {collapsedSummary}
+          <button
+            onClick={() => setExpanded(true)}
+            className="ml-1 text-accent-blue hover:text-accent-blue/80 font-mono transition-colors"
+          >
+            Expand ▾
+          </button>
+        </p>
+      )}
 
-        {/* Summary — always visible */}
-        {manifesto?.manifesto_summary && (
-          <p className="text-sm text-text-primary leading-relaxed font-medium">
-            {manifesto.manifesto_summary}
-          </p>
-        )}
+      {/* Expanded: full content */}
+      {expanded && (
+        <div className="flex-1 overflow-y-auto space-y-3 min-h-0">
+          {/* Identity Tags */}
+          {manifesto?.identity_tags?.length > 0 && (
+            <div className="flex flex-wrap gap-1.5">
+              {manifesto.identity_tags.map((tag) => (
+                <span
+                  key={tag}
+                  className="px-2 py-0.5 text-xs rounded-full bg-accent-blue/15 text-accent-blue border border-accent-blue/30"
+                >
+                  {tag}
+                </span>
+              ))}
+            </div>
+          )}
 
-        {/* Expand toggle */}
-        <button
-          onClick={() => setExpanded(!expanded)}
-          className="text-xs text-accent-blue hover:text-accent-blue/80 font-mono transition-colors"
-        >
-          {expanded ? 'Collapse manifesto ▴' : 'Read full manifesto ▾'}
-        </button>
+          {/* Full Summary */}
+          {manifesto?.manifesto_summary && (
+            <p className="text-sm text-text-primary leading-relaxed font-medium">
+              {manifesto.manifesto_summary}
+            </p>
+          )}
 
-        {/* Expanded content — full narrative */}
-        {expanded && (
-          <div className="space-y-4 section-content">
-            {manifesto?.narrative && (
-              <div className="text-sm text-text-secondary leading-relaxed whitespace-pre-wrap">
-                {manifesto.narrative}
-              </div>
-            )}
-          </div>
-        )}
+          {/* Full Narrative */}
+          {manifesto?.narrative && (
+            <div className="text-sm text-text-secondary leading-relaxed whitespace-pre-wrap section-content">
+              {manifesto.narrative}
+            </div>
+          )}
 
-        {/* Issue Positions — always visible */}
-        {manifesto?.issue_positions?.length > 0 && (
-          <div className="space-y-1.5 mt-3">
-            <h3 className="font-mono text-xs font-bold text-text-tertiary tracking-wide">
-              POSITIONS
-            </h3>
-            {manifesto.issue_positions.map((pos) => (
-              <PositionCard key={pos.domain} position={pos} />
-            ))}
-          </div>
-        )}
-      </div>
+          {/* Issue Positions */}
+          {manifesto?.issue_positions?.length > 0 && (
+            <div className="space-y-1.5 mt-3">
+              <h3 className="font-mono text-xs font-bold text-text-tertiary tracking-wide">
+                POSITIONS
+              </h3>
+              {manifesto.issue_positions.map((pos) => (
+                <PositionCard key={pos.domain} position={pos} />
+              ))}
+            </div>
+          )}
+
+          <button
+            onClick={() => setExpanded(false)}
+            className="text-xs text-accent-blue hover:text-accent-blue/80 font-mono transition-colors"
+          >
+            Collapse ▴
+          </button>
+        </div>
+      )}
     </div>
   )
 }
