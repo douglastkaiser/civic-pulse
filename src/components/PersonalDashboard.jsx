@@ -7,6 +7,7 @@ import IssueFeed from './IssueFeed'
 import IssueDetail from './IssueDetail'
 import NextStepsPanel from './NextStepsPanel'
 import PoliticalCompass from './PoliticalCompass'
+import ExportButton from './shared/ExportButton'
 
 const PROFILE_ID = 'austin-78702'
 
@@ -58,7 +59,22 @@ export default function PersonalDashboard() {
               </div>
             </div>
           </div>
-          <div className="lg:w-3/5 min-w-0 min-h-[300px] lg:min-h-0">
+          <div className="lg:w-1/4 min-w-0 min-h-[300px] lg:min-h-0">
+            <div className="bg-bg-panel border border-border rounded-lg p-4 h-full animate-pulse">
+              <div className="h-4 w-32 bg-bg-elevated rounded mb-4" />
+              <div className="h-48 bg-bg-elevated rounded opacity-30" />
+            </div>
+          </div>
+          <div className="lg:w-[35%] min-w-0 min-h-[300px] lg:min-h-0">
+            <div className="bg-bg-panel border border-border rounded-lg p-3 h-full animate-pulse">
+              <div className="h-4 w-32 bg-bg-elevated rounded mb-3" />
+              <div className="h-full bg-bg-elevated rounded opacity-30" />
+            </div>
+          </div>
+        </div>
+        {/* Skeleton: Bottom row */}
+        <div className="flex flex-col lg:flex-row gap-3 lg:flex-1 lg:min-h-0" style={{ flex: '1 1 50%' }}>
+          <div className="lg:w-2/5 min-w-0 min-h-[300px] lg:min-h-0">
             <div className="bg-bg-panel border border-border rounded-lg p-4 h-full animate-pulse">
               <div className="h-4 w-40 bg-bg-elevated rounded mb-4" />
               <div className="space-y-3">
@@ -67,16 +83,7 @@ export default function PersonalDashboard() {
               </div>
             </div>
           </div>
-        </div>
-        {/* Skeleton: Bottom row */}
-        <div className="flex flex-col lg:flex-row gap-3 lg:flex-1 lg:min-h-0" style={{ flex: '1 1 50%' }}>
-          <div className="lg:w-1/3 min-w-0 min-h-[300px] lg:min-h-0">
-            <div className="bg-bg-panel border border-border rounded-lg p-3 h-full animate-pulse">
-              <div className="h-4 w-32 bg-bg-elevated rounded mb-3" />
-              <div className="h-full bg-bg-elevated rounded opacity-30" />
-            </div>
-          </div>
-          <div className="lg:w-1/3 min-w-0 min-h-[300px] lg:min-h-0">
+          <div className="lg:w-[30%] min-w-0 min-h-[300px] lg:min-h-0">
             <div className="bg-bg-panel border border-border rounded-lg p-3 h-full animate-pulse">
               <div className="h-4 w-16 bg-bg-elevated rounded mb-3" />
               <div className="space-y-2">
@@ -85,7 +92,7 @@ export default function PersonalDashboard() {
               </div>
             </div>
           </div>
-          <div className="lg:w-1/3 min-w-0 min-h-[300px] lg:min-h-0">
+          <div className="lg:w-[30%] min-w-0 min-h-[300px] lg:min-h-0">
             <div className="bg-bg-panel border border-border rounded-lg p-3 h-full animate-pulse">
               <div className="h-4 w-24 bg-bg-elevated rounded mb-3" />
               <div className="space-y-2">
@@ -102,7 +109,7 @@ export default function PersonalDashboard() {
   const issues = issuesData?.issues || []
   const selectedIssue = issues.find((i) => i.id === selectedIssueId)
 
-  // Build compass entities from profile data
+  // Build compass entities from profile data — location context only (no external orgs)
   const compassEntities = []
   if (profile?.political_compass) {
     const pc = profile.political_compass
@@ -111,33 +118,55 @@ export default function PersonalDashboard() {
     if (pc.state_texas) compassEntities.push({ name: 'Texas', ...pc.state_texas, color: '#ef4444' })
     if (pc.democratic_party) compassEntities.push({ name: 'Dem Party', ...pc.democratic_party, color: '#3b82f6' })
     if (pc.republican_party) compassEntities.push({ name: 'GOP', ...pc.republican_party, color: '#ef4444' })
-    if (pc.local_orgs) {
-      pc.local_orgs.forEach((org) => compassEntities.push({ ...org, color: '#22c55e' }))
-    }
   }
+
+  const getExportData = () => ({
+    export_type: 'personal_political_profile',
+    exported_at: new Date().toISOString(),
+    profile_id: PROFILE_ID,
+    display_name: profile.display_name,
+    location: profile.location,
+    political_context: profile.political_context,
+    values: profile.values,
+    issue_salience: profile.issue_salience,
+    manifesto: profile.manifesto,
+    political_compass: profile.political_compass,
+    engagement_appetite: profile.engagement_appetite,
+    next_steps: profile.next_steps,
+  })
 
   return (
     <div className="h-full p-3 flex flex-col gap-3 overflow-auto lg:overflow-hidden animate-fade-in">
-      {/* Top row: Manifesto + Location */}
+      {/* Utility bar */}
+      <div className="flex justify-end flex-shrink-0">
+        <ExportButton getData={getExportData} filename={`civic-pulse-profile-${PROFILE_ID}.json`} />
+      </div>
+
+      {/* Top row: Manifesto + Political Positioning + Priority Matrix */}
       <div className="flex flex-col lg:flex-row gap-3 lg:flex-1 lg:min-h-0" style={{ flex: '1 1 50%' }}>
         <div className="lg:w-2/5 min-w-0 min-h-[300px] lg:min-h-0">
           <ManifestoPanel profile={profile} />
         </div>
-        <div className="lg:w-3/5 min-w-0 min-h-[300px] lg:min-h-0">
-          <LocationPanel location={location} />
-        </div>
-      </div>
-
-      {/* Bottom row: Matrix + Issues + Next Steps */}
-      <div className="flex flex-col lg:flex-row gap-3 lg:flex-1 lg:min-h-0" style={{ flex: '1 1 50%' }}>
-        <div className="lg:w-1/3 min-w-0 min-h-[300px] lg:min-h-0">
+        {compassEntities.length > 0 && (
+          <div className="lg:w-1/4 min-w-0 min-h-[300px] lg:min-h-0">
+            <PoliticalCompass entities={compassEntities} size={280} collapsible={false} />
+          </div>
+        )}
+        <div className="lg:w-[35%] min-w-0 min-h-[300px] lg:min-h-0">
           <PriorityMatrix
             issues={issues}
             onSelectIssue={setSelectedIssueId}
             selectedIssueId={selectedIssueId}
           />
         </div>
-        <div className="lg:w-1/3 min-w-0 min-h-[300px] lg:min-h-0">
+      </div>
+
+      {/* Bottom row: Location + Issues + Next Steps */}
+      <div className="flex flex-col lg:flex-row gap-3 lg:flex-1 lg:min-h-0" style={{ flex: '1 1 50%' }}>
+        <div className="lg:w-2/5 min-w-0 min-h-[300px] lg:min-h-0">
+          <LocationPanel location={location} />
+        </div>
+        <div className="lg:w-[30%] min-w-0 min-h-[300px] lg:min-h-0">
           {selectedIssue ? (
             <IssueDetail
               issue={selectedIssue}
@@ -151,17 +180,10 @@ export default function PersonalDashboard() {
             />
           )}
         </div>
-        <div className="lg:w-1/3 min-w-0 min-h-[300px] lg:min-h-0">
+        <div className="lg:w-[30%] min-w-0 min-h-[300px] lg:min-h-0">
           <NextStepsPanel profile={profile} />
         </div>
       </div>
-
-      {/* Political Compass */}
-      {compassEntities.length > 0 && (
-        <div className="lg:max-w-xs">
-          <PoliticalCompass entities={compassEntities} size={280} collapsible={true} />
-        </div>
-      )}
     </div>
   )
 }

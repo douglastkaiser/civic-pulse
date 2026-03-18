@@ -8,6 +8,7 @@ import CampaignList from './org/CampaignList'
 import CampaignDetail from './org/CampaignDetail'
 import EngagementPipeline from './org/EngagementPipeline'
 import OrgNextSteps from './org/OrgNextSteps'
+import ExportButton from './shared/ExportButton'
 
 export default function OrgDashboard() {
   const { orgId } = useParams()
@@ -73,6 +74,22 @@ export default function OrgDashboard() {
 
   const selectedCampaign = org.active_campaigns?.find((c) => c.id === selectedCampaignId)
 
+  const getExportData = () => ({
+    export_type: 'org_political_profile',
+    exported_at: new Date().toISOString(),
+    org_id: org.id,
+    name: org.name,
+    tagline: org.tagline,
+    mission: org.mission,
+    geographic_scope: org.geographic_scope,
+    political_positioning: org.political_positioning,
+    key_policy_positions: org.key_policy_positions,
+    active_campaigns: org.active_campaigns,
+    aligned_organizations: org.aligned_organizations,
+    engagement_pipeline: org.engagement_pipeline,
+    practical_next_steps: org.practical_next_steps_for_org,
+  })
+
   // Build compass entities from org data
   const compassEntities = []
   if (org.political_positioning?.compass_cloud) {
@@ -86,6 +103,12 @@ export default function OrgDashboard() {
       highlighted: true,
     })
   }
+  // Location context — same reference points as the personal dashboard
+  compassEntities.push({ name: 'Austin', economic: -0.15, social: -0.2, spread: 0.25, color: '#3b82f6' })
+  compassEntities.push({ name: 'Texas', economic: 0.3, social: 0.2, spread: 0.35, color: '#ef4444' })
+  compassEntities.push({ name: 'Dem Party', economic: -0.3, social: -0.1, spread: 0.3, color: '#3b82f6' })
+  compassEntities.push({ name: 'GOP', economic: 0.4, social: 0.3, spread: 0.25, color: '#ef4444' })
+
   const orgPositions = {
     'AURA': { economic: -0.1, social: -0.4, spread: 0.1 },
     'Transit Forward': { economic: -0.15, social: -0.3, spread: 0.1 },
@@ -104,12 +127,15 @@ export default function OrgDashboard() {
           <Link to="/dashboard" className="text-xs text-text-tertiary hover:text-accent-blue font-mono transition-colors">
             ← Back to Dashboard
           </Link>
-          <Link
-            to={`/org/${orgId}/public`}
-            className="text-xs text-text-tertiary hover:text-accent-blue font-mono transition-colors px-2 py-1 rounded border border-border hover:border-accent-blue/30"
-          >
-            Share ↗
-          </Link>
+          <div className="flex items-center gap-2">
+            <ExportButton getData={getExportData} filename={`civic-pulse-org-${orgId}.json`} />
+            <Link
+              to={`/org/${orgId}/public`}
+              className="text-xs text-text-tertiary hover:text-accent-blue font-mono transition-colors px-2 py-1 rounded border border-border hover:border-accent-blue/30"
+            >
+              Share ↗
+            </Link>
+          </div>
         </div>
         <h1 className="font-mono text-lg font-bold text-text-primary tracking-wide mt-2">
           {org.name}
@@ -163,7 +189,7 @@ export default function OrgDashboard() {
 
           {/* Political Compass */}
           {compassEntities.length > 0 && (
-            <PoliticalCompass entities={compassEntities} size={280} collapsible={false} />
+            <PoliticalCompass entities={compassEntities} size={320} collapsible={false} />
           )}
 
           {/* Allied Organizations */}
