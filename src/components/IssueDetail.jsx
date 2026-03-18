@@ -17,7 +17,7 @@ export default function IssueDetail({ issue, onClose }) {
   const quadrant = QUADRANT_LABELS[issue.quadrant] || QUADRANT_LABELS.background
 
   return (
-    <div className="bg-bg-panel border border-border rounded-lg p-4 flex flex-col h-full overflow-hidden panel-hover animate-fade-in">
+    <div className="animate-fade-in">
       <div className="flex items-start justify-between mb-3">
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2 mb-1">
@@ -31,15 +31,9 @@ export default function IssueDetail({ issue, onClose }) {
           </div>
           <h3 className="text-base font-semibold text-text-primary">{issue.title}</h3>
         </div>
-        <button
-          onClick={onClose}
-          className="text-text-tertiary hover:text-text-primary text-sm ml-2 flex-shrink-0"
-        >
-          ✕
-        </button>
       </div>
 
-      <div className="flex-1 overflow-y-auto space-y-3 min-h-0">
+      <div className="space-y-3">
         {/* Meta row */}
         <div className="flex flex-wrap gap-2 text-xs">
           <span className="px-2 py-0.5 rounded bg-bg-elevated text-text-secondary border border-border">

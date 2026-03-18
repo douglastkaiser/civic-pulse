@@ -3,7 +3,9 @@ import { useParams, Link } from 'react-router-dom'
 import { loadOrg } from '../lib/data'
 import AiGeneratedBadge from './shared/AiGeneratedBadge'
 import ContextTooltip from './shared/ContextTooltip'
+import DetailModal from './shared/DetailModal'
 import PoliticalCompass from './PoliticalCompass'
+import PriorityMatrix from './PriorityMatrix'
 import CampaignList from './org/CampaignList'
 import CampaignDetail from './org/CampaignDetail'
 import EngagementPipeline from './org/EngagementPipeline'
@@ -15,8 +17,10 @@ export default function OrgDashboard() {
   const [org, setOrg] = useState(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
-  const [selectedCampaignId, setSelectedCampaignId] = useState(null)
   const [missionExpanded, setMissionExpanded] = useState(false)
+  // Campaign modal state
+  const [campaignModalOpen, setCampaignModalOpen] = useState(false)
+  const [selectedCampaignId, setSelectedCampaignId] = useState(null)
 
   useEffect(() => {
     setLoading(true)
@@ -25,10 +29,6 @@ export default function OrgDashboard() {
     loadOrg(orgId)
       .then((data) => {
         setOrg(data)
-        // Auto-select first campaign
-        if (data.active_campaigns?.length > 0) {
-          setSelectedCampaignId(data.active_campaigns[0].id)
-        }
         setLoading(false)
       })
       .catch((err) => {
@@ -74,6 +74,11 @@ export default function OrgDashboard() {
 
   const selectedCampaign = org.active_campaigns?.find((c) => c.id === selectedCampaignId)
 
+  const handleCampaignSelect = (campaignId) => {
+    setSelectedCampaignId(campaignId)
+    setCampaignModalOpen(true)
+  }
+
   const getExportData = () => ({
     export_type: 'org_political_profile',
     exported_at: new Date().toISOString(),
@@ -103,7 +108,6 @@ export default function OrgDashboard() {
       highlighted: true,
     })
   }
-  // Location context — same reference points as the personal dashboard
   compassEntities.push({ name: 'Austin', economic: -0.15, social: -0.2, spread: 0.25, color: '#3b82f6' })
   compassEntities.push({ name: 'Texas', economic: 0.3, social: 0.2, spread: 0.35, color: '#ef4444' })
   compassEntities.push({ name: 'Dem Party', economic: -0.3, social: -0.1, spread: 0.3, color: '#3b82f6' })
@@ -125,6 +129,24 @@ export default function OrgDashboard() {
     const pos = orgPositions[ally.name]
     if (pos) compassEntities.push({ name: ally.name, ...pos, color: '#22c55e' })
   })
+
+  // Build campaign data for priority matrix
+  const campaignIssues = (org.active_campaigns || []).map((c) => ({
+    id: c.id,
+    title: c.title,
+    importance_score: c.importance_score ?? 50,
+    impact_score: c.impact_score ?? 50,
+    quadrant: (c.importance_score ?? 50) >= 50 && (c.impact_score ?? 50) >= 50 ? 'act_now'
+      : (c.importance_score ?? 50) < 50 && (c.impact_score ?? 50) >= 50 ? 'know'
+      : (c.importance_score ?? 50) >= 50 && (c.impact_score ?? 50) < 50 ? 'watch'
+      : 'background',
+  }))
+
+  // Campaign tabs for modal
+  const campaignTabs = (org.active_campaigns || []).map((c) => ({
+    id: c.id,
+    label: c.title.length > 30 ? c.title.slice(0, 28) + '...' : c.title,
+  }))
 
   return (
     <div className="h-full overflow-auto animate-fade-in">
@@ -150,105 +172,161 @@ export default function OrgDashboard() {
         <p className="text-sm text-text-secondary italic">{org.tagline}</p>
       </div>
 
-      {/* Two-column layout */}
-      <div className="flex flex-col lg:flex-row gap-4 p-4">
-        {/* Left column */}
-        <div className="lg:w-2/5 space-y-4 flex-shrink-0">
-          {/* Mission & Positioning */}
-          <div className="bg-bg-panel border border-border rounded-lg p-4 panel-hover">
-            <div className="flex items-center gap-2 mb-2">
-              <h2 className="font-mono text-sm font-bold text-text-primary tracking-wide">
-                MISSION & POSITIONING
-              </h2>
-              <AiGeneratedBadge />
-            </div>
+      {/* Two-row layout mirroring personal dashboard */}
+      <div className="p-3 flex flex-col gap-3 lg:h-[calc(100%-88px)]">
+        {/* Top row: Mission + Political Compass + Priority Matrix */}
+        <div className="flex flex-col lg:flex-row gap-3 lg:flex-1 lg:min-h-0" style={{ flex: '1 1 50%' }}>
+          {/* Mission & Positioning (like Manifesto) */}
+          <div className="lg:w-2/5 min-w-0 min-h-[300px] lg:min-h-0">
+            <div className="bg-bg-panel border border-border rounded-lg p-4 panel-hover h-full flex flex-col overflow-hidden">
+              <div className="flex items-center gap-2 mb-2">
+                <h2 className="font-mono text-sm font-bold text-text-primary tracking-wide">
+                  MISSION & POSITIONING
+                </h2>
+                <AiGeneratedBadge />
+              </div>
 
-            {/* Mission - collapsible */}
-            <p className="text-sm text-text-secondary leading-relaxed">
-              {missionExpanded ? org.mission : (org.mission?.slice(0, 120) + '...')}
-            </p>
-            {org.mission?.length > 120 && (
-              <button
-                onClick={() => setMissionExpanded(!missionExpanded)}
-                className="text-xs text-accent-blue font-mono mt-1"
-              >
-                {missionExpanded ? 'Less ▴' : 'More ▾'}
-              </button>
-            )}
-
-            {/* Key Positions as badges */}
-            <div className="mt-3 flex flex-wrap gap-1.5">
-              {org.key_policy_positions?.slice(0, 4).map((pos, i) => (
-                <span
-                  key={i}
-                  className="px-2 py-0.5 text-xs rounded-full bg-accent-purple/15 text-accent-purple border border-accent-purple/30"
+              {/* Always-visible mission summary */}
+              <p className="text-sm text-text-secondary leading-relaxed mb-2">
+                {missionExpanded ? org.mission : (org.mission?.slice(0, 200) + '...')}
+              </p>
+              {org.mission?.length > 200 && (
+                <button
+                  onClick={() => setMissionExpanded(!missionExpanded)}
+                  className="text-xs text-accent-blue font-mono mb-3 text-left"
                 >
-                  {pos}
-                </span>
-              ))}
-              {org.key_policy_positions?.length > 4 && (
-                <span className="px-2 py-0.5 text-xs rounded-full bg-bg-elevated text-text-tertiary border border-border">
-                  +{org.key_policy_positions.length - 4} more
-                </span>
+                  {missionExpanded ? 'Less ▴' : 'More ▾'}
+                </button>
+              )}
+
+              {/* Key Positions as badges */}
+              <div className="flex flex-wrap gap-1.5 mb-3">
+                {org.key_policy_positions?.slice(0, 4).map((pos, i) => (
+                  <span
+                    key={i}
+                    className="px-2 py-0.5 text-xs rounded-full bg-accent-purple/15 text-accent-purple border border-accent-purple/30"
+                  >
+                    {pos}
+                  </span>
+                ))}
+                {org.key_policy_positions?.length > 4 && (
+                  <span className="px-2 py-0.5 text-xs rounded-full bg-bg-elevated text-text-tertiary border border-border">
+                    +{org.key_policy_positions.length - 4} more
+                  </span>
+                )}
+              </div>
+
+              {/* Positioning description — collapsible */}
+              {org.political_positioning?.description && (
+                <div className="flex-1 overflow-y-auto min-h-0">
+                  <div className="border border-border rounded bg-bg-elevated">
+                    <details>
+                      <summary className="px-3 py-2 text-left hover:bg-bg-panel transition-colors cursor-pointer font-mono text-xs font-bold text-text-tertiary tracking-wide">
+                        POSITIONING DETAILS
+                      </summary>
+                      <div className="px-3 pb-3 text-xs text-text-secondary leading-relaxed section-content">
+                        {org.political_positioning.description}
+                      </div>
+                    </details>
+                  </div>
+                </div>
               )}
             </div>
           </div>
 
-          {/* Political Compass */}
+          {/* Political Compass (center) */}
           {compassEntities.length > 0 && (
-            <PoliticalCompass entities={compassEntities} size={320} collapsible={false} />
+            <div className="lg:w-1/4 min-w-0 min-h-[300px] lg:min-h-0">
+              <PoliticalCompass entities={compassEntities} size={320} collapsible={false} />
+            </div>
           )}
 
-          {/* Allied Organizations */}
-          <div className="bg-bg-panel border border-border rounded-lg p-4 panel-hover">
-            <h2 className="font-mono text-sm font-bold text-text-primary tracking-wide mb-2">
-              ALLIED ORGANIZATIONS
-            </h2>
-            <div className="space-y-2">
-              {org.aligned_organizations?.map((ally, i) => (
-                <div key={i} className="flex items-start gap-2 text-sm">
-                  <span className="text-accent-green mt-0.5">●</span>
-                  <div>
-                    <span className="text-text-primary font-medium">{ally.name}</span>
-                    <span className="text-text-tertiary"> — {ally.relationship}</span>
+          {/* Priority Matrix (right) */}
+          <div className="lg:w-[35%] min-w-0 min-h-[300px] lg:min-h-0">
+            <PriorityMatrix
+              issues={campaignIssues}
+              onSelectIssue={(id) => handleCampaignSelect(id)}
+              selectedIssueId={selectedCampaignId}
+            />
+          </div>
+        </div>
+
+        {/* Bottom row: Allied Orgs + Pipeline | Campaigns | Next Steps */}
+        <div className="flex flex-col lg:flex-row gap-3 lg:flex-1 lg:min-h-0" style={{ flex: '1 1 50%' }}>
+          {/* Allied Orgs + Engagement Pipeline (like Location panel) */}
+          <div className="lg:w-2/5 min-w-0 min-h-[300px] lg:min-h-0">
+            <div className="bg-bg-panel border border-border rounded-lg p-4 panel-hover h-full flex flex-col overflow-hidden">
+              {/* Allied Organizations */}
+              <h2 className="font-mono text-sm font-bold text-text-primary tracking-wide mb-2">
+                ALLIED ORGANIZATIONS
+              </h2>
+              <div className="space-y-2 mb-4">
+                {org.aligned_organizations?.map((ally, i) => (
+                  <div key={i} className="flex items-start gap-2 text-sm">
+                    <span className="text-accent-green mt-0.5">●</span>
+                    <div>
+                      {ally.url ? (
+                        <a
+                          href={ally.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-text-primary font-medium hover:text-accent-blue transition-colors"
+                        >
+                          {ally.name} <span className="text-text-tertiary text-xs">↗</span>
+                        </a>
+                      ) : (
+                        <span className="text-text-primary font-medium">{ally.name}</span>
+                      )}
+                      <span className="text-text-tertiary"> — {ally.relationship}</span>
+                    </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
+
+              {/* Engagement Pipeline */}
+              <div className="flex-1 overflow-y-auto min-h-0">
+                <h2 className="font-mono text-sm font-bold text-text-primary tracking-wide mb-3">
+                  ENGAGEMENT PIPELINE
+                </h2>
+                <EngagementPipeline pipeline={org.engagement_pipeline} />
+              </div>
             </div>
           </div>
 
-          {/* Engagement Pipeline */}
-          <div className="bg-bg-panel border border-border rounded-lg p-4 panel-hover">
-            <h2 className="font-mono text-sm font-bold text-text-primary tracking-wide mb-3">
-              ENGAGEMENT PIPELINE
-            </h2>
-            <EngagementPipeline pipeline={org.engagement_pipeline} />
-          </div>
-        </div>
-
-        {/* Right column */}
-        <div className="lg:w-3/5 space-y-4">
-          {/* Active Campaigns */}
-          <div className="bg-bg-panel border border-border rounded-lg p-4 panel-hover">
-            <h2 className="font-mono text-sm font-bold text-text-primary tracking-wide mb-3">
-              ACTIVE CAMPAIGNS
-            </h2>
-            <CampaignList
-              campaigns={org.active_campaigns}
-              selectedId={selectedCampaignId}
-              onSelect={setSelectedCampaignId}
-            />
+          {/* Active Campaigns (like Issues feed) */}
+          <div className="lg:w-[30%] min-w-0 min-h-[300px] lg:min-h-0">
+            <div className="bg-bg-panel border border-border rounded-lg p-3 panel-hover h-full flex flex-col overflow-hidden">
+              <h2 className="font-mono text-sm font-bold text-text-primary tracking-wide mb-3">
+                ACTIVE CAMPAIGNS
+              </h2>
+              <div className="flex-1 overflow-y-auto min-h-0">
+                <CampaignList
+                  campaigns={org.active_campaigns}
+                  selectedId={selectedCampaignId}
+                  onSelect={handleCampaignSelect}
+                />
+              </div>
+            </div>
           </div>
 
-          {/* Campaign Detail */}
-          <div className="bg-bg-panel border border-border rounded-lg p-4 panel-hover min-h-[200px]">
-            <CampaignDetail campaign={selectedCampaign} />
+          {/* Org Next Steps (like Next Steps) */}
+          <div className="lg:w-[30%] min-w-0 min-h-[300px] lg:min-h-0">
+            <OrgNextSteps steps={org.practical_next_steps_for_org} />
           </div>
-
-          {/* Org Next Steps */}
-          <OrgNextSteps steps={org.practical_next_steps_for_org} />
         </div>
       </div>
+
+      {/* Campaign Detail Modal */}
+      <DetailModal
+        open={campaignModalOpen}
+        onClose={() => setCampaignModalOpen(false)}
+        title="ACTIVE CAMPAIGNS"
+        tabs={campaignTabs}
+        activeTab={selectedCampaignId}
+        onTabChange={setSelectedCampaignId}
+      >
+        <CampaignDetail campaign={selectedCampaign} />
+      </DetailModal>
     </div>
   )
 }

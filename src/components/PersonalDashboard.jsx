@@ -8,6 +8,7 @@ import IssueDetail from './IssueDetail'
 import NextStepsPanel from './NextStepsPanel'
 import PoliticalCompass from './PoliticalCompass'
 import ExportButton from './shared/ExportButton'
+import DetailModal from './shared/DetailModal'
 
 const PROFILE_ID = 'austin-78702'
 
@@ -18,6 +19,7 @@ export default function PersonalDashboard() {
   const [freshness, setFreshness] = useState(null)
   const [loading, setLoading] = useState(true)
   const [selectedIssueId, setSelectedIssueId] = useState(null)
+  const [issueModalOpen, setIssueModalOpen] = useState(false)
 
   useEffect(() => {
     Promise.all([
@@ -109,7 +111,12 @@ export default function PersonalDashboard() {
   const issues = issuesData?.issues || []
   const selectedIssue = issues.find((i) => i.id === selectedIssueId)
 
-  // Build compass entities from profile data — location context only (no external orgs)
+  const handleSelectIssue = (issueId) => {
+    setSelectedIssueId(issueId)
+    setIssueModalOpen(true)
+  }
+
+  // Build compass entities from profile data
   const compassEntities = []
   if (profile?.political_compass) {
     const pc = profile.political_compass
@@ -135,6 +142,12 @@ export default function PersonalDashboard() {
     next_steps: profile.next_steps,
   })
 
+  // Issue tabs for modal
+  const issueTabs = issues.map((i) => ({
+    id: i.id,
+    label: i.title.length > 30 ? i.title.slice(0, 28) + '...' : i.title,
+  }))
+
   return (
     <div className="h-full p-3 flex flex-col gap-3 overflow-auto lg:overflow-hidden animate-fade-in">
       {/* Utility bar */}
@@ -155,7 +168,7 @@ export default function PersonalDashboard() {
         <div className="lg:w-[35%] min-w-0 min-h-[300px] lg:min-h-0">
           <PriorityMatrix
             issues={issues}
-            onSelectIssue={setSelectedIssueId}
+            onSelectIssue={handleSelectIssue}
             selectedIssueId={selectedIssueId}
           />
         </div>
@@ -167,23 +180,31 @@ export default function PersonalDashboard() {
           <LocationPanel location={location} />
         </div>
         <div className="lg:w-[30%] min-w-0 min-h-[300px] lg:min-h-0">
-          {selectedIssue ? (
-            <IssueDetail
-              issue={selectedIssue}
-              onClose={() => setSelectedIssueId(null)}
-            />
-          ) : (
-            <IssueFeed
-              issues={issues}
-              onSelectIssue={setSelectedIssueId}
-              selectedIssueId={selectedIssueId}
-            />
-          )}
+          <IssueFeed
+            issues={issues}
+            onSelectIssue={handleSelectIssue}
+            selectedIssueId={selectedIssueId}
+          />
         </div>
         <div className="lg:w-[30%] min-w-0 min-h-[300px] lg:min-h-0">
           <NextStepsPanel profile={profile} />
         </div>
       </div>
+
+      {/* Issue Detail Modal */}
+      <DetailModal
+        open={issueModalOpen}
+        onClose={() => setIssueModalOpen(false)}
+        title="ISSUES"
+        tabs={issueTabs}
+        activeTab={selectedIssueId}
+        onTabChange={setSelectedIssueId}
+      >
+        <IssueDetail
+          issue={selectedIssue}
+          onClose={() => setIssueModalOpen(false)}
+        />
+      </DetailModal>
     </div>
   )
 }

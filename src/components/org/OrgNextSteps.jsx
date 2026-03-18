@@ -58,7 +58,7 @@ export default function OrgNextSteps({ steps }) {
   let globalIdx = 0
 
   return (
-    <div className="bg-bg-panel border border-border rounded-lg p-4 panel-hover">
+    <div className="bg-bg-panel border border-border rounded-lg p-4 panel-hover h-full flex flex-col overflow-hidden">
       <div className="flex items-center gap-2 mb-3">
         <h2 className="font-mono text-sm font-bold text-text-primary tracking-wide">
           PRACTICAL NEXT STEPS FOR THE ORGANIZATION
@@ -66,6 +66,7 @@ export default function OrgNextSteps({ steps }) {
         <AiGeneratedBadge />
       </div>
 
+      <div className="flex-1 overflow-y-auto min-h-0">
       {steps.immediate?.length > 0 && (
         <div className="mb-3">
           <h3 className="font-mono text-xs font-bold text-text-tertiary tracking-wide mb-2">IMMEDIATE</h3>
@@ -98,6 +99,7 @@ export default function OrgNextSteps({ steps }) {
           </div>
         </div>
       )}
+      </div>
     </div>
   )
 }
