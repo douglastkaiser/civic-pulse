@@ -1,5 +1,6 @@
 import { useMemo } from 'react'
 import Plot from 'react-plotly.js'
+import ContextTooltip from './shared/ContextTooltip'
 
 const QUADRANT_COLORS = {
   act_now: '#22c55e',
@@ -115,9 +116,12 @@ export default function PriorityMatrix({ issues, onSelectIssue, selectedIssueId 
 
   return (
     <div className="bg-bg-panel border border-border rounded-lg p-3 flex flex-col h-full panel-hover">
-      <h2 className="font-mono text-sm font-bold text-text-primary tracking-wide mb-2">
-        PRIORITY MATRIX
-      </h2>
+      <div className="flex items-center gap-2 mb-2">
+        <h2 className="font-mono text-sm font-bold text-text-primary tracking-wide">
+          PRIORITY MATRIX
+        </h2>
+        <ContextTooltip text="Issues are plotted by how much they align with your stated values (importance) vs. how much leverage you have to affect the outcome (impact). Top-right quadrant items are where your time is best spent." />
+      </div>
       {issues?.length > 0 ? (
         <div className="flex-1 min-h-0">
           <Plot

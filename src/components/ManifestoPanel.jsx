@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import AiGeneratedBadge from './shared/AiGeneratedBadge'
 
 function PositionCard({ position }) {
   const [expanded, setExpanded] = useState(false)
@@ -43,6 +44,8 @@ function PositionCard({ position }) {
 }
 
 export default function ManifestoPanel({ profile }) {
+  const [expanded, setExpanded] = useState(false)
+
   if (!profile) return null
 
   const { manifesto, manifesto_inputs_complete, political_context } = profile
@@ -50,9 +53,12 @@ export default function ManifestoPanel({ profile }) {
   return (
     <div className="bg-bg-panel border border-border rounded-lg p-4 flex flex-col h-full overflow-hidden panel-hover">
       <div className="flex items-center justify-between mb-3">
-        <h2 className="font-mono text-sm font-bold text-text-primary tracking-wide">
-          MANIFESTO
-        </h2>
+        <div className="flex items-center gap-2">
+          <h2 className="font-mono text-sm font-bold text-text-primary tracking-wide">
+            MANIFESTO
+          </h2>
+          <AiGeneratedBadge />
+        </div>
         {political_context?.party_lean && (
           <span className="text-xs text-text-tertiary font-mono">
             {political_context.party_lean}
@@ -66,8 +72,8 @@ export default function ManifestoPanel({ profile }) {
         </div>
       )}
 
-      <div className="flex-1 overflow-y-auto space-y-4 min-h-0">
-        {/* Identity Tags */}
+      <div className="flex-1 overflow-y-auto space-y-3 min-h-0">
+        {/* Identity Tags — always visible */}
         {manifesto?.identity_tags?.length > 0 && (
           <div className="flex flex-wrap gap-1.5">
             {manifesto.identity_tags.map((tag) => (
@@ -81,22 +87,42 @@ export default function ManifestoPanel({ profile }) {
           </div>
         )}
 
-        {/* Narrative */}
-        {manifesto?.narrative && (
-          <div className="text-sm text-text-secondary leading-relaxed whitespace-pre-wrap">
-            {manifesto.narrative}
-          </div>
+        {/* Summary — always visible */}
+        {manifesto?.manifesto_summary && (
+          <p className="text-sm text-text-primary leading-relaxed font-medium">
+            {manifesto.manifesto_summary}
+          </p>
         )}
 
-        {/* Issue Positions */}
-        {manifesto?.issue_positions?.length > 0 && (
-          <div className="space-y-1.5">
-            <h3 className="font-mono text-xs font-bold text-text-tertiary tracking-wide">
-              POSITIONS
-            </h3>
-            {manifesto.issue_positions.map((pos) => (
-              <PositionCard key={pos.domain} position={pos} />
-            ))}
+        {/* Expand toggle */}
+        <button
+          onClick={() => setExpanded(!expanded)}
+          className="text-xs text-accent-blue hover:text-accent-blue/80 font-mono transition-colors"
+        >
+          {expanded ? 'Collapse manifesto ▴' : 'Read full manifesto ▾'}
+        </button>
+
+        {/* Expanded content */}
+        {expanded && (
+          <div className="space-y-4 section-content">
+            {/* Full Narrative */}
+            {manifesto?.narrative && (
+              <div className="text-sm text-text-secondary leading-relaxed whitespace-pre-wrap">
+                {manifesto.narrative}
+              </div>
+            )}
+
+            {/* Issue Positions */}
+            {manifesto?.issue_positions?.length > 0 && (
+              <div className="space-y-1.5">
+                <h3 className="font-mono text-xs font-bold text-text-tertiary tracking-wide">
+                  POSITIONS
+                </h3>
+                {manifesto.issue_positions.map((pos) => (
+                  <PositionCard key={pos.domain} position={pos} />
+                ))}
+              </div>
+            )}
           </div>
         )}
       </div>

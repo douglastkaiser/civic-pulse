@@ -52,6 +52,7 @@
   },
   "manifesto_inputs_complete": true,
   "manifesto": {
+    "manifesto_summary": "Pro-housing pragmatist. I want a government that builds things, measures what works, and doesn't let ideology get in the way of outcomes.",
     "narrative": "I believe in building. Austin's future depends on our willingness to grow — to add housing, to invest in transit, to let density happen where it makes sense. I'm not interested in preserving a version of Austin that only exists in nostalgia; I'm interested in making a city that works for the people who live here now and the people who will live here next.\n\nI'm a Democrat, but I'm not a populist. I believe in progressive taxation, robust public services, and strong social safety nets — but I believe these things work best when paired with fiscal discipline, evidence-based policy, and a government that respects market dynamics rather than fighting them. When I hear class-warfare rhetoric from my own party, I wince — not because the underlying concerns are wrong, but because the framing is counterproductive and the proposed solutions are often worse than the problems they claim to solve.\n\nWhat drives me politically is competence. I want elected officials who understand the systems they're governing, who make decisions based on data rather than ideology, and who measure success by outcomes rather than intentions. I'd rather have a boring pragmatist who gets things built than an inspiring ideologue who gives great speeches and accomplishes nothing.\n\nLocally, that means I'm YIMBY to my core. The housing crisis is a supply problem, and the solution is building more housing at every price point. I support upzoning along transit corridors, reforming parking minimums, streamlining permitting, and telling neighborhood preservation groups — respectfully but firmly — that their aesthetic preferences don't outweigh other people's need for somewhere to live.",
     "identity_tags": [
       "pragmatic urbanist",
@@ -172,6 +173,17 @@
         "impact": "VERY HIGH",
         "reason": null
       }
+    ]
+  },
+  "political_compass": {
+    "user": { "economic": -0.2, "social": -0.3, "spread": 0.15 },
+    "city_austin": { "economic": -0.15, "social": -0.2, "spread": 0.25 },
+    "state_texas": { "economic": 0.3, "social": 0.2, "spread": 0.35 },
+    "democratic_party": { "economic": -0.3, "social": -0.1, "spread": 0.3 },
+    "republican_party": { "economic": 0.4, "social": 0.3, "spread": 0.25 },
+    "local_orgs": [
+      { "name": "AURA", "economic": -0.1, "social": -0.4, "spread": 0.1 },
+      { "name": "Travis Co Dems", "economic": -0.35, "social": -0.1, "spread": 0.2 }
     ]
   }
 }

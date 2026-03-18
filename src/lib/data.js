@@ -33,3 +33,9 @@ export function loadFreshness() {
 export async function loadAllProfiles() {
   return Promise.all(PROFILE_IDS.map((id) => loadProfile(id)))
 }
+
+export const ORG_IDS = ['austin-yimby-action']
+
+export function loadOrg(orgId) {
+  return fetchJSON(`orgs/${orgId}.json`)
+}
