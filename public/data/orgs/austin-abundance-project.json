@@ -1,0 +1,163 @@
+{
+  "id": "austin-abundance-project",
+  "name": "Austin Abundance Project",
+  "tagline": "Remove the barriers. Let people build families.",
+  "mission": "Society should make it radically easy for people who want children to have them. The barriers to family formation — unaffordable childcare, scarce family-sized housing, nonexistent parental leave, crumbling school infrastructure — are policy failures, not personal failures. Fix the policy, and people who want families can build them.\n\nThis is not about pressuring anyone to have children or moralizing about birth rates. It is about removing structural obstacles for the people who already want kids but cannot afford them or cannot make the logistics work. And it is emphatically not about traditional family structures exclusively — single parents, same-sex couples, non-traditional families all face the same infrastructure failures, and the solutions should serve everyone.\n\nWe treat childcare, parental leave, family-sized housing, and pediatric healthcare as INFRASTRUCTURE problems with engineering solutions, not culture war issues.\n\nThe accelerationist case is simple: more humans means more ideas means more progress. A society that makes parenthood punishing is leaving human potential on the table. Austin's tech culture should understand this intuitively — we optimize systems for a living. Family formation is a system with fixable bottlenecks.\n\nWhy Austin, specifically? Because the bottlenecks are acute here:\n\n• Austin has one of the worst childcare cost-to-income ratios in Texas. Average infant care costs $12,000-15,000 per year. Waitlists are months long. Large swaths of the city are childcare deserts with no licensed providers within reasonable distance.\n\n• Travis County Commissioners Court just allocated $5,046,004 to childcare quality improvement and capacity expansion through an interlocal agreement with the City of Austin, from the Raising Travis County fund. This is real money moving — it needs organized advocates to ensure it is spent effectively.\n\n• Austin's median age is approximately 34. The city is full of millennials and young Gen-X in peak family-formation years, many working in tech with the income but facing structural barriers: housing cost, childcare scarcity, no paid leave, commute times eating into family hours.\n\n• Texas has NO state-mandated paid family leave. Federal FMLA only guarantees unpaid leave. The fight happens at the employer and city level — Austin can lead as a tech hub where major employers are persuadable.\n\n• The housing crisis IS a family formation crisis. You cannot have a second kid in a one-bedroom apartment. Family-sized housing (2BR+) is the scarcest and most expensive segment of Austin's market. Building more housing IS pro-family policy.\n\n• Austin ISD faces enrollment decline and budget pressures as families with resources leave for suburbs with newer schools. Keeping families in urban Austin requires both housing affordability and school quality.",
+  "theory_of_change": "Family formation barriers in Austin are concentrated in a few specific, addressable policy domains: childcare facility zoning, employer benefits transparency, housing supply, and county/city investment oversight. The $5M Raising Travis County investment creates an immediate accountability opportunity. Employer transparency campaigns work because Austin's tech labor market is competitive — companies respond to talent retention pressure. Childcare zoning reform is achievable because it aligns with both progressive (equity) and conservative (deregulation) values. And the housing connection means we amplify the YIMBY movement's work while adding a constituency — parents and prospective parents — that politicians find very sympathetic. Every campaign has a specific lever, a specific decision-maker, and a realistic path to impact.",
+  "geographic_scope": {
+    "city": "Austin",
+    "county": "Travis County",
+    "state": "Texas"
+  },
+  "founded": "2026-03-18",
+  "political_positioning": {
+    "description": "Center-left economically — we believe in public investment in childcare and family infrastructure. Libertarian-leaning socially — we do not moralize about family structure and support all family types. Explicitly not aligned with religious-right pro-natalism. Explicitly not aligned with anti-tech or anti-growth perspectives. We are a broad coalition: tech workers, working parents, childcare providers, urbanists who see the housing-family connection, and employers who compete for talent and understand that family-friendly policy is a competitive advantage.",
+    "compass_cloud": {
+      "economic_center": -0.15,
+      "economic_spread": 0.35,
+      "social_center": -0.25,
+      "social_spread": 0.3
+    }
+  },
+  "key_policy_positions": [
+    "Reform childcare facility zoning to make it easier to open home-based and small-center childcare in residential areas",
+    "Monitor and advocate for effective deployment of the $5M Raising Travis County childcare investment",
+    "Advocate for employer childcare benefits and paid parental leave at Austin's major tech employers",
+    "Push for family-sized unit requirements or incentives (2BR+) in new housing developments",
+    "Require paid parental leave disclosures from City of Austin contractors",
+    "Research and publish employer transparency data on parental leave and family benefits",
+    "Support co-housing and innovative family housing models",
+    "Advocate for urban school quality to keep families in Austin rather than losing them to suburban flight",
+    "Connect family housing needs to the broader housing supply agenda"
+  ],
+  "active_campaigns": [
+    {
+      "id": "childcare-desert-mapping",
+      "title": "Childcare Desert Mapping & Advocacy",
+      "status": "active",
+      "priority": "high",
+      "summary": "Use public data to map Austin's childcare deserts — areas with no licensed childcare providers within reasonable distance — and overlay with population density, family demographics, and income data. The resulting map becomes the advocacy tool: it shows exactly where the gaps are and makes the case for targeted facility expansion.\n\nSimultaneously, monitor the $5,046,004 Raising Travis County childcare investment to ensure the money goes where the need is greatest. Track how the funds are allocated, which providers receive support, and whether the investment actually expands capacity in underserved areas or just subsidizes existing providers in well-served ones.\n\nAdvocate for childcare facility zoning reform — current rules make it unnecessarily difficult to open home-based and small-center childcare in residential areas. This is a deregulatory reform that should appeal across the political spectrum.",
+      "theory_of_change": "Data-driven advocacy works because it makes the invisible visible. Council members and county commissioners can ignore abstract complaints about childcare scarcity but cannot ignore a map showing their district is a childcare desert. The $5M county investment creates an accountability hook — public money requires public scrutiny. Zoning reform for childcare facilities is achievable because it aligns with both left (equity, access) and right (deregulation, property rights) values, making it a rare bipartisan opportunity.",
+      "next_actions": [
+        "Compile licensed childcare provider locations from Texas HHS database",
+        "Overlay provider data with Census tract demographics (under-5 population, household income, family households)",
+        "Identify childcare desert zones: areas with high family density and low provider density",
+        "Track $5M Raising Travis County fund allocation decisions and timelines",
+        "Draft childcare zoning reform proposal for residential areas",
+        "Present desert map findings to Travis County Commissioners Court"
+      ]
+    },
+    {
+      "id": "employer-index",
+      "title": "Austin Family-Friendly Employer Index",
+      "status": "planning",
+      "priority": "high",
+      "summary": "Research and publish a scorecard of Austin's top 50 employers on parental leave duration and pay, childcare benefits (subsidies, on-site care, backup care), flexible/remote work policies, and family support (fertility benefits, adoption support, family medical leave beyond FMLA).\n\nName names. Create competitive pressure. In Austin's tight tech labor market, being publicly ranked as family-unfriendly is a recruiting liability. The index gives companies a reason to improve and gives workers information to make informed employment decisions.\n\nAdvocate for the City of Austin to require paid parental leave disclosures from city contractors — a lever the city actually has without state legislation.",
+      "theory_of_change": "Transparency creates competitive pressure in tight labor markets. When employer A's parental leave policy is publicly compared to employer B's, the laggard faces recruiting disadvantage. This works especially well in Austin's tech sector where talent competition is fierce and workers have options. The city contractor disclosure requirement adds a policy lever that doesn't require state legislation. Published rankings get media coverage, which amplifies the pressure beyond the direct readership.",
+      "next_actions": [
+        "Identify Austin's top 50 employers by headcount in tech, healthcare, government, and education",
+        "Design scorecard methodology: categories, weighting, data sources, verification process",
+        "Send survey to HR departments with public records requests as backup",
+        "Research City of Austin contractor disclosure requirements and identify legal pathway",
+        "Draft op-ed framing the index as pro-business talent retention, not anti-employer",
+        "Partner with Austin tech community groups (Austin Tech Alliance, Capital Factory) for distribution"
+      ]
+    },
+    {
+      "id": "family-housing-campaign",
+      "title": "Family-Sized Housing Campaign",
+      "status": "planning",
+      "priority": "medium",
+      "summary": "Connect with Austin YIMBY Action's housing advocacy to ensure new development includes family-appropriate units — not just studios and 1-bedrooms. Family-sized housing (2BR+) is the scarcest and most expensive segment of Austin's market because developers maximize unit count at smaller sizes.\n\nAdvocate for family-sized unit incentives in new developments: density bonuses for projects that include a minimum percentage of 2BR+ units, reduced parking requirements for family units near transit, and support for co-housing and innovative family housing models.\n\nThis campaign explicitly connects the pro-family and pro-housing movements. Building more housing of every type is the single most effective pro-family policy available at the local level.",
+      "theory_of_change": "The housing supply argument is already winning in Austin politics. This campaign adds a powerful constituency — parents and prospective parents — to the pro-housing coalition. 'Build family-sized housing' is a more emotionally resonant message than 'increase housing supply' and reaches audiences who might not respond to urbanist framing. By working through the existing YIMBY coalition rather than creating parallel advocacy, we amplify rather than fragment the pro-building movement.",
+      "next_actions": [
+        "Analyze Austin permitting data for unit size distribution in recent developments",
+        "Research density bonus programs in other cities that incentivize family-sized units",
+        "Draft family-sized housing incentive proposal for Austin Planning Commission",
+        "Coordinate with Austin YIMBY Action on joint advocacy and shared messaging",
+        "Identify co-housing and innovative family housing developers active in Texas",
+        "Develop family housing fact sheet: cost data, supply gaps, demographic need"
+      ]
+    }
+  ],
+  "aligned_organizations": [
+    {"name": "Austin YIMBY Action", "relationship": "Primary cross-movement ally. Their housing supply advocacy directly enables family formation. Our family-sized housing campaign feeds into their development advocacy. Shared interest in council elections and golf course rezoning."},
+    {"name": "AURA", "relationship": "Aligned on housing supply and affordability. Their policy expertise informs our family housing advocacy."},
+    {"name": "Austin Tech Alliance", "relationship": "Potential partner for employer index distribution and family-friendly workplace advocacy. Tech employer network."},
+    {"name": "United Way for Greater Austin", "relationship": "Aligned on childcare access and family economic stability. Potential data sharing partner for childcare mapping."},
+    {"name": "Workforce Solutions Capital Area", "relationship": "Administers childcare subsidy programs. Key information source for understanding childcare access barriers."},
+    {"name": "Austin ISD", "relationship": "Shared interest in keeping families in urban Austin. School quality and enrollment data inform housing advocacy."},
+    {"name": "Any Baby Can", "relationship": "Austin-based family support nonprofit. Aligned on early childhood and family services infrastructure."}
+  ],
+  "engagement_pipeline": {
+    "awareness": "Social media, tech community forums, parenting groups, childcare provider networks. Publish the employer index and childcare desert map for organic distribution.",
+    "interest": "Attend a family policy briefing. Read the employer index. Check if your neighborhood is a childcare desert. Share your own family formation story.",
+    "action": "Submit public comment on childcare zoning reform. Share the employer index with your HR department. Attend a county commissioners meeting on Raising Travis County fund deployment. Testify at planning commission on family-sized housing.",
+    "leadership": "Join the research team for the employer index. Lead the childcare mapping data analysis. Coordinate with Austin YIMBY Action on joint housing campaigns. Represent us at county budget hearings."
+  },
+  "practical_next_steps_for_org": {
+    "immediate": [
+      {
+        "action": "Begin childcare provider data compilation from TX HHS database",
+        "owner": "Data team",
+        "deadline": "2026-04-01",
+        "effort": "4 hours",
+        "impact": "high"
+      },
+      {
+        "action": "Identify Austin's top 50 employers for index research",
+        "owner": "Research team",
+        "deadline": "2026-04-15",
+        "effort": "3 hours",
+        "impact": "high"
+      },
+      {
+        "action": "Contact Austin YIMBY Action to formalize cross-org coordination",
+        "owner": "Steering committee",
+        "deadline": "2026-03-25",
+        "effort": "1 hour",
+        "impact": "medium"
+      }
+    ],
+    "medium_term": [
+      {
+        "action": "Complete and publish childcare desert map v1",
+        "deadline": "2026-06-01",
+        "effort": "20 hours total",
+        "impact": "very high"
+      },
+      {
+        "action": "Send employer survey for family-friendly index",
+        "deadline": "2026-05-15",
+        "effort": "10 hours",
+        "impact": "high"
+      },
+      {
+        "action": "Draft childcare zoning reform proposal",
+        "deadline": "2026-06-15",
+        "effort": "8 hours",
+        "impact": "high"
+      }
+    ],
+    "strategic": [
+      {
+        "action": "Publish Austin Family-Friendly Employer Index v1",
+        "timeframe": "Q3 2026",
+        "impact": "very high",
+        "notes": "Timed to get media coverage before November elections — makes family policy part of the council race conversation."
+      },
+      {
+        "action": "Advocate for family-sized housing incentives in upcoming development cases",
+        "timeframe": "Ongoing from Q2 2026",
+        "impact": "high",
+        "notes": "Work through Austin YIMBY Action coalition to add family-sized unit advocacy to existing testimony at rezoning hearings."
+      },
+      {
+        "action": "Present Raising Travis County fund accountability report to commissioners",
+        "timeframe": "Q4 2026",
+        "impact": "high",
+        "notes": "Track how the $5M was spent, whether it expanded capacity in childcare deserts, and publish findings. Accountability reporting builds credibility for future advocacy."
+      }
+    ]
+  }
+}
