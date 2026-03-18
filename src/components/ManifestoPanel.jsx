@@ -102,27 +102,26 @@ export default function ManifestoPanel({ profile }) {
           {expanded ? 'Collapse manifesto ▴' : 'Read full manifesto ▾'}
         </button>
 
-        {/* Expanded content */}
+        {/* Expanded content — full narrative */}
         {expanded && (
           <div className="space-y-4 section-content">
-            {/* Full Narrative */}
             {manifesto?.narrative && (
               <div className="text-sm text-text-secondary leading-relaxed whitespace-pre-wrap">
                 {manifesto.narrative}
               </div>
             )}
+          </div>
+        )}
 
-            {/* Issue Positions */}
-            {manifesto?.issue_positions?.length > 0 && (
-              <div className="space-y-1.5">
-                <h3 className="font-mono text-xs font-bold text-text-tertiary tracking-wide">
-                  POSITIONS
-                </h3>
-                {manifesto.issue_positions.map((pos) => (
-                  <PositionCard key={pos.domain} position={pos} />
-                ))}
-              </div>
-            )}
+        {/* Issue Positions — always visible */}
+        {manifesto?.issue_positions?.length > 0 && (
+          <div className="space-y-1.5 mt-3">
+            <h3 className="font-mono text-xs font-bold text-text-tertiary tracking-wide">
+              POSITIONS
+            </h3>
+            {manifesto.issue_positions.map((pos) => (
+              <PositionCard key={pos.domain} position={pos} />
+            ))}
           </div>
         )}
       </div>
