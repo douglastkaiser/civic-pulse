@@ -97,7 +97,7 @@ export default function OrgDashboard() {
   })
 
   return (
-    <div className="h-full overflow-auto">
+    <div className="h-full overflow-auto animate-fade-in">
       {/* Header */}
       <div className="px-4 py-3 border-b border-border bg-bg-panel">
         <div className="flex items-center justify-between">

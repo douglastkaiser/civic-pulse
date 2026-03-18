@@ -117,7 +117,7 @@ export default function PersonalDashboard() {
   }
 
   return (
-    <div className="h-full p-3 flex flex-col gap-3 overflow-auto lg:overflow-hidden">
+    <div className="h-full p-3 flex flex-col gap-3 overflow-auto lg:overflow-hidden animate-fade-in">
       {/* Top row: Manifesto + Location */}
       <div className="flex flex-col lg:flex-row gap-3 lg:flex-1 lg:min-h-0" style={{ flex: '1 1 50%' }}>
         <div className="lg:w-2/5 min-w-0 min-h-[300px] lg:min-h-0">

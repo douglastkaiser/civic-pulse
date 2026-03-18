@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 export default function NewOrg() {
   return (
-    <div className="h-full overflow-auto p-4">
+    <div className="h-full overflow-auto p-4 animate-fade-in">
       <Link to="/dashboard" className="text-xs text-text-tertiary hover:text-accent-blue font-mono transition-colors">
         ← Back to Dashboard
       </Link>
