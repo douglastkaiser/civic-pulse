@@ -29,7 +29,7 @@ export default function DetailModal({ open, onClose, title, tabs, activeTab, onT
       onClick={(e) => { if (e.target === backdropRef.current) onClose() }}
     >
       {/* Backdrop */}
-      <div className="absolute inset-0 bg-black/70" />
+      <div className="absolute inset-0 bg-black/70 pointer-events-none" />
 
       {/* Modal panel */}
       <div className="relative w-[85vw] max-w-6xl h-[85vh] bg-bg-panel border border-border rounded-lg flex flex-col overflow-hidden shadow-2xl">
