@@ -49,15 +49,15 @@ function CompassSvg({ entities, size, hoveredIdx, setHoveredIdx }) {
 
       {/* Axis labels */}
       <text x={axisStart + 2} y={center - 6} fill="#475569" fontSize={fontSize} fontFamily="JetBrains Mono, monospace">Econ Left</text>
-      <text x={axisEnd - 40} y={center - 6} fill="#475569" fontSize={fontSize} fontFamily="JetBrains Mono, monospace">Econ Right</text>
+      <text x={axisEnd - 2} y={center - 6} fill="#475569" fontSize={fontSize} fontFamily="JetBrains Mono, monospace" textAnchor="end">Econ Right</text>
       <text x={center + 4} y={axisStart + 8} fill="#475569" fontSize={fontSize} fontFamily="JetBrains Mono, monospace">Auth</text>
       <text x={center + 4} y={axisEnd - 4} fill="#475569" fontSize={fontSize} fontFamily="JetBrains Mono, monospace">Lib</text>
 
       {/* Quadrant labels */}
       <text x={axisStart + 4} y={axisStart + 14} fill="#475569" fontSize={labelFontSize} fontFamily="JetBrains Mono, monospace" opacity="0.5">Auth Left</text>
-      <text x={axisEnd - 46} y={axisStart + 14} fill="#475569" fontSize={labelFontSize} fontFamily="JetBrains Mono, monospace" opacity="0.5">Auth Right</text>
+      <text x={axisEnd - 4} y={axisStart + 14} fill="#475569" fontSize={labelFontSize} fontFamily="JetBrains Mono, monospace" opacity="0.5" textAnchor="end">Auth Right</text>
       <text x={axisStart + 4} y={axisEnd - 6} fill="#475569" fontSize={labelFontSize} fontFamily="JetBrains Mono, monospace" opacity="0.5">Lib Left</text>
-      <text x={axisEnd - 40} y={axisEnd - 6} fill="#475569" fontSize={labelFontSize} fontFamily="JetBrains Mono, monospace" opacity="0.5">Lib Right</text>
+      <text x={axisEnd - 4} y={axisEnd - 6} fill="#475569" fontSize={labelFontSize} fontFamily="JetBrains Mono, monospace" opacity="0.5" textAnchor="end">Lib Right</text>
 
       {/* Entity clouds */}
       {entities.map((entity, i) => {
