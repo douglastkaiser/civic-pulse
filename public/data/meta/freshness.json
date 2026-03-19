@@ -3,27 +3,27 @@
     "austin-78702": {
       "manifesto_generated": "2026-03-16T12:00:00Z",
       "manifesto_inputs_complete": true,
-      "location_scraped": "2026-03-16T12:00:00Z",
-      "issues_scraped": "2026-03-16T12:00:00Z",
+      "location_scraped": "2026-03-19T04:02:00.158955+00:00",
+      "issues_scraped": "2026-03-19T04:02:00.159515+00:00",
       "issues_scored": "2026-03-16T12:00:00Z",
       "next_steps_generated": "2026-03-16T12:00:00Z",
-      "needs_rescrape": false,
+      "needs_rescrape": "2026-03-19T04:02:00.159515+00:00",
       "needs_manifesto_update": false
     },
     "brooklyn-ny": {
       "manifesto_generated": "2026-03-16T12:00:00Z",
       "manifesto_inputs_complete": false,
-      "location_scraped": "2026-03-16T12:00:00Z",
-      "issues_scraped": null,
+      "location_scraped": "2026-03-19T04:02:00.160520+00:00",
+      "issues_scraped": "2026-03-19T04:02:00.160950+00:00",
       "issues_scored": null,
       "next_steps_generated": null,
-      "needs_rescrape": true,
+      "needs_rescrape": "2026-03-19T04:02:00.160950+00:00",
       "needs_manifesto_update": true
     },
     "madison-wi": {
       "manifesto_generated": "2026-03-16T12:00:00Z",
       "manifesto_inputs_complete": false,
-      "location_scraped": "2026-03-16T12:00:00Z",
+      "location_scraped": "2026-03-19T04:02:01.337088+00:00",
       "issues_scraped": null,
       "issues_scored": null,
       "next_steps_generated": null,
@@ -33,25 +33,25 @@
     "cambridge-ma": {
       "manifesto_generated": "2026-03-16T12:00:00Z",
       "manifesto_inputs_complete": false,
-      "location_scraped": "2026-03-16T12:00:00Z",
-      "issues_scraped": null,
+      "location_scraped": "2026-03-19T04:02:34.746251+00:00",
+      "issues_scraped": "2026-03-19T04:02:34.746706+00:00",
       "issues_scored": null,
       "next_steps_generated": null,
-      "needs_rescrape": true,
+      "needs_rescrape": "2026-03-19T04:02:34.746706+00:00",
       "needs_manifesto_update": true
     },
     "brookline-ma": {
       "manifesto_generated": "2026-03-16T12:00:00Z",
       "manifesto_inputs_complete": false,
-      "location_scraped": "2026-03-16T12:00:00Z",
-      "issues_scraped": null,
+      "location_scraped": "2026-03-19T04:02:34.747447+00:00",
+      "issues_scraped": "2026-03-19T04:02:34.747846+00:00",
       "issues_scored": null,
       "next_steps_generated": null,
-      "needs_rescrape": true,
+      "needs_rescrape": "2026-03-19T04:02:34.747846+00:00",
       "needs_manifesto_update": true
     }
   },
-  "last_full_run": "2026-03-16T12:00:00Z",
-  "last_run_status": "partial",
-  "last_run_errors": ["brooklyn-ny: issues not scraped", "madison-wi: issues not scraped", "cambridge-ma: issues not scraped", "brookline-ma: issues not scraped"]
+  "last_full_run": "2026-03-19T04:02:34.748274+00:00",
+  "last_run_status": "success",
+  "last_run_errors": []
 }
