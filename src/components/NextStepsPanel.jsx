@@ -1,5 +1,6 @@
 import AiGeneratedBadge from './shared/AiGeneratedBadge'
 import ContextTooltip from './shared/ContextTooltip'
+import CopyPromptButton from './shared/CopyPromptButton'
 
 const IMPACT_COLORS = {
   HIGH: 'bg-accent-red/15 text-accent-red border-accent-red/30',
@@ -41,6 +42,11 @@ function StepItem({ step, index }) {
         </div>
         {step.reason && (
           <div className="text-xs text-text-tertiary mt-1 italic">{step.reason}</div>
+        )}
+        {step.llm_prompt && (
+          <div className="mt-1">
+            <CopyPromptButton prompt={step.llm_prompt} />
+          </div>
         )}
       </div>
     </div>

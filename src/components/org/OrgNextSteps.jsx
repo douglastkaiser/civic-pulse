@@ -1,5 +1,6 @@
 import AiGeneratedBadge from '../shared/AiGeneratedBadge'
 import ContextTooltip from '../shared/ContextTooltip'
+import CopyPromptButton from '../shared/CopyPromptButton'
 
 const IMPACT_COLORS = {
   'very high': 'text-accent-red',
@@ -44,6 +45,11 @@ function StepCard({ step, index }) {
           {context && (
             <div className="mt-1">
               <ContextTooltip text={context} />
+            </div>
+          )}
+          {step.llm_prompt && (
+            <div className="mt-1">
+              <CopyPromptButton prompt={step.llm_prompt} />
             </div>
           )}
         </div>
