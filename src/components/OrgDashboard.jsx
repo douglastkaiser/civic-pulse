@@ -125,6 +125,11 @@ export default function OrgDashboard() {
     'Austin YIMBY Action': { economic: 0.15, social: -0.2, spread: 0.15 },
     'Austin Tech Alliance': { economic: 0.15, social: -0.2, spread: 0.1 },
     'United Way for Greater Austin': { economic: -0.2, social: -0.25, spread: 0.1 },
+    'Integral Care': { economic: -0.2, social: -0.15, spread: 0.1 },
+    'Austin Area Urban League': { economic: -0.15, social: -0.2, spread: 0.1 },
+    'Family Endeavors': { economic: -0.1, social: -0.1, spread: 0.1 },
+    'ECHO': { economic: -0.15, social: -0.2, spread: 0.1 },
+    'Austin Safe & Sound': { economic: 0.05, social: 0.0, spread: 0.15 },
   }
   org.aligned_organizations?.forEach((ally) => {
     const pos = orgPositions[ally.name]
