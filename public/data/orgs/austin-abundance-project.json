@@ -25,6 +25,7 @@
     "Advocate for employer childcare benefits and paid parental leave at Austin's major tech employers",
     "Push for family-sized unit requirements or incentives (2BR+) in new housing developments",
     "Require paid parental leave disclosures from City of Austin contractors",
+    "Advocate for competitive paid parental leave policies at the City of Austin, Travis County, and AISD as Austin's largest public employers",
     "Research and publish employer transparency data on parental leave and family benefits",
     "Support co-housing and innovative family housing models",
     "Advocate for urban school quality to keep families in Austin rather than losing them to suburban flight",
@@ -38,15 +39,16 @@
       "priority": "high",
       "importance_score": 88,
       "impact_score": 82,
-      "summary": "Use public data to map Austin's childcare deserts — areas with no licensed childcare providers within reasonable distance — and overlay with population density, family demographics, and income data. The resulting map becomes the advocacy tool: it shows exactly where the gaps are and makes the case for targeted facility expansion.\n\nSimultaneously, monitor the $5,046,004 Raising Travis County childcare investment to ensure the money goes where the need is greatest. Track how the funds are allocated, which providers receive support, and whether the investment actually expands capacity in underserved areas or just subsidizes existing providers in well-served ones.\n\nAdvocate for childcare facility zoning reform — current rules make it unnecessarily difficult to open home-based and small-center childcare in residential areas. This is a deregulatory reform that should appeal across the political spectrum.",
+      "summary": "Use public data to map Austin's childcare deserts — areas with no licensed childcare providers within reasonable distance. Three specific data sources form the foundation: the Texas HHS licensed childcare facility database (provider locations, capacity, license status), Census ACS data on children under 5 by tract (demand side), and Travis County childcare subsidy utilization data showing where subsidized families live versus where they can actually use their subsidies (access gaps). Overlay these three layers to produce an actual map of where the gaps are — this is a data project, exactly the kind of thing an AI-assisted civic org can do better than traditional advocacy groups.\n\nSimultaneously, monitor the $5,046,004 Raising Travis County childcare investment with facility-level and neighborhood-level accountability. Track which specific facilities get funded, which neighborhoods receive investment, and what the outcome metrics are — new slots created, waitlist reduction, subsidy utilization rates. This is accountability work: track the money, report on the outcomes. Are new slots being created in childcare deserts, or is the money subsidizing existing providers in well-served areas?\n\nAdvocate for childcare facility zoning reform — current rules make it unnecessarily difficult to open home-based and small-center childcare in residential areas. This is a deregulatory reform that should appeal across the political spectrum.",
       "theory_of_change": "Data-driven advocacy works because it makes the invisible visible. Council members and county commissioners can ignore abstract complaints about childcare scarcity but cannot ignore a map showing their district is a childcare desert. The $5M county investment creates an accountability hook — public money requires public scrutiny. Zoning reform for childcare facilities is achievable because it aligns with both left (equity, access) and right (deregulation, property rights) values, making it a rare bipartisan opportunity.",
       "next_actions": [
-        "Compile licensed childcare provider locations from Texas HHS database",
-        "Overlay provider data with Census tract demographics (under-5 population, household income, family households)",
-        "Identify childcare desert zones: areas with high family density and low provider density",
-        "Track $5M Raising Travis County fund allocation decisions and timelines",
+        "Compile licensed childcare provider locations from Texas HHS database (provider addresses, capacity, license type)",
+        "Pull Census ACS data on children under 5 by tract for Travis County (demand-side demographics)",
+        "Obtain Travis County childcare subsidy utilization data: where subsidized families live vs. where they access care",
+        "Overlay all three data sources to produce childcare desert map identifying gap zones",
+        "Track $5M Raising Travis County fund: which facilities get funded, which neighborhoods, what outcome metrics",
         "Draft childcare zoning reform proposal for residential areas",
-        "Present desert map findings to Travis County Commissioners Court"
+        "Present desert map and fund accountability findings to Travis County Commissioners Court"
       ]
     },
     {
@@ -56,11 +58,11 @@
       "priority": "high",
       "importance_score": 78,
       "impact_score": 72,
-      "summary": "Research and publish a scorecard of Austin's top 50 employers on parental leave duration and pay, childcare benefits (subsidies, on-site care, backup care), flexible/remote work policies, and family support (fertility benefits, adoption support, family medical leave beyond FMLA).\n\nName names. Create competitive pressure. In Austin's tight tech labor market, being publicly ranked as family-unfriendly is a recruiting liability. The index gives companies a reason to improve and gives workers information to make informed employment decisions.\n\nAdvocate for the City of Austin to require paid parental leave disclosures from city contractors — a lever the city actually has without state legislation.",
+      "summary": "Research and publish a scorecard of Austin's top 25 tech employers — the ones competing for the same talent pool. Score on specific, comparable metrics: weeks of paid parental leave (birth and non-birth parent separately), childcare subsidy or on-site childcare, flexible work arrangements, and fertility/adoption benefits. Publish the scores. Name names.\n\nThe competitive pressure this creates is the whole theory of change — employers hate being publicly ranked below their talent competitors. In Austin's tight tech labor market, being publicly ranked as family-unfriendly is a recruiting liability. The index gives companies a reason to improve and gives workers information to make informed employment decisions.\n\nAdvocate for the City of Austin to require paid parental leave disclosures from city contractors — a lever the city actually has without state legislation.",
       "theory_of_change": "Transparency creates competitive pressure in tight labor markets. When employer A's parental leave policy is publicly compared to employer B's, the laggard faces recruiting disadvantage. This works especially well in Austin's tech sector where talent competition is fierce and workers have options. The city contractor disclosure requirement adds a policy lever that doesn't require state legislation. Published rankings get media coverage, which amplifies the pressure beyond the direct readership.",
       "next_actions": [
-        "Identify Austin's top 50 employers by headcount in tech, healthcare, government, and education",
-        "Design scorecard methodology: categories, weighting, data sources, verification process",
+        "Identify Austin's top 25 tech employers by headcount — the companies competing for the same talent pool",
+        "Design scorecard with specific categories: weeks paid parental leave (birth parent), weeks paid parental leave (non-birth parent), childcare subsidy or on-site childcare, flexible work arrangements, fertility/adoption benefits",
         "Send survey to HR departments with public records requests as backup",
         "Research City of Austin contractor disclosure requirements and identify legal pathway",
         "Draft op-ed framing the index as pro-business talent retention, not anti-employer",
@@ -74,8 +76,8 @@
       "priority": "medium",
       "importance_score": 70,
       "impact_score": 55,
-      "summary": "Connect with Austin YIMBY Action's housing advocacy to ensure new development includes family-appropriate units — not just studios and 1-bedrooms. Family-sized housing (2BR+) is the scarcest and most expensive segment of Austin's market because developers maximize unit count at smaller sizes.\n\nAdvocate for family-sized unit incentives in new developments: density bonuses for projects that include a minimum percentage of 2BR+ units, reduced parking requirements for family units near transit, and support for co-housing and innovative family housing models.\n\nThis campaign explicitly connects the pro-family and pro-housing movements. Building more housing of every type is the single most effective pro-family policy available at the local level.",
-      "theory_of_change": "The housing supply argument is already winning in Austin politics. This campaign adds a powerful constituency — parents and prospective parents — to the pro-housing coalition. 'Build family-sized housing' is a more emotionally resonant message than 'increase housing supply' and reaches audiences who might not respond to urbanist framing. By working through the existing YIMBY coalition rather than creating parallel advocacy, we amplify rather than fragment the pro-building movement.",
+      "summary": "Connect housing to family formation explicitly — and make this cross-reference bidirectional. The housing crisis IS a family formation crisis: you cannot have a second kid in a one-bedroom apartment. And the family formation crisis IS a housing crisis: when families leave Austin for the suburbs because they cannot find affordable 3-bedroom units, the city loses tax base, school enrollment drops, and the urban fabric frays.\n\nWork with Austin YIMBY Action to ensure new development includes family-appropriate units — not just studios and 1-bedrooms. Family-sized housing (2BR+) is the scarcest and most expensive segment of Austin's market because developers maximize unit count at smaller sizes.\n\nAdvocate for family-sized unit incentives in new developments: density bonuses for projects that include a minimum percentage of 2BR+ units, reduced parking requirements for family units near transit, and support for co-housing and innovative family housing models. Every YIMBY win is a pro-family win. Every pro-family argument strengthens the YIMBY coalition. The YIMBY org's housing advocacy directly enables family formation — make this cross-reference explicit and bidirectional.",
+      "theory_of_change": "The housing-family connection is bidirectional: more housing enables family formation, and the family formation argument strengthens the pro-housing coalition. 'Build family-sized housing' is a more emotionally resonant message than 'increase housing supply' and reaches audiences who might not respond to urbanist framing. Parents and prospective parents are a powerful constituency that politicians find sympathetic. By working through the existing YIMBY coalition rather than creating parallel advocacy, we amplify rather than fragment the pro-building movement. Every rezoning hearing where parents testify about needing affordable family-sized units strengthens the case for density.",
       "next_actions": [
         "Analyze Austin permitting data for unit size distribution in recent developments",
         "Research density bonus programs in other cities that incentivize family-sized units",
@@ -83,6 +85,24 @@
         "Coordinate with Austin YIMBY Action on joint advocacy and shared messaging",
         "Identify co-housing and innovative family housing developers active in Texas",
         "Develop family housing fact sheet: cost data, supply gaps, demographic need"
+      ]
+    },
+    {
+      "id": "parental-leave-city-hall",
+      "title": "Parental Leave at City Hall",
+      "status": "active",
+      "priority": "high",
+      "importance_score": 80,
+      "impact_score": 75,
+      "summary": "Austin city government is itself a major employer. What is the City of Austin's parental leave policy? What about Travis County? AISD? These are public entities that the org can directly pressure through public comment and council advocacy — giving the org concrete local government leverage points similar to what the YIMBY org has with zoning and transit.\n\nResearch and publicize the parental leave policies of Austin's three largest public employers — the City of Austin, Travis County, and Austin ISD. Compare them to best-in-class municipal employers nationwide (Denver, Portland, Minneapolis, Seattle). Then advocate for improvements through the channels these entities are most responsive to: public comment periods, council resolutions, commissioners court testimony, and school board advocacy.\n\nThis is the most direct-action campaign in the portfolio. Unlike pressuring private employers through market mechanisms, public employers answer to elected officials who answer to voters. A small organized group showing up at council with a specific ask — 12 weeks paid leave for all city employees, for example — has a realistic path to a policy win.",
+      "theory_of_change": "Public employers are directly accountable to elected officials. Council members, county commissioners, and school board trustees vote on employee benefit policies and respond to organized constituent pressure. Unlike private employers where the lever is labor market competition, public employers can be moved by showing up at hearings and making specific policy asks. A parental leave improvement at the City of Austin sets a precedent and creates competitive pressure on Travis County and AISD. Wins here are concrete, measurable, and demonstrate the org's ability to produce policy change — which builds credibility for the harder private-sector campaigns.",
+      "next_actions": [
+        "Submit public records requests for current parental leave policies at City of Austin, Travis County, and AISD",
+        "Benchmark Austin public employer leave policies against peer cities (Denver, Portland, Minneapolis, Seattle)",
+        "Draft specific policy ask: target weeks of paid leave for birth and non-birth parents at each entity",
+        "Identify upcoming council, commissioners court, and school board meetings with relevant agenda items",
+        "Prepare public comment testimony and recruit 5-10 speakers for first hearing",
+        "Build coalition support from city employee associations and unions"
       ]
     }
   ],
@@ -93,13 +113,14 @@
     {"name": "United Way for Greater Austin", "relationship": "Aligned on childcare access and family economic stability. Potential data sharing partner for childcare mapping.", "url": "https://unitedwayaustin.org"},
     {"name": "Workforce Solutions Capital Area", "relationship": "Administers childcare subsidy programs. Key information source for understanding childcare access barriers.", "url": "https://wfsca.org"},
     {"name": "Austin ISD", "relationship": "Shared interest in keeping families in urban Austin. School quality and enrollment data inform housing advocacy.", "url": "https://www.austinisd.org"},
-    {"name": "Any Baby Can", "relationship": "Austin-based family support nonprofit. Aligned on early childhood and family services infrastructure.", "url": "https://anybabycan.org"}
+    {"name": "Any Baby Can", "relationship": "Austin-based family support nonprofit. Aligned on early childhood and family services infrastructure.", "url": "https://anybabycan.org"},
+    {"name": "AFSCME Local 1624", "relationship": "City of Austin employee union. Natural ally for parental leave advocacy at City Hall. Their members directly benefit from improved leave policies.", "url": "https://afscme1624.org"}
   ],
   "engagement_pipeline": {
-    "awareness": "Social media, tech community forums, parenting groups, childcare provider networks. Publish the employer index and childcare desert map for organic distribution.",
+    "awareness": "Social media, tech community forums, parenting groups, childcare provider networks. Publish the employer index and childcare desert map for organic distribution. Share the comparison of Austin public employer parental leave policies vs. peer cities.",
     "interest": "Attend a family policy briefing. Read the employer index. Check if your neighborhood is a childcare desert. Share your own family formation story.",
-    "action": "Submit public comment on childcare zoning reform. Share the employer index with your HR department. Attend a county commissioners meeting on Raising Travis County fund deployment. Testify at planning commission on family-sized housing.",
-    "leadership": "Join the research team for the employer index. Lead the childcare mapping data analysis. Coordinate with Austin YIMBY Action on joint housing campaigns. Represent us at county budget hearings."
+    "action": "Submit public comment on childcare zoning reform. Share the employer index with your HR department. Attend a county commissioners meeting on Raising Travis County fund deployment. Testify at planning commission on family-sized housing. Testify at city council or commissioners court for improved public employee parental leave.",
+    "leadership": "Join the research team for the employer index. Lead the childcare mapping data analysis. Coordinate with Austin YIMBY Action on joint housing campaigns. Represent us at county budget hearings. Lead the public employer leave policy research and benchmarking effort."
   },
   "practical_next_steps_for_org": {
     "immediate": [
@@ -111,7 +132,7 @@
         "impact": "high"
       },
       {
-        "action": "Identify Austin's top 50 employers for index research",
+        "action": "Identify Austin's top 25 tech employers for index research",
         "owner": "Research team",
         "deadline": "2026-04-15",
         "effort": "3 hours",
@@ -123,6 +144,13 @@
         "deadline": "2026-03-25",
         "effort": "1 hour",
         "impact": "medium"
+      },
+      {
+        "action": "Submit public records requests for parental leave policies at City of Austin, Travis County, and AISD",
+        "owner": "Research team",
+        "deadline": "2026-04-10",
+        "effort": "2 hours",
+        "impact": "high"
       }
     ],
     "medium_term": [
@@ -141,6 +169,12 @@
       {
         "action": "Draft childcare zoning reform proposal",
         "deadline": "2026-06-15",
+        "effort": "8 hours",
+        "impact": "high"
+      },
+      {
+        "action": "Publish comparison of Austin public employer parental leave policies vs. peer city benchmarks",
+        "deadline": "2026-06-01",
         "effort": "8 hours",
         "impact": "high"
       }
@@ -162,7 +196,13 @@
         "action": "Present Raising Travis County fund accountability report to commissioners",
         "timeframe": "Q4 2026",
         "impact": "high",
-        "notes": "Track how the $5M was spent, whether it expanded capacity in childcare deserts, and publish findings. Accountability reporting builds credibility for future advocacy."
+        "notes": "Track the $5M at facility and neighborhood level: which providers received funds, which neighborhoods gained capacity, and what are the measurable outcomes (new slots created, waitlist reduction, subsidy utilization rates). Publish a public accountability report. This is the credibility-building work that demonstrates the org can do rigorous oversight."
+      },
+      {
+        "action": "Advocate for specific parental leave policy improvements at City of Austin council and Travis County Commissioners Court",
+        "timeframe": "Q3-Q4 2026",
+        "impact": "high",
+        "notes": "Specific ask: 12 weeks paid leave for birth parents, 6 weeks for non-birth parents at all three public employers. Concrete, measurable policy win that demonstrates org effectiveness."
       }
     ]
   }
