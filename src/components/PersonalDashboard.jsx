@@ -8,6 +8,7 @@ import IssueDetail from './IssueDetail'
 import NextStepsPanel from './NextStepsPanel'
 import PoliticalCompass from './PoliticalCompass'
 import ExportButton from './shared/ExportButton'
+import BulkExportButton from './shared/BulkExportButton'
 import DetailModal from './shared/DetailModal'
 
 const PROFILE_ID = 'austin-78702'
@@ -151,7 +152,8 @@ export default function PersonalDashboard() {
   return (
     <div className="h-full p-3 flex flex-col gap-3 overflow-auto lg:overflow-hidden animate-fade-in">
       {/* Utility bar */}
-      <div className="flex justify-end flex-shrink-0">
+      <div className="flex justify-end flex-shrink-0 gap-2">
+        <BulkExportButton />
         <ExportButton getData={getExportData} filename={`civic-pulse-profile-${PROFILE_ID}.json`} />
       </div>
 
