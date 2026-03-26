@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import ContextTooltip from '../shared/ContextTooltip'
+import CopyPromptButton from '../shared/CopyPromptButton'
 
 const priorityColor = {
   high: 'text-accent-red',
@@ -67,21 +68,30 @@ export default function CampaignDetail({ campaign }) {
         <div>
           <h4 className="font-mono text-xs font-bold text-text-tertiary tracking-wide mb-2">NEXT ACTIONS</h4>
           <div className="space-y-2">
-            {campaign.next_actions.map((action, i) => (
-              <div key={i} className="flex items-start gap-2 p-2 rounded border border-border bg-bg-elevated">
-                <span className="text-accent-blue font-mono text-xs mt-0.5 flex-shrink-0">
-                  {String.fromCharCode(10122 + i)}
-                </span>
-                <div className="flex-1">
-                  <span className="text-sm text-text-primary">{action}</span>
-                  {ACTION_CONTEXT[action] && (
-                    <div className="flex items-start gap-1 mt-1">
-                      <ContextTooltip text={ACTION_CONTEXT[action]} />
-                    </div>
-                  )}
+            {campaign.next_actions.map((item, i) => {
+              const action = typeof item === 'string' ? item : item.action
+              const llmPrompt = typeof item === 'string' ? null : item.llm_prompt
+              return (
+                <div key={i} className="flex items-start gap-2 p-2 rounded border border-border bg-bg-elevated">
+                  <span className="text-accent-blue font-mono text-xs mt-0.5 flex-shrink-0">
+                    {String.fromCharCode(10122 + i)}
+                  </span>
+                  <div className="flex-1">
+                    <span className="text-sm text-text-primary">{action}</span>
+                    {ACTION_CONTEXT[action] && (
+                      <div className="flex items-start gap-1 mt-1">
+                        <ContextTooltip text={ACTION_CONTEXT[action]} />
+                      </div>
+                    )}
+                    {llmPrompt && (
+                      <div className="mt-1">
+                        <CopyPromptButton prompt={llmPrompt} />
+                      </div>
+                    )}
+                  </div>
                 </div>
-              </div>
-            ))}
+              )
+            })}
           </div>
         </div>
       )}

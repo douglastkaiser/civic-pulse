@@ -271,7 +271,14 @@ export default function OrgDashboard() {
                   <div key={i} className="flex items-start gap-2 text-sm">
                     <span className="text-accent-green mt-0.5">●</span>
                     <div>
-                      {ally.url ? (
+                      {ally.internal_id ? (
+                        <Link
+                          to={`/org/${ally.internal_id}`}
+                          className="text-text-primary font-medium hover:text-accent-blue transition-colors"
+                        >
+                          {ally.name} <span className="text-accent-blue text-xs">&rarr;</span>
+                        </Link>
+                      ) : ally.url ? (
                         <a
                           href={ally.url}
                           target="_blank"

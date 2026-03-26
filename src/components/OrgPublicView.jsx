@@ -128,7 +128,25 @@ export default function OrgPublicView() {
             <div className="space-y-2">
               {org.aligned_organizations.map((ally, i) => (
                 <div key={i} className="text-sm text-text-secondary">
-                  <span className="text-text-primary font-medium">{ally.name}</span>
+                  {ally.internal_id ? (
+                    <Link
+                      to={`/org/${ally.internal_id}`}
+                      className="text-text-primary font-medium hover:text-accent-blue transition-colors"
+                    >
+                      {ally.name} <span className="text-accent-blue text-xs">&rarr;</span>
+                    </Link>
+                  ) : ally.url ? (
+                    <a
+                      href={ally.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-text-primary font-medium hover:text-accent-blue transition-colors"
+                    >
+                      {ally.name} <span className="text-text-tertiary text-xs">↗</span>
+                    </a>
+                  ) : (
+                    <span className="text-text-primary font-medium">{ally.name}</span>
+                  )}
                   <span className="text-text-tertiary"> — {ally.relationship}</span>
                 </div>
               ))}
