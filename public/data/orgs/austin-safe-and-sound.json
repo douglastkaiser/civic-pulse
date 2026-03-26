@@ -1,0 +1,205 @@
+{
+  "id": "austin-safe-and-sound",
+  "name": "Austin Safe & Sound",
+  "tagline": "Safety is infrastructure. Compassion is strategy.",
+  "mission": "We advocate for evidence-based public safety in Austin — where safety means both safe public spaces for all residents and dignified, effective pathways for people in crisis. We reject the false choice between enforcement and compassion. We track outcomes, not rhetoric.\n\nSafety is infrastructure — it's a prerequisite for everything else. You can't have thriving neighborhoods, successful transit, or family-friendly communities if people don't feel safe. The framing is dual-track and technocratic, NOT culture war:\n\n• Some unhoused people primarily need housing and a stable environment. For them, the Housing First model works. Housing IS the intervention.\n\n• Some unhoused people are in mental health or substance abuse crises that prevent them from maintaining housing even when offered. For them, treatment must come first or alongside housing. Offering an apartment to someone in active psychosis isn't compassionate — it's inadequate.\n\n• Different populations need different interventions. A single ideological frame (whether \"just house them\" OR \"just enforce the law\") is guaranteed to fail because it treats a heterogeneous population as homogeneous.\n\n• Public safety and compassion are not in tension. Residents deserve safe public spaces AND unhoused people deserve dignity and pathways to stability. Anyone who tells you these are in conflict is either selling you something or hasn't thought it through.\n\nAustin has been through the full political cycle on this issue. In 2019, Council repealed the camping ban, allowing visible encampments. In 2021, voters passed Prop B reinstating the ban (57-43%), reflecting widespread frustration across the political spectrum. The HEAL Initiative launched — compassionately closing highest-risk encampments by offering shelter pathways, moving 635+ people from encampments to shelters since launch. By 2024, shelter capacity doubled from 708 beds to 1,657 beds, and 600+ permanent supportive housing units were added. But outcomes are mixed: HEAL data shows 48% of people who exited shelters returned to homelessness. The Marshalling Yard shelter (300 beds, 18% of total capacity) improved its successful exit rate from 15% to 30% — better, but still means 70% don't exit to permanent housing.\n\nIn February 2026, the Austin Homeless Strategy Office published its first-ever strategic plan (2025-2027) with five focus areas: system leadership, impactful investments, crisis response, health/housing exits, and community engagement. The HSO identified $101M in additional funding needs. This is the moment to establish accountability.\n\nAustin PD is significantly understaffed relative to population — this is a well-documented, ongoing crisis. The pragmatic position is BOTH more officers (especially patrol and community policing) AND more non-police crisis response (mental health teams, HOST initiative expansion). These are complements, not substitutes. A police officer should not be the primary responder to a mental health crisis, AND there need to be enough officers to handle actual crime. The funding for both needs to come from somewhere, which connects to the fiscal accountability theme.",
+  "theory_of_change": "Accountability creates pressure for improvement. When someone is watching and publicly reporting on public safety outcomes, performance improves. Austin has made significant investments in homelessness services and policing, but outcome data is fragmented, inconsistent, and often invisible to the public. We fill the accountability gap by tracking what was promised against what was delivered — across the HSO strategic plan, shelter operations, APD staffing, and HEAL encampment management. Small organized groups showing up at council with specific data and specific asks change the conversation from ideology to evidence. We make the data visible, make the tradeoffs explicit, and create political incentives for evidence-based decisions rather than performative ones.",
+  "geographic_scope": {
+    "city": "Austin",
+    "county": "Travis County",
+    "state": "Texas"
+  },
+  "founded": "2026-03-26",
+  "political_positioning": {
+    "description": "Wide compass cloud — public safety concern is genuinely universal. This org's coalition overlaps significantly with Texas and GOP clouds (everyone wants safe neighborhoods) while also overlapping with Democratic clouds (compassionate approach, investment in social services). The overlap is the point. We reject both the abolish-the-police left and the enforcement-only right. Center-right economically on policing (fund adequate staffing), center-left on social services (invest in crisis response and shelter). Pragmatic on all of it. Broad coalition: neighborhood associations, small business owners, service providers, urbanists, parents, and anyone who wants evidence rather than ideology driving public safety policy.",
+    "compass_cloud": {
+      "economic_center": 0.05,
+      "economic_spread": 0.45,
+      "social_center": 0.0,
+      "social_spread": 0.4
+    }
+  },
+  "key_policy_positions": [
+    "Hold the HSO accountable for measurable outcomes in its 2025-2027 strategic plan across all five focus areas",
+    "Track shelter bed utilization, wait times, exit-to-housing rates, and return-to-homelessness rates by facility",
+    "Monitor APD staffing levels and 911 response times by district — make the data public and neighborhood-specific",
+    "Demand HEAL initiative transparency: track encampment outcomes, not just activity counts",
+    "Support HOST team expansion as a complement to traditional policing, not a substitute",
+    "Advocate for adequate APD patrol and community policing staffing alongside accountability reforms",
+    "Push for public dashboards on homelessness spending and outcomes — disaggregate by population and intervention type",
+    "Apply dual-track framework: Housing First for those who can maintain housing, treatment-first for those in active crisis",
+    "Bridge public safety and homelessness policy — they are the same issue viewed from different angles",
+    "Ensure crisis response includes mental health and substance abuse intervention components alongside law enforcement"
+  ],
+  "active_campaigns": [
+    {
+      "id": "hso-strategic-plan",
+      "title": "HSO Strategic Plan Accountability",
+      "status": "active",
+      "priority": "high",
+      "importance_score": 90,
+      "impact_score": 80,
+      "summary": "The Austin Homeless Strategy Office published its first-ever strategic plan in February 2026, covering 2025-2027 with five focus areas: system leadership, impactful investments, crisis response, health/housing exits, and community engagement. The HSO identified $101M in additional funding needs. This is the moment to establish an accountability framework — what did they promise, what are the metrics, and are they delivering?\n\nTrack the five focus areas with specific, measurable indicators. Publish quarterly progress reports. When outcomes improve, say so publicly. When they don't, say that too. The theory of change is simple: accountability creates pressure for improvement. When someone is watching and publicly reporting, performance improves. Without external accountability, strategic plans become shelf documents — impressive when published, forgotten when implementation gets hard.",
+      "theory_of_change": "Strategic plans without accountability mechanisms become performative documents. The HSO plan is the city's first-ever comprehensive homelessness strategy — if it succeeds, it's a model. If it fails quietly, Austin loses years. Public tracking with quarterly reports creates three pressure points: (1) city staff know someone is watching, (2) council members have data for budget decisions, (3) residents can see whether their tax dollars are producing results. This is the most leveraged campaign because it covers all homelessness spending and strategy, not just individual programs.",
+      "next_actions": [
+        "Obtain and analyze the complete HSO 2025-2027 strategic plan — identify every measurable commitment and timeline",
+        "Build a public tracking dashboard mapping each of the five focus areas to specific metrics and deadlines",
+        "Attend HSO community engagement sessions and council briefings — establish presence as consistent accountability voice",
+        "Submit public records requests for baseline data on each strategic plan metric",
+        "Publish first quarterly progress report by Q2 2026",
+        "Identify which of the $101M funding gaps have been addressed and which remain",
+        "Present accountability findings at council budget hearings to inform FY2027 appropriations"
+      ]
+    },
+    {
+      "id": "shelter-capacity-outcomes",
+      "title": "Shelter Capacity & Outcomes Tracking",
+      "status": "active",
+      "priority": "high",
+      "importance_score": 85,
+      "impact_score": 75,
+      "summary": "Austin doubled shelter beds to 1,657 but the Marshalling Yard exit rate is still only 30% — meaning 70% of residents don't exit to permanent housing. The Marshalling Yard (300 beds, 18% of total capacity) was nearly closed before council voted to keep it open indefinitely. Track bed utilization, wait times, exit rates, and return-to-homelessness rates by facility.\n\nIdentify which shelters and programs produce the best outcomes and advocate for scaling those models. The dual-track framing matters here: what works for someone who's temporarily homeless due to economic crisis is different from what works for someone with chronic mental illness. Disaggregate the data. HEAL data shows 48% of people who exited shelters returned to homelessness — that's not a success rate, it's a revolving door. Understanding why requires facility-level and population-level analysis.",
+      "theory_of_change": "Shelter is the most visible and politically charged piece of homelessness infrastructure. Currently, the public debate is about bed counts — how many beds exist. But bed counts without outcome data are meaningless if 70% of residents cycle back to homelessness. Shifting the conversation from capacity to outcomes changes what success looks like and creates pressure to fund evidence-based programs. Facility-level data identifies what's working (scale it) and what's not (fix it or reallocate). Disaggregating by population type (economic crisis vs. chronic illness vs. substance abuse) enables the dual-track approach in practice.",
+      "next_actions": [
+        "Submit public records requests for bed utilization rates, length of stay, and exit outcomes at each major shelter facility",
+        "Partner with ECHO for HMIS data on return-to-homelessness rates by shelter and program type",
+        "Research Marshalling Yard outcomes in detail — what changed to improve exit rates from 15% to 30%, and what would get to 50%",
+        "Build facility-level outcomes dashboard: utilization, exit-to-housing rate, return rate, average length of stay",
+        "Identify which shelter programs serve which populations — disaggregate outcomes by population type",
+        "Publish first shelter outcomes report comparing facility performance",
+        "Present findings to council with specific recommendations for scaling high-performing programs"
+      ]
+    },
+    {
+      "id": "apd-staffing-response",
+      "title": "APD Staffing & Response Time Monitoring",
+      "status": "active",
+      "priority": "high",
+      "importance_score": 88,
+      "impact_score": 82,
+      "summary": "Austin PD is significantly understaffed relative to population — this is a well-documented, ongoing crisis affecting response times across the city. Track APD staffing levels (sworn officers, vacancies, cadet class pipeline), response times by district and priority level, and the expansion or contraction of non-police crisis response teams (HOST, mental health units).\n\nPublish the data at the district level. When response times in a neighborhood deteriorate, that's evidence for budget advocacy. When HOST diverts mental health calls from patrol officers, that's evidence for expansion. The pragmatic position is BOTH more officers AND more non-police crisis response — these are complements, not substitutes. A police officer should not be the primary responder to a mental health crisis, AND there need to be enough officers to handle actual crime.",
+      "theory_of_change": "Response time data by district makes the staffing crisis concrete and neighborhood-specific rather than abstract and citywide. Council members cannot ignore data showing their district has deteriorating response times — it's the kind of constituent concern that drives budget votes. Simultaneously, tracking HOST and mental health team diversion rates demonstrates the value of non-police response: every mental health call handled by HOST is a call that doesn't require a patrol officer. This creates evidence for funding BOTH more officers AND more crisis teams, breaking the false binary. District-level data also reveals equity issues — which neighborhoods bear the worst of the staffing crisis.",
+      "next_actions": [
+        "Submit public records requests for APD sworn officer counts, vacancy rates, and cadet class sizes over the past 3 years",
+        "Obtain 911 response time data by district and priority level — identify neighborhoods with worst response times",
+        "Research HOST team capacity: how many calls diverted from patrol, what outcomes, what expansion plans",
+        "Track mental health crisis response: how many calls, who responds, what outcomes compared to patrol response",
+        "Build district-level APD staffing and response time dashboard",
+        "Publish first APD staffing report with district-level response time analysis",
+        "Present response time data at council budget hearings — connect staffing levels to constituent safety outcomes"
+      ]
+    },
+    {
+      "id": "heal-initiative-transparency",
+      "title": "HEAL Initiative Transparency",
+      "status": "active",
+      "priority": "medium",
+      "importance_score": 75,
+      "impact_score": 68,
+      "summary": "HEAL (Homeless Encampment Assistance Link) has been the primary mechanism for encampment management in Austin since 2021, moving 635+ people from encampments to shelters. But transparency on outcomes is limited. Track which encampments are targeted, what services are offered, how many people accept shelter, how many achieve permanent housing, and how many return to homelessness.\n\nThis is accountability work on an initiative that both sides of the debate should want to be transparent. Advocates for unhoused people want to ensure HEAL is actually connecting people to services, not just displacing them. Residents who want encampments addressed want to know that HEAL operations produce lasting results, not just temporary relocations. Whether the city is meeting its own stated criteria for 'compassionate' closure should be publicly verifiable.",
+      "theory_of_change": "HEAL operates as the city's primary encampment intervention but with limited public outcome reporting. The initiative reports activity counts (encampments closed, people contacted) but not long-term outcomes (permanent housing placement, return to homelessness). Sunshine is the best disinfectant — publishing what actually happens during and after HEAL operations forces the program to demonstrate lasting results. This accountability serves both political flanks: those who support encampment management get evidence it works, those who oppose displacement get evidence of whether alternatives are offered. Transparent data de-polarizes the debate by replacing ideology with outcomes.",
+      "next_actions": [
+        "Submit public records requests for HEAL operation data: encampments targeted, people contacted, services offered, shelter placements",
+        "Track post-HEAL outcomes: of people who accepted shelter, how many achieved permanent housing within 6 and 12 months",
+        "Attend HEAL community notification meetings to understand the process and document offers made",
+        "Research whether HEAL operations meet the city's own stated criteria for compassionate encampment closure",
+        "Compare HEAL outcomes across different encampment types and locations",
+        "Publish HEAL transparency report with operation-level outcome data"
+      ]
+    }
+  ],
+  "aligned_organizations": [
+    {"name": "Integral Care", "relationship": "Travis County's mental health authority and key partner on crisis response. Essential data source for understanding non-police intervention outcomes and mental health crisis response capacity. Their expansion directly reduces demand on APD for mental health calls.", "url": "https://integralcare.org"},
+    {"name": "Austin Area Urban League", "relationship": "Operates Southbridge shelter. Aligned on equity dimensions of public safety and homelessness policy. Community credibility in East Austin communities disproportionately affected by both crime and homelessness.", "url": "https://aaul.org"},
+    {"name": "Family Endeavors", "relationship": "Major homelessness service provider operating the Marshalling Yard and Northbridge shelters. Essential data partner for shelter outcomes tracking. Their program outcomes are central to our shelter accountability campaign.", "url": "https://familyendeavors.org"},
+    {"name": "ECHO", "relationship": "Ending Community Homelessness Coalition — administers the Homeless Management Information System (HMIS) and Point-in-Time count. Essential data and coordination partner for all homelessness outcome tracking.", "url": "https://austinecho.org"},
+    {"name": "Austin Monitor", "relationship": "Independent local news source covering city government. Key information source for tracking council actions on public safety budgets, HSO operations, and APD staffing decisions.", "url": "https://austinmonitor.com"},
+    {"name": "Austin Bulldog", "relationship": "Investigative local journalism. Information source for government accountability on public safety spending and homelessness program outcomes.", "url": "https://austinbulldog.org"},
+    {"name": "Austin YIMBY Action", "relationship": "Cross-movement ally. Housing supply is upstream of homelessness — every unit of housing built reduces the pressure that pushes people out. Their success at building housing directly reduces homelessness inflow. The YIMBY housing agenda and our safety accountability agenda are complementary.", "url": "https://www.austinyimby.org"},
+    {"name": "Austin Abundance Project", "relationship": "Cross-movement ally. Family instability is a major pathway into homelessness. Their work on childcare, parental support, and family housing prevents the crises that lead to people losing housing. Family formation infrastructure is homelessness prevention infrastructure."}
+  ],
+  "engagement_pipeline": {
+    "awareness": "Social media, neighborhood association meetings, local news coverage of public safety and homelessness data. Publish accountability dashboards — shelter outcomes tracker, APD response time maps, HSO progress reports — for organic discovery and sharing. Partner with Austin Monitor and Austin Bulldog for data-driven coverage.",
+    "interest": "Attend a public safety briefing. Read the shelter outcomes tracker. Check your district's APD response times. Review the HSO strategic plan progress report. Share your neighborhood's experience with the safety-services gap.",
+    "action": "Submit public comment at council on HSO strategic plan accountability. Testify at budget hearings for evidence-based public safety spending. Share district-level response time data with your council member. Attend HEAL community notification meetings. Contact council members about shelter funding and APD staffing.",
+    "leadership": "Join the data team tracking APD staffing and response times. Lead shelter outcomes research and facility-level analysis. Coordinate with Integral Care and ECHO on crisis response data. Represent us at HSO strategic plan review sessions. Present accountability findings at council hearings."
+  },
+  "practical_next_steps_for_org": {
+    "immediate": [
+      {
+        "action": "Obtain and analyze the complete HSO 2025-2027 strategic plan — identify every measurable commitment",
+        "owner": "Research team",
+        "deadline": "2026-04-10",
+        "effort": "6 hours",
+        "impact": "very high"
+      },
+      {
+        "action": "Submit public records requests for APD staffing data, response times, and HEAL operation outcomes",
+        "owner": "Data team",
+        "deadline": "2026-04-15",
+        "effort": "4 hours",
+        "impact": "high"
+      },
+      {
+        "action": "Contact ECHO to establish data sharing partnership for HMIS shelter outcome data",
+        "owner": "Steering committee",
+        "deadline": "2026-04-10",
+        "effort": "2 hours",
+        "impact": "high"
+      },
+      {
+        "action": "Contact Austin YIMBY Action and Austin Abundance Project to formalize cross-org coordination",
+        "owner": "Steering committee",
+        "deadline": "2026-04-05",
+        "effort": "1 hour",
+        "impact": "medium"
+      }
+    ],
+    "medium_term": [
+      {
+        "action": "Build and publish HSO strategic plan tracking dashboard with quarterly metrics",
+        "deadline": "2026-06-01",
+        "effort": "20 hours total",
+        "impact": "very high"
+      },
+      {
+        "action": "Publish first shelter outcomes report with facility-level data and population disaggregation",
+        "deadline": "2026-06-15",
+        "effort": "15 hours",
+        "impact": "high"
+      },
+      {
+        "action": "Build district-level APD staffing and response time dashboard",
+        "deadline": "2026-05-15",
+        "effort": "12 hours",
+        "impact": "high"
+      },
+      {
+        "action": "Publish first HEAL transparency report with operation-level outcome data",
+        "deadline": "2026-06-30",
+        "effort": "10 hours",
+        "impact": "high"
+      }
+    ],
+    "strategic": [
+      {
+        "action": "Present comprehensive HSO accountability report at council budget hearings for FY2027",
+        "timeframe": "Q3 2026",
+        "impact": "very high",
+        "notes": "First-year accountability report covering all five HSO focus areas. Timed to influence FY2027 budget decisions on the $101M identified funding gap. This is the credibility-building moment — demonstrate that rigorous, nonpartisan accountability improves public safety outcomes."
+      },
+      {
+        "action": "Publish annual public safety outcomes report integrating all four campaign data streams",
+        "timeframe": "Q4 2026",
+        "impact": "very high",
+        "notes": "Combine HSO progress, shelter outcomes, APD staffing, and HEAL data into a single annual report. The integrated view shows how these issues connect — staffing affects response times, shelter outcomes affect encampment populations, HEAL operations depend on shelter capacity. Make the system visible."
+      },
+      {
+        "action": "Advocate for permanent public dashboards on homelessness spending and public safety outcomes",
+        "timeframe": "Q3-Q4 2026",
+        "impact": "high",
+        "notes": "Use the org's tracking infrastructure as a proof of concept for what the city should publish itself. The goal is to make our accountability work unnecessary by getting the city to publish this data proactively. If we succeed, we've institutionalized transparency."
+      }
+    ]
+  }
+}

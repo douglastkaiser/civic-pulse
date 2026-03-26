@@ -114,7 +114,8 @@
     {"name": "Workforce Solutions Capital Area", "relationship": "Administers childcare subsidy programs. Key information source for understanding childcare access barriers.", "url": "https://wfsca.org"},
     {"name": "Austin ISD", "relationship": "Shared interest in keeping families in urban Austin. School quality and enrollment data inform housing advocacy.", "url": "https://www.austinisd.org"},
     {"name": "Any Baby Can", "relationship": "Austin-based family support nonprofit. Aligned on early childhood and family services infrastructure.", "url": "https://anybabycan.org"},
-    {"name": "AFSCME Local 1624", "relationship": "City of Austin employee union. Natural ally for parental leave advocacy at City Hall. Their members directly benefit from improved leave policies.", "url": "https://afscme1624.org"}
+    {"name": "AFSCME Local 1624", "relationship": "City of Austin employee union. Natural ally for parental leave advocacy at City Hall. Their members directly benefit from improved leave policies.", "url": "https://afscme1624.org"},
+    {"name": "Austin Safe & Sound", "relationship": "Cross-movement ally. Family instability is a major pathway into homelessness. Our family formation infrastructure work — childcare, parental support, family housing — prevents the crises that lead to people losing housing. Their accountability work on homelessness services ensures the safety net works for families in crisis."}
   ],
   "engagement_pipeline": {
     "awareness": "Social media, tech community forums, parenting groups, childcare provider networks. Publish the employer index and childcare desert map for organic distribution. Share the comparison of Austin public employer parental leave policies vs. peer cities.",

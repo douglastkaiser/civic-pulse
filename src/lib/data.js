@@ -34,7 +34,7 @@ export async function loadAllProfiles() {
   return Promise.all(PROFILE_IDS.map((id) => loadProfile(id)))
 }
 
-export const ORG_IDS = ['austin-yimby-action', 'austin-abundance-project']
+export const ORG_IDS = ['austin-yimby-action', 'austin-abundance-project', 'austin-safe-and-sound']
 
 export function loadOrg(orgId) {
   return fetchJSON(`orgs/${orgId}.json`)

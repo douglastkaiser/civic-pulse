@@ -115,7 +115,8 @@
     {"name": "Austin Monitor", "relationship": "Independent local news source covering city government. Key information source for tracking council actions and development cases.", "url": "https://austinmonitor.com"},
     {"name": "Austin Bulldog", "relationship": "Investigative local journalism. Information source for government accountability and policy implementation tracking.", "url": "https://austinbulldog.org"},
     {"name": "League of Women Voters", "relationship": "Potential co-sponsor for candidate forums in 2026 council races. Nonpartisan credibility adds legitimacy to voter education efforts.", "url": "https://lwvaustin.org"},
-    {"name": "Austin Abundance Project", "relationship": "Cross-movement ally. Their family-sized housing campaign directly connects to our housing supply advocacy. More housing at every size enables family formation."}
+    {"name": "Austin Abundance Project", "relationship": "Cross-movement ally. Their family-sized housing campaign directly connects to our housing supply advocacy. More housing at every size enables family formation."},
+    {"name": "Austin Safe & Sound", "relationship": "Cross-movement ally. Housing supply is upstream of homelessness — every unit of housing built reduces the pressure that pushes people out. Their public safety and homelessness accountability work addresses the downstream consequences of the housing crisis we fight upstream."}
   ],
   "engagement_pipeline": {
     "awareness": "Social media, local press coverage, op-eds on Project Connect and housing. Austin Monitor and Austin Bulldog articles as shared context.",
