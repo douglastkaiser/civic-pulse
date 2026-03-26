@@ -103,7 +103,8 @@ export default function OrgDashboard() {
       name: org.name,
       economic: cc.economic_center,
       social: cc.social_center,
-      spread: Math.max(cc.economic_spread, cc.social_spread),
+      economic_spread: cc.economic_spread,
+      social_spread: cc.social_spread,
       color: '#a855f7',
       highlighted: true,
     })
@@ -120,8 +121,8 @@ export default function OrgDashboard() {
     'Downtown Austin Alliance': { economic: 0.2, social: -0.15, spread: 0.1 },
     'Austin Chamber of Commerce': { economic: 0.3, social: 0.0, spread: 0.15 },
     'League of Women Voters': { economic: -0.1, social: -0.3, spread: 0.1 },
-    'Austin Abundance Project': { economic: -0.15, social: -0.25, spread: 0.15 },
-    'Austin YIMBY Action': { economic: 0.1, social: -0.2, spread: 0.15 },
+    'Austin Abundance Project': { economic: 0.0, social: -0.1, spread: 0.15 },
+    'Austin YIMBY Action': { economic: 0.15, social: -0.2, spread: 0.15 },
     'Austin Tech Alliance': { economic: 0.15, social: -0.2, spread: 0.1 },
     'United Way for Greater Austin': { economic: -0.2, social: -0.25, spread: 0.1 },
   }

@@ -63,8 +63,10 @@ function CompassSvg({ entities, size, hoveredIdx, setHoveredIdx }) {
       {entities.map((entity, i) => {
         const cx = mapToSvg(entity.economic, size)
         const cy = mapToSvg(-entity.social, size)
-        const rx = entity.spread * (axisEnd - axisStart) / 2
-        const ry = rx * 0.85
+        const economicSpread = entity.economic_spread ?? entity.spread
+        const socialSpread = entity.social_spread ?? entity.spread
+        const rx = economicSpread * (axisEnd - axisStart) / 2
+        const ry = socialSpread * (axisEnd - axisStart) / 2
         const color = entity.color || DEFAULT_COLORS[i % DEFAULT_COLORS.length]
         const isHighlighted = entity.highlighted
         const isHovered = hoveredIdx === i
