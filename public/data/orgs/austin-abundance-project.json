@@ -13,10 +13,10 @@
   "political_positioning": {
     "description": "Center-left economically — we believe in public investment in childcare and family infrastructure. Libertarian-leaning socially — we do not moralize about family structure and support all family types. Explicitly not aligned with religious-right pro-natalism. Explicitly not aligned with anti-tech or anti-growth perspectives. We are a broad coalition: tech workers, working parents, childcare providers, urbanists who see the housing-family connection, and employers who compete for talent and understand that family-friendly policy is a competitive advantage.",
     "compass_cloud": {
-      "economic_center": -0.15,
-      "economic_spread": 0.35,
-      "social_center": -0.25,
-      "social_spread": 0.3
+      "economic_center": 0.0,
+      "economic_spread": 0.5,
+      "social_center": -0.1,
+      "social_spread": 0.45
     }
   },
   "key_policy_positions": [

@@ -13,10 +13,10 @@
   "political_positioning": {
     "description": "Pragmatic, broad-tent pro-building coalition. We include progressive urbanists who see density as climate and equity policy, moderate business interests who understand that housing scarcity threatens economic growth, and libertarian-leaning property rights advocates who believe landowners should be free to build. We are not affiliated with any party. We work with pro-housing Democrats, moderate Republicans, and anyone who thinks Austin should build things. This is not an ideological project — it is a practical one.",
     "compass_cloud": {
-      "economic_center": 0.1,
-      "economic_spread": 0.4,
+      "economic_center": 0.15,
+      "economic_spread": 0.45,
       "social_center": -0.2,
-      "social_spread": 0.35
+      "social_spread": 0.3
     }
   },
   "key_policy_positions": [
