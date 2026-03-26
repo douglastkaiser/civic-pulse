@@ -39,3 +39,7 @@ export const ORG_IDS = ['austin-yimby-action', 'austin-abundance-project', 'aust
 export function loadOrg(orgId) {
   return fetchJSON(`orgs/${orgId}.json`)
 }
+
+export async function loadAllOrgs() {
+  return Promise.all(ORG_IDS.map((id) => loadOrg(id)))
+}
