@@ -1,0 +1,201 @@
+{
+  "id": "oc-purple-accountability",
+  "name": "OC Purple Accountability",
+  "tagline": "Every vote. Every meeting. Every margin matters.",
+  "mission": "Orange County is one of America's few genuinely purple counties. Voter registration: 36.4% D, 33.9% R, 23.3% NPP. The City of Orange is split 36.6% D to 34.8% R. The 2024 CD-45 race was decided by 581 votes. In this environment, information is power.\n\nOC Purple Accountability tracks voting records and policy positions across Orange County's key governing bodies — the Board of Supervisors, City of Orange council, City of Irvine council, and state legislative delegation. We publish scorecards. We distribute candidate questionnaires. We attend meetings and track who votes how.\n\nWe exist because most OC residents have no idea what their elected officials actually do. They might know who they voted for, but they don't know how that person voted on the housing element, the county budget, or the homelessness plan. This information asymmetry benefits organized special interests and hurts everyone else.\n\nThe 2026 elections are unusually high-stakes: the Board of Supervisors majority (currently 3-2 D) hangs on Districts 4 and 5. Multiple open state legislative seats (SD-34, AD-68) are in play. City councils in both Orange and Irvine have consequential races. New congressional maps from Prop 50 reshape federal representation. And the Governor's race (Newsom termed out) determines who enforces California's housing mandates.\n\nIn close elections, informed voters are the most powerful political force. We make voters informed.",
+  "theory_of_change": "In close elections, information asymmetry benefits organized special interests. Scorecards and questionnaires level the playing field by making voting records and policy positions accessible to every voter, not just insiders. When voters know what their representatives actually do — not just what they say — accountability follows. In a county where margins are razor-thin, even small improvements in voter information shift outcomes. A candidate who knows their votes are being tracked and published votes differently. A voter who sees a scorecard votes more deliberately. We create the feedback loop between government action and public knowledge that democracy requires but rarely has.",
+  "geographic_scope": {
+    "city": "Orange",
+    "county": "Orange County",
+    "state": "California"
+  },
+  "founded": "2026-03-27",
+  "political_positioning": {
+    "description": "Centered and deliberately nonpartisan in framing. The accountability mission appeals across the political spectrum — conservatives want government transparency, progressives want officials held to their promises, and moderates want data-driven evaluation. Our scorecards measure actions against stated positions, not against an ideological standard. A Republican who votes consistently with their platform gets a high consistency score, same as a Democrat who does. The compass cloud is intentionally wide because our coalition spans the spectrum. We are not a partisan organization — we are a transparency organization that operates in a purple county.",
+    "compass_cloud": {
+      "economic_center": 0.0,
+      "economic_spread": 0.5,
+      "social_center": 0.0,
+      "social_spread": 0.4
+    }
+  },
+  "key_policy_positions": [
+    "Publish regular scorecards for all OC Board of Supervisors members tracking votes on key issues",
+    "Develop and distribute candidate questionnaires for all 2026 races — county, city, state, and federal",
+    "Track meeting attendance and voting records for City of Orange and City of Irvine councils",
+    "Make all scorecards and tracking data publicly available in accessible, shareable formats",
+    "Maintain nonpartisan framing — evaluate officials against their own stated positions and constituent interests",
+    "Use public records requests to obtain voting records, campaign finance data, and policy positions",
+    "Partner with Voice of OC and other media to amplify accountability findings",
+    "Host candidate forums in partnership with League of Women Voters Orange Coast",
+    "Track campaign finance and major donor influence across OC races",
+    "Publish election guides summarizing candidate positions for every race on OC ballots"
+  ],
+  "active_campaigns": [
+    {
+      "id": "bos-majority-defense",
+      "title": "Board of Supervisors Majority Defense",
+      "status": "active",
+      "priority": "high",
+      "importance_score": 90,
+      "impact_score": 85,
+      "summary": "The Orange County Board of Supervisors currently has a 3-2 Democratic majority. Districts 4 (open seat) and 5 are on the June 2026 ballot. If Democrats lose either seat, the board flips to a Republican majority — affecting the $10.8B annual budget, homelessness policy, transit funding, and housing policy countywide. This campaign evaluates candidates for both districts, publishes voter guides, and maximizes informed turnout. District 4 is especially critical as an open seat where candidate selection will determine board direction for years.",
+      "theory_of_change": "Board of Supervisors races are low-information, low-turnout elections where organized advocacy has outsized impact. Most voters can't name their supervisor. A clear, nonpartisan voter guide that evaluates candidates on specific policy positions — housing, budget, homelessness, transit — helps voters make informed choices in a race they'd otherwise skip or vote randomly. When the margin of victory is measured in thousands of votes (or less), even modest improvements in informed voting shift outcomes.",
+      "next_actions": [
+        "Research all declared and expected candidates for Districts 4 and 5",
+        "Develop candidate questionnaire focused on housing, budget, homelessness, transit, and transparency",
+        "Distribute questionnaires to all candidates and publish responses",
+        "Create voter guide comparing candidates on key issues for both districts",
+        "Coordinate with Voice of OC to amplify candidate evaluation coverage",
+        "Organize candidate forum in partnership with League of Women Voters Orange Coast",
+        "Track campaign finance filings for all candidates in both districts",
+        "Publish final voter guide at least 4 weeks before June 2 primary"
+      ]
+    },
+    {
+      "id": "orange-council-scorecard",
+      "title": "City of Orange Council Scorecard",
+      "status": "planning",
+      "priority": "high",
+      "importance_score": 75,
+      "impact_score": 65,
+      "summary": "Track and publish the voting records of all City of Orange council members on key issues — housing (especially Housing Element compliance and Builder's Remedy projects), budget, development, and public safety. The scorecard will be published before the November 2026 elections when 3 council seats and the mayor are on the ballot. Orange's nonpartisan elections make information even more critical — without party labels, voters rely on name recognition or random choice. A scorecard breaks through that.",
+      "theory_of_change": "In nonpartisan city elections, voters have even less information than in partisan races. A well-researched scorecard that tracks actual votes (not campaign promises) gives voters concrete data to evaluate incumbents and compare them to challengers. Council members who know their votes are being tracked and published have an incentive to take positions publicly rather than hiding behind procedural votes.",
+      "next_actions": [
+        "Obtain City of Orange council meeting minutes for the past 12 months",
+        "Identify key votes on housing, budget, and development issues",
+        "Design scorecard methodology — what votes to include, how to weight them",
+        "Research November 2026 council candidate field (3 seats + mayor)",
+        "Draft scorecard format for public distribution",
+        "Partner with Voice of OC for coverage of scorecard findings"
+      ]
+    },
+    {
+      "id": "irvine-council-scorecard",
+      "title": "Irvine Council Scorecard",
+      "status": "planning",
+      "priority": "medium",
+      "importance_score": 70,
+      "impact_score": 55,
+      "summary": "Track and publish voting records for Irvine City Council, especially on the General Plan update (57,656 units proposed), Irvine Company-related decisions, and Great Park development. The 5-2 Democratic majority is at risk in November 2026 (3 seats + mayor on ballot). Irvine's decisions on housing density affect the entire OC housing market. The Irvine Company's monopoly power makes transparency especially important — track council votes on matters where the Irvine Company has a financial interest.",
+      "theory_of_change": "The Irvine Company's near-monopoly over Irvine's apartment market creates unique transparency needs. When one entity controls ~75% of a city's apartment units, every council vote on development policy is a potential conflict of interest. A public scorecard tracking how council members vote on Irvine Company-related items exposes these dynamics. Voters can then evaluate whether their representatives serve residents or developers.",
+      "next_actions": [
+        "Research Irvine council voting patterns on General Plan and Irvine Company matters",
+        "Identify Irvine Company-related agenda items over the past 12 months",
+        "Design scorecard methodology tracking housing, Irvine Company, and budget votes",
+        "Track November 2026 Irvine council candidates' positions and funding sources",
+        "Coordinate with People for Housing OC on data sharing"
+      ]
+    },
+    {
+      "id": "state-legislative-tracking",
+      "title": "State Legislative Open-Seat Tracking",
+      "status": "active",
+      "priority": "medium",
+      "importance_score": 70,
+      "impact_score": 60,
+      "summary": "Two open state legislative seats directly affect OC residents: State Senate SD-34 (Tom Umberg termed out) and Assembly AD-68 (Valencia running for Senate). State legislators shape California's housing mandate framework (RHNA, Builder's Remedy, SB 9/10 enforcement) that drives the core YIMBY fight in OC. This campaign tracks all candidates for both seats, distributes questionnaires on housing and local government policy, and publishes voter guides for the June 2026 primary.",
+      "theory_of_change": "State legislative races, especially primaries, are low-information elections where candidate questionnaires and voter guides have disproportionate influence. Most voters know nothing about state assembly candidates. A clear comparison of positions on housing, transit, and local government policy helps voters choose representatives who will strengthen (or weaken) the state mandate framework that OC housing advocacy depends on.",
+      "next_actions": [
+        "Research all declared candidates for SD-34 and AD-68",
+        "Develop questionnaire focused on housing mandates, RHNA enforcement, Builder's Remedy, transit, and local control",
+        "Distribute questionnaires and publish all responses",
+        "Create comparison guide for both races",
+        "Track campaign finance filings",
+        "Publish voter guides at least 4 weeks before June 2 primary"
+      ]
+    }
+  ],
+  "aligned_organizations": [
+    {"name": "League of Women Voters Orange Coast", "relationship": "Primary partner for candidate forums and voter education. Nonpartisan credibility strengthens our accountability framing.", "url": null},
+    {"name": "Voice of OC", "relationship": "Essential media partner. Their investigative journalism provides source material for scorecards, and our tracking data feeds their coverage.", "url": "https://voiceofoc.org"},
+    {"name": "OC Housing Now", "relationship": "Housing-focused ally. Our scorecards track housing votes; their advocacy uses the data to pressure non-compliant cities.", "internal_id": "oc-housing-now"},
+    {"name": "People for Housing OC", "relationship": "YIMBY ally — our housing vote tracking supports their advocacy campaigns.", "url": null},
+    {"name": "Indivisible OC", "relationship": "Progressive grassroots ally. Their voter mobilization capacity amplifies our voter guide distribution.", "url": null},
+    {"name": "OC Abundance Project", "relationship": "Cross-movement ally. Family formation policy depends on elected officials who support housing and childcare infrastructure. Our scorecards help identify allies.", "internal_id": "oc-abundance-project"}
+  ],
+  "engagement_pipeline": {
+    "awareness": "Scorecards shared on social media, Voice of OC coverage, election guide distribution through partner organizations. OC's razor-thin election margins make our data newsworthy.",
+    "interest": "Read a scorecard, attend a candidate forum, check your representatives' voting records. Understand how your city compares on housing and budget transparency.",
+    "action": "Vote informed using our guides. Share scorecards with neighbors. Attend a board or council meeting to observe your representatives in action. Submit public records requests. Contact your representatives about specific votes.",
+    "leadership": "Join the research team tracking votes and building scorecards. Lead tracking for a specific jurisdiction (City of Orange, Irvine, or Board of Supervisors). Coordinate candidate forums. Manage campaign finance monitoring."
+  },
+  "practical_next_steps_for_org": {
+    "immediate": [
+      {
+        "action": "Research all declared candidates for Board of Supervisors Districts 4 and 5",
+        "owner": "Research team",
+        "deadline": "2026-04-15",
+        "effort": "6 hours",
+        "impact": "very high"
+      },
+      {
+        "action": "Design candidate questionnaire for all 2026 races",
+        "owner": "Policy team",
+        "deadline": "2026-04-15",
+        "effort": "8 hours",
+        "impact": "very high"
+      },
+      {
+        "action": "Contact League of Women Voters Orange Coast for forum co-sponsorship",
+        "owner": "Steering committee",
+        "deadline": "2026-04-01",
+        "effort": "1 hour",
+        "impact": "high"
+      },
+      {
+        "action": "Begin collecting City of Orange council meeting minutes for scorecard",
+        "owner": "Research team",
+        "deadline": "2026-04-15",
+        "effort": "4 hours",
+        "impact": "high"
+      }
+    ],
+    "medium_term": [
+      {
+        "action": "Distribute questionnaires to all BoS D4/D5 and state legislative candidates",
+        "deadline": "2026-04-30",
+        "effort": "5 hours",
+        "impact": "very high"
+      },
+      {
+        "action": "Publish Board of Supervisors voter guide for June 2 primary",
+        "deadline": "2026-05-05",
+        "effort": "15 hours total",
+        "impact": "very high"
+      },
+      {
+        "action": "Publish City of Orange council scorecard v1",
+        "deadline": "2026-07-01",
+        "effort": "20 hours",
+        "impact": "high"
+      },
+      {
+        "action": "Host candidate forum for BoS District 4 candidates",
+        "deadline": "2026-05-15",
+        "effort": "10 hours",
+        "impact": "high"
+      }
+    ],
+    "strategic": [
+      {
+        "action": "Publish comprehensive November 2026 election guide covering City of Orange, City of Irvine, and all OC races",
+        "timeframe": "Q3 2026 (publish by early October)",
+        "impact": "very high",
+        "notes": "This is the capstone product — a complete voter guide for every OC race that matters. Coordinate with all partner organizations for maximum distribution."
+      },
+      {
+        "action": "Establish ongoing council vote tracking infrastructure for permanent accountability",
+        "timeframe": "Q4 2026",
+        "impact": "high",
+        "notes": "Elections are episodic but accountability should be permanent. Build systems (volunteer rotation, data pipeline, publication schedule) that outlast individual election cycles."
+      },
+      {
+        "action": "Expand coverage to OCTA, school boards, and water districts in 2027",
+        "timeframe": "2027",
+        "impact": "medium",
+        "notes": "Start with the highest-stakes bodies (BoS, city councils, state legislature) and expand as capacity allows. Special districts fly under the radar but make consequential decisions."
+      }
+    ]
+  }
+}

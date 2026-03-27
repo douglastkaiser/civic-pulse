@@ -1,0 +1,150 @@
+{
+  "id": "doug",
+  "display_name": "Doug",
+  "locations": [
+    {
+      "id": "austin-78702",
+      "label": "Austin, TX · 78702",
+      "status": "active",
+      "primary": true,
+      "zip": "78702",
+      "city": "Austin",
+      "county": "Travis County",
+      "state": "Texas",
+      "jurisdictions": {
+        "state_house_district": "HD-51",
+        "state_senate_district": "SD-14",
+        "us_congress_district": "CD-37",
+        "county_precinct": "Precinct 4",
+        "city_council_district": "District 1",
+        "school_district": "Austin ISD"
+      }
+    },
+    {
+      "id": "orange-92868",
+      "label": "Orange, CA · 92868",
+      "status": "setting_up",
+      "primary": false,
+      "zip": "92868",
+      "city": "Orange",
+      "county": "Orange County",
+      "state": "California",
+      "jurisdictions": {
+        "city_council_district": "TBD — need specific address",
+        "county_supervisor_district": "District 2 or 3 (near boundary)",
+        "state_senate_district": "SD-34",
+        "state_assembly_district": "AD-68",
+        "us_congress_district": "CD-46",
+        "school_district": "Orange Unified or Irvine Unified (depends on address)"
+      }
+    }
+  ],
+  "values": {
+    "growth_vs_preservation": 0.8,
+    "local_vs_central": -0.3,
+    "market_vs_regulation": 0.4,
+    "individual_vs_collective": 0.1,
+    "fiscal_prudence_vs_investment": 0.3,
+    "process_vs_speed": 0.5,
+    "expertise_vs_democracy": 0.6,
+    "safety_vs_liberty": -0.2,
+    "present_vs_future": 0.7,
+    "universal_vs_targeted": -0.1
+  },
+  "issue_salience": {
+    "Housing & Land Use": 95,
+    "Economic Development": 80,
+    "Transportation & Transit": 75,
+    "Taxation & Public Finance": 70,
+    "Government Transparency": 65,
+    "Technology & Innovation": 60,
+    "Public Safety": 55,
+    "Environmental Protection": 55,
+    "Public Education": 50,
+    "Civil Rights & Social Equity": 50,
+    "Healthcare Access": 45,
+    "Parks & Public Spaces": 35,
+    "Water & Natural Resources": 30,
+    "Immigration": 25,
+    "Higher Education": 20
+  },
+  "engagement_appetite": {
+    "hours_per_week": "1-3",
+    "attend_public_meeting": "maybe",
+    "submit_public_comment": "yes",
+    "contact_elected_official": "yes",
+    "donate_to_campaigns": "yes",
+    "volunteer_for_campaign": "maybe"
+  },
+  "manifesto_inputs_complete": true,
+  "manifesto": {
+    "manifesto_summary": "Pro-housing pragmatist. I want a government that builds things, measures what works, and doesn't let ideology get in the way of outcomes.",
+    "narrative": "I believe in building. Austin's future depends on our willingness to grow — to add housing, to invest in transit, to let density happen where it makes sense. I'm not interested in preserving a version of Austin that only exists in nostalgia; I'm interested in making a city that works for the people who live here now and the people who will live here next.\n\nI'm a Democrat, but I'm not a populist. I believe in progressive taxation, robust public services, and strong social safety nets — but I believe these things work best when paired with fiscal discipline, evidence-based policy, and a government that respects market dynamics rather than fighting them. When I hear class-warfare rhetoric from my own party, I wince — not because the underlying concerns are wrong, but because the framing is counterproductive and the proposed solutions are often worse than the problems they claim to solve.\n\nWhat drives me politically is competence. I want elected officials who understand the systems they're governing, who make decisions based on data rather than ideology, and who measure success by outcomes rather than intentions. I'd rather have a boring pragmatist who gets things built than an inspiring ideologue who gives great speeches and accomplishes nothing.\n\nLocally, that means I'm YIMBY to my core. The housing crisis is a supply problem, and the solution is building more housing at every price point. I support upzoning along transit corridors, reforming parking minimums, streamlining permitting, and telling neighborhood preservation groups — respectfully but firmly — that their aesthetic preferences don't outweigh other people's need for somewhere to live.\n\nOn public safety, I'm a both/and pragmatist. Austin needs more police officers AND more non-police crisis response. The homelessness challenge requires different interventions for different populations — housing for those who can maintain it, treatment for those who can't yet. I supported the spirit of Prop B while recognizing that enforcement without alternatives is cruelty. I judge public safety policy by outcomes data, not by whether it sounds tough or sounds compassionate.",
+    "identity_tags": [
+      "pragmatic urbanist",
+      "YIMBY",
+      "fiscal moderate",
+      "evidence-driven",
+      "pro-growth liberal",
+      "technocratic Democrat"
+    ],
+    "issue_positions": [
+      {
+        "domain": "Housing & Land Use",
+        "stance": "Strongly pro-development, pro-density, anti-NIMBY",
+        "local_implication": "Support land use reform, upzoning along transit corridors, RHNA compliance enforcement in California, HOME initiative implementation in Austin",
+        "likely_allies": "AURA, People for Housing OC, pro-housing council members, developers, urbanist community",
+        "likely_friction": "Neighborhood preservation groups, some progressives who prioritize mandated affordability percentages over total supply"
+      },
+      {
+        "domain": "Economic Development",
+        "stance": "Pro-growth with smart incentive structures, skeptical of unconditioned subsidies",
+        "local_implication": "Support tech economy growth while ensuring public infrastructure keeps pace",
+        "likely_allies": "Austin Chamber, tech sector, fiscal moderates",
+        "likely_friction": "Anti-growth activists, some progressive council members skeptical of corporate incentives"
+      },
+      {
+        "domain": "Transportation & Transit",
+        "stance": "Pro-transit investment, pro-density near transit, support Project Connect and OC Streetcar expansion",
+        "local_implication": "Advocate for light rail implementation, bus rapid transit, reduced car dependency in urban core",
+        "likely_allies": "AURA, Transit Forward, CapMetro advocates, OCTA",
+        "likely_friction": "Suburban car-dependent voters, fiscal conservatives who oppose transit bond spending"
+      },
+      {
+        "domain": "Taxation & Public Finance",
+        "stance": "Support progressive taxation but demand fiscal accountability and measurable ROI on spending",
+        "local_implication": "Scrutinize city budgets for efficiency, support property tax reform that doesn't discourage development",
+        "likely_allies": "Fiscal moderates on council, watchdog outlets",
+        "likely_friction": "Both anti-tax conservatives and spend-first progressives"
+      },
+      {
+        "domain": "Government Transparency",
+        "stance": "Strong advocate for open data, transparent decision-making, and public accountability",
+        "local_implication": "Support open data initiatives, push for more accessible council proceedings",
+        "likely_allies": "Voice of OC, Austin Monitor, civic tech community, good-government advocates",
+        "likely_friction": "Entrenched bureaucratic interests, some officials who prefer operating with less scrutiny"
+      },
+      {
+        "domain": "Public Safety",
+        "stance": "Both/and pragmatist: more officers AND more non-police crisis response. Evidence-based, not ideology-driven.",
+        "local_implication": "Support staffing increases alongside crisis response team expansion, hold agencies accountable for outcomes",
+        "likely_allies": "Austin Safe & Sound, pragmatic council members, crisis response orgs",
+        "likely_friction": "Abolish-the-police left, tough-on-crime-only right, anyone who frames safety vs. compassion as a binary"
+      }
+    ]
+  },
+  "political_context": {
+    "party_lean": "moderate Democrat",
+    "key_descriptors": [
+      "Pro-housing / YIMBY",
+      "Pro-development",
+      "Liberal technocrat",
+      "Progressive tax + fiscal discipline",
+      "Anti-populist framing",
+      "Electability over ideology"
+    ]
+  },
+  "political_compass": {
+    "user": { "economic": -0.2, "social": -0.3, "spread": 0.25 }
+  }
+}

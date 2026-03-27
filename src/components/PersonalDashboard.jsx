@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { loadProfile, loadLocation, loadIssues, loadFreshness } from '../lib/data'
+import { loadProfile, loadLocation, loadIssues, loadFreshness, PROFILE_ID } from '../lib/data'
 import ManifestoPanel from './ManifestoPanel'
 import LocationPanel from './LocationPanel'
 import PriorityMatrix from './PriorityMatrix'
@@ -7,11 +7,10 @@ import IssueFeed from './IssueFeed'
 import IssueDetail from './IssueDetail'
 import NextStepsPanel from './NextStepsPanel'
 import PoliticalCompass from './PoliticalCompass'
+import LocationSwitcher from './LocationSwitcher'
 import ExportButton from './shared/ExportButton'
 import BulkExportButton from './shared/BulkExportButton'
 import DetailModal from './shared/DetailModal'
-
-const PROFILE_ID = 'austin-78702'
 
 export default function PersonalDashboard() {
   const [profile, setProfile] = useState(null)
@@ -19,28 +18,65 @@ export default function PersonalDashboard() {
   const [issuesData, setIssuesData] = useState(null)
   const [freshness, setFreshness] = useState(null)
   const [loading, setLoading] = useState(true)
+  const [locationLoading, setLocationLoading] = useState(false)
   const [selectedIssueId, setSelectedIssueId] = useState(null)
   const [issueModalOpen, setIssueModalOpen] = useState(false)
+  const [activeLocationId, setActiveLocationId] = useState(null)
 
+  // Phase 1: Load profile and freshness on mount
   useEffect(() => {
     Promise.all([
       loadProfile(PROFILE_ID),
-      loadLocation(PROFILE_ID),
-      loadIssues(PROFILE_ID),
       loadFreshness(),
     ])
-      .then(([prof, loc, iss, fresh]) => {
+      .then(([prof, fresh]) => {
         setProfile(prof)
-        setLocation(loc)
-        setIssuesData(iss)
         setFreshness(fresh)
-        setLoading(false)
+
+        // Determine default location: first with status "active", or first in list
+        const defaultLoc = prof.locations?.find((l) => l.status === 'active') || prof.locations?.[0]
+        if (defaultLoc) {
+          setActiveLocationId(defaultLoc.id)
+        } else {
+          // Fallback for old profile format
+          setLoading(false)
+        }
       })
       .catch((err) => {
         console.error('Failed to load profile data:', err)
         setLoading(false)
       })
   }, [])
+
+  // Phase 2: Load location-specific data when activeLocationId changes
+  useEffect(() => {
+    if (!activeLocationId) return
+
+    setLocationLoading(true)
+    setSelectedIssueId(null)
+
+    Promise.all([
+      loadLocation(activeLocationId),
+      loadIssues(activeLocationId),
+    ])
+      .then(([loc, iss]) => {
+        setLocation(loc)
+        setIssuesData(iss)
+        setLoading(false)
+        setLocationLoading(false)
+      })
+      .catch((err) => {
+        console.error('Failed to load location data:', err)
+        setLoading(false)
+        setLocationLoading(false)
+      })
+  }, [activeLocationId])
+
+  const handleLocationSwitch = (locationId) => {
+    if (locationId !== activeLocationId) {
+      setActiveLocationId(locationId)
+    }
+  }
 
   if (loading) {
     return (
@@ -117,30 +153,43 @@ export default function PersonalDashboard() {
     setIssueModalOpen(true)
   }
 
-  // Build compass entities from profile data
+  // Build compass entities: user position (shared) + location-specific entities
   const compassEntities = []
-  if (profile?.political_compass) {
-    const pc = profile.political_compass
-    if (pc.user) compassEntities.push({ name: 'You', ...pc.user, color: '#a855f7', highlighted: true })
-    if (pc.city_austin) compassEntities.push({ name: 'Austin', ...pc.city_austin, color: '#3b82f6' })
-    if (pc.state_texas) compassEntities.push({ name: 'Texas', ...pc.state_texas, color: '#ef4444' })
-    if (pc.democratic_party) compassEntities.push({ name: 'Dem Party', ...pc.democratic_party, color: '#3b82f6' })
-    if (pc.republican_party) compassEntities.push({ name: 'GOP', ...pc.republican_party, color: '#ef4444' })
+  if (profile?.political_compass?.user) {
+    compassEntities.push({ name: 'You', ...profile.political_compass.user, color: '#a855f7', highlighted: true })
   }
+
+  if (location?.political_compass_entities) {
+    const pce = location.political_compass_entities
+    // Location-specific entities vary by location
+    if (pce.city_austin) compassEntities.push({ name: 'Austin', ...pce.city_austin, color: '#3b82f6' })
+    if (pce.state_texas) compassEntities.push({ name: 'Texas', ...pce.state_texas, color: '#ef4444' })
+    if (pce.orange_county) compassEntities.push({ name: 'Orange Co', ...pce.orange_county, color: '#f59e0b' })
+    if (pce.california_democratic_party) compassEntities.push({ name: 'CA Dems', ...pce.california_democratic_party, color: '#3b82f6' })
+    if (pce.democratic_party) compassEntities.push({ name: 'Dem Party', ...pce.democratic_party, color: '#3b82f6' })
+    if (pce.republican_party) compassEntities.push({ name: 'GOP', ...pce.republican_party, color: '#ef4444' })
+    if (pce.local_orgs) {
+      pce.local_orgs.forEach((org) => {
+        compassEntities.push({ name: org.name, ...org, color: '#22c55e' })
+      })
+    }
+  }
+
+  const activeLocation = profile?.locations?.find((l) => l.id === activeLocationId)
 
   const getExportData = () => ({
     export_type: 'personal_political_profile',
     exported_at: new Date().toISOString(),
     profile_id: PROFILE_ID,
     display_name: profile.display_name,
-    location: profile.location,
+    active_location: activeLocation,
     political_context: profile.political_context,
     values: profile.values,
     issue_salience: profile.issue_salience,
     manifesto: profile.manifesto,
     political_compass: profile.political_compass,
     engagement_appetite: profile.engagement_appetite,
-    next_steps: profile.next_steps,
+    next_steps: location?.next_steps,
   })
 
   // Issue tabs for modal
@@ -149,12 +198,26 @@ export default function PersonalDashboard() {
     label: i.title.length > 30 ? i.title.slice(0, 28) + '...' : i.title,
   }))
 
+  // Overlay for location transitions
+  const locationOverlay = locationLoading ? (
+    <div className="absolute inset-0 bg-bg-primary/50 z-10 flex items-center justify-center rounded-lg">
+      <span className="font-mono text-xs text-text-tertiary animate-pulse">Loading location data...</span>
+    </div>
+  ) : null
+
   return (
     <div className="h-full p-3 flex flex-col gap-3 overflow-auto lg:overflow-hidden animate-fade-in">
-      {/* Utility bar */}
-      <div className="flex justify-end flex-shrink-0 gap-2">
-        <BulkExportButton />
-        <ExportButton getData={getExportData} filename={`civic-pulse-profile-${PROFILE_ID}.json`} />
+      {/* Utility bar with location switcher */}
+      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 flex-shrink-0">
+        <LocationSwitcher
+          locations={profile?.locations}
+          activeLocationId={activeLocationId}
+          onSwitch={handleLocationSwitch}
+        />
+        <div className="flex gap-2">
+          <BulkExportButton />
+          <ExportButton getData={getExportData} filename={`civic-pulse-profile-${activeLocationId || 'all'}.json`} />
+        </div>
       </div>
 
       {/* Top row: Manifesto + Political Positioning + Priority Matrix */}
@@ -167,7 +230,8 @@ export default function PersonalDashboard() {
             <PoliticalCompass entities={compassEntities} size={280} collapsible={false} />
           </div>
         )}
-        <div className="lg:w-[35%] min-w-0 min-h-[300px] lg:min-h-0">
+        <div className="lg:w-[35%] min-w-0 min-h-[300px] lg:min-h-0 relative">
+          {locationOverlay}
           <PriorityMatrix
             issues={issues}
             onSelectIssue={handleSelectIssue}
@@ -178,18 +242,21 @@ export default function PersonalDashboard() {
 
       {/* Bottom row: Location + Issues + Next Steps */}
       <div className="flex flex-col lg:flex-row gap-3 lg:flex-1 lg:min-h-0" style={{ flex: '1 1 50%' }}>
-        <div className="lg:w-2/5 min-w-0 min-h-[300px] lg:min-h-0">
+        <div className="lg:w-2/5 min-w-0 min-h-[300px] lg:min-h-0 relative">
+          {locationOverlay}
           <LocationPanel location={location} />
         </div>
-        <div className="lg:w-[30%] min-w-0 min-h-[300px] lg:min-h-0">
+        <div className="lg:w-[30%] min-w-0 min-h-[300px] lg:min-h-0 relative">
+          {locationOverlay}
           <IssueFeed
             issues={issues}
             onSelectIssue={handleSelectIssue}
             selectedIssueId={selectedIssueId}
           />
         </div>
-        <div className="lg:w-[30%] min-w-0 min-h-[300px] lg:min-h-0">
-          <NextStepsPanel profile={profile} />
+        <div className="lg:w-[30%] min-w-0 min-h-[300px] lg:min-h-0 relative">
+          {locationOverlay}
+          <NextStepsPanel nextSteps={location?.next_steps} />
         </div>
       </div>
 

@@ -1,0 +1,200 @@
+{
+  "id": "oc-housing-now",
+  "name": "OC Housing Now",
+  "tagline": "The state said build. We're making sure it happens.",
+  "mission": "California's state housing mandates — SB 9, SB 10, RHNA, Builder's Remedy — provide the legal framework for the housing OC needs. The problem isn't bad law. The problem is local governments actively evading compliance.\n\nThe City of Orange had its Housing Element REJECTED by the California Department of Housing and Community Development (HCD) in 2023. That rejection triggered Builder's Remedy — developers can now bypass local zoning for projects that include affordable units. Multiple applications are pending, including the Orange Heights 1,180-unit development. But the city is fighting every one of them.\n\n87.5% of Orange County cities made their SB 9 ordinances MORE restrictive than state law requires. This is systematic noncompliance dressed up as local control.\n\nThis is not Austin's YIMBY fight. In Austin, you push local government to ADOPT pro-housing policy. In Orange County, you push local government to COMPLY WITH state housing mandates it's actively trying to evade. The legal tools already exist. What's missing is organized pressure to use them.\n\nOC Housing Now exists because the enforcement gap between state mandate and local compliance is where housing dies. We track RHNA compliance across all 35 OC cities. We support Builder's Remedy applications. We show up at city councils when Housing Elements are on the agenda. We make the political cost of noncompliance higher than the cost of building.\n\nThe Irvine General Plan update proposes zoning for 57,656 new units — one of the largest zoning capacity increases in Southern California history. The Irvine Company (Donald Bren, America's richest real estate developer) controls ~75% of Irvine's apartment units. Whether the high-density scenario survives depends on organized pro-housing advocacy. We fight for maximum housing capacity because every unit not zoned is a family priced out.",
+  "theory_of_change": "California's state housing mandates provide the legal framework. The bottleneck is local compliance. Organized advocates showing up at city councils, supporting Builder's Remedy applications, tracking RHNA compliance numbers across all 35 OC cities, and filing complaints with HCD when cities resist creates pressure for compliance. The legal leverage already exists — we activate it. In a purple county where council seats are decided by hundreds of votes, elected officials who block housing face electoral consequences when their noncompliance is made visible. We make it visible.",
+  "geographic_scope": {
+    "city": "Orange",
+    "county": "Orange County",
+    "state": "California"
+  },
+  "founded": "2026-03-27",
+  "political_positioning": {
+    "description": "Pragmatic, broad-tent pro-housing coalition. Slightly right of center economically — we lead with property rights and market-based housing supply arguments, which resonate in OC's more conservative political environment. Socially moderate. The coalition includes YIMBY urbanists, property rights advocates, developers frustrated by local obstruction, renters squeezed by artificial scarcity, and state compliance advocates who believe the law should be followed. Similar to Austin YIMBY Action but shifted slightly right because OC's political center is further right than Austin's. Not affiliated with any party — we work with anyone who wants to build housing.",
+    "compass_cloud": {
+      "economic_center": 0.2,
+      "economic_spread": 0.4,
+      "social_center": -0.1,
+      "social_spread": 0.3
+    }
+  },
+  "key_policy_positions": [
+    "Enforce RHNA compliance across all 35 Orange County cities — track and publicize compliance status",
+    "Support Builder's Remedy applications in non-compliant cities including Orange",
+    "Oppose restrictive local SB 9 ordinances that undermine state housing law",
+    "Advocate for the high-density scenario in Irvine's General Plan update (57,656 units)",
+    "Push the City of Orange to adopt a compliant Housing Element and stop fighting state mandates",
+    "Support transit-oriented development along Metrolink corridors and the new OC Streetcar line",
+    "Eliminate or reduce parking minimums in OC cities to lower housing construction costs",
+    "File HCD complaints when cities adopt policies that obstruct state housing mandates",
+    "Support the Orange Heights 1,180-unit Builder's Remedy development",
+    "Advocate for ADU-friendly policies that go beyond minimum SB 9 requirements"
+  ],
+  "active_campaigns": [
+    {
+      "id": "orange-housing-element",
+      "title": "City of Orange Housing Element Accountability",
+      "status": "active",
+      "priority": "high",
+      "importance_score": 90,
+      "impact_score": 75,
+      "summary": "The City of Orange's Housing Element was rejected by HCD in 2023, triggering Builder's Remedy. The city is attempting to update its plan while simultaneously fighting Builder's Remedy applications. We track the compliance process, support Builder's Remedy projects, and show up at every council meeting where housing is on the agenda. The Orange Heights 1,180-unit development is the flagship test case — if it survives local opposition, it sets a precedent for Builder's Remedy across OC.",
+      "theory_of_change": "Cities comply with state mandates when the political cost of noncompliance exceeds the cost of building. Organized pro-housing voices at council meetings, public tracking of compliance status, and visible support for Builder's Remedy applications shift the political calculus. When council members know that both state regulators AND local constituents are watching, they comply.",
+      "next_actions": [
+        "Track City of Orange Housing Element update timeline and public hearing schedule",
+        "Prepare template public comment supporting Housing Element compliance",
+        "Research and publicize status of all pending Builder's Remedy applications in Orange",
+        "Attend every council meeting where housing items are on the agenda",
+        "Coordinate with California YIMBY on state-level compliance pressure",
+        "Document and publicize instances of the city obstructing or delaying compliance"
+      ]
+    },
+    {
+      "id": "irvine-general-plan",
+      "title": "Irvine General Plan — Support High-Density Scenario",
+      "status": "active",
+      "priority": "high",
+      "importance_score": 85,
+      "impact_score": 70,
+      "summary": "The City of Irvine is updating its General Plan with a proposal to zone for up to 57,656 new housing units. This is one of the largest zoning capacity increases in Southern California history. The Irvine Company controls ~75% of Irvine's apartment units, creating unique monopoly dynamics. The current 5-2 Democratic council majority supports the high-density scenario, but November 2026 council elections (3 seats + mayor) could change the dynamics. We advocate for maximum housing capacity and monitor the Irvine Company's influence on the process.",
+      "theory_of_change": "The General Plan update is a once-in-a-generation decision. Zoning capacity set now determines Irvine's housing potential for decades. Pro-housing voices from across OC — not just Irvine residents — demonstrating support for the high-density scenario gives the council political cover to adopt it. Regional impact arguments (every unit Irvine doesn't zone pushes demand to neighboring cities) connect this to broader OC housing needs.",
+      "next_actions": [
+        "Monitor Irvine General Plan update timeline and public hearing schedule",
+        "Prepare analysis comparing housing capacity under different density scenarios",
+        "Coordinate with People for Housing OC on joint advocacy strategy",
+        "Research the Irvine Company's positions and influence on the General Plan process",
+        "Organize OC-wide coalition letter supporting the high-density scenario",
+        "Track November 2026 Irvine council candidates' positions on the General Plan"
+      ]
+    },
+    {
+      "id": "rhna-compliance-tracking",
+      "title": "RHNA Compliance Tracking Across OC",
+      "status": "planning",
+      "priority": "medium",
+      "importance_score": 75,
+      "impact_score": 60,
+      "summary": "Build and maintain a public dashboard tracking all 35 Orange County cities' compliance with their Regional Housing Needs Assessment (RHNA) targets. California law assigns each city a specific number of housing units it must zone for across four income categories. Most OC cities are behind on their targets, especially for very low and low-income units. Making this data publicly accessible and understandable creates accountability pressure and identifies which cities need the most advocacy attention.",
+      "theory_of_change": "What gets measured gets managed. A public, regularly updated compliance dashboard turns abstract state mandates into concrete, city-by-city accountability. Media can use it for stories. Advocates can prioritize cities with the worst compliance. Residents can see how their city compares. This is the infrastructure that makes all other housing advocacy more effective.",
+      "next_actions": [
+        "Compile RHNA allocation data for all 35 OC cities from SCAG (Southern California Association of Governments)",
+        "Research each city's Housing Element status and permitted unit counts",
+        "Design dashboard format — city-by-city comparison with compliance percentage by income category",
+        "Identify data sources for ongoing tracking (HCD reports, city annual progress reports)",
+        "Partner with Kennedy Commission on data sharing and methodology",
+        "Launch beta dashboard and solicit feedback from partner organizations"
+      ]
+    },
+    {
+      "id": "builders-remedy-awareness",
+      "title": "Builder's Remedy Awareness & Support",
+      "status": "planning",
+      "priority": "medium",
+      "importance_score": 70,
+      "impact_score": 55,
+      "summary": "Many OC residents, developers, and even city officials don't fully understand Builder's Remedy — the state law provision that allows projects with affordable units to bypass local zoning in cities with non-compliant Housing Elements. We educate residents about what it means, support developers who file Builder's Remedy applications, and counter misinformation from NIMBYs who frame it as a threat rather than a consequence of noncompliance.",
+      "theory_of_change": "Builder's Remedy is powerful but underutilized because developers face political risk and community opposition. Organized community support for Builder's Remedy projects changes the political dynamic — developers know they're not alone, councils know there's constituency for the projects, and residents understand that the 'threat' is actually a consequence of their city's own noncompliance. Education reduces opposition; organized support enables development.",
+      "next_actions": [
+        "Create explainer content: What is Builder's Remedy? Why does it apply in your city?",
+        "Map all OC cities currently in Builder's Remedy status",
+        "Document pending Builder's Remedy applications across OC",
+        "Develop template public comment supporting Builder's Remedy projects",
+        "Coordinate with developers filing Builder's Remedy applications to provide community support",
+        "Counter misinformation campaigns by city officials who frame Builder's Remedy as an attack on local control"
+      ]
+    }
+  ],
+  "aligned_organizations": [
+    {"name": "People for Housing OC", "relationship": "Core local ally — strongest YIMBY voice in OC with only 2 staffers. We amplify their work and provide volunteer capacity.", "url": null},
+    {"name": "Kennedy Commission", "relationship": "Affordable housing research partner. Their data on housing need and income categories strengthens our RHNA compliance advocacy.", "url": "https://kennedycommission.org"},
+    {"name": "California YIMBY", "relationship": "State-level ally providing legal expertise on housing mandates, Builder's Remedy, and RHNA compliance. They connect us to the statewide movement.", "url": "https://cayimby.org"},
+    {"name": "Irvine Community Land Trust", "relationship": "Aligned on permanently affordable housing goals. Their community land trust model provides an alternative development path.", "url": null},
+    {"name": "Austin YIMBY Action", "relationship": "Cross-location ally. Same pro-housing mission in a different political context. Austin pushes for policy adoption; we push for policy compliance. Share strategy and lessons.", "internal_id": "austin-yimby-action"},
+    {"name": "OC Abundance Project", "relationship": "Cross-movement ally. Every housing unit built is a family formation enabler. Our housing supply advocacy strengthens their family-sized housing campaign.", "internal_id": "oc-abundance-project"}
+  ],
+  "engagement_pipeline": {
+    "awareness": "Social media, Voice of OC coverage, RHNA compliance dashboard as shareable content. Explainer content on Builder's Remedy and state housing mandates.",
+    "interest": "Attend a Housing Element public hearing or read our city-by-city compliance tracker. Understand how your city compares on RHNA targets.",
+    "action": "Submit public comment supporting housing at your city council. Show up at a Builder's Remedy project hearing. Contact your council member about Housing Element compliance. Share compliance data on social media.",
+    "leadership": "Join the RHNA tracking research team. Lead advocacy at a specific city council. Coordinate with California YIMBY on state-level compliance pressure. Recruit volunteers for hearing attendance."
+  },
+  "practical_next_steps_for_org": {
+    "immediate": [
+      {
+        "action": "Research City of Orange Housing Element update status and timeline",
+        "owner": "Policy team",
+        "deadline": "2026-04-15",
+        "effort": "4 hours",
+        "impact": "high"
+      },
+      {
+        "action": "Connect with People for Housing OC for coordination",
+        "owner": "Steering committee",
+        "deadline": "2026-04-01",
+        "effort": "1 hour",
+        "impact": "high"
+      },
+      {
+        "action": "Map all OC cities currently in Builder's Remedy or non-compliant status",
+        "owner": "Research team",
+        "deadline": "2026-04-15",
+        "effort": "6 hours",
+        "impact": "very high"
+      },
+      {
+        "action": "Contact California YIMBY for state-level compliance data and partnership",
+        "owner": "Steering committee",
+        "deadline": "2026-04-01",
+        "effort": "1 hour",
+        "impact": "high"
+      }
+    ],
+    "medium_term": [
+      {
+        "action": "Launch RHNA compliance tracker v1 for all 35 OC cities",
+        "deadline": "2026-06-15",
+        "effort": "30 hours",
+        "impact": "very high"
+      },
+      {
+        "action": "Organize hearing attendance for Orange Heights Builder's Remedy project",
+        "deadline": "When hearing scheduled",
+        "effort": "5 hours",
+        "impact": "high"
+      },
+      {
+        "action": "Publish Builder's Remedy explainer and share with OC media",
+        "deadline": "2026-05-15",
+        "effort": "8 hours",
+        "impact": "high"
+      },
+      {
+        "action": "Track Irvine General Plan public hearing schedule and prepare advocacy materials",
+        "deadline": "Ongoing",
+        "effort": "3 hours/month",
+        "impact": "high"
+      }
+    ],
+    "strategic": [
+      {
+        "action": "Build multi-org coalition for RHNA enforcement across OC — People for Housing OC, Kennedy Commission, California YIMBY, labor groups",
+        "timeframe": "Q2-Q3 2026",
+        "impact": "very high",
+        "notes": "Combined advocacy amplifies pressure on non-compliant cities. Coalition letters carry more weight than individual org voices."
+      },
+      {
+        "action": "Evaluate November 2026 City of Orange council candidates on housing positions",
+        "timeframe": "Q3 2026",
+        "impact": "high",
+        "notes": "3 council seats + mayor on ballot. Coordinate with OC Purple Accountability on candidate questionnaires and scorecards."
+      },
+      {
+        "action": "File HCD complaints against the most egregiously non-compliant OC cities",
+        "timeframe": "Q3-Q4 2026",
+        "impact": "high",
+        "notes": "Legal pressure backstops advocacy pressure. Document noncompliance patterns and coordinate with California YIMBY on complaint strategy."
+      }
+    ]
+  }
+}

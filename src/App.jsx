@@ -4,6 +4,7 @@ import PersonalDashboard from './components/PersonalDashboard'
 import OrgDashboard from './components/OrgDashboard'
 import OrgPublicView from './components/OrgPublicView'
 import NewOrg from './components/NewOrg'
+import About from './components/About'
 import ErrorBoundary from './components/shared/ErrorBoundary'
 
 export default function App() {
@@ -29,6 +30,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Navigate to="/dashboard" replace />} />
             <Route path="/dashboard" element={<PersonalDashboard />} />
+            <Route path="/about" element={<About />} />
             <Route path="/org/new" element={<NewOrg />} />
             <Route path="/org/:orgId/public" element={<OrgPublicView />} />
             <Route path="/org/:orgId" element={<OrgDashboard />} />
