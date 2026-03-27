@@ -141,5 +141,87 @@
       "action": "Monitor candidate announcements. Evaluate alignment with your priorities. Consider early engagement/donation to preferred candidate."
     }
   ],
-  "key_political_dynamics": "Austin politics center on a housing/growth vs. neighborhood preservation tension. The current council leans pro-development with Mayor Watson providing a pragmatic anchor, but faces organized NIMBY opposition on specific projects. The Nov 2026 city council elections (Districts 1, 3, 5, 8, 9) will shape Austin's direction on housing for the next 4 years. District 1 is the most consequential for 78702 residents — it's an open seat for the first time in 8 years. Travis County is solidly blue; meaningful political competition is within the Democratic primary. The May 26 Pct 4 runoff is the next actionable election."
+  "key_political_dynamics": "Austin politics center on a housing/growth vs. neighborhood preservation tension. The current council leans pro-development with Mayor Watson providing a pragmatic anchor, but faces organized NIMBY opposition on specific projects. The Nov 2026 city council elections (Districts 1, 3, 5, 8, 9) will shape Austin's direction on housing for the next 4 years. District 1 is the most consequential for 78702 residents — it's an open seat for the first time in 8 years. Travis County is solidly blue; meaningful political competition is within the Democratic primary. The May 26 Pct 4 runoff is the next actionable election.",
+  "political_compass_entities": {
+    "city_austin": { "economic": -0.15, "social": -0.2, "spread": 0.25 },
+    "state_texas": { "economic": 0.3, "social": 0.2, "spread": 0.35 },
+    "democratic_party": { "economic": -0.3, "social": -0.1, "spread": 0.3 },
+    "republican_party": { "economic": 0.4, "social": 0.3, "spread": 0.25 },
+    "local_orgs": [
+      { "name": "AURA", "economic": -0.1, "social": -0.4, "spread": 0.1 },
+      { "name": "Travis Co Dems", "economic": -0.35, "social": -0.1, "spread": 0.2 }
+    ]
+  },
+  "next_steps": {
+    "immediate": [
+      {
+        "action": "Verify voter registration for May 26 runoff",
+        "detail": "votetexas.gov",
+        "time": "5 min",
+        "impact": "HIGH",
+        "reason": "Low-turnout runoff = outsized vote weight",
+        "llm_prompt": "I need to verify my voter registration status in Texas for the May 26, 2026 Travis County Commissioner Precinct 4 Democratic runoff. I live in zip code 78702 (Austin, District 1). Walk me through the steps to check my registration at votetexas.gov, and tell me the key deadlines I need to be aware of for this runoff election. Also explain what a county commissioner does and why this low-turnout runoff matters for housing and transit policy."
+      },
+      {
+        "action": "Research Pct 4 runoff candidates",
+        "detail": "Compare positions on development, transportation, county budget priorities",
+        "time": "30 min",
+        "impact": "HIGH",
+        "reason": null,
+        "llm_prompt": "I need to research the candidates in the May 26, 2026 Travis County Commissioner Precinct 4 Democratic runoff in Austin, TX. Help me build a comparison framework. I care most about: (1) housing and development policy — do they support density and new construction? (2) transportation infrastructure — do they support Project Connect and transit investment? (3) county budget priorities — are they fiscally responsible while investing in infrastructure? Create a table template I can fill in as I research each candidate, with specific questions I should look for answers to."
+      }
+    ],
+    "this_month": [
+      {
+        "action": "Monitor District 1 council race developments",
+        "detail": "Steven Brown's anti-developer positioning may conflict with your YIMBY values. Watch for additional candidates before Aug 17 filing deadline.",
+        "time": "15 min/week",
+        "impact": "HIGH",
+        "reason": null,
+        "llm_prompt": "I'm tracking the Austin City Council District 1 race for November 2026. This is an open seat for the first time in 8 years (currently held by Natasha Harper-Madison). One declared candidate, Steven Brown, has explicitly anti-developer positions. I'm a pro-housing YIMBY voter in 78702. Help me create a tracking document with: (1) key dates (filing deadline Aug 17, election Nov 3), (2) what to watch for in candidate announcements, (3) specific policy questions that would differentiate pro-housing vs anti-housing candidates, (4) where to find candidate announcements and filings in Austin."
+      },
+      {
+        "action": "Write public comment on golf course rezoning",
+        "detail": "Track when public hearings are scheduled. This is the biggest single housing opportunity in Austin. Be ready to submit public comment when hearings open.",
+        "time": "Ongoing",
+        "impact": "HIGH",
+        "reason": null,
+        "llm_prompt": "I need to write a public comment for the Austin City Council supporting the rezoning of the Jimmy Clay and Roy Kizer golf courses for residential and mixed-use development. I'm a resident of 78702 (District 1). My key points are: housing supply is Austin's most pressing need, city-owned land is the lowest-friction path to new housing, and transit-oriented development along future transit corridors should be prioritized. The site is 445 acres and could yield 5,000-15,000 housing units depending on density. Please draft a 2-3 minute spoken comment (about 400 words) that is specific, evidence-based, and avoids generic talking points."
+      }
+    ],
+    "medium_term": [
+      {
+        "action": "Attend one AURA monthly meeting",
+        "detail": "Highest-alignment org for your priorities. One visit to evaluate fit.",
+        "time": "2 hours",
+        "impact": "MEDIUM",
+        "reason": null,
+        "llm_prompt": "I'm planning to attend my first AURA (Austinites for Urban Rail Action) monthly meeting in Austin, TX. I'm a pro-housing YIMBY interested in getting involved in local housing and transit advocacy. Help me prepare: (1) What should I expect at a typical AURA meeting? (2) What questions should I ask to evaluate whether this org is a good fit for me? (3) How can I introduce myself and my interests effectively? (4) What are AURA's current priority campaigns I should be familiar with before attending?"
+      },
+      {
+        "action": "Sign up for Austin Monitor newsletter",
+        "detail": "Best local political coverage, keeps you informed between pipeline runs.",
+        "time": "2 min",
+        "impact": "LOW EFFORT, ONGOING VALUE",
+        "reason": null,
+        "llm_prompt": "I want to stay informed about Austin, TX local government and politics. I'm signing up for the Austin Monitor newsletter. What other Austin-specific news sources, newsletters, and social media accounts should I follow to stay informed about: city council actions, planning commission decisions, Project Connect updates, housing development news, and Travis County politics? Give me a prioritized list of the top 10 sources with links where possible."
+      }
+    ],
+    "strategic": [
+      {
+        "action": "Organize for May 26 Pct 4 runoff",
+        "detail": "The runoff will have ~8-12% turnout. A small organized group (5-10 people) doing targeted outreach in your precinct could meaningfully shift the outcome. 10 hours over 4 weekends.",
+        "impact": "VERY HIGH",
+        "reason": "Requires social coordination",
+        "llm_prompt": "I want to organize a small group (5-10 people) to do voter outreach for the May 26, 2026 Travis County Commissioner Precinct 4 Democratic runoff in Austin, TX. Expected turnout is only 8-12%, so a small organized effort can meaningfully shift the outcome. Help me create: (1) a 4-weekend canvassing plan covering the weeks before May 26, (2) a recruitment message I can send to friends and neighbors, (3) a script for door-knocking that focuses on getting people to show up for a low-profile runoff, (4) logistics checklist (walking lists, materials, water, etc.). I have about 10 hours total to invest across 4 weekends."
+      },
+      {
+        "action": "Early engagement in District 1 open seat race",
+        "detail": "The Nov 2026 District 1 open seat is a once-in-8-years opportunity. Early engagement with a pro-housing candidate (or recruiting one) has maximum leverage now before the field solidifies.",
+        "impact": "VERY HIGH",
+        "reason": null,
+        "llm_prompt": "Austin City Council District 1 has an open seat for the first time in 8 years in the November 2026 election. I'm a pro-housing YIMBY resident of 78702 who wants to help ensure a pro-building candidate wins. Help me think through: (1) What does the ideal District 1 council member look like on housing, transit, and development policy? (2) How do I identify and evaluate potential candidates early? (3) What's the most effective way to engage with candidates before the field solidifies — should I be attending forums, donating early, volunteering, or something else? (4) If no good candidate emerges, how would I go about recruiting one? What's the timeline and what resources are needed?"
+      }
+    ]
+  }
 }

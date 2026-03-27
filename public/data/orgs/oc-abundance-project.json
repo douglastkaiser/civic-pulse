@@ -1,0 +1,185 @@
+{
+  "id": "oc-abundance-project",
+  "name": "OC Abundance Project",
+  "tagline": "Remove the barriers. Let people build families.",
+  "mission": "Society should make it radically easy for people who want children to have them. The barriers to family formation — unaffordable childcare, scarce family-sized housing, nonexistent parental leave, crumbling school infrastructure — are policy failures, not personal failures. Fix the policy, and people who want families can build them.\n\nThis is the same mission as the Austin Abundance Project, adapted to Orange County's specific context — where the barriers are even more acute:\n\n• OC childcare costs average $1,404/month for daycare, $1,100-1,777/month for preschool. Waitlists are months long. Large areas are childcare deserts.\n\n• First 5 Orange County is the major early childhood funder — $50M+ annual budget from Prop 10 tobacco tax revenue. This is real money that needs organized advocacy to ensure it's spent effectively on expanding capacity, not just maintaining existing programs.\n\n• Irvine ranks #4 nationally for raising a family — but the costs are astronomical. Median home prices are $1.2M-$1.6M. A family-sized home (3BR+) is $1.5M+ in most OC cities. You can't have a second kid in a one-bedroom apartment at $2,800/month rent.\n\n• The housing-family connection is even stronger here than in Austin. OC's median home price is 10-15x median household income. Family formation requires either generational wealth, dual high incomes, or leaving the county entirely.\n\n• UCI Health is a major employer with 16,000+ employees. It and other OC healthcare/biotech employers (Edwards Lifesciences, Allergan, Broadcom, Western Digital, Blizzard) are the equivalent of Austin's tech sector — persuadable on family benefits through competitive talent pressure.\n\nWe treat childcare, parental leave, family-sized housing, and pediatric healthcare as INFRASTRUCTURE problems with engineering solutions, not culture war issues. This is emphatically not about traditional family structures exclusively — single parents, same-sex couples, non-traditional families all face the same infrastructure failures.",
+  "theory_of_change": "Family formation barriers in Orange County are concentrated in a few specific, addressable policy domains: childcare facility access and cost, employer benefits, and housing supply/affordability. First 5 OC's $50M+ annual budget creates an immediate accountability opportunity — organized advocates can influence how that money is spent. Employer transparency campaigns work because OC's healthcare and tech labor markets are competitive — companies respond to talent retention pressure. And the housing connection means we amplify the YIMBY movement's work while adding a constituency — parents and prospective parents — that politicians find very sympathetic. The California state framework (paid family leave, childcare licensing, housing mandates) provides stronger baseline protections than Texas, but local implementation gaps remain enormous.",
+  "geographic_scope": {
+    "city": "Orange",
+    "county": "Orange County",
+    "state": "California"
+  },
+  "founded": "2026-03-27",
+  "political_positioning": {
+    "description": "Center-left economically — we believe in public investment in childcare and family infrastructure. Libertarian-leaning socially — we do not moralize about family structure and support all family types. Explicitly not aligned with religious-right pro-natalism. Explicitly not aligned with anti-tech or anti-growth perspectives. Broad coalition: healthcare workers, tech workers, working parents, childcare providers, urbanists, and employers. In OC's purple political environment, the pro-family framing bridges partisan divides more effectively than many other policy frames.",
+    "compass_cloud": {
+      "economic_center": 0.0,
+      "economic_spread": 0.5,
+      "social_center": -0.1,
+      "social_spread": 0.45
+    }
+  },
+  "key_policy_positions": [
+    "Reform childcare facility zoning to expand home-based and small-center childcare in residential areas across OC cities",
+    "Monitor and advocate for effective deployment of First 5 Orange County's $50M+ annual budget on capacity expansion",
+    "Advocate for employer childcare benefits and paid parental leave at OC's major employers (UCI Health, Edwards Lifesciences, Broadcom, Western Digital, Blizzard)",
+    "Push for family-sized unit requirements or incentives (2BR+) in new housing developments, coordinating with OC Housing Now",
+    "Research and publish employer transparency data on parental leave and family benefits for OC's top employers",
+    "Support co-housing and innovative family housing models appropriate to OC's high-cost market",
+    "Advocate for urban school quality in Orange Unified and Irvine Unified to prevent family suburban flight",
+    "Connect family-sized housing advocacy to broader RHNA compliance and housing supply campaigns",
+    "Track and publicize California's paid family leave utilization rates in OC to identify access gaps",
+    "Partner with UCI Health and other major employers to establish on-site or subsidized childcare"
+  ],
+  "active_campaigns": [
+    {
+      "id": "oc-childcare-desert-mapping",
+      "title": "OC Childcare Desert Mapping & Advocacy",
+      "status": "planning",
+      "priority": "high",
+      "importance_score": 85,
+      "impact_score": 75,
+      "summary": "Use California Community Care Licensing data + Census ACS data (children under 5) + First 5 OC investment data to map childcare deserts across Orange County. Identify where licensed childcare capacity is insufficient relative to the population of young children. Track how First 5 OC's $50M+ annual budget is being deployed — is it expanding capacity in deserts or maintaining existing programs in already-served areas? Advocate for childcare facility zoning reform in cities with the worst gaps.\n\nOC has unique dynamics: high demand (affluent families competing for spots), high costs ($1,404/month average for daycare), and significant geographic variation (coastal cities vs. inland cities, newer developments vs. older neighborhoods). The desert map makes this visible and actionable.",
+      "theory_of_change": "You can't fix what you can't see. A childcare desert map makes geographic disparities in childcare access visceral and concrete — every parent can see whether their neighborhood is served. First 5 OC funding accountability follows naturally: are they investing where the need is greatest? The map becomes the advocacy tool that enables targeted policy asks at specific city councils and the Board of Supervisors.",
+      "next_actions": [
+        "Compile California Community Care Licensing provider database for Orange County",
+        "Pull Census ACS data on children under 5 by census tract for OC",
+        "Obtain First 5 OC investment data by program and geography",
+        "Overlay data to identify desert areas — census tracts with high child populations and low licensed capacity",
+        "Research childcare zoning regulations in key OC cities (Orange, Irvine, Santa Ana, Anaheim)",
+        "Draft desert map visualization for public distribution",
+        "Present findings to First 5 OC Commission as public comment"
+      ]
+    },
+    {
+      "id": "oc-employer-index",
+      "title": "OC Family-Friendly Employer Index",
+      "status": "planning",
+      "priority": "high",
+      "importance_score": 75,
+      "impact_score": 65,
+      "summary": "Research and publish a scorecard of Orange County's top 20 employers on family-friendliness: weeks of paid parental leave (birth parent and non-birth parent separately), childcare subsidy or on-site care, flexible work policies, fertility/adoption benefits, and return-to-work support. Target employers include UCI Health, Edwards Lifesciences, Broadcom, Western Digital, Blizzard Entertainment, Pacific Life, Hyundai NA, and others.\n\nThe competitive pressure theory works: when employers see their peers offering better family benefits, they improve to attract talent. UCI Health is uniquely positioned — as a university hospital system, it has both the resources and the mission alignment to lead on family benefits. If UCI Health leads, private employers follow.",
+      "theory_of_change": "Competitive pressure in tight labor markets drives employer behavior. A public ranking creates reputational stakes — no major employer wants to be last on the list. In OC's healthcare and tech sectors, where talent competition is intense, family benefits are a genuine competitive differentiator. Publishing the index before November 2026 elections also creates political context — candidates can be asked whether they support employer transparency requirements.",
+      "next_actions": [
+        "Identify OC's top 20 employers by employee count and economic influence",
+        "Design scorecard methodology — categories, weighting, data collection approach",
+        "Send survey and public records requests to all target employers",
+        "Research publicly available benefits data (job postings, Glassdoor, benefits websites)",
+        "Draft scorecard format and ranking methodology",
+        "Identify media partners for index publication (Voice of OC, OC Register)",
+        "Time publication for Q3 2026 (before November elections)"
+      ]
+    },
+    {
+      "id": "oc-family-housing",
+      "title": "Family-Sized Housing Campaign",
+      "status": "planning",
+      "priority": "medium",
+      "importance_score": 70,
+      "impact_score": 55,
+      "summary": "Partner with OC Housing Now to ensure new housing developments include family-appropriate units — 2BR+ at minimum, ideally 3BR options. In OC's $1.2M-$1.6M median home price market, family-sized housing is the scarcest and most expensive segment. New apartments trend toward studios and 1BRs because they're cheaper to build and yield higher per-square-foot rents. This squeezes families out.\n\nThe campaign connects the housing supply fight to family formation: every development approved without family-sized units is a development that excludes families. Density bonuses for projects with 2BR+ unit minimums, reduced parking for family units near transit, and co-housing support are specific policy tools.",
+      "theory_of_change": "The housing supply fight and the family formation fight are the same fight. Making this connection explicit strengthens both movements. Developers include family-sized units when there are policy incentives (density bonuses) or requirements (unit mix mandates). Pro-family framing broadens the YIMBY coalition to include parents and prospective parents who might not identify as urbanists but who desperately need affordable family-sized housing.",
+      "next_actions": [
+        "Analyze unit size distribution in recently approved OC developments",
+        "Research density bonus models that incentivize 2BR+ units in other California cities",
+        "Draft family housing incentive proposal for City of Orange and City of Irvine",
+        "Coordinate with OC Housing Now on joint advocacy for family-sized units in Builder's Remedy projects",
+        "Connect with Irvine Community Land Trust on family-oriented affordable housing models",
+        "Prepare public comment template connecting housing supply to family formation for city council hearings"
+      ]
+    }
+  ],
+  "aligned_organizations": [
+    {"name": "Austin Abundance Project", "relationship": "Cross-location ally. Same mission, different context. Austin fights for policy adoption; OC benefits from California's stronger state framework but faces higher costs. Share research methodology, employer index design, and childcare desert mapping approach.", "internal_id": "austin-abundance-project"},
+    {"name": "OC Housing Now", "relationship": "Primary cross-movement ally. Every housing unit built is a family formation enabler. Our family-sized housing campaign directly connects to their supply advocacy. Joint advocacy amplifies both.", "internal_id": "oc-housing-now"},
+    {"name": "People for Housing OC", "relationship": "YIMBY ally — their housing advocacy supports family-sized housing goals. Coordinate on Builder's Remedy projects that include family units.", "url": null},
+    {"name": "First 5 Orange County", "relationship": "Accountability target and potential partner. Their $50M+ annual budget is the largest childcare funding source in OC. We track and advocate for effective deployment.", "url": "https://www.first5oc.org"},
+    {"name": "UCI Health", "relationship": "Employer engagement target — 16,000+ employees. As a university hospital system, they have both the resources and mission alignment to lead on family benefits. Potential partner for on-site childcare and parental leave leadership.", "url": "https://www.ucihealth.org"},
+    {"name": "OC Labor Federation", "relationship": "Labor ally — 200,000+ members across 90+ unions. Parental leave and childcare access are core labor issues. Their political influence amplifies our advocacy.", "url": null},
+    {"name": "OC Purple Accountability", "relationship": "Cross-movement ally. Their scorecards help identify which elected officials support family infrastructure investment. Our research feeds their evaluation criteria.", "internal_id": "oc-purple-accountability"}
+  ],
+  "engagement_pipeline": {
+    "awareness": "Social media, parenting groups, UCI community forums, employer network events. Publish childcare desert map and employer index for organic distribution. The family framing resonates across partisan lines in purple OC.",
+    "interest": "Check if your neighborhood is a childcare desert. See how your employer compares on family benefits. Read our research on OC's family formation barriers. Attend a First 5 OC Commission meeting.",
+    "action": "Submit public comment on childcare zoning at your city council. Share the employer index with your HR department. Attend a Board of Supervisors meeting when First 5 OC funding is on the agenda. Testify for family-sized housing at planning hearings.",
+    "leadership": "Join the research team. Lead childcare desert data analysis. Coordinate employer outreach for the index. Represent us at city council and Board of Supervisors meetings. Connect with Austin Abundance Project for cross-location strategy."
+  },
+  "practical_next_steps_for_org": {
+    "immediate": [
+      {
+        "action": "Begin CA Community Care Licensing database compilation for Orange County",
+        "owner": "Data team",
+        "deadline": "2026-04-15",
+        "effort": "6 hours",
+        "impact": "high"
+      },
+      {
+        "action": "Identify OC's top 20 employers for family-friendly index",
+        "owner": "Research team",
+        "deadline": "2026-04-15",
+        "effort": "3 hours",
+        "impact": "high"
+      },
+      {
+        "action": "Contact Austin Abundance Project for methodology sharing",
+        "owner": "Steering committee",
+        "deadline": "2026-04-01",
+        "effort": "1 hour",
+        "impact": "medium"
+      },
+      {
+        "action": "Research First 5 OC Commission meeting schedule and public comment process",
+        "owner": "Policy team",
+        "deadline": "2026-04-01",
+        "effort": "1 hour",
+        "impact": "medium"
+      }
+    ],
+    "medium_term": [
+      {
+        "action": "Complete childcare desert map v1 for Orange County",
+        "deadline": "2026-06-15",
+        "effort": "25 hours",
+        "impact": "very high"
+      },
+      {
+        "action": "Send employer survey to all 20 target employers",
+        "deadline": "2026-05-15",
+        "effort": "10 hours",
+        "impact": "high"
+      },
+      {
+        "action": "Present childcare desert findings to First 5 OC Commission",
+        "deadline": "2026-07-01",
+        "effort": "5 hours",
+        "impact": "high"
+      },
+      {
+        "action": "Draft family housing incentive proposal with OC Housing Now",
+        "deadline": "2026-06-15",
+        "effort": "8 hours",
+        "impact": "high"
+      }
+    ],
+    "strategic": [
+      {
+        "action": "Publish OC Family-Friendly Employer Index v1",
+        "timeframe": "Q3 2026 (before November elections)",
+        "impact": "very high",
+        "notes": "Timed to create political context for November 2026 races. Candidates can be asked about employer transparency and childcare policy."
+      },
+      {
+        "action": "Advocate for childcare zoning reform at City of Orange and City of Irvine",
+        "timeframe": "Q3-Q4 2026",
+        "impact": "high",
+        "notes": "Use desert map data to make the case for zoning reform. Coordinate with OC Housing Now on joint advocacy."
+      },
+      {
+        "action": "Establish UCI Health as a family benefits leader — on-site childcare pilot",
+        "timeframe": "2026-2027",
+        "impact": "high",
+        "notes": "UCI Health has the scale, mission, and resources to lead. If they establish on-site childcare, it creates competitive pressure on other major OC employers."
+      }
+    ]
+  }
+}

@@ -67,8 +67,8 @@ function StepSection({ title, steps, startIndex }) {
   )
 }
 
-export default function NextStepsPanel({ profile }) {
-  const steps = profile?.next_steps
+export default function NextStepsPanel({ profile, nextSteps }) {
+  const steps = nextSteps || profile?.next_steps
 
   return (
     <div className="bg-bg-panel border border-border rounded-lg p-4 flex flex-col h-full overflow-hidden panel-hover">

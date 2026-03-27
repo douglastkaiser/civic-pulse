@@ -1,0 +1,330 @@
+{
+  "id": "orange-92868",
+  "last_updated": "2026-03-27T00:00:00Z",
+  "needs_enrichment": true,
+  "governing_bodies": [
+    {
+      "name": "City of Orange City Council",
+      "type": "city_council",
+      "url": "https://www.cityoforange.org/",
+      "your_representative": {
+        "name": "TBD — need specific address to determine district",
+        "district": "TBD",
+        "note": "6 district-elected members + directly elected mayor. 3 council seats + mayor on Nov 2026 ballot.",
+        "contact_email": null,
+        "alignment_notes": "Nonpartisan elections. City rejected by state on Housing Element in 2023 — Builder's Remedy applications pending."
+      },
+      "mayor": "Dan Slater",
+      "meeting_schedule": "2nd and 4th Tuesdays, 7pm, City Hall, 300 E Chapman Ave",
+      "agenda_source": "https://www.cityoforange.org/agendas",
+      "public_comment_process": "Sign up in person before the meeting. 3 minutes per speaker. Check city website for remote participation options."
+    },
+    {
+      "name": "City of Irvine City Council",
+      "type": "city_council",
+      "url": "https://www.cityofirvine.org/",
+      "your_representative": {
+        "name": "N/A — Irvine is a neighboring city, not primary jurisdiction",
+        "note": "Recently restructured: 6 district seats + elected mayor. 5-2 Democratic majority. 3 seats + mayor on Nov 2026 ballot. Key issue: General Plan update proposing zoning for 57,656 units, Irvine Company monopoly power."
+      },
+      "mayor": "Larry Agran",
+      "meeting_schedule": "2nd and 4th Tuesdays, 5pm, Irvine City Hall",
+      "agenda_source": "https://www.cityofirvine.org/city-clerk/agendas-minutes"
+    },
+    {
+      "name": "Orange County Board of Supervisors",
+      "type": "county_commission",
+      "url": "https://bos.ocgov.com/",
+      "your_representative": {
+        "name": "Vicente Sarmiento (D) or Donald Wagner (R)",
+        "district": "District 2 or 3 (near boundary — depends on exact address)",
+        "note": "Currently 3-2 Democratic majority. CRITICAL: District 4 (open seat) and District 5 on June 2026 ballot. If Democrats lose either, board flips to Republican majority.",
+        "contact_email": null
+      },
+      "meeting_schedule": "Tuesdays, 9:30am, Hall of Administration, 333 W Santa Ana Blvd",
+      "agenda_source": "https://bos.ocgov.com/agendas",
+      "public_comment_process": "Sign up in person or submit written comments via email. 3 minutes per speaker."
+    },
+    {
+      "name": "California State Senate, SD-34",
+      "type": "state_legislature",
+      "url": "https://senate.ca.gov/",
+      "your_representative": {
+        "name": "Tom Umberg (D) — termed out",
+        "note": "OPEN SEAT 2026. Avelino Valencia (D, current Assemblymember) is frontrunner. June 2026 primary."
+      }
+    },
+    {
+      "name": "California State Assembly, AD-68",
+      "type": "state_legislature",
+      "url": "https://assembly.ca.gov/",
+      "your_representative": {
+        "name": "Open seat (Valencia running for Senate)",
+        "note": "Multiple candidates from Santa Ana city council. June 2026 primary."
+      }
+    },
+    {
+      "name": "U.S. House of Representatives, CD-46",
+      "type": "federal",
+      "your_representative": {
+        "name": "Lou Correa (D)",
+        "note": "Incumbent. New Prop 50 maps may change district boundaries significantly."
+      }
+    },
+    {
+      "name": "Orange Unified School District",
+      "type": "school_board",
+      "url": "https://www.orangeusd.org/",
+      "note": "Successful recall of culture-war board members in 2024. District is stabilizing."
+    },
+    {
+      "name": "OCTA (Orange County Transportation Authority)",
+      "type": "transit_authority",
+      "url": "https://www.octa.net/",
+      "note": "OC Streetcar launching Spring 2026 (4.15 miles, Santa Ana to Garden Grove). Metrolink commuter rail serves the area."
+    }
+  ],
+  "political_organizations": {
+    "advocacy_orgs": [
+      {
+        "name": "People for Housing OC",
+        "focus": "YIMBY housing advocacy — only 2 staffers, needs volunteers",
+        "alignment": "Very high — core YIMBY org in OC",
+        "how_to_engage": "Volunteer, attend city council meetings, support RHNA compliance campaigns"
+      },
+      {
+        "name": "Kennedy Commission",
+        "focus": "Affordable housing research and advocacy",
+        "alignment": "High on housing supply goals",
+        "url": "https://kennedycommission.org"
+      },
+      {
+        "name": "Irvine Community Land Trust",
+        "focus": "Community land trust model for permanently affordable housing",
+        "alignment": "High on housing affordability"
+      },
+      {
+        "name": "Sierra Club OC Group",
+        "focus": "Environmental advocacy, transit, anti-sprawl",
+        "alignment": "Moderate — aligned on transit and density, may diverge on specific development projects"
+      },
+      {
+        "name": "OC Labor Federation",
+        "focus": "Labor advocacy across 90+ unions (200,000+ members)",
+        "alignment": "Moderate — aligned on worker-friendly housing and transit policy"
+      }
+    ],
+    "official_party": [
+      {
+        "name": "Democratic Party of Orange County",
+        "focus": "Endorsements, voter mobilization, candidate recruitment",
+        "alignment": "Partial — shared social positions, local party is more progressive than Doug on some economic issues",
+        "url": "https://www.ocdemocrats.org"
+      },
+      {
+        "name": "Central Orange County Democratic Club",
+        "focus": "Local Democratic organizing in central OC",
+        "alignment": "Moderate"
+      }
+    ],
+    "citizen_groups": [
+      {
+        "name": "Indivisible OC",
+        "focus": "Progressive grassroots organizing and voter engagement",
+        "how_to_engage": "Monthly meetings, phone banking, candidate forums"
+      },
+      {
+        "name": "VietRISE",
+        "focus": "Progressive Vietnamese American organizing",
+        "alignment": "Moderate — strong on community engagement and immigrant rights"
+      },
+      {
+        "name": "OCAPICA (Orange County Asian and Pacific Islander Community Alliance)",
+        "focus": "API civic engagement and social services",
+        "alignment": "Moderate"
+      },
+      {
+        "name": "Asian Americans in Action (A3)",
+        "focus": "API political engagement",
+        "alignment": "Moderate"
+      },
+      {
+        "name": "League of Women Voters Orange Coast",
+        "focus": "Nonpartisan voter education, candidate forums",
+        "alignment": "High on transparency and civic engagement"
+      },
+      {
+        "name": "UCI Office of Civic Engagement",
+        "focus": "University-community partnership, student civic engagement",
+        "alignment": "Moderate — potential volunteer pipeline"
+      }
+    ],
+    "media_and_info": [
+      {
+        "name": "Voice of OC",
+        "type": "Nonprofit investigative journalism — essential reading",
+        "url": "https://voiceofoc.org",
+        "note": "The most important local news source for OC politics. Subscribe immediately."
+      },
+      {
+        "name": "Orange County Register",
+        "type": "Daily newspaper — conservative-leaning editorial, decent local coverage",
+        "url": "https://www.ocregister.com"
+      },
+      {
+        "name": "LAist / KPCC",
+        "type": "Public radio — covers OC politics as part of Southern California beat",
+        "url": "https://laist.com"
+      }
+    ]
+  },
+  "upcoming_elections": [
+    {
+      "race": "OC Board of Supervisors District 4 — Open Seat",
+      "date": "2026-06-02",
+      "candidates": ["TBD — multiple candidates expected"],
+      "relevance": "CRITICAL: Determines whether Democrats keep 3-2 board majority. If lost, board flips Republican. Highest-stakes local race.",
+      "action": "Research candidates as they declare. This is the most consequential OC election for Doug's priorities."
+    },
+    {
+      "race": "OC Board of Supervisors District 5",
+      "date": "2026-06-02",
+      "candidates": ["TBD"],
+      "relevance": "Also critical for board majority defense. District 4 + 5 together determine the board's direction.",
+      "action": "Monitor candidate field."
+    },
+    {
+      "race": "State Senate SD-34 — Open Seat",
+      "date": "2026-06-02",
+      "candidates": ["Avelino Valencia (D, frontrunner)", "others TBD"],
+      "relevance": "Doug's direct state senator race. Valencia is current Assemblymember running for open seat.",
+      "action": "Research Valencia's housing and transit positions. Evaluate other candidates."
+    },
+    {
+      "race": "State Assembly AD-68 — Open Seat",
+      "date": "2026-06-02",
+      "candidates": ["Multiple Santa Ana city council candidates expected"],
+      "relevance": "Doug's state assembly district. Open because Valencia is running for Senate.",
+      "action": "Monitor candidate announcements."
+    },
+    {
+      "race": "City of Orange — Mayor + 3 Council Seats",
+      "date": "2026-11-03",
+      "candidates": ["TBD — filing hasn't opened"],
+      "relevance": "Direct local representation. Housing Element compliance is the top issue. Who sits on this council determines whether Orange builds housing or evades state mandates.",
+      "action": "Track candidate announcements. Evaluate on housing and development positions."
+    },
+    {
+      "race": "City of Irvine — Mayor + 3 Council Seats",
+      "date": "2026-11-03",
+      "candidates": ["TBD"],
+      "relevance": "Neighboring city. General Plan update with 57,656 units proposed. Irvine Company monopoly is the backdrop.",
+      "action": "Monitor for impact on regional housing supply."
+    },
+    {
+      "race": "California Governor — Open Seat",
+      "date": "2026-11-03",
+      "candidates": ["Multiple candidates — Newsom termed out"],
+      "relevance": "Governor shapes state housing mandates that OC cities must comply with. Important for the YIMBY enforcement framework.",
+      "action": "Research candidates on housing policy (RHNA enforcement, Builder's Remedy, SB 9/10 implementation)."
+    },
+    {
+      "race": "OC County Offices — DA, Sheriff",
+      "date": "2026-06-02",
+      "candidates": ["TBD"],
+      "relevance": "DA and Sheriff shape public safety approach countywide.",
+      "action": "Monitor."
+    }
+  ],
+  "key_political_dynamics": "Orange County is one of America's few truly purple counties. The area around UCI Medical Center sits at the exact fulcrum — the City of Orange is split 36.6% D to 34.8% R. Elections here are decided by razor margins (the 2024 CD-45 race was decided by 581 votes). California's state housing mandates (SB 9, RHNA, Builder's Remedy) create intense friction with local governments that resist density. The 2026 elections are unusually high-stakes: the Board of Supervisors majority, multiple open state legislative seats, city council races in both Orange and Irvine, and new congressional maps from Prop 50 all converge. For a moderate Democrat, this is the most target-rich political environment in America.\n\nKey difference from Austin #1: Purple county in a blue state (vs blue city in red state). OC voter registration: 36.4% D, 33.9% R, 23.3% NPP. Doug's vote carries MORE weight in local races than in Austin. Elections here are decided by hundreds of votes, not thousands.\n\nKey difference #2: California's state framework is an ally, not an enemy. In Texas, the state legislature actively preempts Austin's progressive policies. In California, the state government MANDATES progressive housing policy (SB 9, SB 10, RHNA, Builder's Remedy) that local governments resist. The YIMBY fight flips: instead of pushing local government to be more progressive, you're pushing local government to comply with state mandates it's trying to evade.\n\nKey difference #3: The Irvine Company monopoly. Irvine Company (Donald Bren, America's richest real estate developer) controls ~75% of Irvine's apartment units and much of the commercial real estate. This is a unique housing dynamic — one private entity has near-monopoly power over rents and development in a city of 314,000 people.",
+  "political_compass_entities": {
+    "orange_county": { "economic": 0.1, "social": 0.05, "spread": 0.35 },
+    "california_democratic_party": { "economic": -0.4, "social": -0.25, "spread": 0.25 },
+    "democratic_party": { "economic": -0.3, "social": -0.1, "spread": 0.3 },
+    "republican_party": { "economic": 0.4, "social": 0.3, "spread": 0.25 },
+    "local_orgs": [
+      { "name": "People for Housing OC", "economic": 0.05, "social": -0.15, "spread": 0.15 },
+      { "name": "OC Dem Party", "economic": -0.35, "social": -0.15, "spread": 0.2 }
+    ]
+  },
+  "next_steps": {
+    "immediate": [
+      {
+        "action": "Register to vote in California",
+        "detail": "registertovote.ca.gov — update registration with new OC address as soon as you have one",
+        "time": "10 min",
+        "impact": "HIGH",
+        "reason": "Must be registered to vote in June 2026 primary (registration deadline ~May 18)",
+        "llm_prompt": "I'm moving from Austin, TX to Orange, CA (92868) and need to register to vote in California. Walk me through the process at registertovote.ca.gov. What are the key deadlines for the June 2, 2026 primary? Can I register online or do I need to do it in person? What ID do I need? Also explain California's top-two primary system and how it differs from Texas primaries."
+      },
+      {
+        "action": "Subscribe to Voice of OC newsletter",
+        "detail": "voiceofoc.org — essential nonprofit investigative journalism for OC politics",
+        "time": "2 min",
+        "impact": "LOW EFFORT, ONGOING VALUE",
+        "reason": "This is the Austin Monitor equivalent for OC — the single most important local news source",
+        "llm_prompt": null
+      },
+      {
+        "action": "Determine exact council district and supervisor district",
+        "detail": "Once you have a specific address, look up your districts at ocvote.gov/maps",
+        "time": "10 min",
+        "impact": "HIGH",
+        "reason": "Need to know who represents you before you can engage",
+        "llm_prompt": "I'm moving to the City of Orange, CA (92868) near UCI Medical Center. Help me understand what information I need to look up once I have my specific address: city council district, county supervisor district, school district, water district, and any other relevant jurisdictions. What websites do I use to look these up in Orange County? Also explain the difference between the City of Orange and Orange County governance structures."
+      }
+    ],
+    "this_month": [
+      {
+        "action": "Research OC Board of Supervisors District 4 candidates",
+        "detail": "This is the highest-stakes local race — determines whether Dems keep 3-2 board majority. June 2026 primary.",
+        "time": "1 hour",
+        "impact": "HIGH",
+        "reason": "Board majority defense is the single most impactful race in OC",
+        "llm_prompt": "I need to research the candidates for the Orange County Board of Supervisors District 4 open seat race in the June 2, 2026 primary. This seat determines whether Democrats maintain their 3-2 board majority. Help me: (1) find who has declared or is expected to run, (2) understand what the Board of Supervisors controls (budget, land use, public health, etc.), (3) create a comparison framework focused on housing, transit, and fiscal policy, (4) identify where to find candidate information in OC."
+      },
+      {
+        "action": "Read City of Orange Housing Element status",
+        "detail": "State rejected their plan in 2023. Builder's Remedy applications pending. Understand where the city stands.",
+        "time": "30 min",
+        "impact": "MEDIUM",
+        "reason": "Housing Element compliance is the core YIMBY fight in OC — enforcement not advocacy",
+        "llm_prompt": "Explain the City of Orange, CA Housing Element situation. The state (HCD) rejected their housing plan in 2023. What does this mean practically? What is the Builder's Remedy and how does it apply? What projects are pending under Builder's Remedy in Orange? How does this connect to RHNA (Regional Housing Needs Assessment) compliance? I'm a YIMBY moving to Orange and want to understand the housing policy landscape."
+      }
+    ],
+    "medium_term": [
+      {
+        "action": "Attend one People for Housing OC event",
+        "detail": "Only 2 staffers — they need volunteers. This is the highest-alignment org in OC.",
+        "time": "2 hours",
+        "impact": "MEDIUM",
+        "reason": "Evaluate fit, offer to volunteer",
+        "llm_prompt": null
+      },
+      {
+        "action": "Attend one City of Orange council meeting",
+        "detail": "Get a feel for the council dynamics, public comment process, and housing issues on the agenda.",
+        "time": "2-3 hours",
+        "impact": "MEDIUM",
+        "reason": "Direct observation of your city government",
+        "llm_prompt": null
+      }
+    ],
+    "strategic": [
+      {
+        "action": "Map the OC YIMBY ecosystem",
+        "detail": "Connect with People for Housing OC, Kennedy Commission, California YIMBY, Irvine Community Land Trust. Understand who's doing what and where the gaps are.",
+        "impact": "HIGH",
+        "reason": "OC's YIMBY infrastructure is thinner than Austin's — there may be high-leverage gaps to fill",
+        "llm_prompt": "I'm a YIMBY moving from Austin, TX to Orange County, CA. In Austin, the YIMBY ecosystem is well-developed (AURA, Austin YIMBY Action, etc.). OC seems thinner — People for Housing OC has only 2 staffers. Help me map the OC housing advocacy ecosystem: who are the key organizations, what are their focuses, where are the gaps? How does California YIMBY (state-level) interact with local OC groups? What role does the Kennedy Commission play? Is there a need for new organizing, or should I plug into existing groups?"
+      },
+      {
+        "action": "Build dual-location civic engagement habit",
+        "detail": "Maintain Austin connections (District 1 race, AURA) while building OC engagement. Target: 1 hour/week per location.",
+        "impact": "HIGH",
+        "reason": "The dual-location model only works if both locations get consistent attention",
+        "llm_prompt": null
+      }
+    ]
+  }
+}

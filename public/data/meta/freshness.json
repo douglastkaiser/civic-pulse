@@ -1,4 +1,26 @@
 {
+  "locations": {
+    "austin-78702": {
+      "landscape_scraped": "2026-03-23T07:05:29.506176+00:00",
+      "issues_scraped": "2026-03-23T07:05:29.506740+00:00",
+      "issues_scored": "2026-03-16T12:00:00Z",
+      "next_steps_generated": "2026-03-16T12:00:00Z",
+      "needs_rescrape": "2026-03-23T07:05:29.506740+00:00"
+    },
+    "orange-92868": {
+      "landscape_scraped": null,
+      "issues_scraped": null,
+      "issues_scored": null,
+      "next_steps_generated": null,
+      "needs_rescrape": true,
+      "note": "New location — initial data seeded, awaiting first pipeline run."
+    }
+  },
+  "profile": {
+    "manifesto_generated": "2026-03-16T12:00:00Z",
+    "manifesto_inputs_complete": true,
+    "needs_manifesto_update": false
+  },
   "profiles": {
     "austin-78702": {
       "manifesto_generated": "2026-03-16T12:00:00Z",

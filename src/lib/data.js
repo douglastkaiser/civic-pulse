@@ -8,6 +8,20 @@ export const PROFILE_IDS = [
   'brookline-ma',
 ]
 
+export const PROFILE_ID = 'doug'
+
+export const ORG_IDS_BY_LOCATION = {
+  'austin-78702': ['austin-yimby-action', 'austin-abundance-project', 'austin-safe-and-sound'],
+  'orange-92868': ['oc-housing-now', 'oc-purple-accountability', 'oc-abundance-project'],
+}
+
+export const LOCATION_LABELS = {
+  'austin-78702': 'Austin, TX',
+  'orange-92868': 'Orange County, CA',
+}
+
+export const ORG_IDS = Object.values(ORG_IDS_BY_LOCATION).flat()
+
 async function fetchJSON(path) {
   const res = await fetch(`${BASE}data/${path}`)
   if (!res.ok) throw new Error(`Failed to fetch ${path}: ${res.status}`)
@@ -33,8 +47,6 @@ export function loadFreshness() {
 export async function loadAllProfiles() {
   return Promise.all(PROFILE_IDS.map((id) => loadProfile(id)))
 }
-
-export const ORG_IDS = ['austin-yimby-action', 'austin-abundance-project', 'austin-safe-and-sound']
 
 export function loadOrg(orgId) {
   return fetchJSON(`orgs/${orgId}.json`)

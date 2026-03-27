@@ -1,34 +1,53 @@
 import { NavLink } from 'react-router-dom'
 import { useState, useEffect } from 'react'
-import { ORG_IDS, loadOrg, loadFreshness } from '../lib/data'
+import { ORG_IDS_BY_LOCATION, LOCATION_LABELS, loadOrg, loadFreshness } from '../lib/data'
 import FreshnessIndicator from './FreshnessIndicator'
 
 export default function Sidebar() {
-  const [orgs, setOrgs] = useState([])
+  const [orgsByLocation, setOrgsByLocation] = useState({})
   const [freshness, setFreshness] = useState(null)
   const [orgsExpanded, setOrgsExpanded] = useState(true)
   const [mobileOpen, setMobileOpen] = useState(false)
 
   useEffect(() => {
-    Promise.all(ORG_IDS.map((id) => loadOrg(id)))
-      .then(setOrgs)
-      .catch((err) => console.error('Failed to load orgs:', err))
+    // Load orgs grouped by location
+    const loadOrgsByLoc = async () => {
+      const result = {}
+      for (const [locId, orgIds] of Object.entries(ORG_IDS_BY_LOCATION)) {
+        try {
+          result[locId] = await Promise.all(orgIds.map((id) => loadOrg(id)))
+        } catch (err) {
+          console.error(`Failed to load orgs for ${locId}:`, err)
+          result[locId] = []
+        }
+      }
+      setOrgsByLocation(result)
+    }
+
+    loadOrgsByLoc()
 
     loadFreshness()
       .then(setFreshness)
       .catch(() => {})
   }, [])
 
-  const latestTimestamp = freshness?.profiles?.['austin-78702']
-    ? [
-        freshness.profiles['austin-78702'].issues_scraped,
-        freshness.profiles['austin-78702'].location_scraped,
-        freshness.profiles['austin-78702'].manifesto_generated,
-      ]
+  // Get timestamps for each location
+  const getLocationTimestamp = (locId) => {
+    const locData = freshness?.locations?.[locId]
+    if (!locData) {
+      // Fallback to old profiles structure
+      const profileData = freshness?.profiles?.[locId]
+      if (!profileData) return null
+      return [profileData.issues_scraped, profileData.location_scraped, profileData.manifesto_generated]
         .filter(Boolean)
         .sort()
         .pop()
-    : null
+    }
+    return [locData.landscape_scraped, locData.issues_scraped, locData.next_steps_generated]
+      .filter(Boolean)
+      .sort()
+      .pop()
+  }
 
   const navLinkClass = ({ isActive }) =>
     `flex items-center gap-2 px-3 py-2 text-sm font-mono rounded transition-colors duration-150 ${
@@ -61,17 +80,28 @@ export default function Sidebar() {
 
           {orgsExpanded && (
             <div className="ml-2 space-y-0.5 mt-1">
-              {orgs.map((org) => (
-                <NavLink
-                  key={org.id}
-                  to={`/org/${org.id}`}
-                  className={navLinkClass}
-                  onClick={handleNavClick}
-                >
-                  <span className="text-xs">├─</span>
-                  <span className="truncate text-xs">{org.name}</span>
-                </NavLink>
-              ))}
+              {Object.entries(ORG_IDS_BY_LOCATION).map(([locId]) => {
+                const orgs = orgsByLocation[locId] || []
+                const label = LOCATION_LABELS[locId] || locId
+                return (
+                  <div key={locId}>
+                    <div className="px-3 py-1 text-[10px] font-mono font-bold text-text-tertiary tracking-widest uppercase mt-2 first:mt-0">
+                      {label}
+                    </div>
+                    {orgs.map((org) => (
+                      <NavLink
+                        key={org.id}
+                        to={`/org/${org.id}`}
+                        className={navLinkClass}
+                        onClick={handleNavClick}
+                      >
+                        <span className="text-xs">├─</span>
+                        <span className="truncate text-xs">{org.name}</span>
+                      </NavLink>
+                    ))}
+                  </div>
+                )
+              })}
               <NavLink to="/org/new" className={navLinkClass} onClick={handleNavClick}>
                 <span className="text-xs">├─</span>
                 <span className="text-accent-green text-xs">+ New Organization</span>
@@ -79,18 +109,31 @@ export default function Sidebar() {
             </div>
           )}
         </div>
+
+        <div className="mt-4">
+          <NavLink to="/about" className={navLinkClass} onClick={handleNavClick}>
+            <span className="text-xs">▸</span>
+            ABOUT
+          </NavLink>
+        </div>
       </nav>
 
       {/* Footer */}
       <div className="p-3 border-t border-border space-y-2">
-        <div className="flex items-center gap-2 text-xs text-text-tertiary font-mono">
-          <span>Last sync:</span>
-          {latestTimestamp ? (
-            <FreshnessIndicator timestamp={latestTimestamp} size={6} />
-          ) : (
-            <span>—</span>
-          )}
-        </div>
+        {Object.entries(LOCATION_LABELS).map(([locId, label]) => {
+          const ts = getLocationTimestamp(locId)
+          const shortLabel = locId === 'austin-78702' ? 'ATX' : 'OC'
+          return (
+            <div key={locId} className="flex items-center gap-2 text-xs text-text-tertiary font-mono">
+              <span>{shortLabel}:</span>
+              {ts ? (
+                <FreshnessIndicator timestamp={ts} size={6} />
+              ) : (
+                <span className="text-text-tertiary">Never</span>
+              )}
+            </div>
+          )
+        })}
         <a
           href="https://github.com/douglastkaiser/civic-pulse/actions/workflows/pipeline.yml"
           target="_blank"
