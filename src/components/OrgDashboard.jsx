@@ -192,39 +192,40 @@ export default function OrgDashboard() {
                 <AiGeneratedBadge />
               </div>
 
-              {/* Always-visible mission summary */}
-              <p className="text-sm text-text-secondary leading-relaxed mb-2">
-                {missionExpanded ? org.mission : (org.mission?.slice(0, 200) + '...')}
-              </p>
-              {org.mission?.length > 200 && (
-                <button
-                  onClick={() => setMissionExpanded(!missionExpanded)}
-                  className="text-xs text-accent-blue font-mono mb-3 text-left"
-                >
-                  {missionExpanded ? 'Less ▴' : 'More ▾'}
-                </button>
-              )}
-
-              {/* Key Positions as badges */}
-              <div className="flex flex-wrap gap-1.5 mb-3">
-                {org.key_policy_positions?.slice(0, 4).map((pos, i) => (
-                  <span
-                    key={i}
-                    className="px-2 py-0.5 text-xs rounded-full bg-accent-purple/15 text-accent-purple border border-accent-purple/30"
+              {/* Scrollable content */}
+              <div className="flex-1 overflow-y-auto min-h-0">
+                {/* Always-visible mission summary */}
+                <p className="text-sm text-text-secondary leading-relaxed mb-2">
+                  {missionExpanded ? org.mission : (org.mission?.slice(0, 200) + '...')}
+                </p>
+                {org.mission?.length > 200 && (
+                  <button
+                    onClick={() => setMissionExpanded(!missionExpanded)}
+                    className="text-xs text-accent-blue font-mono mb-3 text-left"
                   >
-                    {pos}
-                  </span>
-                ))}
-                {org.key_policy_positions?.length > 4 && (
-                  <span className="px-2 py-0.5 text-xs rounded-full bg-bg-elevated text-text-tertiary border border-border">
-                    +{org.key_policy_positions.length - 4} more
-                  </span>
+                    {missionExpanded ? 'Less ▴' : 'More ▾'}
+                  </button>
                 )}
-              </div>
 
-              {/* Positioning description — collapsible */}
-              {org.political_positioning?.description && (
-                <div className="flex-1 overflow-y-auto min-h-0">
+                {/* Key Positions as badges */}
+                <div className="flex flex-wrap gap-1.5 mb-3">
+                  {org.key_policy_positions?.slice(0, 4).map((pos, i) => (
+                    <span
+                      key={i}
+                      className="px-2 py-0.5 text-xs rounded-full bg-accent-purple/15 text-accent-purple border border-accent-purple/30"
+                    >
+                      {pos}
+                    </span>
+                  ))}
+                  {org.key_policy_positions?.length > 4 && (
+                    <span className="px-2 py-0.5 text-xs rounded-full bg-bg-elevated text-text-tertiary border border-border">
+                      +{org.key_policy_positions.length - 4} more
+                    </span>
+                  )}
+                </div>
+
+                {/* Positioning description — collapsible */}
+                {org.political_positioning?.description && (
                   <div className="border border-border rounded bg-bg-elevated">
                     <details>
                       <summary className="px-3 py-2 text-left hover:bg-bg-panel transition-colors cursor-pointer font-mono text-xs font-bold text-text-tertiary tracking-wide">
@@ -235,8 +236,8 @@ export default function OrgDashboard() {
                       </div>
                     </details>
                   </div>
-                </div>
-              )}
+                )}
+              </div>
             </div>
           </div>
 
@@ -262,42 +263,43 @@ export default function OrgDashboard() {
           {/* Allied Orgs + Engagement Pipeline (like Location panel) */}
           <div className="lg:w-2/5 min-w-0 min-h-[300px] lg:min-h-0">
             <div className="bg-bg-panel border border-border rounded-lg p-4 panel-hover h-full flex flex-col overflow-hidden">
-              {/* Allied Organizations */}
-              <h2 className="font-mono text-sm font-bold text-text-primary tracking-wide mb-2">
-                ALLIED ORGANIZATIONS
-              </h2>
-              <div className="space-y-2 mb-4">
-                {org.aligned_organizations?.map((ally, i) => (
-                  <div key={i} className="flex items-start gap-2 text-sm">
-                    <span className="text-accent-green mt-0.5">●</span>
-                    <div>
-                      {ally.internal_id ? (
-                        <Link
-                          to={`/org/${ally.internal_id}`}
-                          className="text-text-primary font-medium hover:text-accent-blue transition-colors"
-                        >
-                          {ally.name} <span className="text-accent-blue text-xs">&rarr;</span>
-                        </Link>
-                      ) : ally.url ? (
-                        <a
-                          href={ally.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-text-primary font-medium hover:text-accent-blue transition-colors"
-                        >
-                          {ally.name} <span className="text-text-tertiary text-xs">↗</span>
-                        </a>
-                      ) : (
-                        <span className="text-text-primary font-medium">{ally.name}</span>
-                      )}
-                      <span className="text-text-tertiary"> — {ally.relationship}</span>
-                    </div>
-                  </div>
-                ))}
-              </div>
-
-              {/* Engagement Pipeline */}
+              {/* Scrollable content */}
               <div className="flex-1 overflow-y-auto min-h-0">
+                {/* Allied Organizations */}
+                <h2 className="font-mono text-sm font-bold text-text-primary tracking-wide mb-2">
+                  ALLIED ORGANIZATIONS
+                </h2>
+                <div className="space-y-2 mb-4">
+                  {org.aligned_organizations?.map((ally, i) => (
+                    <div key={i} className="flex items-start gap-2 text-sm">
+                      <span className="text-accent-green mt-0.5">●</span>
+                      <div>
+                        {ally.internal_id ? (
+                          <Link
+                            to={`/org/${ally.internal_id}`}
+                            className="text-text-primary font-medium hover:text-accent-blue transition-colors"
+                          >
+                            {ally.name} <span className="text-accent-blue text-xs">&rarr;</span>
+                          </Link>
+                        ) : ally.url ? (
+                          <a
+                            href={ally.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-text-primary font-medium hover:text-accent-blue transition-colors"
+                          >
+                            {ally.name} <span className="text-text-tertiary text-xs">↗</span>
+                          </a>
+                        ) : (
+                          <span className="text-text-primary font-medium">{ally.name}</span>
+                        )}
+                        <span className="text-text-tertiary"> — {ally.relationship}</span>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+
+                {/* Engagement Pipeline */}
                 <h2 className="font-mono text-sm font-bold text-text-primary tracking-wide mb-3">
                   ENGAGEMENT PIPELINE
                 </h2>
