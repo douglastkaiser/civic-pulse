@@ -137,6 +137,32 @@ body {
   transition-delay: 0.2s;
 }
 
+/* Officials hierarchy tree */
+.hierarchy-flow-line {
+  width: 1px;
+  height: 16px;
+  background: linear-gradient(to bottom, #1e2d4a, #1e2d4a80);
+}
+
+.hierarchy-columns {
+  min-height: 100%;
+}
+
+/* Alignment bar background */
+.alignment-bar-bg {
+  background: #0a0e17;
+  border: 1px solid #1e2d4a;
+}
+
+/* Official card selection glow */
+@keyframes card-glow {
+  0%, 100% { box-shadow: 0 0 4px rgba(59, 130, 246, 0.1); }
+  50% { box-shadow: 0 0 12px rgba(59, 130, 246, 0.15); }
+}
+.official-card-selected {
+  animation: card-glow 2s ease-in-out infinite;
+}
+
 /* Collapsible section animation */
 .section-content {
   animation: slide-down 0.15s ease-out;

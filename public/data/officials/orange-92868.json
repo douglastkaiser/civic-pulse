@@ -1,0 +1,517 @@
+{
+  "id": "orange-92868",
+  "last_updated": "2026-03-28T12:00:00Z",
+  "branches": [
+    {
+      "name": "Executive",
+      "icon": "◆",
+      "levels": [
+        {
+          "level": "federal",
+          "label": "Federal",
+          "officials": [
+            {
+              "id": "potus-trump",
+              "name": "Donald Trump",
+              "title": "President of the United States",
+              "party": "Republican",
+              "level": "federal",
+              "branch": "executive",
+              "scope": "National",
+              "term": { "start": "2025-01-20", "end": "2029-01-20" },
+              "contact": {
+                "phone": "(202) 456-1111",
+                "office": "The White House, 1600 Pennsylvania Ave NW, Washington, DC 20500",
+                "website": "https://www.whitehouse.gov"
+              },
+              "alignment": {
+                "score": -0.6,
+                "label": "Antagonist",
+                "summary": "Significant misalignment on housing regulation, climate, and governance philosophy. Federal housing program cuts directly impact California's affordable housing pipeline.",
+                "key_agreements": [
+                  "Rhetoric around cutting red tape for construction and permitting"
+                ],
+                "key_disagreements": [
+                  "Gutting federal housing programs (CDBG, LIHTC) that fund OC projects",
+                  "Undermining transit investment and FTA grants",
+                  "Anti-California posture threatens state housing mandate enforcement",
+                  "Erosion of government transparency and institutional norms"
+                ],
+                "relevant_domains": ["Housing & Land Use", "Government Transparency", "Transportation & Transit"],
+                "engagement_strategy": "Minimal direct engagement value. Monitor federal funding cuts that impact OC housing and transit. Advocate through California YIMBY and national housing orgs. Focus energy on state and local officials where impact is highest.",
+                "priority": "low"
+              }
+            },
+            {
+              "id": "vpotus-vance",
+              "name": "JD Vance",
+              "title": "Vice President of the United States",
+              "party": "Republican",
+              "level": "federal",
+              "branch": "executive",
+              "scope": "National",
+              "term": { "start": "2025-01-20", "end": "2029-01-20" },
+              "contact": {
+                "phone": "(202) 456-1111",
+                "office": "The White House, 1600 Pennsylvania Ave NW, Washington, DC 20500",
+                "website": "https://www.whitehouse.gov"
+              },
+              "alignment": {
+                "score": -0.5,
+                "label": "Antagonist",
+                "summary": "Has expressed some pro-housing supply views historically but overall direction conflicts with pragmatic urbanism.",
+                "key_agreements": [
+                  "Has acknowledged housing supply constraints publicly"
+                ],
+                "key_disagreements": [
+                  "Populist economic framing conflicts with market-oriented housing reform",
+                  "Anti-institutional stance undermines good-government goals"
+                ],
+                "relevant_domains": ["Housing & Land Use", "Economic Development"],
+                "engagement_strategy": "No direct engagement value. Track any housing-related Senate tie-breaking votes.",
+                "priority": "low"
+              }
+            }
+          ]
+        },
+        {
+          "level": "state",
+          "label": "State",
+          "officials": [
+            {
+              "id": "gov-newsom",
+              "name": "Gavin Newsom",
+              "title": "Governor of California",
+              "party": "Democrat",
+              "level": "state",
+              "branch": "executive",
+              "scope": "California",
+              "term": { "start": "2023-01-06", "end": "2027-01-04" },
+              "contact": {
+                "phone": "(916) 445-2841",
+                "office": "State Capitol, Suite 1173, Sacramento, CA 95814",
+                "website": "https://www.gov.ca.gov",
+                "email": "https://govapps.gov.ca.gov/gov40mail/"
+              },
+              "alignment": {
+                "score": 0.5,
+                "label": "Ally",
+                "summary": "Key YIMBY ally at the state level. His enforcement of RHNA compliance and Builder's Remedy is the single most important lever for housing production in OC. March 25 final warning to 15 noncompliant cities shows enforcement posture. Termed out 2027 — governor's race will shape future enforcement.",
+                "key_agreements": [
+                  "Aggressive RHNA enforcement against noncompliant cities",
+                  "Builder's Remedy as housing production tool",
+                  "Pro-transit investment (OC Streetcar, Metrolink)",
+                  "Government transparency and open data initiatives",
+                  "Signed SB 9, SB 10 and other housing supply bills"
+                ],
+                "key_disagreements": [
+                  "Some housing policies lean more toward mandated affordability than pure supply",
+                  "Budget deficits raise fiscal discipline concerns",
+                  "Ambitious rhetoric sometimes exceeds implementation"
+                ],
+                "relevant_domains": ["Housing & Land Use", "Transportation & Transit", "Government Transparency", "Taxation & Public Finance"],
+                "engagement_strategy": "Support enforcement actions vocally — submit comments when HCD reviews OC cities' housing elements. The governor's RHNA enforcement is your strongest ally in forcing local compliance. Track the 2026 governor's race candidates on housing enforcement continuity. California's state framework is an ally, not an enemy — in OC, you're pushing local government to comply with state mandates.",
+                "priority": "high"
+              },
+              "notes": "Termed out Jan 2027. Governor's race Nov 2026 — who replaces Newsom shapes RHNA enforcement."
+            }
+          ]
+        },
+        {
+          "level": "county",
+          "label": "County",
+          "officials": [
+            {
+              "id": "bos-chair",
+              "name": "Board of Supervisors Chair",
+              "title": "OC Board of Supervisors Chair (rotating)",
+              "party": "Democrat",
+              "level": "county",
+              "branch": "executive",
+              "scope": "Orange County",
+              "contact": {
+                "phone": "(714) 834-3100",
+                "office": "Hall of Administration, 333 W Santa Ana Blvd, Santa Ana, CA 92701",
+                "website": "https://bos.ocgov.com"
+              },
+              "alignment": {
+                "score": 0.3,
+                "label": "Mixed Ally",
+                "summary": "Current 3-2 Democratic majority is favorable. Chair rotates annually. The board's composition after June 2026 elections is the most critical variable for OC governance.",
+                "key_agreements": [
+                  "Current majority supports affordable housing initiatives",
+                  "Pro-transit investment (OC Streetcar support)"
+                ],
+                "key_disagreements": [
+                  "Board is a coalition — not all members align on housing supply vs. affordability mandates"
+                ],
+                "relevant_domains": ["Housing & Land Use", "Transportation & Transit", "Taxation & Public Finance"],
+                "engagement_strategy": "The Board of Supervisors controls the county budget, land use in unincorporated areas, and public health. Attend Tuesday meetings. The 3-2 majority is at stake in June 2026 — Districts 4 and 5 are the battleground. Your engagement with those races is the highest-leverage action in OC.",
+                "priority": "high"
+              },
+              "notes": "3-2 Democratic majority. Districts 4 and 5 on ballot June 2026."
+            }
+          ]
+        },
+        {
+          "level": "city",
+          "label": "City",
+          "officials": [
+            {
+              "id": "mayor-slater",
+              "name": "Dan Slater",
+              "title": "Mayor of Orange",
+              "party": "Nonpartisan",
+              "level": "city",
+              "branch": "executive",
+              "scope": "City of Orange",
+              "contact": {
+                "phone": "(714) 744-2225",
+                "office": "City Hall, 300 E Chapman Ave, Orange, CA 92866",
+                "website": "https://www.cityoforange.org"
+              },
+              "alignment": {
+                "score": 0.0,
+                "label": "Unknown",
+                "summary": "Nonpartisan mayor. City of Orange's Housing Element compliance status is the key indicator — the city appears to have achieved compliance (not on Newsom's March 25 noncompliant list), but 696 Builder's Remedy units from noncompliance period are still in play.",
+                "key_agreements": [
+                  "City appears to be moving toward Housing Element compliance"
+                ],
+                "key_disagreements": [
+                  "Historical resistance to density in some neighborhoods",
+                  "Builder's Remedy applications have been contentious"
+                ],
+                "relevant_domains": ["Housing & Land Use"],
+                "engagement_strategy": "Attend city council meetings (2nd and 4th Tuesdays, 7pm). Research the mayor's voting record on housing and development items. The Housing Element compliance question is the top local issue — push for full compliance and support for Builder's Remedy projects. Nov 2026 mayor's race is an opportunity.",
+                "priority": "medium"
+              },
+              "notes": "Mayor's seat on Nov 2026 ballot."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Legislative",
+      "icon": "◇",
+      "levels": [
+        {
+          "level": "federal",
+          "label": "Federal",
+          "officials": [
+            {
+              "id": "sen-padilla",
+              "name": "Alex Padilla",
+              "title": "U.S. Senator",
+              "party": "Democrat",
+              "level": "federal",
+              "branch": "legislative",
+              "scope": "California",
+              "term": { "start": "2023-01-03", "end": "2029-01-03" },
+              "contact": {
+                "phone": "(916) 448-2787",
+                "email": "https://www.padilla.senate.gov/contact/",
+                "office": "333 Bush St, Suite 3225, San Francisco, CA 94104",
+                "website": "https://www.padilla.senate.gov"
+              },
+              "alignment": {
+                "score": 0.4,
+                "label": "Ally",
+                "summary": "Pro-housing, pro-transit, pro-infrastructure. Generally aligned on policy outcomes though more progressive on economic regulation than Doug prefers.",
+                "key_agreements": [
+                  "Supports federal housing investment",
+                  "Pro-transit funding and infrastructure",
+                  "Supports YIMBY-aligned federal housing reform",
+                  "Government transparency advocate"
+                ],
+                "key_disagreements": [
+                  "More progressive on economic regulation",
+                  "Rent control support conflicts with supply-side approach"
+                ],
+                "relevant_domains": ["Housing & Land Use", "Transportation & Transit", "Government Transparency"],
+                "engagement_strategy": "Contact on federal housing and transit votes. Padilla's office in California is responsive to constituent input. Push for YIMBY Act and federal zoning reform incentives. Frame housing supply as complementary to affordability.",
+                "priority": "medium"
+              }
+            },
+            {
+              "id": "sen-butler",
+              "name": "Adam Schiff",
+              "title": "U.S. Senator",
+              "party": "Democrat",
+              "level": "federal",
+              "branch": "legislative",
+              "scope": "California",
+              "term": { "start": "2025-01-03", "end": "2031-01-03" },
+              "contact": {
+                "phone": "(202) 224-3553",
+                "email": "https://www.schiff.senate.gov/contact",
+                "website": "https://www.schiff.senate.gov"
+              },
+              "alignment": {
+                "score": 0.3,
+                "label": "Mixed Ally",
+                "summary": "Strong on government transparency and accountability — his signature issue. Generally pro-housing and pro-transit at the federal level.",
+                "key_agreements": [
+                  "Champion of government transparency and accountability",
+                  "Supports federal housing programs",
+                  "Pro-infrastructure and transit investment"
+                ],
+                "key_disagreements": [
+                  "May prioritize national security/governance reform over housing policy",
+                  "Progressive economic positions may not align on market approaches"
+                ],
+                "relevant_domains": ["Government Transparency", "Housing & Land Use", "Transportation & Transit"],
+                "engagement_strategy": "Lean into transparency and accountability framing — Schiff's core brand. Contact on federal housing votes and government reform bills. Push for federal housing data transparency requirements.",
+                "priority": "low"
+              }
+            },
+            {
+              "id": "rep-correa",
+              "name": "Lou Correa",
+              "title": "U.S. Representative, CD-46",
+              "party": "Democrat",
+              "level": "federal",
+              "branch": "legislative",
+              "scope": "CD-46 (Orange County)",
+              "term": { "start": "2025-01-03", "end": "2027-01-03" },
+              "contact": {
+                "phone": "(714) 559-6190",
+                "email": "https://correa.house.gov/contact",
+                "office": "2323 N Broadway, Suite 210, Santa Ana, CA 92706",
+                "website": "https://correa.house.gov"
+              },
+              "alignment": {
+                "score": 0.3,
+                "label": "Mixed Ally",
+                "summary": "Moderate Democrat representing a diverse OC district. More centrist than progressive — closer to Doug's pragmatic approach. Focus on constituent services over ideology.",
+                "key_agreements": [
+                  "Moderate Democrat aligned on pragmatic governance",
+                  "Supports infrastructure and transit funding",
+                  "Pro-housing in general terms",
+                  "Constituent-service oriented"
+                ],
+                "key_disagreements": [
+                  "May not be a strong housing supply advocate specifically",
+                  "Immigration focus may deprioritize housing/transit issues"
+                ],
+                "relevant_domains": ["Housing & Land Use", "Transportation & Transit", "Economic Development"],
+                "engagement_strategy": "YOUR direct House representative — highest-impact federal relationship. Attend town halls. Push for pro-supply housing positions at the federal level. Correa is a moderate who responds to constituent input — specific, data-backed asks about housing and transit funding work best. Note: Prop 50 redistricting may change district boundaries.",
+                "priority": "medium"
+              },
+              "notes": "New Prop 50 redistricting maps may change district boundaries significantly."
+            }
+          ]
+        },
+        {
+          "level": "state",
+          "label": "State",
+          "officials": [
+            {
+              "id": "state-sen-umberg",
+              "name": "Tom Umberg",
+              "title": "State Senator, SD-34",
+              "party": "Democrat",
+              "level": "state",
+              "branch": "legislative",
+              "scope": "SD-34 (Orange County)",
+              "contact": {
+                "phone": "(714) 558-3785",
+                "office": "1600 E 4th St, Suite 244, Santa Ana, CA 92701",
+                "website": "https://sd34.senate.ca.gov"
+              },
+              "alignment": {
+                "score": 0.3,
+                "label": "Mixed Ally",
+                "summary": "Termed out — Avelino Valencia (current Assemblymember) is frontrunner for this seat. Umberg has been moderate and pragmatic, generally aligned on housing enforcement.",
+                "key_agreements": [
+                  "Supported housing supply legislation",
+                  "Pragmatic, moderate approach to governance"
+                ],
+                "key_disagreements": [
+                  "Limited housing-specific legislative record"
+                ],
+                "relevant_domains": ["Housing & Land Use", "Government Transparency"],
+                "engagement_strategy": "Lame duck — termed out. Focus on evaluating Valencia (frontrunner successor) on housing and transit positions. Check Valencia's Assembly voting record on SB 9, RHNA enforcement, Builder's Remedy. June 2026 primary is the key date.",
+                "priority": "medium"
+              },
+              "notes": "TERMED OUT. Open seat 2026. Avelino Valencia (D, current AD-68 Assemblymember) is frontrunner. June 2026 primary."
+            },
+            {
+              "id": "state-asm-valencia",
+              "name": "Avelino Valencia (running for Senate)",
+              "title": "State Assemblymember, AD-68",
+              "party": "Democrat",
+              "level": "state",
+              "branch": "legislative",
+              "scope": "AD-68 (Orange County)",
+              "contact": {
+                "phone": "(714) 939-8469",
+                "office": "1503 N Broadway, Santa Ana, CA 92706",
+                "website": "https://a68.asmdc.org"
+              },
+              "alignment": {
+                "score": 0.2,
+                "label": "Mixed",
+                "summary": "Running for SD-34 Senate seat. 4 years in Assembly focusing on consumer protection, gun violence reduction, government transparency. Housing record needs evaluation.",
+                "key_agreements": [
+                  "Government transparency focus aligns well",
+                  "Consumer protection orientation",
+                  "Generally pro-development as a Democrat in a purple district"
+                ],
+                "key_disagreements": [
+                  "Housing-specific positions unclear — needs research",
+                  "May not be a strong YIMBY champion"
+                ],
+                "relevant_domains": ["Government Transparency", "Housing & Land Use", "Public Safety"],
+                "engagement_strategy": "CRITICAL to evaluate before June 2026 primary. Research his Assembly voting record on housing bills. Attend any candidate forums. If aligned, early support in a competitive primary has high leverage. AD-68 will also be an open seat — watch for candidates from Santa Ana city council.",
+                "priority": "high"
+              },
+              "notes": "Running for SD-34 Senate seat. AD-68 will be open. Multiple Santa Ana city council candidates expected."
+            }
+          ]
+        },
+        {
+          "level": "county",
+          "label": "County",
+          "officials": [
+            {
+              "id": "bos-sarmiento-or-wagner",
+              "name": "Vicente Sarmiento (D) or Donald Wagner (R)",
+              "title": "OC Board Supervisor, District 2 or 3",
+              "party": "TBD (depends on exact address)",
+              "level": "county",
+              "branch": "legislative",
+              "scope": "OC Supervisor District 2 or 3",
+              "contact": {
+                "phone": "(714) 834-3220",
+                "office": "Hall of Administration, 333 W Santa Ana Blvd, Santa Ana, CA 92701",
+                "website": "https://bos.ocgov.com"
+              },
+              "alignment": {
+                "score": 0.0,
+                "label": "TBD",
+                "summary": "Exact district depends on specific address (near boundary of Districts 2 and 3). Sarmiento (D, Dist 2) is more aligned; Wagner (R, Dist 3) is less aligned. Critical to determine which district once address is confirmed.",
+                "key_agreements": [
+                  "If Sarmiento: generally pro-housing, part of Democratic majority coalition",
+                  "If Wagner: some pro-business development positions"
+                ],
+                "key_disagreements": [
+                  "If Wagner: Republican — may oppose housing mandates and transit investment"
+                ],
+                "relevant_domains": ["Housing & Land Use", "Transportation & Transit", "Taxation & Public Finance"],
+                "engagement_strategy": "FIRST PRIORITY: Determine your exact supervisor district at ocvote.gov/maps once you have an address. This determines whether you have an ally (Sarmiento) or an opponent (Wagner) on the board. Either way, attend Tuesday BoS meetings and submit public comments on housing items.",
+                "priority": "high"
+              },
+              "notes": "Need specific address to determine district. Near boundary of Districts 2 (Sarmiento, D) and 3 (Wagner, R)."
+            }
+          ]
+        },
+        {
+          "level": "city",
+          "label": "City",
+          "officials": [
+            {
+              "id": "orange-council-tbd",
+              "name": "TBD",
+              "title": "City of Orange Council Member",
+              "party": "Nonpartisan",
+              "level": "city",
+              "branch": "legislative",
+              "scope": "City of Orange (district TBD)",
+              "contact": {
+                "phone": "(714) 744-2225",
+                "office": "City Hall, 300 E Chapman Ave, Orange, CA 92866",
+                "website": "https://www.cityoforange.org"
+              },
+              "alignment": {
+                "score": 0.0,
+                "label": "Unknown",
+                "summary": "Need specific address to determine district. 6 district-elected members + directly elected mayor. 3 council seats + mayor on Nov 2026 ballot. Housing Element compliance is the defining issue.",
+                "key_agreements": [],
+                "key_disagreements": [],
+                "relevant_domains": ["Housing & Land Use"],
+                "engagement_strategy": "Once district is determined, research your council member's voting record on housing and development items. The Housing Element and Builder's Remedy applications are the litmus test issues. Nov 2026 election is an opportunity to shape the council on housing.",
+                "priority": "high"
+              },
+              "notes": "Need specific address for district. 3 seats + mayor on Nov 2026 ballot. Filing period TBD."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Other Bodies",
+      "icon": "○",
+      "levels": [
+        {
+          "level": "special_district",
+          "label": "Special Districts",
+          "officials": [
+            {
+              "id": "ousd-board",
+              "name": "Orange Unified School District Board",
+              "title": "School Board",
+              "party": "Nonpartisan",
+              "level": "special_district",
+              "branch": "other",
+              "scope": "Orange Unified SD",
+              "contact": {
+                "phone": "(714) 628-4000",
+                "website": "https://www.orangeusd.org",
+                "office": "1401 N Handy St, Orange, CA 92867"
+              },
+              "alignment": {
+                "score": 0.2,
+                "label": "Mixed",
+                "summary": "Successful recall of culture-war board members in 2024 has stabilized the district. New board is more pragmatic. School quality intersects with housing — good schools support density.",
+                "key_agreements": [
+                  "Post-recall board is more governance-focused",
+                  "Shared interest in community stability and growth"
+                ],
+                "key_disagreements": [
+                  "School districts sometimes resist density near campuses"
+                ],
+                "relevant_domains": ["Public Education", "Housing & Land Use"],
+                "engagement_strategy": "Lower priority but monitor. The 2024 recall was a significant win for pragmatic governance. Support continued good-governance candidates. Use OUSD data on enrollment and school quality in housing advocacy — healthy schools need housing-stable families.",
+                "priority": "low"
+              },
+              "notes": "Successful recall of culture-war board members in 2024. District is stabilizing."
+            },
+            {
+              "id": "octa-board",
+              "name": "OCTA Board",
+              "title": "Orange County Transportation Authority",
+              "party": "Appointed",
+              "level": "special_district",
+              "branch": "other",
+              "scope": "Orange County",
+              "contact": {
+                "phone": "(714) 560-6282",
+                "website": "https://www.octa.net",
+                "office": "550 S Main St, Orange, CA 92868"
+              },
+              "alignment": {
+                "score": 0.4,
+                "label": "Ally",
+                "summary": "Overseeing OC Streetcar launch (Spring 2026) and Metrolink commuter rail. Board appointed by elected officials — composition reflects political balance. Transit investment is a shared priority.",
+                "key_agreements": [
+                  "OC Streetcar implementation (95% complete, active testing)",
+                  "Metrolink commuter rail improvements",
+                  "Transit-oriented development potential along streetcar corridor"
+                ],
+                "key_disagreements": [
+                  "OC is auto-centric — OCTA still prioritizes road projects",
+                  "Limited political appetite for major transit expansion beyond streetcar"
+                ],
+                "relevant_domains": ["Transportation & Transit", "Housing & Land Use", "Economic Development"],
+                "engagement_strategy": "Monitor board meetings and push for TOD (transit-oriented development) along the new streetcar corridor. The OC Streetcar launch is a once-in-a-generation opportunity to demonstrate transit value in a car-centric county. Support ridership and advocate for corridor upzoning.",
+                "priority": "medium"
+              },
+              "notes": "OC Streetcar launching Spring 2026 (4.15 miles, Santa Ana to Garden Grove). 95% complete."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
