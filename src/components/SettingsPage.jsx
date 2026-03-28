@@ -171,6 +171,12 @@ export default function SettingsPage() {
             </span>
           </div>
         </section>
+
+        <div className="pt-4 border-t border-border">
+          <p className="text-xs text-text-tertiary font-mono">
+            build: {__COMMIT_HASH__}
+          </p>
+        </div>
       </div>
     </div>
   )
