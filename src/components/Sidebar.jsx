@@ -1,9 +1,11 @@
 import { NavLink } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import { ORG_IDS_BY_LOCATION, LOCATION_LABELS, loadOrg, loadFreshness } from '../lib/data'
+import { useZoom, ZOOM_LEVELS } from '../lib/zoom'
 import FreshnessIndicator from './FreshnessIndicator'
 
 export default function Sidebar() {
+  const { zoom, setZoom } = useZoom()
   const [orgsByLocation, setOrgsByLocation] = useState({})
   const [freshness, setFreshness] = useState(null)
   const [orgsExpanded, setOrgsExpanded] = useState(true)
@@ -125,6 +127,27 @@ export default function Sidebar() {
 
       {/* Footer */}
       <div className="p-3 border-t border-border space-y-2">
+        {/* Zoom control */}
+        <div className="flex items-center gap-2">
+          <span className="text-xs text-text-tertiary font-mono">Zoom:</span>
+          <div className="flex gap-0.5">
+            {ZOOM_LEVELS.map((level) => (
+              <button
+                key={level.value}
+                onClick={() => setZoom(level.value)}
+                className={`px-1.5 py-0.5 text-xs font-mono rounded transition-colors ${
+                  zoom === level.value
+                    ? 'bg-accent-blue/20 text-accent-blue border border-accent-blue/40'
+                    : 'text-text-tertiary hover:text-text-secondary border border-transparent'
+                }`}
+                title={`${Math.round(level.value * 100)}% zoom`}
+              >
+                {level.label}
+              </button>
+            ))}
+          </div>
+        </div>
+
         {Object.entries(LOCATION_LABELS).map(([locId, label]) => {
           const ts = getLocationTimestamp(locId)
           const shortLabel = locId === 'austin-78702' ? 'ATX' : 'OC'

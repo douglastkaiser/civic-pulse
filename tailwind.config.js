@@ -3,13 +3,13 @@ export default {
   content: ['./index.html', './src/**/*.{js,jsx}'],
   theme: {
     fontSize: {
-      xs: '0.7rem',
-      sm: '0.8rem',
-      base: '0.875rem',
-      lg: '1rem',
-      xl: '1.125rem',
-      '2xl': '1.25rem',
-      '3xl': '1.5rem',
+      xs: '0.75rem',
+      sm: '0.85rem',
+      base: '0.9375rem',
+      lg: '1.0625rem',
+      xl: '1.1875rem',
+      '2xl': '1.375rem',
+      '3xl': '1.625rem',
     },
     extend: {
       colors: {
