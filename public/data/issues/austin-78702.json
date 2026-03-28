@@ -171,7 +171,7 @@
       "governing_body": "Austin City Council",
       "governing_body_type": "city_council",
       "meeting_date": null,
-      "summary": "A city audit found that APD 'does not have an effective strategy' to hire more officers despite years of staffing shortages. Key numbers: 340 vacancies out of 1,816 authorized positions (19% vacancy rate). APD's FY2026 budget is $540M (36.2% of the city's $1.5B general fund). A new $218M contract with the Austin Police Association provides a 28% pay raise over 5 years. Some positive signals: attrition has slowed (APD gained 3 officers net last year — first positive year in 5-6 years), and recruitment interest is up 166%. Chief Davis says APD could be fully staffed by end of 2027. The 154th cadet class (51 cadets) graduates August 2026.",
+      "summary": "A city audit found that APD 'does not have an effective strategy' to hire more officers despite years of staffing shortages. Key numbers: 340 vacancies out of 1,816 authorized positions (19% vacancy rate). APD's FY2026 budget is $540M (36.2% of the city's $1.5B general fund). A new $218M contract with the Austin Police Association provides a 28% pay raise over 5 years. Some positive signals: attrition has slowed (APD gained 3 officers net last year — first positive year in 5-6 years), and recruitment interest is up 166%. Chief Davis says APD could be fully staffed by end of 2027. The 154th cadet class began January 6, 2025. The 155th cadet class graduated December 12, 2025 with 38 new officers after a 32-week program. Chief Davis noted 102 candidates eligible for the next class, expressing optimism about scaling from classes of 30-50 to classes of 100.",
       "policy_domains": ["Public Safety", "Taxation & Public Finance"],
       "decision_type": "discussion",
       "geographic_scope": "citywide",
@@ -185,6 +185,48 @@
       "quadrant": "watch",
       "why_it_matters_to_you": "APD staffing directly affects response times and public safety across Austin. The audit's finding that there's no recruitment plan despite 340 vacancies is an accountability failure worth tracking. The $218M contract and 28% pay raise are significant public investments — monitor whether they actually improve staffing. This connects to the broader 'safety is infrastructure' framework: adequate policing plus non-police crisis response (HOST teams) are both needed. The FY2027 budget will be the next decision point.",
       "source_url": "https://www.kut.org/crime-justice/2025-04-16/austin-texas-police-department-staffing-troubles-recruitment"
+    },
+    {
+      "id": "atx-home-initiative-results",
+      "title": "HOME Initiative Delivering Results — Austin Rents Down 16%, Steepest Drop in US",
+      "governing_body": "Austin City Council",
+      "governing_body_type": "city_council",
+      "meeting_date": null,
+      "summary": "UPDATE (March 2026): A Pew Charitable Trusts report (March 18, 2026) confirms that Austin's housing construction surge — driven by the HOME Initiative and other pro-building policies — produced the steepest rent decline of any large U.S. city from 2021 to 2026. Key numbers:\n\n• From 2015-2024, Austin added 120,000 units to its housing stock — a 30% increase, more than 3x the national rate (9%).\n• Austin's median rent fell from $1,546 (Dec 2021) to $1,296 (Jan 2026) — a 16% decline.\n• Austin's median rent is now 4% BELOW the U.S. median ($1,353) after being 15% above it in 2021.\n• The combination of strong demand and proactive policy changes (HOME Phase 1 adopted Dec 2023, Phase 2 adopted May 2024) spurred the supply surge.\n\nHOME Initiative implementation milestones: Phase 1 applications accepted Feb 2024, Phase 2 applications accepted Aug-Nov 2024. The initiative now permits up to 3 units on many single-family lots and reduced minimum lot sizes to 1,800 sq ft. Compatibility standards were also reformed — enforcement zones reduced from 540 feet to 75 feet, allowing more height flexibility near single-family homes.\n\nThis is concrete, measurable evidence that building more housing lowers costs. Austin is now the national proof point for YIMBY policy.",
+      "policy_domains": ["Housing & Land Use", "Economic Development"],
+      "decision_type": "discussion",
+      "geographic_scope": "citywide",
+      "public_comment": {
+        "available": false,
+        "instructions": "The HOME Initiative is adopted and in implementation phase. Monitor for missing middle/mixed-use zoning reforms advancing through council in 2026-2027."
+      },
+      "estimated_contestedness": "low",
+      "importance_score": 80,
+      "impact_score": 90,
+      "quadrant": "know",
+      "why_it_matters_to_you": "This is the scoreboard. Austin's 16% rent decline — the steepest in any large US city — is direct evidence that the YIMBY policy agenda works. Building more housing lowers costs. This data is your most powerful argument in every future rezoning fight, council race, and public hearing. The Pew report gives this national credibility. Share it. Cite it. Use it to counter every 'building doesn't help' argument you'll hear in the golf course rezoning and council election debates.",
+      "source_url": "https://www.pew.org/en/research-and-analysis/articles/2026/03/18/austins-surge-of-new-housing-construction-drove-down-rents"
+    },
+    {
+      "id": "atx-missing-middle-zoning",
+      "title": "Missing Middle & Mixed-Use Zoning Expansion — Advancing Through Council",
+      "governing_body": "Austin City Council",
+      "governing_body_type": "city_council",
+      "meeting_date": "2026-03-26",
+      "summary": "UPDATE (March 26, 2026): Austin City Council advanced the expansion of missing middle residential and mixed-use zoning, building on the HOME Initiative. The proposal creates new zoning categories for townhomes, cottage courts, single-stair buildings, and other 'missing middle' housing types.\n\nA January 2026 city zoning study recommended allowing 4-6 units on lots of at least 5,750 square feet. The new zones would also allow neighborhood-scale mixed-use (retail on ground floor, housing above) in appropriate locations.\n\nThe initiative builds on HOME Phase 1 & 2 and represents the next phase of Austin's zoning reform agenda. Once finalized and approved (expected 2027), further community discussions will determine where the new allowances apply.\n\nThis is the natural next step after HOME: having allowed more units on single-family lots, the city is now creating purpose-built zoning categories for the kind of gentle density that makes neighborhoods walkable and transit-supportive.",
+      "policy_domains": ["Housing & Land Use", "Transportation & Transit"],
+      "decision_type": "discussion",
+      "geographic_scope": "citywide",
+      "public_comment": {
+        "available": true,
+        "instructions": "Community engagement ongoing through 2026-2027. Monitor austintexas.gov/development-services/home-amendments for public hearing schedules."
+      },
+      "estimated_contestedness": "medium",
+      "importance_score": 72,
+      "impact_score": 60,
+      "quadrant": "watch",
+      "why_it_matters_to_you": "This is HOME Initiative Phase 3 in everything but name. The missing middle zoning categories create purpose-built pathways for the gentle density that makes neighborhoods walkable — townhomes, cottage courts, small mixed-use buildings. This is especially relevant for 78702 where transit-oriented development along the future light rail corridor needs exactly this kind of zoning. Support this through public comment when hearings are scheduled.",
+      "source_url": "https://communityimpact.com/austin/north-central-austin/government/2026/03/26/expansion-of-austins-missing-middle-mixed-use-zoning-advances/"
     }
   ]
 }
