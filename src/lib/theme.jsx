@@ -1,4 +1,4 @@
-import { createContext, useContext, useState, useEffect } from 'react'
+import { createContext, useContext, useState, useCallback } from 'react'
 
 const THEME_KEY = 'civic-pulse-theme'
 
@@ -11,20 +11,22 @@ const THEMES = [
 
 const ThemeContext = createContext({ theme: 'civic', setTheme: () => {} })
 
+function applyTheme(themeId) {
+  document.documentElement.setAttribute('data-theme', themeId)
+}
+
 export function ThemeProvider({ children }) {
-  const [theme, setTheme] = useState(() => {
+  const [theme, setThemeState] = useState(() => {
     const saved = localStorage.getItem(THEME_KEY)
-    return saved && THEMES.some(t => t.id === saved) ? saved : 'civic'
+    const initial = saved && THEMES.some(t => t.id === saved) ? saved : 'civic'
+    applyTheme(initial)
+    return initial
   })
 
-  useEffect(() => {
-    localStorage.setItem(THEME_KEY, theme)
-    document.documentElement.setAttribute('data-theme', theme)
-  }, [theme])
-
-  // Set initial data-theme on mount
-  useEffect(() => {
-    document.documentElement.setAttribute('data-theme', theme)
+  const setTheme = useCallback((newTheme) => {
+    localStorage.setItem(THEME_KEY, newTheme)
+    applyTheme(newTheme)
+    setThemeState(newTheme)
   }, [])
 
   return (

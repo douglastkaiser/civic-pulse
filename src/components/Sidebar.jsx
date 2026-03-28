@@ -77,7 +77,7 @@ export default function Sidebar() {
         <div className="mt-4">
           <button
             onClick={() => setOrgsExpanded(!orgsExpanded)}
-            className="flex items-center gap-2 px-3 py-1.5 text-xs font-mono font-bold text-text-tertiary tracking-wide w-full text-left hover:text-text-secondary transition-colors"
+            className="flex items-center gap-2 px-3 py-1.5 text-xs font-mono font-bold text-text-secondary tracking-wide w-full text-left hover:text-text-primary transition-colors"
           >
             <span>{orgsExpanded ? '▾' : '▸'}</span>
             ORGANIZATIONS
@@ -90,7 +90,7 @@ export default function Sidebar() {
                 const label = LOCATION_LABELS[locId] || locId
                 return (
                   <div key={locId}>
-                    <div className="px-3 py-1 text-[10px] font-mono font-bold text-text-tertiary tracking-widest uppercase mt-2 first:mt-0">
+                    <div className="px-3 py-1 text-[10px] font-mono font-bold text-text-secondary tracking-widest uppercase mt-2 first:mt-0">
                       {label}
                     </div>
                     {orgs.map((org) => (
@@ -133,7 +133,7 @@ export default function Sidebar() {
           const ts = getLocationTimestamp(locId)
           const shortLabel = locId === 'austin-78702' ? 'ATX' : 'OC'
           return (
-            <div key={locId} className="flex items-center gap-2 text-xs text-text-tertiary font-mono">
+            <div key={locId} className="flex items-center gap-2 text-xs text-text-secondary font-mono">
               <span>{shortLabel}:</span>
               {ts ? (
                 <FreshnessIndicator timestamp={ts} size={6} />
@@ -161,7 +161,7 @@ export default function Sidebar() {
       {/* Mobile hamburger button */}
       <button
         onClick={() => setMobileOpen(!mobileOpen)}
-        className="lg:hidden fixed top-2 left-2 z-50 p-2 bg-bg-panel border border-border rounded text-text-primary font-mono text-sm"
+        className="lg:hidden fixed top-2 left-2 z-50 p-2 bg-bg-panel border-2 border-border rounded text-text-primary font-mono text-sm shadow-md"
         aria-label="Toggle navigation"
       >
         {mobileOpen ? '✕' : '☰'}
@@ -188,7 +188,7 @@ export default function Sidebar() {
 
       {/* Sidebar - mobile */}
       <aside
-        className={`lg:hidden fixed top-0 left-0 h-full w-64 bg-bg-panel border-r border-border flex flex-col z-40 transition-transform duration-200 ${
+        className={`lg:hidden fixed top-0 left-0 h-full w-64 bg-bg-panel border-r border-border flex flex-col z-40 transition-transform duration-200 shadow-2xl ${
           mobileOpen ? 'translate-x-0' : '-translate-x-full'
         }`}
       >
