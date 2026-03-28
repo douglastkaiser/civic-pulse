@@ -1,11 +1,15 @@
 import { useState, useMemo } from 'react'
 import ContextTooltip from './shared/ContextTooltip'
+import { getCssVar } from '../lib/themeColors'
 
-const QUADRANT_COLORS = {
-  act_now: '#22c55e',
-  know: '#3b82f6',
-  watch: '#f59e0b',
-  background: '#475569',
+function getQuadrantColor(quadrant) {
+  const map = {
+    act_now: '--quad-act',
+    know: '--quad-know',
+    watch: '--quad-watch',
+    background: '--quad-bg',
+  }
+  return getCssVar(map[quadrant] || '--quad-bg')
 }
 
 const SORT_OPTIONS = [
@@ -86,7 +90,7 @@ export default function IssueFeed({ issues, onSelectIssue, selectedIssueId }) {
                 style={{
                   width: 8,
                   height: 8,
-                  backgroundColor: QUADRANT_COLORS[issue.quadrant] || '#475569',
+                  backgroundColor: getQuadrantColor(issue.quadrant),
                 }}
               />
               <div className="flex-1 min-w-0">

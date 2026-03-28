@@ -2,24 +2,156 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --bg-primary: #0a0e17;
-  --bg-panel: #111827;
-  --bg-elevated: #1a2236;
-  --border: #1e2d4a;
-  --text-primary: #e2e8f0;
-  --text-secondary: #64748b;
-  --text-tertiary: #475569;
-  --accent-blue: #3b82f6;
-  --accent-green: #22c55e;
-  --accent-amber: #f59e0b;
-  --accent-red: #ef4444;
-  --accent-purple: #a855f7;
+/* ============================================================
+   THEME: Civic (default) — Newspaper-inspired light mode
+   CSS vars use space-separated RGB channels for Tailwind
+   opacity modifier compatibility: bg-accent-blue/20 etc.
+   ============================================================ */
+:root,
+[data-theme="civic"] {
+  --bg-primary: 250 248 245;
+  --bg-panel: 255 255 255;
+  --bg-elevated: 240 237 232;
+  --border: 212 208 200;
+  --text-primary: 26 26 26;
+  --text-secondary: 85 85 85;
+  --text-tertiary: 136 136 136;
+  --accent-blue: 26 58 92;
+  --accent-green: 45 106 79;
+  --accent-amber: 180 83 9;
+  --accent-red: 155 34 38;
+  --accent-purple: 107 76 154;
+  --quad-act: 45 106 79;
+  --quad-know: 26 58 92;
+  --quad-watch: 180 83 9;
+  --quad-bg: 136 136 136;
+  --font-sans: "DM Sans";
+  --font-mono: "JetBrains Mono";
+  --border-radius: 0.5rem;
+  --panel-border-style: solid;
+  --panel-border-width: 1px;
+  --scrollbar-thumb: #d4d0c8;
+  --scrollbar-track: #faf8f5;
+  --hover-border: #b8b4ac;
+  --hover-glow: rgba(26, 58, 92, 0.05);
+  --tooltip-bg: #ffffff;
+  --tooltip-border: #d4d0c8;
+  --tooltip-text: #1a1a1a;
+  --glow-color: rgba(26, 58, 92, 0.1);
 }
+
+/* ============================================================
+   THEME: Retro '90s — GeoCities meets civic duty
+   ============================================================ */
+[data-theme="retro90s"] {
+  --bg-primary: 192 192 192;
+  --bg-panel: 255 255 255;
+  --bg-elevated: 212 212 212;
+  --border: 128 128 128;
+  --text-primary: 0 0 0;
+  --text-secondary: 51 51 51;
+  --text-tertiary: 102 102 102;
+  --accent-blue: 0 0 255;
+  --accent-green: 0 128 0;
+  --accent-amber: 255 140 0;
+  --accent-red: 255 0 0;
+  --accent-purple: 128 0 128;
+  --quad-act: 0 128 0;
+  --quad-know: 0 0 255;
+  --quad-watch: 255 140 0;
+  --quad-bg: 102 102 102;
+  --font-sans: "Times New Roman", Times, serif;
+  --font-mono: "Courier New", Courier;
+  --border-radius: 0px;
+  --panel-border-style: outset;
+  --panel-border-width: 2px;
+  --scrollbar-thumb: #808080;
+  --scrollbar-track: #c0c0c0;
+  --hover-border: #000080;
+  --hover-glow: none;
+  --tooltip-bg: #ffffe1;
+  --tooltip-border: #000000;
+  --tooltip-text: #000000;
+  --glow-color: none;
+}
+
+/* ============================================================
+   THEME: Midnight — Warm, refined dark mode
+   ============================================================ */
+[data-theme="midnight"] {
+  --bg-primary: 13 13 13;
+  --bg-panel: 22 22 22;
+  --bg-elevated: 30 30 30;
+  --border: 42 42 42;
+  --text-primary: 237 232 224;
+  --text-secondary: 154 149 144;
+  --text-tertiary: 107 101 96;
+  --accent-blue: 104 137 171;
+  --accent-green: 125 170 109;
+  --accent-amber: 212 168 83;
+  --accent-red: 212 119 102;
+  --accent-purple: 155 135 178;
+  --quad-act: 125 170 109;
+  --quad-know: 104 137 171;
+  --quad-watch: 212 168 83;
+  --quad-bg: 107 101 96;
+  --font-sans: "DM Sans";
+  --font-mono: "JetBrains Mono";
+  --border-radius: 0.5rem;
+  --panel-border-style: solid;
+  --panel-border-width: 1px;
+  --scrollbar-thumb: #2a2a2a;
+  --scrollbar-track: #0d0d0d;
+  --hover-border: #3a3a3a;
+  --hover-glow: rgba(212, 168, 83, 0.05);
+  --tooltip-bg: #1e1e1e;
+  --tooltip-border: #2a2a2a;
+  --tooltip-text: #ede8e0;
+  --glow-color: rgba(212, 168, 83, 0.1);
+}
+
+/* ============================================================
+   THEME: Roman Forum — Stone & marble civic grandeur
+   ============================================================ */
+[data-theme="roman"] {
+  --bg-primary: 232 224 212;
+  --bg-panel: 245 242 237;
+  --bg-elevated: 217 208 195;
+  --border: 184 168 152;
+  --text-primary: 44 36 22;
+  --text-secondary: 107 93 79;
+  --text-tertiary: 138 126 110;
+  --accent-blue: 46 74 110;
+  --accent-green: 74 103 65;
+  --accent-amber: 184 134 11;
+  --accent-red: 139 26 26;
+  --accent-purple: 107 58 107;
+  --quad-act: 74 103 65;
+  --quad-know: 46 74 110;
+  --quad-watch: 184 134 11;
+  --quad-bg: 138 126 110;
+  --font-sans: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  --font-mono: "JetBrains Mono";
+  --border-radius: 0.25rem;
+  --panel-border-style: double;
+  --panel-border-width: 3px;
+  --scrollbar-thumb: #b8a898;
+  --scrollbar-track: #e8e0d4;
+  --hover-border: #9a8a78;
+  --hover-glow: rgba(184, 134, 11, 0.08);
+  --tooltip-bg: #f5f2ed;
+  --tooltip-border: #b8a898;
+  --tooltip-text: #2c2416;
+  --glow-color: rgba(184, 134, 11, 0.1);
+}
+
+/* ============================================================
+   GLOBAL STYLES
+   ============================================================ */
 
 * {
   scrollbar-width: thin;
-  scrollbar-color: #1e2d4a #0a0e17;
+  scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
 }
 
 *::-webkit-scrollbar {
@@ -27,11 +159,11 @@
 }
 
 *::-webkit-scrollbar-track {
-  background: #0a0e17;
+  background: var(--scrollbar-track);
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #1e2d4a;
+  background-color: var(--scrollbar-thumb);
   border-radius: 3px;
 }
 
@@ -54,6 +186,10 @@ body {
   display: none;
 }
 
+/* ============================================================
+   ANIMATIONS
+   ============================================================ */
+
 @keyframes fade-in {
   from { opacity: 0; transform: translateY(4px); }
   to { opacity: 1; transform: translateY(0); }
@@ -63,13 +199,26 @@ body {
   animation: fade-in 0.2s ease-out;
 }
 
+/* Collapsible section animation */
+.section-content {
+  animation: slide-down 0.15s ease-out;
+}
+@keyframes slide-down {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ============================================================
+   THEMED UTILITY CLASSES
+   ============================================================ */
+
 /* Panel hover glow */
 .panel-hover {
   transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
 .panel-hover:hover {
-  border-color: #2a3f6a;
-  box-shadow: 0 0 0 1px rgba(59, 130, 246, 0.05);
+  border-color: var(--hover-border);
+  box-shadow: 0 0 0 1px var(--hover-glow);
 }
 
 /* AI Generated Badge tooltip */
@@ -86,13 +235,13 @@ body {
   width: max-content;
   max-width: 300px;
   padding: 8px 12px;
-  background: #1a2236;
-  color: #e2e8f0;
-  border: 1px solid #1e2d4a;
-  border-radius: 6px;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  border: 1px solid var(--tooltip-border);
+  border-radius: var(--border-radius);
   font-size: 11px;
   line-height: 1.5;
-  font-family: 'DM Sans', sans-serif;
+  font-family: var(--font-sans), sans-serif;
   pointer-events: none;
   opacity: 0;
   transition: opacity 0.15s ease;
@@ -119,13 +268,13 @@ body {
   width: max-content;
   max-width: 300px;
   padding: 8px 12px;
-  background: #1a2236;
-  color: #e2e8f0;
-  border: 1px solid #1e2d4a;
-  border-radius: 6px;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  border: 1px solid var(--tooltip-border);
+  border-radius: var(--border-radius);
   font-size: 11px;
   line-height: 1.5;
-  font-family: 'DM Sans', sans-serif;
+  font-family: var(--font-sans), sans-serif;
   pointer-events: none;
   opacity: 0;
   transition: opacity 0.15s ease;
@@ -142,7 +291,7 @@ body {
 .hierarchy-flow-line {
   width: 1px;
   height: 16px;
-  background: linear-gradient(to bottom, #1e2d4a, #1e2d4a80);
+  background: linear-gradient(to bottom, var(--hover-border), transparent);
 }
 
 .hierarchy-columns {
@@ -151,24 +300,112 @@ body {
 
 /* Alignment bar background */
 .alignment-bar-bg {
-  background: #0a0e17;
-  border: 1px solid #1e2d4a;
+  background: rgb(var(--bg-primary));
+  border: 1px solid rgb(var(--border));
 }
 
 /* Official card selection glow */
 @keyframes card-glow {
-  0%, 100% { box-shadow: 0 0 4px rgba(59, 130, 246, 0.1); }
-  50% { box-shadow: 0 0 12px rgba(59, 130, 246, 0.15); }
+  0%, 100% { box-shadow: 0 0 4px var(--glow-color); }
+  50% { box-shadow: 0 0 12px var(--glow-color); }
 }
 .official-card-selected {
   animation: card-glow 2s ease-in-out infinite;
 }
 
-/* Collapsible section animation */
-.section-content {
-  animation: slide-down 0.15s ease-out;
+/* ============================================================
+   THEME: Retro '90s — Special overrides
+   ============================================================ */
+
+[data-theme="retro90s"] .rounded,
+[data-theme="retro90s"] .rounded-lg,
+[data-theme="retro90s"] .rounded-full,
+[data-theme="retro90s"] .rounded-md,
+[data-theme="retro90s"] .rounded-sm {
+  border-radius: 0 !important;
 }
-@keyframes slide-down {
-  from { opacity: 0; transform: translateY(-4px); }
-  to { opacity: 1; transform: translateY(0); }
+
+/* Retro panels get beveled borders */
+[data-theme="retro90s"] .panel-hover {
+  border-style: outset;
+  border-width: 2px;
+}
+
+/* Retro buttons get press effect */
+[data-theme="retro90s"] button:active,
+[data-theme="retro90s"] [role="button"]:active {
+  border-style: inset !important;
+}
+
+/* Retro links are underlined */
+[data-theme="retro90s"] a {
+  text-decoration: underline;
+}
+
+/* Retro scrollbar — use browser default */
+[data-theme="retro90s"] * {
+  scrollbar-width: auto;
+  scrollbar-color: auto;
+}
+[data-theme="retro90s"] *::-webkit-scrollbar {
+  width: auto;
+}
+[data-theme="retro90s"] *::-webkit-scrollbar-track {
+  background: auto;
+}
+[data-theme="retro90s"] *::-webkit-scrollbar-thumb {
+  background-color: auto;
+  border-radius: 0;
+}
+
+/* Retro: disable all glow/shadow effects */
+[data-theme="retro90s"] .panel-hover:hover {
+  box-shadow: none;
+  border-color: #000080;
+}
+
+[data-theme="retro90s"] .official-card-selected {
+  animation: none;
+  border: 2px solid #000080;
+}
+
+/* ============================================================
+   THEME: Roman Forum — Special overrides
+   ============================================================ */
+
+/* Stone texture on primary background */
+[data-theme="roman"] body {
+  background-image:
+    repeating-radial-gradient(
+      circle at 17% 32%,
+      rgba(0, 0, 0, 0.02) 0px,
+      transparent 1px
+    ),
+    repeating-radial-gradient(
+      circle at 73% 68%,
+      rgba(0, 0, 0, 0.015) 0px,
+      transparent 1px
+    );
+}
+
+/* Roman panels get double borders */
+[data-theme="roman"] .panel-hover {
+  border-style: double;
+  border-width: 3px;
+}
+
+/* Subtle warm shadow on panels */
+[data-theme="roman"] .panel-hover:hover {
+  box-shadow: 0 2px 8px rgba(44, 36, 22, 0.12);
+}
+
+/* ============================================================
+   SMOOTH THEME TRANSITIONS
+   ============================================================ */
+
+body,
+.bg-bg-primary,
+.bg-bg-panel,
+.bg-bg-elevated {
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }

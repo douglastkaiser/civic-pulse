@@ -6,6 +6,7 @@ import OrgPublicView from './components/OrgPublicView'
 import NewOrg from './components/NewOrg'
 import About from './components/About'
 import OfficialsPage from './components/OfficialsPage'
+import SettingsPage from './components/SettingsPage'
 import ErrorBoundary from './components/shared/ErrorBoundary'
 import { useZoom } from './lib/zoom.jsx'
 
@@ -35,6 +36,7 @@ export default function App() {
             <Route path="/dashboard" element={<PersonalDashboard />} />
             <Route path="/officials" element={<OfficialsPage />} />
             <Route path="/about" element={<About />} />
+            <Route path="/settings" element={<SettingsPage />} />
             <Route path="/org/new" element={<NewOrg />} />
             <Route path="/org/:orgId/public" element={<OrgPublicView />} />
             <Route path="/org/:orgId" element={<OrgDashboard />} />

@@ -1,6 +1,8 @@
+import { getCssVar } from '../lib/themeColors'
+
 const STATUS_STYLES = {
-  active: { dot: '#22c55e', label: 'Active' },
-  setting_up: { dot: '#f59e0b', label: 'Setting up' },
+  active: { dotVar: '--accent-green', label: 'Active' },
+  setting_up: { dotVar: '--accent-amber', label: 'Setting up' },
 }
 
 export default function LocationSwitcher({ locations, activeLocationId, onSwitch }) {
@@ -29,7 +31,7 @@ export default function LocationSwitcher({ locations, activeLocationId, onSwitch
               <span className="flex items-center gap-1 flex-shrink-0">
                 <span
                   className="inline-block w-1.5 h-1.5 rounded-full"
-                  style={{ backgroundColor: status.dot }}
+                  style={{ backgroundColor: getCssVar(status.dotVar) }}
                 />
                 <span className="text-text-tertiary text-[10px]">{status.label}</span>
               </span>

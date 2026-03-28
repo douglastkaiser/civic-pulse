@@ -2,13 +2,8 @@ import { useState, useMemo } from 'react'
 import Plot from 'react-plotly.js'
 import ContextTooltip from './shared/ContextTooltip'
 import DetailModal from './shared/DetailModal'
-
-const QUADRANT_COLORS = {
-  act_now: '#22c55e',
-  know: '#3b82f6',
-  watch: '#f59e0b',
-  background: '#475569',
-}
+import { useTheme } from '../lib/theme'
+import { getThemeColors, getCssVar } from '../lib/themeColors'
 
 function getMarkerSize(issue) {
   if (!issue.meeting_date) return 12
@@ -22,8 +17,18 @@ function getMarkerSize(issue) {
 }
 
 function MatrixPlot({ issues, selectedIssueId, onSelectIssue }) {
+  const { theme } = useTheme()
+
+  const quadrantColorMap = {
+    act_now: '--quad-act',
+    know: '--quad-know',
+    watch: '--quad-watch',
+    background: '--quad-bg',
+  }
+
   const data = useMemo(() => {
     if (!issues?.length) return []
+    const tc = getThemeColors()
 
     return [
       {
@@ -37,10 +42,10 @@ function MatrixPlot({ issues, selectedIssueId, onSelectIssue }) {
         type: 'scatter',
         marker: {
           size: issues.map(getMarkerSize),
-          color: issues.map((i) => QUADRANT_COLORS[i.quadrant] || '#475569'),
+          color: issues.map((i) => getCssVar(quadrantColorMap[i.quadrant] || '--quad-bg')),
           line: {
             color: issues.map((i) =>
-              i.id === selectedIssueId ? '#e2e8f0' : 'transparent'
+              i.id === selectedIssueId ? tc.textPrimary : 'transparent'
             ),
             width: issues.map((i) => (i.id === selectedIssueId ? 2 : 0)),
           },
@@ -48,56 +53,59 @@ function MatrixPlot({ issues, selectedIssueId, onSelectIssue }) {
         },
       },
     ]
-  }, [issues, selectedIssueId])
+  }, [issues, selectedIssueId, theme])
 
   const layout = useMemo(
-    () => ({
-      paper_bgcolor: 'transparent',
-      plot_bgcolor: 'transparent',
-      margin: { t: 30, r: 20, b: 50, l: 50 },
-      xaxis: {
-        title: { text: 'Importance', font: { size: 11 } },
-        range: [0, 100],
-        gridcolor: '#1e2d4a',
-        zerolinecolor: '#1e2d4a',
-        color: '#64748b',
-        dtick: 25,
-      },
-      yaxis: {
-        title: { text: 'Impact', font: { size: 11 } },
-        range: [0, 100],
-        gridcolor: '#1e2d4a',
-        zerolinecolor: '#1e2d4a',
-        color: '#64748b',
-        dtick: 25,
-      },
-      font: {
-        family: 'JetBrains Mono, monospace',
-        color: '#64748b',
-        size: 10,
-      },
-      shapes: [
-        {
-          type: 'line',
-          x0: 50, x1: 50, y0: 0, y1: 100,
-          line: { color: '#1e2d4a', width: 1, dash: 'dash' },
+    () => {
+      const tc = getThemeColors()
+      return {
+        paper_bgcolor: 'transparent',
+        plot_bgcolor: 'transparent',
+        margin: { t: 30, r: 20, b: 50, l: 50 },
+        xaxis: {
+          title: { text: 'Importance', font: { size: 11 } },
+          range: [0, 100],
+          gridcolor: tc.border,
+          zerolinecolor: tc.border,
+          color: tc.textSecondary,
+          dtick: 25,
         },
-        {
-          type: 'line',
-          x0: 0, x1: 100, y0: 50, y1: 50,
-          line: { color: '#1e2d4a', width: 1, dash: 'dash' },
+        yaxis: {
+          title: { text: 'Impact', font: { size: 11 } },
+          range: [0, 100],
+          gridcolor: tc.border,
+          zerolinecolor: tc.border,
+          color: tc.textSecondary,
+          dtick: 25,
         },
-      ],
-      annotations: [
-        { x: 75, y: 95, text: 'ACT NOW', showarrow: false, font: { color: '#22c55e', size: 9 } },
-        { x: 25, y: 95, text: 'KNOW', showarrow: false, font: { color: '#3b82f6', size: 9 } },
-        { x: 75, y: 5, text: 'WATCH', showarrow: false, font: { color: '#f59e0b', size: 9 } },
-        { x: 25, y: 5, text: 'BACKGROUND', showarrow: false, font: { color: '#475569', size: 9 } },
-      ],
-      dragmode: false,
-      hovermode: 'closest',
-    }),
-    []
+        font: {
+          family: tc.fontMono + ', monospace',
+          color: tc.textSecondary,
+          size: 10,
+        },
+        shapes: [
+          {
+            type: 'line',
+            x0: 50, x1: 50, y0: 0, y1: 100,
+            line: { color: tc.border, width: 1, dash: 'dash' },
+          },
+          {
+            type: 'line',
+            x0: 0, x1: 100, y0: 50, y1: 50,
+            line: { color: tc.border, width: 1, dash: 'dash' },
+          },
+        ],
+        annotations: [
+          { x: 75, y: 95, text: 'ACT NOW', showarrow: false, font: { color: tc.quadAct, size: 9 } },
+          { x: 25, y: 95, text: 'KNOW', showarrow: false, font: { color: tc.quadKnow, size: 9 } },
+          { x: 75, y: 5, text: 'WATCH', showarrow: false, font: { color: tc.quadWatch, size: 9 } },
+          { x: 25, y: 5, text: 'BACKGROUND', showarrow: false, font: { color: tc.quadBg, size: 9 } },
+        ],
+        dragmode: false,
+        hovermode: 'closest',
+      }
+    },
+    [theme]
   )
 
   const config = useMemo(

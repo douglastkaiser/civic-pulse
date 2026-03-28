@@ -20,13 +20,16 @@ export function getFreshnessLabel(isoTimestamp) {
   return `${months}mo ago`
 }
 
-const DOT_COLORS = {
-  green: '#22c55e',
-  yellow: '#f59e0b',
-  red: '#ef4444',
-  gray: '#475569',
+import { getCssVar } from './themeColors'
+
+const DOT_COLOR_VARS = {
+  green: '--accent-green',
+  yellow: '--accent-amber',
+  red: '--accent-red',
+  gray: '--text-tertiary',
 }
 
 export function getFreshnessDotColor(isoTimestamp) {
-  return DOT_COLORS[getFreshnessColor(isoTimestamp)]
+  const colorKey = getFreshnessColor(isoTimestamp)
+  return getCssVar(DOT_COLOR_VARS[colorKey])
 }
