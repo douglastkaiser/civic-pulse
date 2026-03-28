@@ -1,4 +1,4 @@
-import { createContext, useContext, useState, useCallback } from 'react'
+import { createContext, useContext, useState, useCallback, useEffect } from 'react'
 
 const THEME_KEY = 'civic-pulse-theme'
 
@@ -28,6 +28,11 @@ export function ThemeProvider({ children }) {
     applyTheme(newTheme)
     setThemeState(newTheme)
   }, [])
+
+  // Defensive: ensure data-theme attribute stays in sync after StrictMode remounting
+  useEffect(() => {
+    applyTheme(theme)
+  }, [theme])
 
   return (
     <ThemeContext.Provider value={{ theme, setTheme }}>

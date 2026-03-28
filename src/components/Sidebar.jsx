@@ -84,7 +84,7 @@ export default function Sidebar() {
           </button>
 
           {orgsExpanded && (
-            <div className="ml-2 space-y-0.5 mt-1">
+            <div className="ml-2 space-y-0.5 mt-1 pl-1 border-l border-border/40">
               {Object.entries(ORG_IDS_BY_LOCATION).map(([locId]) => {
                 const orgs = orgsByLocation[locId] || []
                 const label = LOCATION_LABELS[locId] || locId
@@ -161,7 +161,7 @@ export default function Sidebar() {
       {/* Mobile hamburger button */}
       <button
         onClick={() => setMobileOpen(!mobileOpen)}
-        className="lg:hidden fixed top-2 left-2 z-50 p-2 bg-bg-panel border-2 border-border rounded text-text-primary font-mono text-sm shadow-md"
+        className="lg:hidden fixed top-3 left-3 z-50 p-2.5 bg-bg-elevated border-2 border-border rounded text-text-primary font-mono text-base shadow-lg"
         aria-label="Toggle navigation"
       >
         {mobileOpen ? '✕' : '☰'}
@@ -188,7 +188,7 @@ export default function Sidebar() {
 
       {/* Sidebar - mobile */}
       <aside
-        className={`lg:hidden fixed top-0 left-0 h-full w-64 bg-bg-panel border-r border-border flex flex-col z-40 transition-transform duration-200 shadow-2xl ${
+        className={`lg:hidden fixed top-0 left-0 h-full w-64 bg-bg-panel border-r border-border flex flex-col z-40 transition-transform duration-200 shadow-2xl backdrop-blur-sm ${
           mobileOpen ? 'translate-x-0' : '-translate-x-full'
         }`}
       >
