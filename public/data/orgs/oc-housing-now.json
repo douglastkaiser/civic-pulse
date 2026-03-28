@@ -39,33 +39,35 @@
       "priority": "high",
       "importance_score": 90,
       "impact_score": 75,
-      "summary": "The City of Orange's Housing Element was rejected by HCD in 2023, triggering Builder's Remedy. The city is attempting to update its plan while simultaneously fighting Builder's Remedy applications. We track the compliance process, support Builder's Remedy projects, and show up at every council meeting where housing is on the agenda. The Orange Heights 1,180-unit development is the flagship test case — if it survives local opposition, it sets a precedent for Builder's Remedy across OC.",
-      "theory_of_change": "Cities comply with state mandates when the political cost of noncompliance exceeds the cost of building. Organized pro-housing voices at council meetings, public tracking of compliance status, and visible support for Builder's Remedy applications shift the political calculus. When council members know that both state regulators AND local constituents are watching, they comply.",
+      "summary": "UPDATE (March 2026): The fight has shifted. The City of Orange appears to have achieved Housing Element compliance — it is NOT on Governor Newsom's March 25 noncompliant list (92% of CA communities now compliant). The city re-adopted its Housing Element in October 2023.\n\nHowever, the Builder's Remedy legacy is where the real battle continues. Four Builder's Remedy applications filed during the noncompliance period total 696 units: Integral Communities (209 townhomes behind Village of Orange mall), Stonefield Development (138 apartments at Chapman-Yorba), and two Milan Capital projects (118 townhomes at Mara Brandman Horse Arena, 231 units at Sully-Miller quarry). The city has been fighting these — requiring zoning changes and general plan amendments despite Builder's Remedy, tactics struck down by LA County judges in similar cases.\n\nAB 1893 (effective 2025) formalized Builder's Remedy as an entitlement pathway and prevents cities from requiring extra approvals — strengthening developers' legal position. Additionally, Californians for Homeownership sued the city alleging the approved Housing Element included parcels with deed restrictions forbidding housing.\n\nThe campaign shifts from 'force compliance' to 'ensure compliance produces actual housing.' Monitor whether the city processes the 696 pending Builder's Remedy units in good faith. The November 2026 council elections (3 seats + mayor) will determine whether Orange's housing posture improves or regresses.",
+      "theory_of_change": "Compliance without implementation is performative. The city achieved technical compliance, but if it continues to obstruct the 696 Builder's Remedy units, the compliance is hollow. AB 1893 gives developers stronger legal tools, but legal rights without organized local support lead to protracted fights. Our role shifts from forcing compliance to ensuring the compliance produces actual housing. Public tracking of Builder's Remedy application processing, attendance at council hearings, and coordination with California YIMBY on enforcement keep pressure on the city to act in good faith.",
       "next_actions": [
-        "Track City of Orange Housing Element update timeline and public hearing schedule",
-        "Prepare template public comment supporting Housing Element compliance",
-        "Research and publicize status of all pending Builder's Remedy applications in Orange",
-        "Attend every council meeting where housing items are on the agenda",
-        "Coordinate with California YIMBY on state-level compliance pressure",
-        "Document and publicize instances of the city obstructing or delaying compliance"
+        "Track status of all four pending Builder's Remedy applications (696 total units) through the approval process",
+        "Monitor whether the city complies with AB 1893 by processing applications without requiring extra zoning approvals",
+        "Attend every council meeting where Builder's Remedy projects are on the agenda",
+        "Track Californians for Homeownership lawsuit progress — their challenge strengthens the enforcement framework",
+        "Coordinate with California YIMBY on AB 1893 enforcement and state-level compliance pressure",
+        "Prepare for November 2026 council elections — evaluate candidates on housing and Builder's Remedy positions",
+        "Publicize Newsom's March 25 enforcement escalation (15 noncompliant cities, AG referrals) as context for Orange's obligations"
       ]
     },
     {
       "id": "irvine-general-plan",
-      "title": "Irvine General Plan — Support High-Density Scenario",
+      "title": "Irvine General Plan — Implementation & Irvine Company Monitoring",
       "status": "active",
       "priority": "high",
-      "importance_score": 85,
+      "importance_score": 80,
       "impact_score": 70,
-      "summary": "The City of Irvine is updating its General Plan with a proposal to zone for up to 57,656 new housing units. This is one of the largest zoning capacity increases in Southern California history. The Irvine Company controls ~75% of Irvine's apartment units, creating unique monopoly dynamics. The current 5-2 Democratic council majority supports the high-density scenario, but November 2026 council elections (3 seats + mayor) could change the dynamics. We advocate for maximum housing capacity and monitor the Irvine Company's influence on the process.",
-      "theory_of_change": "The General Plan update is a once-in-a-generation decision. Zoning capacity set now determines Irvine's housing potential for decades. Pro-housing voices from across OC — not just Irvine residents — demonstrating support for the high-density scenario gives the council political cover to adopt it. Regional impact arguments (every unit Irvine doesn't zone pushes demand to neighboring cities) connect this to broader OC housing needs.",
+      "summary": "UPDATE (March 2026): The General Plan was ADOPTED by Irvine City Council on August 13, 2024 with the full 57,656-unit scenario — a major YIMBY win. Housing is distributed: 26,607 units in Spectrum, 15,000 at Irvine Business Complex, 5,252 at Great Park Transit Village, 8,536 elsewhere, plus 2,261 from approved developments.\n\nThe fight shifts to implementation. The Irvine Company has proposed converting the Oak Creek Golf Course and two adjacent commercial parcels (235 acres) into 3,100 housing units — 1,500 for-sale houses and 1,600 apartments. Irvine Co. expects approval by summer 2026 with construction starting early 2027. This is the first major implementation test of the General Plan.\n\nThe November 2026 council elections (3 seats + mayor) remain critical — if the 5-2 Democratic majority shifts, implementation could be slowed through permitting and zoning decisions. The Irvine Company's monopoly (controlling ~75% of apartment units) means their cooperation is essential but their market power must be monitored.",
+      "theory_of_change": "The General Plan adoption was the policy win. Now the risk is implementation failure — the plan zones for 57,656 units but private developers must actually build them. The Irvine Company's 3,100-unit Oak Creek proposal is the bellwether: if it proceeds smoothly, it signals the plan is translating into housing. If it stalls, the plan is paper. Supporting pro-housing council candidates in November 2026 protects the implementation trajectory. Monitoring the Irvine Company's pricing and project mix ensures the monopoly holder doesn't capture all the value while constraining supply.",
       "next_actions": [
-        "Monitor Irvine General Plan update timeline and public hearing schedule",
-        "Prepare analysis comparing housing capacity under different density scenarios",
-        "Coordinate with People for Housing OC on joint advocacy strategy",
-        "Research the Irvine Company's positions and influence on the General Plan process",
-        "Organize OC-wide coalition letter supporting the high-density scenario",
-        "Track November 2026 Irvine council candidates' positions on the General Plan"
+        "Track Irvine Company Oak Creek Golf Course conversion hearings and approval timeline",
+        "Monitor implementation of General Plan zoning changes — which areas are being rezoned first",
+        "Research Irvine Company's pricing strategy for new developments — are they adding supply or managing scarcity",
+        "Track November 2026 Irvine council candidates' positions on General Plan implementation",
+        "Coordinate with People for Housing OC on monitoring implementation across OC",
+        "Support pro-housing candidates for Irvine mayor and council seats",
+        "Publicize General Plan adoption as a model for other OC cities considering zoning capacity increases"
       ]
     },
     {

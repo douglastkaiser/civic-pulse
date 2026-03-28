@@ -1,5 +1,5 @@
 {
-  "last_scraped": "2026-03-16T12:00:00Z",
+  "last_scraped": "2026-03-28T12:00:00Z",
   "issues": [
     {
       "id": "atx-golf-course-rezone",
@@ -25,24 +25,24 @@
     },
     {
       "id": "atx-convention-center",
-      "title": "Convention Center Redevelopment — Petition Challenge",
+      "title": "Convention Center Redevelopment — Petition Rejected by Court",
       "governing_body": "Austin City Council",
       "governing_body_type": "city_council",
       "meeting_date": null,
-      "summary": "Austin United PAC is backing a petition to halt the $1.6 billion Austin Convention Center redevelopment and redirect hotel tax revenue to arts and cultural uses. The PAC raised $33K+ including $7K from Save Our Springs Alliance. If the petition qualifies, it could go to voters.",
+      "summary": "UPDATE (Feb 2026): Travis County District Judge Jessica Mangrum sided with Austin and upheld the City Clerk's rejection of the Austin United PAC petition to halt the $1.6 billion convention center redevelopment. The PAC had collected 25,000+ signatures but the Clerk's office certified it as ~500 signatures short. After a two-day trial in late January, the court ruled for the city. Mayor Watson called it 'a good win for Austinites.' The PAC has announced plans to organize a new petition targeting the November 2026 ballot. Construction on the new complex continues — expected to open by late 2028 with ~620,000 sq ft of rentable space (70% increase over the old center).",
       "policy_domains": ["Economic Development", "Taxation & Public Finance"],
       "decision_type": "petition",
       "geographic_scope": "citywide",
       "public_comment": {
         "available": false,
-        "instructions": "Monitor petition signature gathering progress. If it qualifies for ballot, this becomes a major election issue."
+        "instructions": "Petition was rejected by court. PAC plans new petition for November ballot. Monitor for new signature-gathering efforts."
       },
-      "estimated_contestedness": "high",
-      "importance_score": 72,
-      "impact_score": 50,
-      "quadrant": "watch",
-      "why_it_matters_to_you": "As a pro-development pragmatist, you'd likely oppose this petition — convention center investment drives economic development. But the anti-development coalition behind it (SOS Alliance) overlaps with NIMBY interests you're already monitoring. Worth tracking.",
-      "source_url": "https://communityimpact.com/austin/"
+      "estimated_contestedness": "medium",
+      "importance_score": 55,
+      "impact_score": 30,
+      "quadrant": "background",
+      "why_it_matters_to_you": "The court ruling clears the way for the convention center project to proceed — a win for pro-development interests. However, Austin United PAC is regrouping for a November ballot push, so this could resurface. For now, this drops to background monitoring. The anti-development coalition (SOS Alliance backing) is worth tracking as it overlaps with NIMBY interests on housing.",
+      "source_url": "https://communityimpact.com/austin/south-central-austin/government/2026/02/16/court-sides-with-austin-in-convention-center-petition-dispute-pac-to-push-for-november-election/"
     },
     {
       "id": "atx-d1-election",
@@ -50,39 +50,39 @@
       "governing_body": "Austin City Council",
       "governing_body_type": "city_council",
       "meeting_date": "2026-11-03",
-      "summary": "CM Natasha Harper-Madison is term-limited. District 1 (East Austin, including 78702) will have an open seat for the first time in 8 years. Current declared candidates: Steven Brown (positions himself as anti-developer, constituent accountability focused) and Alexandria Anderson. Filing deadline Aug 17 — more candidates expected.",
+      "summary": "CM Natasha Harper-Madison is term-limited. District 1 (East Austin, including 78702) will have an open seat for the first time in 8 years. Two declared candidates so far:\n\n• Steven Brown, 41 — Born and raised in East Austin, works as a clinical specialist at Medtronic. Was co-chair of Save Austin Now alongside Matt Mackowiak (Travis County Republican Party chair), though he quit that role after Prop Q was defeated. His campaign positions him as anti-developer and constituent accountability focused. Residency concern: Brown listed a District 1 address on Single Shot Drive, but since 2019 he has owned a home with a homestead exemption on Ronee Leah Drive outside the district. Has raised ~$6,000 from two dozen donors.\n\n• Alexandria Anderson, 39 — Retired world-class track and field sprinter, now runs Essential Fitness ATX. Active in Austin Neighborhoods Council and president of the MLK Neighborhood Association. Has owned her home on Cometa Street in District 1 since 2014. No fundraising reported yet.\n\nFiling period: July 20 – August 17, 2026. More candidates expected.",
       "policy_domains": ["Government Transparency", "Housing & Land Use"],
       "decision_type": "election",
       "geographic_scope": "district",
       "public_comment": {
         "available": false,
-        "instructions": "Monitor candidate announcements. Evaluate housing/development positions carefully. Consider early engagement or donation to most-aligned candidate."
+        "instructions": "Monitor candidate announcements. Filing opens July 20. Evaluate housing/development positions carefully. Consider early engagement or donation to most-aligned candidate."
       },
       "estimated_contestedness": "high",
       "importance_score": 95,
       "impact_score": 82,
       "quadrant": "act_now",
-      "why_it_matters_to_you": "This is YOUR district's council seat and it's open for the first time in 8 years. The winner will represent 78702 for the next 4 years on every housing and development vote. Steven Brown's stated positions (anti-developer framing, 'fighting for residents over developers') may conflict with your YIMBY priorities. This is the single most important local race for you in 2026."
+      "why_it_matters_to_you": "This is YOUR district's council seat and it's open for the first time in 8 years. The winner will represent 78702 for the next 4 years on every housing and development vote. Steven Brown's Save Austin Now connection (co-chaired with Travis County GOP chair Matt Mackowiak) and anti-developer framing are red flags for YIMBY priorities. His residency outside the district is also worth watching. Anderson's neighborhood association roots suggest a different kind of candidacy but her housing positions are unknown. With filing not closing until August, the field will likely grow. This is the single most important local race for you in 2026."
     },
     {
       "id": "tc-pct4-runoff",
-      "title": "Commissioner Precinct 4 — Democratic Runoff",
+      "title": "Commissioner Precinct 4 — Democratic Runoff: Morales vs Ledesma-Woody",
       "governing_body": "Travis County Commissioners Court",
       "governing_body_type": "county_commission",
       "meeting_date": "2026-05-26",
-      "summary": "Democratic primary runoff for Travis County Commissioner, Precinct 4. Susanna Ledesma Morales led in the March primary. This position controls county-level decisions on land use, transportation infrastructure, and budget allocation for eastern Travis County.",
+      "summary": "UPDATE (March 3 primary results): George Morales III (40.17%, 9,445 votes) and Susanna Ledesma-Woody (35.18%, 8,273 votes) advance to the May 26 runoff. Ofelia Maldonado Zapata (18.75%) and Gavino Fernandez Jr. (5.9%) were eliminated. Margaret Gómez is retiring after holding this seat since 1995. No Republican is running — the runoff winner takes the seat.\n\n• George Morales III — Former elected Constable Precinct 4, current constable deputy. 20 years with Travis County government, including 16 years as an administrator on Commissioners Court focused on budgeting, housing, and community access.\n\n• Susanna Ledesma-Woody — Project manager at AMD, 14-year Del Valle ISD school board trustee, founding member of Del Valle Community Coalition. Raised in Del Valle, has framed the race as 'policy and governance experience vs. policing experience.' This is her third run for this seat.",
       "policy_domains": ["Transportation & Transit", "Housing & Land Use", "Taxation & Public Finance"],
       "decision_type": "election",
       "geographic_scope": "district",
       "public_comment": {
         "available": false,
-        "instructions": "Verify voter registration at votetexas.gov. Research both candidates' positions on development and infrastructure."
+        "instructions": "Verify voter registration at votetexas.gov. Research both candidates' positions on development, transit, and infrastructure. Consider volunteering — small canvassing effort can shift outcomes in low-turnout runoffs."
       },
       "estimated_contestedness": "medium",
       "importance_score": 80,
       "impact_score": 90,
       "quadrant": "act_now",
-      "why_it_matters_to_you": "Runoff elections have extremely low turnout — often 8-12% of registered voters. Your individual vote has outsized impact. The commissioner directly influences county-level land use and transportation decisions that affect your daily life. This is the highest impact-per-effort political action available to you in the next 90 days."
+      "why_it_matters_to_you": "The primary narrowed the field to two candidates with very different backgrounds — a law enforcement veteran (Morales) vs. a policy/governance professional (Ledesma-Woody). Runoff turnout will be extremely low (8-12%), making your individual vote and any organizing effort outsized in impact. The commissioner directly influences county-level land use, transportation infrastructure, and budget decisions. Research both candidates' positions on development and transit — this is the highest impact-per-effort political action available to you in the next 60 days."
     },
     {
       "id": "atx-springdale-farm",
@@ -90,7 +90,7 @@
       "governing_body": "Austin Planning Commission",
       "governing_body_type": "city_council",
       "meeting_date": "2026-03-25",
-      "summary": "Follow-up staff report on the Springdale Farm zoning case (C14-2026-0004) in District 3, near East Austin. A neighborhood postponement request has been filed. This is an example of the neighborhood vs. development tension playing out at the parcel level.",
+      "summary": "Follow-up staff report on the Springdale Farm zoning case (C14-2026-0004) in District 3, near East Austin. A neighborhood postponement request was filed. This is an example of the neighborhood vs. development tension playing out at the parcel level. The Planning Commission heard this item on March 25 — monitor for outcome and next steps.",
       "policy_domains": ["Housing & Land Use"],
       "decision_type": "discussion",
       "geographic_scope": "neighborhood",
@@ -142,6 +142,49 @@
       "impact_score": 35,
       "quadrant": "background",
       "why_it_matters_to_you": "Lower on your personal salience list but represents good governance — evidence-based investment in childcare infrastructure. The kind of pragmatic spending you'd support."
+    },
+    {
+      "id": "atx-hso-plan-adopted",
+      "title": "Homelessness Strategic Plan Adopted — 650 New Shelter Beds Planned",
+      "governing_body": "Austin City Council",
+      "governing_body_type": "city_council",
+      "meeting_date": "2026-03-26",
+      "summary": "Austin City Council approved the Homeless Strategy Office's (AHSO) first-ever strategic plan (2025-2027) on March 26. Key elements: 650 new shelter beds, 2 new housing navigation centers, $101M in proposed additional funding. Director David Gray noted ~6,500 people are currently living on the streets — 'one shelter bed for every five people sleeping unhoused.' Endeavors has taken over operation of downtown shelters (ARCH, Eighth Street) under an emergency contract through September 2026, in addition to the Marshalling Yard and Northbridge. A potential bond project could replace the Marshalling Yard with a new purpose-built shelter. Five focus areas: system leadership, impactful investments, crisis response, communications, and AHSO staff investment.",
+      "policy_domains": ["Public Safety", "Housing & Land Use", "Taxation & Public Finance"],
+      "decision_type": "vote",
+      "geographic_scope": "citywide",
+      "public_comment": {
+        "available": true,
+        "deadline": null,
+        "instructions": "The plan has been adopted. Budget hearings for FY2027 will determine how much of the $101M ask is funded. Monitor council budget sessions."
+      },
+      "estimated_contestedness": "medium",
+      "importance_score": 75,
+      "impact_score": 70,
+      "quadrant": "watch",
+      "why_it_matters_to_you": "This is the first comprehensive homelessness strategy Austin has ever adopted — a significant governance milestone. The $101M funding ask will compete with other priorities in the FY2027 budget. The plan's success or failure will directly affect neighborhood safety, public space quality, and the city's ability to pair housing density with livable streets. The dual-track framework (Housing First for some, treatment-first for others) aligns with your pragmatic approach. The Endeavors contract and potential Marshalling Yard bond project are concrete implementation steps to track.",
+      "source_url": "https://www.kut.org/housing/2026-03-26/austin-tx-homeless-strategy-beds-cost"
+    },
+    {
+      "id": "atx-apd-staffing-audit",
+      "title": "APD Staffing Audit — No Long-Term Recruitment Plan Found",
+      "governing_body": "Austin City Council",
+      "governing_body_type": "city_council",
+      "meeting_date": null,
+      "summary": "A city audit found that APD 'does not have an effective strategy' to hire more officers despite years of staffing shortages. Key numbers: 340 vacancies out of 1,816 authorized positions (19% vacancy rate). APD's FY2026 budget is $540M (36.2% of the city's $1.5B general fund). A new $218M contract with the Austin Police Association provides a 28% pay raise over 5 years. Some positive signals: attrition has slowed (APD gained 3 officers net last year — first positive year in 5-6 years), and recruitment interest is up 166%. Chief Davis says APD could be fully staffed by end of 2027. The 154th cadet class (51 cadets) graduates August 2026.",
+      "policy_domains": ["Public Safety", "Taxation & Public Finance"],
+      "decision_type": "discussion",
+      "geographic_scope": "citywide",
+      "public_comment": {
+        "available": false,
+        "instructions": "Monitor APD staffing reports at council. Budget hearings for FY2027 will address whether the $540M allocation is sufficient."
+      },
+      "estimated_contestedness": "medium",
+      "importance_score": 70,
+      "impact_score": 55,
+      "quadrant": "watch",
+      "why_it_matters_to_you": "APD staffing directly affects response times and public safety across Austin. The audit's finding that there's no recruitment plan despite 340 vacancies is an accountability failure worth tracking. The $218M contract and 28% pay raise are significant public investments — monitor whether they actually improve staffing. This connects to the broader 'safety is infrastructure' framework: adequate policing plus non-police crisis response (HOST teams) are both needed. The FY2027 budget will be the next decision point.",
+      "source_url": "https://www.kut.org/crime-justice/2025-04-16/austin-texas-police-department-staffing-troubles-recruitment"
     }
   ]
 }

@@ -1,29 +1,27 @@
 {
-  "last_scraped": null,
-  "seeded": true,
-  "seed_note": "Initial issues seeded manually. Awaiting first pipeline run for full scraping.",
+  "last_scraped": "2026-03-28T12:00:00Z",
   "issues": [
     {
       "id": "oc-bos-district-4-open-seat",
-      "title": "OC Board of Supervisors District 4 — Open Seat Race",
+      "title": "OC Board of Supervisors District 4 — Four-Way Primary",
       "governing_body": "Orange County Board of Supervisors",
       "governing_body_type": "county_commission",
       "meeting_date": "2026-06-02",
-      "summary": "District 4 on the Orange County Board of Supervisors is an open seat in the June 2026 primary. The board currently has a 3-2 Democratic majority. If Democrats lose this seat (or District 5), the board flips to Republican majority — affecting the $10.8B annual budget, land use policy, homelessness response, and transportation funding across all of Orange County. This is the single highest-stakes local race in OC for 2026.",
+      "summary": "UPDATE (March 2026): Filing closed March 6. Four candidates are in the race to replace termed-out Supervisor Doug Chaffee (D) in District 4 (Anaheim portion, Brea, Buena Park, Fullerton, La Habra, Placentia, Stanton):\n\n• Fred Jung — Transferred $197,253 from his 2024 Fullerton City Council campaign committee. Significant early fundraising advantage.\n• Connor Traut — Candidate details emerging.\n• Rose Espinoza — Loaned her campaign $150,000 and transferred $4,900 from her La Habra City Council 2024 campaign.\n• Tim Shaw — Candidate details emerging.\n\nTop-two from the June 2 primary advance to the November 3 general election. The board currently has a 3-2 Democratic majority. If Democrats lose this seat (or District 5), the board flips to Republican majority — affecting the $10.8B annual budget, land use policy, homelessness response, and transportation funding.",
       "policy_domains": ["Government Transparency", "Housing & Land Use", "Public Safety", "Taxation & Public Finance"],
       "decision_type": "election",
       "geographic_scope": "countywide",
       "public_comment": {
         "available": false,
         "deadline": null,
-        "instructions": "This is an election. Register to vote, research candidates, volunteer, donate."
+        "instructions": "Register to vote for June 2 primary. Research all four candidates on housing, transit, and budget positions. Consider donations and volunteering for preferred candidate."
       },
       "estimated_contestedness": "high",
       "importance_score": 85,
       "impact_score": 88,
       "quadrant": "act_now",
-      "why_it_matters_to_you": "✦ The Board of Supervisors controls Orange County's $10.8B budget and shapes policy on housing, transit, homelessness, and public safety. The current 3-2 Democratic majority has been more receptive to state housing mandates and transit investment. Losing this seat flips the board — every policy priority shifts. For a moderate Democrat in a purple county, this is where your vote and engagement have maximum leverage. Low-information elections like county supervisor races are exactly where organized civic engagement changes outcomes.",
-      "source_url": "https://bos.ocgov.com/"
+      "why_it_matters_to_you": "✦ The field is set — four candidates, filing closed. Fred Jung's $197K war chest from his Fullerton campaign gives him an early financial edge. This is a top-two primary, so the question is which two advance. Research each candidate's positions on housing mandates, transit investment, and homelessness policy. The Board of Supervisors controls OC's $10.8B budget — this race shapes every policy priority. For a moderate Democrat in a purple county, this is maximum-leverage civic engagement.",
+      "source_url": "https://fullertonobserver.com/2026/03/06/follow-money-in-orange-county-board-of-supervisors-district-4-race/"
     },
     {
       "id": "oc-state-senate-sd34-open-seat",
@@ -31,7 +29,7 @@
       "governing_body": "California State Senate",
       "governing_body_type": "state_legislature",
       "meeting_date": "2026-06-02",
-      "summary": "Tom Umberg (D) is termed out of State Senate District 34, creating an open seat. Avelino Valencia (D), the current Assemblymember for AD-68, is the frontrunner. This is Doug's direct state senator race. The state Senate shapes California's housing mandate framework (SB 9, RHNA enforcement, Builder's Remedy) that drives the core YIMBY fight in Orange County.",
+      "summary": "Tom Umberg (D) is termed out of State Senate District 34, creating an open seat. Candidate filing closed March 26, 2026. Avelino Valencia (D), the current Assemblymember for AD-68, is a confirmed candidate and frontrunner — the son of immigrant parents who built a local small business, played college football, and has served in the Assembly for four years focusing on consumer protection, gun violence reduction, and government transparency. The district covers northern OC including most of Santa Ana, Anaheim, Placentia, Fullerton, Buena Park, La Habra, and the west side of Orange. Valencia's move to the Senate opens AD-68, with multiple Santa Ana city council members expected to run. The state Senate shapes California's housing mandate framework (SB 9, RHNA enforcement, Builder's Remedy) that drives the core YIMBY fight in Orange County.",
       "policy_domains": ["Housing & Land Use", "Transportation & Transit", "Government Transparency"],
       "decision_type": "election",
       "geographic_scope": "district",
@@ -49,55 +47,55 @@
     },
     {
       "id": "oc-orange-housing-element",
-      "title": "City of Orange Housing Element Compliance",
+      "title": "City of Orange Housing Element — Newly Compliant, Builder's Remedy Legacy",
       "governing_body": "City of Orange City Council",
       "governing_body_type": "city_council",
       "meeting_date": null,
-      "summary": "The California Department of Housing and Community Development (HCD) rejected the City of Orange's Housing Element in 2023, finding it non-compliant with state law. This puts the city in 'Builder's Remedy' territory — developers can bypass local zoning restrictions for projects that include affordable units. Multiple Builder's Remedy applications are pending, including the Orange Heights 1,180-unit development. The city is attempting to update its Housing Element to regain compliance, but has faced significant resident opposition to increased density. 87.5% of OC cities made their SB 9 ordinances more restrictive than state law requires.",
+      "summary": "UPDATE (March 2026): The City of Orange appears to have achieved Housing Element compliance — it is NOT on Governor Newsom's March 25 list of 15 noncompliant cities (92% of CA communities are now compliant statewide). The city re-adopted its Housing Element in October 2023 after the initial 2023 HCD rejection.\n\nHowever, the Builder's Remedy legacy remains significant. Before the city regained compliance, developers filed four Builder's Remedy applications totaling 696 housing units: Integral Communities (209 townhomes behind Village of Orange mall), Stonefield Development (138 apartments at Chapman-Yorba site), and two Milan Capital Management projects (118 townhomes at Mara Brandman Horse Arena, 231 units at Sully-Miller quarry). The city pushed back on these applications, requiring zoning changes and general plan amendments — tactics similar to those struck down by LA County judges in other Builder's Remedy cases.\n\nAdditionally, Californians for Homeownership (realtor-backed) sued the city alleging the approved plan included parcels with deed restrictions that forbid housing. AB 1893 (effective 2025) formalized Builder's Remedy as an entitlement pathway and prevents cities from requiring extra approvals for these projects — strengthening the legal position of the pending applications.",
       "policy_domains": ["Housing & Land Use"],
       "decision_type": "discussion",
       "geographic_scope": "citywide",
       "public_comment": {
         "available": true,
         "deadline": null,
-        "instructions": "Attend City of Orange council meetings. Public comment on Housing Element items. Check cityoforange.org for agenda."
+        "instructions": "Attend City of Orange council meetings. Monitor Builder's Remedy application proceedings. Check cityoforange.org for agenda."
       },
       "estimated_contestedness": "high",
-      "importance_score": 90,
-      "impact_score": 60,
+      "importance_score": 85,
+      "impact_score": 65,
       "quadrant": "watch",
-      "why_it_matters_to_you": "✦ This is the ground zero of the OC YIMBY fight. Unlike Austin where you push for new pro-housing policy, in Orange you're pushing the city to COMPLY with state mandates it's trying to evade. The Housing Element rejection means Builder's Remedy is in effect — developers can build projects with affordable units regardless of local zoning. This is the most direct path to new housing in the city. Supporting compliance and defending Builder's Remedy projects is high-impact advocacy.",
-      "source_url": "https://www.cityoforange.org/"
+      "why_it_matters_to_you": "✦ The fight has shifted: Orange is technically compliant now, but the real battle is over the 696 Builder's Remedy units filed during noncompliance. AB 1893 strengthens developers' legal position — the city can't require extra approvals. The Californians for Homeownership lawsuit adds another pressure vector. Monitor whether the city processes these applications in good faith or continues obstruction. The November 2026 council elections (3 seats + mayor) will determine whether Orange's housing posture improves or regresses. This is no longer about forcing compliance — it's about ensuring the compliance produces actual housing.",
+      "source_url": "https://www.cityoforange.org/our-city/departments/community-development/planning-division/2021-2029-housing-element-update"
     },
     {
       "id": "oc-irvine-general-plan",
-      "title": "Irvine General Plan Update — 57,656 Units Proposed",
+      "title": "Irvine General Plan Adopted — 57,656 Units, Now Implementation Phase",
       "governing_body": "City of Irvine City Council",
       "governing_body_type": "city_council",
       "meeting_date": null,
-      "summary": "The City of Irvine is updating its General Plan with a proposal to zone for up to 57,656 new housing units. This would be one of the largest zoning capacity increases in Southern California history. The Irvine Company (Donald Bren), which controls ~75% of Irvine's apartment units, is a key stakeholder. The update also involves the Great Park development area. The 5-2 Democratic council majority currently supports the high-density scenario, but November 2026 council elections (3 seats + mayor) could change the dynamics.",
+      "summary": "UPDATE (March 2026): The Irvine General Plan was ADOPTED by City Council on August 13, 2024, with the full 57,656-unit scenario — one of the largest zoning capacity increases in Southern California history. The plan distributes housing across key areas: 26,607 units in Spectrum, 15,000 at Irvine Business Complex, 5,252 at Great Park Neighborhoods Transit Village, plus 8,536 units elsewhere and 2,261 tied to approved developments.\n\nThe fight now shifts to implementation. The Irvine Company has proposed converting the Oak Creek Golf Course and two adjacent commercial parcels (235 acres) into 3,100 housing units — 1,500 for-sale houses on the golf course and 1,600 apartments at Innovation Office Park. Irvine Co. officials expect city approval by summer 2026 with construction starting early 2027. The Irvine Company controls ~75% of Irvine's apartment units.\n\nThe November 2026 council elections (3 seats + mayor) remain critical — if the 5-2 Democratic majority shifts, implementation of the General Plan could be slowed or undermined through permitting and zoning decisions.",
       "policy_domains": ["Housing & Land Use", "Economic Development", "Transportation & Transit"],
-      "decision_type": "discussion",
+      "decision_type": "vote",
       "geographic_scope": "citywide",
       "public_comment": {
         "available": true,
         "deadline": null,
-        "instructions": "Attend Irvine City Council meetings. Note: this is a neighboring city, but its housing decisions affect the entire OC market."
+        "instructions": "Monitor Irvine council for General Plan implementation decisions. Track Oak Creek Golf Course conversion hearings. Support pro-housing council candidates for November 2026."
       },
       "estimated_contestedness": "high",
-      "importance_score": 85,
-      "impact_score": 50,
+      "importance_score": 80,
+      "impact_score": 55,
       "quadrant": "watch",
-      "why_it_matters_to_you": "✦ 57,656 units would transform OC's housing landscape. Even though Irvine isn't your city, its housing market directly affects rents and availability across Orange County. The Irvine Company monopoly makes this unique — one company's decisions shape housing for 314,000 people. Supporting the high-density scenario from outside Irvine adds to the pro-housing coalition and sets a precedent for other OC cities.",
-      "source_url": "https://www.cityofirvine.org/"
+      "why_it_matters_to_you": "✦ The General Plan was adopted — a major YIMBY win. The 57,656-unit scenario survived. Now the fight is implementation: will the zoning capacity actually produce housing? The Irvine Company's 3,100-unit Oak Creek proposal is the first major test — if a monopoly landlord converts golf courses to housing, it signals real market response to the new zoning. Monitor the November council elections closely — a majority shift could slow implementation. Even from outside Irvine, Irvine's housing supply directly affects OC-wide rents and availability.",
+      "source_url": "https://cityofirvine.org/community-development/current-general-plan"
     },
     {
       "id": "oc-streetcar-launch",
-      "title": "OC Streetcar Launch — First Rail Transit in OC",
+      "title": "OC Streetcar — In Street Testing, Spring 2026 Launch Target",
       "governing_body": "OCTA (Orange County Transportation Authority)",
       "governing_body_type": "transit_authority",
-      "meeting_date": "2026-04-15",
-      "summary": "The OC Streetcar (4.15 miles, connecting Santa Ana to Garden Grove) is scheduled to launch in Spring 2026. This is the first modern rail transit project in Orange County. While modest in scope, it represents a proof-of-concept for rail transit in a car-dominated county. Ridership numbers and public reception will determine whether the system is expanded. Metrolink commuter rail also serves the area but is underutilized.",
+      "meeting_date": null,
+      "summary": "UPDATE (March 2026): The OC Streetcar ($649M project, 4.15 miles, Santa Ana to Garden Grove) is 95% complete and in active street testing. On February 20, street testing began on Santa Ana Boulevard between Raitt Street and Sasscer Park. Eight Siemens S700 vehicles (capacity: 211 passengers each, 62 seated) have been delivered. Travel time will be 22 minutes with 10-15 minute frequency across 10 stops in each direction. Estimated daily ridership: 7,300 passengers. OCTA's CEO said the testing phase could take 6-12 months, so the Spring 2026 public launch target may slip. The project has faced years of delays (originally expected 2021) including human remains discovery at a construction site and contractor lawsuits. Funded by federal, state, and local dollars including Measure M.",
       "policy_domains": ["Transportation & Transit", "Economic Development"],
       "decision_type": "discussion",
       "geographic_scope": "regional",
@@ -134,6 +132,50 @@
       "quadrant": "watch",
       "why_it_matters_to_you": "✦ The Grand Jury critique mirrors the Austin Safe & Sound approach — accountability through data and outcomes tracking. OC's homelessness challenge is different from Austin's (more concentrated, different climate dynamics, different shelter infrastructure) but the same both/and framework applies. Housing supply is upstream of homelessness. The board majority determines whether the county takes a reactive or proactive approach. Connect this to the District 4/5 board races.",
       "source_url": "https://bos.ocgov.com/"
+    },
+    {
+      "id": "oc-bos-district-5-defense",
+      "title": "OC Board of Supervisors District 5 — Foley (D) vs Dixon (R)",
+      "governing_body": "Orange County Board of Supervisors",
+      "governing_body_type": "county_commission",
+      "meeting_date": "2026-06-02",
+      "summary": "Incumbent Supervisor Katrina Foley (D), currently Board Vice Chair, faces a challenge from Assemblywoman Diane Dixon (R) in District 5. This district has the most voters of the five supervisor districts (436,228) and is the most heavily Republican: 38.1% R, 32.8% D, 22.1% NPP. Foley was first elected in a 2021 special election (flipping the seat), then narrowly won re-election in 2022 under new district boundaries — her victory gave Democrats their third seat and flipped board control for the first time since 1976.\n\nFoley's background: former Costa Mesa mayor (first directly elected, 2018), attorney. Dixon's background: current Assemblywoman, former Newport Beach city council member. If Dixon wins, the board reverts to Republican majority — the other GOP supervisors being Don Wagner and Janet Nguyen.\n\nDistrict 5 covers: Aliso Viejo, Costa Mesa, Dana Point, a large portion of Irvine, Laguna Beach, Laguna Hills, Laguna Niguel, Laguna Woods, Newport Beach, San Clemente, San Juan Capistrano.",
+      "policy_domains": ["Government Transparency", "Housing & Land Use", "Public Safety", "Taxation & Public Finance"],
+      "decision_type": "election",
+      "geographic_scope": "countywide",
+      "public_comment": {
+        "available": false,
+        "deadline": null,
+        "instructions": "Register to vote for June 2 primary. Research both candidates. This is a top-two primary — both will likely advance to November given it's a two-person race."
+      },
+      "estimated_contestedness": "high",
+      "importance_score": 88,
+      "impact_score": 90,
+      "quadrant": "act_now",
+      "why_it_matters_to_you": "✦ This is arguably the most consequential race in OC — even more than District 4. District 5 is where the board majority is most vulnerable: the district leans Republican by 6 points. Foley won narrowly in 2022 and now faces a well-known Assemblywoman challenger. If Foley loses, the board flips regardless of District 4 outcomes. For housing, transit, and homelessness policy, the board majority is everything. This race deserves maximum attention alongside District 4.",
+      "source_url": "https://bos5.oc.gov/"
+    },
+    {
+      "id": "oc-newsom-housing-warning",
+      "title": "Governor Newsom's Final Warning to 15 Noncompliant Cities",
+      "governing_body": "California Governor / HCD",
+      "governing_body_type": "state_legislature",
+      "meeting_date": "2026-03-25",
+      "summary": "On March 25, 2026, Governor Newsom issued final warnings to 15 cities and counties that remain noncompliant with state Housing Element law — more than two years behind schedule with no path to compliance within 60 days. The 15 jurisdictions (Atwater, Avenal, California City, Corcoran, Escalon, Half Moon Bay, Hanford, Kings County, Lemoore, Merced County, Montclair, Oakdale, Patterson, Ridgecrest, Turlock) have 30 days to respond before referral to the Attorney General.\n\nKey context: 92% of California communities (480 cities/counties) have achieved compliance. The Housing Accountability Unit has taken 1,200+ enforcement actions and 'unlocked' 12,486 housing units including 3,644 affordable units. Critically, the City of Orange is NOT on the noncompliant list — confirming it has achieved compliance since its 2023 rejection.\n\nNewsom: 'No community gets a pass when it comes to addressing homelessness or creating more housing access.'",
+      "policy_domains": ["Housing & Land Use"],
+      "decision_type": "discussion",
+      "geographic_scope": "regional",
+      "public_comment": {
+        "available": false,
+        "deadline": null,
+        "instructions": "This is a state-level enforcement action. Monitor for Attorney General referrals and their impact on the statewide housing compliance framework."
+      },
+      "estimated_contestedness": "low",
+      "importance_score": 60,
+      "impact_score": 40,
+      "quadrant": "background",
+      "why_it_matters_to_you": "✦ This reinforces the state enforcement framework that makes the OC YIMBY fight possible. California's willingness to escalate to AG referrals means local noncompliance has real consequences. Orange's absence from the list is good news — it confirms the city achieved compliance. But the broader message is that the state is getting more aggressive on enforcement. The November 2026 Governor's race (Newsom is termed out) will determine whether this enforcement posture continues. Support candidates who will maintain housing mandate enforcement.",
+      "source_url": "https://www.gov.ca.gov/2026/03/25/governor-newsom-issues-final-warning-to-15-communities-violating-state-housing-laws/"
     }
   ]
 }

@@ -1,19 +1,18 @@
 {
   "locations": {
     "austin-78702": {
-      "landscape_scraped": "2026-03-23T07:05:29.506176+00:00",
-      "issues_scraped": "2026-03-23T07:05:29.506740+00:00",
-      "issues_scored": "2026-03-16T12:00:00Z",
+      "landscape_scraped": "2026-03-28T12:00:00Z",
+      "issues_scraped": "2026-03-28T12:00:00Z",
+      "issues_scored": "2026-03-28T12:00:00Z",
       "next_steps_generated": "2026-03-16T12:00:00Z",
-      "needs_rescrape": "2026-03-23T07:05:29.506740+00:00"
+      "needs_rescrape": false
     },
     "orange-92868": {
-      "landscape_scraped": null,
-      "issues_scraped": null,
-      "issues_scored": null,
+      "landscape_scraped": "2026-03-28T12:00:00Z",
+      "issues_scraped": "2026-03-28T12:00:00Z",
+      "issues_scored": "2026-03-28T12:00:00Z",
       "next_steps_generated": null,
-      "needs_rescrape": true,
-      "note": "New location — initial data seeded, awaiting first pipeline run."
+      "needs_rescrape": false
     }
   },
   "profile": {
@@ -25,11 +24,11 @@
     "austin-78702": {
       "manifesto_generated": "2026-03-16T12:00:00Z",
       "manifesto_inputs_complete": true,
-      "location_scraped": "2026-03-23T07:05:29.506176+00:00",
-      "issues_scraped": "2026-03-23T07:05:29.506740+00:00",
-      "issues_scored": "2026-03-16T12:00:00Z",
+      "location_scraped": "2026-03-28T12:00:00Z",
+      "issues_scraped": "2026-03-28T12:00:00Z",
+      "issues_scored": "2026-03-28T12:00:00Z",
       "next_steps_generated": "2026-03-16T12:00:00Z",
-      "needs_rescrape": "2026-03-23T07:05:29.506740+00:00",
+      "needs_rescrape": false,
       "needs_manifesto_update": false
     },
     "brooklyn-ny": {
@@ -73,7 +72,7 @@
       "needs_manifesto_update": true
     }
   },
-  "last_full_run": "2026-03-23T07:06:00.759525+00:00",
+  "last_full_run": "2026-03-28T12:00:00Z",
   "last_run_status": "success",
   "last_run_errors": []
 }

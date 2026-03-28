@@ -1,7 +1,6 @@
 {
   "id": "orange-92868",
-  "last_updated": "2026-03-27T00:00:00Z",
-  "needs_enrichment": true,
+  "last_updated": "2026-03-28T12:00:00Z",
   "governing_bodies": [
     {
       "name": "City of Orange City Council",
@@ -38,7 +37,7 @@
       "your_representative": {
         "name": "Vicente Sarmiento (D) or Donald Wagner (R)",
         "district": "District 2 or 3 (near boundary — depends on exact address)",
-        "note": "Currently 3-2 Democratic majority. CRITICAL: District 4 (open seat) and District 5 on June 2026 ballot. If Democrats lose either, board flips to Republican majority.",
+        "note": "Currently 3-2 Democratic majority. CRITICAL: District 4 has four candidates (Jung, Traut, Espinoza, Shaw) — filing closed March 6. District 5: incumbent Foley (D) vs Assemblywoman Dixon (R). If Democrats lose either seat, board flips to Republican majority.",
         "contact_email": null
       },
       "meeting_schedule": "Tuesdays, 9:30am, Hall of Administration, 333 W Santa Ana Blvd",
@@ -180,32 +179,32 @@
   },
   "upcoming_elections": [
     {
-      "race": "OC Board of Supervisors District 4 — Open Seat",
+      "race": "OC Board of Supervisors District 4 — Open Seat (Chaffee termed out)",
       "date": "2026-06-02",
-      "candidates": ["TBD — multiple candidates expected"],
-      "relevance": "CRITICAL: Determines whether Democrats keep 3-2 board majority. If lost, board flips Republican. Highest-stakes local race.",
-      "action": "Research candidates as they declare. This is the most consequential OC election for Doug's priorities."
+      "candidates": ["Fred Jung ($197K war chest from Fullerton campaign)", "Connor Traut", "Rose Espinoza ($150K self-loan, La Habra council transfer)", "Tim Shaw"],
+      "relevance": "CRITICAL: Four-way primary, top-two advance to November. Determines whether Democrats keep 3-2 board majority. Jung's $197K financial advantage is significant in a local race. Filing closed March 6.",
+      "action": "Research all four candidates on housing, transit, homelessness, and budget positions. Jung's early fundraising lead makes him a frontrunner to watch. Consider donations and volunteering for preferred candidate."
     },
     {
-      "race": "OC Board of Supervisors District 5",
+      "race": "OC Board of Supervisors District 5 — Foley (D) vs Dixon (R)",
       "date": "2026-06-02",
-      "candidates": ["TBD"],
-      "relevance": "Also critical for board majority defense. District 4 + 5 together determine the board's direction.",
-      "action": "Monitor candidate field."
+      "candidates": ["Katrina Foley (D, incumbent, Board Vice Chair, former Costa Mesa mayor)", "Diane Dixon (R, Assemblywoman, former Newport Beach council)"],
+      "relevance": "CRITICAL: Most vulnerable Democratic seat. District is most Republican of the 5 (38.1% R vs 32.8% D). Foley narrowly won in 2022. If Dixon wins, board flips regardless of District 4 outcome. Arguably the most consequential OC race.",
+      "action": "Research both candidates. Support Foley if aligned with your priorities. This is the defensive counterpart to District 4's offensive opportunity."
     },
     {
       "race": "State Senate SD-34 — Open Seat",
       "date": "2026-06-02",
-      "candidates": ["Avelino Valencia (D, frontrunner)", "others TBD"],
-      "relevance": "Doug's direct state senator race. Valencia is current Assemblymember running for open seat.",
-      "action": "Research Valencia's housing and transit positions. Evaluate other candidates."
+      "candidates": ["Avelino Valencia (D, confirmed candidate, current AD-68 Assemblymember)"],
+      "relevance": "Doug's direct state senator race. Candidate filing closed March 26. Valencia is confirmed frontrunner — 4 years in Assembly focusing on consumer protection, gun violence reduction, government transparency.",
+      "action": "Research Valencia's housing and transit positions. Evaluate his record on SB 9, RHNA enforcement, Builder's Remedy. Check for other filed candidates on CA Secretary of State website."
     },
     {
-      "race": "State Assembly AD-68 — Open Seat",
+      "race": "State Assembly AD-68 — Open Seat (Valencia running for Senate)",
       "date": "2026-06-02",
-      "candidates": ["Multiple Santa Ana city council candidates expected"],
-      "relevance": "Doug's state assembly district. Open because Valencia is running for Senate.",
-      "action": "Monitor candidate announcements."
+      "candidates": ["Multiple Santa Ana city council candidates expected — filing closed March 26"],
+      "relevance": "Doug's state assembly district. Open because Valencia is running for Senate. Check CA Secretary of State for filed candidates.",
+      "action": "Research filed candidates on housing and transit positions. This seat shapes state-level housing mandate enforcement."
     },
     {
       "race": "City of Orange — Mayor + 3 Council Seats",
@@ -236,7 +235,7 @@
       "action": "Monitor."
     }
   ],
-  "key_political_dynamics": "Orange County is one of America's few truly purple counties. The area around UCI Medical Center sits at the exact fulcrum — the City of Orange is split 36.6% D to 34.8% R. Elections here are decided by razor margins (the 2024 CD-45 race was decided by 581 votes). California's state housing mandates (SB 9, RHNA, Builder's Remedy) create intense friction with local governments that resist density. The 2026 elections are unusually high-stakes: the Board of Supervisors majority, multiple open state legislative seats, city council races in both Orange and Irvine, and new congressional maps from Prop 50 all converge. For a moderate Democrat, this is the most target-rich political environment in America.\n\nKey difference from Austin #1: Purple county in a blue state (vs blue city in red state). OC voter registration: 36.4% D, 33.9% R, 23.3% NPP. Doug's vote carries MORE weight in local races than in Austin. Elections here are decided by hundreds of votes, not thousands.\n\nKey difference #2: California's state framework is an ally, not an enemy. In Texas, the state legislature actively preempts Austin's progressive policies. In California, the state government MANDATES progressive housing policy (SB 9, SB 10, RHNA, Builder's Remedy) that local governments resist. The YIMBY fight flips: instead of pushing local government to be more progressive, you're pushing local government to comply with state mandates it's trying to evade.\n\nKey difference #3: The Irvine Company monopoly. Irvine Company (Donald Bren, America's richest real estate developer) controls ~75% of Irvine's apartment units and much of the commercial real estate. This is a unique housing dynamic — one private entity has near-monopoly power over rents and development in a city of 314,000 people.",
+  "key_political_dynamics": "Orange County is one of America's few truly purple counties. The area around UCI Medical Center sits at the exact fulcrum — the City of Orange is split 36.6% D to 34.8% R. Elections here are decided by razor margins (the 2024 CD-45 race was decided by 581 votes). California's state housing mandates (SB 9, RHNA, Builder's Remedy) create intense friction with local governments that resist density. The 2026 elections are unusually high-stakes: the Board of Supervisors majority, multiple open state legislative seats, city council races in both Orange and Irvine, and new congressional maps from Prop 50 all converge. For a moderate Democrat, this is the most target-rich political environment in America.\n\nMarch 2026 updates: (1) BoS District 4 has four declared candidates (Jung, Traut, Espinoza, Shaw) — filing closed March 6. Jung transferred $197K giving him a significant financial edge. (2) BoS District 5 is now Foley (D) vs Dixon (R, Assemblywoman) — the most vulnerable Democratic seat in a district that leans R by 6 points. (3) City of Orange appears to have achieved Housing Element compliance (not on Newsom's March 25 noncompliant list), but 696 Builder's Remedy units from noncompliance period are still in play. (4) Irvine General Plan was adopted in Aug 2024 with 57,656-unit scenario — Irvine Company now proposing 3,100-unit Oak Creek Golf Course conversion. (5) OC Streetcar in active street testing, 95% complete.\n\nKey difference from Austin #1: Purple county in a blue state (vs blue city in red state). OC voter registration: 36.4% D, 33.9% R, 23.3% NPP. Doug's vote carries MORE weight in local races than in Austin. Elections here are decided by hundreds of votes, not thousands.\n\nKey difference #2: California's state framework is an ally, not an enemy. In Texas, the state legislature actively preempts Austin's progressive policies. In California, the state government MANDATES progressive housing policy (SB 9, SB 10, RHNA, Builder's Remedy) that local governments resist. The YIMBY fight flips: instead of pushing local government to be more progressive, you're pushing local government to comply with state mandates it's trying to evade. Newsom's March 25 final warning to 15 noncompliant cities — with AG referral threatened — reinforces the enforcement posture.\n\nKey difference #3: The Irvine Company monopoly. Irvine Company (Donald Bren, America's richest real estate developer) controls ~75% of Irvine's apartment units and much of the commercial real estate. Their proposed 3,100-unit Oak Creek Golf Course conversion is the first major implementation test of the General Plan. This is a unique housing dynamic — one private entity has near-monopoly power over rents and development in a city of 314,000 people.",
   "political_compass_entities": {
     "orange_county": { "economic": 0.1, "social": 0.05, "spread": 0.35 },
     "california_democratic_party": { "economic": -0.4, "social": -0.25, "spread": 0.25 },
