@@ -11,6 +11,7 @@ import LocationSwitcher from './LocationSwitcher'
 import ExportButton from './shared/ExportButton'
 import BulkExportButton from './shared/BulkExportButton'
 import DetailModal from './shared/DetailModal'
+import { getCssVar } from '../lib/themeColors'
 
 export default function PersonalDashboard() {
   const [profile, setProfile] = useState(null)
@@ -155,22 +156,28 @@ export default function PersonalDashboard() {
 
   // Build compass entities: user position (shared) + location-specific entities
   const compassEntities = []
+  const purple = getCssVar('--accent-purple')
+  const blue = getCssVar('--accent-blue')
+  const red = getCssVar('--accent-red')
+  const amber = getCssVar('--accent-amber')
+  const green = getCssVar('--accent-green')
+
   if (profile?.political_compass?.user) {
-    compassEntities.push({ name: 'You', ...profile.political_compass.user, color: '#a855f7', highlighted: true })
+    compassEntities.push({ name: 'You', ...profile.political_compass.user, color: purple, highlighted: true })
   }
 
   if (location?.political_compass_entities) {
     const pce = location.political_compass_entities
     // Location-specific entities vary by location
-    if (pce.city_austin) compassEntities.push({ name: 'Austin', ...pce.city_austin, color: '#3b82f6' })
-    if (pce.state_texas) compassEntities.push({ name: 'Texas', ...pce.state_texas, color: '#ef4444' })
-    if (pce.orange_county) compassEntities.push({ name: 'Orange Co', ...pce.orange_county, color: '#f59e0b' })
-    if (pce.california_democratic_party) compassEntities.push({ name: 'CA Dems', ...pce.california_democratic_party, color: '#3b82f6' })
-    if (pce.democratic_party) compassEntities.push({ name: 'Dem Party', ...pce.democratic_party, color: '#3b82f6' })
-    if (pce.republican_party) compassEntities.push({ name: 'GOP', ...pce.republican_party, color: '#ef4444' })
+    if (pce.city_austin) compassEntities.push({ name: 'Austin', ...pce.city_austin, color: blue })
+    if (pce.state_texas) compassEntities.push({ name: 'Texas', ...pce.state_texas, color: red })
+    if (pce.orange_county) compassEntities.push({ name: 'Orange Co', ...pce.orange_county, color: amber })
+    if (pce.california_democratic_party) compassEntities.push({ name: 'CA Dems', ...pce.california_democratic_party, color: blue })
+    if (pce.democratic_party) compassEntities.push({ name: 'Dem Party', ...pce.democratic_party, color: blue })
+    if (pce.republican_party) compassEntities.push({ name: 'GOP', ...pce.republican_party, color: red })
     if (pce.local_orgs) {
       pce.local_orgs.forEach((org) => {
-        compassEntities.push({ name: org.name, ...org, color: '#22c55e' })
+        compassEntities.push({ name: org.name, ...org, color: green })
       })
     }
   }

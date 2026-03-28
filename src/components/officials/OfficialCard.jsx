@@ -1,3 +1,5 @@
+import { getCssVar } from '../../lib/themeColors'
+
 export default function OfficialCard({ official, selected, onClick }) {
   const score = official.alignment?.score ?? 0
   const borderColor =
@@ -9,10 +11,10 @@ export default function OfficialCard({ official, selected, onClick }) {
 
   const partyColor =
     official.party === 'Democrat'
-      ? 'bg-blue-500/20 text-blue-400'
+      ? 'bg-accent-blue/20 text-accent-blue'
       : official.party === 'Republican'
-        ? 'bg-red-500/20 text-red-400'
-        : 'bg-gray-500/20 text-gray-400'
+        ? 'bg-accent-red/20 text-accent-red'
+        : 'bg-text-tertiary/20 text-text-tertiary'
 
   const priorityDot =
     official.alignment?.priority === 'high'
@@ -55,10 +57,10 @@ export default function OfficialCard({ official, selected, onClick }) {
                 width: `${((score + 1) / 2) * 100}%`,
                 background:
                   score > 0.3
-                    ? '#22c55e'
+                    ? getCssVar('--accent-green')
                     : score < -0.3
-                      ? '#ef4444'
-                      : '#f59e0b',
+                      ? getCssVar('--accent-red')
+                      : getCssVar('--accent-amber'),
               }}
             />
           </div>

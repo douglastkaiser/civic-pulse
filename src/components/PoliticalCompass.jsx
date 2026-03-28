@@ -2,19 +2,22 @@ import { useState } from 'react'
 import AiGeneratedBadge from './shared/AiGeneratedBadge'
 import ContextTooltip from './shared/ContextTooltip'
 import DetailModal from './shared/DetailModal'
+import { getCssVar } from '../lib/themeColors'
 
 const COMPASS_TOOLTIP = "This visualization approximates political positioning on two axes: economic policy (left = more government intervention, right = more free market) and social policy (bottom = more individual liberty, top = more social regulation). Positions are shown as clouds rather than points because political identity is multidimensional and fuzzy. All positions are AI-estimated approximations based on voting patterns, stated positions, and policy analysis. Take them as directional indicators, not precise measurements."
 
-const DEFAULT_COLORS = [
-  '#a855f7', // purple - user/primary
-  '#3b82f6', // blue
-  '#22c55e', // green
-  '#f59e0b', // amber
-  '#ef4444', // red
-  '#06b6d4', // cyan
-  '#ec4899', // pink
-  '#8b5cf6', // violet
-]
+function getDefaultColors() {
+  return [
+    getCssVar('--accent-purple'),
+    getCssVar('--accent-blue'),
+    getCssVar('--accent-green'),
+    getCssVar('--accent-amber'),
+    getCssVar('--accent-red'),
+    getCssVar('--accent-blue'),
+    getCssVar('--accent-red'),
+    getCssVar('--accent-purple'),
+  ]
+}
 
 function mapToSvg(value, size) {
   const padding = 30
@@ -30,6 +33,11 @@ function CompassSvg({ entities, size, hoveredIdx, setHoveredIdx }) {
   const fontSize = Math.max(7, size / 40)
   const labelFontSize = Math.max(6, size / 47)
 
+  const borderColor = getCssVar('--border')
+  const axisColor = getCssVar('--hover-border')
+  const labelColor = getCssVar('--text-tertiary')
+  const fontMono = getCssVar('--font-mono') + ', monospace'
+
   return (
     <svg
       viewBox={`0 0 ${size} ${size}`}
@@ -40,24 +48,24 @@ function CompassSvg({ entities, size, hoveredIdx, setHoveredIdx }) {
       <rect width={size} height={size} fill="transparent" />
 
       {/* Grid lines */}
-      <line x1={center} y1={axisStart} x2={center} y2={axisEnd} stroke="#1e2d4a" strokeWidth="1" strokeDasharray="4 4" />
-      <line x1={axisStart} y1={center} x2={axisEnd} y2={center} stroke="#1e2d4a" strokeWidth="1" strokeDasharray="4 4" />
+      <line x1={center} y1={axisStart} x2={center} y2={axisEnd} stroke={borderColor} strokeWidth="1" strokeDasharray="4 4" />
+      <line x1={axisStart} y1={center} x2={axisEnd} y2={center} stroke={borderColor} strokeWidth="1" strokeDasharray="4 4" />
 
       {/* Axes */}
-      <line x1={axisStart} y1={center} x2={axisEnd} y2={center} stroke="#2a3f6a" strokeWidth="1" />
-      <line x1={center} y1={axisStart} x2={center} y2={axisEnd} stroke="#2a3f6a" strokeWidth="1" />
+      <line x1={axisStart} y1={center} x2={axisEnd} y2={center} stroke={axisColor} strokeWidth="1" />
+      <line x1={center} y1={axisStart} x2={center} y2={axisEnd} stroke={axisColor} strokeWidth="1" />
 
       {/* Axis labels */}
-      <text x={axisStart + 2} y={center - 6} fill="#475569" fontSize={fontSize} fontFamily="JetBrains Mono, monospace">Econ Left</text>
-      <text x={axisEnd - 2} y={center - 6} fill="#475569" fontSize={fontSize} fontFamily="JetBrains Mono, monospace" textAnchor="end">Econ Right</text>
-      <text x={center + 4} y={axisStart + 8} fill="#475569" fontSize={fontSize} fontFamily="JetBrains Mono, monospace">Auth</text>
-      <text x={center + 4} y={axisEnd - 4} fill="#475569" fontSize={fontSize} fontFamily="JetBrains Mono, monospace">Lib</text>
+      <text x={axisStart + 2} y={center - 6} fill={labelColor} fontSize={fontSize} fontFamily={fontMono}>Econ Left</text>
+      <text x={axisEnd - 2} y={center - 6} fill={labelColor} fontSize={fontSize} fontFamily={fontMono} textAnchor="end">Econ Right</text>
+      <text x={center + 4} y={axisStart + 8} fill={labelColor} fontSize={fontSize} fontFamily={fontMono}>Auth</text>
+      <text x={center + 4} y={axisEnd - 4} fill={labelColor} fontSize={fontSize} fontFamily={fontMono}>Lib</text>
 
       {/* Quadrant labels */}
-      <text x={axisStart + 4} y={axisStart + 14} fill="#475569" fontSize={labelFontSize} fontFamily="JetBrains Mono, monospace" opacity="0.5">Auth Left</text>
-      <text x={axisEnd - 4} y={axisStart + 14} fill="#475569" fontSize={labelFontSize} fontFamily="JetBrains Mono, monospace" opacity="0.5" textAnchor="end">Auth Right</text>
-      <text x={axisStart + 4} y={axisEnd - 6} fill="#475569" fontSize={labelFontSize} fontFamily="JetBrains Mono, monospace" opacity="0.5">Lib Left</text>
-      <text x={axisEnd - 4} y={axisEnd - 6} fill="#475569" fontSize={labelFontSize} fontFamily="JetBrains Mono, monospace" opacity="0.5" textAnchor="end">Lib Right</text>
+      <text x={axisStart + 4} y={axisStart + 14} fill={labelColor} fontSize={labelFontSize} fontFamily={fontMono} opacity="0.5">Auth Left</text>
+      <text x={axisEnd - 4} y={axisStart + 14} fill={labelColor} fontSize={labelFontSize} fontFamily={fontMono} opacity="0.5" textAnchor="end">Auth Right</text>
+      <text x={axisStart + 4} y={axisEnd - 6} fill={labelColor} fontSize={labelFontSize} fontFamily={fontMono} opacity="0.5">Lib Left</text>
+      <text x={axisEnd - 4} y={axisEnd - 6} fill={labelColor} fontSize={labelFontSize} fontFamily={fontMono} opacity="0.5" textAnchor="end">Lib Right</text>
 
       {/* Entity clouds */}
       {entities.map((entity, i) => {
@@ -67,7 +75,7 @@ function CompassSvg({ entities, size, hoveredIdx, setHoveredIdx }) {
         const socialSpread = entity.social_spread ?? entity.spread
         const rx = economicSpread * (axisEnd - axisStart) / 2
         const ry = socialSpread * (axisEnd - axisStart) / 2
-        const color = entity.color || DEFAULT_COLORS[i % DEFAULT_COLORS.length]
+        const color = entity.color || getDefaultColors()[i % 8]
         const isHighlighted = entity.highlighted
         const isHovered = hoveredIdx === i
 
@@ -177,7 +185,7 @@ export default function PoliticalCompass({ entities = [], size = 280, collapsibl
           <div key={i} className="flex items-center gap-1.5 text-xs">
             <span
               className="w-3 h-3 rounded-full"
-              style={{ backgroundColor: entity.color || DEFAULT_COLORS[i % DEFAULT_COLORS.length], opacity: 0.6 }}
+              style={{ backgroundColor: entity.color || getDefaultColors()[i % 8], opacity: 0.6 }}
             />
             <span className="text-text-secondary font-mono">{entity.name}</span>
           </div>

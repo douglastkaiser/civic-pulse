@@ -1,10 +1,14 @@
 import { useState } from 'react'
 import AiGeneratedBadge from '../shared/AiGeneratedBadge'
+import { getCssVar } from '../../lib/themeColors'
 
 function AlignmentGauge({ score }) {
   const pct = ((score + 1) / 2) * 100
+  const accentGreen = getCssVar('--accent-green')
+  const accentRed = getCssVar('--accent-red')
+  const accentAmber = getCssVar('--accent-amber')
   const color =
-    score > 0.3 ? '#22c55e' : score < -0.3 ? '#ef4444' : '#f59e0b'
+    score > 0.3 ? accentGreen : score < -0.3 ? accentRed : accentAmber
 
   return (
     <div className="space-y-1.5">
@@ -25,14 +29,14 @@ function AlignmentGauge({ score }) {
         />
         {/* Track */}
         <div className="absolute inset-0 rounded-full opacity-30"
-          style={{ background: 'linear-gradient(to right, #ef4444, #f59e0b 50%, #22c55e)' }}
+          style={{ background: `linear-gradient(to right, ${accentRed}, ${accentAmber} 50%, ${accentGreen})` }}
         />
         {/* Fill */}
         <div
           className="absolute inset-y-0 left-0 rounded-full transition-all duration-500"
           style={{
             width: `${pct}%`,
-            background: `linear-gradient(to right, #ef444480, ${color}80)`,
+            background: `linear-gradient(to right, ${accentRed}80, ${color}80)`,
           }}
         />
       </div>
@@ -96,10 +100,10 @@ export default function OfficialDetail({ official, onClose }) {
   }
 
   const partyFull = {
-    Democrat: { label: 'Democrat', color: 'bg-blue-500/20 text-blue-400 border-blue-500/30' },
-    Republican: { label: 'Republican', color: 'bg-red-500/20 text-red-400 border-red-500/30' },
-    Nonpartisan: { label: 'Nonpartisan', color: 'bg-gray-500/20 text-gray-400 border-gray-500/30' },
-    Appointed: { label: 'Appointed', color: 'bg-purple-500/20 text-purple-400 border-purple-500/30' },
+    Democrat: { label: 'Democrat', color: 'bg-accent-blue/20 text-accent-blue border-accent-blue/30' },
+    Republican: { label: 'Republican', color: 'bg-accent-red/20 text-accent-red border-accent-red/30' },
+    Nonpartisan: { label: 'Nonpartisan', color: 'bg-text-tertiary/20 text-text-tertiary border-text-tertiary/30' },
+    Appointed: { label: 'Appointed', color: 'bg-accent-purple/20 text-accent-purple border-accent-purple/30' },
   }
 
   const partyInfo = partyFull[official.party] || { label: official.party || 'Unknown', color: 'bg-gray-500/20 text-gray-400 border-gray-500/30' }

@@ -1,4 +1,14 @@
 /** @type {import('tailwindcss').Config} */
+
+function withOpacity(varName) {
+  return ({ opacityValue }) => {
+    if (opacityValue !== undefined) {
+      return `rgba(var(${varName}), ${opacityValue})`
+    }
+    return `rgb(var(${varName}))`
+  }
+}
+
 export default {
   content: ['./index.html', './src/**/*.{js,jsx}'],
   theme: {
@@ -13,26 +23,26 @@ export default {
     },
     extend: {
       colors: {
-        'bg-primary': '#0a0e17',
-        'bg-panel': '#111827',
-        'bg-elevated': '#1a2236',
-        'border': '#1e2d4a',
-        'text-primary': '#e2e8f0',
-        'text-secondary': '#64748b',
-        'text-tertiary': '#475569',
-        'accent-blue': '#3b82f6',
-        'accent-green': '#22c55e',
-        'accent-amber': '#f59e0b',
-        'accent-red': '#ef4444',
-        'accent-purple': '#a855f7',
-        'quad-act': '#22c55e',
-        'quad-know': '#3b82f6',
-        'quad-watch': '#f59e0b',
-        'quad-bg': '#475569',
+        'bg-primary': withOpacity('--bg-primary'),
+        'bg-panel': withOpacity('--bg-panel'),
+        'bg-elevated': withOpacity('--bg-elevated'),
+        'border': withOpacity('--border'),
+        'text-primary': withOpacity('--text-primary'),
+        'text-secondary': withOpacity('--text-secondary'),
+        'text-tertiary': withOpacity('--text-tertiary'),
+        'accent-blue': withOpacity('--accent-blue'),
+        'accent-green': withOpacity('--accent-green'),
+        'accent-amber': withOpacity('--accent-amber'),
+        'accent-red': withOpacity('--accent-red'),
+        'accent-purple': withOpacity('--accent-purple'),
+        'quad-act': withOpacity('--quad-act'),
+        'quad-know': withOpacity('--quad-know'),
+        'quad-watch': withOpacity('--quad-watch'),
+        'quad-bg': withOpacity('--quad-bg'),
       },
       fontFamily: {
-        mono: ['"JetBrains Mono"', 'monospace'],
-        sans: ['"DM Sans"', 'sans-serif'],
+        mono: ['var(--font-mono)', 'monospace'],
+        sans: ['var(--font-sans)', 'sans-serif'],
       },
     },
   },

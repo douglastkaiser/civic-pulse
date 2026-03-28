@@ -11,6 +11,7 @@ import CampaignDetail from './org/CampaignDetail'
 import EngagementPipeline from './org/EngagementPipeline'
 import OrgNextSteps from './org/OrgNextSteps'
 import ExportButton from './shared/ExportButton'
+import { getCssVar } from '../lib/themeColors'
 
 export default function OrgDashboard() {
   const { orgId } = useParams()
@@ -105,14 +106,14 @@ export default function OrgDashboard() {
       social: cc.social_center,
       economic_spread: cc.economic_spread,
       social_spread: cc.social_spread,
-      color: '#a855f7',
+      color: getCssVar('--accent-purple'),
       highlighted: true,
     })
   }
-  compassEntities.push({ name: 'Austin', economic: -0.15, social: -0.2, spread: 0.25, color: '#3b82f6' })
-  compassEntities.push({ name: 'Texas', economic: 0.3, social: 0.2, spread: 0.35, color: '#ef4444' })
-  compassEntities.push({ name: 'Dem Party', economic: -0.3, social: -0.1, spread: 0.3, color: '#3b82f6' })
-  compassEntities.push({ name: 'GOP', economic: 0.4, social: 0.3, spread: 0.25, color: '#ef4444' })
+  compassEntities.push({ name: 'Austin', economic: -0.15, social: -0.2, spread: 0.25, color: getCssVar('--accent-blue') })
+  compassEntities.push({ name: 'Texas', economic: 0.3, social: 0.2, spread: 0.35, color: getCssVar('--accent-red') })
+  compassEntities.push({ name: 'Dem Party', economic: -0.3, social: -0.1, spread: 0.3, color: getCssVar('--accent-blue') })
+  compassEntities.push({ name: 'GOP', economic: 0.4, social: 0.3, spread: 0.25, color: getCssVar('--accent-red') })
 
   const orgPositions = {
     'AURA': { economic: -0.1, social: -0.4, spread: 0.1 },
@@ -133,7 +134,7 @@ export default function OrgDashboard() {
   }
   org.aligned_organizations?.forEach((ally) => {
     const pos = orgPositions[ally.name]
-    if (pos) compassEntities.push({ name: ally.name, ...pos, color: '#22c55e' })
+    if (pos) compassEntities.push({ name: ally.name, ...pos, color: getCssVar('--accent-green') })
   })
 
   // Build campaign data for priority matrix
