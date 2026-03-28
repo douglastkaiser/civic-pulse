@@ -1,0 +1,568 @@
+{
+  "id": "austin-78702",
+  "last_updated": "2026-03-28T12:00:00Z",
+  "branches": [
+    {
+      "name": "Executive",
+      "icon": "◆",
+      "levels": [
+        {
+          "level": "federal",
+          "label": "Federal",
+          "officials": [
+            {
+              "id": "potus-trump",
+              "name": "Donald Trump",
+              "title": "President of the United States",
+              "party": "Republican",
+              "level": "federal",
+              "branch": "executive",
+              "scope": "National",
+              "term": { "start": "2025-01-20", "end": "2029-01-20" },
+              "contact": {
+                "phone": "(202) 456-1111",
+                "office": "The White House, 1600 Pennsylvania Ave NW, Washington, DC 20500",
+                "website": "https://www.whitehouse.gov"
+              },
+              "alignment": {
+                "score": -0.6,
+                "label": "Antagonist",
+                "summary": "Significant misalignment on housing regulation, climate, and governance philosophy. Some narrow overlap on deregulation of building permits and infrastructure rhetoric, but overall approach conflicts with evidence-based, equity-conscious policymaking.",
+                "key_agreements": [
+                  "Rhetoric around cutting red tape for construction and permitting",
+                  "General pro-development stance in some contexts"
+                ],
+                "key_disagreements": [
+                  "Gutting federal housing programs and HUD funding",
+                  "Undermining transit investment and climate-linked infrastructure",
+                  "Anti-immigration policies that reduce housing demand modeling accuracy",
+                  "Erosion of government transparency and institutional norms"
+                ],
+                "relevant_domains": ["Housing & Land Use", "Government Transparency", "Transportation & Transit"],
+                "engagement_strategy": "Minimal direct engagement value. Focus energy on state and local officials where your vote and voice carry more weight. Monitor federal policy changes that impact local housing funding (CDBG, LIHTC) and transit grants (FTA). Advocate through national orgs like California YIMBY or YIMBY Action for federal housing reform.",
+                "priority": "low"
+              },
+              "notes": "Federal executive sets broad policy direction but limited direct impact on Austin zoning and land use."
+            },
+            {
+              "id": "vpotus-vance",
+              "name": "JD Vance",
+              "title": "Vice President of the United States",
+              "party": "Republican",
+              "level": "federal",
+              "branch": "executive",
+              "scope": "National",
+              "term": { "start": "2025-01-20", "end": "2029-01-20" },
+              "contact": {
+                "phone": "(202) 456-1111",
+                "office": "The White House, 1600 Pennsylvania Ave NW, Washington, DC 20500",
+                "website": "https://www.whitehouse.gov"
+              },
+              "alignment": {
+                "score": -0.5,
+                "label": "Antagonist",
+                "summary": "Has expressed some pro-housing supply views in the past but overall policy direction conflicts with pragmatic urbanism and evidence-based governance.",
+                "key_agreements": [
+                  "Has acknowledged housing supply constraints publicly"
+                ],
+                "key_disagreements": [
+                  "Social conservatism conflicts with inclusive urbanism",
+                  "Populist economic framing conflicts with market-oriented housing reform",
+                  "Anti-institutional stance undermines good-government goals"
+                ],
+                "relevant_domains": ["Housing & Land Use", "Economic Development"],
+                "engagement_strategy": "No direct engagement value. Senate tie-breaking role is the only procedural lever — track any housing-related Senate votes that could go 50-50.",
+                "priority": "low"
+              }
+            }
+          ]
+        },
+        {
+          "level": "state",
+          "label": "State",
+          "officials": [
+            {
+              "id": "gov-abbott",
+              "name": "Greg Abbott",
+              "title": "Governor of Texas",
+              "party": "Republican",
+              "level": "state",
+              "branch": "executive",
+              "scope": "Texas",
+              "term": { "start": "2023-01-17", "end": "2027-01-19" },
+              "contact": {
+                "phone": "(512) 463-2000",
+                "office": "Office of the Governor, P.O. Box 12428, Austin, TX 78711",
+                "website": "https://gov.texas.gov",
+                "email": "https://gov.texas.gov/contact"
+              },
+              "alignment": {
+                "score": -0.4,
+                "label": "Mostly Opposed",
+                "summary": "State preemption of Austin's progressive policies is a recurring friction point. However, some deregulatory moves (e.g., limiting local zoning power) accidentally align with YIMBY goals.",
+                "key_agreements": [
+                  "Some deregulation of local zoning restrictions could ease housing construction",
+                  "Pro-business stance sometimes enables development"
+                ],
+                "key_disagreements": [
+                  "State preemption of Austin's local governance (e.g., plastic bag bans, police oversight)",
+                  "Hostile to transit funding and climate-linked infrastructure",
+                  "Anti-urban bias in state policy and funding allocation",
+                  "Undermines local democratic processes Austin relies on"
+                ],
+                "relevant_domains": ["Housing & Land Use", "Transportation & Transit", "Government Transparency"],
+                "engagement_strategy": "Engage selectively on areas of accidental alignment (housing deregulation). Push back through state-level advocacy orgs on preemption. The governor's office is responsive to business-community framing — lead with economic arguments, not progressive values.",
+                "priority": "medium"
+              }
+            },
+            {
+              "id": "ltgov-patrick",
+              "name": "Dan Patrick",
+              "title": "Lieutenant Governor of Texas",
+              "party": "Republican",
+              "level": "state",
+              "branch": "executive",
+              "scope": "Texas",
+              "term": { "start": "2023-01-17", "end": "2027-01-19" },
+              "contact": {
+                "phone": "(512) 463-0001",
+                "office": "P.O. Box 12068, Austin, TX 78711",
+                "website": "https://www.ltgov.texas.gov"
+              },
+              "alignment": {
+                "score": -0.7,
+                "label": "Strong Antagonist",
+                "summary": "Controls the Texas Senate agenda and has consistently blocked urban-friendly legislation. Anti-transit, anti-density, and hostile to Austin's political priorities.",
+                "key_agreements": [
+                  "Property tax reform rhetoric (though implementation often hurts cities)"
+                ],
+                "key_disagreements": [
+                  "Blocks transit funding legislation",
+                  "Pushes anti-urban state preemption bills",
+                  "Social conservatism conflicts with inclusive urbanism",
+                  "Uses Lt. Gov power to kill housing reform bills in committee"
+                ],
+                "relevant_domains": ["Housing & Land Use", "Transportation & Transit", "Taxation & Public Finance"],
+                "engagement_strategy": "Very limited direct engagement value. The Lt. Governor controls the Senate calendar — the most powerful figure in Texas government. Work through business-friendly Republican senators who might carry housing-adjacent bills. Frame everything in terms of property rights and economic growth, never progressive values.",
+                "priority": "low"
+              }
+            }
+          ]
+        },
+        {
+          "level": "county",
+          "label": "County",
+          "officials": [
+            {
+              "id": "county-judge-brown",
+              "name": "Andy Brown",
+              "title": "Travis County Judge",
+              "party": "Democrat",
+              "level": "county",
+              "branch": "executive",
+              "scope": "Travis County",
+              "term": { "start": "2023-01-01", "end": "2027-01-01" },
+              "contact": {
+                "phone": "(512) 854-9555",
+                "email": "county.judge@traviscountytx.gov",
+                "office": "Travis County Administration Building, 700 Lavaca St, Austin, TX 78701",
+                "website": "https://www.traviscountytx.gov/county-judge"
+              },
+              "alignment": {
+                "score": 0.5,
+                "label": "Ally",
+                "summary": "Pragmatic Democrat aligned on housing, transit, and fiscal responsibility. Pro-development within a social equity framework. Chairs Commissioners Court.",
+                "key_agreements": [
+                  "Supports affordable housing bond initiatives",
+                  "Pro-transit and Project Connect supporter",
+                  "Fiscal moderate — balances investment with budget discipline",
+                  "Supports government transparency initiatives"
+                ],
+                "key_disagreements": [
+                  "May prioritize affordability mandates over total housing supply in some cases",
+                  "County bureaucratic processes can slow development"
+                ],
+                "relevant_domains": ["Housing & Land Use", "Transportation & Transit", "Taxation & Public Finance", "Government Transparency"],
+                "engagement_strategy": "High-value engagement target. County Judge chairs Commissioners Court and sets the agenda. Attend public comment sessions, especially on housing and transit bond items. Frame housing supply as complementary to affordability — they're not opposed. Email directly with specific policy asks.",
+                "priority": "high"
+              }
+            }
+          ]
+        },
+        {
+          "level": "city",
+          "label": "City",
+          "officials": [
+            {
+              "id": "mayor-watson",
+              "name": "Kirk Watson",
+              "title": "Mayor of Austin",
+              "party": "Democrat",
+              "level": "city",
+              "branch": "executive",
+              "scope": "Austin",
+              "term": { "start": "2023-01-06", "end": "2027-01-01" },
+              "contact": {
+                "phone": "(512) 978-2100",
+                "email": "mayor@austintexas.gov",
+                "office": "Austin City Hall, 301 W 2nd St, Austin, TX 78701",
+                "website": "https://www.austintexas.gov/department/mayor"
+              },
+              "alignment": {
+                "score": 0.7,
+                "label": "Strong Ally",
+                "summary": "Watson is the pragmatic anchor of Austin's pro-development coalition. Former state senator with deep institutional knowledge. Pro-housing, pro-transit, fiscally disciplined. The most aligned senior official in your jurisdiction.",
+                "key_agreements": [
+                  "Championed HOME initiative (major housing reform)",
+                  "Pro-Project Connect and transit investment",
+                  "Pragmatic, outcomes-focused governance style",
+                  "Supports streamlined permitting and development review",
+                  "Fiscal discipline — balances progressive goals with budget reality"
+                ],
+                "key_disagreements": [
+                  "Occasionally cautious on pace of change — pragmatism can mean incrementalism",
+                  "Convention center decision was controversial"
+                ],
+                "relevant_domains": ["Housing & Land Use", "Transportation & Transit", "Economic Development", "Taxation & Public Finance", "Government Transparency"],
+                "engagement_strategy": "Your most important ally. Support Watson's housing agenda publicly at council meetings. Submit public comments on HOME initiative implementation items. The mayor's office is responsive to constituent emails with specific, data-backed asks. Volunteer for housing-related task forces when openings arise.",
+                "priority": "high"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Legislative",
+      "icon": "◇",
+      "levels": [
+        {
+          "level": "federal",
+          "label": "Federal",
+          "officials": [
+            {
+              "id": "sen-cruz",
+              "name": "Ted Cruz",
+              "title": "U.S. Senator",
+              "party": "Republican",
+              "level": "federal",
+              "branch": "legislative",
+              "scope": "Texas",
+              "term": { "start": "2025-01-03", "end": "2031-01-03" },
+              "contact": {
+                "phone": "(512) 916-5834",
+                "email": "https://www.cruz.senate.gov/contact",
+                "office": "300 E 8th St, Suite 961, Austin, TX 78701",
+                "website": "https://www.cruz.senate.gov"
+              },
+              "alignment": {
+                "score": -0.6,
+                "label": "Antagonist",
+                "summary": "Deeply misaligned on governance philosophy, climate, and social issues. Narrow potential alignment on deregulation and housing supply rhetoric but no legislative track record on housing reform.",
+                "key_agreements": [
+                  "Occasional pro-deregulation rhetoric that could benefit housing"
+                ],
+                "key_disagreements": [
+                  "Voted against infrastructure bills that fund transit",
+                  "Anti-climate policy undermines sustainable development",
+                  "Culture war focus diverts from pragmatic governance",
+                  "Opposed federal housing funding increases"
+                ],
+                "relevant_domains": ["Transportation & Transit", "Housing & Land Use", "Government Transparency"],
+                "engagement_strategy": "Very limited. Your one lever: constituent pressure on specific votes. When infrastructure or housing bills hit the Senate floor, call the Austin district office. Frame in terms of Texas economic competitiveness, not progressive values. Don't waste time on culture-war issues.",
+                "priority": "low"
+              }
+            },
+            {
+              "id": "sen-cornyn",
+              "name": "John Cornyn",
+              "title": "U.S. Senator",
+              "party": "Republican",
+              "level": "federal",
+              "branch": "legislative",
+              "scope": "Texas",
+              "term": { "start": "2021-01-03", "end": "2027-01-03" },
+              "contact": {
+                "phone": "(512) 469-6034",
+                "email": "https://www.cornyn.senate.gov/contact",
+                "office": "221 W 6th St, Suite 1530, Austin, TX 78701",
+                "website": "https://www.cornyn.senate.gov"
+              },
+              "alignment": {
+                "score": -0.3,
+                "label": "Mostly Opposed",
+                "summary": "More pragmatic than Cruz but still significantly misaligned. Has occasionally crossed party lines on infrastructure. Worth monitoring for specific votes.",
+                "key_agreements": [
+                  "Voted for bipartisan infrastructure bill (IIJA)",
+                  "Supports some business-friendly development policies",
+                  "More willing to negotiate than Cruz"
+                ],
+                "key_disagreements": [
+                  "Generally opposes federal housing mandates",
+                  "Fiscal conservatism extends to opposing transit funding",
+                  "Doesn't prioritize urban issues"
+                ],
+                "relevant_domains": ["Transportation & Transit", "Economic Development", "Housing & Land Use"],
+                "engagement_strategy": "Slightly more reachable than Cruz. When bipartisan infrastructure or housing votes come up, contact the Austin office. Cornyn responds to business-community pressure — coordinate with Austin Chamber and tech sector contacts. His IIJA vote shows he can be pragmatic.",
+                "priority": "low"
+              }
+            },
+            {
+              "id": "rep-doggett",
+              "name": "Lloyd Doggett",
+              "title": "U.S. Representative, CD-37",
+              "party": "Democrat",
+              "level": "federal",
+              "branch": "legislative",
+              "scope": "CD-37 (Austin)",
+              "term": { "start": "2025-01-03", "end": "2027-01-03" },
+              "contact": {
+                "phone": "(512) 916-5921",
+                "email": "https://doggett.house.gov/contact",
+                "office": "300 E 8th St, Suite 763, Austin, TX 78701",
+                "website": "https://doggett.house.gov"
+              },
+              "alignment": {
+                "score": 0.4,
+                "label": "Ally",
+                "summary": "Long-serving Democrat generally aligned on progressive housing and transit goals. More populist than Doug's preferred technocratic approach, but substantively aligned on most policy outcomes.",
+                "key_agreements": [
+                  "Supports federal housing investment and tenant protections",
+                  "Pro-transit and infrastructure funding",
+                  "Supports government transparency and accountability",
+                  "Champions environmental protection tied to development"
+                ],
+                "key_disagreements": [
+                  "More populist framing than Doug prefers",
+                  "May prioritize affordability mandates over supply-side solutions",
+                  "Sometimes prioritizes symbolic votes over pragmatic deal-making"
+                ],
+                "relevant_domains": ["Housing & Land Use", "Transportation & Transit", "Government Transparency", "Environmental Protection"],
+                "engagement_strategy": "Valuable constituent relationship. Attend town halls — Doggett holds them regularly. Push for pro-supply housing positions at the federal level (YIMBY Act, zoning reform incentives). Frame housing supply as complementary to affordability. His Austin district office is responsive to specific policy asks.",
+                "priority": "medium"
+              }
+            }
+          ]
+        },
+        {
+          "level": "state",
+          "label": "State",
+          "officials": [
+            {
+              "id": "state-sen-sd14",
+              "name": "Sarah Eckhardt",
+              "title": "State Senator, SD-14",
+              "party": "Democrat",
+              "level": "state",
+              "branch": "legislative",
+              "scope": "SD-14 (Austin/Travis County)",
+              "term": { "start": "2023-01-10", "end": "2027-01-10" },
+              "contact": {
+                "phone": "(512) 463-0114",
+                "email": "sarah.eckhardt@senate.texas.gov",
+                "office": "Capitol Extension, Room E1.806, Austin, TX 78701",
+                "website": "https://senate.texas.gov/member.php?d=14"
+              },
+              "alignment": {
+                "score": 0.6,
+                "label": "Strong Ally",
+                "summary": "Former Travis County Judge, deeply familiar with local governance. Pro-housing, pro-transit, pragmatic approach to state policy. One of the most aligned state legislators for YIMBY priorities.",
+                "key_agreements": [
+                  "Supports housing supply reform at state level",
+                  "Pro-transit investment including Project Connect support",
+                  "Fights state preemption of Austin's local authority",
+                  "Government transparency advocate"
+                ],
+                "key_disagreements": [
+                  "In the minority party — limited legislative power",
+                  "May lean more progressive on some economic regulation than Doug prefers"
+                ],
+                "relevant_domains": ["Housing & Land Use", "Transportation & Transit", "Government Transparency", "Taxation & Public Finance"],
+                "engagement_strategy": "High-value relationship. As a minority-party senator, she needs constituent support to build coalitions with moderate Republicans on specific bills. Contact her office during session (odd years) on housing and transit bills. Attend interim hearings on housing topics. She's a former county judge — responsive to data-driven, pragmatic framing.",
+                "priority": "high"
+              }
+            },
+            {
+              "id": "state-rep-hd51",
+              "name": "TBD",
+              "title": "State Representative, HD-51",
+              "party": "Unknown",
+              "level": "state",
+              "branch": "legislative",
+              "scope": "HD-51 (Austin)",
+              "contact": {
+                "phone": "(512) 463-0821",
+                "website": "https://house.texas.gov/members/member-page/?district=51"
+              },
+              "alignment": {
+                "score": 0,
+                "label": "Unknown",
+                "summary": "Current representative needs verification. HD-51 covers central/east Austin — typically a progressive Democrat.",
+                "key_agreements": [],
+                "key_disagreements": [],
+                "relevant_domains": ["Housing & Land Use", "Transportation & Transit"],
+                "engagement_strategy": "Verify current representative and research their positions on housing and transit. State reps are the most accessible state-level officials — attend town halls and build a direct relationship.",
+                "priority": "medium"
+              },
+              "notes": "Verify current member for HD-51. Texas Legislature meets in odd-year sessions."
+            }
+          ]
+        },
+        {
+          "level": "county",
+          "label": "County",
+          "officials": [
+            {
+              "id": "commissioner-gomez",
+              "name": "Margaret Gómez (retiring)",
+              "title": "Travis County Commissioner, Precinct 4",
+              "party": "Democrat",
+              "level": "county",
+              "branch": "legislative",
+              "scope": "Travis County Precinct 4",
+              "term": { "start": "2021-01-01", "end": "2027-01-01" },
+              "contact": {
+                "phone": "(512) 854-9444",
+                "email": "commissioners.court@traviscountytx.gov",
+                "office": "Travis County Administration Building, 700 Lavaca St, Austin, TX 78701"
+              },
+              "alignment": {
+                "score": 0.2,
+                "label": "Mixed",
+                "summary": "Retiring after holding this seat since 1995. May 26 runoff between Morales and Ledesma-Woody will determine successor. Gómez's long tenure means institutional knowledge leaving — engage with both runoff candidates now.",
+                "key_agreements": [
+                  "Generally supportive of social services and affordable housing",
+                  "Supported county bond initiatives"
+                ],
+                "key_disagreements": [
+                  "Slow-moving institutional approach may frustrate pro-development goals",
+                  "Less focused on housing supply than demand-side solutions"
+                ],
+                "relevant_domains": ["Housing & Land Use", "Taxation & Public Finance"],
+                "engagement_strategy": "Lame duck — engage with runoff candidates instead. Research George Morales III and Susanna Ledesma-Woody on housing, transit, and fiscal positions. The May 26 runoff has ~8-12% expected turnout — your vote and volunteer time have outsized impact.",
+                "priority": "high"
+              },
+              "notes": "RETIRING. May 26 runoff: George Morales III (40.17%) vs Susanna Ledesma-Woody (35.18%). No Republican running — winner takes seat."
+            }
+          ]
+        },
+        {
+          "level": "city",
+          "label": "City",
+          "officials": [
+            {
+              "id": "council-harper-madison",
+              "name": "Natasha Harper-Madison",
+              "title": "Austin City Council Member, District 1",
+              "party": "Democrat",
+              "level": "city",
+              "branch": "legislative",
+              "scope": "Austin District 1",
+              "term": { "start": "2021-01-06", "end": "2027-01-01" },
+              "contact": {
+                "phone": "(512) 978-2101",
+                "email": "district1@austintexas.gov",
+                "office": "Austin City Hall, 301 W 2nd St, Austin, TX 78701",
+                "website": "https://www.austintexas.gov/department/district-1"
+              },
+              "alignment": {
+                "score": 0.5,
+                "label": "Ally",
+                "summary": "Generally supportive of housing development and equity initiatives. Pro-density, pro-transit. Term-limited — open seat in Nov 2026.",
+                "key_agreements": [
+                  "Supports housing development and density in District 1",
+                  "Pro-equity housing policies",
+                  "Supported HOME initiative",
+                  "Transit-supportive voting record"
+                ],
+                "key_disagreements": [
+                  "Sometimes prioritizes equity framing over pure supply arguments",
+                  "Pace of action can be slower than desired on development approvals"
+                ],
+                "relevant_domains": ["Housing & Land Use", "Transportation & Transit", "Economic Development"],
+                "engagement_strategy": "YOUR direct council representative — highest-impact local relationship. Attend District 1 town halls. Submit public comments on housing items. Email the district office with specific asks. She's term-limited (Jan 2027), so focus on getting key votes through before the transition. Start building a relationship with her successor candidates.",
+                "priority": "high"
+              },
+              "notes": "Term-limited Jan 2027. Open seat election Nov 3, 2026. Declared candidates: Steven Brown, Alexandria Anderson."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Other Bodies",
+      "icon": "○",
+      "levels": [
+        {
+          "level": "special_district",
+          "label": "Special Districts",
+          "officials": [
+            {
+              "id": "aisd-board",
+              "name": "Austin ISD Board of Trustees",
+              "title": "School Board",
+              "party": "Nonpartisan",
+              "level": "special_district",
+              "branch": "other",
+              "scope": "Austin ISD",
+              "contact": {
+                "phone": "(512) 414-2700",
+                "website": "https://www.austinisd.org/board",
+                "email": "board@austinisd.org"
+              },
+              "alignment": {
+                "score": 0.1,
+                "label": "Neutral",
+                "summary": "School board has indirect impact on housing through school quality perceptions and facility decisions. AISD faces enrollment decline as families are priced out — aligned on need for more affordable housing.",
+                "key_agreements": [
+                  "Shared interest in affordable housing to maintain enrollment",
+                  "Generally pro-community investment"
+                ],
+                "key_disagreements": [
+                  "School districts sometimes oppose density near schools",
+                  "Bond spending priorities may not align with housing/transit focus"
+                ],
+                "relevant_domains": ["Public Education", "Housing & Land Use"],
+                "engagement_strategy": "Lower priority but relevant for housing narrative. AISD's enrollment decline strengthens the case for more housing. Cite AISD data when advocating for density — more families need to be able to afford to live in Austin for schools to thrive.",
+                "priority": "low"
+              }
+            },
+            {
+              "id": "capmetro-board",
+              "name": "Capital Metro Board",
+              "title": "Transit Authority Board",
+              "party": "Appointed",
+              "level": "special_district",
+              "branch": "other",
+              "scope": "Capital Metro Service Area",
+              "contact": {
+                "phone": "(512) 474-1200",
+                "website": "https://www.capmetro.org/board",
+                "email": "customer.service@capmetro.org"
+              },
+              "alignment": {
+                "score": 0.6,
+                "label": "Strong Ally",
+                "summary": "Overseeing Project Connect light rail implementation — the most transformative infrastructure project in Austin. Board is generally pro-transit expansion and aligned with density-supporting development.",
+                "key_agreements": [
+                  "Project Connect light rail implementation",
+                  "Transit-oriented development along rail corridors",
+                  "Bus rapid transit improvements",
+                  "Density-supportive transportation planning"
+                ],
+                "key_disagreements": [
+                  "Implementation pace and cost overruns are a concern",
+                  "TX Supreme Court ruling on Project Connect funding still pending"
+                ],
+                "relevant_domains": ["Transportation & Transit", "Housing & Land Use", "Economic Development"],
+                "engagement_strategy": "Attend monthly board meetings and public comment sessions. Project Connect is the single biggest infrastructure question for Austin — public support at board meetings matters. Push for TOD (transit-oriented development) policies that maximize housing near future stations. Monitor TX Supreme Court ruling on Project Connect funding.",
+                "priority": "medium"
+              },
+              "notes": "TX Supreme Court ruling on Project Connect funding remains pending."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -69,6 +69,11 @@ export default function Sidebar() {
           MY DASHBOARD
         </NavLink>
 
+        <NavLink to="/officials" className={navLinkClass} onClick={handleNavClick}>
+          <span className="text-xs">◆</span>
+          OFFICIALS
+        </NavLink>
+
         <div className="mt-4">
           <button
             onClick={() => setOrgsExpanded(!orgsExpanded)}

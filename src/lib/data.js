@@ -48,6 +48,10 @@ export async function loadAllProfiles() {
   return Promise.all(PROFILE_IDS.map((id) => loadProfile(id)))
 }
 
+export function loadOfficials(locationId) {
+  return fetchJSON(`officials/${locationId}.json`)
+}
+
 export function loadOrg(orgId) {
   return fetchJSON(`orgs/${orgId}.json`)
 }

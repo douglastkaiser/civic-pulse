@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { loadAllProfiles, loadAllOrgs } from '../../lib/data'
+import { loadAllProfiles, loadAllOrgs, loadOfficials, LOCATION_LABELS } from '../../lib/data'
 
 export default function BulkExportButton() {
   const [exporting, setExporting] = useState(false)
@@ -7,12 +7,18 @@ export default function BulkExportButton() {
   const handleExport = async () => {
     setExporting(true)
     try {
-      const [profiles, orgs] = await Promise.all([loadAllProfiles(), loadAllOrgs()])
+      const [profiles, orgs, ...officialsResults] = await Promise.all([
+        loadAllProfiles(),
+        loadAllOrgs(),
+        ...Object.keys(LOCATION_LABELS).map((id) => loadOfficials(id).catch(() => null)),
+      ])
+      const officials = officialsResults.filter(Boolean)
       const data = {
         export_type: 'bulk_all_data',
         exported_at: new Date().toISOString(),
         profiles,
         orgs,
+        officials,
       }
       const json = JSON.stringify(data, null, 2)
       const blob = new Blob([json], { type: 'application/json' })
