@@ -1,29 +1,81 @@
 import { useState, useEffect } from 'react'
 import { loadProfile, loadFreshness, PROFILE_ID } from '../lib/data'
+import { useAuth } from '../lib/auth'
+import { getUserProfile } from '../lib/userStore'
 import ManifestoPanel from './ManifestoPanel'
 import PoliticalCompass from './PoliticalCompass'
 import ExportButton from './shared/ExportButton'
 import BulkExportButton from './shared/BulkExportButton'
 import { getCssVar } from '../lib/themeColors'
 
+function EmptyDashboard({ user }) {
+  return (
+    <div className="h-full p-3 flex flex-col gap-3 overflow-auto lg:overflow-hidden animate-fade-in">
+      <div className="flex flex-col lg:flex-row gap-3 flex-1 lg:min-h-0">
+        {/* Empty manifesto */}
+        <div className="lg:w-3/5 min-w-0 min-h-[300px] lg:min-h-0">
+          <div className="bg-bg-panel border border-border rounded-lg p-6 h-full flex flex-col items-center justify-center text-center">
+            <div className="text-3xl mb-3">▸</div>
+            <h2 className="font-mono text-lg font-bold text-text-primary tracking-wide mb-2">
+              Welcome, {user.displayName?.split(' ')[0] || 'there'}
+            </h2>
+            <p className="text-text-secondary text-sm max-w-sm mb-4">
+              Your political profile is empty. Once set up, you'll see your manifesto, values, and issue priorities here.
+            </p>
+            <span className="text-xs text-text-tertiary font-mono px-3 py-1.5 bg-bg-elevated rounded">
+              Profile setup coming soon
+            </span>
+          </div>
+        </div>
+
+        {/* Empty compass */}
+        <div className="lg:w-2/5 min-w-0 min-h-[300px] lg:min-h-0">
+          <div className="bg-bg-panel border border-border rounded-lg p-6 h-full flex flex-col items-center justify-center text-center">
+            <div className="text-3xl mb-3">◎</div>
+            <h3 className="font-mono text-sm font-bold text-text-primary tracking-wide mb-2">
+              POLITICAL COMPASS
+            </h3>
+            <p className="text-text-secondary text-sm max-w-xs">
+              Your position on the political compass will appear here once your profile is configured.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
 export default function PersonalDashboard() {
+  const { user } = useAuth()
   const [profile, setProfile] = useState(null)
   const [loading, setLoading] = useState(true)
+  const [isEmpty, setIsEmpty] = useState(false)
 
   useEffect(() => {
-    Promise.all([
-      loadProfile(PROFILE_ID),
-      loadFreshness(),
-    ])
-      .then(([prof]) => {
+    const load = async () => {
+      try {
+        // Try loading the user's Firestore profile first
+        const userProfile = await getUserProfile(user.uid)
+        if (userProfile?.manifesto) {
+          setProfile(userProfile)
+          setLoading(false)
+          return
+        }
+
+        // Fall back to static profile data if it exists
+        const [prof] = await Promise.all([
+          loadProfile(PROFILE_ID),
+          loadFreshness(),
+        ])
         setProfile(prof)
-        setLoading(false)
-      })
-      .catch((err) => {
-        console.error('Failed to load profile data:', err)
-        setLoading(false)
-      })
-  }, [])
+      } catch {
+        // No static data and no Firestore data → empty state
+        setIsEmpty(true)
+      }
+      setLoading(false)
+    }
+    load()
+  }, [user.uid])
 
   if (loading) {
     return (
@@ -53,6 +105,10 @@ export default function PersonalDashboard() {
         </div>
       </div>
     )
+  }
+
+  if (isEmpty || !profile) {
+    return <EmptyDashboard user={user} />
   }
 
   // Political compass: user position only (no location entities)

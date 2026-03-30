@@ -8,15 +8,27 @@ import About from './components/About'
 import LocationPage from './components/LocationPage'
 import OfficialsPage from './components/OfficialsPage'
 import SettingsPage from './components/SettingsPage'
+import SplashPage from './components/SplashPage'
 import ErrorBoundary from './components/shared/ErrorBoundary'
 import { useZoom } from './lib/zoom.jsx'
+import { useAuth } from './lib/auth'
 
 export default function App() {
   const location = useLocation()
   const isPublicView = location.pathname.endsWith('/public')
   const { zoom } = useZoom()
+  const { user, loading } = useAuth()
 
-  // Public view renders without sidebar
+  // Show loading spinner while auth state resolves
+  if (loading) {
+    return (
+      <div className="h-screen bg-bg-primary flex items-center justify-center">
+        <div className="text-text-tertiary font-mono text-sm animate-pulse">Loading...</div>
+      </div>
+    )
+  }
+
+  // Public view renders without sidebar or auth
   if (isPublicView) {
     return (
       <ErrorBoundary>
@@ -25,6 +37,11 @@ export default function App() {
         </Routes>
       </ErrorBoundary>
     )
+  }
+
+  // Not logged in → splash page
+  if (!user) {
+    return <SplashPage />
   }
 
   return (
