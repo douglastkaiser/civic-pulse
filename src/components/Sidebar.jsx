@@ -69,6 +69,11 @@ export default function Sidebar() {
           MY DASHBOARD
         </NavLink>
 
+        <NavLink to="/location" className={navLinkClass} onClick={handleNavClick}>
+          <span className="text-xs">◉</span>
+          MY LOCATION
+        </NavLink>
+
         <NavLink to="/officials" className={navLinkClass} onClick={handleNavClick}>
           <span className="text-xs">◆</span>
           OFFICIALS
