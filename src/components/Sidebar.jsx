@@ -2,8 +2,10 @@ import { NavLink } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import { ORG_IDS_BY_LOCATION, LOCATION_LABELS, loadOrg, loadFreshness } from '../lib/data'
 import FreshnessIndicator from './FreshnessIndicator'
+import { useAuth } from '../lib/auth'
 
 export default function Sidebar() {
+  const { user, signOut } = useAuth()
   const [orgsByLocation, setOrgsByLocation] = useState({})
   const [freshness, setFreshness] = useState(null)
   const [orgsExpanded, setOrgsExpanded] = useState(true)
@@ -62,6 +64,27 @@ export default function Sidebar() {
 
   const sidebarContent = (
     <>
+      {/* User profile */}
+      {user && (
+        <div className="px-3 py-2 border-b border-border flex items-center gap-2">
+          {user.photoURL ? (
+            <img
+              src={user.photoURL}
+              alt=""
+              className="w-7 h-7 rounded-full border border-border"
+              referrerPolicy="no-referrer"
+            />
+          ) : (
+            <div className="w-7 h-7 rounded-full bg-accent-blue/20 flex items-center justify-center text-accent-blue text-xs font-bold font-mono">
+              {(user.displayName || user.email || '?')[0].toUpperCase()}
+            </div>
+          )}
+          <span className="text-xs text-text-secondary font-mono truncate">
+            {user.displayName || user.email}
+          </span>
+        </div>
+      )}
+
       {/* Navigation */}
       <nav className="flex-1 overflow-y-auto p-2 space-y-1">
         <NavLink to="/dashboard" className={navLinkClass} onClick={handleNavClick}>
@@ -157,6 +180,12 @@ export default function Sidebar() {
         >
           ↻ Refresh
         </a>
+        <button
+          onClick={signOut}
+          className="text-xs text-text-tertiary hover:text-accent-red font-mono transition-colors flex items-center gap-1 mt-1"
+        >
+          ↳ Sign out
+        </button>
       </div>
     </>
   )
