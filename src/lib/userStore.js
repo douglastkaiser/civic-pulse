@@ -24,6 +24,7 @@ export function emptyProfile(user) {
     issue_salience: {},
     manifesto: null,
     political_compass: null,
+    political_positions: [],
     engagement_appetite: null,
     createdAt: serverTimestamp(),
     updatedAt: serverTimestamp(),
