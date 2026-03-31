@@ -4,9 +4,15 @@ import { useAuth } from '../lib/auth'
 import { getUserProfile } from '../lib/userStore'
 import ManifestoPanel from './ManifestoPanel'
 import PoliticalCompass from './PoliticalCompass'
+import PositionScatterPlot from './PositionScatterPlot'
 import ExportButton from './shared/ExportButton'
 import BulkExportButton from './shared/BulkExportButton'
 import { getCssVar } from '../lib/themeColors'
+
+const VIEW_TABS = [
+  { key: 'action', label: 'Action' },
+  { key: 'profile', label: 'Profile' },
+]
 
 function EmptyDashboard({ user }) {
   return (
@@ -50,6 +56,7 @@ export default function PersonalDashboard() {
   const [profile, setProfile] = useState(null)
   const [loading, setLoading] = useState(true)
   const [isEmpty, setIsEmpty] = useState(false)
+  const [view, setView] = useState('action')
 
   useEffect(() => {
     const load = async () => {
@@ -129,28 +136,73 @@ export default function PersonalDashboard() {
     issue_salience: profile.issue_salience,
     manifesto: profile.manifesto,
     political_compass: profile.political_compass,
+    political_positions: profile.political_positions,
     engagement_appetite: profile.engagement_appetite,
   })
 
+  const profilePanels = (
+    <div className="flex flex-col lg:flex-row gap-3 lg:min-h-0" style={{ flex: '2 1 0%' }}>
+      <div className="lg:w-3/5 min-w-0 min-h-[300px] lg:min-h-0">
+        <ManifestoPanel profile={profile} />
+      </div>
+      {compassEntities.length > 0 && (
+        <div className="lg:w-2/5 min-w-0 min-h-[300px] lg:min-h-0">
+          <PoliticalCompass entities={compassEntities} size={280} collapsible={false} />
+        </div>
+      )}
+    </div>
+  )
+
   return (
     <div className="h-full p-3 flex flex-col gap-3 overflow-auto lg:overflow-hidden animate-fade-in">
-      {/* Utility bar */}
-      <div className="flex items-center justify-end gap-2 flex-shrink-0">
-        <BulkExportButton />
-        <ExportButton getData={getExportData} filename="civic-pulse-profile.json" />
+      {/* Utility bar with view tabs */}
+      <div className="flex items-center gap-2 flex-shrink-0">
+        <div className="flex gap-1">
+          {VIEW_TABS.map(tab => (
+            <button
+              key={tab.key}
+              onClick={() => setView(tab.key)}
+              className={`text-xs font-mono px-2.5 py-1 rounded transition-colors ${
+                view === tab.key
+                  ? 'bg-accent-blue/20 text-accent-blue'
+                  : 'text-text-tertiary hover:text-text-secondary'
+              }`}
+            >
+              {tab.label}
+            </button>
+          ))}
+        </div>
+        <div className="flex items-center gap-2 ml-auto">
+          <BulkExportButton />
+          <ExportButton getData={getExportData} filename="civic-pulse-profile.json" />
+        </div>
       </div>
 
-      {/* Profile panels: Manifesto + Political Compass */}
-      <div className="flex flex-col lg:flex-row gap-3 flex-1 lg:min-h-0">
-        <div className="lg:w-3/5 min-w-0 min-h-[300px] lg:min-h-0">
-          <ManifestoPanel profile={profile} />
-        </div>
-        {compassEntities.length > 0 && (
-          <div className="lg:w-2/5 min-w-0 min-h-[300px] lg:min-h-0">
-            <PoliticalCompass entities={compassEntities} size={280} collapsible={false} />
+      {/* Action view: current layout */}
+      {view === 'action' && (
+        <div className="flex flex-col lg:flex-row gap-3 flex-1 lg:min-h-0">
+          <div className="lg:w-3/5 min-w-0 min-h-[300px] lg:min-h-0">
+            <ManifestoPanel profile={profile} />
           </div>
-        )}
-      </div>
+          {compassEntities.length > 0 && (
+            <div className="lg:w-2/5 min-w-0 min-h-[300px] lg:min-h-0">
+              <PoliticalCompass entities={compassEntities} size={280} collapsible={false} />
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* Profile view: manifesto + compass + scatter plot */}
+      {view === 'profile' && (
+        <div className="flex flex-col gap-3 flex-1 lg:min-h-0">
+          {profilePanels}
+          {profile?.political_positions?.length > 0 && (
+            <div className="min-h-[400px]" style={{ flex: '3 1 0%' }}>
+              <PositionScatterPlot positions={profile.political_positions} />
+            </div>
+          )}
+        </div>
+      )}
     </div>
   )
 }
