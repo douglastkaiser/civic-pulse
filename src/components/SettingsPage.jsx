@@ -1,5 +1,7 @@
 import { useTheme, THEMES } from '../lib/theme'
 import { useZoom, ZOOM_LEVELS } from '../lib/zoom'
+import { useAuth } from '../lib/auth'
+import PoliticalQuizSection from './settings/PoliticalQuizSection'
 
 const THEME_PREVIEWS = {
   civic: {
@@ -111,6 +113,7 @@ function ThemeCard({ themeId, label, description, isActive, onClick }) {
 export default function SettingsPage() {
   const { theme, setTheme } = useTheme()
   const { zoom, setZoom } = useZoom()
+  const { user } = useAuth()
 
   return (
     <div className="min-h-full bg-bg-primary p-6 animate-fade-in">
@@ -171,6 +174,9 @@ export default function SettingsPage() {
             </span>
           </div>
         </section>
+
+        {/* Political Alignment Quiz */}
+        <PoliticalQuizSection user={user} />
 
         <div className="pt-4 border-t border-border">
           <p className="text-xs text-text-tertiary font-mono">
