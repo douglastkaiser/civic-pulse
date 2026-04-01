@@ -47,7 +47,7 @@ export default function App() {
   return (
     <div className="h-screen bg-bg-primary flex overflow-hidden">
       <Sidebar />
-      <main className="flex-1 overflow-hidden" style={zoom !== 1 ? { zoom } : undefined}>
+      <main className="flex-1 overflow-y-auto" style={zoom !== 1 ? { zoom } : undefined}>
         <ErrorBoundary>
           <Routes>
             <Route path="/" element={<Navigate to="/dashboard" replace />} />
