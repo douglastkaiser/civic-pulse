@@ -1,3 +1,5 @@
+import { loadOrgFromFirestore } from './orgStore'
+
 const BASE = import.meta.env.BASE_URL
 
 export const PROFILE_IDS = [
@@ -52,8 +54,15 @@ export function loadOfficials(locationId) {
   return fetchJSON(`officials/${locationId}.json`)
 }
 
-export function loadOrg(orgId) {
-  return fetchJSON(`orgs/${orgId}.json`)
+export async function loadOrg(orgId) {
+  try {
+    return await fetchJSON(`orgs/${orgId}.json`)
+  } catch {
+    // Static JSON not found — try Firestore for user-created orgs
+    const firestoreOrg = await loadOrgFromFirestore(orgId)
+    if (firestoreOrg) return firestoreOrg
+    throw new Error(`Organization not found: ${orgId}`)
+  }
 }
 
 export async function loadAllOrgs() {
