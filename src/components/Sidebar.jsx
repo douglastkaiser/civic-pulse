@@ -8,8 +8,14 @@ export default function Sidebar() {
   const { user, signOut } = useAuth()
   const [orgsByLocation, setOrgsByLocation] = useState({})
   const [freshness, setFreshness] = useState(null)
-  const [orgsExpanded, setOrgsExpanded] = useState(true)
+  const [expandedLocations, setExpandedLocations] = useState(
+    () => Object.fromEntries(Object.keys(LOCATION_LABELS).map(id => [id, true]))
+  )
   const [mobileOpen, setMobileOpen] = useState(false)
+
+  const toggleLocation = (locId) => {
+    setExpandedLocations(prev => ({ ...prev, [locId]: !prev[locId] }))
+  }
 
   useEffect(() => {
     // Load orgs grouped by location
@@ -92,56 +98,59 @@ export default function Sidebar() {
           MY DASHBOARD
         </NavLink>
 
-        <NavLink to="/location" className={navLinkClass} onClick={handleNavClick}>
-          <span className="text-xs">◉</span>
-          MY LOCATION
-        </NavLink>
+        {Object.entries(LOCATION_LABELS).map(([locId, label]) => {
+          const orgs = orgsByLocation[locId] || []
+          const isExpanded = expandedLocations[locId]
+          return (
+            <div key={locId} className="mt-3">
+              <button
+                onClick={() => toggleLocation(locId)}
+                className="flex items-center gap-2 px-3 py-1.5 text-xs font-mono font-bold text-text-secondary tracking-wide w-full text-left hover:text-text-primary transition-colors"
+              >
+                <span>{isExpanded ? '▾' : '▸'}</span>
+                {label.toUpperCase()}
+              </button>
 
-        <NavLink to="/officials" className={navLinkClass} onClick={handleNavClick}>
-          <span className="text-xs">◆</span>
-          OFFICIALS
-        </NavLink>
+              {isExpanded && (
+                <div className="ml-2 space-y-0.5 mt-1 pl-1 border-l border-border/40">
+                  <NavLink to={`/location/${locId}`} className={navLinkClass} onClick={handleNavClick}>
+                    <span className="text-xs">├─</span>
+                    <span className="text-xs">Landscape</span>
+                  </NavLink>
 
-        <div className="mt-4">
-          <button
-            onClick={() => setOrgsExpanded(!orgsExpanded)}
-            className="flex items-center gap-2 px-3 py-1.5 text-xs font-mono font-bold text-text-secondary tracking-wide w-full text-left hover:text-text-primary transition-colors"
-          >
-            <span>{orgsExpanded ? '▾' : '▸'}</span>
-            ORGANIZATIONS
-          </button>
+                  <NavLink to={`/officials/${locId}`} className={navLinkClass} onClick={handleNavClick}>
+                    <span className="text-xs">├─</span>
+                    <span className="text-xs">Officials</span>
+                  </NavLink>
 
-          {orgsExpanded && (
-            <div className="ml-2 space-y-0.5 mt-1 pl-1 border-l border-border/40">
-              {Object.entries(ORG_IDS_BY_LOCATION).map(([locId]) => {
-                const orgs = orgsByLocation[locId] || []
-                const label = LOCATION_LABELS[locId] || locId
-                return (
-                  <div key={locId}>
-                    <div className="px-3 py-1 text-[10px] font-mono font-bold text-text-secondary tracking-widest uppercase mt-2 first:mt-0">
-                      {label}
-                    </div>
-                    {orgs.map((org) => (
-                      <NavLink
-                        key={org.id}
-                        to={`/org/${org.id}`}
-                        className={navLinkClass}
-                        onClick={handleNavClick}
-                      >
-                        <span className="text-xs">├─</span>
-                        <span className="truncate text-xs">{org.name}</span>
-                      </NavLink>
-                    ))}
-                  </div>
-                )
-              })}
-              <NavLink to="/org/new" className={navLinkClass} onClick={handleNavClick}>
-                <span className="text-xs">├─</span>
-                <span className="text-accent-green text-xs">+ New Organization</span>
-              </NavLink>
+                  {orgs.length > 0 && (
+                    <>
+                      <div className="px-3 py-1 text-[10px] font-mono font-bold text-text-secondary tracking-widest uppercase mt-1">
+                        Organizations
+                      </div>
+                      {orgs.map((org) => (
+                        <NavLink
+                          key={org.id}
+                          to={`/org/${org.id}`}
+                          className={navLinkClass}
+                          onClick={handleNavClick}
+                        >
+                          <span className="text-xs">├─</span>
+                          <span className="truncate text-xs">{org.name}</span>
+                        </NavLink>
+                      ))}
+                    </>
+                  )}
+                </div>
+              )}
             </div>
-          )}
-        </div>
+          )
+        })}
+
+        <NavLink to="/org/new" className={navLinkClass} onClick={handleNavClick}>
+          <span className="text-xs">+</span>
+          <span className="text-accent-green text-xs">New Organization</span>
+        </NavLink>
 
         <div className="mt-4">
           <NavLink to="/about" className={navLinkClass} onClick={handleNavClick}>
