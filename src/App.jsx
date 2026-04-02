@@ -12,6 +12,9 @@ import SplashPage from './components/SplashPage'
 import ErrorBoundary from './components/shared/ErrorBoundary'
 import { useZoom } from './lib/zoom.jsx'
 import { useAuth } from './lib/auth'
+import { LOCATION_LABELS } from './lib/data'
+
+const DEFAULT_LOCATION = Object.keys(LOCATION_LABELS)[0]
 
 export default function App() {
   const location = useLocation()
@@ -52,8 +55,10 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Navigate to="/dashboard" replace />} />
             <Route path="/dashboard" element={<PersonalDashboard />} />
-            <Route path="/location" element={<LocationPage />} />
-            <Route path="/officials" element={<OfficialsPage />} />
+            <Route path="/location/:locationId" element={<LocationPage />} />
+            <Route path="/location" element={<Navigate to={`/location/${DEFAULT_LOCATION}`} replace />} />
+            <Route path="/officials/:locationId" element={<OfficialsPage />} />
+            <Route path="/officials" element={<Navigate to={`/officials/${DEFAULT_LOCATION}`} replace />} />
             <Route path="/about" element={<About />} />
             <Route path="/settings" element={<SettingsPage />} />
             <Route path="/org/new" element={<NewOrg />} />

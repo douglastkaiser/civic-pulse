@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { useParams } from 'react-router-dom'
 import { loadProfile, loadLocation, loadIssues, PROFILE_ID } from '../lib/data'
 import LocationPanel from './LocationPanel'
 import PriorityMatrix from './PriorityMatrix'
@@ -6,12 +7,12 @@ import IssueFeed from './IssueFeed'
 import IssueDetail from './IssueDetail'
 import NextStepsPanel from './NextStepsPanel'
 import PoliticalCompass from './PoliticalCompass'
-import LocationSwitcher from './LocationSwitcher'
 import ExportButton from './shared/ExportButton'
 import DetailModal from './shared/DetailModal'
 import { getCssVar } from '../lib/themeColors'
 
 export default function LocationPage() {
+  const { locationId } = useParams()
   const [profile, setProfile] = useState(null)
   const [location, setLocation] = useState(null)
   const [issuesData, setIssuesData] = useState(null)
@@ -19,36 +20,25 @@ export default function LocationPage() {
   const [locationLoading, setLocationLoading] = useState(false)
   const [selectedIssueId, setSelectedIssueId] = useState(null)
   const [issueModalOpen, setIssueModalOpen] = useState(false)
-  const [activeLocationId, setActiveLocationId] = useState(null)
 
-  // Phase 1: Load profile on mount
+  // Load profile for political compass user data
   useEffect(() => {
     loadProfile(PROFILE_ID)
-      .then((prof) => {
-        setProfile(prof)
-        const defaultLoc = prof.locations?.find((l) => l.status === 'active') || prof.locations?.[0]
-        if (defaultLoc) {
-          setActiveLocationId(defaultLoc.id)
-        } else {
-          setLoading(false)
-        }
-      })
-      .catch((err) => {
-        console.error('Failed to load profile:', err)
-        setLoading(false)
-      })
+      .then(setProfile)
+      .catch((err) => console.error('Failed to load profile:', err))
   }, [])
 
-  // Phase 2: Load location-specific data when activeLocationId changes
+  // Load location-specific data when locationId changes
   useEffect(() => {
-    if (!activeLocationId) return
+    if (!locationId) return
 
+    setLoading(true)
     setLocationLoading(true)
     setSelectedIssueId(null)
 
     Promise.all([
-      loadLocation(activeLocationId),
-      loadIssues(activeLocationId),
+      loadLocation(locationId),
+      loadIssues(locationId),
     ])
       .then(([loc, iss]) => {
         setLocation(loc)
@@ -61,13 +51,7 @@ export default function LocationPage() {
         setLoading(false)
         setLocationLoading(false)
       })
-  }, [activeLocationId])
-
-  const handleLocationSwitch = (locationId) => {
-    if (locationId !== activeLocationId) {
-      setActiveLocationId(locationId)
-    }
-  }
+  }, [locationId])
 
   if (loading) {
     return (
@@ -156,7 +140,7 @@ export default function LocationPage() {
     }
   }
 
-  const activeLocation = profile?.locations?.find((l) => l.id === activeLocationId)
+  const activeLocation = profile?.locations?.find((l) => l.id === locationId)
 
   const getExportData = () => ({
     export_type: 'location_landscape',
@@ -181,14 +165,9 @@ export default function LocationPage() {
 
   return (
     <div className="h-full p-3 flex flex-col gap-3 overflow-auto lg:overflow-hidden animate-fade-in">
-      {/* Utility bar with location switcher */}
-      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 flex-shrink-0">
-        <LocationSwitcher
-          locations={profile?.locations}
-          activeLocationId={activeLocationId}
-          onSwitch={handleLocationSwitch}
-        />
-        <ExportButton getData={getExportData} filename={`civic-pulse-location-${activeLocationId || 'all'}.json`} />
+      {/* Utility bar */}
+      <div className="flex items-center justify-end gap-2 flex-shrink-0">
+        <ExportButton getData={getExportData} filename={`civic-pulse-location-${locationId || 'all'}.json`} />
       </div>
 
       {/* Top row: Location + Priority Matrix + Political Compass */}

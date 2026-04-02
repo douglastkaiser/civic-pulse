@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo } from 'react'
+import { useParams } from 'react-router-dom'
 import { loadProfile, loadOfficials, PROFILE_ID } from '../lib/data'
-import LocationSwitcher from './LocationSwitcher'
 import ExportButton from './shared/ExportButton'
 import HierarchyTree from './officials/HierarchyTree'
 import OfficialDetail from './officials/OfficialDetail'
@@ -8,41 +8,31 @@ import DetailModal from './shared/DetailModal'
 import ContextTooltip from './shared/ContextTooltip'
 
 export default function OfficialsPage() {
+  const { locationId } = useParams()
   const [profile, setProfile] = useState(null)
   const [officials, setOfficials] = useState(null)
   const [loading, setLoading] = useState(true)
   const [locationLoading, setLocationLoading] = useState(false)
-  const [activeLocationId, setActiveLocationId] = useState(null)
   const [selectedOfficialId, setSelectedOfficialId] = useState(null)
   const [mobileDetailOpen, setMobileDetailOpen] = useState(false)
 
-  // Phase 1: Load profile
+  // Load profile for manifesto data
   useEffect(() => {
     loadProfile(PROFILE_ID)
-      .then((prof) => {
-        setProfile(prof)
-        const defaultLoc = prof.locations?.find((l) => l.status === 'active') || prof.locations?.[0]
-        if (defaultLoc) {
-          setActiveLocationId(defaultLoc.id)
-        } else {
-          setLoading(false)
-        }
-      })
-      .catch((err) => {
-        console.error('Failed to load profile:', err)
-        setLoading(false)
-      })
+      .then(setProfile)
+      .catch((err) => console.error('Failed to load profile:', err))
   }, [])
 
-  // Phase 2: Load officials for active location
+  // Load officials for location from URL
   useEffect(() => {
-    if (!activeLocationId) return
+    if (!locationId) return
 
+    setLoading(true)
     setLocationLoading(true)
     setSelectedOfficialId(null)
     setMobileDetailOpen(false)
 
-    loadOfficials(activeLocationId)
+    loadOfficials(locationId)
       .then((data) => {
         setOfficials(data)
         setLoading(false)
@@ -54,13 +44,7 @@ export default function OfficialsPage() {
         setLoading(false)
         setLocationLoading(false)
       })
-  }, [activeLocationId])
-
-  const handleLocationSwitch = (locationId) => {
-    if (locationId !== activeLocationId) {
-      setActiveLocationId(locationId)
-    }
-  }
+  }, [locationId])
 
   // Find the selected official across all branches/levels
   const selectedOfficial = useMemo(() => {
@@ -95,8 +79,8 @@ export default function OfficialsPage() {
     return {
       export_type: 'officials_hierarchy',
       exported_at: new Date().toISOString(),
-      location_id: activeLocationId,
-      location_label: profile?.locations?.find((l) => l.id === activeLocationId)?.label,
+      location_id: locationId,
+      location_label: profile?.locations?.find((l) => l.id === locationId)?.label,
       manifesto_summary: profile?.manifesto?.manifesto_summary,
       officials_hierarchy: officials?.branches,
       officials_flat: allOfficials,
@@ -168,14 +152,9 @@ export default function OfficialsPage() {
           )}
         </div>
         <div className="flex items-center gap-2">
-          <LocationSwitcher
-            locations={profile?.locations}
-            activeLocationId={activeLocationId}
-            onSwitch={handleLocationSwitch}
-          />
           <ExportButton
             getData={getExportData}
-            filename={`civic-pulse-officials-${activeLocationId || 'all'}.json`}
+            filename={`civic-pulse-officials-${locationId || 'all'}.json`}
           />
         </div>
       </div>
