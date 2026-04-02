@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { ORG_IDS_BY_LOCATION, LOCATION_LABELS, loadOrg, loadFreshness } from '../lib/data'
+import { loadUserOrgs } from '../lib/orgStore'
 import FreshnessIndicator from './FreshnessIndicator'
 import { useAuth } from '../lib/auth'
 
@@ -12,10 +13,19 @@ export default function Sidebar() {
     () => Object.fromEntries(Object.keys(LOCATION_LABELS).map(id => [id, true]))
   )
   const [mobileOpen, setMobileOpen] = useState(false)
+  const [userOrgs, setUserOrgs] = useState([])
+  const [userOrgsExpanded, setUserOrgsExpanded] = useState(true)
 
   const toggleLocation = (locId) => {
     setExpandedLocations(prev => ({ ...prev, [locId]: !prev[locId] }))
   }
+
+  const fetchUserOrgs = useCallback(() => {
+    if (!user?.uid) return
+    loadUserOrgs(user.uid)
+      .then(setUserOrgs)
+      .catch(() => setUserOrgs([]))
+  }, [user?.uid])
 
   useEffect(() => {
     // Load orgs grouped by location
@@ -33,11 +43,18 @@ export default function Sidebar() {
     }
 
     loadOrgsByLoc()
+    fetchUserOrgs()
 
     loadFreshness()
       .then(setFreshness)
       .catch(() => {})
-  }, [])
+  }, [fetchUserOrgs])
+
+  // Re-fetch user orgs when a new org is created
+  useEffect(() => {
+    window.addEventListener('org-created', fetchUserOrgs)
+    return () => window.removeEventListener('org-created', fetchUserOrgs)
+  }, [fetchUserOrgs])
 
   // Get timestamps for each location
   const getLocationTimestamp = (locId) => {
@@ -146,6 +163,33 @@ export default function Sidebar() {
             </div>
           )
         })}
+
+        {userOrgs.length > 0 && (
+          <div className="mt-3">
+            <button
+              onClick={() => setUserOrgsExpanded((v) => !v)}
+              className="flex items-center gap-2 px-3 py-1.5 text-xs font-mono font-bold text-text-secondary tracking-wide w-full text-left hover:text-text-primary transition-colors"
+            >
+              <span>{userOrgsExpanded ? '▾' : '▸'}</span>
+              MY ORGANIZATIONS
+            </button>
+            {userOrgsExpanded && (
+              <div className="ml-2 space-y-0.5 mt-1 pl-1 border-l border-border/40">
+                {userOrgs.map((org) => (
+                  <NavLink
+                    key={org.id}
+                    to={`/org/${org.id}`}
+                    className={navLinkClass}
+                    onClick={handleNavClick}
+                  >
+                    <span className="text-xs">├─</span>
+                    <span className="truncate text-xs">{org.name}</span>
+                  </NavLink>
+                ))}
+              </div>
+            )}
+          </div>
+        )}
 
         <NavLink to="/org/new" className={navLinkClass} onClick={handleNavClick}>
           <span className="text-xs">+</span>
