@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import { ORG_IDS_BY_LOCATION, LOCATION_LABELS, loadOrg, loadFreshness } from '../lib/data'
+import { getDynamicLocationLabels } from '../lib/locationStore'
 import FreshnessIndicator from './FreshnessIndicator'
 import { useAuth } from '../lib/auth'
 
@@ -8,6 +9,7 @@ export default function Sidebar() {
   const { user, signOut } = useAuth()
   const [orgsByLocation, setOrgsByLocation] = useState({})
   const [freshness, setFreshness] = useState(null)
+  const [dynamicLabels, setDynamicLabels] = useState({})
   const [expandedLocations, setExpandedLocations] = useState(
     () => Object.fromEntries(Object.keys(LOCATION_LABELS).map(id => [id, true]))
   )
@@ -36,6 +38,16 @@ export default function Sidebar() {
 
     loadFreshness()
       .then(setFreshness)
+      .catch(() => {})
+
+    getDynamicLocationLabels()
+      .then((labels) => {
+        setDynamicLabels(labels)
+        setExpandedLocations(prev => ({
+          ...prev,
+          ...Object.fromEntries(Object.keys(labels).map(id => [id, prev[id] ?? true]))
+        }))
+      })
       .catch(() => {})
   }, [])
 
@@ -98,7 +110,7 @@ export default function Sidebar() {
           MY DASHBOARD
         </NavLink>
 
-        {Object.entries(LOCATION_LABELS).map(([locId, label]) => {
+        {Object.entries({ ...LOCATION_LABELS, ...dynamicLabels }).map(([locId, label]) => {
           const orgs = orgsByLocation[locId] || []
           const isExpanded = expandedLocations[locId]
           return (
@@ -146,6 +158,11 @@ export default function Sidebar() {
             </div>
           )
         })}
+
+        <NavLink to="/location/new" className={navLinkClass} onClick={handleNavClick}>
+          <span className="text-xs">+</span>
+          <span className="text-accent-green text-xs">New Location</span>
+        </NavLink>
 
         <NavLink to="/org/new" className={navLinkClass} onClick={handleNavClick}>
           <span className="text-xs">+</span>

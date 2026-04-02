@@ -4,6 +4,7 @@ import PersonalDashboard from './components/PersonalDashboard'
 import OrgDashboard from './components/OrgDashboard'
 import OrgPublicView from './components/OrgPublicView'
 import NewOrg from './components/NewOrg'
+import NewLocation from './components/NewLocation'
 import About from './components/About'
 import LocationPage from './components/LocationPage'
 import OfficialsPage from './components/OfficialsPage'
@@ -55,6 +56,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Navigate to="/dashboard" replace />} />
             <Route path="/dashboard" element={<PersonalDashboard />} />
+            <Route path="/location/new" element={<NewLocation />} />
             <Route path="/location/:locationId" element={<LocationPage />} />
             <Route path="/location" element={<Navigate to={`/location/${DEFAULT_LOCATION}`} replace />} />
             <Route path="/officials/:locationId" element={<OfficialsPage />} />
