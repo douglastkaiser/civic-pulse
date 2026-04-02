@@ -1,3 +1,4 @@
+import { loadDynamicLocation, loadDynamicIssues } from './locationStore'
 import { loadOrgFromFirestore } from './orgStore'
 
 const BASE = import.meta.env.BASE_URL
@@ -35,11 +36,17 @@ export function loadProfile(id) {
 }
 
 export function loadLocation(id) {
-  return fetchJSON(`locations/${id}.json`)
+  if (LOCATION_LABELS[id]) {
+    return fetchJSON(`locations/${id}.json`)
+  }
+  return loadDynamicLocation(id)
 }
 
 export function loadIssues(id) {
-  return fetchJSON(`issues/${id}.json`)
+  if (LOCATION_LABELS[id]) {
+    return fetchJSON(`issues/${id}.json`)
+  }
+  return loadDynamicIssues(id)
 }
 
 export function loadFreshness() {
