@@ -70,7 +70,7 @@ function Section({ title, children, defaultOpen = true, accent }) {
   )
 }
 
-export default function OfficialDetail({ official, onClose }) {
+export default function OfficialDetail({ official, onClose, useWeighted }) {
   if (!official) {
     return (
       <div className="h-full flex flex-col items-center justify-center text-center p-6">
@@ -82,7 +82,10 @@ export default function OfficialDetail({ official, onClose }) {
     )
   }
 
-  const score = official.alignment?.score ?? 0
+  const rawScore = official.alignment?.score ?? 0
+  const score = useWeighted && official.weightedAlignment
+    ? official.weightedAlignment.weightedScore
+    : rawScore
   const scoreColor =
     score > 0.3 ? 'text-accent-green' : score < -0.3 ? 'text-accent-red' : 'text-accent-amber'
   const labelColor =
@@ -156,6 +159,28 @@ export default function OfficialDetail({ official, onClose }) {
         {/* Alignment Gauge */}
         <Section title="MANIFESTO ALIGNMENT" defaultOpen={true}>
           <AlignmentGauge score={score} />
+          {useWeighted && official.weightedAlignment && rawScore !== score && (
+            <div className="mt-2 px-2 py-1.5 rounded bg-accent-purple/5 border border-accent-purple/20">
+              <div className="flex items-center justify-between text-[9px] font-mono text-text-tertiary mb-1">
+                <span>RAW SCORE: <span className="text-text-secondary">{rawScore > 0 ? '+' : ''}{rawScore.toFixed(2)}</span></span>
+                <span className="text-accent-purple">WEIGHTED: {score > 0 ? '+' : ''}{score.toFixed(2)}</span>
+              </div>
+              <div className="space-y-0.5">
+                {official.weightedAlignment.domainWeights.map(({ domain, weight }) => (
+                  <div key={domain} className="flex items-center gap-2">
+                    <span className="text-[9px] text-text-tertiary truncate flex-1">{domain}</span>
+                    <div className="w-12 h-1 rounded-full bg-bg-primary overflow-hidden flex-shrink-0">
+                      <div
+                        className="h-full rounded-full bg-accent-purple/60"
+                        style={{ width: `${weight}%` }}
+                      />
+                    </div>
+                    <span className="text-[9px] font-mono text-accent-purple w-6 text-right flex-shrink-0">{weight}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
           {official.alignment?.summary && (
             <p className="text-xs text-text-secondary leading-relaxed mt-3">
               {official.alignment.summary}

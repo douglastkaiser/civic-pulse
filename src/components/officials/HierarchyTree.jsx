@@ -2,7 +2,7 @@ import OfficialCard from './OfficialCard'
 
 const LEVEL_ORDER = ['federal', 'state', 'county', 'city', 'special_district']
 
-function LevelGroup({ level, officials, selectedOfficialId, onSelectOfficial, isLast }) {
+function LevelGroup({ level, officials, selectedOfficialId, onSelectOfficial, isLast, useWeighted }) {
   return (
     <div className="relative">
       {/* Level label */}
@@ -21,6 +21,7 @@ function LevelGroup({ level, officials, selectedOfficialId, onSelectOfficial, is
             official={official}
             selected={selectedOfficialId === official.id}
             onClick={onSelectOfficial}
+            useWeighted={useWeighted}
           />
         ))}
       </div>
@@ -35,7 +36,7 @@ function LevelGroup({ level, officials, selectedOfficialId, onSelectOfficial, is
   )
 }
 
-function BranchColumn({ branch, selectedOfficialId, onSelectOfficial }) {
+function BranchColumn({ branch, selectedOfficialId, onSelectOfficial, useWeighted }) {
   const sortedLevels = [...branch.levels].sort(
     (a, b) => LEVEL_ORDER.indexOf(a.level) - LEVEL_ORDER.indexOf(b.level)
   )
@@ -66,6 +67,7 @@ function BranchColumn({ branch, selectedOfficialId, onSelectOfficial }) {
             selectedOfficialId={selectedOfficialId}
             onSelectOfficial={onSelectOfficial}
             isLast={i === activeLevels.length - 1}
+            useWeighted={useWeighted}
           />
         ))}
       </div>
@@ -73,7 +75,7 @@ function BranchColumn({ branch, selectedOfficialId, onSelectOfficial }) {
   )
 }
 
-export default function HierarchyTree({ officials, selectedOfficialId, onSelectOfficial }) {
+export default function HierarchyTree({ officials, selectedOfficialId, onSelectOfficial, useWeighted }) {
   if (!officials?.branches?.length) {
     return (
       <div className="h-full flex items-center justify-center text-sm text-text-tertiary font-mono">
@@ -118,6 +120,7 @@ export default function HierarchyTree({ officials, selectedOfficialId, onSelectO
               branch={branch}
               selectedOfficialId={selectedOfficialId}
               onSelectOfficial={onSelectOfficial}
+              useWeighted={useWeighted}
             />
           ))}
         </div>

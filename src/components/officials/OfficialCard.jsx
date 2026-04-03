@@ -1,7 +1,10 @@
 import { getCssVar } from '../../lib/themeColors'
 
-export default function OfficialCard({ official, selected, onClick }) {
-  const score = official.alignment?.score ?? 0
+export default function OfficialCard({ official, selected, onClick, useWeighted }) {
+  const rawScore = official.alignment?.score ?? 0
+  const score = useWeighted && official.weightedAlignment
+    ? official.weightedAlignment.weightedScore
+    : rawScore
   const borderColor =
     score > 0.3
       ? 'border-l-accent-green'
