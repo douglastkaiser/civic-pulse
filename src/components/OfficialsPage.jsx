@@ -1,6 +1,7 @@
 import { useState, useEffect, useMemo } from 'react'
 import { useParams } from 'react-router-dom'
 import { loadProfile, loadOfficials, PROFILE_ID } from '../lib/data'
+import { applyWeightedAlignments } from '../lib/alignmentWeighting'
 import ExportButton from './shared/ExportButton'
 import HierarchyTree from './officials/HierarchyTree'
 import OfficialDetail from './officials/OfficialDetail'
@@ -15,6 +16,7 @@ export default function OfficialsPage() {
   const [locationLoading, setLocationLoading] = useState(false)
   const [selectedOfficialId, setSelectedOfficialId] = useState(null)
   const [mobileDetailOpen, setMobileDetailOpen] = useState(false)
+  const [useWeighted, setUseWeighted] = useState(false)
 
   // Load profile for manifesto data
   useEffect(() => {
@@ -46,17 +48,26 @@ export default function OfficialsPage() {
       })
   }, [locationId])
 
+  // Apply weighted alignment scores when toggled
+  const enrichedOfficials = useMemo(() => {
+    if (!officials?.branches || !profile?.issue_salience) return officials
+    return {
+      ...officials,
+      branches: applyWeightedAlignments(officials.branches, profile.issue_salience),
+    }
+  }, [officials, profile?.issue_salience])
+
   // Find the selected official across all branches/levels
   const selectedOfficial = useMemo(() => {
-    if (!selectedOfficialId || !officials?.branches) return null
-    for (const branch of officials.branches) {
+    if (!selectedOfficialId || !enrichedOfficials?.branches) return null
+    for (const branch of enrichedOfficials.branches) {
       for (const level of branch.levels) {
         const found = level.officials?.find((o) => o.id === selectedOfficialId)
         if (found) return found
       }
     }
     return null
-  }, [selectedOfficialId, officials])
+  }, [selectedOfficialId, enrichedOfficials])
 
   const handleSelectOfficial = (officialId) => {
     setSelectedOfficialId(officialId)
@@ -66,7 +77,7 @@ export default function OfficialsPage() {
   const getExportData = () => {
     // Collect all officials into a flat list for export
     const allOfficials = []
-    if (officials?.branches) {
+    if (enrichedOfficials?.branches) {
       for (const branch of officials.branches) {
         for (const level of branch.levels) {
           for (const official of level.officials || []) {
@@ -82,7 +93,7 @@ export default function OfficialsPage() {
       location_id: locationId,
       location_label: profile?.locations?.find((l) => l.id === locationId)?.label,
       manifesto_summary: profile?.manifesto?.manifesto_summary,
-      officials_hierarchy: officials?.branches,
+      officials_hierarchy: enrichedOfficials?.branches,
       officials_flat: allOfficials,
       total_officials: allOfficials.length,
       alignment_summary: {
@@ -125,7 +136,7 @@ export default function OfficialsPage() {
   }
 
   // Count officials
-  const officialCount = officials?.branches?.reduce(
+  const officialCount = enrichedOfficials?.branches?.reduce(
     (sum, b) => sum + b.levels.reduce((s, l) => s + (l.officials?.length || 0), 0),
     0
   ) || 0
@@ -152,6 +163,19 @@ export default function OfficialsPage() {
           )}
         </div>
         <div className="flex items-center gap-2">
+          {profile?.issue_salience && Object.keys(profile.issue_salience).length > 0 && (
+            <button
+              onClick={() => setUseWeighted((w) => !w)}
+              className={`text-[10px] font-mono px-2.5 py-1 rounded-full border transition-all duration-200 ${
+                useWeighted
+                  ? 'bg-accent-purple/15 text-accent-purple border-accent-purple/40 shadow-sm shadow-accent-purple/10'
+                  : 'bg-bg-elevated text-text-tertiary border-border hover:text-text-secondary hover:border-border'
+              }`}
+              title="Weight alignment scores by your issue priorities"
+            >
+              {useWeighted ? '⚖ WEIGHTED' : '⚖ RAW'}
+            </button>
+          )}
           <ExportButton
             getData={getExportData}
             filename={`civic-pulse-officials-${locationId || 'all'}.json`}
@@ -165,15 +189,16 @@ export default function OfficialsPage() {
         <div className="flex-1 min-w-0 bg-bg-panel border border-border rounded-lg p-4 overflow-hidden relative panel-hover">
           {locationOverlay}
           <HierarchyTree
-            officials={officials}
+            officials={enrichedOfficials}
             selectedOfficialId={selectedOfficialId}
             onSelectOfficial={handleSelectOfficial}
+            useWeighted={useWeighted}
           />
         </div>
 
         {/* Detail Panel - Desktop */}
         <div className="hidden lg:flex w-80 flex-shrink-0 bg-bg-panel border border-border rounded-lg overflow-hidden panel-hover">
-          <OfficialDetail official={selectedOfficial} />
+          <OfficialDetail official={selectedOfficial} useWeighted={useWeighted} />
         </div>
 
         {/* Detail Panel - Mobile (modal) */}
@@ -187,6 +212,7 @@ export default function OfficialsPage() {
             <OfficialDetail
               official={selectedOfficial}
               onClose={() => setMobileDetailOpen(false)}
+              useWeighted={useWeighted}
             />
           </div>
         </DetailModal>
