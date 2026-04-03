@@ -1,5 +1,5 @@
 {
-  "last_scraped": "2026-03-28T12:00:00Z",
+  "last_scraped": "2026-04-03T09:00:00Z",
   "issues": [
     {
       "id": "atx-golf-course-rezone",
@@ -50,7 +50,7 @@
       "governing_body": "Austin City Council",
       "governing_body_type": "city_council",
       "meeting_date": "2026-11-03",
-      "summary": "CM Natasha Harper-Madison is term-limited. District 1 (East Austin, including 78702) will have an open seat for the first time in 8 years. Two declared candidates so far:\n\n• Steven Brown, 41 — Born and raised in East Austin, works as a clinical specialist at Medtronic. Was co-chair of Save Austin Now alongside Matt Mackowiak (Travis County Republican Party chair), though he quit that role after Prop Q was defeated. His campaign positions him as anti-developer and constituent accountability focused. Residency concern: Brown listed a District 1 address on Single Shot Drive, but since 2019 he has owned a home with a homestead exemption on Ronee Leah Drive outside the district. Has raised ~$6,000 from two dozen donors.\n\n• Alexandria Anderson, 39 — Retired world-class track and field sprinter, now runs Essential Fitness ATX. Active in Austin Neighborhoods Council and president of the MLK Neighborhood Association. Has owned her home on Cometa Street in District 1 since 2014. No fundraising reported yet.\n\nFiling period: July 20 – August 17, 2026. More candidates expected.",
+      "summary": "UPDATE (April 2026): The District 1 field has grown to at least 7 candidates who have appointed campaign treasurers. CM Natasha Harper-Madison is term-limited, creating the first open seat in 8 years. Twenty candidates total have filed across all five open council seats (Districts 1, 3, 5, 8, 9).\n\nDeclared District 1 candidates include:\n\n• Steven Brown, 41 — Medtronic clinical specialist. Former co-chair of Save Austin Now alongside Matt Mackowiak (Travis County Republican Party chair). Anti-developer framing. Residency concern: homestead exemption outside the district. Has raised ~$6,000.\n\n• Alexandria Anderson, 39 — Retired pro sprinter, MLK Neighborhood Association president. Homeowner in District 1 since 2014. No fundraising reported.\n\n• Simon Nahas — Housing affordability advocate who has 'worked for years trying to lower rents in Austin.' Supports smaller minimum lot sizes and more housing. Notable: would be the first White council member from District 1 since geographic representation began in 2014 — the seat has historically been held by the city's only Black council member.\n\n• Kyra Lorena Rogers, 31 — Lives in an apartment off Old Manor Road in District 1. Notably was not yet a registered voter when she filed.\n\n• At least 3 additional candidates have appointed treasurers.\n\nFiling period: July 20 – August 17, 2026.",
       "policy_domains": ["Government Transparency", "Housing & Land Use"],
       "decision_type": "election",
       "geographic_scope": "district",
@@ -62,7 +62,7 @@
       "importance_score": 95,
       "impact_score": 82,
       "quadrant": "act_now",
-      "why_it_matters_to_you": "This is YOUR district's council seat and it's open for the first time in 8 years. The winner will represent 78702 for the next 4 years on every housing and development vote. Steven Brown's Save Austin Now connection (co-chaired with Travis County GOP chair Matt Mackowiak) and anti-developer framing are red flags for YIMBY priorities. His residency outside the district is also worth watching. Anderson's neighborhood association roots suggest a different kind of candidacy but her housing positions are unknown. With filing not closing until August, the field will likely grow. This is the single most important local race for you in 2026."
+      "why_it_matters_to_you": "This is YOUR district's council seat and it's open for the first time in 8 years. The field is growing fast — at least 7 candidates now. Simon Nahas is the most explicitly pro-housing candidate so far, advocating for smaller lot sizes and more building. Brown's Save Austin Now connection remains a red flag for YIMBY priorities. The racial dynamics of the seat (historically held by the city's only Black council member) add complexity. With filing not closing until August, evaluate candidates' housing/development positions carefully. This is the single most important local race for you in 2026."
     },
     {
       "id": "tc-pct4-runoff",
@@ -227,6 +227,92 @@
       "quadrant": "watch",
       "why_it_matters_to_you": "This is HOME Initiative Phase 3 in everything but name. The missing middle zoning categories create purpose-built pathways for the gentle density that makes neighborhoods walkable — townhomes, cottage courts, small mixed-use buildings. This is especially relevant for 78702 where transit-oriented development along the future light rail corridor needs exactly this kind of zoning. Support this through public comment when hearings are scheduled.",
       "source_url": "https://communityimpact.com/austin/north-central-austin/government/2026/03/26/expansion-of-austins-missing-middle-mixed-use-zoning-advances/"
+    },
+    {
+      "id": "atx-front-yard-businesses",
+      "title": "Front Yard Businesses — Council Approves Micro-Business Pilot",
+      "governing_body": "Austin City Council",
+      "governing_body_type": "city_council",
+      "meeting_date": "2026-04-02",
+      "summary": "NEW (April 2, 2026): Austin City Council approved the 'Strong Local Commerce Initiative,' led by CM Harper-Madison, allowing small businesses to operate visibly from residential properties. The resolution permits front yard stands, artisanal goods sales, service windows for small-scale repair, garden stands, and accessory retail units up to 200 sq ft on residential properties. Features include closer placement to sidewalks and 'modest' signage. A 12-month neighborhood storefront pilot program will test the concept before permanent changes. Some residents raised concerns about noise, traffic, and congestion in residential areas.",
+      "policy_domains": ["Economic Development", "Housing & Land Use"],
+      "decision_type": "vote",
+      "geographic_scope": "citywide",
+      "public_comment": {
+        "available": false,
+        "instructions": "Resolution passed. Monitor the 12-month pilot program for outcomes and potential permanent adoption."
+      },
+      "estimated_contestedness": "low",
+      "importance_score": 55,
+      "impact_score": 45,
+      "quadrant": "know",
+      "why_it_matters_to_you": "This aligns with the urbanist agenda — decentralizing economic opportunity and increasing walkability. Allowing visible front-yard businesses is a small but meaningful step toward the kind of mixed-use neighborhood fabric that makes density livable. The pilot approach is pragmatic. Worth monitoring for how it interacts with HOME Initiative density increases.",
+      "source_url": "https://www.kut.org/austin/2026-04-02/austin-tx-home-small-micro-businesses-front-yard-rules-regulations"
+    },
+    {
+      "id": "atx-2026-bond",
+      "title": "2026 Bond Package — $700M Recommendation, Task Force Deliberating",
+      "governing_body": "Austin City Council",
+      "governing_body_type": "city_council",
+      "meeting_date": "2026-11-03",
+      "summary": "UPDATE (April 2026): The Bond Election Advisory Task Force (BEATF) is in active working group sessions through March-April 2026. The City's Initial Recommendations totaling $700 million were submitted to the Mayor and Council on January 21. City budget staff recommended a cap of $687 million based on debt capacity and taxpayer impact. The task force will present formal recommendations to Council on May 28, 2026. A potential bond could include funding for transportation, housing, public safety, infrastructure, and cultural projects. The homelessness strategic plan's proposal for a purpose-built shelter to replace the Marshalling Yard could be included. Council directed the City Manager in July 2024 to bring a comprehensive bond for voter approval by November 2026.",
+      "policy_domains": ["Taxation & Public Finance", "Housing & Land Use", "Transportation & Transit", "Public Safety"],
+      "decision_type": "vote",
+      "geographic_scope": "citywide",
+      "public_comment": {
+        "available": true,
+        "deadline": null,
+        "instructions": "Public engagement ongoing at speakupaustin.org. BEATF recommendations due May 28. Council vote to place on ballot expected summer 2026."
+      },
+      "estimated_contestedness": "medium",
+      "importance_score": 82,
+      "impact_score": 70,
+      "quadrant": "act_now",
+      "why_it_matters_to_you": "A $687-700M bond is one of the largest single fiscal decisions Austin voters will make. How the money is allocated between housing, transit, infrastructure, and other priorities directly affects every policy domain you care about. The BEATF is accepting public input NOW — this is the moment to advocate for housing and transit bond funding. The May 28 recommendation will largely determine what goes on the November ballot. Engage before the recommendations crystallize.",
+      "source_url": "https://www.austintexas.gov/department/2026-bond-development"
+    },
+    {
+      "id": "atx-waymo-av-safety",
+      "title": "Waymo AV Blocks Ambulance During Mass Shooting — Council Demands Meeting",
+      "governing_body": "Austin City Council",
+      "governing_body_type": "city_council",
+      "meeting_date": "2026-04-29",
+      "summary": "NEW (March-April 2026): A Waymo autonomous vehicle blocked an ambulance responding to the mass shooting at Buford's on West 6th Street on March 1. Video showed the driverless car stopped across both lanes; an APD officer had to manually move it. ATCEMS Chief Luckritz said the incident didn't affect overall response but it was 'unacceptable' that personnel had to divert attention during an active emergency. Five council members (Qadri, Vela, Velasquez, Ellis, Laine) signed a letter inviting Waymo to a joint Public Safety and Mobility Committee meeting on April 29 (11am-1pm) to discuss coordination with emergency services.",
+      "policy_domains": ["Public Safety", "Technology & Innovation", "Transportation & Transit"],
+      "decision_type": "discussion",
+      "geographic_scope": "citywide",
+      "public_comment": {
+        "available": true,
+        "deadline": null,
+        "instructions": "Joint Public Safety and Mobility Committee meeting April 29, 11am-1pm. Public testimony likely available."
+      },
+      "estimated_contestedness": "medium",
+      "importance_score": 60,
+      "impact_score": 50,
+      "quadrant": "watch",
+      "why_it_matters_to_you": "Autonomous vehicles are a growing presence in Austin and raise real public safety questions. This isn't anti-technology — it's about ensuring AV companies coordinate with emergency services. The council's approach (invite Waymo to discuss, not ban) is the pragmatic response you'd want. Worth attending if you're interested in the intersection of technology policy and public safety.",
+      "source_url": "https://spectrumlocalnews.com/tx/austin/news/2026/03/12/austin-city-council-requests-meeting-with-waymo-after-autonomous-vehicle-blocks-ambulance-during-mass-shooting"
+    },
+    {
+      "id": "atx-project-connect-legal-update",
+      "title": "Project Connect — TX Supreme Court Still Pending, $60M Contract Awarded",
+      "governing_body": "Austin Transit Partnership / Texas Supreme Court",
+      "governing_body_type": "city_council",
+      "meeting_date": null,
+      "summary": "UPDATE (April 2026): The Texas Supreme Court has NOT yet ruled on AG Paxton's challenge to Project Connect's funding mechanism. Oral arguments were heard February 10 — the procedural question is whether the AG's office was allowed to file an early appeal. Meanwhile, the project continues advancing:\n\n• January 2026: Federal environmental review (Record of Decision) signed off by Trump administration — a major milestone.\n• February 18, 2026: Austin Transit Partnership approved a $60 million design-build contract with Austin Rail Constructors for Phase 1.\n• Early field work continues along the corridor.\n• The project is seeking ~$4 billion in federal FTA Capital Investment Grant funding.\n\nThe legal uncertainty remains the single biggest risk: if the court sides with Paxton, the entire $8.23 billion project — and its $166M/year dedicated tax revenue — could be jeopardized. But the continued advancement of contracts and federal milestones signals confidence from ATP leadership.",
+      "policy_domains": ["Transportation & Transit", "Taxation & Public Finance", "Economic Development"],
+      "decision_type": "discussion",
+      "geographic_scope": "citywide",
+      "public_comment": {
+        "available": false,
+        "instructions": "Monitor TX Supreme Court docket for ruling. Support Project Connect through Austin Transit Partnership community engagement."
+      },
+      "estimated_contestedness": "high",
+      "importance_score": 92,
+      "impact_score": 75,
+      "quadrant": "act_now",
+      "why_it_matters_to_you": "Project Connect is the single largest infrastructure investment in Austin's history and the backbone of the transit-oriented development strategy. The $60M contract award and federal environmental clearance are major wins, but the TX Supreme Court ruling hangs over everything. When the ruling comes, organized pro-transit response will be critical — whether celebrating a win or mobilizing against a loss. This remains the highest-stakes item on Austin's civic agenda.",
+      "source_url": "https://www.kut.org/transportation/2026-01-16/austins-light-rail-plans-get-environmental-clearance-from-trump-administration"
     }
   ]
 }

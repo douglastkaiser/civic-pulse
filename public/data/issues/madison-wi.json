@@ -1,5 +1,171 @@
 {
-  "last_scraped": null,
-  "issues": [],
-  "note": "No issues scraped yet. Run pipeline to populate."
+  "last_scraped": "2026-04-03T09:08:33Z",
+  "issues": [
+    {
+      "id": "mad-east-west-brt-construction",
+      "title": "East-West Bus Rapid Transit — Construction Underway",
+      "governing_body": "Madison Common Council / Board of Public Works",
+      "governing_body_type": "city_council",
+      "meeting_date": null,
+      "summary": "Madison's East-West Bus Rapid Transit (BRT) line is in active construction. Recent Legistar filings show multiple change orders: $383,657 for the main BRT body (Contract 8716, Zenith Tech Inc.) and additional work on the Mineral Point Road sidewalk widening for the BRT corridor (Contract 8717, Parisi Construction). This is Madison's largest transit infrastructure investment and will connect the east and west sides of the city with high-frequency, dedicated-lane bus service.",
+      "policy_domains": ["Transportation & Transit", "Economic Development"],
+      "decision_type": "discussion",
+      "geographic_scope": "citywide",
+      "public_comment": {
+        "available": false,
+        "deadline": null,
+        "instructions": "Construction is underway. Monitor Board of Public Works agendas for progress updates and change orders."
+      },
+      "estimated_contestedness": "low",
+      "importance_score": 55,
+      "impact_score": 25,
+      "quadrant": "background",
+      "why_it_matters_to_you": "Madison's BRT is the city's biggest transit investment. Construction change orders suggest active progress. Once operational, it will reshape commuting patterns and potentially influence housing development along the corridor."
+    },
+    {
+      "id": "mad-violence-prevention-grants-2026",
+      "title": "2026 Violence Prevention Grant Program — Funding Decisions",
+      "governing_body": "Board of Health for Madison and Dane County",
+      "governing_body_type": "county_commission",
+      "meeting_date": "2026-04-07",
+      "summary": "The Board of Health is allocating funds from the 2026 Violence Prevention Grant Program. Two specific items are in committee: (1) funding to selected applicants from the RFP process, and (2) an agreement with Focused Interruption for hospital-based violence intervention and community response. A presentation on the grant recommendations was given March 25. Public comment is scheduled for April 7.",
+      "policy_domains": ["Public Safety", "Healthcare Access"],
+      "decision_type": "vote",
+      "geographic_scope": "countywide",
+      "public_comment": {
+        "available": true,
+        "deadline": "2026-04-07",
+        "instructions": "Public comment at the Board of Health meeting on April 7, 2026."
+      },
+      "estimated_contestedness": "low",
+      "importance_score": 60,
+      "impact_score": 35,
+      "quadrant": "watch",
+      "why_it_matters_to_you": "Violence prevention funding reflects Madison's approach to public safety — investing in intervention and community-based programs alongside traditional policing. The hospital-based violence intervention model (Focused Interruption) is an evidence-based approach that addresses the root causes of violence."
+    },
+    {
+      "id": "mad-imagination-center-reindahl",
+      "title": "Imagination Center at Reindahl Park — Construction Updates",
+      "governing_body": "Madison Public Library Board / Board of Public Works",
+      "governing_body_type": "city_council",
+      "meeting_date": null,
+      "summary": "The Imagination Center at Reindahl Park (a new library/community center on Madison's east side) continues construction. A $38,849 change order was approved for CCI Corporate Contractors. The Board of Public Works also awarded a fiber connection contract for the facility. The Library Board has ongoing updates on the project. This is a significant community investment in an underserved area of the city.",
+      "policy_domains": ["Public Education", "Parks & Public Spaces", "Civil Rights & Social Equity"],
+      "decision_type": "discussion",
+      "geographic_scope": "neighborhood",
+      "public_comment": {
+        "available": false,
+        "instructions": "Monitor Library Board and Board of Public Works agendas for construction updates."
+      },
+      "estimated_contestedness": "low",
+      "importance_score": 55,
+      "impact_score": 20,
+      "quadrant": "background",
+      "why_it_matters_to_you": "The Imagination Center is a major public investment in community infrastructure on Madison's east side — the kind of civic investment that strengthens neighborhoods. The Library Board's 2027 Capital Budget Request (also under review) will shape future library investments."
+    },
+    {
+      "id": "mad-new-housing-developments",
+      "title": "Multiple New Housing Subdivisions Advancing — Hill Valley, Starkweather, Midpoint Meadows",
+      "governing_body": "Board of Public Works / Plan Commission",
+      "governing_body_type": "city_council",
+      "meeting_date": "2026-04-21",
+      "summary": "Three subdivision developments are advancing through the Board of Public Works with public improvement approvals scheduled for April 21: Hill Valley Phase 3 (District 1), Starkweather Plat, and Midpoint Meadows Phase 3. Additionally, three infill development projects have been approved for public improvements: 2126 Fordem Avenue, 2150 Commercial Avenue, and 5044 Sheboygan Avenue. A survey map for a property split at 7021 Cottage Grove Road is before the Plan Commission. Together, these represent Madison's ongoing housing growth and development activity.",
+      "policy_domains": ["Housing & Land Use", "Economic Development"],
+      "decision_type": "vote",
+      "geographic_scope": "citywide",
+      "public_comment": {
+        "available": true,
+        "deadline": null,
+        "instructions": "Board of Public Works meets April 21. Plan Commission public hearings are listed on madison.legistar.com."
+      },
+      "estimated_contestedness": "low",
+      "importance_score": 50,
+      "impact_score": 25,
+      "quadrant": "background",
+      "why_it_matters_to_you": "Madison's housing pipeline is active with multiple subdivisions and infill projects moving forward. These developments contribute to the city's housing supply, though individually they are routine approval items."
+    },
+    {
+      "id": "mad-planning-division-2026-work-plan",
+      "title": "Planning Division Annual Report & 2026 Work Plan Highlights",
+      "governing_body": "Plan Commission",
+      "governing_body_type": "city_council",
+      "meeting_date": null,
+      "summary": "The Plan Commission received a presentation on the Planning Division's 2026 work plan and annual report. This document outlines the city's development priorities, zoning initiatives, and comprehensive plan implementation strategy for the coming year. It signals what housing and land use policies Madison will prioritize in 2026.",
+      "policy_domains": ["Housing & Land Use", "Government Transparency"],
+      "decision_type": "discussion",
+      "geographic_scope": "citywide",
+      "public_comment": {
+        "available": false,
+        "instructions": "Review the Planning Division annual report on madison.legistar.com for policy direction."
+      },
+      "estimated_contestedness": "low",
+      "importance_score": 45,
+      "impact_score": 20,
+      "quadrant": "background",
+      "why_it_matters_to_you": "The work plan reveals Madison's planning priorities for 2026 — worth reviewing to understand the city's direction on housing, zoning, and development policy."
+    },
+    {
+      "id": "mad-library-2027-capital-budget",
+      "title": "Madison Public Library 2027 Capital Budget Request",
+      "governing_body": "Madison Public Library Board",
+      "governing_body_type": "city_council",
+      "meeting_date": null,
+      "summary": "The Library Board is reviewing the 2027 Capital Budget Request, which will shape library infrastructure investment for the coming year. Also under review: 2025 carry-forward funds and February 2026 financial reports. The library system is one of Madison's most-used public services.",
+      "policy_domains": ["Public Education", "Taxation & Public Finance"],
+      "decision_type": "discussion",
+      "geographic_scope": "citywide",
+      "public_comment": {
+        "available": true,
+        "deadline": null,
+        "instructions": "Library Board meetings are open to public comment. Check madison.legistar.com for schedule."
+      },
+      "estimated_contestedness": "low",
+      "importance_score": 50,
+      "impact_score": 15,
+      "quadrant": "background",
+      "why_it_matters_to_you": "Library infrastructure is civic infrastructure. The 2027 budget request will determine investment in Madison's library system — a high-salience issue given your education focus."
+    },
+    {
+      "id": "mad-zoning-variances-residential",
+      "title": "Residential Zoning Variances — Keyes Ave & Lake Mendota Drive",
+      "governing_body": "Zoning Board of Appeals",
+      "governing_body_type": "city_council",
+      "meeting_date": "2026-04-16",
+      "summary": "Two residential zoning variance requests are before the Zoning Board of Appeals: (1) a front yard setback variance for a detached garage at 2314 Keyes Ave, and (2) a height variance for an addition at 5125 Lake Mendota Drive. The ZBA meets April 16 with public comment available.",
+      "policy_domains": ["Housing & Land Use"],
+      "decision_type": "vote",
+      "geographic_scope": "neighborhood",
+      "public_comment": {
+        "available": true,
+        "deadline": "2026-04-16",
+        "instructions": "Zoning Board of Appeals meeting April 16. Public comment available."
+      },
+      "estimated_contestedness": "low",
+      "importance_score": 25,
+      "impact_score": 10,
+      "quadrant": "background",
+      "why_it_matters_to_you": "Routine residential variance requests. Low salience unless you are interested in how Madison handles individual property-level zoning decisions."
+    },
+    {
+      "id": "mad-infrastructure-investments-2026",
+      "title": "2026 Infrastructure Investments — Roads, Water, Parks",
+      "governing_body": "Board of Public Works",
+      "governing_body_type": "city_council",
+      "meeting_date": "2026-04-21",
+      "summary": "The Board of Public Works is advancing a large batch of infrastructure projects for April 21 approval: Resurfacing Assessment District (Districts 15, 19), Midvale Boulevard patching (Districts 5, 11), Badger Lane Lift Station replacement, Pressure Zone 4 Interstate Crossing (District 16), Unit Well 12 upgrade (District 11), Manitou Way Storm Box replacement (District 10), Yahara Hills Golf Course Well Transfer Pipe (District 16), Warner Park Pickleball Courts and Worthington Park Futsal Court (Districts 12, 15, 18), and 2026 Parking Garage Maintenance (Districts 2, 4). The 2025 Annual Report for the Board of Public Works is also on the agenda.",
+      "policy_domains": ["Transportation & Transit", "Water & Natural Resources", "Parks & Public Spaces"],
+      "decision_type": "vote",
+      "geographic_scope": "citywide",
+      "public_comment": {
+        "available": true,
+        "deadline": null,
+        "instructions": "Board of Public Works meets April 21. Traffic signal installation at Milwaukee Street & Sprecher Road has a council public hearing."
+      },
+      "estimated_contestedness": "low",
+      "importance_score": 40,
+      "impact_score": 15,
+      "quadrant": "background",
+      "why_it_matters_to_you": "Routine but important infrastructure maintenance across Madison. The traffic signal installation at Milwaukee & Sprecher has a full council public hearing — unusual for a traffic signal, suggesting community interest."
+    }
+  ]
 }

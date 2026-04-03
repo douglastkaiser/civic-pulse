@@ -1,5 +1,5 @@
 {
-  "last_scraped": "2026-03-28T12:00:00Z",
+  "last_scraped": "2026-04-03T09:00:00Z",
   "issues": [
     {
       "id": "oc-bos-district-4-open-seat",
@@ -29,7 +29,7 @@
       "governing_body": "California State Senate",
       "governing_body_type": "state_legislature",
       "meeting_date": "2026-06-02",
-      "summary": "Tom Umberg (D) is termed out of State Senate District 34, creating an open seat. Candidate filing closed March 6, 2026. Three candidates have filed:\n\n• Avelino Valencia (D) — Current Assemblymember for AD-68, frontrunner. Son of immigrant parents, played college football, served in the Assembly since 2022 focusing on consumer protection, gun violence reduction, and government transparency.\n• Josh Newman (D) — Former State Senator (SD-29, served 2016-2018 and 2020-2024). Brings state legislative experience and name recognition.\n• Rhonda Shader (R) — Former Placentia mayor, runner-up for this district in 2022.\n\nThe district covers northern OC including most of Santa Ana, Anaheim, Placentia, Fullerton, Buena Park, La Habra, and the west side of Orange. With two Democrats in the race, the June primary dynamics become important — if both Democrats advance under top-two, the general election is between allies. Valencia's move to the Senate opens AD-68. The state Senate shapes California's housing mandate framework (SB 9, RHNA enforcement, Builder's Remedy) that drives the core YIMBY fight in Orange County.",
+      "summary": "UPDATE (April 2026): CORRECTION — Josh Newman is NOT running for SD-34. He is running for Superintendent of Public Instruction. The race is now a two-person contest:\n\n• Avelino Valencia (D) — Current Assemblymember for AD-68, frontrunner. Son of immigrant parents, played college football, served in the Assembly since 2022 focusing on consumer protection, gun violence reduction, and government transparency.\n• Rhonda Shader (R) — Former Placentia mayor, runner-up for this district in 2022.\n\nThe district covers northern OC including most of Santa Ana, Anaheim, Placentia, Fullerton, Buena Park, La Habra, and the west side of Orange. With only one Democrat (Valencia) and one Republican (Shader), both will advance from the June 2 top-two primary to the November general election. Valencia's move to the Senate opens AD-68. The state Senate shapes California's housing mandate framework (SB 9, RHNA enforcement, Builder's Remedy) that drives the core YIMBY fight in Orange County.",
       "policy_domains": ["Housing & Land Use", "Transportation & Transit", "Government Transparency"],
       "decision_type": "election",
       "geographic_scope": "district",
@@ -42,7 +42,7 @@
       "importance_score": 70,
       "impact_score": 65,
       "quadrant": "watch",
-      "why_it_matters_to_you": "✦ Now a three-way race. With two Democrats (Valencia and Newman) and one Republican (Shader), the top-two primary dynamics favor a D-D general election given the district's Democratic lean. The key question is which Democrat best supports the housing mandate framework. Newman's prior Senate experience vs. Valencia's Assembly track record gives voters a real choice. Evaluate both on RHNA enforcement, Builder's Remedy, and transit investment positions.",
+      "why_it_matters_to_you": "✦ Now a straight D-vs-R race. With Newman out (running for Superintendent), Valencia (D) and Shader (R) will both advance from the June primary. The general election in November will be the real contest. Valencia's Assembly record on housing and governance is the key evaluation point. The state Senate shapes RHNA enforcement and Builder's Remedy — making this seat important for the OC housing fight.",
       "source_url": "https://senate.ca.gov/"
     },
     {
@@ -51,7 +51,7 @@
       "governing_body": "California State Assembly",
       "governing_body_type": "state_legislature",
       "meeting_date": "2026-06-02",
-      "summary": "Avelino Valencia's move to the SD-34 Senate race opens Assembly District 68, which covers much of Santa Ana and surrounding areas. Two candidates have filed:\n\n• Jessie Lopez (D) — Santa Ana city councilor\n• David Peñaloza (D) — Santa Ana city councilor. Valencia has endorsed Peñaloza.\n\nWith two Democrats and no Republican filed, the June primary will determine the general election matchup. Valencia's endorsement of Peñaloza gives him an early organizational advantage. Both candidates come from Santa Ana city council, so differentiation will likely be on policy specifics and community connections.",
+      "summary": "UPDATE (April 2026): Fundraising and endorsement picture is clearer.\n\n• David Peñaloza (D) — Santa Ana city councilor. Endorsed by incumbent Avelino Valencia. Has raised $142,897 — nearly double Lopez's total. Organizational advantage from Valencia's endorsement and network.\n\n• Jessie Lopez (D) — Santa Ana city councilor. Endorsed by the California Legislative Women's Caucus (announced Feb 26, 2026). Has raised $73,737.\n\nWith two Democrats and no Republican filed, the June 2 primary will determine the general election matchup. Both candidates come from Santa Ana city council, so differentiation is on policy specifics, community connections, and institutional support.",
       "policy_domains": ["Housing & Land Use", "Government Transparency"],
       "decision_type": "election",
       "geographic_scope": "district",
@@ -63,7 +63,7 @@
       "importance_score": 55,
       "impact_score": 45,
       "quadrant": "watch",
-      "why_it_matters_to_you": "✦ The Assemblymember for AD-68 votes on state housing legislation that shapes the OC YIMBY fight. With both candidates being Santa Ana city councilors, evaluate their records on housing development, affordability, and state mandate compliance. Valencia's endorsement of Peñaloza signals continuity with current policy direction.",
+      "why_it_matters_to_you": "✦ The Assemblymember for AD-68 votes on state housing legislation that shapes the OC YIMBY fight. Peñaloza has a significant fundraising lead ($143K vs $74K) and Valencia's endorsement, while Lopez has the Women's Caucus backing. Evaluate their city council records on housing development and state mandate compliance.",
       "source_url": "https://assembly.ca.gov/"
     },
     {
@@ -72,7 +72,7 @@
       "governing_body": "California Governor",
       "governing_body_type": "state_legislature",
       "meeting_date": "2026-06-02",
-      "summary": "Governor Newsom is termed out. The June 2 top-two primary features 8+ Democrats and 2-3 Republicans, creating a significant risk of Democratic vote fragmentation that could produce a Republican-vs-Republican November runoff.\n\nKey Democratic candidates: Katie Porter, Xavier Becerra, Antonio Villaraigosa, Tony Thurmond, Betty Yee, Tom Steyer, Matt Mahan (San Jose Mayor), Rep. Eric Swalwell, Ian Calderon.\n\nKey Republican candidates: Chad Bianco (Riverside County Sheriff), Steve Hilton.\n\nHousing is the #1 voter issue. All Democratic candidates support building more housing and reducing regulatory barriers. Key differences: Porter and Becerra emphasize state enforcement against local obstruction (aligned with YIMBY priorities); Hilton blames climate policies for housing costs. At the February state Democratic Party convention, delegates were so split that no candidate earned the party endorsement.\n\nPer PPIC polling, voters rank cost of living/economy and housing costs as their top two issues. The California Association of Realtors notes 80%+ of families cannot afford the state's $900K median-priced home.\n\nThe next governor determines whether California's housing enforcement posture (RHNA, Builder's Remedy, AG referrals) continues or weakens — directly affecting the OC housing fight.",
+      "summary": "UPDATE (April 2026): New polling shows the Democratic fragmentation risk is real and worsening.\n\n• Emerson Poll (March 7-9): Swalwell 17%, Hilton 13%, Steyer 11%, Bianco 11%, Porter 8%. 25% undecided.\n• UC Berkeley IGS Poll (mid-March): Hilton 17%, Bianco 16%, Swalwell 13%, Porter 13%.\n\nTwo Republicans (Hilton, Bianco) are competitive for top-two positions. If Democrats split their votes 8 ways, an R-vs-R November runoff is a real possibility.\n\nKey endorsements: Adam Schiff endorsed Swalwell; Toni Atkins endorsed Steyer; Rick Caruso endorsed Matt Mahan. The California Federation of Unions endorsed four Democrats rather than unifying behind one — exacerbating fragmentation.\n\nA televised debate is scheduled for April 22.\n\nAmong voters who want the next Governor to stand up to the Trump administration: 25% Swalwell, 15% Steyer, 12% Porter, 28% undecided. Among voters who want the next Governor to work with Trump: 36% Hilton, 31% Bianco.\n\nHousing remains the #1 voter issue. The next governor determines whether California's housing enforcement posture (RHNA, Builder's Remedy, AG referrals) continues or weakens — directly affecting the OC housing fight.",
       "policy_domains": ["Housing & Land Use", "Government Transparency"],
       "decision_type": "election",
       "geographic_scope": "regional",
@@ -84,7 +84,7 @@
       "importance_score": 75,
       "impact_score": 70,
       "quadrant": "act_now",
-      "why_it_matters_to_you": "✦ The governor is the enforcement engine for California's housing mandates. Newsom's March 25 warning to 15 noncompliant cities — with AG referrals threatened — shows how the governor's posture directly shapes the YIMBY fight. If a Republican wins (possible due to Dem fragmentation), housing mandate enforcement could weaken significantly. If a housing-committed Democrat wins, the enforcement framework strengthens. This is upstream of every OC housing fight. Research which Democratic candidates are strongest on enforcement and vote strategically in the top-two primary.",
+      "why_it_matters_to_you": "✦ The polls confirm the nightmare scenario is plausible: with Democrats splitting 8 ways and Hilton/Bianco at 13-17% each, an R-vs-R November runoff is possible. Watch the April 22 debate for whether any Democrat breaks through. Swalwell has the most momentum but 25% undecided means the race is fluid. Strategic voting in the June primary may be necessary to ensure at least one Democrat makes top-two. This is upstream of every OC housing fight — the governor controls RHNA enforcement and AG referrals.",
       "source_url": "https://calmatters.org/politics/2026/03/california-governor-candidates/"
     },
     {
@@ -115,7 +115,7 @@
       "governing_body": "City of Irvine City Council",
       "governing_body_type": "city_council",
       "meeting_date": null,
-      "summary": "UPDATE (March 2026): The Irvine General Plan was ADOPTED by City Council on August 13, 2024, with the full 57,656-unit scenario — one of the largest zoning capacity increases in Southern California history. The plan distributes housing across key areas: 26,607 units in Spectrum, 15,000 at Irvine Business Complex, 5,252 at Great Park Neighborhoods Transit Village, plus 8,536 units elsewhere and 2,261 tied to approved developments.\n\nThe fight now shifts to implementation. The Irvine Company has proposed converting the Oak Creek Golf Course and adjacent parcels (~216 acres total) into a new master-planned community dubbed 'Oak Park Village' — 1,500 for-sale houses on the golf course and 1,600 apartments. The City Council approved a Memorandum of Understanding (MOU) with the Irvine Company on a 7-0 vote, authorizing staff to proceed with detailed studies.\n\nMajor update (January 2026): The Irvine Company unveiled plans to include a 50-acre nature park in the development, which would reduce the total housing unit count from the area's approved 5,000-unit capacity. Community benefit fees of $90.4 million over 8 years would fund public projects including expansion of Irvine CONNECT transit.\n\nControversy: Critics argue the golf course is protected open space under a 1988 voter-approved ballot initiative. A committee is collecting signatures from 19,000+ registered voters to put the decision before voters on the November 2026 ballot. Mayor Agran and other councilmembers have supported the idea of a voter decision. Environmental and traffic reviews are underway with formal public hearings expected late 2026.\n\nThe November 2026 council elections (3 seats + mayor) remain critical — if the 5-2 Democratic majority shifts, implementation of the General Plan could be slowed or undermined through permitting and zoning decisions.",
+      "summary": "UPDATE (April 2026): The Irvine Planning Commission UNANIMOUSLY voted to recommend a zoning change enabling the Irvine Company's revised Oak Creek development plan. The proposal now includes a 50-acre nature park creating a trail corridor from Limestone Canyon through central Irvine to Quail Hill. City Council vote is pending.\n\nThe Irvine Company's revised offer includes: $96 million in community benefit fees, 2,000 rent vouchers ($72 million value), and land donations. The original 3,100-unit plan has been modified — the nature park reduces total housing from the area's approved 5,000-unit capacity.\n\nThe Irvine General Plan (ADOPTED August 13, 2024) with the full 57,656-unit scenario remains in implementation phase. Key areas: 26,607 units in Spectrum, 15,000 at Irvine Business Complex, 5,252 at Great Park Neighborhoods Transit Village.\n\nOpposition: Former mayors Sally Anne Sheridan and Christina Shea are gathering signatures for a citizen's initiative, arguing the golf course is protected under a 1988 voter-approved open space initiative. If enough signatures are collected (~19,000 needed), the decision goes to voters on the November 2026 ballot.\n\nThe November 2026 council elections (3 seats + mayor) remain critical — if the 5-2 Democratic majority shifts, implementation of the General Plan could be slowed.",
       "policy_domains": ["Housing & Land Use", "Economic Development", "Transportation & Transit"],
       "decision_type": "vote",
       "geographic_scope": "citywide",
@@ -128,7 +128,7 @@
       "importance_score": 80,
       "impact_score": 55,
       "quadrant": "watch",
-      "why_it_matters_to_you": "✦ The General Plan was adopted — a major YIMBY win. The 57,656-unit scenario survived. Now the fight is implementation: will the zoning capacity actually produce housing? The Irvine Company's 3,100-unit Oak Creek proposal is the first major test — if a monopoly landlord converts golf courses to housing, it signals real market response to the new zoning. Monitor the November council elections closely — a majority shift could slow implementation. Even from outside Irvine, Irvine's housing supply directly affects OC-wide rents and availability.",
+      "why_it_matters_to_you": "✦ The Planning Commission's unanimous recommendation is a strong signal. The Irvine Company's revised package — $96M in fees, 2,000 rent vouchers, nature park — makes this harder to oppose. But the signature-gathering effort for a ballot initiative could delay everything. The City Council vote will be the next decisive moment. Even from outside Irvine, Irvine's housing supply directly affects OC-wide rents and availability.",
       "source_url": "https://cityofirvine.org/community-development/current-general-plan"
     },
     {
@@ -137,7 +137,7 @@
       "governing_body": "OCTA (Orange County Transportation Authority)",
       "governing_body_type": "transit_authority",
       "meeting_date": null,
-      "summary": "UPDATE (March 2026): The OC Streetcar ($649M project, 4.15 miles, Santa Ana to Garden Grove) is 95% complete and in active street testing. On February 20, street testing began on Santa Ana Boulevard between Raitt Street and Sasscer Park. Eight Siemens S700 vehicles (capacity: 211 passengers each, 62 seated) have been delivered. Travel time will be 22 minutes with 10-15 minute frequency across 10 stops in each direction. Estimated daily ridership: 7,300 passengers. Fares will match the bus system: $2 one way or $5 day pass. Service planned daily from 6am to 11pm with extended weekend hours. OCTA's CEO said the testing phase could take 6-12 months, so the Spring 2026 public launch target may slip. The project has faced years of delays (originally expected 2021) including human remains discovery at a construction site and contractor lawsuits. Funded by federal, state, and local dollars including Measure M.",
+      "summary": "UPDATE (April 2026): The OC Streetcar ($649M project, 4.15 miles, Santa Ana to Garden Grove) is 92-95% complete. Street testing began February 20 on Santa Ana Boulevard. The public launch target has slipped from Spring 2026 to August 1, 2026, as the testing phase continues. Eight Siemens S700 vehicles (capacity: 211 passengers each, 62 seated) have been delivered. Travel time will be 22 minutes with 10-15 minute frequency across 10 stops in each direction. Estimated daily ridership: 7,300 passengers. Fares: $2 one way or $5 day pass. Service planned daily from 6am to 11pm with extended weekend hours. The project has faced years of delays (originally expected 2021) including human remains discovery and contractor lawsuits. Funded by federal, state, and local dollars including Measure M.",
       "policy_domains": ["Transportation & Transit", "Economic Development"],
       "decision_type": "discussion",
       "geographic_scope": "regional",
@@ -218,6 +218,50 @@
       "quadrant": "background",
       "why_it_matters_to_you": "✦ This reinforces the state enforcement framework that makes the OC YIMBY fight possible. California's willingness to escalate to AG referrals means local noncompliance has real consequences. Orange's absence from the list is good news — it confirms the city achieved compliance. But the broader message is that the state is getting more aggressive on enforcement. The November 2026 Governor's race (Newsom is termed out) will determine whether this enforcement posture continues. Support candidates who will maintain housing mandate enforcement.",
       "source_url": "https://www.gov.ca.gov/2026/03/25/governor-newsom-issues-final-warning-to-15-communities-violating-state-housing-laws/"
+    },
+    {
+      "id": "oc-cd40-kim-calvert",
+      "title": "NEW: CD-40 — Young Kim vs Ken Calvert (R-vs-R Incumbent Clash)",
+      "governing_body": "U.S. House of Representatives",
+      "governing_body_type": "state_legislature",
+      "meeting_date": "2026-06-02",
+      "summary": "NEW (April 2026): Proposition 50 (approved Nov 2025) redrew California's congressional districts, creating a new CD-40 that pits two Republican incumbents against each other: Rep. Young Kim (current CD-40) and Rep. Ken Calvert (current CD-41). Calvert represents 51% of the new district's population; Kim represents 35%.\n\nFundraising: Kim has a commanding $2 million+ cash advantage over Calvert, outraising him in Q4 2025. The new district spans eastern Orange County cities (Villa Park, Mission Viejo) through the Inland Empire (Murrieta, Menifee).\n\nTen candidates total are in the June 2 top-two primary, including Democrats Joe Kerr and Esther Kim Varet. The primary dynamics matter: if both Republicans advance, a D could be shut out of the November general. If a Democrat makes top-two alongside one Republican, the general election becomes competitive in a district that includes OC territory.",
+      "policy_domains": ["Government Transparency", "Housing & Land Use"],
+      "decision_type": "election",
+      "geographic_scope": "regional",
+      "public_comment": {
+        "available": false,
+        "deadline": null,
+        "instructions": "Register to vote for June 2 primary. Research candidates' housing and infrastructure positions."
+      },
+      "estimated_contestedness": "high",
+      "importance_score": 50,
+      "impact_score": 40,
+      "quadrant": "watch",
+      "why_it_matters_to_you": "✦ Prop 50's redistricting reshuffled OC's federal representation. The Kim-Calvert clash is unusual — two incumbents in the same party fighting for the same seat. For housing advocates, the key question is which candidates (of all 10) best support federal housing and transit funding. Monitor whether a Democrat can make the top-two — that would make this competitive in November.",
+      "source_url": "https://www.nbclosangeles.com/news/local/young-kim-ken-calvert-district-40-orange-county-midterm-elections/3801674/"
+    },
+    {
+      "id": "oc-homelessness-enforcement-post-grants-pass",
+      "title": "OC Homelessness Enforcement — Anti-Camping Ordinance & 2026 PIT Count",
+      "governing_body": "Orange County Board of Supervisors",
+      "governing_body_type": "county_commission",
+      "meeting_date": null,
+      "summary": "UPDATE (April 2026): Following the Supreme Court's Grants Pass ruling, Orange County has significantly escalated homelessness enforcement.\n\n• November 2025: Board of Supervisors passed anti-camping ordinance (4-1 vote). Multiple cities (Newport Beach, San Clemente, Aliso Viejo) adopted similar local ordinances.\n• March 2026: Davis Vanguard reported OC residents serving jail time for unlawful camping violations.\n• January 26-29, 2026: 2026 Point-in-Time (PIT) Count conducted. Results not yet published.\n• 2026 NOFA: $20.9 million in supportive housing funding released, plus up to 100 project-based vouchers.\n• Grand Jury recommendation: OC should prioritize homelessness prevention over reactive measures by June 30, 2026.\n• From July 2021 to February 2026: 449 encampments have been removed countywide.\n\nThe Board of Supervisors majority (3-2 D) shapes whether enforcement is paired with services or becomes punitive-only. The District 4 and 5 races directly affect this balance.",
+      "policy_domains": ["Public Safety", "Housing & Land Use", "Healthcare Access"],
+      "decision_type": "discussion",
+      "geographic_scope": "countywide",
+      "public_comment": {
+        "available": true,
+        "deadline": null,
+        "instructions": "Board of Supervisors meetings. Monitor Grand Jury response deadline (June 30). Track PIT Count results when published."
+      },
+      "estimated_contestedness": "high",
+      "importance_score": 60,
+      "impact_score": 50,
+      "quadrant": "watch",
+      "why_it_matters_to_you": "✦ The post-Grants Pass enforcement landscape is shifting rapidly. The anti-camping ordinance and jail time for camping represent a more aggressive posture. The Grand Jury's call for prevention over reaction is the right framing — similar to the Austin Safe & Sound dual-track approach. The 2026 PIT Count results will be the key data point. The Board majority determines whether enforcement is paired with services. This connects directly to the District 4/5 races.",
+      "source_url": "https://laist.com/news/housing-homelessness/orange-county-cities-ramp-up-anti-camping-laws-after-supreme-court-ruling-and-newsoms-order"
     }
   ]
 }
