@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { loadProfile, loadFreshness, PROFILE_ID } from '../lib/data'
+import { loadProfile, loadFreshness, loadLocation, PROFILE_ID } from '../lib/data'
 import { useAuth } from '../lib/auth'
 import { getUserProfile } from '../lib/userStore'
 import ManifestoPanel from './ManifestoPanel'
@@ -54,31 +54,47 @@ function EmptyDashboard({ user }) {
 export default function PersonalDashboard() {
   const { user } = useAuth()
   const [profile, setProfile] = useState(null)
+  const [location, setLocation] = useState(null)
   const [loading, setLoading] = useState(true)
   const [isEmpty, setIsEmpty] = useState(false)
   const [view, setView] = useState('action')
 
   useEffect(() => {
     const load = async () => {
+      let loadedProfile = null
       try {
         // Try loading the user's Firestore profile first
         const userProfile = await getUserProfile(user.uid)
         if (userProfile?.manifesto) {
+          loadedProfile = userProfile
           setProfile(userProfile)
-          setLoading(false)
-          return
+        } else {
+          // Fall back to static profile data if it exists
+          const [prof] = await Promise.all([
+            loadProfile(PROFILE_ID),
+            loadFreshness(),
+          ])
+          loadedProfile = prof
+          setProfile(prof)
         }
-
-        // Fall back to static profile data if it exists
-        const [prof] = await Promise.all([
-          loadProfile(PROFILE_ID),
-          loadFreshness(),
-        ])
-        setProfile(prof)
       } catch {
         // No static data and no Firestore data → empty state
         setIsEmpty(true)
       }
+
+      // Load primary location's landscape so the compass has reference groups
+      const primaryLoc =
+        loadedProfile?.locations?.find((l) => l.primary) ||
+        loadedProfile?.locations?.[0]
+      if (primaryLoc?.id) {
+        try {
+          const loc = await loadLocation(primaryLoc.id)
+          setLocation(loc)
+        } catch {
+          // Missing landscape — fall back to "You only" compass
+        }
+      }
+
       setLoading(false)
     }
     load()
@@ -118,12 +134,31 @@ export default function PersonalDashboard() {
     return <EmptyDashboard user={user} />
   }
 
-  // Political compass: user position only (no location entities)
+  // Political compass: user position + a few reference groups from primary location
   const compassEntities = []
   const purple = getCssVar('--accent-purple')
+  const blue = getCssVar('--accent-blue')
+  const red = getCssVar('--accent-red')
+  const amber = getCssVar('--accent-amber')
+  const green = getCssVar('--accent-green')
 
   if (profile?.political_compass?.user) {
     compassEntities.push({ name: 'You', ...profile.political_compass.user, color: purple, highlighted: true })
+  }
+
+  if (location?.political_compass_entities) {
+    const pce = location.political_compass_entities
+    if (pce.city_austin) compassEntities.push({ name: 'Austin', ...pce.city_austin, color: blue })
+    if (pce.state_texas) compassEntities.push({ name: 'Texas', ...pce.state_texas, color: red })
+    if (pce.orange_county) compassEntities.push({ name: 'Orange Co', ...pce.orange_county, color: amber })
+    if (pce.california_democratic_party) compassEntities.push({ name: 'CA Dems', ...pce.california_democratic_party, color: blue })
+    if (pce.democratic_party) compassEntities.push({ name: 'Dem Party', ...pce.democratic_party, color: blue })
+    if (pce.republican_party) compassEntities.push({ name: 'GOP', ...pce.republican_party, color: red })
+    if (pce.local_orgs) {
+      pce.local_orgs.slice(0, 2).forEach((org) => {
+        compassEntities.push({ name: org.name, ...org, color: green })
+      })
+    }
   }
 
   const getExportData = () => ({
