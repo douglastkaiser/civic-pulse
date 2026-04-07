@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import AiGeneratedBadge from '../shared/AiGeneratedBadge'
+import OfficialAvatar from './OfficialAvatar'
 import { getCssVar } from '../../lib/themeColors'
 
 function AlignmentGauge({ score }) {
@@ -115,8 +116,9 @@ export default function OfficialDetail({ official, onClose, useWeighted }) {
     <div className="h-full flex flex-col overflow-hidden animate-fade-in">
       {/* Header */}
       <div className="flex-shrink-0 p-4 border-b border-border">
-        <div className="flex items-start justify-between gap-2">
-          <div className="min-w-0">
+        <div className="flex items-start justify-between gap-3">
+          <OfficialAvatar official={official} size="lg" />
+          <div className="min-w-0 flex-1">
             <h3 className="text-lg font-bold text-text-primary leading-tight">{official.name}</h3>
             <div className="text-xs text-text-secondary mt-0.5">{official.title}</div>
             {official.scope && (

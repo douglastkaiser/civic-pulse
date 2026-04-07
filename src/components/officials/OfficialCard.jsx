@@ -1,4 +1,5 @@
 import { getCssVar } from '../../lib/themeColors'
+import OfficialAvatar from './OfficialAvatar'
 
 export default function OfficialCard({ official, selected, onClick, useWeighted }) {
   const rawScore = official.alignment?.score ?? 0
@@ -35,7 +36,8 @@ export default function OfficialCard({ official, selected, onClick, useWeighted 
           : 'bg-bg-elevated hover:bg-bg-elevated/80 hover:border-r-border hover:shadow-md hover:shadow-black/20'
       }`}
     >
-      <div className="flex items-start justify-between gap-2">
+      <div className="flex items-start justify-between gap-2.5">
+        <OfficialAvatar official={official} size="sm" />
         <div className="min-w-0 flex-1">
           <div className="flex items-center gap-1.5">
             <span className={`w-1.5 h-1.5 rounded-full flex-shrink-0 ${priorityDot}`} />
