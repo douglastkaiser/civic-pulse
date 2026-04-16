@@ -2,15 +2,15 @@
   "locations": {
     "austin-78702": {
       "landscape_scraped": "2026-03-28T12:00:00Z",
-      "issues_scraped": "2026-04-14T12:00:00Z",
-      "issues_scored": "2026-04-14T12:00:00Z",
+      "issues_scraped": "2026-04-16T12:00:00Z",
+      "issues_scored": "2026-04-16T12:00:00Z",
       "next_steps_generated": "2026-03-16T12:00:00Z",
       "needs_rescrape": false
     },
     "orange-92868": {
       "landscape_scraped": "2026-03-28T12:00:00Z",
-      "issues_scraped": "2026-04-14T12:00:00Z",
-      "issues_scored": "2026-04-14T12:00:00Z",
+      "issues_scraped": "2026-04-16T12:00:00Z",
+      "issues_scored": "2026-04-16T12:00:00Z",
       "next_steps_generated": null,
       "needs_rescrape": false
     }
@@ -24,9 +24,9 @@
     "austin-78702": {
       "manifesto_generated": "2026-03-16T12:00:00Z",
       "manifesto_inputs_complete": true,
-      "location_scraped": "2026-04-14T12:00:00Z",
-      "issues_scraped": "2026-04-14T12:00:00Z",
-      "issues_scored": "2026-04-14T12:00:00Z",
+      "location_scraped": "2026-04-16T12:00:00Z",
+      "issues_scraped": "2026-04-16T12:00:00Z",
+      "issues_scored": "2026-04-16T12:00:00Z",
       "next_steps_generated": "2026-03-16T12:00:00Z",
       "needs_rescrape": false,
       "needs_manifesto_update": false
@@ -44,9 +44,9 @@
     "madison-wi": {
       "manifesto_generated": "2026-03-16T12:00:00Z",
       "manifesto_inputs_complete": false,
-      "location_scraped": "2026-04-14T12:00:00Z",
-      "issues_scraped": "2026-04-14T12:00:00Z",
-      "issues_scored": "2026-04-14T12:00:00Z",
+      "location_scraped": "2026-04-16T12:00:00Z",
+      "issues_scraped": "2026-04-16T12:00:00Z",
+      "issues_scored": "2026-04-16T12:00:00Z",
       "next_steps_generated": null,
       "needs_rescrape": false,
       "needs_manifesto_update": true
@@ -72,7 +72,7 @@
       "needs_manifesto_update": true
     }
   },
-  "last_full_run": "2026-04-14T12:00:00Z",
+  "last_full_run": "2026-04-16T12:00:00Z",
   "last_run_status": "success",
   "last_run_errors": []
 }
