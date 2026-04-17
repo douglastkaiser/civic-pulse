@@ -1,5 +1,5 @@
 {
-  "last_scraped": "2026-04-03T09:08:33Z",
+  "last_scraped": "2026-04-17T12:00:00Z",
   "issues": [
     {
       "id": "mad-east-west-brt-construction",
@@ -7,7 +7,7 @@
       "governing_body": "Madison Common Council / Board of Public Works",
       "governing_body_type": "city_council",
       "meeting_date": null,
-      "summary": "Madison's East-West Bus Rapid Transit (BRT) line is in active construction. Recent Legistar filings show multiple change orders: $383,657 for the main BRT body (Contract 8716, Zenith Tech Inc.) and additional work on the Mineral Point Road sidewalk widening for the BRT corridor (Contract 8717, Parisi Construction). This is Madison's largest transit infrastructure investment and will connect the east and west sides of the city with high-frequency, dedicated-lane bus service.",
+      "summary": "UPDATE (April 16, 2026): Madison's East-West Bus Rapid Transit (BRT) line (Rapid Route A) is nearing completion — the line is entering the homestretch with service expected by summer 2026. Recent Legistar filings show multiple change orders: $383,657 for the main BRT body (Contract 8716, Zenith Tech Inc.) and additional work on the Mineral Point Road sidewalk widening for the BRT corridor (Contract 8717, Parisi Construction). The route runs along East Washington Avenue through the city center and UW-Madison campus to West Towne Mall.\n\nThe North-South BRT line (Rapid Route B) has secured federal funding covering 79% of its capital budget ($110 million federal grant announced under the Biden-Harris administration). Route B will have 24 stations and two charging terminals stretching approximately 12.5-15 miles from Kennedy Road on the North Side into Fitchburg. Construction is expected to begin in 2026, with service starting in 2028. This represents a major expansion of Madison's transit infrastructure — two BRT lines creating a cross-shaped rapid transit network that will reshape commuting patterns and create transit-oriented development opportunities along both corridors.",
       "policy_domains": ["Transportation & Transit", "Economic Development"],
       "decision_type": "discussion",
       "geographic_scope": "citywide",
@@ -20,7 +20,7 @@
       "importance_score": 55,
       "impact_score": 25,
       "quadrant": "background",
-      "why_it_matters_to_you": "Madison's BRT is the city's biggest transit investment. Construction change orders suggest active progress. Once operational, it will reshape commuting patterns and potentially influence housing development along the corridor."
+      "why_it_matters_to_you": "Madison's BRT system is becoming the city's biggest transit investment — now with TWO lines funded and moving forward. The East-West line is nearing completion, and the North-South line has secured 79% federal funding. Together they'll create a cross-shaped rapid transit network that reshapes commuting patterns and creates transit-oriented development opportunities along both corridors."
     },
     {
       "id": "mad-violence-prevention-grants-2026",
@@ -69,7 +69,7 @@
       "governing_body": "Board of Public Works / Plan Commission",
       "governing_body_type": "city_council",
       "meeting_date": "2026-04-21",
-      "summary": "Three subdivision developments are advancing through the Board of Public Works with public improvement approvals scheduled for April 21: Hill Valley Phase 3 (District 1), Starkweather Plat, and Midpoint Meadows Phase 3. Additionally, three infill development projects have been approved for public improvements: 2126 Fordem Avenue, 2150 Commercial Avenue, and 5044 Sheboygan Avenue. A survey map for a property split at 7021 Cottage Grove Road is before the Plan Commission. Together, these represent Madison's ongoing housing growth and development activity.",
+      "summary": "UPDATE (April 16, 2026): Multiple housing developments continue advancing. Three subdivisions are before the Board of Public Works with public improvement approvals scheduled for April 21: Hill Valley Phase 3 (District 1), Starkweather Plat, and Midpoint Meadows Phase 3. Additionally, three infill development projects have been approved: 2126 Fordem Avenue, 2150 Commercial Avenue, and 5044 Sheboygan Avenue.\n\nBROADER HOUSING PROGRESS: The Common Council approved more than $6 million in February 2026 for affordable homeownership programs — creating 29 new affordable owner-occupied homes and funding 5 homeownership service programs. The city also allocated nearly $14 million from the Affordable Housing Fund for new rental developments, including a new 'cottage courts' housing type — collections of up to eight homes arranged around a shared courtyard on a single lot.\n\nPD ZONING UPDATE (April 17): The city is moving forward with replacing single/two-family Planned Development (PD) zoning with conventional zoning districts. Public outreach is scheduled April through June 2026, including informational materials, public information meetings, and input opportunities. The Plan Commission heard a presentation on the process, and staff is now conducting the outreach phase. This is a significant simplification that could make housing development more predictable and easier to build.\n\nMayor Rhodes-Conway will host a virtual Q&A session on April 23 with updates on citywide initiatives including housing, public safety, Vision Zero, and budget engagement.",
       "policy_domains": ["Housing & Land Use", "Economic Development"],
       "decision_type": "vote",
       "geographic_scope": "citywide",
