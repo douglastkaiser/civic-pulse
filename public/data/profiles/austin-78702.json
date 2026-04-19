@@ -139,12 +139,20 @@
     ],
     "this_month": [
       {
-        "action": "Engage on 2026 Bond — BEATF presents April 27",
-        "detail": "Bond Election Advisory Task Force presents $687-700M recommendation to Mayor/Council on April 27 — 9 days away. Last window to influence allocations for housing, transit, infrastructure. Submit comments at speakupaustin.org.",
+        "action": "Engage on 2026 Bond — BEATF final recommendation imminent",
+        "detail": "Bond recommendation expected late April/May. CRITICAL CONTEXT: FY2027 budget forecast (April 16) projects $16.8M social services cuts and $26.4M deficit. Bond is now the primary alternative funding mechanism for housing and social services. Submit comments at speakupaustin.org.",
         "time": "30 min",
         "impact": "VERY HIGH",
-        "reason": "$700M allocation shapes every policy domain you care about. Window closing.",
-        "llm_prompt": "The Austin Bond Election Advisory Task Force (BEATF) presents its $687-700M bond recommendation to the Mayor and Council on April 27, 2026. I'm a pro-housing, pro-transit YIMBY in 78702. Help me draft a concise public comment for speakupaustin.org that advocates for maximizing the affordable housing and transportation allocations. Reference the HOME Initiative's success (16% rent decline) and Project Connect's construction timeline as reasons to invest heavily in housing and transit infrastructure. Keep it under 300 words."
+        "reason": "Budget cuts make bond allocation even more critical. $700M shapes every policy domain.",
+        "llm_prompt": "The Austin Bond Election Advisory Task Force (BEATF) is presenting its $687-700M bond recommendation. Meanwhile, the FY2027 budget forecast (April 16) projects $16.8M in social services cuts and a $26.4M deficit under a no-new-revenue tax rate. I'm a pro-housing, pro-transit YIMBY in 78702. Help me draft a concise public comment for speakupaustin.org that: (1) advocates for maximizing affordable housing and transportation allocations, (2) references budget cuts making bond investment more urgent, (3) cites the HOME Initiative's success (16% rent decline). Keep it under 300 words."
+      },
+      {
+        "action": "Track FY2027 budget impact on housing/social services",
+        "detail": "FY2027 forecast: $16.8M social services cuts (permanent supportive housing, workforce development targeted). $5.28M already cut this year. $26.4M projected deficit. Directly threatens HSO $101M funding ask.",
+        "time": "Ongoing",
+        "impact": "HIGH",
+        "reason": "Budget cuts threaten the HSO strategic plan and affordable housing programs",
+        "llm_prompt": null
       },
       {
         "action": "Monitor District 1 council race — 8+ candidates now",
