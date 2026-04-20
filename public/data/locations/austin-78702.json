@@ -202,6 +202,57 @@
         "shared_stakes": "Residents across political lines want safer streets, attainable housing, and predictable budgeting that protects core services.",
         "anti_tribal_framing": "Compare candidates on implementation results and willingness to solve tradeoffs transparently, instead of sorting them into ideological camps."
       }
+    },
+    {
+      "election_type": "ballot_measure",
+      "measure": "Austin Proposition A — Affordable Housing and Mobility Bond",
+      "date": "2026-11-03",
+      "relevance": "If approved, this bond would shape Austin's housing production and transportation investments for the next decade while increasing debt-service pressure in future budgets.",
+      "action": "Read the fiscal note and oversight language before voting. Compare whether safeguards are strong enough for your risk tolerance, and identify which project categories you most want prioritized.",
+      "race_identifier": "atx-prop-a-housing-mobility-bond-2026-11",
+      "associated_organizations": [
+        {
+          "org_id": "austin-yimby-action",
+          "name": "Austin YIMBY Action",
+          "applicability": "directly_applicable",
+          "relevance_note": "Bond structure could accelerate infill housing and transit-supportive infrastructure."
+        },
+        {
+          "org_id": "austin-abundance-project",
+          "name": "Austin Abundance Project",
+          "applicability": "directly_applicable",
+          "relevance_note": "Measure directly affects family affordability through housing supply and mobility investments."
+        },
+        {
+          "org_id": "austin-safe-and-sound",
+          "name": "Austin Safe & Sound",
+          "applicability": "not_directly_applicable",
+          "relevance_note": "Public safety impacts are secondary to the measure's housing and transportation scope."
+        }
+      ],
+      "measure_bridge_fields": {
+        "what_each_side_thinks_measure_does": {
+          "supporters": "Creates dedicated, long-horizon capital funding so Austin can build more affordable homes near transit and address infrastructure bottlenecks before costs rise further.",
+          "opponents": "Commits taxpayers to a large debt load with uncertain delivery timelines, potentially crowding out future city services if projects run over budget."
+        },
+        "empirical_claims_by_side": {
+          "supporters": [
+            "Delaying capital projects tends to raise total construction costs due to inflation and rebidding.",
+            "Housing supply expansion near jobs and transit can reduce long-run rent pressure relative to constrained-building scenarios."
+          ],
+          "opponents": [
+            "Recent municipal megaprojects have exceeded initial budgets, suggesting optimistic cost estimates may understate true liabilities.",
+            "Debt-service growth can consume general-fund flexibility during downturns, reducing options for core services."
+          ]
+        },
+        "values_vs_facts_disagreement": "Both sides generally agree Austin needs more housing and better mobility, but they prioritize different risks: supporters emphasize urgency and underbuilding costs, while opponents emphasize fiscal caution and execution risk.",
+        "what_could_change_a_reasonable_opponents_mind": "A binding independent oversight board with milestone-based fund release, plus a public annual audit that pauses new spending if cost or delivery targets are missed."
+      },
+      "bridge_building": {
+        "why_this_race_matters_to_everyone": "Even residents who never follow bond politics are affected by housing availability, commute reliability, and property-tax tradeoffs tied to major capital plans.",
+        "shared_stakes": "People across ideological lines want projects that are affordable, transparent, and actually completed on schedule.",
+        "anti_tribal_framing": "Treat this as a governance-and-risk question: what package best balances urgently needed investment with credible accountability?"
+      }
     }
   ],
   "key_political_dynamics": "Austin politics center on a housing/growth vs. neighborhood preservation tension. The current council leans pro-development with Mayor Watson providing a pragmatic anchor, but faces organized NIMBY opposition on specific projects.\n\nKey April 2026 developments: (1) ⚡ FY2027 BUDGET CRISIS: Forecast released April 16 projects $16.8M in social services cuts — permanent supportive housing, workforce development, adult education all targeted. $26.4M projected deficit under no-new-revenue tax rate (voters rejected increase Nov 2025). Current-year cuts already at $5.28M ($2.7M public health, $1.46M HSO). This directly threatens HSO strategic plan funding and affordable housing programs. (2) TENANT PROTECTIONS: Council expanding eviction prevention at affordable rental housing (April 17 committee briefing). City redirecting rent assistance from direct payments to legal advocacy and negotiated settlements — portal will not reopen. (3) AHSO is dramatically expanding encampment sweeps starting this summer — 42 city staff across 6 full-time HEM teams. CRITICAL: outreach workers will NO LONGER be embedded in sweep teams. Advocates call it criminalizing homelessness. 700+ 311 calls/month driving expansion. Unhoused residents report losing all possessions in sweeps. HSO Director Gray expected to present plan to council in early May work session. (4) APD met its target response time (10 min 44 sec) for Priority 0/1 calls for the first time since August 2023. 157th cadet class begins APRIL 21 (2 days away) with 65 cadets. Integral Care hiring 23 more mental health specialists. (5) Bond Election Advisory Task Force (BEATF) final recommendation expected late April/May — $687-700M bond package. Last window to influence allocation. (6) Density Bonus Code (DBC) council vote expected MAY 28 — 5 tiers, 0-60 feet extra height in exchange for affordable housing. Commissions reviewing now. (7) WAYMO: Still failing to stop for school buses despite months of work with Austin ISD (Planetizen April report). NTSB investigating. Also went wrong-way in San Antonio-area school zone April 2. Separately, launched pothole data-sharing partnership with Waze (April 13). AV/emergency services joint committee hearing April 29. (8) Project Connect: TX Supreme Court STILL hasn't ruled — 68 days since Feb 10 oral arguments. $60M design-build contract awarded. Mayor Watson blocked ATP's $47M downtown office deal. (9) $50M+ approved for affordable housing initiatives on April 9. West Campus development approved April 12. (10) Council approved 'Strong Local Commerce Initiative' April 2 — front yard businesses pilot.\n\nPrior March developments: Pew confirmed Austin's 16% rent decline (steepest in US). HOME Initiative working. HSO strategic plan adopted March 26 (650 shelter beds, $101M ask). Missing middle zoning advanced. Convention center petition rejected. Pct 4 runoff set: Morales vs Ledesma-Woody, May 26.\n\nBUDGET-HOUSING NEXUS: The $16.8M social services cut forecast creates a direct tension with the $101M HSO funding ask and the bond package. If the bond doesn't include significant affordable housing and social services allocations, the budget cuts could undermine the strategic plan before it's fully implemented. The BEATF recommendation is now even more consequential.\n\nThe Nov 2026 city council elections (Districts 1, 3, 5, 8, 9) will shape Austin's direction on housing for the next 4 years. District 1 is the most consequential for 78702 residents — 8+ candidates in an open seat for the first time in 8 years. Travis County is solidly blue; meaningful political competition is within the Democratic primary. The May 26 Pct 4 runoff is the next actionable election. Project Connect's TX Supreme Court ruling remains the single biggest infrastructure question for Austin's future.",
