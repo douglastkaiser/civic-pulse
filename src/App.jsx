@@ -10,6 +10,7 @@ import LocationPage from './components/LocationPage'
 import OfficialsPage from './components/OfficialsPage'
 import SettingsPage from './components/SettingsPage'
 import SplashPage from './components/SplashPage'
+import ElectionsPage from './components/ElectionsPage'
 import ErrorBoundary from './components/shared/ErrorBoundary'
 import { useZoom } from './lib/zoom.jsx'
 import { useAuth } from './lib/auth'
@@ -61,6 +62,8 @@ export default function App() {
             <Route path="/location" element={<Navigate to={`/location/${DEFAULT_LOCATION}`} replace />} />
             <Route path="/officials/:locationId" element={<OfficialsPage />} />
             <Route path="/officials" element={<Navigate to={`/officials/${DEFAULT_LOCATION}`} replace />} />
+            <Route path="/elections/:locationId" element={<ElectionsPage />} />
+            <Route path="/elections" element={<Navigate to={`/elections/${DEFAULT_LOCATION}`} replace />} />
             <Route path="/about" element={<About />} />
             <Route path="/settings" element={<SettingsPage />} />
             <Route path="/org/new" element={<NewOrg />} />

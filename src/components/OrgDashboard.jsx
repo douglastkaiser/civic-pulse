@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import { loadOrg } from '../lib/data'
+import { ORG_IDS_BY_LOCATION, loadOrg } from '../lib/data'
 import AiGeneratedBadge from './shared/AiGeneratedBadge'
 import ContextTooltip from './shared/ContextTooltip'
 import DetailModal from './shared/DetailModal'
@@ -75,6 +75,8 @@ export default function OrgDashboard() {
   }
 
   const selectedCampaign = org.active_campaigns?.find((c) => c.id === selectedCampaignId)
+
+  const orgLocationId = Object.entries(ORG_IDS_BY_LOCATION).find(([, orgIds]) => orgIds.includes(orgId))?.[0]
 
   const handleCampaignSelect = (campaignId) => {
     setSelectedCampaignId(campaignId)
@@ -178,6 +180,14 @@ export default function OrgDashboard() {
           {org.name}
         </h1>
         <p className="text-sm text-text-secondary italic">{org.tagline}</p>
+        {orgLocationId && (
+          <div className="mt-2 text-xs font-mono text-text-tertiary">
+            Elections are now a dedicated location view.
+            <Link to={`/elections/${orgLocationId}`} className="text-accent-blue hover:underline ml-1">
+              Open 🗳️ Elections
+            </Link>
+          </div>
+        )}
       </div>
 
       {/* Two-row layout mirroring personal dashboard */}
