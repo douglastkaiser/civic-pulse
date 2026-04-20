@@ -1,3 +1,5 @@
+import CopyConversationStarterButton from '../shared/CopyConversationStarterButton'
+
 function SectionList({ title, items }) {
   if (!items || items.length === 0) return null
 
@@ -58,9 +60,12 @@ export default function BridgeBuildingPanel({
               <div className="space-y-2">
                 {crossPartisanAppeals.map((appeal, idx) => (
                   <div key={idx} className="border border-border rounded p-2 bg-bg-panel/60">
-                    {appeal.audience && (
-                      <p className="text-[11px] font-mono text-accent-purple mb-1">{appeal.audience}</p>
-                    )}
+                    <div className="flex items-start justify-between gap-2 mb-1">
+                      {appeal.audience && (
+                        <p className="text-[11px] font-mono text-accent-purple">{appeal.audience}</p>
+                      )}
+                      <CopyConversationStarterButton appeal={appeal} bridge={bridge} />
+                    </div>
                     {appeal.framing && <p className="text-xs text-text-secondary leading-relaxed">{appeal.framing}</p>}
                     {appeal.evidence && (
                       <p className="text-[11px] text-text-tertiary leading-relaxed mt-1">Evidence: {appeal.evidence}</p>
