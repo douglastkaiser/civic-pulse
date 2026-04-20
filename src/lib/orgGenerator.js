@@ -47,7 +47,35 @@ You MUST return ONLY valid JSON (no markdown, no code blocks, no explanation) wi
         "Specific actionable next step 1",
         "Specific actionable next step 2",
         "... (4-7 actions)"
-      ]
+      ],
+      "bridge_building": {
+        "opposition_steelman": "Strongest good-faith argument from skeptics",
+        "cross_partisan_appeals": [
+          {
+            "audience": "Who this framing is for",
+            "framing": "Respectful framing that meets their values",
+            "evidence": "One concise supporting fact",
+            "example_dialogue": "Optional one-line conversation opener"
+          }
+        ],
+        "common_ground": ["Shared values or goals"],
+        "conversation_traps_to_avoid": ["Polarizing framing to avoid"],
+        "when_to_acknowledge_uncertainty": ["Where confidence should be limited"],
+        "honest_limits": ["What this campaign cannot promise"],
+        "provenance": {
+          "status": "ai_generated",
+          "updated_at": "ISO timestamp or omit",
+          "updated_by": "user id/name or omit"
+        },
+        "subsection_provenance": {
+          "opposition_steelman": { "status": "ai_generated" },
+          "cross_partisan_appeals": { "status": "ai_generated" },
+          "common_ground": { "status": "ai_generated" },
+          "conversation_traps_to_avoid": { "status": "ai_generated" },
+          "when_to_acknowledge_uncertainty": { "status": "ai_generated" },
+          "honest_limits": { "status": "ai_generated" }
+        }
+      }
     }
   ],
   "aligned_organizations": [
@@ -62,6 +90,34 @@ You MUST return ONLY valid JSON (no markdown, no code blocks, no explanation) wi
     "interest": "How curious people deepen engagement — events, content, entry points.",
     "action": "How interested people take concrete action — specific activities and opportunities.",
     "leadership": "How active members become leaders — roles, responsibilities, growth paths."
+  },
+  "bridge_building": {
+    "opposition_steelman": "Strongest good-faith argument from people who disagree",
+    "cross_partisan_appeals": [
+      {
+        "audience": "Who this framing is for",
+        "framing": "Respectful framing that meets their values",
+        "evidence": "One concise supporting fact",
+        "example_dialogue": "Optional one-line conversation opener"
+      }
+    ],
+    "common_ground": ["Shared values or goals"],
+    "conversation_traps_to_avoid": ["Polarizing framing to avoid"],
+    "when_to_acknowledge_uncertainty": ["Where confidence should be limited"],
+    "honest_limits": ["What this effort cannot promise"],
+    "provenance": {
+      "status": "ai_generated",
+      "updated_at": "ISO timestamp or omit",
+      "updated_by": "user id/name or omit"
+    },
+    "subsection_provenance": {
+      "opposition_steelman": { "status": "ai_generated" },
+      "cross_partisan_appeals": { "status": "ai_generated" },
+      "common_ground": { "status": "ai_generated" },
+      "conversation_traps_to_avoid": { "status": "ai_generated" },
+      "when_to_acknowledge_uncertainty": { "status": "ai_generated" },
+      "honest_limits": { "status": "ai_generated" }
+    }
   },
   "practical_next_steps_for_org": {
     "immediate": [
@@ -105,7 +161,8 @@ Rules:
 - Engagement pipeline should have concrete, actionable content at each tier
 - Practical next steps should have realistic deadlines relative to the founding date
 - Generate 3-4 immediate steps, 3-4 medium-term steps, and 2-3 strategic steps
-- Do NOT generate generic boilerplate — every field should be specific to this org's mission and location`
+- Do NOT generate generic boilerplate — every field should be specific to this org's mission and location
+- For every bridge_building.provenance or subsection_provenance status, use one of: ai_generated | user_reviewed | user_edited`
 
 function extractJSON(text) {
   if (text.includes('```json')) {
@@ -117,7 +174,7 @@ function extractJSON(text) {
 }
 
 function validateOrg(data) {
-  const required = ['id', 'name', 'tagline', 'mission', 'theory_of_change', 'geographic_scope', 'political_positioning', 'key_policy_positions', 'active_campaigns', 'aligned_organizations', 'engagement_pipeline', 'practical_next_steps_for_org']
+  const required = ['id', 'name', 'tagline', 'mission', 'theory_of_change', 'geographic_scope', 'political_positioning', 'key_policy_positions', 'active_campaigns', 'aligned_organizations', 'engagement_pipeline', 'bridge_building', 'practical_next_steps_for_org']
   for (const key of required) {
     if (!(key in data)) throw new Error(`Missing required field: ${key}`)
   }

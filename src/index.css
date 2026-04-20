@@ -288,6 +288,40 @@ body {
   transition-delay: 0.2s;
 }
 
+
+/* Content provenance badge tooltip */
+.provenance-badge-wrapper {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+.provenance-badge-tooltip {
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: max-content;
+  max-width: 320px;
+  padding: 8px 12px;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  border: 1px solid var(--tooltip-border);
+  border-radius: var(--border-radius);
+  font-size: 11px;
+  line-height: 1.5;
+  font-family: var(--font-sans), sans-serif;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+  transition-delay: 0s;
+  z-index: 50;
+  white-space: normal;
+}
+.provenance-badge-wrapper:hover .provenance-badge-tooltip {
+  opacity: 1;
+  transition-delay: 0.2s;
+}
+
 /* Context Tooltip */
 .context-tooltip-wrapper {
   position: relative;
