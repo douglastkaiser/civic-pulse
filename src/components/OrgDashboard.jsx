@@ -11,6 +11,7 @@ import CampaignDetail from './org/CampaignDetail'
 import EngagementPipeline from './org/EngagementPipeline'
 import OrgNextSteps from './org/OrgNextSteps'
 import ExportButton from './shared/ExportButton'
+import BridgeBuildingPanel from './bridge/BridgeBuildingPanel'
 import { getCssVar } from '../lib/themeColors'
 
 export default function OrgDashboard() {
@@ -238,6 +239,12 @@ export default function OrgDashboard() {
                     </details>
                   </div>
                 )}
+
+                <BridgeBuildingPanel
+                  bridge={org.bridge_building}
+                  header="🤝 TALKING ACROSS THE AISLE"
+                  sectionTitle="BRIDGE BUILDING"
+                />
               </div>
             </div>
           </div>
