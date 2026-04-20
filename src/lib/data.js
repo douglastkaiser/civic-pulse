@@ -1,5 +1,6 @@
 import { loadDynamicLocation, loadDynamicIssues } from './locationStore'
 import { loadOrgFromFirestore } from './orgStore'
+import { normalizeLocationBridgeProvenance, normalizeOrgBridgeProvenance } from './bridgeProvenance'
 
 const BASE = import.meta.env.BASE_URL
 
@@ -37,9 +38,9 @@ export function loadProfile(id) {
 
 export function loadLocation(id) {
   if (LOCATION_LABELS[id]) {
-    return fetchJSON(`locations/${id}.json`)
+    return fetchJSON(`locations/${id}.json`).then(normalizeLocationBridgeProvenance)
   }
-  return loadDynamicLocation(id)
+  return loadDynamicLocation(id).then(normalizeLocationBridgeProvenance)
 }
 
 export function loadIssues(id) {
@@ -63,11 +64,12 @@ export function loadOfficials(locationId) {
 
 export async function loadOrg(orgId) {
   try {
-    return await fetchJSON(`orgs/${orgId}.json`)
+    const org = await fetchJSON(`orgs/${orgId}.json`)
+    return normalizeOrgBridgeProvenance(org)
   } catch {
     // Static JSON not found — try Firestore for user-created orgs
     const firestoreOrg = await loadOrgFromFirestore(orgId)
-    if (firestoreOrg) return firestoreOrg
+    if (firestoreOrg) return normalizeOrgBridgeProvenance(firestoreOrg)
     throw new Error(`Organization not found: ${orgId}`)
   }
 }
