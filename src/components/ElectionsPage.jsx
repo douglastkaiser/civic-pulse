@@ -12,11 +12,7 @@ function formatElectionDate(date) {
   })
 }
 
-function RaceCard({ election, followedOrgIndex }) {
-  const daysUntil = election.date
-    ? Math.ceil((new Date(election.date) - Date.now()) / (1000 * 60 * 60 * 24))
-    : null
-
+function getAssociatedOrgs(election, followedOrgIndex) {
   const associatedOrgs = Array.isArray(election.associated_organizations)
     ? election.associated_organizations
     : []
@@ -38,6 +34,76 @@ function RaceCard({ election, followedOrgIndex }) {
       ...org,
       displayName: followedOrgIndex[org.org_id]?.name || org.name || org.org_id || 'Unknown organization',
     }))
+
+  return { relevantFollowedOrgs, notDirectlyApplicableOrgs }
+}
+
+function RelevantOrgsSection({ election, followedOrgIndex, label = 'race' }) {
+  const { relevantFollowedOrgs, notDirectlyApplicableOrgs } = getAssociatedOrgs(election, followedOrgIndex)
+
+  return (
+    <section className="border border-border rounded bg-bg-elevated p-3">
+      <h3 className="font-mono text-xs font-bold text-text-tertiary tracking-wide mb-2">RELEVANT FOLLOWED ORGS</h3>
+      {relevantFollowedOrgs.length === 0 ? (
+        <p className="text-xs text-text-tertiary">No followed organizations mapped to this {label} yet.</p>
+      ) : (
+        <ul className="space-y-1.5">
+          {relevantFollowedOrgs.map((org) => (
+            <li key={`${election.race_identifier || election.race || election.measure}-${org.org_id || org.displayName}`} className="text-xs text-text-secondary">
+              <span className="text-text-primary font-medium">{org.displayName}</span>
+              {org.relevance_note ? <span className="text-text-tertiary"> — {org.relevance_note}</span> : null}
+            </li>
+          ))}
+        </ul>
+      )}
+
+      {notDirectlyApplicableOrgs.length > 0 && (
+        <div className="mt-2 pt-2 border-t border-border/70">
+          <p className="text-[11px] font-mono text-text-tertiary mb-1">NOT DIRECTLY APPLICABLE</p>
+          <ul className="space-y-1">
+            {notDirectlyApplicableOrgs.map((org) => (
+              <li key={`${election.race_identifier || election.race || election.measure}-na-${org.org_id || org.displayName}`} className="text-xs text-text-tertiary">
+                <span>{org.displayName}</span>
+                {org.relevance_note ? <span> — {org.relevance_note}</span> : null}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </section>
+  )
+}
+
+function SharedStakesSection({ bridge }) {
+  if (!(bridge.why_this_race_matters_to_everyone || bridge.shared_stakes || bridge.anti_tribal_framing)) return null
+
+  return (
+    <section className="border border-border rounded bg-bg-elevated p-3">
+      <h3 className="font-mono text-xs font-bold text-text-tertiary tracking-wide mb-2">SHARED STAKES BRIDGE CONTENT</h3>
+      {bridge.why_this_race_matters_to_everyone && (
+        <p className="text-xs text-text-secondary mb-2">
+          <span className="text-text-primary font-medium">Why this race matters to everyone:</span>{' '}
+          {bridge.why_this_race_matters_to_everyone}
+        </p>
+      )}
+      {bridge.shared_stakes && (
+        <p className="text-xs text-text-secondary mb-2">
+          <span className="text-text-primary font-medium">Shared stakes:</span> {bridge.shared_stakes}
+        </p>
+      )}
+      {bridge.anti_tribal_framing && (
+        <p className="text-xs text-text-secondary">
+          <span className="text-text-primary font-medium">Anti-tribal framing:</span> {bridge.anti_tribal_framing}
+        </p>
+      )}
+    </section>
+  )
+}
+
+function RaceCard({ election, followedOrgIndex }) {
+  const daysUntil = election.date
+    ? Math.ceil((new Date(election.date) - Date.now()) / (1000 * 60 * 60 * 24))
+    : null
 
   const bridge = election.bridge_building || {}
 
@@ -78,57 +144,106 @@ function RaceCard({ election, followedOrgIndex }) {
 
       {election.action && <p className="text-sm text-accent-green">→ {election.action}</p>}
 
-      <section className="border border-border rounded bg-bg-elevated p-3">
-        <h3 className="font-mono text-xs font-bold text-text-tertiary tracking-wide mb-2">RELEVANT FOLLOWED ORGS</h3>
-        {relevantFollowedOrgs.length === 0 ? (
-          <p className="text-xs text-text-tertiary">No followed organizations mapped to this race yet.</p>
-        ) : (
-          <ul className="space-y-1.5">
-            {relevantFollowedOrgs.map((org) => (
-              <li key={`${election.race_identifier || election.race}-${org.org_id || org.displayName}`} className="text-xs text-text-secondary">
-                <span className="text-text-primary font-medium">{org.displayName}</span>
-                {org.relevance_note ? <span className="text-text-tertiary"> — {org.relevance_note}</span> : null}
-              </li>
-            ))}
-          </ul>
+      <RelevantOrgsSection election={election} followedOrgIndex={followedOrgIndex} />
+      <SharedStakesSection bridge={bridge} />
+    </article>
+  )
+}
+
+function MeasureCard({ election, followedOrgIndex }) {
+  const daysUntil = election.date
+    ? Math.ceil((new Date(election.date) - Date.now()) / (1000 * 60 * 60 * 24))
+    : null
+  const measureBridge = election.measure_bridge_fields || {}
+  const bridge = election.bridge_building || {}
+
+  return (
+    <article className="bg-bg-panel border border-accent-purple/35 rounded-lg p-4 space-y-3 shadow-[inset_0_0_0_1px_rgba(139,92,246,0.15)]">
+      <div className="flex items-start justify-between gap-3">
+        <div>
+          <div className="text-[11px] font-mono text-accent-purple tracking-wide mb-1">BALLOT MEASURE</div>
+          <h2 className="text-base font-semibold text-text-primary">{election.measure || election.title || election.race}</h2>
+          {election.race_identifier && (
+            <p className="text-xs font-mono text-text-tertiary mt-1">ID: {election.race_identifier}</p>
+          )}
+          {election.date && <div className="text-xs text-text-tertiary mt-1">{formatElectionDate(election.date)}</div>}
+        </div>
+        {daysUntil !== null && (
+          <span className="text-xs font-mono whitespace-nowrap px-2 py-1 rounded bg-accent-purple/20 text-accent-purple">
+            {daysUntil > 0 ? `${daysUntil}d` : 'Today'}
+          </span>
+        )}
+      </div>
+
+      {election.relevance && <p className="text-sm text-text-secondary">{election.relevance}</p>}
+      {election.action && <p className="text-sm text-accent-green">→ {election.action}</p>}
+
+      <section className="border border-accent-purple/30 rounded bg-accent-purple/5 p-3 space-y-3">
+        <h3 className="font-mono text-xs font-bold text-accent-purple tracking-wide">MEASURE BRIDGE FIELD GUIDE</h3>
+
+        {(measureBridge.what_each_side_thinks_measure_does?.supporters || measureBridge.what_each_side_thinks_measure_does?.opponents) && (
+          <div>
+            <h4 className="text-xs font-semibold text-text-primary mb-1">What each side thinks this measure does</h4>
+            {measureBridge.what_each_side_thinks_measure_does?.supporters && (
+              <p className="text-xs text-text-secondary mb-1">
+                <span className="font-medium text-text-primary">Supporters:</span>{' '}
+                {measureBridge.what_each_side_thinks_measure_does.supporters}
+              </p>
+            )}
+            {measureBridge.what_each_side_thinks_measure_does?.opponents && (
+              <p className="text-xs text-text-secondary">
+                <span className="font-medium text-text-primary">Opponents:</span>{' '}
+                {measureBridge.what_each_side_thinks_measure_does.opponents}
+              </p>
+            )}
+          </div>
         )}
 
-        {notDirectlyApplicableOrgs.length > 0 && (
-          <div className="mt-2 pt-2 border-t border-border/70">
-            <p className="text-[11px] font-mono text-text-tertiary mb-1">NOT DIRECTLY APPLICABLE</p>
-            <ul className="space-y-1">
-              {notDirectlyApplicableOrgs.map((org) => (
-                <li key={`${election.race_identifier || election.race}-na-${org.org_id || org.displayName}`} className="text-xs text-text-tertiary">
-                  <span>{org.displayName}</span>
-                  {org.relevance_note ? <span> — {org.relevance_note}</span> : null}
-                </li>
-              ))}
-            </ul>
+        {(measureBridge.empirical_claims_by_side?.supporters?.length || measureBridge.empirical_claims_by_side?.opponents?.length) && (
+          <div>
+            <h4 className="text-xs font-semibold text-text-primary mb-1">Empirical claims by side</h4>
+            {measureBridge.empirical_claims_by_side?.supporters?.length > 0 && (
+              <div className="mb-1">
+                <p className="text-xs text-text-primary font-medium">Supporters cite:</p>
+                <ul className="list-disc pl-4 text-xs text-text-secondary space-y-1">
+                  {measureBridge.empirical_claims_by_side.supporters.map((claim) => (
+                    <li key={`supporter-claim-${claim}`}>{claim}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+            {measureBridge.empirical_claims_by_side?.opponents?.length > 0 && (
+              <div>
+                <p className="text-xs text-text-primary font-medium">Opponents cite:</p>
+                <ul className="list-disc pl-4 text-xs text-text-secondary space-y-1">
+                  {measureBridge.empirical_claims_by_side.opponents.map((claim) => (
+                    <li key={`opponent-claim-${claim}`}>{claim}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+          </div>
+        )}
+
+        {measureBridge.values_vs_facts_disagreement && (
+          <div>
+            <h4 className="text-xs font-semibold text-text-primary mb-1">Values vs. facts disagreement</h4>
+            <p className="text-xs text-text-secondary">{measureBridge.values_vs_facts_disagreement}</p>
+          </div>
+        )}
+
+        {measureBridge.what_could_change_a_reasonable_opponents_mind && (
+          <div>
+            <h4 className="text-xs font-semibold text-text-primary mb-1">What could change a reasonable opponent’s mind</h4>
+            <p className="text-xs text-text-secondary">
+              {measureBridge.what_could_change_a_reasonable_opponents_mind}
+            </p>
           </div>
         )}
       </section>
 
-      {(bridge.why_this_race_matters_to_everyone || bridge.shared_stakes || bridge.anti_tribal_framing) && (
-        <section className="border border-border rounded bg-bg-elevated p-3">
-          <h3 className="font-mono text-xs font-bold text-text-tertiary tracking-wide mb-2">SHARED STAKES BRIDGE CONTENT</h3>
-          {bridge.why_this_race_matters_to_everyone && (
-            <p className="text-xs text-text-secondary mb-2">
-              <span className="text-text-primary font-medium">Why this race matters to everyone:</span>{' '}
-              {bridge.why_this_race_matters_to_everyone}
-            </p>
-          )}
-          {bridge.shared_stakes && (
-            <p className="text-xs text-text-secondary mb-2">
-              <span className="text-text-primary font-medium">Shared stakes:</span> {bridge.shared_stakes}
-            </p>
-          )}
-          {bridge.anti_tribal_framing && (
-            <p className="text-xs text-text-secondary">
-              <span className="text-text-primary font-medium">Anti-tribal framing:</span> {bridge.anti_tribal_framing}
-            </p>
-          )}
-        </section>
-      )}
+      <RelevantOrgsSection election={election} followedOrgIndex={followedOrgIndex} label="measure" />
+      <SharedStakesSection bridge={bridge} />
     </article>
   )
 }
@@ -220,11 +335,19 @@ export default function ElectionsPage() {
       ) : (
         <div className="space-y-3">
           {elections.map((election) => (
-            <RaceCard
-              key={election.race_identifier || election.id || election.race || election.measure || election.title}
-              election={election}
-              followedOrgIndex={followedOrgIndex}
-            />
+            election.election_type === 'ballot_measure' ? (
+              <MeasureCard
+                key={election.race_identifier || election.id || election.race || election.measure || election.title}
+                election={election}
+                followedOrgIndex={followedOrgIndex}
+              />
+            ) : (
+              <RaceCard
+                key={election.race_identifier || election.id || election.race || election.measure || election.title}
+                election={election}
+                followedOrgIndex={followedOrgIndex}
+              />
+            )
           ))}
         </div>
       )}
