@@ -49,7 +49,44 @@
         "Track $5M Raising Travis County fund: which facilities get funded, which neighborhoods, what outcome metrics",
         "Draft childcare zoning reform proposal for residential areas",
         "Present desert map and fund accountability findings to Travis County Commissioners Court"
-      ]
+      ],
+      "bridge_building": {
+        "opposition_steelman": "Reasonable skeptics of Childcare Desert Mapping & Advocacy often worry about unintended costs, fairness across neighborhoods, and whether promised benefits will be measured transparently rather than assumed.",
+        "cross_partisan_appeals": [
+          {
+            "audience": "Cost-conscious taxpayers",
+            "framing": "Define clear outcomes, timelines, and guardrails before scaling spending or mandates.",
+            "evidence": "Campaigns with published milestones and public reporting earn broader support and allow mid-course corrections.",
+            "example_dialogue": "\"If Childcare Desert Mapping & Advocacy is worth doing, it is worth measuring with transparent benchmarks so everyone can see what is working.\""
+          },
+          {
+            "audience": "Community-stability voters",
+            "framing": "Implement change in ways that reduce disruption and share benefits across existing residents and newcomers.",
+            "evidence": "Phased implementation and regular public feedback often lower backlash while improving policy durability.",
+            "example_dialogue": "\"We can move Childcare Desert Mapping & Advocacy forward while still listening to neighborhood-level concerns and adjusting implementation details.\""
+          }
+        ],
+        "common_ground": [
+          "Public policy should solve real problems, not just signal values.",
+          "Residents deserve clear communication about tradeoffs.",
+          "Programs should be adjusted when evidence shows gaps."
+        ],
+        "conversation_traps_to_avoid": [
+          "Assuming all critics are acting in bad faith.",
+          "Overpromising speed or certainty on complex implementation.",
+          "Using national partisan frames for local decisions."
+        ],
+        "when_to_acknowledge_uncertainty": [
+          "When baseline data is incomplete or lagged.",
+          "When legal or budget decisions are still pending.",
+          "When implementation depends on partner agencies outside our control."
+        ],
+        "honest_limits": [
+          "This campaign cannot alone fix every upstream structural problem.",
+          "We cannot guarantee identical outcomes in every neighborhood.",
+          "We rely on sustained public participation and institutional follow-through."
+        ]
+      }
     },
     {
       "id": "employer-index",
@@ -67,7 +104,44 @@
         "Research City of Austin contractor disclosure requirements and identify legal pathway",
         "Draft op-ed framing the index as pro-business talent retention, not anti-employer",
         "Partner with Austin tech community groups (Austin Tech Alliance, Capital Factory) for distribution"
-      ]
+      ],
+      "bridge_building": {
+        "opposition_steelman": "Reasonable skeptics of Austin Family-Friendly Employer Index often worry about unintended costs, fairness across neighborhoods, and whether promised benefits will be measured transparently rather than assumed.",
+        "cross_partisan_appeals": [
+          {
+            "audience": "Cost-conscious taxpayers",
+            "framing": "Define clear outcomes, timelines, and guardrails before scaling spending or mandates.",
+            "evidence": "Campaigns with published milestones and public reporting earn broader support and allow mid-course corrections.",
+            "example_dialogue": "\"If Austin Family-Friendly Employer Index is worth doing, it is worth measuring with transparent benchmarks so everyone can see what is working.\""
+          },
+          {
+            "audience": "Community-stability voters",
+            "framing": "Implement change in ways that reduce disruption and share benefits across existing residents and newcomers.",
+            "evidence": "Phased implementation and regular public feedback often lower backlash while improving policy durability.",
+            "example_dialogue": "\"We can move Austin Family-Friendly Employer Index forward while still listening to neighborhood-level concerns and adjusting implementation details.\""
+          }
+        ],
+        "common_ground": [
+          "Public policy should solve real problems, not just signal values.",
+          "Residents deserve clear communication about tradeoffs.",
+          "Programs should be adjusted when evidence shows gaps."
+        ],
+        "conversation_traps_to_avoid": [
+          "Assuming all critics are acting in bad faith.",
+          "Overpromising speed or certainty on complex implementation.",
+          "Using national partisan frames for local decisions."
+        ],
+        "when_to_acknowledge_uncertainty": [
+          "When baseline data is incomplete or lagged.",
+          "When legal or budget decisions are still pending.",
+          "When implementation depends on partner agencies outside our control."
+        ],
+        "honest_limits": [
+          "This campaign cannot alone fix every upstream structural problem.",
+          "We cannot guarantee identical outcomes in every neighborhood.",
+          "We rely on sustained public participation and institutional follow-through."
+        ]
+      }
     },
     {
       "id": "family-housing-campaign",
@@ -85,7 +159,44 @@
         "Coordinate with Austin YIMBY Action on joint advocacy and shared messaging",
         "Identify co-housing and innovative family housing developers active in Texas",
         "Develop family housing fact sheet: cost data, supply gaps, demographic need"
-      ]
+      ],
+      "bridge_building": {
+        "opposition_steelman": "Reasonable skeptics of Family-Sized Housing Campaign often worry about unintended costs, fairness across neighborhoods, and whether promised benefits will be measured transparently rather than assumed.",
+        "cross_partisan_appeals": [
+          {
+            "audience": "Cost-conscious taxpayers",
+            "framing": "Define clear outcomes, timelines, and guardrails before scaling spending or mandates.",
+            "evidence": "Campaigns with published milestones and public reporting earn broader support and allow mid-course corrections.",
+            "example_dialogue": "\"If Family-Sized Housing Campaign is worth doing, it is worth measuring with transparent benchmarks so everyone can see what is working.\""
+          },
+          {
+            "audience": "Community-stability voters",
+            "framing": "Implement change in ways that reduce disruption and share benefits across existing residents and newcomers.",
+            "evidence": "Phased implementation and regular public feedback often lower backlash while improving policy durability.",
+            "example_dialogue": "\"We can move Family-Sized Housing Campaign forward while still listening to neighborhood-level concerns and adjusting implementation details.\""
+          }
+        ],
+        "common_ground": [
+          "Public policy should solve real problems, not just signal values.",
+          "Residents deserve clear communication about tradeoffs.",
+          "Programs should be adjusted when evidence shows gaps."
+        ],
+        "conversation_traps_to_avoid": [
+          "Assuming all critics are acting in bad faith.",
+          "Overpromising speed or certainty on complex implementation.",
+          "Using national partisan frames for local decisions."
+        ],
+        "when_to_acknowledge_uncertainty": [
+          "When baseline data is incomplete or lagged.",
+          "When legal or budget decisions are still pending.",
+          "When implementation depends on partner agencies outside our control."
+        ],
+        "honest_limits": [
+          "This campaign cannot alone fix every upstream structural problem.",
+          "We cannot guarantee identical outcomes in every neighborhood.",
+          "We rely on sustained public participation and institutional follow-through."
+        ]
+      }
     },
     {
       "id": "parental-leave-city-hall",
@@ -103,20 +214,96 @@
         "Identify upcoming council, commissioners court, and school board meetings with relevant agenda items",
         "Prepare public comment testimony and recruit 5-10 speakers for first hearing",
         "Build coalition support from city employee associations and unions"
-      ]
+      ],
+      "bridge_building": {
+        "opposition_steelman": "Reasonable skeptics of Parental Leave at City Hall often worry about unintended costs, fairness across neighborhoods, and whether promised benefits will be measured transparently rather than assumed.",
+        "cross_partisan_appeals": [
+          {
+            "audience": "Cost-conscious taxpayers",
+            "framing": "Define clear outcomes, timelines, and guardrails before scaling spending or mandates.",
+            "evidence": "Campaigns with published milestones and public reporting earn broader support and allow mid-course corrections.",
+            "example_dialogue": "\"If Parental Leave at City Hall is worth doing, it is worth measuring with transparent benchmarks so everyone can see what is working.\""
+          },
+          {
+            "audience": "Community-stability voters",
+            "framing": "Implement change in ways that reduce disruption and share benefits across existing residents and newcomers.",
+            "evidence": "Phased implementation and regular public feedback often lower backlash while improving policy durability.",
+            "example_dialogue": "\"We can move Parental Leave at City Hall forward while still listening to neighborhood-level concerns and adjusting implementation details.\""
+          }
+        ],
+        "common_ground": [
+          "Public policy should solve real problems, not just signal values.",
+          "Residents deserve clear communication about tradeoffs.",
+          "Programs should be adjusted when evidence shows gaps."
+        ],
+        "conversation_traps_to_avoid": [
+          "Assuming all critics are acting in bad faith.",
+          "Overpromising speed or certainty on complex implementation.",
+          "Using national partisan frames for local decisions."
+        ],
+        "when_to_acknowledge_uncertainty": [
+          "When baseline data is incomplete or lagged.",
+          "When legal or budget decisions are still pending.",
+          "When implementation depends on partner agencies outside our control."
+        ],
+        "honest_limits": [
+          "This campaign cannot alone fix every upstream structural problem.",
+          "We cannot guarantee identical outcomes in every neighborhood.",
+          "We rely on sustained public participation and institutional follow-through."
+        ]
+      }
     }
   ],
   "aligned_organizations": [
-    {"name": "Austin YIMBY Action", "relationship": "Primary cross-movement ally. Their housing supply advocacy directly enables family formation. Our family-sized housing campaign feeds into their development advocacy. Shared interest in council elections and golf course rezoning.", "url": "https://www.austinyimby.org"},
-    {"name": "AURA", "relationship": "Aligned on housing supply and affordability. Their policy expertise informs our family housing advocacy.", "url": "https://aura-atx.org"},
-    {"name": "Austin Tech Alliance", "relationship": "Potential partner for employer index distribution and family-friendly workplace advocacy. Tech employer network.", "url": "https://austintechalliance.org"},
-    {"name": "United Way for Greater Austin", "relationship": "Aligned on childcare access and family economic stability. Potential data sharing partner for childcare mapping.", "url": "https://unitedwayaustin.org"},
-    {"name": "Workforce Solutions Capital Area", "relationship": "Administers childcare subsidy programs. Key information source for understanding childcare access barriers.", "url": "https://wfsca.org"},
-    {"name": "Austin ISD", "relationship": "Shared interest in keeping families in urban Austin. School quality and enrollment data inform housing advocacy.", "url": "https://www.austinisd.org"},
-    {"name": "Any Baby Can", "relationship": "Austin-based family support nonprofit. Aligned on early childhood and family services infrastructure.", "url": "https://anybabycan.org"},
-    {"name": "AFSCME Local 1624", "relationship": "City of Austin employee union. Natural ally for parental leave advocacy at City Hall. Their members directly benefit from improved leave policies.", "url": "https://afscme1624.org"},
-    {"name": "Austin Safe & Sound", "relationship": "Cross-movement ally. Family instability is a major pathway into homelessness. Our family formation infrastructure work — childcare, parental support, family housing — prevents the crises that lead to people losing housing. Their accountability work on homelessness services ensures the safety net works for families in crisis."},
-    {"name": "OC Abundance Project", "relationship": "Cross-location ally. Same mission, different context. OC faces even higher housing costs ($1.2M-$1.6M median) and benefits from California's stronger state framework. Share research methodology, employer index design, and childcare desert mapping approach.", "internal_id": "oc-abundance-project"}
+    {
+      "name": "Austin YIMBY Action",
+      "relationship": "Primary cross-movement ally. Their housing supply advocacy directly enables family formation. Our family-sized housing campaign feeds into their development advocacy. Shared interest in council elections and golf course rezoning.",
+      "url": "https://www.austinyimby.org"
+    },
+    {
+      "name": "AURA",
+      "relationship": "Aligned on housing supply and affordability. Their policy expertise informs our family housing advocacy.",
+      "url": "https://aura-atx.org"
+    },
+    {
+      "name": "Austin Tech Alliance",
+      "relationship": "Potential partner for employer index distribution and family-friendly workplace advocacy. Tech employer network.",
+      "url": "https://austintechalliance.org"
+    },
+    {
+      "name": "United Way for Greater Austin",
+      "relationship": "Aligned on childcare access and family economic stability. Potential data sharing partner for childcare mapping.",
+      "url": "https://unitedwayaustin.org"
+    },
+    {
+      "name": "Workforce Solutions Capital Area",
+      "relationship": "Administers childcare subsidy programs. Key information source for understanding childcare access barriers.",
+      "url": "https://wfsca.org"
+    },
+    {
+      "name": "Austin ISD",
+      "relationship": "Shared interest in keeping families in urban Austin. School quality and enrollment data inform housing advocacy.",
+      "url": "https://www.austinisd.org"
+    },
+    {
+      "name": "Any Baby Can",
+      "relationship": "Austin-based family support nonprofit. Aligned on early childhood and family services infrastructure.",
+      "url": "https://anybabycan.org"
+    },
+    {
+      "name": "AFSCME Local 1624",
+      "relationship": "City of Austin employee union. Natural ally for parental leave advocacy at City Hall. Their members directly benefit from improved leave policies.",
+      "url": "https://afscme1624.org"
+    },
+    {
+      "name": "Austin Safe & Sound",
+      "relationship": "Cross-movement ally. Family instability is a major pathway into homelessness. Our family formation infrastructure work — childcare, parental support, family housing — prevents the crises that lead to people losing housing. Their accountability work on homelessness services ensures the safety net works for families in crisis."
+    },
+    {
+      "name": "OC Abundance Project",
+      "relationship": "Cross-location ally. Same mission, different context. OC faces even higher housing costs ($1.2M-$1.6M median) and benefits from California's stronger state framework. Share research methodology, employer index design, and childcare desert mapping approach.",
+      "internal_id": "oc-abundance-project"
+    }
   ],
   "engagement_pipeline": {
     "awareness": "Social media, tech community forums, parenting groups, childcare provider networks. Publish the employer index and childcare desert map for organic distribution. Share the comparison of Austin public employer parental leave policies vs. peer cities.",
@@ -206,6 +393,49 @@
         "impact": "high",
         "notes": "Specific ask: 12 weeks paid leave for birth parents, 6 weeks for non-birth parents at all three public employers. Concrete, measurable policy win that demonstrates org effectiveness."
       }
+    ]
+  },
+  "bridge_building": {
+    "opposition_steelman": "Families face real anxiety that \"abundance\" language can overlook neighborhood character, school crowding, and whether new housing and employer benefits will actually reach middle-income households instead of primarily helping higher earners.",
+    "cross_partisan_appeals": [
+      {
+        "audience": "Parents focused on household budgeting",
+        "framing": "Abundance means reducing the \"family penalty\" in housing, childcare, and time.",
+        "evidence": "Family-sized homes and childcare access are strongly tied to labor-force participation and household stability.",
+        "example_dialogue": "\"Our goal is simple: make it possible for families to have kids and stay in Austin without being priced out.\""
+      },
+      {
+        "audience": "Business leaders and chambers",
+        "framing": "Family affordability is workforce infrastructure.",
+        "evidence": "Employers with family-friendly policies and nearby attainable housing see better retention and lower replacement costs.",
+        "example_dialogue": "\"If companies want a stable workforce, they need workers who can afford housing and childcare close to work.\""
+      },
+      {
+        "audience": "Faith and community groups",
+        "framing": "Intergenerational stability and care work are shared moral priorities.",
+        "evidence": "Communities with accessible housing and childcare support stronger social networks and civic participation.",
+        "example_dialogue": "\"This is pro-family in the most practical sense: homes, childcare, and time together.\""
+      }
+    ],
+    "common_ground": [
+      "Kids should be able to grow up near their support networks.",
+      "Work should support family life, not crowd it out.",
+      "Policy should be judged by real household outcomes."
+    ],
+    "conversation_traps_to_avoid": [
+      "Avoid implying that renters and homeowners are on opposite teams.",
+      "Avoid culture-war framing around family choices.",
+      "Avoid treating employer scorecards as \"gotcha\" tools rather than improvement tools."
+    ],
+    "when_to_acknowledge_uncertainty": [
+      "How quickly childcare capacity can scale by neighborhood.",
+      "How much local reforms alone can offset statewide cost pressures.",
+      "Which employer policy combinations drive the biggest retention gains."
+    ],
+    "honest_limits": [
+      "We are not a direct childcare provider.",
+      "We cannot by ourselves change state or federal tax policy.",
+      "We cannot promise every employer will adopt best practices immediately."
     ]
   }
 }
