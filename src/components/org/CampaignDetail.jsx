@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import ContextTooltip from '../shared/ContextTooltip'
 import CopyPromptButton from '../shared/CopyPromptButton'
+import BridgeBuildingPanel from '../bridge/BridgeBuildingPanel'
 
 const priorityColor = {
   high: 'text-accent-red',
@@ -62,6 +63,12 @@ export default function CampaignDetail({ campaign }) {
           </div>
         )}
       </div>
+
+
+      <BridgeBuildingPanel
+        bridge={campaign.bridge_building}
+        header="BRIDGE BUILDING"
+      />
 
       {/* Next Actions */}
       {campaign.next_actions?.length > 0 && (
