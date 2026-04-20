@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import ContextTooltip from './shared/ContextTooltip'
+import BridgeBuildingPanel from './bridge/BridgeBuildingPanel'
 
 function Section({ title, children, defaultOpen = false }) {
   const [open, setOpen] = useState(defaultOpen)
@@ -89,7 +90,7 @@ function ElectionCard({ election }) {
   return (
     <div className="bg-bg-elevated rounded p-2.5 border border-border">
       <div className="flex items-start justify-between gap-2">
-        <span className="text-sm font-medium text-text-primary">{election.race}</span>
+        <span className="text-sm font-medium text-text-primary">{election.race || election.measure || election.title}</span>
         {daysUntil !== null && (
           <span
             className={`text-xs font-mono whitespace-nowrap px-1.5 py-0.5 rounded ${
@@ -125,6 +126,15 @@ function ElectionCard({ election }) {
       {election.action && (
         <div className="text-xs text-accent-green mt-1">→ {election.action}</div>
       )}
+
+      {election.bridge_building && (
+        <BridgeBuildingPanel
+          bridge={election.bridge_building}
+          header="BRIDGE BUILDING"
+          sectionTitle={election.race ? 'RACE BRIDGE FRAME' : 'MEASURE BRIDGE FRAME'}
+          className="mt-2"
+        />
+      )}
     </div>
   )
 }
@@ -154,7 +164,7 @@ export default function LocationPanel({ location }) {
           <Section title="UPCOMING ELECTIONS" defaultOpen={true}>
             <div className="space-y-2">
               {location.upcoming_elections.map((e) => (
-                <ElectionCard key={e.race} election={e} />
+                <ElectionCard key={e.id || e.race || e.measure || e.title} election={e} />
               ))}
             </div>
           </Section>

@@ -63,7 +63,7 @@ You MUST return ONLY valid JSON (no markdown, no code blocks, no explanation) wi
     },
     "upcoming_elections": [
       {
-        "race": "Race description",
+        "race": "Race description (or measure title if contest is a ballot measure)",
         "date": "YYYY-MM-DD",
         "candidates": ["Candidate 1", "Candidate 2"],
         "relevance": "Why this matters",
@@ -161,6 +161,7 @@ You MUST return ONLY valid JSON (no markdown, no code blocks, no explanation) wi
 Rules:
 - Generate 3-6 governing bodies relevant to the location (city/town council, county, school board, transit if applicable, state rep, US rep)
 - Generate 6-10 current local issues with realistic importance and impact scores
+- Upcoming elections may include candidate races and ballot measures; each item should include a bridge_building block with provenance metadata
 - Include real organization names and URLs where you are confident they are correct
 - For information you are uncertain about, note it (e.g. "verify current status")
 - political_compass values: economic (-1=left/interventionist, 1=right/free-market), social (-1=libertarian, 1=authoritarian)
