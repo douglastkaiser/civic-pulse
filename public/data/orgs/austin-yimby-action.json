@@ -48,7 +48,44 @@
         "Draft op-eds and public testimony emphasizing Project Connect's economic impact",
         "Track federal FTA Capital Investment Grant application status and timeline",
         "Build coalition support from business community for federal funding advocacy letters"
-      ]
+      ],
+      "bridge_building": {
+        "opposition_steelman": "Reasonable skeptics of Defend Project Connect often worry about unintended costs, fairness across neighborhoods, and whether promised benefits will be measured transparently rather than assumed.",
+        "cross_partisan_appeals": [
+          {
+            "audience": "Cost-conscious taxpayers",
+            "framing": "Define clear outcomes, timelines, and guardrails before scaling spending or mandates.",
+            "evidence": "Campaigns with published milestones and public reporting earn broader support and allow mid-course corrections.",
+            "example_dialogue": "\"If Defend Project Connect is worth doing, it is worth measuring with transparent benchmarks so everyone can see what is working.\""
+          },
+          {
+            "audience": "Community-stability voters",
+            "framing": "Implement change in ways that reduce disruption and share benefits across existing residents and newcomers.",
+            "evidence": "Phased implementation and regular public feedback often lower backlash while improving policy durability.",
+            "example_dialogue": "\"We can move Defend Project Connect forward while still listening to neighborhood-level concerns and adjusting implementation details.\""
+          }
+        ],
+        "common_ground": [
+          "Public policy should solve real problems, not just signal values.",
+          "Residents deserve clear communication about tradeoffs.",
+          "Programs should be adjusted when evidence shows gaps."
+        ],
+        "conversation_traps_to_avoid": [
+          "Assuming all critics are acting in bad faith.",
+          "Overpromising speed or certainty on complex implementation.",
+          "Using national partisan frames for local decisions."
+        ],
+        "when_to_acknowledge_uncertainty": [
+          "When baseline data is incomplete or lagged.",
+          "When legal or budget decisions are still pending.",
+          "When implementation depends on partner agencies outside our control."
+        ],
+        "honest_limits": [
+          "This campaign cannot alone fix every upstream structural problem.",
+          "We cannot guarantee identical outcomes in every neighborhood.",
+          "We rely on sustained public participation and institutional follow-through."
+        ]
+      }
     },
     {
       "id": "council-elections-2026",
@@ -68,7 +105,44 @@
         "Prepare endorsement recommendations for Pct 4 runoff (deadline: early May)",
         "Organize precinct-level voter outreach for Pct 4 runoff (target: 5-10 volunteers, 4 weekends)",
         "Coordinate with League of Women Voters on candidate forum co-sponsorship"
-      ]
+      ],
+      "bridge_building": {
+        "opposition_steelman": "Reasonable skeptics of 2026 Council Elections often worry about unintended costs, fairness across neighborhoods, and whether promised benefits will be measured transparently rather than assumed.",
+        "cross_partisan_appeals": [
+          {
+            "audience": "Cost-conscious taxpayers",
+            "framing": "Define clear outcomes, timelines, and guardrails before scaling spending or mandates.",
+            "evidence": "Campaigns with published milestones and public reporting earn broader support and allow mid-course corrections.",
+            "example_dialogue": "\"If 2026 Council Elections is worth doing, it is worth measuring with transparent benchmarks so everyone can see what is working.\""
+          },
+          {
+            "audience": "Community-stability voters",
+            "framing": "Implement change in ways that reduce disruption and share benefits across existing residents and newcomers.",
+            "evidence": "Phased implementation and regular public feedback often lower backlash while improving policy durability.",
+            "example_dialogue": "\"We can move 2026 Council Elections forward while still listening to neighborhood-level concerns and adjusting implementation details.\""
+          }
+        ],
+        "common_ground": [
+          "Public policy should solve real problems, not just signal values.",
+          "Residents deserve clear communication about tradeoffs.",
+          "Programs should be adjusted when evidence shows gaps."
+        ],
+        "conversation_traps_to_avoid": [
+          "Assuming all critics are acting in bad faith.",
+          "Overpromising speed or certainty on complex implementation.",
+          "Using national partisan frames for local decisions."
+        ],
+        "when_to_acknowledge_uncertainty": [
+          "When baseline data is incomplete or lagged.",
+          "When legal or budget decisions are still pending.",
+          "When implementation depends on partner agencies outside our control."
+        ],
+        "honest_limits": [
+          "This campaign cannot alone fix every upstream structural problem.",
+          "We cannot guarantee identical outcomes in every neighborhood.",
+          "We rely on sustained public participation and institutional follow-through."
+        ]
+      }
     },
     {
       "id": "golf-course-rezone",
@@ -86,7 +160,44 @@
         "Research comparable large-site rezonings in other cities for best-practice examples",
         "Develop visual materials showing housing capacity potential at various density levels",
         "Organize hearing attendance commitment list (target: 50+ supporters at first hearing)"
-      ]
+      ],
+      "bridge_building": {
+        "opposition_steelman": "Reasonable skeptics of Golf Course Rezoning — 445 Acres often worry about unintended costs, fairness across neighborhoods, and whether promised benefits will be measured transparently rather than assumed.",
+        "cross_partisan_appeals": [
+          {
+            "audience": "Cost-conscious taxpayers",
+            "framing": "Define clear outcomes, timelines, and guardrails before scaling spending or mandates.",
+            "evidence": "Campaigns with published milestones and public reporting earn broader support and allow mid-course corrections.",
+            "example_dialogue": "\"If Golf Course Rezoning — 445 Acres is worth doing, it is worth measuring with transparent benchmarks so everyone can see what is working.\""
+          },
+          {
+            "audience": "Community-stability voters",
+            "framing": "Implement change in ways that reduce disruption and share benefits across existing residents and newcomers.",
+            "evidence": "Phased implementation and regular public feedback often lower backlash while improving policy durability.",
+            "example_dialogue": "\"We can move Golf Course Rezoning — 445 Acres forward while still listening to neighborhood-level concerns and adjusting implementation details.\""
+          }
+        ],
+        "common_ground": [
+          "Public policy should solve real problems, not just signal values.",
+          "Residents deserve clear communication about tradeoffs.",
+          "Programs should be adjusted when evidence shows gaps."
+        ],
+        "conversation_traps_to_avoid": [
+          "Assuming all critics are acting in bad faith.",
+          "Overpromising speed or certainty on complex implementation.",
+          "Using national partisan frames for local decisions."
+        ],
+        "when_to_acknowledge_uncertainty": [
+          "When baseline data is incomplete or lagged.",
+          "When legal or budget decisions are still pending.",
+          "When implementation depends on partner agencies outside our control."
+        ],
+        "honest_limits": [
+          "This campaign cannot alone fix every upstream structural problem.",
+          "We cannot guarantee identical outcomes in every neighborhood.",
+          "We rely on sustained public participation and institutional follow-through."
+        ]
+      }
     },
     {
       "id": "ongoing-housing-advocacy",
@@ -106,20 +217,95 @@
         "Amplify Pew Charitable Trusts report (March 18, 2026) showing Austin's 16% rent decline as proof YIMBY policy works",
         "Engage in missing middle/mixed-use zoning reform public comment process — support 4-6 unit allowances on 5,750+ sq ft lots",
         "Track and publicize HOME Initiative implementation metrics: units permitted, rents, construction timelines"
-      ]
+      ],
+      "bridge_building": {
+        "opposition_steelman": "Reasonable skeptics of Ongoing Housing Advocacy often worry about unintended costs, fairness across neighborhoods, and whether promised benefits will be measured transparently rather than assumed.",
+        "cross_partisan_appeals": [
+          {
+            "audience": "Cost-conscious taxpayers",
+            "framing": "Define clear outcomes, timelines, and guardrails before scaling spending or mandates.",
+            "evidence": "Campaigns with published milestones and public reporting earn broader support and allow mid-course corrections.",
+            "example_dialogue": "\"If Ongoing Housing Advocacy is worth doing, it is worth measuring with transparent benchmarks so everyone can see what is working.\""
+          },
+          {
+            "audience": "Community-stability voters",
+            "framing": "Implement change in ways that reduce disruption and share benefits across existing residents and newcomers.",
+            "evidence": "Phased implementation and regular public feedback often lower backlash while improving policy durability.",
+            "example_dialogue": "\"We can move Ongoing Housing Advocacy forward while still listening to neighborhood-level concerns and adjusting implementation details.\""
+          }
+        ],
+        "common_ground": [
+          "Public policy should solve real problems, not just signal values.",
+          "Residents deserve clear communication about tradeoffs.",
+          "Programs should be adjusted when evidence shows gaps."
+        ],
+        "conversation_traps_to_avoid": [
+          "Assuming all critics are acting in bad faith.",
+          "Overpromising speed or certainty on complex implementation.",
+          "Using national partisan frames for local decisions."
+        ],
+        "when_to_acknowledge_uncertainty": [
+          "When baseline data is incomplete or lagged.",
+          "When legal or budget decisions are still pending.",
+          "When implementation depends on partner agencies outside our control."
+        ],
+        "honest_limits": [
+          "This campaign cannot alone fix every upstream structural problem.",
+          "We cannot guarantee identical outcomes in every neighborhood.",
+          "We rely on sustained public participation and institutional follow-through."
+        ]
+      }
     }
   ],
   "aligned_organizations": [
-    {"name": "AURA", "relationship": "Strong ally — coordinate on most housing and land use issues. Deepest policy expertise in Austin's urbanist ecosystem.", "url": "https://aura-atx.org"},
-    {"name": "Transit Forward", "relationship": "Primary ally on Project Connect defense and transit-oriented development. Co-coordinate rapid response for TX Supreme Court ruling.", "url": "https://transitforward.org"},
-    {"name": "Austin Habitat for Humanity", "relationship": "Aligned on housing supply and affordability goals. Credible voice on housing need from direct service perspective.", "url": "https://austinhabitat.org"},
-    {"name": "Downtown Austin Alliance", "relationship": "Ally on urban density, downtown development, and transit. Business community perspective strengthens coalition breadth.", "url": "https://downtownaustin.com"},
-    {"name": "Austin Chamber of Commerce", "relationship": "Issue-specific ally on housing supply and workforce housing. Engaged on economic competitiveness arguments for density.", "url": "https://austinchamber.com"},
-    {"name": "Austin Monitor", "relationship": "Independent local news source covering city government. Key information source for tracking council actions and development cases.", "url": "https://austinmonitor.com"},
-    {"name": "Austin Bulldog", "relationship": "Investigative local journalism. Information source for government accountability and policy implementation tracking.", "url": "https://austinbulldog.org"},
-    {"name": "League of Women Voters", "relationship": "Potential co-sponsor for candidate forums in 2026 council races. Nonpartisan credibility adds legitimacy to voter education efforts.", "url": "https://lwvaustin.org"},
-    {"name": "Austin Abundance Project", "relationship": "Cross-movement ally. Their family-sized housing campaign directly connects to our housing supply advocacy. More housing at every size enables family formation."},
-    {"name": "Austin Safe & Sound", "relationship": "Cross-movement ally. Housing supply is upstream of homelessness — every unit of housing built reduces the pressure that pushes people out. Their public safety and homelessness accountability work addresses the downstream consequences of the housing crisis we fight upstream."}
+    {
+      "name": "AURA",
+      "relationship": "Strong ally — coordinate on most housing and land use issues. Deepest policy expertise in Austin's urbanist ecosystem.",
+      "url": "https://aura-atx.org"
+    },
+    {
+      "name": "Transit Forward",
+      "relationship": "Primary ally on Project Connect defense and transit-oriented development. Co-coordinate rapid response for TX Supreme Court ruling.",
+      "url": "https://transitforward.org"
+    },
+    {
+      "name": "Austin Habitat for Humanity",
+      "relationship": "Aligned on housing supply and affordability goals. Credible voice on housing need from direct service perspective.",
+      "url": "https://austinhabitat.org"
+    },
+    {
+      "name": "Downtown Austin Alliance",
+      "relationship": "Ally on urban density, downtown development, and transit. Business community perspective strengthens coalition breadth.",
+      "url": "https://downtownaustin.com"
+    },
+    {
+      "name": "Austin Chamber of Commerce",
+      "relationship": "Issue-specific ally on housing supply and workforce housing. Engaged on economic competitiveness arguments for density.",
+      "url": "https://austinchamber.com"
+    },
+    {
+      "name": "Austin Monitor",
+      "relationship": "Independent local news source covering city government. Key information source for tracking council actions and development cases.",
+      "url": "https://austinmonitor.com"
+    },
+    {
+      "name": "Austin Bulldog",
+      "relationship": "Investigative local journalism. Information source for government accountability and policy implementation tracking.",
+      "url": "https://austinbulldog.org"
+    },
+    {
+      "name": "League of Women Voters",
+      "relationship": "Potential co-sponsor for candidate forums in 2026 council races. Nonpartisan credibility adds legitimacy to voter education efforts.",
+      "url": "https://lwvaustin.org"
+    },
+    {
+      "name": "Austin Abundance Project",
+      "relationship": "Cross-movement ally. Their family-sized housing campaign directly connects to our housing supply advocacy. More housing at every size enables family formation."
+    },
+    {
+      "name": "Austin Safe & Sound",
+      "relationship": "Cross-movement ally. Housing supply is upstream of homelessness — every unit of housing built reduces the pressure that pushes people out. Their public safety and homelessness accountability work addresses the downstream consequences of the housing crisis we fight upstream."
+    }
   ],
   "engagement_pipeline": {
     "awareness": "Social media, local press coverage, op-eds on Project Connect and housing. Austin Monitor and Austin Bulldog articles as shared context.",
@@ -203,6 +389,49 @@
         "impact": "high",
         "notes": "The golf course site's housing potential is maximized with transit access. Advocacy for both reinforces each."
       }
+    ]
+  },
+  "bridge_building": {
+    "opposition_steelman": "Rapid growth can feel imposed on existing neighborhoods, and residents worry that rushed upzoning or megaproject spending will raise taxes, strain infrastructure, and displace long-time communities if affordability safeguards and implementation quality lag behind policy promises.",
+    "cross_partisan_appeals": [
+      {
+        "audience": "Fiscal conservatives and homeowners concerned about taxes",
+        "framing": "Build enough homes and transit capacity now to avoid higher long-run tax burdens from congestion, emergency fixes, and sprawl-driven infrastructure duplication.",
+        "evidence": "Austin added substantial housing supply and saw rents cool relative to peak levels; coordinated land-use and transportation planning lowers per-capita infrastructure costs over time.",
+        "example_dialogue": "\"You do not have to love every development to see the math: if we block homes near jobs and transit, taxpayers pay more later for roads, utilities, and commute-time losses.\""
+      },
+      {
+        "audience": "Labor and service-sector households",
+        "framing": "Housing abundance is a cost-of-living and commute-time issue, not just a developer issue.",
+        "evidence": "When housing supply expands, rent pressure eases and workers can live closer to jobs, reducing turnover for local employers and household transportation costs.",
+        "example_dialogue": "\"This is about whether teachers, nurses, and restaurant workers can afford to stay in Austin without two-hour commutes.\""
+      },
+      {
+        "audience": "Climate and conservation voters",
+        "framing": "More homes near transit protects regional open space and reduces vehicle miles traveled.",
+        "evidence": "Transit-oriented growth concentrates demand in existing urbanized areas, limiting fringe sprawl and associated emissions.",
+        "example_dialogue": "\"If we care about clean air and less sprawl, we should put more homes where buses and rail already go.\""
+      }
+    ],
+    "common_ground": [
+      "Austin should remain livable for current residents and newcomers.",
+      "Public dollars should be used efficiently and transparently.",
+      "Infrastructure should keep pace with growth rather than fail after the fact."
+    ],
+    "conversation_traps_to_avoid": [
+      "Do not dismiss all neighborhood concerns as bad faith NIMBYism.",
+      "Do not promise that any single zoning reform will instantly solve affordability.",
+      "Do not frame opponents as anti-city or anti-family."
+    ],
+    "when_to_acknowledge_uncertainty": [
+      "Exact unit counts and affordability mix for major rezonings before final site plans.",
+      "Court and legislative outcomes that affect transit timelines and funding.",
+      "Short-term construction disruption impacts by corridor."
+    ],
+    "honest_limits": [
+      "We cannot guarantee immediate rent drops in every neighborhood.",
+      "We cannot prevent all displacement risk without complementary anti-displacement policies.",
+      "We cannot deliver transit outcomes if state or federal funding collapses."
     ]
   }
 }

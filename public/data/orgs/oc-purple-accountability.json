@@ -50,7 +50,44 @@
         "Coordinate with Voice of OC to amplify candidate evaluation and campaign finance coverage",
         "Organize candidate forum in partnership with League of Women Voters Orange Coast — target late April/early May",
         "Publish final voter guide at least 4 weeks before June 2 primary"
-      ]
+      ],
+      "bridge_building": {
+        "opposition_steelman": "Reasonable skeptics of Board of Supervisors Majority Defense often worry about unintended costs, fairness across neighborhoods, and whether promised benefits will be measured transparently rather than assumed.",
+        "cross_partisan_appeals": [
+          {
+            "audience": "Cost-conscious taxpayers",
+            "framing": "Define clear outcomes, timelines, and guardrails before scaling spending or mandates.",
+            "evidence": "Campaigns with published milestones and public reporting earn broader support and allow mid-course corrections.",
+            "example_dialogue": "\"If Board of Supervisors Majority Defense is worth doing, it is worth measuring with transparent benchmarks so everyone can see what is working.\""
+          },
+          {
+            "audience": "Community-stability voters",
+            "framing": "Implement change in ways that reduce disruption and share benefits across existing residents and newcomers.",
+            "evidence": "Phased implementation and regular public feedback often lower backlash while improving policy durability.",
+            "example_dialogue": "\"We can move Board of Supervisors Majority Defense forward while still listening to neighborhood-level concerns and adjusting implementation details.\""
+          }
+        ],
+        "common_ground": [
+          "Public policy should solve real problems, not just signal values.",
+          "Residents deserve clear communication about tradeoffs.",
+          "Programs should be adjusted when evidence shows gaps."
+        ],
+        "conversation_traps_to_avoid": [
+          "Assuming all critics are acting in bad faith.",
+          "Overpromising speed or certainty on complex implementation.",
+          "Using national partisan frames for local decisions."
+        ],
+        "when_to_acknowledge_uncertainty": [
+          "When baseline data is incomplete or lagged.",
+          "When legal or budget decisions are still pending.",
+          "When implementation depends on partner agencies outside our control."
+        ],
+        "honest_limits": [
+          "This campaign cannot alone fix every upstream structural problem.",
+          "We cannot guarantee identical outcomes in every neighborhood.",
+          "We rely on sustained public participation and institutional follow-through."
+        ]
+      }
     },
     {
       "id": "orange-council-scorecard",
@@ -68,7 +105,44 @@
         "Research November 2026 council candidate field (3 seats + mayor)",
         "Draft scorecard format for public distribution",
         "Partner with Voice of OC for coverage of scorecard findings"
-      ]
+      ],
+      "bridge_building": {
+        "opposition_steelman": "Reasonable skeptics of City of Orange Council Scorecard often worry about unintended costs, fairness across neighborhoods, and whether promised benefits will be measured transparently rather than assumed.",
+        "cross_partisan_appeals": [
+          {
+            "audience": "Cost-conscious taxpayers",
+            "framing": "Define clear outcomes, timelines, and guardrails before scaling spending or mandates.",
+            "evidence": "Campaigns with published milestones and public reporting earn broader support and allow mid-course corrections.",
+            "example_dialogue": "\"If City of Orange Council Scorecard is worth doing, it is worth measuring with transparent benchmarks so everyone can see what is working.\""
+          },
+          {
+            "audience": "Community-stability voters",
+            "framing": "Implement change in ways that reduce disruption and share benefits across existing residents and newcomers.",
+            "evidence": "Phased implementation and regular public feedback often lower backlash while improving policy durability.",
+            "example_dialogue": "\"We can move City of Orange Council Scorecard forward while still listening to neighborhood-level concerns and adjusting implementation details.\""
+          }
+        ],
+        "common_ground": [
+          "Public policy should solve real problems, not just signal values.",
+          "Residents deserve clear communication about tradeoffs.",
+          "Programs should be adjusted when evidence shows gaps."
+        ],
+        "conversation_traps_to_avoid": [
+          "Assuming all critics are acting in bad faith.",
+          "Overpromising speed or certainty on complex implementation.",
+          "Using national partisan frames for local decisions."
+        ],
+        "when_to_acknowledge_uncertainty": [
+          "When baseline data is incomplete or lagged.",
+          "When legal or budget decisions are still pending.",
+          "When implementation depends on partner agencies outside our control."
+        ],
+        "honest_limits": [
+          "This campaign cannot alone fix every upstream structural problem.",
+          "We cannot guarantee identical outcomes in every neighborhood.",
+          "We rely on sustained public participation and institutional follow-through."
+        ]
+      }
     },
     {
       "id": "irvine-council-scorecard",
@@ -85,7 +159,44 @@
         "Design scorecard methodology tracking housing, Irvine Company, and budget votes",
         "Track November 2026 Irvine council candidates' positions and funding sources",
         "Coordinate with People for Housing OC on data sharing"
-      ]
+      ],
+      "bridge_building": {
+        "opposition_steelman": "Reasonable skeptics of Irvine Council Scorecard often worry about unintended costs, fairness across neighborhoods, and whether promised benefits will be measured transparently rather than assumed.",
+        "cross_partisan_appeals": [
+          {
+            "audience": "Cost-conscious taxpayers",
+            "framing": "Define clear outcomes, timelines, and guardrails before scaling spending or mandates.",
+            "evidence": "Campaigns with published milestones and public reporting earn broader support and allow mid-course corrections.",
+            "example_dialogue": "\"If Irvine Council Scorecard is worth doing, it is worth measuring with transparent benchmarks so everyone can see what is working.\""
+          },
+          {
+            "audience": "Community-stability voters",
+            "framing": "Implement change in ways that reduce disruption and share benefits across existing residents and newcomers.",
+            "evidence": "Phased implementation and regular public feedback often lower backlash while improving policy durability.",
+            "example_dialogue": "\"We can move Irvine Council Scorecard forward while still listening to neighborhood-level concerns and adjusting implementation details.\""
+          }
+        ],
+        "common_ground": [
+          "Public policy should solve real problems, not just signal values.",
+          "Residents deserve clear communication about tradeoffs.",
+          "Programs should be adjusted when evidence shows gaps."
+        ],
+        "conversation_traps_to_avoid": [
+          "Assuming all critics are acting in bad faith.",
+          "Overpromising speed or certainty on complex implementation.",
+          "Using national partisan frames for local decisions."
+        ],
+        "when_to_acknowledge_uncertainty": [
+          "When baseline data is incomplete or lagged.",
+          "When legal or budget decisions are still pending.",
+          "When implementation depends on partner agencies outside our control."
+        ],
+        "honest_limits": [
+          "This campaign cannot alone fix every upstream structural problem.",
+          "We cannot guarantee identical outcomes in every neighborhood.",
+          "We rely on sustained public participation and institutional follow-through."
+        ]
+      }
     },
     {
       "id": "state-legislative-tracking",
@@ -105,16 +216,77 @@
         "Create comparison guides for all three races — SD-34, AD-68, and Governor",
         "Track campaign finance filings — next filing April 23",
         "Publish voter guides at least 4 weeks before June 2 primary"
-      ]
+      ],
+      "bridge_building": {
+        "opposition_steelman": "Reasonable skeptics of State Legislative Open-Seat Tracking often worry about unintended costs, fairness across neighborhoods, and whether promised benefits will be measured transparently rather than assumed.",
+        "cross_partisan_appeals": [
+          {
+            "audience": "Cost-conscious taxpayers",
+            "framing": "Define clear outcomes, timelines, and guardrails before scaling spending or mandates.",
+            "evidence": "Campaigns with published milestones and public reporting earn broader support and allow mid-course corrections.",
+            "example_dialogue": "\"If State Legislative Open-Seat Tracking is worth doing, it is worth measuring with transparent benchmarks so everyone can see what is working.\""
+          },
+          {
+            "audience": "Community-stability voters",
+            "framing": "Implement change in ways that reduce disruption and share benefits across existing residents and newcomers.",
+            "evidence": "Phased implementation and regular public feedback often lower backlash while improving policy durability.",
+            "example_dialogue": "\"We can move State Legislative Open-Seat Tracking forward while still listening to neighborhood-level concerns and adjusting implementation details.\""
+          }
+        ],
+        "common_ground": [
+          "Public policy should solve real problems, not just signal values.",
+          "Residents deserve clear communication about tradeoffs.",
+          "Programs should be adjusted when evidence shows gaps."
+        ],
+        "conversation_traps_to_avoid": [
+          "Assuming all critics are acting in bad faith.",
+          "Overpromising speed or certainty on complex implementation.",
+          "Using national partisan frames for local decisions."
+        ],
+        "when_to_acknowledge_uncertainty": [
+          "When baseline data is incomplete or lagged.",
+          "When legal or budget decisions are still pending.",
+          "When implementation depends on partner agencies outside our control."
+        ],
+        "honest_limits": [
+          "This campaign cannot alone fix every upstream structural problem.",
+          "We cannot guarantee identical outcomes in every neighborhood.",
+          "We rely on sustained public participation and institutional follow-through."
+        ]
+      }
     }
   ],
   "aligned_organizations": [
-    {"name": "League of Women Voters Orange Coast", "relationship": "Primary partner for candidate forums and voter education. Nonpartisan credibility strengthens our accountability framing.", "url": null},
-    {"name": "Voice of OC", "relationship": "Essential media partner. Their investigative journalism provides source material for scorecards, and our tracking data feeds their coverage.", "url": "https://voiceofoc.org"},
-    {"name": "OC Housing Now", "relationship": "Housing-focused ally. Our scorecards track housing votes; their advocacy uses the data to pressure non-compliant cities.", "internal_id": "oc-housing-now"},
-    {"name": "People for Housing OC", "relationship": "YIMBY ally — our housing vote tracking supports their advocacy campaigns.", "url": null},
-    {"name": "Indivisible OC", "relationship": "Progressive grassroots ally. Their voter mobilization capacity amplifies our voter guide distribution.", "url": null},
-    {"name": "OC Abundance Project", "relationship": "Cross-movement ally. Family formation policy depends on elected officials who support housing and childcare infrastructure. Our scorecards help identify allies.", "internal_id": "oc-abundance-project"}
+    {
+      "name": "League of Women Voters Orange Coast",
+      "relationship": "Primary partner for candidate forums and voter education. Nonpartisan credibility strengthens our accountability framing.",
+      "url": null
+    },
+    {
+      "name": "Voice of OC",
+      "relationship": "Essential media partner. Their investigative journalism provides source material for scorecards, and our tracking data feeds their coverage.",
+      "url": "https://voiceofoc.org"
+    },
+    {
+      "name": "OC Housing Now",
+      "relationship": "Housing-focused ally. Our scorecards track housing votes; their advocacy uses the data to pressure non-compliant cities.",
+      "internal_id": "oc-housing-now"
+    },
+    {
+      "name": "People for Housing OC",
+      "relationship": "YIMBY ally — our housing vote tracking supports their advocacy campaigns.",
+      "url": null
+    },
+    {
+      "name": "Indivisible OC",
+      "relationship": "Progressive grassroots ally. Their voter mobilization capacity amplifies our voter guide distribution.",
+      "url": null
+    },
+    {
+      "name": "OC Abundance Project",
+      "relationship": "Cross-movement ally. Family formation policy depends on elected officials who support housing and childcare infrastructure. Our scorecards help identify allies.",
+      "internal_id": "oc-abundance-project"
+    }
   ],
   "engagement_pipeline": {
     "awareness": "Scorecards shared on social media, Voice of OC coverage, election guide distribution through partner organizations. OC's razor-thin election margins make our data newsworthy.",
@@ -198,6 +370,49 @@
         "impact": "medium",
         "notes": "Start with the highest-stakes bodies (BoS, city councils, state legislature) and expand as capacity allows. Special districts fly under the radar but make consequential decisions."
       }
+    ]
+  },
+  "bridge_building": {
+    "opposition_steelman": "Swing-county voters often worry that accountability groups become partisan attack machines; they want fact-based oversight that checks all sides, protects public safety, and avoids ideological purity tests.",
+    "cross_partisan_appeals": [
+      {
+        "audience": "Center-right institutional voters",
+        "framing": "Competent governance and oversight are conservative values when public money and authority are involved.",
+        "evidence": "Competitive districts tend to reward candidates who demonstrate fiscal discipline and transparent performance tracking.",
+        "example_dialogue": "\"This is not left or right—it is whether officials deliver results and disclose the receipts.\""
+      },
+      {
+        "audience": "Center-left civic reform voters",
+        "framing": "Accountability safeguards equity by making outcomes visible, not rhetorical.",
+        "evidence": "Public scorecards can reveal gaps in service delivery across neighborhoods and demographics.",
+        "example_dialogue": "\"We should judge leaders by measurable outcomes, not slogans.\""
+      },
+      {
+        "audience": "Politically exhausted independents",
+        "framing": "Reduce noise; elevate verifiable facts and practical tradeoffs.",
+        "evidence": "Voter trust improves when organizations clearly separate evidence from opinion and update positions when facts change.",
+        "example_dialogue": "\"If the data improves, we say so; if it worsens, we say so—regardless of party label.\""
+      }
+    ],
+    "common_ground": [
+      "Officials should be judged on performance.",
+      "Public institutions should communicate clearly and honestly.",
+      "Voters deserve actionable, non-theatrical information."
+    ],
+    "conversation_traps_to_avoid": [
+      "Avoid nationalized partisan talking points disconnected from OC realities.",
+      "Avoid framing every disagreement as corruption.",
+      "Avoid overconfident predictions about election outcomes."
+    ],
+    "when_to_acknowledge_uncertainty": [
+      "Early-cycle polling and turnout modeling.",
+      "Incomplete budget or performance datasets.",
+      "Unresolved legal disputes affecting implementation timelines."
+    ],
+    "honest_limits": [
+      "We do not endorse every race or issue.",
+      "We cannot force agencies to release non-public data instantly.",
+      "We cannot guarantee that transparency alone changes voting behavior."
     ]
   }
 }

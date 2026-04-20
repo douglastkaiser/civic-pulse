@@ -49,7 +49,44 @@
         "Publish first quarterly progress report by Q2 2026",
         "Identify which of the $101M funding gaps have been addressed and which remain",
         "Present accountability findings at council budget hearings to inform FY2027 appropriations"
-      ]
+      ],
+      "bridge_building": {
+        "opposition_steelman": "Reasonable skeptics of HSO Strategic Plan Accountability often worry about unintended costs, fairness across neighborhoods, and whether promised benefits will be measured transparently rather than assumed.",
+        "cross_partisan_appeals": [
+          {
+            "audience": "Cost-conscious taxpayers",
+            "framing": "Define clear outcomes, timelines, and guardrails before scaling spending or mandates.",
+            "evidence": "Campaigns with published milestones and public reporting earn broader support and allow mid-course corrections.",
+            "example_dialogue": "\"If HSO Strategic Plan Accountability is worth doing, it is worth measuring with transparent benchmarks so everyone can see what is working.\""
+          },
+          {
+            "audience": "Community-stability voters",
+            "framing": "Implement change in ways that reduce disruption and share benefits across existing residents and newcomers.",
+            "evidence": "Phased implementation and regular public feedback often lower backlash while improving policy durability.",
+            "example_dialogue": "\"We can move HSO Strategic Plan Accountability forward while still listening to neighborhood-level concerns and adjusting implementation details.\""
+          }
+        ],
+        "common_ground": [
+          "Public policy should solve real problems, not just signal values.",
+          "Residents deserve clear communication about tradeoffs.",
+          "Programs should be adjusted when evidence shows gaps."
+        ],
+        "conversation_traps_to_avoid": [
+          "Assuming all critics are acting in bad faith.",
+          "Overpromising speed or certainty on complex implementation.",
+          "Using national partisan frames for local decisions."
+        ],
+        "when_to_acknowledge_uncertainty": [
+          "When baseline data is incomplete or lagged.",
+          "When legal or budget decisions are still pending.",
+          "When implementation depends on partner agencies outside our control."
+        ],
+        "honest_limits": [
+          "This campaign cannot alone fix every upstream structural problem.",
+          "We cannot guarantee identical outcomes in every neighborhood.",
+          "We rely on sustained public participation and institutional follow-through."
+        ]
+      }
     },
     {
       "id": "shelter-capacity-outcomes",
@@ -68,7 +105,44 @@
         "Identify which shelter programs serve which populations — disaggregate outcomes by population type",
         "Publish first shelter outcomes report comparing facility performance",
         "Present findings to council with specific recommendations for scaling high-performing programs"
-      ]
+      ],
+      "bridge_building": {
+        "opposition_steelman": "Reasonable skeptics of Shelter Capacity & Outcomes Tracking often worry about unintended costs, fairness across neighborhoods, and whether promised benefits will be measured transparently rather than assumed.",
+        "cross_partisan_appeals": [
+          {
+            "audience": "Cost-conscious taxpayers",
+            "framing": "Define clear outcomes, timelines, and guardrails before scaling spending or mandates.",
+            "evidence": "Campaigns with published milestones and public reporting earn broader support and allow mid-course corrections.",
+            "example_dialogue": "\"If Shelter Capacity & Outcomes Tracking is worth doing, it is worth measuring with transparent benchmarks so everyone can see what is working.\""
+          },
+          {
+            "audience": "Community-stability voters",
+            "framing": "Implement change in ways that reduce disruption and share benefits across existing residents and newcomers.",
+            "evidence": "Phased implementation and regular public feedback often lower backlash while improving policy durability.",
+            "example_dialogue": "\"We can move Shelter Capacity & Outcomes Tracking forward while still listening to neighborhood-level concerns and adjusting implementation details.\""
+          }
+        ],
+        "common_ground": [
+          "Public policy should solve real problems, not just signal values.",
+          "Residents deserve clear communication about tradeoffs.",
+          "Programs should be adjusted when evidence shows gaps."
+        ],
+        "conversation_traps_to_avoid": [
+          "Assuming all critics are acting in bad faith.",
+          "Overpromising speed or certainty on complex implementation.",
+          "Using national partisan frames for local decisions."
+        ],
+        "when_to_acknowledge_uncertainty": [
+          "When baseline data is incomplete or lagged.",
+          "When legal or budget decisions are still pending.",
+          "When implementation depends on partner agencies outside our control."
+        ],
+        "honest_limits": [
+          "This campaign cannot alone fix every upstream structural problem.",
+          "We cannot guarantee identical outcomes in every neighborhood.",
+          "We rely on sustained public participation and institutional follow-through."
+        ]
+      }
     },
     {
       "id": "apd-staffing-response",
@@ -87,7 +161,44 @@
         "Build district-level APD staffing and response time dashboard",
         "Publish first APD staffing report with district-level response time analysis",
         "Present response time data at council budget hearings — connect staffing levels to constituent safety outcomes"
-      ]
+      ],
+      "bridge_building": {
+        "opposition_steelman": "Reasonable skeptics of APD Staffing & Response Time Monitoring often worry about unintended costs, fairness across neighborhoods, and whether promised benefits will be measured transparently rather than assumed.",
+        "cross_partisan_appeals": [
+          {
+            "audience": "Cost-conscious taxpayers",
+            "framing": "Define clear outcomes, timelines, and guardrails before scaling spending or mandates.",
+            "evidence": "Campaigns with published milestones and public reporting earn broader support and allow mid-course corrections.",
+            "example_dialogue": "\"If APD Staffing & Response Time Monitoring is worth doing, it is worth measuring with transparent benchmarks so everyone can see what is working.\""
+          },
+          {
+            "audience": "Community-stability voters",
+            "framing": "Implement change in ways that reduce disruption and share benefits across existing residents and newcomers.",
+            "evidence": "Phased implementation and regular public feedback often lower backlash while improving policy durability.",
+            "example_dialogue": "\"We can move APD Staffing & Response Time Monitoring forward while still listening to neighborhood-level concerns and adjusting implementation details.\""
+          }
+        ],
+        "common_ground": [
+          "Public policy should solve real problems, not just signal values.",
+          "Residents deserve clear communication about tradeoffs.",
+          "Programs should be adjusted when evidence shows gaps."
+        ],
+        "conversation_traps_to_avoid": [
+          "Assuming all critics are acting in bad faith.",
+          "Overpromising speed or certainty on complex implementation.",
+          "Using national partisan frames for local decisions."
+        ],
+        "when_to_acknowledge_uncertainty": [
+          "When baseline data is incomplete or lagged.",
+          "When legal or budget decisions are still pending.",
+          "When implementation depends on partner agencies outside our control."
+        ],
+        "honest_limits": [
+          "This campaign cannot alone fix every upstream structural problem.",
+          "We cannot guarantee identical outcomes in every neighborhood.",
+          "We rely on sustained public participation and institutional follow-through."
+        ]
+      }
     },
     {
       "id": "heal-initiative-transparency",
@@ -105,18 +216,86 @@
         "Research whether HEAL operations meet the city's own stated criteria for compassionate encampment closure",
         "Compare HEAL outcomes across different encampment types and locations",
         "Publish HEAL transparency report with operation-level outcome data"
-      ]
+      ],
+      "bridge_building": {
+        "opposition_steelman": "Reasonable skeptics of HEAL Initiative Transparency often worry about unintended costs, fairness across neighborhoods, and whether promised benefits will be measured transparently rather than assumed.",
+        "cross_partisan_appeals": [
+          {
+            "audience": "Cost-conscious taxpayers",
+            "framing": "Define clear outcomes, timelines, and guardrails before scaling spending or mandates.",
+            "evidence": "Campaigns with published milestones and public reporting earn broader support and allow mid-course corrections.",
+            "example_dialogue": "\"If HEAL Initiative Transparency is worth doing, it is worth measuring with transparent benchmarks so everyone can see what is working.\""
+          },
+          {
+            "audience": "Community-stability voters",
+            "framing": "Implement change in ways that reduce disruption and share benefits across existing residents and newcomers.",
+            "evidence": "Phased implementation and regular public feedback often lower backlash while improving policy durability.",
+            "example_dialogue": "\"We can move HEAL Initiative Transparency forward while still listening to neighborhood-level concerns and adjusting implementation details.\""
+          }
+        ],
+        "common_ground": [
+          "Public policy should solve real problems, not just signal values.",
+          "Residents deserve clear communication about tradeoffs.",
+          "Programs should be adjusted when evidence shows gaps."
+        ],
+        "conversation_traps_to_avoid": [
+          "Assuming all critics are acting in bad faith.",
+          "Overpromising speed or certainty on complex implementation.",
+          "Using national partisan frames for local decisions."
+        ],
+        "when_to_acknowledge_uncertainty": [
+          "When baseline data is incomplete or lagged.",
+          "When legal or budget decisions are still pending.",
+          "When implementation depends on partner agencies outside our control."
+        ],
+        "honest_limits": [
+          "This campaign cannot alone fix every upstream structural problem.",
+          "We cannot guarantee identical outcomes in every neighborhood.",
+          "We rely on sustained public participation and institutional follow-through."
+        ]
+      }
     }
   ],
   "aligned_organizations": [
-    {"name": "Integral Care", "relationship": "Travis County's mental health authority and key partner on crisis response. Essential data source for understanding non-police intervention outcomes and mental health crisis response capacity. Their expansion directly reduces demand on APD for mental health calls.", "url": "https://integralcare.org"},
-    {"name": "Austin Area Urban League", "relationship": "Operates Southbridge shelter. Aligned on equity dimensions of public safety and homelessness policy. Community credibility in East Austin communities disproportionately affected by both crime and homelessness.", "url": "https://aaul.org"},
-    {"name": "Family Endeavors", "relationship": "Major homelessness service provider operating the Marshalling Yard and Northbridge shelters. Essential data partner for shelter outcomes tracking. Their program outcomes are central to our shelter accountability campaign.", "url": "https://familyendeavors.org"},
-    {"name": "ECHO", "relationship": "Ending Community Homelessness Coalition — administers the Homeless Management Information System (HMIS) and Point-in-Time count. Essential data and coordination partner for all homelessness outcome tracking.", "url": "https://austinecho.org"},
-    {"name": "Austin Monitor", "relationship": "Independent local news source covering city government. Key information source for tracking council actions on public safety budgets, HSO operations, and APD staffing decisions.", "url": "https://austinmonitor.com"},
-    {"name": "Austin Bulldog", "relationship": "Investigative local journalism. Information source for government accountability on public safety spending and homelessness program outcomes.", "url": "https://austinbulldog.org"},
-    {"name": "Austin YIMBY Action", "relationship": "Cross-movement ally. Housing supply is upstream of homelessness — every unit of housing built reduces the pressure that pushes people out. Their success at building housing directly reduces homelessness inflow. The YIMBY housing agenda and our safety accountability agenda are complementary.", "url": "https://www.austinyimby.org"},
-    {"name": "Austin Abundance Project", "relationship": "Cross-movement ally. Family instability is a major pathway into homelessness. Their work on childcare, parental support, and family housing prevents the crises that lead to people losing housing. Family formation infrastructure is homelessness prevention infrastructure."}
+    {
+      "name": "Integral Care",
+      "relationship": "Travis County's mental health authority and key partner on crisis response. Essential data source for understanding non-police intervention outcomes and mental health crisis response capacity. Their expansion directly reduces demand on APD for mental health calls.",
+      "url": "https://integralcare.org"
+    },
+    {
+      "name": "Austin Area Urban League",
+      "relationship": "Operates Southbridge shelter. Aligned on equity dimensions of public safety and homelessness policy. Community credibility in East Austin communities disproportionately affected by both crime and homelessness.",
+      "url": "https://aaul.org"
+    },
+    {
+      "name": "Family Endeavors",
+      "relationship": "Major homelessness service provider operating the Marshalling Yard and Northbridge shelters. Essential data partner for shelter outcomes tracking. Their program outcomes are central to our shelter accountability campaign.",
+      "url": "https://familyendeavors.org"
+    },
+    {
+      "name": "ECHO",
+      "relationship": "Ending Community Homelessness Coalition — administers the Homeless Management Information System (HMIS) and Point-in-Time count. Essential data and coordination partner for all homelessness outcome tracking.",
+      "url": "https://austinecho.org"
+    },
+    {
+      "name": "Austin Monitor",
+      "relationship": "Independent local news source covering city government. Key information source for tracking council actions on public safety budgets, HSO operations, and APD staffing decisions.",
+      "url": "https://austinmonitor.com"
+    },
+    {
+      "name": "Austin Bulldog",
+      "relationship": "Investigative local journalism. Information source for government accountability on public safety spending and homelessness program outcomes.",
+      "url": "https://austinbulldog.org"
+    },
+    {
+      "name": "Austin YIMBY Action",
+      "relationship": "Cross-movement ally. Housing supply is upstream of homelessness — every unit of housing built reduces the pressure that pushes people out. Their success at building housing directly reduces homelessness inflow. The YIMBY housing agenda and our safety accountability agenda are complementary.",
+      "url": "https://www.austinyimby.org"
+    },
+    {
+      "name": "Austin Abundance Project",
+      "relationship": "Cross-movement ally. Family instability is a major pathway into homelessness. Their work on childcare, parental support, and family housing prevents the crises that lead to people losing housing. Family formation infrastructure is homelessness prevention infrastructure."
+    }
   ],
   "engagement_pipeline": {
     "awareness": "Social media, neighborhood association meetings, local news coverage of public safety and homelessness data. Publish accountability dashboards — shelter outcomes tracker, APD response time maps, HSO progress reports — for organic discovery and sharing. Partner with Austin Monitor and Austin Bulldog for data-driven coverage.",
@@ -200,6 +379,49 @@
         "impact": "high",
         "notes": "Use the org's tracking infrastructure as a proof of concept for what the city should publish itself. The goal is to make our accountability work unnecessary by getting the city to publish this data proactively. If we succeed, we've institutionalized transparency."
       }
+    ]
+  },
+  "bridge_building": {
+    "opposition_steelman": "Residents understandably fear that reform rhetoric can translate into weaker enforcement, slower emergency response, or unclear accountability for homelessness programs, and they want clear proof that public safety spending is producing measurable results.",
+    "cross_partisan_appeals": [
+      {
+        "audience": "Public-safety-first voters",
+        "framing": "Accountability is pro-safety: faster response times and effective interventions require transparent metrics.",
+        "evidence": "Performance dashboards and outcome tracking improve resource allocation and public trust across agencies.",
+        "example_dialogue": "\"We can support first responders and still insist on clear goals, timelines, and outcomes.\""
+      },
+      {
+        "audience": "Civil-liberties and reform advocates",
+        "framing": "Data transparency protects rights while improving service quality.",
+        "evidence": "Publishing disaggregated outcomes helps identify disparities and correct harmful practices.",
+        "example_dialogue": "\"Better data is how we reduce harm and improve effectiveness at the same time.\""
+      },
+      {
+        "audience": "Budget watchdogs",
+        "framing": "Measure what works before expanding programs.",
+        "evidence": "Program evaluations can redirect spending from low-impact interventions to high-impact safety and housing supports.",
+        "example_dialogue": "\"If taxpayers fund a program, taxpayers deserve to know what outcomes they bought.\""
+      }
+    ],
+    "common_ground": [
+      "People deserve to feel safe in every neighborhood.",
+      "Emergency response should be fast, fair, and reliable.",
+      "Taxpayer-funded programs should publish measurable outcomes."
+    ],
+    "conversation_traps_to_avoid": [
+      "Do not label all criticism as anti-reform or anti-police.",
+      "Do not reduce complex homelessness issues to a single agency failure.",
+      "Do not overclaim causality from short-term trend changes."
+    ],
+    "when_to_acknowledge_uncertainty": [
+      "Attribution of year-to-year crime changes to any single intervention.",
+      "Long-term outcomes for newer homelessness initiatives.",
+      "Staffing pipelines affected by national labor-market conditions."
+    ],
+    "honest_limits": [
+      "We do not run city departments directly.",
+      "We cannot guarantee immediate citywide response-time improvements.",
+      "We cannot solve homelessness without county, state, and nonprofit partners."
     ]
   }
 }
