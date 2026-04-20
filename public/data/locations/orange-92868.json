@@ -181,76 +181,370 @@
     {
       "race": "OC Board of Supervisors District 4 — Open Seat (Chaffee termed out)",
       "date": "2026-06-02",
-      "candidates": ["Fred Jung (Fullerton Mayor, $354K cash on hand — dominant fundraiser)", "Connor Traut (Buena Park Vice Mayor, $225K, OC Dem Party + Chaffee endorsement)", "Rose Espinoza ($150K self-loan, La Habra)", "Tim Shaw (R party endorsement)"],
+      "candidates": [
+        "Fred Jung (Fullerton Mayor, $354K cash on hand — dominant fundraiser)",
+        "Connor Traut (Buena Park Vice Mayor, $225K, OC Dem Party + Chaffee endorsement)",
+        "Rose Espinoza ($150K self-loan, La Habra)",
+        "Tim Shaw (R party endorsement)"
+      ],
       "relevance": "CRITICAL: Four-way primary, top-two advance to November. District is 40.4% D, 30.5% R. Determines whether Democrats keep 3-2 board majority. Jung's $354K and Traut's $225K + party endorsement make them likely top-two. Filing closed March 6. Next finance filing April 23.",
-      "action": "Research all four candidates on housing, transit, homelessness, and budget positions. Jung and Traut are the fundraising leaders. Consider donations and volunteering for preferred candidate."
+      "action": "Research all four candidates on housing, transit, homelessness, and budget positions. Jung and Traut are the fundraising leaders. Consider donations and volunteering for preferred candidate.",
+      "race_identifier": "oc-bos-d4-primary-2026-06",
+      "associated_organizations": [
+        {
+          "org_id": "oc-housing-now",
+          "name": "People for Housing OC",
+          "applicability": "directly_applicable",
+          "relevance_note": "Board control is central to county-level housing implementation and land-use posture."
+        },
+        {
+          "org_id": "oc-purple-accountability",
+          "name": "OC Purple Accountability",
+          "applicability": "directly_applicable",
+          "relevance_note": "This race is a core scorecard and voter-guide target for accountability infrastructure."
+        },
+        {
+          "org_id": "oc-abundance-project",
+          "name": "OC Abundance Project",
+          "applicability": "not_directly_applicable",
+          "relevance_note": "Family policy goals are indirectly influenced by board decisions but not this race’s central policy frame."
+        }
+      ],
+      "bridge_building": {
+        "why_this_race_matters_to_everyone": "This contest influences service delivery, affordability, and institutional trust for residents well beyond partisan bases.",
+        "shared_stakes": "Most voters want competent governance, transparent budgeting, and practical progress on housing, transportation, and public safety.",
+        "anti_tribal_framing": "Use a performance lens: compare who can execute durable solutions and communicate tradeoffs honestly, rather than treating the race as team identity warfare."
+      }
     },
     {
       "race": "OC Board of Supervisors District 5 — Foley (D) vs Dixon (R)",
       "date": "2026-06-02",
-      "candidates": ["Katrina Foley (D, incumbent, $285K cash, Board Vice Chair)", "Diane Dixon (R, Assemblywoman, $135K cash, outraised Foley in H2 2025)"],
+      "candidates": [
+        "Katrina Foley (D, incumbent, $285K cash, Board Vice Chair)",
+        "Diane Dixon (R, Assemblywoman, $135K cash, outraised Foley in H2 2025)"
+      ],
       "relevance": "CRITICAL: Most vulnerable Democratic seat. District is most Republican of the 5 (38.1% R vs 32.8% D). Foley won 51-49 in 2022. Harris won D5 by just 318 votes (49-48%). If Dixon wins, board flips regardless of District 4 outcome. Arguably the most consequential OC race.",
-      "action": "Research both candidates. Support Foley if aligned with your priorities. Dixon outraised Foley in H2 2025 — financial momentum matters. This is the defensive counterpart to District 4's offensive opportunity."
+      "action": "Research both candidates. Support Foley if aligned with your priorities. Dixon outraised Foley in H2 2025 — financial momentum matters. This is the defensive counterpart to District 4's offensive opportunity.",
+      "race_identifier": "oc-bos-d5-primary-2026-06",
+      "associated_organizations": [
+        {
+          "org_id": "oc-housing-now",
+          "name": "People for Housing OC",
+          "applicability": "directly_applicable",
+          "relevance_note": "A D5 flip could materially change county housing and homelessness policy direction."
+        },
+        {
+          "org_id": "oc-purple-accountability",
+          "name": "OC Purple Accountability",
+          "applicability": "directly_applicable",
+          "relevance_note": "High-priority accountability race due to razor-thin historical margins."
+        },
+        {
+          "org_id": "oc-abundance-project",
+          "name": "OC Abundance Project",
+          "applicability": "not_directly_applicable",
+          "relevance_note": "Workforce-family priorities are relevant but secondary to board control in this contest."
+        }
+      ],
+      "bridge_building": {
+        "why_this_race_matters_to_everyone": "This contest influences service delivery, affordability, and institutional trust for residents well beyond partisan bases.",
+        "shared_stakes": "Most voters want competent governance, transparent budgeting, and practical progress on housing, transportation, and public safety.",
+        "anti_tribal_framing": "Use a performance lens: compare who can execute durable solutions and communicate tradeoffs honestly, rather than treating the race as team identity warfare."
+      }
     },
     {
       "race": "State Senate SD-34 — Open Seat",
       "date": "2026-06-02",
-      "candidates": ["Avelino Valencia (D, current AD-68 Assemblymember — frontrunner)", "Rhonda Shader (R, former Placentia mayor, 2022 runner-up)"],
+      "candidates": [
+        "Avelino Valencia (D, current AD-68 Assemblymember — frontrunner)",
+        "Rhonda Shader (R, former Placentia mayor, 2022 runner-up)"
+      ],
       "relevance": "Doug's direct state senator race. CORRECTION: Josh Newman is NOT running (he's running for Superintendent of Public Instruction). Now a straight D-vs-R race. Both will advance from June 2 top-two primary to November general election. Valencia's Assembly record on housing and governance is the key evaluation point.",
-      "action": "Research Valencia's Assembly record on housing mandates, RHNA enforcement, Builder's Remedy. The general election in November will be the real contest."
+      "action": "Research Valencia's Assembly record on housing mandates, RHNA enforcement, Builder's Remedy. The general election in November will be the real contest.",
+      "race_identifier": "oc-sd34-primary-2026-06",
+      "associated_organizations": [
+        {
+          "org_id": "oc-housing-now",
+          "name": "People for Housing OC",
+          "applicability": "directly_applicable",
+          "relevance_note": "State Senate housing-mandate votes directly shape local production constraints."
+        },
+        {
+          "org_id": "oc-purple-accountability",
+          "name": "OC Purple Accountability",
+          "applicability": "directly_applicable",
+          "relevance_note": "Questionnaire and voter-guide publication priority for this district."
+        },
+        {
+          "org_id": "oc-abundance-project",
+          "name": "OC Abundance Project",
+          "applicability": "directly_applicable",
+          "relevance_note": "State policy choices influence long-term affordability conditions for families."
+        }
+      ],
+      "bridge_building": {
+        "why_this_race_matters_to_everyone": "This contest influences service delivery, affordability, and institutional trust for residents well beyond partisan bases.",
+        "shared_stakes": "Most voters want competent governance, transparent budgeting, and practical progress on housing, transportation, and public safety.",
+        "anti_tribal_framing": "Use a performance lens: compare who can execute durable solutions and communicate tradeoffs honestly, rather than treating the race as team identity warfare."
+      }
     },
     {
       "race": "State Assembly AD-68 — Open Seat (Valencia running for Senate)",
       "date": "2026-06-02",
-      "candidates": ["Jessie Lopez (D, Santa Ana city councilor, $73,737 raised, endorsed by CA Legislative Women's Caucus)", "David Peñaloza (D, Santa Ana city councilor, $142,897 raised — nearly 2x Lopez, endorsed by incumbent Valencia)"],
+      "candidates": [
+        "Jessie Lopez (D, Santa Ana city councilor, $73,737 raised, endorsed by CA Legislative Women's Caucus)",
+        "David Peñaloza (D, Santa Ana city councilor, $142,897 raised — nearly 2x Lopez, endorsed by incumbent Valencia)"
+      ],
       "relevance": "Doug's state assembly district. Open because Valencia is running for Senate. All-Democratic field means primary effectively decides the seat. Peñaloza has a significant fundraising lead and Valencia's endorsement; Lopez has the Women's Caucus backing.",
-      "action": "Compare both candidates' Santa Ana council voting records on housing and development. Peñaloza has institutional and financial advantages but evaluate both on housing mandate enforcement."
+      "action": "Compare both candidates' Santa Ana council voting records on housing and development. Peñaloza has institutional and financial advantages but evaluate both on housing mandate enforcement.",
+      "race_identifier": "oc-ad68-primary-2026-06",
+      "associated_organizations": [
+        {
+          "org_id": "oc-housing-now",
+          "name": "People for Housing OC",
+          "applicability": "directly_applicable",
+          "relevance_note": "Assembly votes affect enforcement and implementation of housing production laws."
+        },
+        {
+          "org_id": "oc-purple-accountability",
+          "name": "OC Purple Accountability",
+          "applicability": "directly_applicable",
+          "relevance_note": "Low-information race where comparative candidate records are essential for voters."
+        },
+        {
+          "org_id": "oc-abundance-project",
+          "name": "OC Abundance Project",
+          "applicability": "directly_applicable",
+          "relevance_note": "Legislation on childcare, wages, and housing ties directly into abundance policy goals."
+        }
+      ],
+      "bridge_building": {
+        "why_this_race_matters_to_everyone": "This contest influences service delivery, affordability, and institutional trust for residents well beyond partisan bases.",
+        "shared_stakes": "Most voters want competent governance, transparent budgeting, and practical progress on housing, transportation, and public safety.",
+        "anti_tribal_framing": "Use a performance lens: compare who can execute durable solutions and communicate tradeoffs honestly, rather than treating the race as team identity warfare."
+      }
     },
     {
       "race": "City of Orange — Mayor + 3 Council Seats",
       "date": "2026-11-03",
-      "candidates": ["TBD — filing hasn't opened"],
+      "candidates": [
+        "TBD — filing hasn't opened"
+      ],
       "relevance": "Direct local representation. Housing Element compliance is the top issue. Who sits on this council determines whether Orange builds housing or evades state mandates.",
-      "action": "Track candidate announcements. Evaluate on housing and development positions."
+      "action": "Track candidate announcements. Evaluate on housing and development positions.",
+      "race_identifier": "oc-orange-city-general-2026-11",
+      "associated_organizations": [
+        {
+          "org_id": "oc-housing-now",
+          "name": "People for Housing OC",
+          "applicability": "directly_applicable",
+          "relevance_note": "City of Orange elections will determine if Housing Element compliance becomes actual homes."
+        },
+        {
+          "org_id": "oc-purple-accountability",
+          "name": "OC Purple Accountability",
+          "applicability": "directly_applicable",
+          "relevance_note": "Core municipal scorecard target due to nonpartisan ballot and information gaps."
+        },
+        {
+          "org_id": "oc-abundance-project",
+          "name": "OC Abundance Project",
+          "applicability": "directly_applicable",
+          "relevance_note": "City-level land-use decisions affect family affordability and economic opportunity."
+        }
+      ],
+      "bridge_building": {
+        "why_this_race_matters_to_everyone": "This contest influences service delivery, affordability, and institutional trust for residents well beyond partisan bases.",
+        "shared_stakes": "Most voters want competent governance, transparent budgeting, and practical progress on housing, transportation, and public safety.",
+        "anti_tribal_framing": "Use a performance lens: compare who can execute durable solutions and communicate tradeoffs honestly, rather than treating the race as team identity warfare."
+      }
     },
     {
       "race": "City of Irvine — Mayor + 3 Council Seats",
       "date": "2026-11-03",
-      "candidates": ["TBD"],
+      "candidates": [
+        "TBD"
+      ],
       "relevance": "Neighboring city. General Plan update with 57,656 units proposed. Irvine Company monopoly is the backdrop.",
-      "action": "Monitor for impact on regional housing supply."
+      "action": "Monitor for impact on regional housing supply.",
+      "race_identifier": "oc-irvine-city-general-2026-11",
+      "associated_organizations": [
+        {
+          "org_id": "oc-housing-now",
+          "name": "People for Housing OC",
+          "applicability": "directly_applicable",
+          "relevance_note": "Irvine council composition affects implementation of major housing projects like Oak Creek."
+        },
+        {
+          "org_id": "oc-purple-accountability",
+          "name": "OC Purple Accountability",
+          "applicability": "directly_applicable",
+          "relevance_note": "Tracking council votes is key in a high-stakes, low-salience local contest."
+        },
+        {
+          "org_id": "oc-abundance-project",
+          "name": "OC Abundance Project",
+          "applicability": "directly_applicable",
+          "relevance_note": "Regional housing and family opportunity outcomes are highly sensitive to Irvine supply decisions."
+        }
+      ],
+      "bridge_building": {
+        "why_this_race_matters_to_everyone": "This contest influences service delivery, affordability, and institutional trust for residents well beyond partisan bases.",
+        "shared_stakes": "Most voters want competent governance, transparent budgeting, and practical progress on housing, transportation, and public safety.",
+        "anti_tribal_framing": "Use a performance lens: compare who can execute durable solutions and communicate tradeoffs honestly, rather than treating the race as team identity warfare."
+      }
     },
     {
       "race": "California Governor — Open Seat (Newsom termed out)",
       "date": "2026-06-02",
-      "candidates": ["Steve Hilton (R, 17% — Emerson poll leader)", "Chad Bianco (R, Riverside Sheriff, 14%)", "Tom Steyer (D, 14%)", "Xavier Becerra (D, 10% — SURGED from ~4%, raised $400K in days)", "Katie Porter (D, 10%)", "Matt Mahan (D, San Jose Mayor, 5%)", "23% undecided"],
+      "candidates": [
+        "Steve Hilton (R, 17% — Emerson poll leader)",
+        "Chad Bianco (R, Riverside Sheriff, 14%)",
+        "Tom Steyer (D, 14%)",
+        "Xavier Becerra (D, 10% — SURGED from ~4%, raised $400K in days)",
+        "Katie Porter (D, 10%)",
+        "Matt Mahan (D, San Jose Mayor, 5%)",
+        "23% undecided"
+      ],
       "relevance": "HIGH STAKES — DEBATE LINEUP CONFIRMED: Six candidates qualified for April 22 debate (3 DAYS AWAY): Steve Hilton (R, 17%), Chad Bianco (R, 14%), Tom Steyer (D, 14%), Xavier Becerra (D, 10% — surging), Katie Porter (D, 10%), Matt Mahan (D, 5%). SECOND DEBATE at Pomona College April 28 (CBS broadcast). Democratic fragmentation WORSE than ever: 4-way D split vs 2-way R split. R-vs-R November most realistic path. Swalwell's zombie candidacy stays on June 2 ballot. Early ballots going out in ~3 weeks. Housing is #1 voter issue (20%). Governor controls RHNA, Builder's Remedy, AG referrals — upstream of every OC housing fight.",
-      "action": "WATCH April 22 debate (7pm, KTLA5) — 3 DAYS AWAY. Then Pomona College debate April 28 (CBS). Vote strategically in top-two primary — Dem fragmentation could produce R-R November. Research which D candidate is strongest on housing enforcement. The next governor determines whether the OC housing fight has a state ally."
+      "action": "WATCH April 22 debate (7pm, KTLA5) — 3 DAYS AWAY. Then Pomona College debate April 28 (CBS). Vote strategically in top-two primary — Dem fragmentation could produce R-R November. Research which D candidate is strongest on housing enforcement. The next governor determines whether the OC housing fight has a state ally.",
+      "race_identifier": "ca-governor-primary-2026-06",
+      "associated_organizations": [
+        {
+          "org_id": "oc-housing-now",
+          "name": "People for Housing OC",
+          "applicability": "directly_applicable",
+          "relevance_note": "Governor enforcement choices shape RHNA/Builder’s Remedy pressure on local jurisdictions."
+        },
+        {
+          "org_id": "oc-purple-accountability",
+          "name": "OC Purple Accountability",
+          "applicability": "directly_applicable",
+          "relevance_note": "Statewide race materially impacts local accountability context for OC voters."
+        },
+        {
+          "org_id": "oc-abundance-project",
+          "name": "OC Abundance Project",
+          "applicability": "directly_applicable",
+          "relevance_note": "State executive policy drives affordability, childcare, and family prosperity conditions."
+        }
+      ],
+      "bridge_building": {
+        "why_this_race_matters_to_everyone": "This contest influences service delivery, affordability, and institutional trust for residents well beyond partisan bases.",
+        "shared_stakes": "Most voters want competent governance, transparent budgeting, and practical progress on housing, transportation, and public safety.",
+        "anti_tribal_framing": "Use a performance lens: compare who can execute durable solutions and communicate tradeoffs honestly, rather than treating the race as team identity warfare."
+      }
     },
     {
       "race": "U.S. House CD-40 — Young Kim (R) vs Ken Calvert (R) Incumbent Clash",
       "date": "2026-06-02",
-      "candidates": ["Young Kim (R, current CD-40, $2M+ cash advantage)", "Ken Calvert (R, current CD-41, represents 51% of new district)", "Joe Kerr (D)", "Esther Kim Varet (D)", "6 others"],
+      "candidates": [
+        "Young Kim (R, current CD-40, $2M+ cash advantage)",
+        "Ken Calvert (R, current CD-41, represents 51% of new district)",
+        "Joe Kerr (D)",
+        "Esther Kim Varet (D)",
+        "6 others"
+      ],
       "relevance": "NEW RACE from Prop 50 redistricting — two Republican incumbents forced into same district. 10 candidates total in top-two primary. Key question: can a Democrat make top-two? If both Rs advance, D is shut out of November. District spans eastern OC through Inland Empire.",
-      "action": "Research candidates' housing and infrastructure positions. Monitor whether a Democrat can make the top-two for a competitive November race."
+      "action": "Research candidates' housing and infrastructure positions. Monitor whether a Democrat can make the top-two for a competitive November race.",
+      "race_identifier": "us-house-cd40-primary-2026-06",
+      "associated_organizations": [
+        {
+          "org_id": "oc-housing-now",
+          "name": "People for Housing OC",
+          "applicability": "not_directly_applicable",
+          "relevance_note": "Federal race is less immediate to local zoning execution, though coalition narratives may spill over."
+        },
+        {
+          "org_id": "oc-purple-accountability",
+          "name": "OC Purple Accountability",
+          "applicability": "directly_applicable",
+          "relevance_note": "High-information voter guide value because redistricting created unusual candidate dynamics."
+        },
+        {
+          "org_id": "oc-abundance-project",
+          "name": "OC Abundance Project",
+          "applicability": "directly_applicable",
+          "relevance_note": "Federal transportation and family policy can still impact long-run abundance outcomes."
+        }
+      ],
+      "bridge_building": {
+        "why_this_race_matters_to_everyone": "This contest influences service delivery, affordability, and institutional trust for residents well beyond partisan bases.",
+        "shared_stakes": "Most voters want competent governance, transparent budgeting, and practical progress on housing, transportation, and public safety.",
+        "anti_tribal_framing": "Use a performance lens: compare who can execute durable solutions and communicate tradeoffs honestly, rather than treating the race as team identity warfare."
+      }
     },
     {
       "race": "OC County Offices — DA, Sheriff",
       "date": "2026-06-02",
-      "candidates": ["TBD"],
+      "candidates": [
+        "TBD"
+      ],
       "relevance": "DA and Sheriff shape public safety approach countywide.",
-      "action": "Monitor."
+      "action": "Monitor.",
+      "race_identifier": "oc-county-da-sheriff-primary-2026-06",
+      "associated_organizations": [
+        {
+          "org_id": "oc-housing-now",
+          "name": "People for Housing OC",
+          "applicability": "not_directly_applicable",
+          "relevance_note": "Indirect relevance through homelessness enforcement context, but not core land-use campaign focus."
+        },
+        {
+          "org_id": "oc-purple-accountability",
+          "name": "OC Purple Accountability",
+          "applicability": "directly_applicable",
+          "relevance_note": "County accountability mission includes providing voters clear records in low-information offices."
+        },
+        {
+          "org_id": "oc-abundance-project",
+          "name": "OC Abundance Project",
+          "applicability": "not_directly_applicable",
+          "relevance_note": "Family-policy relevance is indirect and race-specific details remain sparse."
+        }
+      ],
+      "bridge_building": {
+        "why_this_race_matters_to_everyone": "This contest influences service delivery, affordability, and institutional trust for residents well beyond partisan bases.",
+        "shared_stakes": "Most voters want competent governance, transparent budgeting, and practical progress on housing, transportation, and public safety.",
+        "anti_tribal_framing": "Use a performance lens: compare who can execute durable solutions and communicate tradeoffs honestly, rather than treating the race as team identity warfare."
+      }
     }
   ],
   "key_political_dynamics": "Orange County is one of America's few truly purple counties. The area around UCI Medical Center sits at the exact fulcrum — the City of Orange is split 36.6% D to 34.8% R. Elections here are decided by razor margins (the 2024 CD-45 race was decided by 581 votes). California's state housing mandates (SB 9, RHNA, Builder's Remedy) create intense friction with local governments that resist density. The 2026 elections are unusually high-stakes: the Board of Supervisors majority, multiple open state legislative seats, city council races in both Orange and Irvine, and new congressional maps from Prop 50 all converge. For a moderate Democrat, this is the most target-rich political environment in America.\n\nApril 2026 updates: (1) GOVERNOR'S RACE — DEBATE WEEK: Debate lineup CONFIRMED — 6 candidates on stage April 22 (3 DAYS AWAY, 7pm, KTLA5/Nexstar): Hilton (R, 17%), Bianco (R, 14%), Steyer (D, 14%), Becerra (D, 10%), Porter (D, 10%), Mahan (D, 5%). SECOND DEBATE at Pomona College April 28 (CBS broadcast). Democratic fragmentation worsening. R-vs-R November most realistic path. Early ballots ~3 weeks out. (2) ⚡ APRIL 23 CAMPAIGN FINANCE DEADLINE in 4 DAYS: New fundraising data for BoS D4/D5, state legislative races, and governor's race. Reveals spending trajectories for final 6 weeks. 44 days until June 2 primary. (3) IRVINE OAK CREEK MILESTONE: City Council APPROVED zoning text amendment on April 14 enabling alternative open space framework for Planning Area 12 — the 50-acre nature park can now substitute for golf course open space. This is a critical procedural step. Broader project approvals for the 3,100-unit development ($96M community benefits, 2,000 rent vouchers, 50-acre nature park) still pending. Opposition gathering signatures for ballot initiative (~19,000 needed). (4) SD-34: Valencia (D) vs Shader (R) — straight D-vs-R race. Newman NOT running. (5) AD-68 fundraising: Peñaloza $142,897 vs Lopez $73,737 — nearly 2x gap. (6) CD-40: Prop 50 redistricting pits Young Kim (R, $2M+ cash) vs Ken Calvert (R). 10 candidates total. (7) OC Streetcar: Launch target revised to AUGUST 2026 (from 'spring'). 92-95% complete, street testing continues. (8) Post-Grants Pass enforcement escalation: anti-camping ordinance passed Nov 2025, residents serving jail time. Grand Jury recommended prioritizing prevention over reaction by June 30. (9) 2026 PIT Count conducted Jan 26-29 — results not yet published.\n\nPrior March context: BoS D4 Jung $354K, Traut $225K. D5 Dixon outraised Foley. City of Orange achieved Housing Element compliance but 696 Builder's Remedy units pending. Newsom warned 15 noncompliant cities.\n\nKey difference from Austin #1: Purple county in a blue state (vs blue city in red state). OC voter registration: 36.4% D, 33.9% R, 23.3% NPP. Doug's vote carries MORE weight in local races than in Austin. Elections here are decided by hundreds of votes, not thousands.\n\nKey difference #2: California's state framework is an ally, not an enemy. In Texas, the state legislature actively preempts Austin's progressive policies. In California, the state government MANDATES progressive housing policy (SB 9, SB 10, RHNA, Builder's Remedy) that local governments resist. The YIMBY fight flips: instead of pushing local government to be more progressive, you're pushing local government to comply with state mandates it's trying to evade. Newsom's March 25 final warning to 15 noncompliant cities — with AG referral threatened — reinforces the enforcement posture.\n\nKey difference #3: The Irvine Company monopoly. Irvine Company (Donald Bren, America's richest real estate developer) controls ~75% of Irvine's apartment units and much of the commercial real estate. Their proposed 3,100-unit Oak Creek Golf Course conversion — with $96M in community benefits, 2,000 rent vouchers, and a 50-acre nature park — is the first major implementation test of the General Plan. Planning Commission unanimously approved it. This is a unique housing dynamic — one private entity has near-monopoly power over rents and development in a city of 314,000 people.",
   "political_compass_entities": {
-    "orange_county": { "economic": 0.1, "social": 0.05, "spread": 0.35 },
-    "california_democratic_party": { "economic": -0.4, "social": -0.25, "spread": 0.25 },
-    "democratic_party": { "economic": -0.3, "social": -0.1, "spread": 0.3 },
-    "republican_party": { "economic": 0.4, "social": 0.3, "spread": 0.25 },
+    "orange_county": {
+      "economic": 0.1,
+      "social": 0.05,
+      "spread": 0.35
+    },
+    "california_democratic_party": {
+      "economic": -0.4,
+      "social": -0.25,
+      "spread": 0.25
+    },
+    "democratic_party": {
+      "economic": -0.3,
+      "social": -0.1,
+      "spread": 0.3
+    },
+    "republican_party": {
+      "economic": 0.4,
+      "social": 0.3,
+      "spread": 0.25
+    },
     "local_orgs": [
-      { "name": "People for Housing OC", "economic": 0.05, "social": -0.15, "spread": 0.15 },
-      { "name": "OC Dem Party", "economic": -0.35, "social": -0.15, "spread": 0.2 }
+      {
+        "name": "People for Housing OC",
+        "economic": 0.05,
+        "social": -0.15,
+        "spread": 0.15
+      },
+      {
+        "name": "OC Dem Party",
+        "economic": -0.35,
+        "social": -0.15,
+        "spread": 0.2
+      }
     ]
   },
   "next_steps": {
