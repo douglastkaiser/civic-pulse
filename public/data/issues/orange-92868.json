@@ -1,5 +1,5 @@
 {
-  "last_scraped": "2026-04-20T12:00:00Z",
+  "last_scraped": "2026-04-21T12:00:00Z",
   "issues": [
     {
       "id": "oc-bos-district-4-open-seat",
@@ -7,8 +7,13 @@
       "governing_body": "Orange County Board of Supervisors",
       "governing_body_type": "county_commission",
       "meeting_date": "2026-06-02",
-      "summary": "UPDATE (April 16, 2026): Filing closed March 6. Four candidates are in the race to replace termed-out Supervisor Doug Chaffee (D) in District 4 (Anaheim portion, Brea, Buena Park, Fullerton, La Habra, Placentia, Stanton):\n\n• Fred Jung (Fullerton Mayor) — Re-registered as No Party Preference after leaving Dem Party. Raised $145,000 in H2 2025, transferred $197,253 from his Fullerton City Council campaign, has $354,000 cash on hand. Endorsed by Fullerton firefighters and police unions. Leading fundraiser by a wide margin.\n• Connor Traut (Buena Park Vice Mayor) — Has $225,000 cash on hand, spent over $50,000 on advertising. Endorsed by OC Democratic Party, outgoing Supervisor Chaffee, OC Professional Firefighters, carpenters and electricians unions.\n• Rose Espinoza (La Habra council) — Raised $164,000 total ($150,000 is self-loan, plus $4,900 transferred from La Habra City Council 2024 campaign). Endorsed by LA County Fire Fighters Local 1014.\n• Tim Shaw — Raised $82,000 (including $5K self-loan). Endorsed by OC Republican Party. Ran against Chaffee in 2018 and lost by just over 1,000 votes.\n\nDistrict demographics: 341,494 voters — 40.4% Democrat, 30.5% Republican, 23.1% No Party Preference.\n\n⚡ APRIL 23 FILING DEADLINE IN 3 DAYS — first required pre-election 460 filing covers 1/1/26-4/18/26. New fundraising and spending data will reveal trajectories heading into the final 6 weeks before June 2 primary. Watch for Jung's spending rate, Traut's ad buys, and any late-breaking endorsements. 43 DAYS until primary.\n\nTop-two from the June 2 primary advance to the November 3 general election. The board currently has a 3-2 Democratic majority. If Democrats lose this seat (or District 5), the board flips to Republican majority — affecting the $10.8B annual budget, land use policy, homelessness response, and transportation funding.",
-      "policy_domains": ["Government Transparency", "Housing & Land Use", "Public Safety", "Taxation & Public Finance"],
+      "summary": "UPDATE (April 21, 2026): Filing closed March 6. Four candidates are in the race to replace termed-out Supervisor Doug Chaffee (D) in District 4 (Anaheim portion, Brea, Buena Park, Fullerton, La Habra, Placentia, Stanton):\n\n• Fred Jung (Fullerton Mayor) — Re-registered as No Party Preference after leaving Dem Party. Raised $145,000 in H2 2025, transferred $197,253 from his Fullerton City Council campaign, has $354,000 cash on hand. Endorsed by Fullerton firefighters and police unions. Leading fundraiser by a wide margin.\n• Connor Traut (Buena Park Vice Mayor) — Has $225,000 cash on hand, spent over $50,000 on advertising. Endorsed by OC Democratic Party, outgoing Supervisor Chaffee, OC Professional Firefighters, carpenters and electricians unions.\n• Rose Espinoza (La Habra council) — Raised $164,000 total ($150,000 is self-loan, plus $4,900 transferred from La Habra City Council 2024 campaign). Endorsed by LA County Fire Fighters Local 1014.\n• Tim Shaw — Raised $82,000 (including $5K self-loan). Endorsed by OC Republican Party. Ran against Chaffee in 2018 and lost by just over 1,000 votes.\n\nDistrict demographics: 341,494 voters — 40.4% Democrat, 30.5% Republican, 23.1% No Party Preference.\n\n⚡ APRIL 23 FILING DEADLINE IN 2 DAYS — first required pre-election 460 filing covers 1/1/26-4/18/26. New fundraising and spending data will reveal trajectories heading into the final 6 weeks before June 2 primary. Watch for Jung's spending rate, Traut's ad buys, and any late-breaking endorsements. 42 DAYS until primary.\n\nTop-two from the June 2 primary advance to the November 3 general election. The board currently has a 3-2 Democratic majority. If Democrats lose this seat (or District 5), the board flips to Republican majority — affecting the $10.8B annual budget, land use policy, homelessness response, and transportation funding.",
+      "policy_domains": [
+        "Government Transparency",
+        "Housing & Land Use",
+        "Public Safety",
+        "Taxation & Public Finance"
+      ],
       "decision_type": "election",
       "geographic_scope": "countywide",
       "public_comment": {
@@ -30,7 +35,11 @@
       "governing_body_type": "state_legislature",
       "meeting_date": "2026-06-02",
       "summary": "UPDATE (April 2026): CORRECTION — Josh Newman is NOT running for SD-34. He is running for Superintendent of Public Instruction. The race is now a two-person contest:\n\n• Avelino Valencia (D) — Current Assemblymember for AD-68, frontrunner. Son of immigrant parents, played college football, served in the Assembly since 2022 focusing on consumer protection, gun violence reduction, and government transparency.\n• Rhonda Shader (R) — Former Placentia mayor, runner-up for this district in 2022.\n\nThe district covers northern OC including most of Santa Ana, Anaheim, Placentia, Fullerton, Buena Park, La Habra, and the west side of Orange. With only one Democrat (Valencia) and one Republican (Shader), both will advance from the June 2 top-two primary to the November general election. Valencia's move to the Senate opens AD-68. The state Senate shapes California's housing mandate framework (SB 9, RHNA enforcement, Builder's Remedy) that drives the core YIMBY fight in Orange County.",
-      "policy_domains": ["Housing & Land Use", "Transportation & Transit", "Government Transparency"],
+      "policy_domains": [
+        "Housing & Land Use",
+        "Transportation & Transit",
+        "Government Transparency"
+      ],
       "decision_type": "election",
       "geographic_scope": "district",
       "public_comment": {
@@ -52,7 +61,10 @@
       "governing_body_type": "state_legislature",
       "meeting_date": "2026-06-02",
       "summary": "UPDATE (April 2026): Fundraising and endorsement picture is clearer.\n\n• David Peñaloza (D) — Santa Ana city councilor. Endorsed by incumbent Avelino Valencia. Has raised $142,897 — nearly double Lopez's total. Organizational advantage from Valencia's endorsement and network.\n\n• Jessie Lopez (D) — Santa Ana city councilor. Endorsed by the California Legislative Women's Caucus (announced Feb 26, 2026). Has raised $73,737.\n\nWith two Democrats and no Republican filed, the June 2 primary will determine the general election matchup. Both candidates come from Santa Ana city council, so differentiation is on policy specifics, community connections, and institutional support.",
-      "policy_domains": ["Housing & Land Use", "Government Transparency"],
+      "policy_domains": [
+        "Housing & Land Use",
+        "Government Transparency"
+      ],
       "decision_type": "election",
       "geographic_scope": "district",
       "public_comment": {
@@ -72,8 +84,11 @@
       "governing_body": "California Governor",
       "governing_body_type": "state_legislature",
       "meeting_date": "2026-06-02",
-      "summary": "MAJOR UPDATE (April 20, 2026): Debate season is HERE. Three debates in the next two weeks will shape the race before early ballots go out.\n\n⚡ DEBATE #1 — APRIL 22 (2 DAYS AWAY): Nexstar/KTLA5/NewsNation, 7pm PT. SIX CANDIDATES CONFIRMED: Hilton (R), Bianco (R), Steyer (D), Becerra (D), Porter (D), Mahan (D). Becerra IS confirmed — clearing the 5% Emerson poll threshold after his surge from ~4% to 10%. Moderated by Nikki Laurenzo (FOX40) and Frank Buckley (KTLA5). Broadcast live across all Nexstar CA stations.\n\n⚡ DEBATE #2 — APRIL 28: Pomona College/CBS. Second debate in one week.\n\n⚡ DEBATE #3 — MAY 5: CNN debate, 6pm PT. LOWER threshold (3% + $1M raised) means MORE candidates qualify — including Antonio Villaraigosa and potentially Swalwell. Moderated by Elex Michaelson and Kaitlan Collins. Two-hour format. This will be the largest and most-watched debate.\n\nEMERSON POLL (April 16):\n• Steve Hilton (R): 17%\n• Chad Bianco (R): 14%\n• Tom Steyer (D): 14%\n• Xavier Becerra (D): 10% — SURGED from ~4% pre-Swalwell, gaining 15 points among Democrats\n• Katie Porter (D): 10%\n• Matt Mahan (D): 5%\n• 23% undecided\n\nBECERRA SURGE: Former CA Attorney General and HHS Secretary jumped from ~4% to 10% overall and 19% among Democrats (second only to Steyer at 20%). Campaign reports 1,659% engagement spike, 1.5M+ social media views, nearly $400K raised in days.\n\nDEMOCRATIC FRAGMENTATION IS WORSE: The field went from 3-way (Steyer/Porter/Mahan) to 4-way (Steyer/Becerra/Porter/Mahan) Democratic split. Combined Democratic vote: ~39%. Combined Republican vote: ~31%. But Swalwell's name STAYS on the June 2 ballot — early ballots going out in ~2 weeks — making the zombie candidacy a 5th Democratic drain. The CNN May 5 debate's lower threshold could add Villaraigosa, creating a 5th live Democratic candidate on stage.\n\nVOTER ISSUES: Economy 41%, housing affordability 20%, threats to democracy 10%, crime 6%, immigration 6%, healthcare 6%.\n\nNewsom is sitting on his hands — no endorsement coming before the debates. The R-vs-R November scenario remains the most realistic path. The next governor determines whether California's housing enforcement posture (RHNA, Builder's Remedy, AG referrals) continues or weakens — directly affecting the OC housing fight.",
-      "policy_domains": ["Housing & Land Use", "Government Transparency"],
+      "summary": "MAJOR UPDATE (April 21, 2026): Debate season is HERE. Three debates in the next two weeks will shape the race before early ballots go out.\n\n⚡ DEBATE #1 — APRIL 22 (TOMORROW): Nexstar/KTLA5/NewsNation, 7pm PT. SIX CANDIDATES CONFIRMED: Hilton (R), Bianco (R), Steyer (D), Becerra (D), Porter (D), Mahan (D). Becerra IS confirmed — clearing the 5% Emerson poll threshold after his surge from ~4% to 10%. Moderated by Nikki Laurenzo (FOX40) and Frank Buckley (KTLA5). Broadcast live across all Nexstar CA stations.\n\n⚡ DEBATE #2 — APRIL 28: Pomona College/CBS. Second debate in one week.\n\n⚡ DEBATE #3 — MAY 5: CNN debate, 6pm PT. LOWER threshold (3% + $1M raised) means MORE candidates qualify — including Antonio Villaraigosa. Moderated by Elex Michaelson and Kaitlan Collins. Two-hour format. This will be the largest and most-watched debate.\n\n⚡ NEW: Betty Yee (former State Controller) DROPPED OUT of the race, citing lagging polls and fundraising. One fewer Democrat in the field, but her support was minimal — unlikely to meaningfully consolidate the D vote.\n\nEMERSON POLL (April 16):\n• Steve Hilton (R): 17%\n• Chad Bianco (R): 14%\n• Tom Steyer (D): 14%\n• Xavier Becerra (D): 10% — SURGED from ~4% pre-Swalwell, gaining 15 points among Democrats\n• Katie Porter (D): 10%\n• Matt Mahan (D): 5%\n• 23% undecided\n\nBECERRA SURGE: Former CA Attorney General and HHS Secretary jumped from ~4% to 10% overall and 19% among Democrats (second only to Steyer at 20%). Campaign reports 1,659% engagement spike, 1.5M+ social media views, nearly $400K raised in days.\n\nSWALWELL CONTEXT: Eric Swalwell suspended his campaign and resigned from Congress following bombshell sexual abuse allegations. His name STAYS on the June 2 ballot — early ballots going out in ~2 weeks — making the zombie candidacy a Democratic drain even though the candidate is no longer politically viable.\n\nDEMOCRATIC FRAGMENTATION IS WORSE: The active field is a 4-way (Steyer/Becerra/Porter/Mahan) Democratic split. Combined Democratic vote: ~39%. Combined Republican vote: ~31%. Split 4 ways vs. 2 is a structural disadvantage in a top-two primary. The CNN May 5 debate's lower threshold could add Villaraigosa, creating a 5th live Democrat on stage.\n\nVOTER ISSUES: Economy 41%, housing affordability 20%, threats to democracy 10%, crime 6%, immigration 6%, healthcare 6%.\n\nNewsom is sitting on his hands — no endorsement coming before the debates. The R-vs-R November scenario remains the most realistic path. The next governor determines whether California's housing enforcement posture (RHNA, Builder's Remedy, AG referrals) continues or weakens — directly affecting the OC housing fight.",
+      "policy_domains": [
+        "Housing & Land Use",
+        "Government Transparency"
+      ],
       "decision_type": "election",
       "geographic_scope": "regional",
       "public_comment": {
@@ -84,7 +99,7 @@
       "importance_score": 75,
       "impact_score": 70,
       "quadrant": "act_now",
-      "why_it_matters_to_you": "✦ CRITICAL — DEBATE WEEK: Three debates in 15 days (April 22, April 28, May 5) will define this race before early ballots arrive. Becerra is CONFIRMED for the April 22 Nexstar debate after his surge to 10%. The CNN May 5 debate has a lower 3% threshold, meaning Villaraigosa could join — fragmenting the Democratic vote even further. Combined D vote (~39%) exceeds R (~31%), but split 4-5 ways vs. 2 is a structural disadvantage in a top-two primary. Evaluate candidates on housing enforcement posture — the governor controls RHNA enforcement, Builder's Remedy, and AG referrals. This is upstream of every OC housing fight.",
+      "why_it_matters_to_you": "✦ CRITICAL — DEBATE TOMORROW: The first debate is April 22 at 7pm on KTLA5/Nexstar/NewsNation. Three debates in 15 days will define this race before early ballots arrive. Betty Yee's exit barely moves the needle, but Swalwell's zombie ballot candidacy is a real vote drain. Combined D vote (~39%) exceeds R (~31%), but split 4 active ways vs. 2 is a structural disadvantage in a top-two primary. Evaluate candidates on housing enforcement posture — the governor controls RHNA enforcement, Builder's Remedy, and AG referrals. This is upstream of every OC housing fight.",
       "source_url": "https://emersoncollegepolling.com/california-2026-poll-april/"
     },
     {
@@ -94,7 +109,9 @@
       "governing_body_type": "city_council",
       "meeting_date": null,
       "summary": "UPDATE (March 2026): The City of Orange appears to have achieved Housing Element compliance — it is NOT on Governor Newsom's March 25 list of 15 noncompliant cities (92% of CA communities are now compliant statewide). The city re-adopted its Housing Element in October 2023 after the initial 2023 HCD rejection.\n\nHowever, the Builder's Remedy legacy remains significant. Before the city regained compliance, developers filed four Builder's Remedy applications totaling 696 housing units: Integral Communities (209 townhomes behind Village of Orange mall), Stonefield Development (138 apartments at Chapman-Yorba site), and two Milan Capital Management projects (118 townhomes at Mara Brandman Horse Arena, 231 units at Sully-Miller quarry). The city pushed back on these applications, requiring zoning changes and general plan amendments — tactics similar to those struck down by LA County judges in other Builder's Remedy cases.\n\nAdditionally, Californians for Homeownership (realtor-backed) sued the city alleging the approved plan included parcels with deed restrictions that forbid housing. AB 1893 (effective 2025) formalized Builder's Remedy as an entitlement pathway and prevents cities from requiring extra approvals for these projects — strengthening the legal position of the pending applications.",
-      "policy_domains": ["Housing & Land Use"],
+      "policy_domains": [
+        "Housing & Land Use"
+      ],
       "decision_type": "discussion",
       "geographic_scope": "citywide",
       "public_comment": {
@@ -116,7 +133,11 @@
       "governing_body_type": "city_council",
       "meeting_date": null,
       "summary": "UPDATE (April 14, 2026): The Irvine Planning Commission UNANIMOUSLY voted on March 19 to recommend a zoning change enabling the Irvine Company's revised Oak Creek development plan. The zoning change creates an 'Alternative Open Space Approach' for Planning Area 12, which commissioners said provides 'more widely usable public benefit' than the restricted-use golf course designation. City Council is expected to hear this item in spring 2026 — the vote will determine whether the conversion proceeds or goes to the November 2026 ballot.\n\nThe Irvine Company's revised offer includes: $96 million in community benefit fees (up from $90.4M), 2,000 rent vouchers ($72 million value), land donations, and a 50-acre nature park creating a trail corridor from Limestone Canyon through central Irvine to Quail Hill. The proposal includes a new elementary school within the 3,100-unit residential village.\n\nThe Irvine General Plan (ADOPTED August 13, 2024) with the full 57,656-unit scenario remains in implementation phase. Key areas: 26,607 units in Spectrum, 15,000 at Irvine Business Complex, 5,252 at Great Park Neighborhoods Transit Village.\n\nOpposition: Former mayors Sally Anne Sheridan and Christina Shea are gathering signatures for a citizen's initiative (~19,000 needed), arguing the golf course is protected under a 1988 voter-approved open space initiative. The Woodbridge Village Association board continues to oppose the conversion.\n\nThe November 2026 council elections (3 seats + mayor) remain critical — if the 5-2 Democratic majority shifts, implementation of the General Plan could be slowed.",
-      "policy_domains": ["Housing & Land Use", "Economic Development", "Transportation & Transit"],
+      "policy_domains": [
+        "Housing & Land Use",
+        "Economic Development",
+        "Transportation & Transit"
+      ],
       "decision_type": "vote",
       "geographic_scope": "citywide",
       "public_comment": {
@@ -137,8 +158,11 @@
       "governing_body": "OCTA (Orange County Transportation Authority)",
       "governing_body_type": "transit_authority",
       "meeting_date": null,
-      "summary": "UPDATE (April 20, 2026): The OC Streetcar ($649M project, 4.15 miles, Santa Ana to Garden Grove) is 92-95% complete and in active street testing. Track is finished along the entire route. Street testing began February 20 on Santa Ana Boulevard between Raitt Street and Sasscer Park, with daytime testing underway as of April 8 — the streetcar is now running on city streets during regular hours.\n\nLAUNCH TARGET REVISED TO AUGUST 2026. Despite earlier 'spring 2026' language, OCTA's operational timeline points to an August launch date. Eight Siemens S700 vehicles (capacity: 211 passengers each, 62 seated) have been delivered. Travel time: 22 minutes with 10-15 minute frequency across 10 stops in each direction. Estimated daily ridership: 7,300. Fares: $2 one way or $5 day pass. Service planned daily from 6am to 11pm with extended weekend hours. The project has faced years of delays (originally expected 2021) including human remains discovery and contractor lawsuits. Funded by federal, state, and local dollars including Measure M.\n\nOC's first modern rail transit line is in its final testing phase.",
-      "policy_domains": ["Transportation & Transit", "Economic Development"],
+      "summary": "UPDATE (April 21, 2026): The OC Streetcar ($649M project, 4.15 miles, Santa Ana to Garden Grove) is 92-95% complete and in active street testing. Track is finished along the entire route. Street testing began February 20 on Santa Ana Boulevard between Raitt Street and Sasscer Park, with daytime testing underway as of April 8 — the streetcar is now running on city streets during regular hours.\n\nLAUNCH TARGET REVISED TO AUGUST 2026. Despite earlier 'spring 2026' language, OCTA's operational timeline points to an August launch date. Eight Siemens S700 vehicles (capacity: 211 passengers each, 62 seated) have been delivered. Travel time: 22 minutes with 10-15 minute frequency across 10 stops in each direction. Estimated daily ridership: 7,300. Fares: $2 one way or $5 day pass. Service planned daily from 6am to 11pm with extended weekend hours. The project has faced years of delays (originally expected 2021) including human remains discovery and contractor lawsuits. Funded by federal, state, and local dollars including Measure M.\n\nOC's first modern rail transit line is in its final testing phase.",
+      "policy_domains": [
+        "Transportation & Transit",
+        "Economic Development"
+      ],
       "decision_type": "discussion",
       "geographic_scope": "regional",
       "public_comment": {
@@ -160,7 +184,11 @@
       "governing_body_type": "county_commission",
       "meeting_date": null,
       "summary": "The 2025 Orange County Grand Jury found that the county's approach to homelessness 'remains mostly reactive' rather than preventive. The report criticized fragmented services, insufficient data tracking, and lack of coordination between the county and its 34 cities. Orange County's homeless population is concentrated in Santa Ana and the Santa Ana River corridor. The Board of Supervisors majority (currently 3-2 D) shapes the county's response, making the District 4 and 5 elections directly relevant to this issue.",
-      "policy_domains": ["Public Safety", "Housing & Land Use", "Healthcare Access"],
+      "policy_domains": [
+        "Public Safety",
+        "Housing & Land Use",
+        "Healthcare Access"
+      ],
       "decision_type": "discussion",
       "geographic_scope": "countywide",
       "public_comment": {
@@ -182,7 +210,12 @@
       "governing_body_type": "county_commission",
       "meeting_date": "2026-06-02",
       "summary": "Incumbent Supervisor Katrina Foley (D), currently Board Vice Chair, faces a challenge from Assemblywoman Diane Dixon (R) in District 5. This district has the most voters of the five supervisor districts (436,228) and is the most heavily Republican: 38.1% R, 32.8% D, 22.1% NPP. Foley was first elected in a 2021 special election (flipping the seat), then narrowly won re-election in 2022 under new district boundaries — her victory gave Democrats their third seat and flipped board control for the first time since 1976.\n\nFoley's background: former Costa Mesa mayor (first directly elected, 2018), attorney. She won her first full term in 2022 by a 51-49 margin. Foley has $285,000 cash on hand after spending $188,000 on her reelection effort.\n\nDixon's background: current Assemblywoman (elected 2022, reelected 2024), former Newport Beach city council member (two terms as mayor). Dixon outraised Foley by $50,000 in H2 2025, has spent $167,000 and has $135,000 cash on hand. Endorsed by State Senators Tony Strickland and Steven Choi.\n\nHow close is this district? Kamala Harris won District 5 by just 318 votes (49-48%) in 2024. If Dixon wins, the board reverts to Republican majority — the other GOP supervisors being Don Wagner and Janet Nguyen.\n\nDistrict 5 covers: Aliso Viejo, Costa Mesa, Dana Point, a large portion of Irvine, Laguna Beach, Laguna Hills, Laguna Niguel, Laguna Woods, Newport Beach, San Clemente, San Juan Capistrano.",
-      "policy_domains": ["Government Transparency", "Housing & Land Use", "Public Safety", "Taxation & Public Finance"],
+      "policy_domains": [
+        "Government Transparency",
+        "Housing & Land Use",
+        "Public Safety",
+        "Taxation & Public Finance"
+      ],
       "decision_type": "election",
       "geographic_scope": "countywide",
       "public_comment": {
@@ -204,7 +237,9 @@
       "governing_body_type": "state_legislature",
       "meeting_date": "2026-03-25",
       "summary": "On March 25, 2026, Governor Newsom issued final warnings to 15 cities and counties that remain noncompliant with state Housing Element law — more than two years behind schedule with no path to compliance within 60 days. The 15 jurisdictions (Atwater, Avenal, California City, Corcoran, Escalon, Half Moon Bay, Hanford, Kings County, Lemoore, Merced County, Montclair, Oakdale, Patterson, Ridgecrest, Turlock) have 30 days to respond before referral to the Attorney General.\n\nKey context: 92% of California communities (480 cities/counties) have achieved compliance. The Housing Accountability Unit has taken 1,200+ enforcement actions and 'unlocked' 12,486 housing units including 3,644 affordable units. Critically, the City of Orange is NOT on the noncompliant list — confirming it has achieved compliance since its 2023 rejection.\n\nNewsom: 'No community gets a pass when it comes to addressing homelessness or creating more housing access.'",
-      "policy_domains": ["Housing & Land Use"],
+      "policy_domains": [
+        "Housing & Land Use"
+      ],
       "decision_type": "discussion",
       "geographic_scope": "regional",
       "public_comment": {
@@ -226,7 +261,10 @@
       "governing_body_type": "state_legislature",
       "meeting_date": "2026-06-02",
       "summary": "NEW (April 2026): Proposition 50 (approved Nov 2025) redrew California's congressional districts, creating a new CD-40 that pits two Republican incumbents against each other: Rep. Young Kim (current CD-40) and Rep. Ken Calvert (current CD-41). Calvert represents 51% of the new district's population; Kim represents 35%.\n\nFundraising: Kim has a commanding $2 million+ cash advantage over Calvert, outraising him in Q4 2025. The new district spans eastern Orange County cities (Villa Park, Mission Viejo) through the Inland Empire (Murrieta, Menifee).\n\nTen candidates total are in the June 2 top-two primary, including Democrats Joe Kerr and Esther Kim Varet. The primary dynamics matter: if both Republicans advance, a D could be shut out of the November general. If a Democrat makes top-two alongside one Republican, the general election becomes competitive in a district that includes OC territory.",
-      "policy_domains": ["Government Transparency", "Housing & Land Use"],
+      "policy_domains": [
+        "Government Transparency",
+        "Housing & Land Use"
+      ],
       "decision_type": "election",
       "geographic_scope": "regional",
       "public_comment": {
@@ -247,8 +285,12 @@
       "governing_body": "Orange County Board of Supervisors",
       "governing_body_type": "county_commission",
       "meeting_date": null,
-      "summary": "UPDATE (April 20, 2026): Following the Supreme Court's Grants Pass ruling, Orange County has significantly escalated homelessness enforcement — but new state funding creates an opportunity.\n\n⚡ NEW STATE FUNDING (April 8): Governor Newsom announced $145.4M in HHAP funding statewide. OC (including Anaheim, Irvine, Santa Ana, and its CoC) will receive $35.1M for homelessness prevention and housing programs — rapid rehousing, rental assistance, a 325-bed low-barrier shelter, and supportive services including case management and prevention programs.\n\n⚡ NEW (April 6): OC Housing Authority opened Project-Based Voucher (PBV) applications for people experiencing homelessness — up to 100 vouchers available via the 2026 NOFA.\n\n• November 2025: Board of Supervisors passed anti-camping ordinance (4-1 vote). Multiple cities (Newport Beach, San Clemente, Aliso Viejo) adopted similar local ordinances.\n• March 2026: Davis Vanguard reported OC residents serving jail time for unlawful camping violations.\n• January 26-29, 2026: 2026 Point-in-Time (PIT) Count conducted. Results not yet published.\n• 2026 NOFA: $20.9 million in supportive housing funding released, plus up to 100 project-based vouchers.\n• Grand Jury recommendation: OC should prioritize homelessness prevention over reactive measures by June 30, 2026.\n• From July 2021 to February 2026: 449 encampments have been removed countywide.\n\nThe $35.1M state injection and PBV applications are exactly the kind of service-side investment the Grand Jury called for. The Board of Supervisors majority (3-2 D) shapes whether this funding is deployed effectively or squandered. The District 4 and 5 races directly affect this balance.",
-      "policy_domains": ["Public Safety", "Housing & Land Use", "Healthcare Access"],
+      "summary": "UPDATE (April 21, 2026): Following the Supreme Court's Grants Pass ruling, Orange County has significantly escalated homelessness enforcement — but new state funding creates an opportunity.\n\n⚡ NEW STATE FUNDING (April 8): Governor Newsom announced $145.4M in HHAP funding statewide. OC (including Anaheim, Irvine, Santa Ana, and its CoC) will receive $35.1M for homelessness prevention and housing programs — rapid rehousing, rental assistance, a 325-bed low-barrier shelter, and supportive services including case management and prevention programs.\n\n⚡ NEW (April 6): OC Housing Authority opened Project-Based Voucher (PBV) applications for people experiencing homelessness — up to 100 vouchers available via the 2026 NOFA.\n\n• November 2025: Board of Supervisors passed anti-camping ordinance (4-1 vote). Multiple cities (Newport Beach, San Clemente, Aliso Viejo) adopted similar local ordinances.\n• March 2026: Davis Vanguard reported OC residents serving jail time for unlawful camping violations.\n• January 26-29, 2026: 2026 Point-in-Time (PIT) Count conducted. Results not yet published.\n• 2026 NOFA: $20.9 million in supportive housing funding released, plus up to 100 project-based vouchers.\n• Grand Jury recommendation: OC should prioritize homelessness prevention over reactive measures by June 30, 2026.\n• From July 2021 to February 2026: 449 encampments have been removed countywide.\n\nThe $35.1M state injection and PBV applications are exactly the kind of service-side investment the Grand Jury called for. The Board of Supervisors majority (3-2 D) shapes whether this funding is deployed effectively or squandered. The District 4 and 5 races directly affect this balance.",
+      "policy_domains": [
+        "Public Safety",
+        "Housing & Land Use",
+        "Healthcare Access"
+      ],
       "decision_type": "discussion",
       "geographic_scope": "countywide",
       "public_comment": {
