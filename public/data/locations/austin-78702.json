@@ -1,6 +1,6 @@
 {
   "id": "austin-78702",
-  "last_updated": "2026-03-28T12:00:00Z",
+  "last_updated": "2026-04-19T12:00:00Z",
   "governing_bodies": [
     {
       "name": "Austin City Council",
@@ -9,7 +9,7 @@
       "your_representative": {
         "name": "Natasha Harper-Madison",
         "district": "District 1",
-        "note": "Term-limited Jan 2027. Open seat election Nov 3, 2026. Current candidates: Steven Brown, Alexandria Anderson.",
+        "note": "Term-limited Jan 2027. Open seat election Nov 3, 2026. At least 8 candidates declared: Steven Brown, Alexandria Anderson, Naguib 'Simon' Nahas (pro-housing), Misael Daguan Ramos, Kyra Lorena Rogers, Amber Karessa Goodwin (assistant DA), plus 2 others who have appointed treasurers. Filing period: July 20-Aug 17.",
         "contact_email": "district1@austintexas.gov",
         "alignment_notes": "Generally supportive of housing development and equity initiatives"
       },
@@ -129,27 +129,167 @@
     {
       "race": "Travis County Commissioner Precinct 4 — Democratic Runoff",
       "date": "2026-05-26",
-      "candidates": ["George Morales III (former Constable Pct 4, 20 yrs Travis County)", "Susanna Ledesma-Woody (AMD PM, 14-yr Del Valle ISD trustee)"],
+      "candidates": [
+        "George Morales III (former Constable Pct 4, 20 yrs Travis County)",
+        "Susanna Ledesma-Woody (AMD PM, 14-yr Del Valle ISD trustee)"
+      ],
       "relevance": "Directly represents your precinct. March 3 primary: Morales 40.17%, Ledesma-Woody 35.18%. No Republican running — winner takes seat. Very low expected turnout = outsized individual vote impact. HIGH PRIORITY.",
-      "action": "Verify voter registration. Research both candidates' positions on development, transit, and county budget. Consider volunteering — small canvassing effort could shift outcome in a low-turnout runoff."
+      "action": "Verify voter registration. Research both candidates' positions on development, transit, and county budget. Consider volunteering — small canvassing effort could shift outcome in a low-turnout runoff.",
+      "race_identifier": "atx-travis-pct4-dem-runoff-2026-05",
+      "associated_organizations": [
+        {
+          "org_id": "austin-yimby-action",
+          "name": "Austin YIMBY Action",
+          "applicability": "directly_applicable",
+          "relevance_note": "Turnout and endorsement infrastructure can materially affect this low-turnout runoff."
+        },
+        {
+          "org_id": "austin-abundance-project",
+          "name": "Austin Abundance Project",
+          "applicability": "directly_applicable",
+          "relevance_note": "County commissioner decisions affect transit, childcare access, and growth capacity priorities highlighted by this org."
+        },
+        {
+          "org_id": "austin-safe-and-sound",
+          "name": "Austin Safe & Sound",
+          "applicability": "not_directly_applicable",
+          "relevance_note": "Public safety reform is adjacent but this race is less central to the org’s core housing and homelessness campaign work."
+        }
+      ],
+      "bridge_building": {
+        "why_this_race_matters_to_everyone": "County commissioners decide infrastructure, mobility, and budget tradeoffs that shape daily life regardless of ideology.",
+        "shared_stakes": "Reliable roads, practical transit options, and fiscally responsible county services affect renters, homeowners, commuters, and small businesses alike.",
+        "anti_tribal_framing": "Frame this as a competence-and-priorities choice, not a culture-war referendum: ask which candidate will deliver measurable county outcomes for the broadest set of residents."
+      }
     },
     {
       "race": "Austin City Council District 1",
       "date": "2026-11-03",
-      "candidates": ["Steven Brown (ex-Save Austin Now co-chair, anti-developer framing, $6K raised, residency concerns)", "Alexandria Anderson (MLK Neighborhood Assn president, retired pro athlete, no fundraising yet)", "others expected — filing July 20-Aug 17"],
-      "relevance": "Your city council district. Harper-Madison is term-limited. Open seat for first time in 8 years. Brown's Save Austin Now ties (co-chaired with Travis Co GOP chair Mackowiak) and anti-developer positions are red flags for YIMBY priorities. Filing period: July 20-Aug 17.",
-      "action": "Monitor candidate announcements. Research Brown's and Anderson's positions on housing/development. Watch for new entrants after filing opens July 20. Consider early engagement/donation to most-aligned candidate."
+      "candidates": [
+        "Steven Brown (ex-Save Austin Now co-chair, anti-developer framing, $6K raised, residency concerns)",
+        "Alexandria Anderson (MLK Neighborhood Assn president, retired pro athlete)",
+        "Naguib 'Simon' Nahas (pro-housing, supports smaller lot sizes — most explicitly YIMBY candidate)",
+        "Misael Daguan Ramos (ran for D1 in 2022, has name recognition)",
+        "Kyra Lorena Rogers (apartment renter, was not yet registered voter when filed)",
+        "Amber Karessa Goodwin (assistant DA, Travis County DA's Office)",
+        "2+ additional candidates have appointed treasurers"
+      ],
+      "relevance": "Your city council district. Harper-Madison is term-limited. Open seat for first time in 8 years — at least 8 candidates now in the field. 20 candidates total across all 5 open council seats (D1, D3, D5, D8, D9). Simon Nahas is the most explicitly pro-housing candidate. Brown's Save Austin Now ties remain a YIMBY red flag. Goodwin brings prosecutorial experience. Filing period: July 20-Aug 17.",
+      "action": "Evaluate all declared candidates' housing positions. Simon Nahas advocates smaller lot sizes and more building — most aligned with YIMBY priorities. Research Goodwin's policy positions. Watch for additional entrants after filing opens July 20. Consider early engagement/donation to most-aligned candidate.",
+      "race_identifier": "atx-ccd1-general-2026-11",
+      "associated_organizations": [
+        {
+          "org_id": "austin-yimby-action",
+          "name": "Austin YIMBY Action",
+          "applicability": "directly_applicable",
+          "relevance_note": "D1 is a central target for pro-housing coalition organizing and endorsement strategy."
+        },
+        {
+          "org_id": "austin-abundance-project",
+          "name": "Austin Abundance Project",
+          "applicability": "directly_applicable",
+          "relevance_note": "Council composition determines whether family-focused abundance policies can scale citywide."
+        },
+        {
+          "org_id": "austin-safe-and-sound",
+          "name": "Austin Safe & Sound",
+          "applicability": "directly_applicable",
+          "relevance_note": "Council decisions on encampments, shelter systems, and enforcement directly affect this org’s agenda."
+        }
+      ],
+      "bridge_building": {
+        "why_this_race_matters_to_everyone": "City council races shape housing costs, neighborhood quality, and city service effectiveness for everyone in Austin, not just activists.",
+        "shared_stakes": "Residents across political lines want safer streets, attainable housing, and predictable budgeting that protects core services.",
+        "anti_tribal_framing": "Compare candidates on implementation results and willingness to solve tradeoffs transparently, instead of sorting them into ideological camps."
+      }
+    },
+    {
+      "election_type": "ballot_measure",
+      "measure": "Austin Proposition A — Affordable Housing and Mobility Bond",
+      "date": "2026-11-03",
+      "relevance": "If approved, this bond would shape Austin's housing production and transportation investments for the next decade while increasing debt-service pressure in future budgets.",
+      "action": "Read the fiscal note and oversight language before voting. Compare whether safeguards are strong enough for your risk tolerance, and identify which project categories you most want prioritized.",
+      "race_identifier": "atx-prop-a-housing-mobility-bond-2026-11",
+      "associated_organizations": [
+        {
+          "org_id": "austin-yimby-action",
+          "name": "Austin YIMBY Action",
+          "applicability": "directly_applicable",
+          "relevance_note": "Bond structure could accelerate infill housing and transit-supportive infrastructure."
+        },
+        {
+          "org_id": "austin-abundance-project",
+          "name": "Austin Abundance Project",
+          "applicability": "directly_applicable",
+          "relevance_note": "Measure directly affects family affordability through housing supply and mobility investments."
+        },
+        {
+          "org_id": "austin-safe-and-sound",
+          "name": "Austin Safe & Sound",
+          "applicability": "not_directly_applicable",
+          "relevance_note": "Public safety impacts are secondary to the measure's housing and transportation scope."
+        }
+      ],
+      "measure_bridge_fields": {
+        "what_each_side_thinks_measure_does": {
+          "supporters": "Creates dedicated, long-horizon capital funding so Austin can build more affordable homes near transit and address infrastructure bottlenecks before costs rise further.",
+          "opponents": "Commits taxpayers to a large debt load with uncertain delivery timelines, potentially crowding out future city services if projects run over budget."
+        },
+        "empirical_claims_by_side": {
+          "supporters": [
+            "Delaying capital projects tends to raise total construction costs due to inflation and rebidding.",
+            "Housing supply expansion near jobs and transit can reduce long-run rent pressure relative to constrained-building scenarios."
+          ],
+          "opponents": [
+            "Recent municipal megaprojects have exceeded initial budgets, suggesting optimistic cost estimates may understate true liabilities.",
+            "Debt-service growth can consume general-fund flexibility during downturns, reducing options for core services."
+          ]
+        },
+        "values_vs_facts_disagreement": "Both sides generally agree Austin needs more housing and better mobility, but they prioritize different risks: supporters emphasize urgency and underbuilding costs, while opponents emphasize fiscal caution and execution risk.",
+        "what_could_change_a_reasonable_opponents_mind": "A binding independent oversight board with milestone-based fund release, plus a public annual audit that pauses new spending if cost or delivery targets are missed."
+      },
+      "bridge_building": {
+        "why_this_race_matters_to_everyone": "Even residents who never follow bond politics are affected by housing availability, commute reliability, and property-tax tradeoffs tied to major capital plans.",
+        "shared_stakes": "People across ideological lines want projects that are affordable, transparent, and actually completed on schedule.",
+        "anti_tribal_framing": "Treat this as a governance-and-risk question: what package best balances urgently needed investment with credible accountability?"
+      }
     }
   ],
-  "key_political_dynamics": "Austin politics center on a housing/growth vs. neighborhood preservation tension. The current council leans pro-development with Mayor Watson providing a pragmatic anchor, but faces organized NIMBY opposition on specific projects.\n\nKey March 2026 developments: (1) The Pew Charitable Trusts (March 18) confirmed Austin's housing surge produced the steepest rent decline of any large US city — rents down 16% from 2021, now below the national median. The HOME Initiative is working. (2) Missing middle/mixed-use zoning reforms advanced through council on March 26 — the next phase of zoning reform. (3) Council adopted the HSO's first-ever homelessness strategic plan on March 26 — 650 new shelter beds, $101M funding ask. (4) The convention center petition was rejected by court on Feb 16. (5) The March 3 primary set the Pct 4 Commissioner runoff: Morales vs Ledesma-Woody on May 26. (6) APD 155th cadet class graduated December 2025 with 38 officers; Chief Davis targeting 100-person classes going forward.\n\nThe Nov 2026 city council elections (Districts 1, 3, 5, 8, 9) will shape Austin's direction on housing for the next 4 years. District 1 is the most consequential for 78702 residents — it's an open seat for the first time in 8 years. Steven Brown's Save Austin Now connection (co-chaired with Travis Co GOP chair) is a red flag for YIMBY priorities. Travis County is solidly blue; meaningful political competition is within the Democratic primary. The May 26 Pct 4 runoff is the next actionable election. Project Connect's TX Supreme Court ruling remains pending — the single biggest infrastructure question for Austin's future.",
+  "key_political_dynamics": "Austin politics center on a housing/growth vs. neighborhood preservation tension. The current council leans pro-development with Mayor Watson providing a pragmatic anchor, but faces organized NIMBY opposition on specific projects.\n\nKey April 2026 developments: (1) ⚡ FY2027 BUDGET CRISIS: Forecast released April 16 projects $16.8M in social services cuts — permanent supportive housing, workforce development, adult education all targeted. $26.4M projected deficit under no-new-revenue tax rate (voters rejected increase Nov 2025). Current-year cuts already at $5.28M ($2.7M public health, $1.46M HSO). This directly threatens HSO strategic plan funding and affordable housing programs. (2) TENANT PROTECTIONS: Council expanding eviction prevention at affordable rental housing (April 17 committee briefing). City redirecting rent assistance from direct payments to legal advocacy and negotiated settlements — portal will not reopen. (3) AHSO is dramatically expanding encampment sweeps starting this summer — 42 city staff across 6 full-time HEM teams. CRITICAL: outreach workers will NO LONGER be embedded in sweep teams. Advocates call it criminalizing homelessness. 700+ 311 calls/month driving expansion. Unhoused residents report losing all possessions in sweeps. HSO Director Gray expected to present plan to council in early May work session. (4) APD met its target response time (10 min 44 sec) for Priority 0/1 calls for the first time since August 2023. 157th cadet class begins APRIL 21 (2 days away) with 65 cadets. Integral Care hiring 23 more mental health specialists. (5) Bond Election Advisory Task Force (BEATF) final recommendation expected late April/May — $687-700M bond package. Last window to influence allocation. (6) Density Bonus Code (DBC) council vote expected MAY 28 — 5 tiers, 0-60 feet extra height in exchange for affordable housing. Commissions reviewing now. (7) WAYMO: Still failing to stop for school buses despite months of work with Austin ISD (Planetizen April report). NTSB investigating. Also went wrong-way in San Antonio-area school zone April 2. Separately, launched pothole data-sharing partnership with Waze (April 13). AV/emergency services joint committee hearing April 29. (8) Project Connect: TX Supreme Court STILL hasn't ruled — 68 days since Feb 10 oral arguments. $60M design-build contract awarded. Mayor Watson blocked ATP's $47M downtown office deal. (9) $50M+ approved for affordable housing initiatives on April 9. West Campus development approved April 12. (10) Council approved 'Strong Local Commerce Initiative' April 2 — front yard businesses pilot.\n\nPrior March developments: Pew confirmed Austin's 16% rent decline (steepest in US). HOME Initiative working. HSO strategic plan adopted March 26 (650 shelter beds, $101M ask). Missing middle zoning advanced. Convention center petition rejected. Pct 4 runoff set: Morales vs Ledesma-Woody, May 26.\n\nBUDGET-HOUSING NEXUS: The $16.8M social services cut forecast creates a direct tension with the $101M HSO funding ask and the bond package. If the bond doesn't include significant affordable housing and social services allocations, the budget cuts could undermine the strategic plan before it's fully implemented. The BEATF recommendation is now even more consequential.\n\nThe Nov 2026 city council elections (Districts 1, 3, 5, 8, 9) will shape Austin's direction on housing for the next 4 years. District 1 is the most consequential for 78702 residents — 8+ candidates in an open seat for the first time in 8 years. Travis County is solidly blue; meaningful political competition is within the Democratic primary. The May 26 Pct 4 runoff is the next actionable election. Project Connect's TX Supreme Court ruling remains the single biggest infrastructure question for Austin's future.",
   "political_compass_entities": {
-    "city_austin": { "economic": -0.15, "social": -0.2, "spread": 0.25 },
-    "state_texas": { "economic": 0.3, "social": 0.2, "spread": 0.35 },
-    "democratic_party": { "economic": -0.3, "social": -0.1, "spread": 0.3 },
-    "republican_party": { "economic": 0.4, "social": 0.3, "spread": 0.25 },
+    "city_austin": {
+      "economic": -0.15,
+      "social": -0.2,
+      "spread": 0.25
+    },
+    "state_texas": {
+      "economic": 0.3,
+      "social": 0.2,
+      "spread": 0.35
+    },
+    "democratic_party": {
+      "economic": -0.3,
+      "social": -0.1,
+      "spread": 0.3
+    },
+    "republican_party": {
+      "economic": 0.4,
+      "social": 0.3,
+      "spread": 0.25
+    },
     "local_orgs": [
-      { "name": "AURA", "economic": -0.1, "social": -0.4, "spread": 0.1 },
-      { "name": "Travis Co Dems", "economic": -0.35, "social": -0.1, "spread": 0.2 }
+      {
+        "name": "AURA",
+        "economic": -0.1,
+        "social": -0.4,
+        "spread": 0.1
+      },
+      {
+        "name": "Travis Co Dems",
+        "economic": -0.35,
+        "social": -0.1,
+        "spread": 0.2
+      }
     ]
   },
   "next_steps": {
@@ -173,12 +313,28 @@
     ],
     "this_month": [
       {
-        "action": "Monitor District 1 council race developments",
-        "detail": "Steven Brown's anti-developer positioning may conflict with your YIMBY values. Watch for additional candidates before Aug 17 filing deadline.",
+        "action": "Engage on 2026 Bond — BEATF final recommendation imminent",
+        "detail": "The Bond Election Advisory Task Force's $687-700M recommendation expected late April/May. CONTEXT: FY2027 budget forecast projects $16.8M in social services cuts and $26.4M deficit — making the bond allocation even more critical for affordable housing and transit. Submit comments at speakupaustin.org.",
+        "time": "30 min",
+        "impact": "VERY HIGH",
+        "reason": "Budget cuts make bond allocation the primary funding mechanism for housing and social services. $700M shapes every policy domain.",
+        "llm_prompt": "The Austin Bond Election Advisory Task Force (BEATF) is presenting its $687-700M bond recommendation to the Mayor and Council. Meanwhile, the FY2027 budget forecast (released April 16) projects $16.8M in social services cuts — permanent supportive housing, workforce development, and adult education are all targeted. The city faces a $26.4M projected deficit. Six working groups cover: affordable housing, facilities/assets, community engagement, parkland/open space, stormwater, and transportation/electrification. I'm a pro-housing, pro-transit YIMBY in 78702. Help me draft a concise public comment for speakupaustin.org that: (1) advocates for maximizing the affordable housing and transportation allocations, (2) references the budget cuts as making bond investment in housing even more urgent, (3) cites the HOME Initiative's success (16% rent decline) and Project Connect's construction timeline. Keep it under 300 words."
+      },
+      {
+        "action": "Track FY2027 budget impact on housing and social services",
+        "detail": "FY2027 forecast released April 16: $16.8M social services cuts, $5.28M already cut in current year ($2.7M public health, $1.46M HSO). Permanent supportive housing and workforce development targeted. $26.4M projected deficit. Council budget hearings upcoming.",
+        "time": "Ongoing",
+        "impact": "HIGH",
+        "reason": "Budget cuts directly threaten HSO strategic plan ($101M funding ask) and affordable housing programs",
+        "llm_prompt": "The City of Austin's FY2027 budget forecast (released April 16, 2026) projects $16.8M in social services contract cuts targeting permanent supportive housing, workforce development, and adult education. The current year already cut $5.28M ($2.7M public health, $1.46M from Homeless Strategy Office). The city faces a $26.4M projected deficit under a no-new-revenue tax rate (voters rejected an increase in Nov 2025). Meanwhile, the HSO strategic plan asks for $101M in additional funding and the city is considering a $687-700M bond. I'm a 78702 resident who cares about housing, homelessness services, and fiscal sustainability. Help me understand: (1) How do these budget cuts interact with the HSO strategic plan commitments? (2) What are the key budget hearings where public comment matters? (3) What alternative revenue sources exist if the tax rate is constrained? (4) How does the bond package relate to the operating budget cuts?"
+      },
+      {
+        "action": "Monitor District 1 council race — 8+ candidates now",
+        "detail": "The field has grown to at least 8 candidates. Simon Nahas is the most explicitly pro-housing (supports smaller lot sizes, more building). Amber Goodwin (assistant DA) is new. Evaluate all candidates on housing positions.",
         "time": "15 min/week",
         "impact": "HIGH",
         "reason": null,
-        "llm_prompt": "I'm tracking the Austin City Council District 1 race for November 2026. This is an open seat for the first time in 8 years (currently held by Natasha Harper-Madison). One declared candidate, Steven Brown, has explicitly anti-developer positions. I'm a pro-housing YIMBY voter in 78702. Help me create a tracking document with: (1) key dates (filing deadline Aug 17, election Nov 3), (2) what to watch for in candidate announcements, (3) specific policy questions that would differentiate pro-housing vs anti-housing candidates, (4) where to find candidate announcements and filings in Austin."
+        "llm_prompt": "I'm tracking the Austin City Council District 1 race for November 2026. The field now has at least 8 candidates: Steven Brown (anti-developer, Save Austin Now ties), Alexandria Anderson (MLK Neighborhood Assn), Simon Nahas (pro-housing, wants smaller lot sizes), Misael Ramos (ran in 2022), Kyra Rogers, Amber Goodwin (assistant DA), plus 2+ others. I'm a pro-housing YIMBY voter in 78702. Help me create a comparison framework to evaluate each candidate on: (1) housing/density position, (2) transit support, (3) fiscal policy, (4) public safety approach. Filing deadline Aug 17, election Nov 3."
       },
       {
         "action": "Write public comment on golf course rezoning",
@@ -187,6 +343,14 @@
         "impact": "HIGH",
         "reason": null,
         "llm_prompt": "I need to write a public comment for the Austin City Council supporting the rezoning of the Jimmy Clay and Roy Kizer golf courses for residential and mixed-use development. I'm a resident of 78702 (District 1). My key points are: housing supply is Austin's most pressing need, city-owned land is the lowest-friction path to new housing, and transit-oriented development along future transit corridors should be prioritized. The site is 445 acres and could yield 5,000-15,000 housing units depending on density. Please draft a 2-3 minute spoken comment (about 400 words) that is specific, evidence-based, and avoids generic talking points."
+      },
+      {
+        "action": "Track DBC vote — Council expected May 28",
+        "detail": "The new citywide Density Bonus Code (DBC) has 5 tiers adding 0-60 feet of extra height in multifamily/commercial zones in exchange for affordable housing. Several commissions reviewing now. This is the 'supertall-friendly density bonus overhaul' that builds on HOME Initiative.",
+        "time": "Ongoing",
+        "impact": "HIGH",
+        "reason": "Key zoning reform vote in 6 weeks",
+        "llm_prompt": null
       }
     ],
     "medium_term": [

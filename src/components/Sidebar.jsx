@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom'
+import { NavLink, matchPath, useLocation } from 'react-router-dom'
 import { useState, useEffect, useCallback } from 'react'
 import { ORG_IDS_BY_LOCATION, LOCATION_LABELS, loadOrg, loadFreshness } from '../lib/data'
 import { getDynamicLocationLabels } from '../lib/locationStore'
@@ -6,8 +6,21 @@ import { loadUserOrgs } from '../lib/orgStore'
 import FreshnessIndicator from './FreshnessIndicator'
 import { useAuth } from '../lib/auth'
 
+
+function getActiveLocationId(pathname, locationIds) {
+  const patterns = ['/location/:locationId', '/officials/:locationId', '/elections/:locationId']
+  for (const pattern of patterns) {
+    const matched = matchPath(pattern, pathname)
+    if (matched?.params?.locationId && locationIds.includes(matched.params.locationId)) {
+      return matched.params.locationId
+    }
+  }
+  return locationIds[0]
+}
+
 export default function Sidebar() {
   const { user, signOut } = useAuth()
+  const routerLocation = useLocation()
   const [orgsByLocation, setOrgsByLocation] = useState({})
   const [freshness, setFreshness] = useState(null)
   const [dynamicLabels, setDynamicLabels] = useState({})
@@ -86,6 +99,9 @@ export default function Sidebar() {
       .pop()
   }
 
+  const mergedLocationLabels = { ...LOCATION_LABELS, ...dynamicLabels }
+  const activeLocationId = getActiveLocationId(routerLocation.pathname, Object.keys(mergedLocationLabels))
+
   const navLinkClass = ({ isActive }) =>
     `flex items-center gap-2 px-3 py-2 text-sm font-mono rounded transition-colors duration-150 ${
       isActive
@@ -127,7 +143,12 @@ export default function Sidebar() {
           MY DASHBOARD
         </NavLink>
 
-        {Object.entries({ ...LOCATION_LABELS, ...dynamicLabels }).map(([locId, label]) => {
+        <NavLink to={`/elections/${activeLocationId}`} className={navLinkClass} onClick={handleNavClick}>
+          <span className="text-xs">▸</span>
+          🗳️ ELECTIONS
+        </NavLink>
+
+        {Object.entries(mergedLocationLabels).map(([locId, label]) => {
           const orgs = orgsByLocation[locId] || []
           const isExpanded = expandedLocations[locId]
           return (

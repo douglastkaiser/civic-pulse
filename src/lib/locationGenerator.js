@@ -63,11 +63,52 @@ You MUST return ONLY valid JSON (no markdown, no code blocks, no explanation) wi
     },
     "upcoming_elections": [
       {
-        "race": "Race description",
+        "election_type": "candidate_race|ballot_measure (default candidate_race if omitted)",
+        "race": "Race description (or measure title if contest is a ballot measure)",
         "date": "YYYY-MM-DD",
         "candidates": ["Candidate 1", "Candidate 2"],
         "relevance": "Why this matters",
-        "action": "What a civic-minded resident should do"
+        "action": "What a civic-minded resident should do",
+        "measure_bridge_fields": {
+          "what_each_side_thinks_measure_does": {
+            "supporters": "How supporters describe the measure's practical effect",
+            "opponents": "How opponents describe the measure's practical effect"
+          },
+          "empirical_claims_by_side": {
+            "supporters": ["Claim(s) supporters say are factual and testable"],
+            "opponents": ["Claim(s) opponents say are factual and testable"]
+          },
+          "values_vs_facts_disagreement": "Where disagreement is mostly values/priorities vs where it is factual dispute",
+          "what_could_change_a_reasonable_opponents_mind": "Specific evidence or safeguard that could move a good-faith skeptic"
+        },
+        "bridge_building": {
+          "opposition_steelman": "Strongest good-faith argument from skeptics",
+          "cross_partisan_appeals": [
+            {
+              "audience": "Who this framing is for",
+              "framing": "Respectful framing that meets their values",
+              "evidence": "One concise supporting fact",
+              "example_dialogue": "Optional one-line conversation opener"
+            }
+          ],
+          "common_ground": ["Shared values or goals"],
+          "conversation_traps_to_avoid": ["Polarizing framing to avoid"],
+          "when_to_acknowledge_uncertainty": ["Where confidence should be limited"],
+          "honest_limits": ["What this effort cannot promise"],
+          "provenance": {
+            "status": "ai_generated",
+            "updated_at": "ISO timestamp or omit",
+            "updated_by": "user id/name or omit"
+          },
+          "subsection_provenance": {
+            "opposition_steelman": { "status": "ai_generated" },
+            "cross_partisan_appeals": { "status": "ai_generated" },
+            "common_ground": { "status": "ai_generated" },
+            "conversation_traps_to_avoid": { "status": "ai_generated" },
+            "when_to_acknowledge_uncertainty": { "status": "ai_generated" },
+            "honest_limits": { "status": "ai_generated" }
+          }
+        }
       }
     ],
     "key_political_dynamics": "2-4 paragraph narrative about the political landscape, key tensions, recent developments, and what to watch",
@@ -133,13 +174,17 @@ You MUST return ONLY valid JSON (no markdown, no code blocks, no explanation) wi
 Rules:
 - Generate 3-6 governing bodies relevant to the location (city/town council, county, school board, transit if applicable, state rep, US rep)
 - Generate 6-10 current local issues with realistic importance and impact scores
+- Upcoming elections may include candidate races and ballot measures; each item should include a bridge_building block with provenance metadata
+- Ballot measures MUST set "election_type": "ballot_measure" and include all measure_bridge_fields keys with substantive content
+- Candidate races should set "election_type": "candidate_race" (or omit election_type) and should not include placeholder-only measure_bridge_fields
 - Include real organization names and URLs where you are confident they are correct
 - For information you are uncertain about, note it (e.g. "verify current status")
 - political_compass values: economic (-1=left/interventionist, 1=right/free-market), social (-1=libertarian, 1=authoritarian)
 - next_steps should have 2-3 items per category, focused on actionable civic engagement
 - Issues should span multiple policy domains (housing, transportation, education, public safety, budget, etc.)
 - quadrant assignment: act_now (high importance + high impact), monitor (high importance + lower impact), background (lower importance), delegate (lower importance but high impact)
-- Use current date for timestamps`
+- Use current date for timestamps
+- For every bridge_building.provenance or subsection_provenance status, use one of: ai_generated | user_reviewed | user_edited`
 
 function extractJSON(text) {
   if (text.includes('```json')) {

@@ -139,12 +139,28 @@
     ],
     "this_month": [
       {
-        "action": "Monitor District 1 council race developments",
-        "detail": "Steven Brown's anti-developer positioning may conflict with your YIMBY values. Watch for additional candidates before Aug 17 filing deadline.",
+        "action": "Engage on 2026 Bond — BEATF final recommendation imminent",
+        "detail": "Bond recommendation expected late April/May. CRITICAL CONTEXT: FY2027 budget forecast (April 16) projects $16.8M social services cuts and $26.4M deficit. Bond is now the primary alternative funding mechanism for housing and social services. Submit comments at speakupaustin.org.",
+        "time": "30 min",
+        "impact": "VERY HIGH",
+        "reason": "Budget cuts make bond allocation even more critical. $700M shapes every policy domain.",
+        "llm_prompt": "The Austin Bond Election Advisory Task Force (BEATF) is presenting its $687-700M bond recommendation. Meanwhile, the FY2027 budget forecast (April 16) projects $16.8M in social services cuts and a $26.4M deficit under a no-new-revenue tax rate. I'm a pro-housing, pro-transit YIMBY in 78702. Help me draft a concise public comment for speakupaustin.org that: (1) advocates for maximizing affordable housing and transportation allocations, (2) references budget cuts making bond investment more urgent, (3) cites the HOME Initiative's success (16% rent decline). Keep it under 300 words."
+      },
+      {
+        "action": "Track FY2027 budget impact on housing/social services",
+        "detail": "FY2027 forecast: $16.8M social services cuts (permanent supportive housing, workforce development targeted). $5.28M already cut this year. $26.4M projected deficit. Directly threatens HSO $101M funding ask.",
+        "time": "Ongoing",
+        "impact": "HIGH",
+        "reason": "Budget cuts threaten the HSO strategic plan and affordable housing programs",
+        "llm_prompt": null
+      },
+      {
+        "action": "Monitor District 1 council race — 8+ candidates now",
+        "detail": "Field has grown to at least 8 candidates. Simon Nahas is most explicitly pro-housing (supports smaller lot sizes, more building). Amber Goodwin (assistant DA) is new. Evaluate all candidates on housing positions.",
         "time": "15 min/week",
         "impact": "HIGH",
         "reason": null,
-        "llm_prompt": "I'm tracking the Austin City Council District 1 race for November 2026. This is an open seat for the first time in 8 years (currently held by Natasha Harper-Madison). One declared candidate, Steven Brown, has explicitly anti-developer positions. I'm a pro-housing YIMBY voter in 78702. Help me create a tracking document with: (1) key dates (filing deadline Aug 17, election Nov 3), (2) what to watch for in candidate announcements, (3) specific policy questions that would differentiate pro-housing vs anti-housing candidates, (4) where to find candidate announcements and filings in Austin."
+        "llm_prompt": "I'm tracking the Austin City Council District 1 race for November 2026. The field now has at least 8 candidates: Steven Brown (anti-developer, Save Austin Now ties), Alexandria Anderson (MLK Neighborhood Assn), Simon Nahas (pro-housing, wants smaller lot sizes), Misael Ramos (ran in 2022), Kyra Rogers, Amber Goodwin (assistant DA), plus 2+ others. I'm a pro-housing YIMBY voter in 78702. Help me create a comparison framework for all candidates on: (1) housing/density position, (2) transit support, (3) fiscal policy, (4) public safety approach. Filing deadline Aug 17, election Nov 3."
       },
       {
         "action": "Write public comment on golf course rezoning",
@@ -153,6 +169,14 @@
         "impact": "HIGH",
         "reason": null,
         "llm_prompt": "I need to write a public comment for the Austin City Council supporting the rezoning of the Jimmy Clay and Roy Kizer golf courses for residential and mixed-use development. I'm a resident of 78702 (District 1). My key points are: housing supply is Austin's most pressing need, city-owned land is the lowest-friction path to new housing, and transit-oriented development along future transit corridors should be prioritized. The site is 445 acres and could yield 5,000-15,000 housing units depending on density. Please draft a 2-3 minute spoken comment (about 400 words) that is specific, evidence-based, and avoids generic talking points."
+      },
+      {
+        "action": "Track DBC vote — Council expected May 28",
+        "detail": "New citywide Density Bonus Code with 5 tiers adding 0-60 feet of extra height in multifamily/commercial zones. 'Supertall-friendly density bonus overhaul' building on HOME Initiative.",
+        "time": "Ongoing",
+        "impact": "HIGH",
+        "reason": "Key zoning reform vote in 6 weeks",
+        "llm_prompt": null
       }
     ],
     "medium_term": [
