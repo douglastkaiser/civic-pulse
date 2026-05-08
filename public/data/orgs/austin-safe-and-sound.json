@@ -39,7 +39,7 @@
       "priority": "high",
       "importance_score": 90,
       "impact_score": 80,
-      "summary": "MAJOR UPDATE (May 7, 2026): Multiple converging crises — key developments May 5-7.\n\n⚡ MAY 5 WORK SESSION: HSO Director Gray PRESENTED the expanded encampment sweep plan to Council. Council received briefings on sweeps expansion AND operational modifications within HSO. Council also discussed postponing 'One ATS' departmental reorganizations pending justification.\n\n⚡ MAY 7 COUNCIL ACTIONS: Council APPROVED $497,299 for Integral Care's Homeless Health and Wellness Center program — expanding crisis health services. Also initiated East Riverside/Oltorf neighborhood plan amendment.\n\n⚡ AISD BUDGET UPDATE (May 5): Specific cuts identified — $73.8M central/department, $33.9M campus, $45M real estate. PROTECTED: librarians, counselors, teacher planning time at struggling schools, bilingual/special ed stipends. Staffing allocations to campuses May 8-11. Notifications to impacted employees by June 19. May 9 virtual budget meeting. May 21 recommended budget. June 18 final vote.\n\n⚡ BEATF BOND PROPOSAL (May 6): Two options — $766.53M (passed unanimously by task force, includes $131.1M for public facilities including homeless services) and $440M alternative. Public facilities allocation could fund purpose-built shelter to replace Marshalling Yard. Presentation to Council May 28 (21 DAYS).\n\n⚡ BUDGET CRISIS (April 22): $26.4M projected deficit. $16.8M in social services cuts — targeting permanent supportive housing, workforce development, adult education. THIS DIRECTLY THREATENS HSO STRATEGIC PLAN FUNDING.\n\n⚡ ENCAMPMENT EXPANSION: 42 city staff across six HEM teams, each with TWO APD officers. KEY CHANGE: outreach workers NO LONGER embedded in sweep teams. The $497K Integral Care funding (May 7) partially addresses the services gap. Staff recommended 1,000-foot AV exclusion zone around active emergency scenes. New state DMV enforcement authority takes effect May 28.\n\nStrategic plan commitments (adopted March 26):\n• 650 new shelter beds + 2 navigation centers (first in procurement)\n• $101M additional funding ask — NOW THREATENED by $16.8M cuts\n• ~6,500 people on streets\n• Endeavors operates ALL major shelters under emergency contract through September 2026\n• Competitive solicitation for shelter operations starts October 1, 2026",
+      "summary": "MAJOR UPDATE (May 8, 2026): Multiple converging crises — AISD staffing allocations going out TODAY.\n\n⚡ MAY 8: AISD campuses begin receiving staffing allocations today. May 6 KUT report confirmed LARGER CLASS SIZES and CUTS TO TEACHER PLANNING TIME at all but Band 1 campuses (turnaround/unacceptable-rated). Only the most vulnerable schools are protected. Leadership meets with potentially affected staff May 12-15. May 9 virtual budget meeting (11am-noon) — last broad public input opportunity before May 21 recommended budget.\n\n⚡ MAY 5 WORK SESSION: HSO Director Gray PRESENTED the expanded encampment sweep plan to Council. Council received briefings on sweeps expansion AND operational modifications within HSO.\n\n⚡ MAY 7 COUNCIL ACTIONS: Council APPROVED $497,299 for Integral Care's Homeless Health and Wellness Center program — expanding crisis health services.\n\n⚡ BEATF BOND PROPOSAL (May 6): Two options — $766.53M (passed unanimously by task force, includes $131.1M for public facilities including homeless services) and $440M alternative. BEATF presents to Council May 28 (20 DAYS).\n\n⚡ BUDGET CRISIS: $26.4M projected deficit. $16.8M in social services cuts — targeting permanent supportive housing, workforce development, adult education. THIS DIRECTLY THREATENS HSO STRATEGIC PLAN FUNDING.\n\n⚡ ENCAMPMENT EXPANSION: 42 city staff across six HEM teams, each with TWO APD officers. KEY CHANGE: outreach workers NO LONGER embedded in sweep teams. The $497K Integral Care funding (May 7) partially addresses the services gap.\n\nStrategic plan commitments (adopted March 26):\n• 650 new shelter beds + 2 navigation centers (first in procurement)\n• $101M additional funding ask — NOW THREATENED by $16.8M cuts\n• ~6,500 people on streets\n• Endeavors operates ALL major shelters under emergency contract through September 2026\n• Competitive solicitation for shelter operations starts October 1, 2026",
       "theory_of_change": "Strategic plans without accountability mechanisms become performative documents. The HSO plan is the city's first-ever comprehensive homelessness strategy — if it succeeds, it's a model. If it fails quietly, Austin loses years. Public tracking with quarterly reports creates three pressure points: (1) city staff know someone is watching, (2) council members have data for budget decisions, (3) residents can see whether their tax dollars are producing results. This is the most leveraged campaign because it covers all homelessness spending and strategy, not just individual programs.",
       "next_actions": [
         "Obtain and analyze the complete HSO 2025-2027 strategic plan — identify every measurable commitment and timeline",
@@ -398,32 +398,32 @@
   "practical_next_steps_for_org": {
     "immediate": [
       {
-        "action": "Obtain and analyze the complete HSO 2025-2027 strategic plan — identify every measurable commitment",
-        "owner": "Research team",
-        "deadline": "2026-04-10",
-        "effort": "6 hours",
+        "action": "Attend AISD virtual budget meeting TOMORROW (May 9, 11am-noon) — AISD proposing larger class sizes at most campuses, directly impacts neighborhood safety and stability",
+        "owner": "Steering committee",
+        "deadline": "2026-05-09",
+        "effort": "1 hour",
+        "impact": "high"
+      },
+      {
+        "action": "Submit SpeakUpAustin comments on $766.5M bond — advocate for $131.1M public facilities allocation including purpose-built shelter to replace Marshalling Yard. BEATF presents May 28 (20 DAYS)",
+        "owner": "Policy team",
+        "deadline": "2026-05-26",
+        "effort": "2 hours",
         "impact": "very high"
       },
       {
-        "action": "Submit public records requests for APD staffing data, response times, and HEAL operation outcomes",
+        "action": "Analyze $497K Integral Care expansion — map how crisis health services capacity changes with new Homeless Health and Wellness Center funding",
         "owner": "Data team",
-        "deadline": "2026-04-15",
-        "effort": "4 hours",
+        "deadline": "2026-05-20",
+        "effort": "3 hours",
         "impact": "high"
       },
       {
-        "action": "Contact ECHO to establish data sharing partnership for HMIS shelter outcome data",
-        "owner": "Steering committee",
-        "deadline": "2026-04-10",
-        "effort": "2 hours",
+        "action": "Track impact of removing embedded outreach workers from sweep teams — collect and report on whether the services linkage gap is being addressed",
+        "owner": "Research team",
+        "deadline": "2026-05-31",
+        "effort": "5 hours",
         "impact": "high"
-      },
-      {
-        "action": "Contact Austin YIMBY Action and Austin Abundance Project to formalize cross-org coordination",
-        "owner": "Steering committee",
-        "deadline": "2026-04-05",
-        "effort": "1 hour",
-        "impact": "medium"
       }
     ],
     "medium_term": [
@@ -440,8 +440,8 @@
         "impact": "high"
       },
       {
-        "action": "Build district-level APD staffing and response time dashboard",
-        "deadline": "2026-05-15",
+        "action": "Build district-level APD staffing and response time dashboard — include the milestone that APD met its 10min44s Priority 0/1 target for first time since August 2023",
+        "deadline": "2026-05-31",
         "effort": "12 hours",
         "impact": "high"
       },

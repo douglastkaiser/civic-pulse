@@ -197,7 +197,7 @@
       "priority": "medium",
       "importance_score": 75,
       "impact_score": 60,
-      "summary": "UPDATE (May 7, 2026): Voice of OC reports that many OC cities are failing at low-income housing despite RHNA compliance on paper. The gap between zoned capacity and actual construction is widest in the very low and low-income categories.\n\n⚡ ELECTION CONNECTION: The CNN governor's debate (May 5) saw housing affordability as the #2 voter issue (20%). The next governor controls RHNA enforcement, Builder's Remedy, and AG referrals. Ballots are in voters' hands — 26 DAYS to primary. The five-way Democratic fragmentation raises the risk of two Republicans making the top-two, which could weaken housing enforcement statewide.\n\n⚡ SPECIFIC CITY SHORTFALLS: Anaheim has permitted only 3,048 of its required 17,453 units — over 3,000 low-income units short. Fullerton: 1,384 of 13,209 units (11,825 remaining). Huntington Beach, Costa Mesa, Newport Beach, Garden Grove, Tustin, Westminster, and Fountain Valley all behind schedule. OC-wide, multifamily development has slowed amid elevated borrowing costs.\n\n⚡ STATE CONTEXT (April 14): OC Board of Supervisors backed the proposed $10B state Affordable Housing Bond. Chair Chaffee warned of a 'perfect storm' of fiscal pressures. Kennedy Commission's 2026 Affordable Housing Awards on May 14 — 121,434 low-income renter households in OC still lack access to an affordable home.\n\nNewport Beach voters will decide in November 2026 whether to replace the state-approved housing plan with the 'Responsible Housing Initiative' allowing far fewer new units.\n\nBuild and maintain a public dashboard tracking all 35 Orange County cities' RHNA compliance. Most OC cities are behind, especially for very low and low-income units. Making this data publicly accessible creates accountability pressure.",
+      "summary": "UPDATE (May 8, 2026): Voice of OC reports that many OC cities are failing at low-income housing despite RHNA compliance on paper. The gap between zoned capacity and actual construction is widest in the very low and low-income categories.\n\n⚡ MAY 6 — SADDLEBACK MEADOWS APPROVED: Board of Supervisors voted UNANIMOUSLY to deny appeal challenging 181-home development on 222 acres near Live Oak Canyon/El Toro Rd. Project was delayed 40+ years by legal challenges and opposition. The unanimous vote — including Republican supervisors — signals the current Board's pro-development posture.\n\n⚡ NEW FUNDING: OCHCD released 2026 Supportive Housing NOFA — $20.9M for acquisition, construction, and rehabilitation of supportive housing, plus up to 100 Project Based Vouchers for extremely low-income homeless households. Combined with $35.1M HHAP state funding and the proposed $10B state Affordable Housing Bond, this is the largest injection of housing funding in recent OC history.\n\n⚡ ELECTION CONNECTION: The CNN governor's debate (May 5) saw housing affordability as the #2 voter issue (20%). The next governor controls RHNA enforcement, Builder's Remedy, and AG referrals. Ballots are in voters' hands — 25 DAYS to primary. The five-way Democratic fragmentation raises the risk of two Republicans making the top-two, which could weaken housing enforcement statewide.\n\n⚡ SPECIFIC CITY SHORTFALLS: Anaheim has permitted only 3,048 of its required 17,453 units — over 3,000 low-income units short. Fullerton: 1,384 of 13,209 units (11,825 remaining). Huntington Beach, Costa Mesa, Newport Beach, Garden Grove, Tustin, Westminster, and Fountain Valley all behind schedule.\n\n⚡ AFFORDABLE HOUSING MONTH: OC's 2026 Affordable Housing Awards ceremony May 14 — 121,434 low-income renter households in OC still lack access to an affordable home.\n\nNewport Beach voters will decide in November 2026 whether to replace the state-approved housing plan with the 'Responsible Housing Initiative' allowing far fewer new units.\n\nBuild and maintain a public dashboard tracking all 35 Orange County cities' RHNA compliance. Most OC cities are behind, especially for very low and low-income units. Making this data publicly accessible creates accountability pressure.",
       "theory_of_change": "What gets measured gets managed. A public, regularly updated compliance dashboard turns abstract state mandates into concrete, city-by-city accountability. Media can use it for stories. Advocates can prioritize cities with the worst compliance. Residents can see how their city compares. This is the infrastructure that makes all other housing advocacy more effective.",
       "next_actions": [
         "Compile RHNA allocation data for all 35 OC cities from SCAG (Southern California Association of Governments)",
@@ -388,58 +388,58 @@
   "practical_next_steps_for_org": {
     "immediate": [
       {
-        "action": "Research City of Orange Housing Element update status and timeline",
+        "action": "Attend Kennedy Commission 2026 Affordable Housing Awards (May 14) — network with housing developers and learn which projects are receiving $20.9M NOFA funding",
+        "owner": "Steering committee",
+        "deadline": "2026-05-14",
+        "effort": "3 hours",
+        "impact": "high"
+      },
+      {
+        "action": "Amplify Saddleback Meadows approval (May 6) as precedent — 181 homes cleared after 40+ years of NIMBY delay, unanimous Board vote including R supervisors",
+        "owner": "Communications",
+        "deadline": "2026-05-12",
+        "effort": "2 hours",
+        "impact": "medium"
+      },
+      {
+        "action": "Publish Builder's Remedy explainer and share with OC media — AB 1893 strengthens legal position of the 696 pending units in Orange",
         "owner": "Policy team",
-        "deadline": "2026-04-15",
-        "effort": "4 hours",
+        "deadline": "2026-05-20",
+        "effort": "8 hours",
         "impact": "high"
       },
       {
-        "action": "Connect with People for Housing OC for coordination",
-        "owner": "Steering committee",
-        "deadline": "2026-04-01",
-        "effort": "1 hour",
-        "impact": "high"
-      },
-      {
-        "action": "Map all OC cities currently in Builder's Remedy or non-compliant status",
-        "owner": "Research team",
-        "deadline": "2026-04-15",
-        "effort": "6 hours",
-        "impact": "very high"
-      },
-      {
-        "action": "Contact California YIMBY for state-level compliance data and partnership",
-        "owner": "Steering committee",
-        "deadline": "2026-04-01",
+        "action": "Monitor voter registration deadline (MAY 18 — 10 DAYS) for June 2 primary that will shape Board of Supervisors housing posture",
+        "owner": "All members",
+        "deadline": "2026-05-18",
         "effort": "1 hour",
         "impact": "high"
       }
     ],
     "medium_term": [
       {
-        "action": "Launch RHNA compliance tracker v1 for all 35 OC cities",
+        "action": "Launch RHNA compliance tracker v1 for all 35 OC cities — include the specific shortfalls: Anaheim (3,048/17,453), Fullerton (1,384/13,209)",
         "deadline": "2026-06-15",
         "effort": "30 hours",
         "impact": "very high"
       },
       {
-        "action": "Organize hearing attendance for Orange Heights Builder's Remedy project",
-        "deadline": "When hearing scheduled",
+        "action": "Organize hearing attendance for Orange Builder's Remedy projects — track all four applications (696 total units)",
+        "deadline": "When hearings scheduled",
         "effort": "5 hours",
         "impact": "high"
       },
       {
-        "action": "Publish Builder's Remedy explainer and share with OC media",
-        "deadline": "2026-05-15",
-        "effort": "8 hours",
-        "impact": "high"
-      },
-      {
-        "action": "Track Irvine General Plan public hearing schedule and prepare advocacy materials",
+        "action": "Track Irvine General Plan implementation and Oak Creek Golf Course conversion — Planning Commission recommended approval unanimously, Council vote pending",
         "deadline": "Ongoing",
         "effort": "3 hours/month",
         "impact": "high"
+      },
+      {
+        "action": "Track OCHCD $20.9M NOFA awards — which projects receive funding, which neighborhoods gain supportive housing capacity",
+        "deadline": "2026-07-15",
+        "effort": "5 hours",
+        "impact": "medium"
       }
     ],
     "strategic": [

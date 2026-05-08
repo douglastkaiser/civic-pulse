@@ -39,7 +39,7 @@
       "priority": "high",
       "importance_score": 95,
       "impact_score": 85,
-      "summary": "UPDATE (May 7, 2026): Project Connect continues advancing on multiple fronts despite the pending TX Supreme Court ruling — now 86 DAYS since oral arguments with no ruling, an unusually long wait suggesting the justices may be divided or drafting a complex opinion.\n\n• January 2026: Trump administration signed off on federal environmental review (Record of Decision) — a critical milestone for ~$4 billion in FTA Capital Investment Grant funding.\n• February 18, 2026: Austin Transit Partnership approved a $60 million design-build contract with Austin Rail Constructors for Phase 1.\n⚡ APRIL 15: ATP approved a $25M contract with Kiewit Austin Partnership for the operations and maintenance facility AND spending up to $230M to acquire up to 18 parcels for the rail corridor — the first major land acquisition push.\n• Early field work continues along the corridor. Full construction expected to begin 2027, target completion 2033.\n\n⚡ MAY 5: Council received a work session briefing on the citywide Density Bonus program, which will enable transit-oriented density along the future rail corridor. The DBC introduces height bonuses up to 750-1,200 feet in exchange for affordable housing. COUNCIL VOTE EXPECTED MAY 21.\n\n⚡ MAY 6: BEATF released its $766.5M bond proposal — includes $147M for transportation (sidewalks, Vision Zero, trails) that complements transit infrastructure. BEATF presents to Council May 28.\n\nBUDGET CONTEXT: FY2027 budget talks ongoing. $26.4M deficit projected. General fund growing only ~3%. While Project Connect has dedicated tax revenue ($166M/year, $400M+ reserves), the broader fiscal environment creates political headwinds.\n\nLegal status: TX Supreme Court heard oral arguments February 10 — NO ruling yet, 86 DAYS and counting. If the court sides with the city, the case returns to Travis County for trial. If with Paxton, additional appellate proceedings follow.\n\nThis campaign coordinates rapid response preparation for the court ruling, federal funding advocacy, and public education about what Project Connect means for housing, mobility, and the city's future.",
+      "summary": "UPDATE (May 8, 2026): Project Connect continues advancing on multiple fronts despite the pending TX Supreme Court ruling — now 87 DAYS since oral arguments with no ruling, an unusually long wait suggesting the justices may be divided or drafting a complex opinion.\n\n• January 2026: Trump administration signed off on federal environmental review (Record of Decision) — a critical milestone for ~$4 billion in FTA Capital Investment Grant funding.\n• February 18, 2026: Austin Transit Partnership approved a $60 million design-build contract with Austin Rail Constructors for Phase 1.\n⚡ APRIL 15: ATP approved a $25M contract with Kiewit Austin Partnership for the operations and maintenance facility AND spending up to $230M to acquire up to 18 parcels for the rail corridor — the first major land acquisition push.\n• Early field work continues along the corridor. Full construction expected to begin 2027, target completion 2033.\n\n⚡ MAY 5: Council received a work session briefing on the citywide Density Bonus program, which will enable transit-oriented density along the future rail corridor. The DBC introduces height bonuses up to 750-1,200 feet in exchange for affordable housing. ⚡ COUNCIL VOTE EXPECTED MAY 21 (13 DAYS).\n\n⚡ MAY 6: BEATF released its $766.5M bond proposal — includes $147M for transportation (sidewalks, Vision Zero, trails) that complements transit infrastructure. BEATF presents to Council May 28 (20 DAYS).\n\nBUDGET CONTEXT: FY2027 budget talks ongoing. $26.4M deficit projected. General fund growing only ~3%. While Project Connect has dedicated tax revenue ($166M/year, $400M+ reserves), the broader fiscal environment creates political headwinds.\n\nLegal status: TX Supreme Court heard oral arguments February 10 — NO ruling yet, 87 DAYS and counting. If the court sides with the city, the case returns to Travis County for trial. If with Paxton, additional appellate proceedings follow.\n\nThis campaign coordinates rapid response preparation for the court ruling, federal funding advocacy, and public education about what Project Connect means for housing, mobility, and the city's future.",
       "theory_of_change": "The court ruling is binary — win or lose — but the political environment around it is not. A mobilized, visible pro-transit constituency makes it harder for state officials to celebrate a loss and easier for city leadership to find alternative paths if needed. On the federal side, demonstrated local support strengthens the FTA application. Every week of organized advocacy improves the odds on both fronts.",
       "next_actions": [
         "Monitor TX Supreme Court docket for Paxton v. Austin Transit Partnership ruling",
@@ -408,39 +408,39 @@
   "practical_next_steps_for_org": {
     "immediate": [
       {
-        "action": "Set up candidate questionnaire for all 5 council districts",
-        "owner": "Steering committee",
-        "deadline": "2026-04-15",
-        "effort": "5 hours",
-        "impact": "high"
-      },
-      {
-        "action": "Draft Pct 4 runoff endorsement analysis",
+        "action": "Prepare public testimony supporting the DBC density bonus program — COUNCIL VOTE MAY 21 (13 DAYS)",
         "owner": "Policy team",
-        "deadline": "2026-04-01",
-        "effort": "2 hours",
-        "impact": "high"
-      },
-      {
-        "action": "Establish TX Supreme Court ruling rapid-response protocol",
-        "owner": "Communications lead",
-        "deadline": "2026-04-01",
+        "deadline": "2026-05-19",
         "effort": "3 hours",
         "impact": "very high"
       },
       {
-        "action": "Contact Transit Forward and AURA for joint rapid-response coordination",
-        "owner": "Steering committee",
-        "deadline": "2026-03-25",
+        "action": "Submit SpeakUpAustin comments supporting $766.5M bond package with $200M housing allocation — BEATF presents May 28",
+        "owner": "All members",
+        "deadline": "2026-05-26",
         "effort": "1 hour",
         "impact": "high"
+      },
+      {
+        "action": "Mobilize for Travis County Pct 4 runoff canvassing — 18 DAYS to May 26 runoff, extremely low turnout expected",
+        "owner": "Field team",
+        "deadline": "2026-05-25",
+        "effort": "10 hours total canvassing",
+        "impact": "very high"
+      },
+      {
+        "action": "Maintain TX Supreme Court ruling rapid-response readiness — 87 DAYS and counting, ruling could come any day",
+        "owner": "Communications lead",
+        "deadline": "Ongoing",
+        "effort": "1 hour/week monitoring",
+        "impact": "very high"
       }
     ],
     "medium_term": [
       {
-        "action": "Recruit 10 volunteers for Pct 4 runoff canvassing",
-        "deadline": "2026-05-01",
-        "effort": "5 hours outreach",
+        "action": "Evaluate District 1 council candidates on housing/transit positions — field at 8+ candidates, filing opens July 20",
+        "deadline": "2026-06-15",
+        "effort": "8 hours research",
         "impact": "very high"
       },
       {
@@ -450,14 +450,14 @@
         "impact": "high"
       },
       {
-        "action": "Publish pro-building council scorecard",
-        "deadline": "2026-06-01",
+        "action": "Publish pro-building council scorecard for outgoing members and announced candidates",
+        "deadline": "2026-06-15",
         "effort": "8 hours research + writing",
         "impact": "high"
       },
       {
         "action": "Establish planning commission monitoring rotation with volunteer commitments",
-        "deadline": "2026-05-15",
+        "deadline": "2026-05-31",
         "effort": "3 hours setup, ongoing 2hr/week",
         "impact": "medium"
       }
@@ -470,16 +470,16 @@
         "notes": "Combined endorsement slate with AURA, Transit Forward, and Downtown Austin Alliance would have significant influence. Coordinate questionnaire and evaluation process."
       },
       {
-        "action": "Develop post-court-ruling strategy for both outcomes",
-        "timeframe": "Ready before ruling (could be any week)",
+        "action": "Develop post-court-ruling strategy for both outcomes — ruling imminent at 87 days",
+        "timeframe": "Ready before ruling (could be any day)",
         "impact": "very high",
         "notes": "Favorable ruling: accelerate federal funding advocacy and TOD planning. Unfavorable: mobilize for legislative fix, explore alternative funding, maintain coalition morale."
       },
       {
-        "action": "Connect golf course rezoning advocacy to transit-oriented development planning",
+        "action": "Connect golf course rezoning advocacy to transit-oriented development planning and DBC density bonus framework",
         "timeframe": "Q2-Q3 2026",
         "impact": "high",
-        "notes": "The golf course site's housing potential is maximized with transit access. Advocacy for both reinforces each."
+        "notes": "The golf course site's housing potential is maximized with transit access. The DBC vote (May 21) creates the density bonus framework. Advocacy for both reinforces each."
       }
     ]
   },

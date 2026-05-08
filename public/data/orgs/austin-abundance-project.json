@@ -39,7 +39,7 @@
       "priority": "high",
       "importance_score": 88,
       "impact_score": 82,
-      "summary": "Use public data to map Austin's childcare deserts \u2014 areas with no licensed childcare providers within reasonable distance. Three specific data sources form the foundation: the Texas HHS licensed childcare facility database (provider locations, capacity, license status), Census ACS data on children under 5 by tract (demand side), and Travis County childcare subsidy utilization data showing where subsidized families live versus where they can actually use their subsidies (access gaps). Overlay these three layers to produce an actual map of where the gaps are \u2014 this is a data project, exactly the kind of thing an AI-assisted civic org can do better than traditional advocacy groups.\n\nSimultaneously, monitor the $5,046,004 Raising Travis County childcare investment with facility-level and neighborhood-level accountability. Track which specific facilities get funded, which neighborhoods receive investment, and what the outcome metrics are \u2014 new slots created, waitlist reduction, subsidy utilization rates. This is accountability work: track the money, report on the outcomes. Are new slots being created in childcare deserts, or is the money subsidizing existing providers in well-served areas?\n\nAdvocate for childcare facility zoning reform \u2014 current rules make it unnecessarily difficult to open home-based and small-center childcare in residential areas. This is a deregulatory reform that should appeal across the political spectrum.",
+      "summary": "\u26a1 UPDATE (May 8, 2026): MAJOR STATE DEVELOPMENT \u2014 Texas House passed HB 500 with $100 MILLION for child care scholarships. The funding allows the Texas Workforce Commission to serve additional families \u2014 95,000 families are currently on the waiting list. Governor Abbott also signed HB 117 (streamlines childcare regulations) and HB 4903 (creates the Quad-Agency Childcare Initiative Commission). This creates a rare alignment of city ($5M Raising Travis County), county, and state ($100M) childcare funding.\n\nCORE CAMPAIGN: Use public data to map Austin's childcare deserts \u2014 areas with no licensed childcare providers within reasonable distance. Three specific data sources form the foundation: the Texas HHS licensed childcare facility database (provider locations, capacity, license status), Census ACS data on children under 5 by tract (demand side), and Travis County childcare subsidy utilization data showing where subsidized families live versus where they can actually use their subsidies (access gaps). Overlay these three layers to produce an actual map of where the gaps are \u2014 this is a data project, exactly the kind of thing an AI-assisted civic org can do better than traditional advocacy groups.\n\nSimultaneously, monitor the $5,046,004 Raising Travis County childcare investment AND the new $100M state scholarship program with facility-level and neighborhood-level accountability. Track which specific facilities get funded, which neighborhoods receive investment, and what the outcome metrics are \u2014 new slots created, waitlist reduction, subsidy utilization rates. Are new state scholarships reaching Austin families? Are new slots being created in childcare deserts?\n\nAdvocate for childcare facility zoning reform \u2014 current rules make it unnecessarily difficult to open home-based and small-center childcare in residential areas. This is a deregulatory reform that should appeal across the political spectrum.",
       "theory_of_change": "Data-driven advocacy works because it makes the invisible visible. Council members and county commissioners can ignore abstract complaints about childcare scarcity but cannot ignore a map showing their district is a childcare desert. The $5M county investment creates an accountability hook \u2014 public money requires public scrutiny. Zoning reform for childcare facilities is achievable because it aligns with both left (equity, access) and right (deregulation, property rights) values, making it a rare bipartisan opportunity.",
       "next_actions": [
         "Compile licensed childcare provider locations from Texas HHS database (provider addresses, capacity, license type)",
@@ -406,58 +406,58 @@
   "practical_next_steps_for_org": {
     "immediate": [
       {
-        "action": "Begin childcare provider data compilation from TX HHS database",
-        "owner": "Data team",
-        "deadline": "2026-04-01",
-        "effort": "4 hours",
-        "impact": "high"
-      },
-      {
-        "action": "Identify Austin's top 25 tech employers for index research",
-        "owner": "Research team",
-        "deadline": "2026-04-15",
+        "action": "Track HB 500 implementation: monitor TX Workforce Commission for how $100M in childcare scholarships will be distributed \u2014 identify Austin/Travis County allocation",
+        "owner": "Policy team",
+        "deadline": "2026-05-30",
         "effort": "3 hours",
+        "impact": "very high"
+      },
+      {
+        "action": "Attend AISD virtual budget meeting TOMORROW (May 9, 11am-noon) \u2014 AISD proposing larger class sizes, directly affects family retention in urban Austin",
+        "owner": "Steering committee",
+        "deadline": "2026-05-09",
+        "effort": "1 hour",
         "impact": "high"
       },
       {
-        "action": "Contact Austin YIMBY Action to formalize cross-org coordination",
-        "owner": "Steering committee",
-        "deadline": "2026-03-25",
-        "effort": "1 hour",
-        "impact": "medium"
+        "action": "Send employer survey for family-friendly index \u2014 Austin's top 25 tech employers",
+        "owner": "Research team",
+        "deadline": "2026-05-20",
+        "effort": "10 hours",
+        "impact": "high"
       },
       {
-        "action": "Submit public records requests for parental leave policies at City of Austin, Travis County, and AISD",
+        "action": "Compile public records responses on parental leave policies \u2014 City of Austin, Travis County, AISD",
         "owner": "Research team",
-        "deadline": "2026-04-10",
-        "effort": "2 hours",
+        "deadline": "2026-05-15",
+        "effort": "3 hours",
         "impact": "high"
       }
     ],
     "medium_term": [
       {
-        "action": "Complete and publish childcare desert map v1",
-        "deadline": "2026-06-01",
+        "action": "Complete and publish childcare desert map v1 \u2014 include overlay with new HB 500 scholarship eligibility zones",
+        "deadline": "2026-06-15",
         "effort": "20 hours total",
         "impact": "very high"
       },
       {
-        "action": "Send employer survey for family-friendly index",
-        "deadline": "2026-05-15",
-        "effort": "10 hours",
-        "impact": "high"
-      },
-      {
-        "action": "Draft childcare zoning reform proposal",
-        "deadline": "2026-06-15",
+        "action": "Draft childcare zoning reform proposal for residential areas",
+        "deadline": "2026-06-30",
         "effort": "8 hours",
         "impact": "high"
       },
       {
         "action": "Publish comparison of Austin public employer parental leave policies vs. peer city benchmarks",
-        "deadline": "2026-06-01",
+        "deadline": "2026-06-15",
         "effort": "8 hours",
         "impact": "high"
+      },
+      {
+        "action": "Submit comments on $766.5M bond package \u2014 advocate for family-oriented public facilities in the $131M public facilities allocation",
+        "deadline": "2026-05-26",
+        "effort": "2 hours",
+        "impact": "medium"
       }
     ],
     "strategic": [
@@ -468,16 +468,16 @@
         "notes": "Timed to get media coverage before November elections \u2014 makes family policy part of the council race conversation."
       },
       {
-        "action": "Advocate for family-sized housing incentives in upcoming development cases",
+        "action": "Advocate for family-sized housing incentives in DBC density bonus program and golf course rezoning",
         "timeframe": "Ongoing from Q2 2026",
         "impact": "high",
-        "notes": "Work through Austin YIMBY Action coalition to add family-sized unit advocacy to existing testimony at rezoning hearings."
+        "notes": "The DBC vote (May 21) and golf course rezoning hearings are opportunities to advocate for 2BR+ family-sized unit requirements. Work through Austin YIMBY Action coalition."
       },
       {
-        "action": "Present Raising Travis County fund accountability report to commissioners",
+        "action": "Present combined Raising Travis County + HB 500 accountability report to commissioners and state legislators",
         "timeframe": "Q4 2026",
         "impact": "high",
-        "notes": "Track the $5M at facility and neighborhood level: which providers received funds, which neighborhoods gained capacity, and what are the measurable outcomes (new slots created, waitlist reduction, subsidy utilization rates). Publish a public accountability report. This is the credibility-building work that demonstrates the org can do rigorous oversight."
+        "notes": "Track the $5M county investment AND the new $100M state scholarship program at facility and neighborhood level. The combined city-county-state childcare investment is unprecedented \u2014 rigorous accountability reporting establishes the org's credibility and ensures funds reach childcare deserts."
       },
       {
         "action": "Advocate for specific parental leave policy improvements at City of Austin council and Travis County Commissioners Court",

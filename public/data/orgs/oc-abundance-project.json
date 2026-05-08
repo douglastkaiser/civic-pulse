@@ -315,32 +315,32 @@
   "practical_next_steps_for_org": {
     "immediate": [
       {
-        "action": "Begin CA Community Care Licensing database compilation for Orange County",
+        "action": "Complete CA Community Care Licensing database compilation for Orange County — childcare provider locations, capacity, license types",
         "owner": "Data team",
-        "deadline": "2026-04-15",
+        "deadline": "2026-05-25",
         "effort": "6 hours",
         "impact": "high"
       },
       {
-        "action": "Identify OC's top 20 employers for family-friendly index",
+        "action": "Send employer survey to OC's top 20 employers for family-friendly index",
         "owner": "Research team",
-        "deadline": "2026-04-15",
-        "effort": "3 hours",
+        "deadline": "2026-05-25",
+        "effort": "10 hours",
         "impact": "high"
       },
       {
-        "action": "Contact Austin Abundance Project for methodology sharing",
+        "action": "Attend Kennedy Commission 2026 Affordable Housing Awards (May 14) — network with family-serving organizations and learn about family-sized housing projects",
         "owner": "Steering committee",
-        "deadline": "2026-04-01",
-        "effort": "1 hour",
+        "deadline": "2026-05-14",
+        "effort": "3 hours",
         "impact": "medium"
       },
       {
-        "action": "Research First 5 OC Commission meeting schedule and public comment process",
-        "owner": "Policy team",
-        "deadline": "2026-04-01",
+        "action": "Ensure voter registration outreach before MAY 18 deadline — Board of Supervisors majority directly affects childcare and family policy funding",
+        "owner": "All members",
+        "deadline": "2026-05-18",
         "effort": "1 hour",
-        "impact": "medium"
+        "impact": "high"
       }
     ],
     "medium_term": [
@@ -351,22 +351,22 @@
         "impact": "very high"
       },
       {
-        "action": "Send employer survey to all 20 target employers",
-        "deadline": "2026-05-15",
-        "effort": "10 hours",
-        "impact": "high"
-      },
-      {
         "action": "Present childcare desert findings to First 5 OC Commission",
         "deadline": "2026-07-01",
         "effort": "5 hours",
         "impact": "high"
       },
       {
-        "action": "Draft family housing incentive proposal with OC Housing Now",
+        "action": "Draft family housing incentive proposal with OC Housing Now — include RHNA compliance data showing family-sized unit shortfalls",
         "deadline": "2026-06-15",
         "effort": "8 hours",
         "impact": "high"
+      },
+      {
+        "action": "Track $20.9M OCHCD Supportive Housing NOFA awards — evaluate which projects include family-serving components",
+        "deadline": "2026-07-15",
+        "effort": "3 hours",
+        "impact": "medium"
       }
     ],
     "strategic": [
