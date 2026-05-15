@@ -1,0 +1,552 @@
+{
+  "id": "austin-yimby-action",
+  "name": "Austin YIMBY Action",
+  "tagline": "Build Austin. Housing. Transit. Infrastructure. All of it. Now.",
+  "mission": "Austin is at a once-in-a-decade inflection point where every major lever for the city's future is in play simultaneously. The city added over 200,000 residents in the last decade, making it one of the fastest-growing metros in the United States. The political decisions being made RIGHT NOW — in 2026 — will determine whether Austin becomes a city that accommodates that growth or chokes on it.\n\nThis is not a generic pro-housing organization. We exist because of a specific convergence of leverage points that makes 2026 the most consequential year in Austin's modern history:\n\nThe HOME Initiative fundamentally rewrote Austin's land use rules — but rules on paper don't build houses. We're now in the implementation phase, where individual rezoning fights, permitting bottlenecks, and enforcement decisions determine whether the reform actually produces housing. Organized pro-housing voices at every hearing is what turns policy into buildings.\n\nProject Connect — Austin's $8.23 billion light rail system — cleared federal environmental review in January 2026, a construction contractor has been selected, and early field work has begun. But the project hangs by a legal thread right now. Attorney General Ken Paxton is challenging the entire funding mechanism at the Texas Supreme Court. Oral arguments were Feb 10. No ruling yet. If the court kills the bonds, the project collapses. This is the single largest infrastructure investment in Austin's history, and it needs active, organized defense.\n\nFive city council seats are on the November 2026 ballot — Districts 1, 3, 5, 8, and 9. District 1 (East Austin / 78702) is an open seat for the first time in eight years. Steven Brown, a declared candidate, explicitly frames himself as anti-developer. The next council majority will determine whether Austin's pro-building trajectory continues or reverses.\n\n445 acres of city-owned land at the Jimmy Clay and Roy Kizer golf courses have been initiated for rezoning — potentially 5,000-15,000 housing units depending on density. This is the largest single development opportunity in Austin and it will go through contentious public hearings.\n\nAnd the Travis County Commissioner Precinct 4 Democratic runoff on May 26 offers extremely high leverage: turnout will be 8-12%. A small organized group can meaningfully shift the outcome.\n\nWe fight on all of these fronts simultaneously because they are all connected: transit-oriented development requires BOTH the transit AND the housing density around it. Defending Project Connect and fighting for upzoning along the rail corridor are the same fight. An organization that does one without the other is leaving half the value on the table. We are pro-building in the broadest sense — housing, transit, infrastructure — because you cannot solve any one of these problems without solving the others.",
+  "theory_of_change": "All of Austin's urbanist leverage points are concentrated in 2026. The TX Supreme Court will rule on Project Connect's funding mechanism. Five council seats turn over. The golf course rezoning moves through public hearings. Federal transit funding timelines create deadlines. This concentration means that organized action in 2026 produces outsized outcomes compared to any other year. We are not a permanent institution — we are a campaign-mode operation built for a critical window. If we win the court case, elect a pro-building council, and secure the golf course rezoning, Austin locks in a trajectory toward density, transit, and affordability for decades. If we lose any of them, the window closes and the city's growth becomes a crisis instead of an opportunity.",
+  "geographic_scope": {
+    "city": "Austin",
+    "county": "Travis County",
+    "state": "Texas"
+  },
+  "founded": "2026-03-18",
+  "political_positioning": {
+    "description": "Pragmatic, broad-tent pro-building coalition. We include progressive urbanists who see density as climate and equity policy, moderate business interests who understand that housing scarcity threatens economic growth, and libertarian-leaning property rights advocates who believe landowners should be free to build. We are not affiliated with any party. We work with pro-housing Democrats, moderate Republicans, and anyone who thinks Austin should build things. This is not an ideological project — it is a practical one.",
+    "compass_cloud": {
+      "economic_center": 0.15,
+      "economic_spread": 0.45,
+      "social_center": -0.2,
+      "social_spread": 0.3
+    }
+  },
+  "key_policy_positions": [
+    "Defend Project Connect light rail from legal and political threats",
+    "Support upzoning along transit corridors and throughout the city",
+    "Eliminate parking minimums citywide",
+    "Streamline permitting to reduce housing construction timelines",
+    "Ensure effective implementation of the HOME Initiative",
+    "Advocate for the Jimmy Clay/Roy Kizer golf course redevelopment as housing",
+    "Elect pro-building candidates to all 5 open council seats in November 2026",
+    "Oppose organized NIMBY efforts to block infill development",
+    "Support transit-oriented development that pairs housing density with transit access",
+    "Protect and expand Project Connect's federal funding pipeline"
+  ],
+  "active_campaigns": [
+    {
+      "id": "defend-project-connect",
+      "title": "Defend Project Connect",
+      "status": "active",
+      "priority": "high",
+      "importance_score": 95,
+      "impact_score": 85,
+      "summary": "UPDATE (May 8, 2026): Project Connect continues advancing on multiple fronts despite the pending TX Supreme Court ruling — now 87 DAYS since oral arguments with no ruling, an unusually long wait suggesting the justices may be divided or drafting a complex opinion.\n\n• January 2026: Trump administration signed off on federal environmental review (Record of Decision) — a critical milestone for ~$4 billion in FTA Capital Investment Grant funding.\n• February 18, 2026: Austin Transit Partnership approved a $60 million design-build contract with Austin Rail Constructors for Phase 1.\n⚡ APRIL 15: ATP approved a $25M contract with Kiewit Austin Partnership for the operations and maintenance facility AND spending up to $230M to acquire up to 18 parcels for the rail corridor — the first major land acquisition push.\n• Early field work continues along the corridor. Full construction expected to begin 2027, target completion 2033.\n\n⚡ MAY 5: Council received a work session briefing on the citywide Density Bonus program, which will enable transit-oriented density along the future rail corridor. The DBC introduces height bonuses up to 750-1,200 feet in exchange for affordable housing. ⚡ COUNCIL VOTE EXPECTED MAY 28 (13 DAYS).\n\n⚡ MAY 6: BEATF released its $766.5M bond proposal — includes $147M for transportation (sidewalks, Vision Zero, trails) that complements transit infrastructure. BEATF presents to Council May 28 (13 DAYS).\n\n⚡ MAY 15 UPDATE: TX Supreme Court ruling still pending — now 94 DAYS since oral arguments, an unusually long wait. CRITICAL: A Travis County District Court trial is scheduled for May 28-30 to weigh the legality of Project Connect's funding structure. CM Ellis called ATP's planned $32M office lease 'politically tone-deaf'; ATP pulled the item. Waymo recall of 3,791 robotaxis (April 20 flooding incident) and new TX law requiring AV companies to obtain DMV authorization takes effect May 28 — same day as the Project Connect trial and BEATF presentation.\n\nBUDGET CONTEXT: FY2027 budget talks ongoing. $26.4M deficit projected. General fund growing only ~3%. While Project Connect has dedicated tax revenue ($166M/year, $400M+ reserves), the broader fiscal environment creates political headwinds.\n\nLegal status: TX Supreme Court heard oral arguments February 10 — NO ruling yet, 87 DAYS and counting. If the court sides with the city, the case returns to Travis County for trial. If with Paxton, additional appellate proceedings follow.\n\nThis campaign coordinates rapid response preparation for the court ruling, federal funding advocacy, and public education about what Project Connect means for housing, mobility, and the city's future.",
+      "theory_of_change": "The court ruling is binary — win or lose — but the political environment around it is not. A mobilized, visible pro-transit constituency makes it harder for state officials to celebrate a loss and easier for city leadership to find alternative paths if needed. On the federal side, demonstrated local support strengthens the FTA application. Every week of organized advocacy improves the odds on both fronts.",
+      "next_actions": [
+        "Monitor TX Supreme Court docket for Paxton v. Austin Transit Partnership ruling",
+        "Prepare rapid-response communications plan for both favorable and unfavorable rulings",
+        "Coordinate with Transit Forward on joint advocacy and messaging strategy",
+        "Draft op-eds and public testimony emphasizing Project Connect's economic impact",
+        "Track federal FTA Capital Investment Grant application status and timeline",
+        "Build coalition support from business community for federal funding advocacy letters"
+      ],
+      "bridge_building": {
+        "opposition_steelman": "Reasonable skeptics of Defend Project Connect often worry about unintended costs, fairness across neighborhoods, and whether promised benefits will be measured transparently rather than assumed.",
+        "cross_partisan_appeals": [
+          {
+            "audience": "Cost-conscious taxpayers",
+            "framing": "Define clear outcomes, timelines, and guardrails before scaling spending or mandates.",
+            "evidence": "Campaigns with published milestones and public reporting earn broader support and allow mid-course corrections.",
+            "example_dialogue": "\"If Defend Project Connect is worth doing, it is worth measuring with transparent benchmarks so everyone can see what is working.\""
+          },
+          {
+            "audience": "Community-stability voters",
+            "framing": "Implement change in ways that reduce disruption and share benefits across existing residents and newcomers.",
+            "evidence": "Phased implementation and regular public feedback often lower backlash while improving policy durability.",
+            "example_dialogue": "\"We can move Defend Project Connect forward while still listening to neighborhood-level concerns and adjusting implementation details.\""
+          }
+        ],
+        "common_ground": [
+          "Public policy should solve real problems, not just signal values.",
+          "Residents deserve clear communication about tradeoffs.",
+          "Programs should be adjusted when evidence shows gaps."
+        ],
+        "conversation_traps_to_avoid": [
+          "Assuming all critics are acting in bad faith.",
+          "Overpromising speed or certainty on complex implementation.",
+          "Using national partisan frames for local decisions."
+        ],
+        "when_to_acknowledge_uncertainty": [
+          "When baseline data is incomplete or lagged.",
+          "When legal or budget decisions are still pending.",
+          "When implementation depends on partner agencies outside our control."
+        ],
+        "honest_limits": [
+          "This campaign cannot alone fix every upstream structural problem.",
+          "We cannot guarantee identical outcomes in every neighborhood.",
+          "We rely on sustained public participation and institutional follow-through."
+        ],
+        "provenance": {
+          "status": "ai_generated"
+        },
+        "subsection_provenance": {
+          "opposition_steelman": {
+            "status": "ai_generated"
+          },
+          "cross_partisan_appeals": {
+            "status": "ai_generated"
+          },
+          "common_ground": {
+            "status": "ai_generated"
+          },
+          "conversation_traps_to_avoid": {
+            "status": "ai_generated"
+          },
+          "when_to_acknowledge_uncertainty": {
+            "status": "ai_generated"
+          },
+          "honest_limits": {
+            "status": "ai_generated"
+          }
+        }
+      }
+    },
+    {
+      "id": "council-elections-2026",
+      "title": "2026 Council Elections",
+      "status": "active",
+      "priority": "high",
+      "importance_score": 90,
+      "impact_score": 78,
+      "summary": "UPDATE (May 15, 2026): The District 1 field has grown to at least 8 candidates — the most competitive open-seat race in the city. Twenty candidates total have filed across all five open council seats (Districts 1, 3, 5, 8, 9).\n\nDistrict 1 candidates now include: Steven Brown (Save Austin Now co-chair, anti-developer); Alexandria Anderson (MLK Neighborhood Assoc president); Naguib 'Simon' Nahas (pro-housing advocate — supports smaller lot sizes and more building); Misael Daguan Ramos (ran for D1 in 2022 — has name recognition advantage); Kyra Lorena Rogers; Amber Karessa Goodwin (assistant DA at Travis County DA's Office); and at least 2 others. Nahas is the most explicitly YIMBY-aligned candidate so far. Brown's SAN connection remains a red flag. Goodwin's prosecutorial background adds a public safety dimension. Filing period: July 20 – August 17.\n\n⚡ Pct 4 Runoff: George Morales III vs Susanna Ledesma-Woody on May 26 — 11 DAYS AWAY. Community Impact published detailed candidate Q&As on May 14. No Republican running — winner takes the seat. Low turnout expected (8-12%). LIV (League of Independent Voters of Texas) has endorsed Ledesma-Woody. Volunteer canvassing window is NOW.\n\nBUDGET STAKES: FY2027 budget talks ongoing. $26.4M deficit. The BEATF released its $766.5M bond proposal with two options — the full package passed unanimously; a narrower $436M alternative (excluding housing) was more controversial. Late BEATF discussions prioritized East Austin (Carver Museum, Colony Park). BEATF presents to Council on May 28 (13 DAYS). Council voted 9-1 on May 8 to push HOME deeper into single-family neighborhoods. DBC density bonus vote expected May 28. The next council will inherit these constraints and vote on: Project Connect implementation, HOME Initiative enforcement, the DBC density bonus program, the golf course rezoning, the $766.5M bond package, and the expanding homelessness response.",
+      "theory_of_change": "Council members are the final decision-makers on every zoning case, infrastructure investment, and development policy in Austin. Electing even 2-3 additional pro-building members shifts the median vote on council and locks in the current reform trajectory. The Pct 4 runoff is a bonus: in a low-turnout election, 50-100 organized voters can determine the outcome, and county commissioners control key transportation and land use decisions. Early candidate engagement locks in pro-building commitments before candidates calibrate to the general electorate.",
+      "next_actions": [
+        "Develop pro-building scorecard for all current council members based on voting records",
+        "Draft and distribute housing/transit policy questionnaire to all declared candidates",
+        "Publish District 1 deep-dive analysis: demographics, development pipeline, key issues",
+        "Research Districts 3, 5, 8, and 9 candidate fields and development contexts",
+        "Research both Pct 4 runoff candidates' positions on development and transit",
+        "Prepare endorsement recommendations for Pct 4 runoff (deadline: early May)",
+        "Organize precinct-level voter outreach for Pct 4 runoff (target: 5-10 volunteers, 4 weekends)",
+        "Coordinate with League of Women Voters on candidate forum co-sponsorship"
+      ],
+      "bridge_building": {
+        "opposition_steelman": "Reasonable skeptics of 2026 Council Elections often worry about unintended costs, fairness across neighborhoods, and whether promised benefits will be measured transparently rather than assumed.",
+        "cross_partisan_appeals": [
+          {
+            "audience": "Cost-conscious taxpayers",
+            "framing": "Define clear outcomes, timelines, and guardrails before scaling spending or mandates.",
+            "evidence": "Campaigns with published milestones and public reporting earn broader support and allow mid-course corrections.",
+            "example_dialogue": "\"If 2026 Council Elections is worth doing, it is worth measuring with transparent benchmarks so everyone can see what is working.\""
+          },
+          {
+            "audience": "Community-stability voters",
+            "framing": "Implement change in ways that reduce disruption and share benefits across existing residents and newcomers.",
+            "evidence": "Phased implementation and regular public feedback often lower backlash while improving policy durability.",
+            "example_dialogue": "\"We can move 2026 Council Elections forward while still listening to neighborhood-level concerns and adjusting implementation details.\""
+          }
+        ],
+        "common_ground": [
+          "Public policy should solve real problems, not just signal values.",
+          "Residents deserve clear communication about tradeoffs.",
+          "Programs should be adjusted when evidence shows gaps."
+        ],
+        "conversation_traps_to_avoid": [
+          "Assuming all critics are acting in bad faith.",
+          "Overpromising speed or certainty on complex implementation.",
+          "Using national partisan frames for local decisions."
+        ],
+        "when_to_acknowledge_uncertainty": [
+          "When baseline data is incomplete or lagged.",
+          "When legal or budget decisions are still pending.",
+          "When implementation depends on partner agencies outside our control."
+        ],
+        "honest_limits": [
+          "This campaign cannot alone fix every upstream structural problem.",
+          "We cannot guarantee identical outcomes in every neighborhood.",
+          "We rely on sustained public participation and institutional follow-through."
+        ],
+        "provenance": {
+          "status": "ai_generated"
+        },
+        "subsection_provenance": {
+          "opposition_steelman": {
+            "status": "ai_generated"
+          },
+          "cross_partisan_appeals": {
+            "status": "ai_generated"
+          },
+          "common_ground": {
+            "status": "ai_generated"
+          },
+          "conversation_traps_to_avoid": {
+            "status": "ai_generated"
+          },
+          "when_to_acknowledge_uncertainty": {
+            "status": "ai_generated"
+          },
+          "honest_limits": {
+            "status": "ai_generated"
+          }
+        }
+      }
+    },
+    {
+      "id": "golf-course-rezone",
+      "title": "Golf Course Rezoning — 445 Acres",
+      "status": "active",
+      "priority": "high",
+      "importance_score": 85,
+      "impact_score": 90,
+      "summary": "The City of Austin has initiated rezoning of the Jimmy Clay and Roy Kizer golf courses — 445 acres of city-owned land in southeast Austin. This is potentially 5,000-15,000 housing units depending on density — the largest single housing development opportunity in Austin's history. The site's size, public ownership, and location near existing transit routes make it uniquely suited for a mixed-use, transit-oriented development that could include thousands of housing units at multiple price points.\n\nThe rezoning will go through public hearings where organized NIMBY opposition will attempt to block or water down the proposal. We need pro-housing voices at every hearing, prepared testimony, and coalition coordination to ensure this opportunity produces the maximum amount of housing.",
+      "theory_of_change": "Public hearings are where rezoning cases are won or lost. Council members count speakers and read comments. If the only organized voices at the hearing are opponents, the rezoning gets weakened or denied. Showing up in numbers with prepared, specific testimony about the housing need and the site's potential shifts the political calculation. Coalition letters from multiple organizations amplify the signal.",
+      "next_actions": [
+        "Monitor for public hearing schedule announcement from Planning Commission",
+        "Prepare template public comment supporting residential/mixed-use zoning with density",
+        "Coordinate with AURA on joint advocacy strategy and testimony logistics",
+        "Research comparable large-site rezonings in other cities for best-practice examples",
+        "Develop visual materials showing housing capacity potential at various density levels",
+        "Organize hearing attendance commitment list (target: 50+ supporters at first hearing)"
+      ],
+      "bridge_building": {
+        "opposition_steelman": "Reasonable skeptics of Golf Course Rezoning — 445 Acres often worry about unintended costs, fairness across neighborhoods, and whether promised benefits will be measured transparently rather than assumed.",
+        "cross_partisan_appeals": [
+          {
+            "audience": "Cost-conscious taxpayers",
+            "framing": "Define clear outcomes, timelines, and guardrails before scaling spending or mandates.",
+            "evidence": "Campaigns with published milestones and public reporting earn broader support and allow mid-course corrections.",
+            "example_dialogue": "\"If Golf Course Rezoning — 445 Acres is worth doing, it is worth measuring with transparent benchmarks so everyone can see what is working.\""
+          },
+          {
+            "audience": "Community-stability voters",
+            "framing": "Implement change in ways that reduce disruption and share benefits across existing residents and newcomers.",
+            "evidence": "Phased implementation and regular public feedback often lower backlash while improving policy durability.",
+            "example_dialogue": "\"We can move Golf Course Rezoning — 445 Acres forward while still listening to neighborhood-level concerns and adjusting implementation details.\""
+          }
+        ],
+        "common_ground": [
+          "Public policy should solve real problems, not just signal values.",
+          "Residents deserve clear communication about tradeoffs.",
+          "Programs should be adjusted when evidence shows gaps."
+        ],
+        "conversation_traps_to_avoid": [
+          "Assuming all critics are acting in bad faith.",
+          "Overpromising speed or certainty on complex implementation.",
+          "Using national partisan frames for local decisions."
+        ],
+        "when_to_acknowledge_uncertainty": [
+          "When baseline data is incomplete or lagged.",
+          "When legal or budget decisions are still pending.",
+          "When implementation depends on partner agencies outside our control."
+        ],
+        "honest_limits": [
+          "This campaign cannot alone fix every upstream structural problem.",
+          "We cannot guarantee identical outcomes in every neighborhood.",
+          "We rely on sustained public participation and institutional follow-through."
+        ],
+        "provenance": {
+          "status": "ai_generated"
+        },
+        "subsection_provenance": {
+          "opposition_steelman": {
+            "status": "ai_generated"
+          },
+          "cross_partisan_appeals": {
+            "status": "ai_generated"
+          },
+          "common_ground": {
+            "status": "ai_generated"
+          },
+          "conversation_traps_to_avoid": {
+            "status": "ai_generated"
+          },
+          "when_to_acknowledge_uncertainty": {
+            "status": "ai_generated"
+          },
+          "honest_limits": {
+            "status": "ai_generated"
+          }
+        }
+      }
+    },
+    {
+      "id": "ongoing-housing-advocacy",
+      "title": "Ongoing Housing Advocacy",
+      "status": "active",
+      "priority": "medium",
+      "importance_score": 65,
+      "impact_score": 50,
+      "summary": "UPDATE (May 7, 2026): The Pew Charitable Trusts (March 18) confirmed Austin's housing construction surge — driven by HOME Initiative and pro-building policies — produced the steepest rent decline of any large US city from 2021-2026. Austin added 120,000 units (30% increase), driving median rent from $1,546 to $1,296 (now 4% BELOW the US median). This is the proof point for everything we advocate.\n\nMissing middle and mixed-use zoning reforms advanced through City Council on March 26, creating two new zoning categories — one for multiunit housing (townhomes, cottage courts, single-stair buildings) and one for neighborhood-scale mixed-use.\n\n⚡ DBC UPDATE (May 5): Council received the WORK SESSION BRIEFING on the citywide Density Bonus program. The DBC has five tiers adding 0-60 feet of extra height in multifamily/commercial zones in exchange for affordable housing (10% of units at each tier — ownership at 80% MFI, rental at 50% MFI). Two new 'combining districts' offer height bonuses up to 750 feet (lower tier) and 1,200 feet (higher tier) — a dramatic jump from the current 350-foot cap. Developers face stricter parking caps and design standard requirements. COUNCIL VOTE EXPECTED MAY 21 (14 DAYS).\n\n⚡ BOND UPDATE (May 6): BEATF released FORMAL PROPOSALS — two options: a $766.53M package (passed unanimously) including $200M for affordable housing, and a $440M alternative excluding housing. The full package would cost median homeowners ~$100/year. Task force member Tina Cannon called the smaller option inadequate given '$10 billion in unmet needs.' Formal presentation to Council May 28 — 21 DAYS.\n\n⚡ MAY 7 COUNCIL ACTIONS: Council approved $497K for Integral Care Homeless Health and Wellness Center. Council initiated an East Riverside/Oltorf neighborhood plan amendment for properties at S. Lakeshore Blvd and E. Riverside Dr — a rezoning opportunity in a key transit corridor.\n\nBeyond the marquee campaigns, Austin's housing future is shaped by dozens of individual rezoning cases, planning commission decisions, and permitting processes every month. This is the unglamorous, week-in-week-out work that determines whether Austin's reform moment actually translates into built housing.",
+      "theory_of_change": "Zoning reform is necessary but not sufficient. Without ongoing monitoring, bureaucratic inertia and case-by-case NIMBY opposition can effectively nullify reforms. Consistent presence at planning commission meetings and individual case hearings creates a reputation for organized pro-housing advocacy that shifts the default expectation. Staff and commissioners who know that pro-housing groups are watching and will show up are less likely to quietly undermine implementation.",
+      "next_actions": [
+        "Establish weekly monitoring of Planning Commission agendas for relevant cases",
+        "Build volunteer rotation for planning commission hearing attendance",
+        "Track HOME Initiative implementation metrics: permits issued, units entitled, processing times",
+        "Document and publicize cases where HOME implementation is being undermined or delayed",
+        "Create quick-response system for mobilizing testimony on individual rezoning cases",
+        "Amplify Pew Charitable Trusts report (March 18, 2026) showing Austin's 16% rent decline as proof YIMBY policy works",
+        "Engage in missing middle/mixed-use zoning reform public comment process — support 4-6 unit allowances on 5,750+ sq ft lots",
+        "Track and publicize HOME Initiative implementation metrics: units permitted, rents, construction timelines"
+      ],
+      "bridge_building": {
+        "opposition_steelman": "Reasonable skeptics of Ongoing Housing Advocacy often worry about unintended costs, fairness across neighborhoods, and whether promised benefits will be measured transparently rather than assumed.",
+        "cross_partisan_appeals": [
+          {
+            "audience": "Cost-conscious taxpayers",
+            "framing": "Define clear outcomes, timelines, and guardrails before scaling spending or mandates.",
+            "evidence": "Campaigns with published milestones and public reporting earn broader support and allow mid-course corrections.",
+            "example_dialogue": "\"If Ongoing Housing Advocacy is worth doing, it is worth measuring with transparent benchmarks so everyone can see what is working.\""
+          },
+          {
+            "audience": "Community-stability voters",
+            "framing": "Implement change in ways that reduce disruption and share benefits across existing residents and newcomers.",
+            "evidence": "Phased implementation and regular public feedback often lower backlash while improving policy durability.",
+            "example_dialogue": "\"We can move Ongoing Housing Advocacy forward while still listening to neighborhood-level concerns and adjusting implementation details.\""
+          }
+        ],
+        "common_ground": [
+          "Public policy should solve real problems, not just signal values.",
+          "Residents deserve clear communication about tradeoffs.",
+          "Programs should be adjusted when evidence shows gaps."
+        ],
+        "conversation_traps_to_avoid": [
+          "Assuming all critics are acting in bad faith.",
+          "Overpromising speed or certainty on complex implementation.",
+          "Using national partisan frames for local decisions."
+        ],
+        "when_to_acknowledge_uncertainty": [
+          "When baseline data is incomplete or lagged.",
+          "When legal or budget decisions are still pending.",
+          "When implementation depends on partner agencies outside our control."
+        ],
+        "honest_limits": [
+          "This campaign cannot alone fix every upstream structural problem.",
+          "We cannot guarantee identical outcomes in every neighborhood.",
+          "We rely on sustained public participation and institutional follow-through."
+        ],
+        "provenance": {
+          "status": "ai_generated"
+        },
+        "subsection_provenance": {
+          "opposition_steelman": {
+            "status": "ai_generated"
+          },
+          "cross_partisan_appeals": {
+            "status": "ai_generated"
+          },
+          "common_ground": {
+            "status": "ai_generated"
+          },
+          "conversation_traps_to_avoid": {
+            "status": "ai_generated"
+          },
+          "when_to_acknowledge_uncertainty": {
+            "status": "ai_generated"
+          },
+          "honest_limits": {
+            "status": "ai_generated"
+          }
+        }
+      }
+    }
+  ],
+  "aligned_organizations": [
+    {
+      "name": "AURA",
+      "relationship": "Strong ally — coordinate on most housing and land use issues. Deepest policy expertise in Austin's urbanist ecosystem.",
+      "url": "https://aura-atx.org"
+    },
+    {
+      "name": "Transit Forward",
+      "relationship": "Primary ally on Project Connect defense and transit-oriented development. Co-coordinate rapid response for TX Supreme Court ruling.",
+      "url": "https://transitforward.org"
+    },
+    {
+      "name": "Austin Habitat for Humanity",
+      "relationship": "Aligned on housing supply and affordability goals. Credible voice on housing need from direct service perspective.",
+      "url": "https://austinhabitat.org"
+    },
+    {
+      "name": "Downtown Austin Alliance",
+      "relationship": "Ally on urban density, downtown development, and transit. Business community perspective strengthens coalition breadth.",
+      "url": "https://downtownaustin.com"
+    },
+    {
+      "name": "Austin Chamber of Commerce",
+      "relationship": "Issue-specific ally on housing supply and workforce housing. Engaged on economic competitiveness arguments for density.",
+      "url": "https://austinchamber.com"
+    },
+    {
+      "name": "Austin Monitor",
+      "relationship": "Independent local news source covering city government. Key information source for tracking council actions and development cases.",
+      "url": "https://austinmonitor.com"
+    },
+    {
+      "name": "Austin Bulldog",
+      "relationship": "Investigative local journalism. Information source for government accountability and policy implementation tracking.",
+      "url": "https://austinbulldog.org"
+    },
+    {
+      "name": "League of Women Voters",
+      "relationship": "Potential co-sponsor for candidate forums in 2026 council races. Nonpartisan credibility adds legitimacy to voter education efforts.",
+      "url": "https://lwvaustin.org"
+    },
+    {
+      "name": "Austin Abundance Project",
+      "relationship": "Cross-movement ally. Their family-sized housing campaign directly connects to our housing supply advocacy. More housing at every size enables family formation."
+    },
+    {
+      "name": "Austin Safe & Sound",
+      "relationship": "Cross-movement ally. Housing supply is upstream of homelessness — every unit of housing built reduces the pressure that pushes people out. Their public safety and homelessness accountability work addresses the downstream consequences of the housing crisis we fight upstream."
+    }
+  ],
+  "engagement_pipeline": {
+    "awareness": "Social media, local press coverage, op-eds on Project Connect and housing. Austin Monitor and Austin Bulldog articles as shared context.",
+    "interest": "Attend a monthly briefing on campaign updates (court ruling status, council race developments, rezoning timeline). Read our issue guides and scorecards.",
+    "action": "Show up at a public hearing, submit public comment, contact your council member, volunteer for Pct 4 runoff canvassing, attend candidate forums.",
+    "leadership": "Join the steering committee, lead a campaign working group, represent us at planning commission, coordinate rapid response for court ruling."
+  },
+  "practical_next_steps_for_org": {
+    "immediate": [
+      {
+        "action": "Prepare public testimony supporting the DBC density bonus program — COUNCIL VOTE MAY 21 (13 DAYS)",
+        "owner": "Policy team",
+        "deadline": "2026-05-19",
+        "effort": "3 hours",
+        "impact": "very high"
+      },
+      {
+        "action": "Submit SpeakUpAustin comments supporting $766.5M bond package with $200M housing allocation — BEATF presents May 28",
+        "owner": "All members",
+        "deadline": "2026-05-26",
+        "effort": "1 hour",
+        "impact": "high"
+      },
+      {
+        "action": "Mobilize for Travis County Pct 4 runoff canvassing — 18 DAYS to May 26 runoff, extremely low turnout expected",
+        "owner": "Field team",
+        "deadline": "2026-05-25",
+        "effort": "10 hours total canvassing",
+        "impact": "very high"
+      },
+      {
+        "action": "Maintain TX Supreme Court ruling rapid-response readiness — 87 DAYS and counting, ruling could come any day",
+        "owner": "Communications lead",
+        "deadline": "Ongoing",
+        "effort": "1 hour/week monitoring",
+        "impact": "very high"
+      }
+    ],
+    "medium_term": [
+      {
+        "action": "Evaluate District 1 council candidates on housing/transit positions — field at 8+ candidates, filing opens July 20",
+        "deadline": "2026-06-15",
+        "effort": "8 hours research",
+        "impact": "very high"
+      },
+      {
+        "action": "Prepare testimony toolkit for golf course rezoning hearings",
+        "deadline": "When hearings are scheduled",
+        "effort": "4 hours",
+        "impact": "high"
+      },
+      {
+        "action": "Publish pro-building council scorecard for outgoing members and announced candidates",
+        "deadline": "2026-06-15",
+        "effort": "8 hours research + writing",
+        "impact": "high"
+      },
+      {
+        "action": "Establish planning commission monitoring rotation with volunteer commitments",
+        "deadline": "2026-05-31",
+        "effort": "3 hours setup, ongoing 2hr/week",
+        "impact": "medium"
+      }
+    ],
+    "strategic": [
+      {
+        "action": "Build multi-org coalition endorsement slate for November council elections across Districts 1, 3, 5, 8, 9",
+        "timeframe": "Q2-Q3 2026",
+        "impact": "very high",
+        "notes": "Combined endorsement slate with AURA, Transit Forward, and Downtown Austin Alliance would have significant influence. Coordinate questionnaire and evaluation process."
+      },
+      {
+        "action": "Develop post-court-ruling strategy for both outcomes — ruling imminent at 87 days",
+        "timeframe": "Ready before ruling (could be any day)",
+        "impact": "very high",
+        "notes": "Favorable ruling: accelerate federal funding advocacy and TOD planning. Unfavorable: mobilize for legislative fix, explore alternative funding, maintain coalition morale."
+      },
+      {
+        "action": "Connect golf course rezoning advocacy to transit-oriented development planning and DBC density bonus framework",
+        "timeframe": "Q2-Q3 2026",
+        "impact": "high",
+        "notes": "The golf course site's housing potential is maximized with transit access. The DBC vote (May 21) creates the density bonus framework. Advocacy for both reinforces each."
+      }
+    ]
+  },
+  "bridge_building": {
+    "opposition_steelman": "Rapid growth can feel imposed on existing neighborhoods, and residents worry that rushed upzoning or megaproject spending will raise taxes, strain infrastructure, and displace long-time communities if affordability safeguards and implementation quality lag behind policy promises.",
+    "cross_partisan_appeals": [
+      {
+        "audience": "Fiscal conservatives and homeowners concerned about taxes",
+        "framing": "Build enough homes and transit capacity now to avoid higher long-run tax burdens from congestion, emergency fixes, and sprawl-driven infrastructure duplication.",
+        "evidence": "Austin added substantial housing supply and saw rents cool relative to peak levels; coordinated land-use and transportation planning lowers per-capita infrastructure costs over time.",
+        "example_dialogue": "\"You do not have to love every development to see the math: if we block homes near jobs and transit, taxpayers pay more later for roads, utilities, and commute-time losses.\""
+      },
+      {
+        "audience": "Labor and service-sector households",
+        "framing": "Housing abundance is a cost-of-living and commute-time issue, not just a developer issue.",
+        "evidence": "When housing supply expands, rent pressure eases and workers can live closer to jobs, reducing turnover for local employers and household transportation costs.",
+        "example_dialogue": "\"This is about whether teachers, nurses, and restaurant workers can afford to stay in Austin without two-hour commutes.\""
+      },
+      {
+        "audience": "Climate and conservation voters",
+        "framing": "More homes near transit protects regional open space and reduces vehicle miles traveled.",
+        "evidence": "Transit-oriented growth concentrates demand in existing urbanized areas, limiting fringe sprawl and associated emissions.",
+        "example_dialogue": "\"If we care about clean air and less sprawl, we should put more homes where buses and rail already go.\""
+      }
+    ],
+    "common_ground": [
+      "Austin should remain livable for current residents and newcomers.",
+      "Public dollars should be used efficiently and transparently.",
+      "Infrastructure should keep pace with growth rather than fail after the fact."
+    ],
+    "conversation_traps_to_avoid": [
+      "Do not dismiss all neighborhood concerns as bad faith NIMBYism.",
+      "Do not promise that any single zoning reform will instantly solve affordability.",
+      "Do not frame opponents as anti-city or anti-family."
+    ],
+    "when_to_acknowledge_uncertainty": [
+      "Exact unit counts and affordability mix for major rezonings before final site plans.",
+      "Court and legislative outcomes that affect transit timelines and funding.",
+      "Short-term construction disruption impacts by corridor."
+    ],
+    "honest_limits": [
+      "We cannot guarantee immediate rent drops in every neighborhood.",
+      "We cannot prevent all displacement risk without complementary anti-displacement policies.",
+      "We cannot deliver transit outcomes if state or federal funding collapses."
+    ],
+    "provenance": {
+      "status": "ai_generated"
+    },
+    "subsection_provenance": {
+      "opposition_steelman": {
+        "status": "ai_generated"
+      },
+      "cross_partisan_appeals": {
+        "status": "ai_generated"
+      },
+      "common_ground": {
+        "status": "ai_generated"
+      },
+      "conversation_traps_to_avoid": {
+        "status": "ai_generated"
+      },
+      "when_to_acknowledge_uncertainty": {
+        "status": "ai_generated"
+      },
+      "honest_limits": {
+        "status": "ai_generated"
+      }
+    }
+  }
+}
