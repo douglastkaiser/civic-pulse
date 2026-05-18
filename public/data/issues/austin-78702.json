@@ -1,5 +1,5 @@
 {
-  "last_scraped": "2026-05-17T12:00:00Z",
+  "last_scraped": "2026-05-18T12:00:00Z",
   "issues": [
     {
       "id": "atx-golf-course-rezone",
@@ -510,6 +510,69 @@
       "impact_score": 50,
       "quadrant": "know",
       "why_it_matters_to_you": "A formalized economic development playbook could shape which businesses and industries Austin recruits, with community benefit requirements that align with progressive values around equity and affordability. The framework's emphasis on binding community standards could ensure future development deals contribute to affordable housing and equitable growth."
+    },
+    {
+      "id": "atx-light-rail-overlay",
+      "title": "Light Rail Transit Overlay Adopted — Transit-Supportive Zoning Along Phase 1 Corridor",
+      "governing_body": "Austin City Council",
+      "governing_body_type": "city_council",
+      "meeting_date": "2026-05-16",
+      "summary": "NEW (May 16, 2026): Austin City Council adopted the Light Rail Transit Overlay (Ordinance No. 20260516-005) to increase transit-supportive land uses and encourage affordable housing near the Phase 1 Austin Light Rail corridor and its Priority Extensions. The overlay creates new zoning incentives for dense, mixed-use development within walking distance of the 15 planned light rail stations stretching from 38th Street to Oltorf and east from Downtown to East Riverside. This is a critical companion policy to the Project Connect infrastructure investment — ensuring that the $8.23 billion transit system catalyzes housing production and walkable neighborhoods rather than remaining surrounded by parking lots and single-family-only zoning. The overlay responds to national evidence that transit investments without supportive land use policy fail to generate ridership or housing affordability benefits.",
+      "policy_domains": ["Housing & Land Use", "Transportation & Transit", "Economic Development"],
+      "decision_type": "vote",
+      "geographic_scope": "citywide_impact",
+      "public_comment": {
+        "available": false,
+        "instructions": "Overlay adopted. Monitor implementation and specific station-area plans as they develop."
+      },
+      "estimated_contestedness": "medium",
+      "importance_score": 85,
+      "impact_score": 70,
+      "quadrant": "act_now",
+      "why_it_matters_to_you": "This is the land use policy that makes Project Connect's transit investment pay off. Without transit-supportive zoning, light rail stations get built next to parking lots. The overlay ensures density, mixed-use, and affordable housing incentives around all 15 stations — directly in your 78702 backyard along the East Riverside corridor. Combined with the Density Bonus Program (Council vote May 28), this creates a comprehensive framework for transit-oriented development. This is YIMBY policy at its best: using public infrastructure investment to unlock private housing production.",
+      "source_url": "https://communityimpact.com/austin/east-austin/government/2026/05/08/austin-leaders-seek-changes-to-home-housing-rules/"
+    },
+    {
+      "id": "atx-may17-shooting-spree",
+      "title": "12 Shootings Across Austin May 17 — Public Safety Strain Exposed",
+      "governing_body": "Austin Police Department",
+      "governing_body_type": "city_council",
+      "meeting_date": null,
+      "summary": "NEW (May 17, 2026): At least 12 shooting incidents occurred across Austin on May 17, leaving four people wounded. Two teenage suspects and a third suspect were taken into custody. The incidents spanned multiple neighborhoods and overwhelmed police response capacity. This follows the March 1 mass shooting on Sixth Street that killed three and injured more than a dozen, and which the FBI investigated as potential terrorism. The spate of shootings underscores the ongoing strain on APD, which has 340 vacancies out of 1,816 authorized positions (19% vacancy rate). Despite recent progress — APD met its Priority 0/1 response time targets for the first time since August 2023 — the May 17 incidents demonstrate that recovery is fragile. The 157th cadet class (65 cadets) began April 21, but full staffing isn't expected until end of 2027.",
+      "policy_domains": ["Public Safety"],
+      "decision_type": "discussion",
+      "geographic_scope": "citywide",
+      "public_comment": {
+        "available": false,
+        "instructions": "Monitor APD and council response. FY2027 budget hearings (July) will address public safety staffing and funding."
+      },
+      "estimated_contestedness": "high",
+      "importance_score": 75,
+      "impact_score": 45,
+      "quadrant": "watch",
+      "why_it_matters_to_you": "Twelve shootings in a single day is a visceral reminder that Austin's public safety recovery is incomplete. The 340 APD vacancies and the March 1 mass shooting already framed this issue — May 17 adds urgency. This will likely dominate the 2026 council elections, with candidates in all five open seats forced to articulate positions on policing, gun violence prevention, and the hospital-based violence prevention programs. The budget context makes it harder: with a $26.4M FY2027 deficit, expanding public safety capacity competes directly with housing, homelessness, and infrastructure investments.",
+      "source_url": "https://www.cbsnews.com/texas/news/austin-10-shootings-may-17-2026/"
+    },
+    {
+      "id": "atx-lihtc-proposals",
+      "title": "6 Affordable Housing Proposals Receive Council Support for LIHTC Funding",
+      "governing_body": "Austin City Council",
+      "governing_body_type": "city_council",
+      "meeting_date": "2026-05-07",
+      "summary": "NEW (May 2026): Austin City Council provided resolutions of support for six affordable housing proposals seeking competitive Low Income Housing Tax Credit (LIHTC) funding from the Texas Department of Housing and Community Affairs. LIHTC is the primary federal tool for financing affordable housing construction. Council support resolutions are required for competitive applications and signal local government backing. This comes alongside the $46.1 million approved to build and preserve affordable housing in Austin, spanning both new construction and rehabilitation of existing units. The LIHTC pipeline is critical infrastructure for the city's affordable housing goals — these six projects would add hundreds of income-restricted units across Austin.",
+      "policy_domains": ["Housing & Land Use", "Taxation & Public Finance"],
+      "decision_type": "vote",
+      "geographic_scope": "citywide",
+      "public_comment": {
+        "available": false,
+        "instructions": "Resolutions of support passed. Monitor TDHCA for LIHTC award decisions (typically fall 2026)."
+      },
+      "estimated_contestedness": "low",
+      "importance_score": 70,
+      "impact_score": 40,
+      "quadrant": "know",
+      "why_it_matters_to_you": "LIHTC is the workhorse of affordable housing finance — these six council-backed projects represent the pipeline of income-restricted housing that complements the market-rate supply expansion driven by HOME Initiative reforms. The $46.1M in approved funding plus the LIHTC pipeline demonstrates Austin's multi-pronged approach to affordability: build more market-rate housing (HOME) while simultaneously investing in income-restricted units (LIHTC, AHFC). Track TDHCA award decisions this fall to see which projects move forward.",
+      "source_url": "https://www.austintexas.gov/news/6-affordable-housing-proposals-receive-support-austin-city-council-competitive-lihtc-funding-applications"
     }
   ]
 }

@@ -1,5 +1,134 @@
 {
-  "last_scraped": null,
-  "issues": [],
-  "note": "No issues scraped yet. Run pipeline to populate."
+  "last_scraped": "2026-05-18T12:00:00Z",
+  "issues": [
+    {
+      "id": "nyc-atlantic-ave-rezoning",
+      "title": "Atlantic Avenue Mixed-Use Plan Approved — 4,600 New Units, 1,900 Affordable",
+      "governing_body": "New York City Council",
+      "governing_body_type": "city_council",
+      "meeting_date": "2026-04-15",
+      "summary": "NEW (April 2026): The New York City Council voted to approve the Atlantic Avenue Mixed Use Plan (AAMUP), a major rezoning spanning Council Members Crystal Hudson and Chi Ossé's districts in Brooklyn. The plan will deliver 4,600 new units of housing, approximately 1,900 of which will be permanently affordable. The rezoning covers a corridor along Atlantic Avenue in the Fort Greene, Clinton Hill, Prospect Heights, and Crown Heights neighborhoods. This is one of the largest neighborhood rezonings in NYC in recent years and a major test of the City of Yes housing framework in practice. The plan includes provisions for community facilities, commercial space, and open space requirements alongside the residential development.",
+      "policy_domains": ["Housing & Land Use", "Economic Development"],
+      "decision_type": "vote",
+      "geographic_scope": "district",
+      "public_comment": {
+        "available": false,
+        "instructions": "Rezoning approved. Monitor implementation — first development applications expected within 6-12 months."
+      },
+      "estimated_contestedness": "medium",
+      "importance_score": 92,
+      "impact_score": 65,
+      "quadrant": "act_now",
+      "why_it_matters_to_you": "This is the YIMBY proof point for Brooklyn — 4,600 new units including 1,900 permanently affordable is exactly the kind of supply expansion that lowers housing costs. The Atlantic Avenue corridor is in your 11201 orbit. This rezoning demonstrates that City of Yes-era housing policy can deliver at scale. Support implementation and push back against inevitable delay tactics from opponents.",
+      "source_url": "https://council.nyc.gov/press/"
+    },
+    {
+      "id": "nyc-robot-weapons-ban",
+      "title": "Council Legislation Would Ban NYPD from Equipping Robots with Weapons",
+      "governing_body": "New York City Council",
+      "governing_body_type": "city_council",
+      "meeting_date": "2026-05-02",
+      "summary": "NEW (May 2, 2026): A bill introduced in the City Council would ban the NYPD from using armed robots as a tool for policing. The legislation would prevent the NYPD from deploying robots with weapons and prohibit the use of robots in ways that cause physical injury to people. This follows national debates about police use of technology, including the NYPD's deployment of Boston Dynamics' Digidog robot for surveillance. The bill reflects growing tension between police technology adoption and civil liberties concerns — a pattern also seen in Austin's TRUST Act (April 2026) banning facial recognition and regulating surveillance technology.",
+      "policy_domains": ["Technology & Innovation", "Public Safety", "Civil Rights & Social Equity"],
+      "decision_type": "vote",
+      "geographic_scope": "citywide",
+      "public_comment": {
+        "available": true,
+        "deadline": null,
+        "instructions": "Bill in committee. Public hearings expected. Monitor council.nyc.gov for hearing schedule."
+      },
+      "estimated_contestedness": "medium",
+      "importance_score": 78,
+      "impact_score": 50,
+      "quadrant": "watch",
+      "why_it_matters_to_you": "As a tech-oriented effective altruist, this bill is at the intersection of your key interests — technology governance, civil liberties, and evidence-based policy. Armed police robots represent a meaningful shift in the relationship between state power and technology. The utilitarian calculus here is complex: does robot deployment reduce human casualties in dangerous situations, or does it lower the threshold for force? Worth monitoring the committee hearings and supporting evidence-based analysis of robot policing outcomes.",
+      "source_url": "https://ny1.com/nyc/all-boroughs/news/2026/05/02/council-legislation-would-ban-nypd-from-equipping-robots-with-weapons"
+    },
+    {
+      "id": "nyc-speaker-menin-priorities",
+      "title": "Speaker Julie Menin Elected — Small Lots Housing Reform Proposed",
+      "governing_body": "New York City Council",
+      "governing_body_type": "city_council",
+      "meeting_date": "2026-01-15",
+      "summary": "UPDATE (May 2026): The New York City Council elected Julie Menin as Speaker during its 2026 Charter Meeting. Menin has proposed reforms to unlock up to 35,000 units of housing on small lots across New York City. The small lots reform targets the thousands of undersized parcels across the five boroughs that currently can't be developed under existing zoning — regulatory dead zones that prevent housing from being built even where it's desperately needed. If enacted, the reform would be one of the largest single housing production measures since City of Yes. Menin's elevation signals continued momentum for the pro-housing legislative agenda at the Council level.",
+      "policy_domains": ["Housing & Land Use", "Government Transparency"],
+      "decision_type": "discussion",
+      "geographic_scope": "citywide",
+      "public_comment": {
+        "available": false,
+        "instructions": "Legislative proposal. Monitor council.nyc.gov for formal introduction and hearing schedule."
+      },
+      "estimated_contestedness": "medium",
+      "importance_score": 85,
+      "impact_score": 55,
+      "quadrant": "watch",
+      "why_it_matters_to_you": "Speaker Menin's small lots reform could unlock 35,000 units of housing — a massive supply-side intervention. This is the kind of regulatory reform that YIMBYs champion: removing artificial barriers to housing production without requiring public subsidy. The fact that the new Speaker is leading with housing reform signals that the City of Yes momentum hasn't stalled. Worth tracking the legislative timeline and supporting the reform through public comment when hearings are scheduled.",
+      "source_url": "https://council.nyc.gov/press/"
+    },
+    {
+      "id": "nyc-minimum-wage",
+      "title": "Minimum Wage Amendment — NYC Council Legislation",
+      "governing_body": "New York City Council",
+      "governing_body_type": "city_council",
+      "meeting_date": null,
+      "summary": "NEW (May 2026): The City Council has introduced Int 0757-2026, a Local Law to amend the administrative code of the city of New York in relation to the establishment of the minimum wage. Details of the specific wage levels proposed are pending committee review. NYC's current minimum wage is $16/hour (set by state law). Any city-level adjustment would need to navigate state preemption concerns. The bill reflects ongoing cost-of-living pressures in the city — particularly relevant as rents remain among the highest in the nation despite recent national moderation in some metro areas.",
+      "policy_domains": ["Economic Development", "Civil Rights & Social Equity"],
+      "decision_type": "vote",
+      "geographic_scope": "citywide",
+      "public_comment": {
+        "available": true,
+        "deadline": null,
+        "instructions": "Bill referred to committee. Monitor legistar.council.nyc.gov for hearing dates."
+      },
+      "estimated_contestedness": "high",
+      "importance_score": 60,
+      "impact_score": 35,
+      "quadrant": "background",
+      "why_it_matters_to_you": "Minimum wage policy has complex effects from an EA perspective — evidence on employment impacts is mixed but generally shows modest effects at moderate increases. The bigger question is whether NYC's cost-of-living crisis is better addressed through wage floors or housing supply expansion (the answer is both, but housing supply has higher leverage). Worth monitoring but lower priority than housing reform.",
+      "source_url": "https://legistar.council.nyc.gov/LegislationDetail.aspx?ID=7944787&GUID=8A9D75D7-55AE-4F9A-B411-69904826532F"
+    },
+    {
+      "id": "nyc-fifa-world-cup",
+      "title": "FIFA World Cup 2026 — Council Advances Small Business Opportunity Package",
+      "governing_body": "New York City Council",
+      "governing_body_type": "city_council",
+      "meeting_date": null,
+      "summary": "NEW (May 2026): The New York City Council introduced a package of legislation advancing a citywide strategy to prepare for the 2026 FIFA World Cup and ensure the global tournament delivers meaningful economic opportunities for small businesses and New Yorkers across all five boroughs. New York/New Jersey is a host metro area for the tournament. The legislation focuses on street vendor permits, small business support, transportation planning, and public safety coordination. The World Cup is expected to bring hundreds of thousands of visitors to the metro area, with games at MetLife Stadium in New Jersey and fan zones planned across NYC.",
+      "policy_domains": ["Economic Development", "Transportation & Transit"],
+      "decision_type": "discussion",
+      "geographic_scope": "citywide",
+      "public_comment": {
+        "available": true,
+        "deadline": null,
+        "instructions": "Legislative package in development. Monitor council.nyc.gov for details."
+      },
+      "estimated_contestedness": "low",
+      "importance_score": 45,
+      "impact_score": 25,
+      "quadrant": "background",
+      "why_it_matters_to_you": "The World Cup is a short-term economic event — interesting from an urban planning perspective (how does a city handle massive temporary population surges?) but low long-term policy impact. The small business and vendor permitting reforms could have lasting benefits if they lead to permanent regulatory simplification. Low priority unless you're interested in the event planning and logistics lens.",
+      "source_url": "https://council.nyc.gov/"
+    },
+    {
+      "id": "nyc-city-of-yes-implementation",
+      "title": "City of Yes Housing Implementation — Tracking Progress Across Brooklyn",
+      "governing_body": "New York City Council / Dept. of City Planning",
+      "governing_body_type": "city_council",
+      "meeting_date": null,
+      "summary": "ONGOING (May 2026): New York City's landmark City of Yes for Housing Opportunity zoning reform — adopted in late 2024 — continues implementation across all five boroughs. The reform eliminated parking mandates citywide, allowed accessory dwelling units (ADUs) on most residential lots, and created new pathways for affordable housing production. In Brooklyn, the Atlantic Avenue Mixed-Use Plan (approved April 2026, 4,600 units) is the first major test of the post-City of Yes framework at neighborhood scale. Citywide, the reform is projected to add 80,000+ new housing units over the next 15 years. Implementation challenges include navigating community board opposition, securing construction financing in a high-interest-rate environment, and ensuring that new development includes genuinely affordable units rather than just market-rate luxury housing.",
+      "policy_domains": ["Housing & Land Use", "Transportation & Transit", "Economic Development"],
+      "decision_type": "discussion",
+      "geographic_scope": "citywide",
+      "public_comment": {
+        "available": false,
+        "instructions": "Policy adopted. Monitor individual project applications and community board proceedings for implementation progress."
+      },
+      "estimated_contestedness": "medium",
+      "importance_score": 88,
+      "impact_score": 60,
+      "quadrant": "act_now",
+      "why_it_matters_to_you": "City of Yes is the single most important housing policy change in NYC in decades — and now the question is whether it actually gets built. The 80,000+ unit projection is transformative if realized. Brooklyn is ground zero for implementation, with the Atlantic Avenue plan as the flagship. As a YIMBY donor, this is where your money has the highest expected value: supporting pro-housing candidates and advocacy organizations that defend City of Yes from rollback attempts and accelerate implementation.",
+      "source_url": "https://www.nyc.gov/site/planning/plans/city-of-yes/city-of-yes-housing-opportunity.page"
+    }
+  ]
 }

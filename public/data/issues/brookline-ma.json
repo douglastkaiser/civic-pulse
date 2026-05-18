@@ -1,5 +1,93 @@
 {
-  "last_scraped": null,
-  "issues": [],
-  "note": "No issues scraped yet. Run pipeline to populate."
+  "last_scraped": "2026-05-18T12:00:00Z",
+  "issues": [
+    {
+      "id": "brk-annual-town-meeting-2026",
+      "title": "⚡ Annual Town Meeting Begins May 26 — 25 Warrant Articles Including Zoning Changes",
+      "governing_body": "Brookline Town Meeting",
+      "governing_body_type": "town_meeting",
+      "meeting_date": "2026-05-26",
+      "summary": "⚡ URGENT (May 18, 2026): Brookline's 2026 Annual Town Meeting begins Tuesday May 26 at 7:00pm in the Brookline High School Auditorium. The warrant contains 25 articles including the Town budget, 10 articles proposing changes to general or zoning bylaws, and 6 resolution articles.\n\nKEY DEADLINES:\n• ⚡ TODAY (May 18): Deadline to file proposed amendments to Articles 3 and 8 by noon\n• May 22 by 9am: Motions for articles heard on the first night (May 26) must be filed\n• Reserved evenings: May 26, 27, 28, June 2, 3, 4\n\nThe meeting will be held in hybrid format with a remote attendance option, though organizers strongly encourage in-person attendance. The Combined Report has been posted with recommendations from the Select Board and Advisory Committee on each article.\n\nThis is Brookline's primary democratic institution — all major policy decisions flow through Town Meeting, including zoning changes that determine housing production capacity.",
+      "policy_domains": ["Government Transparency", "Housing & Land Use", "Taxation & Public Finance"],
+      "decision_type": "vote",
+      "geographic_scope": "citywide",
+      "public_comment": {
+        "available": true,
+        "deadline": "2026-05-18T17:00:00Z",
+        "instructions": "⚡ Amendment deadline for Articles 3 and 8: TODAY (May 18) by noon. Motions for first-night articles: May 22 by 9am. Town Meeting members can attend in person or remotely. Warrant and Combined Report available at brooklinema.gov."
+      },
+      "estimated_contestedness": "medium",
+      "importance_score": 88,
+      "impact_score": 75,
+      "quadrant": "act_now",
+      "why_it_matters_to_you": "This is Brookline's most important democratic event of the year — 10 of the 25 articles propose changes to general or zoning bylaws, directly affecting housing production capacity. The hybrid format lowers the barrier to participation. If you're a Town Meeting member, attendance (in person or remote) is how you influence local policy. The zoning articles are particularly important: they determine whether Brookline continues to evolve toward more housing or remains locked in its historically NIMBY posture. ⚡ TODAY is the amendment deadline for Articles 3 and 8.",
+      "source_url": "https://www.brooklinema.gov/m/newsflash/Home/Detail/2554"
+    },
+    {
+      "id": "brk-override-vote",
+      "title": "Possible Budget Override on May 2026 Ballot — Town Fiscal Pressure",
+      "governing_body": "Brookline Select Board",
+      "governing_body_type": "town_meeting",
+      "meeting_date": null,
+      "summary": "DEVELOPING (2026): Town officials have been planning for a possible Proposition 2½ override vote on the May 2026 ballot to address Brookline's growing fiscal pressures. Massachusetts law limits annual property tax increases to 2.5% unless voters approve an override. Brookline faces rising costs for schools, infrastructure, and public services that outpace the 2.5% cap. An override would allow the town to raise property taxes beyond the cap to fund services that would otherwise face cuts. Override votes are politically sensitive in Brookline — the town has a history of approving them but each one generates significant debate about spending priorities and tax burden.",
+      "policy_domains": ["Taxation & Public Finance", "Public Education"],
+      "decision_type": "vote",
+      "geographic_scope": "citywide",
+      "public_comment": {
+        "available": true,
+        "deadline": null,
+        "instructions": "Monitor Select Board meetings for override proposal details. If placed on ballot, vote."
+      },
+      "estimated_contestedness": "high",
+      "importance_score": 72,
+      "impact_score": 60,
+      "quadrant": "watch",
+      "why_it_matters_to_you": "Override votes determine whether Brookline can maintain service quality or faces austerity cuts. The fiscal math is straightforward: if the town can't raise revenue, it must cut spending — typically hitting schools and infrastructure first. For a pro-housing perspective, the fiscal pressure also creates an incentive for development: more housing = more property tax revenue = less override pressure. Support the override if it funds genuine priorities, and use the fiscal conversation to advocate for housing production as a structural budget solution.",
+      "source_url": "https://brookline.news/town-officials-start-planning-for-possible-override-on-may-2026-ballot/"
+    },
+    {
+      "id": "brk-mbta-communities-compliance",
+      "title": "MBTA Communities Act Compliance — Brookline's Multifamily Zoning Obligation",
+      "governing_body": "Brookline Town Meeting / Massachusetts EOHLC",
+      "governing_body_type": "town_meeting",
+      "meeting_date": null,
+      "summary": "ONGOING (2026): Brookline, like all MBTA-adjacent communities in Massachusetts, must comply with the MBTA Communities Act (Section 3A of the Zoning Act), which requires communities served by the MBTA to zone for multifamily housing near transit stations. Brookline has Green Line stops (Brookline Village, Brookline Hills, Beaconsfield, Reservoir, Chestnut Hill) and must designate areas where multifamily housing is allowed by right. Compliance has been a major flashpoint — some Town Meeting members have pushed back against the state mandate, viewing it as an infringement on local control. However, non-compliance risks loss of state funding for housing, infrastructure, and other programs. The zoning articles in the May 2026 Town Meeting warrant may include provisions related to MBTA Communities Act compliance.",
+      "policy_domains": ["Housing & Land Use", "Transportation & Transit"],
+      "decision_type": "discussion",
+      "geographic_scope": "citywide",
+      "public_comment": {
+        "available": true,
+        "deadline": null,
+        "instructions": "Town Meeting zoning articles may address MBTA Communities compliance. Attend or participate remotely."
+      },
+      "estimated_contestedness": "high",
+      "importance_score": 85,
+      "impact_score": 70,
+      "quadrant": "act_now",
+      "why_it_matters_to_you": "MBTA Communities Act compliance is THE housing issue in Brookline. It forces the town to confront its historically exclusionary zoning near transit stations. As a YIMBY-curious resident, this is where your engagement has the most leverage — supporting compliance means supporting housing production near transit. The state's enforcement mechanism (withholding funding) creates real consequences for non-compliance, but political will at Town Meeting is what determines how generously or grudgingly Brookline zones for multifamily housing.",
+      "source_url": "https://www.brooklinema.gov/264/Town-Meeting"
+    },
+    {
+      "id": "brk-green-line-transit",
+      "title": "Green Line Service and Extension — Transit Reliability Impacts Brookline",
+      "governing_body": "MBTA",
+      "governing_body_type": "regional_authority",
+      "meeting_date": null,
+      "summary": "ONGOING (2026): The MBTA Green Line, which serves Brookline via the C and D branches, continues to face reliability challenges. The Green Line Extension (GLX) to Somerville and Medford, which opened in stages in 2023-2024, has increased ridership on the system overall but also created capacity pressure on the existing branches. For Brookline, Green Line reliability directly affects commute quality, property values, and the viability of transit-oriented development near stations. The MBTA's ongoing capital improvement program includes signal upgrades, vehicle procurement, and station accessibility improvements that affect Brookline stops.",
+      "policy_domains": ["Transportation & Transit", "Housing & Land Use"],
+      "decision_type": "discussion",
+      "geographic_scope": "regional",
+      "public_comment": {
+        "available": true,
+        "deadline": null,
+        "instructions": "MBTA public meetings and comment periods at mbta.com. Advocacy through TransitMatters and other regional transit organizations."
+      },
+      "estimated_contestedness": "low",
+      "importance_score": 65,
+      "impact_score": 35,
+      "quadrant": "background",
+      "why_it_matters_to_you": "Green Line reliability is the transit infrastructure backbone for Brookline. Better transit service makes MBTA Communities Act compliance more palatable politically — it's easier to support housing near transit when the transit actually works. As a tech professional who values efficiency, MBTA performance data is worth tracking as a barometer of regional governance quality.",
+      "source_url": "https://www.mbta.com/"
+    }
+  ]
 }

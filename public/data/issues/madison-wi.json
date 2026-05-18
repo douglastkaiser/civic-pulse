@@ -1,5 +1,5 @@
 {
-  "last_scraped": "2026-05-17T12:00:00Z",
+  "last_scraped": "2026-05-18T12:00:00Z",
   "issues": [
     {
       "id": "mad-east-west-brt-construction",
@@ -173,7 +173,7 @@
       "governing_body": "Madison Common Council",
       "governing_body_type": "city_council",
       "meeting_date": "2026-06-23",
-      "summary": "⚡ NEW (May 5, 2026): The Southeast Area Plan was introduced to the Common Council on May 5. The Planning Division submitted the Final Draft Plan for review and adoption.\n\nKEY HOUSING & DEVELOPMENT RECOMMENDATIONS:\n• More housing and mixed-use development along major corridors where transit and infrastructure already exist (Milwaukee Street, Cottage Grove Road, US 51-Stoughton Road)\n• Redevelopment opportunities including the former American Family East Regional site\n• Residents expressed desire for more affordable housing options and more housing types\n• The plan aligns with the city's missing middle zoning reforms\n\nPROCESS:\n• May 5: Introduced to Common Council\n• May-June: Referred to relevant Boards, Commissions and Committees for feedback\n• Committees may propose changes before final council decision\n• ⚡ COUNCIL ADOPTION VOTE: June 23 (tentative) — 37 DAYS AWAY\n• Each committee meeting will include a public hearing\n\nThe Southeast Area is one of Madison's key growth corridors — the plan's recommendations will shape housing density, transit connections, and commercial development for the next decade.\n\n**May 17 update:** The Southeast Area Plan Final Draft was submitted for review and introduced to the Common Council at its May 5 meeting. The plan is now in committee review — multiple boards, commissions, and committees will provide feedback May-June, each with a public hearing opportunity. Council adoption vote: June 23 — 37 DAYS AWAY. The plan's emphasis on concentrating housing and mixed-use along Milwaukee Street, Cottage Grove Road, and US 51 corridors aligns with the city's missing middle zoning reforms and the BRT network expansion.",
+      "summary": "⚡ NEW (May 5, 2026): The Southeast Area Plan was introduced to the Common Council on May 5. The Planning Division submitted the Final Draft Plan for review and adoption.\n\nKEY HOUSING & DEVELOPMENT RECOMMENDATIONS:\n• More housing and mixed-use development along major corridors where transit and infrastructure already exist (Milwaukee Street, Cottage Grove Road, US 51-Stoughton Road)\n• Redevelopment opportunities including the former American Family East Regional site\n• Residents expressed desire for more affordable housing options and more housing types\n• The plan aligns with the city's missing middle zoning reforms\n\nPROCESS:\n• May 5: Introduced to Common Council\n• May-June: Referred to relevant Boards, Commissions and Committees for feedback\n• Committees may propose changes before final council decision\n• ⚡ COUNCIL ADOPTION VOTE: June 23 (tentative) — 37 DAYS AWAY\n• Each committee meeting will include a public hearing\n\nThe Southeast Area is one of Madison's key growth corridors — the plan's recommendations will shape housing density, transit connections, and commercial development for the next decade.\n\n**May 17 update:** The Southeast Area Plan Final Draft was submitted for review and introduced to the Common Council at its May 5 meeting. The plan is now in committee review — multiple boards, commissions, and committees will provide feedback May-June, each with a public hearing opportunity. Council adoption vote: June 23 — 37 DAYS AWAY. The plan's emphasis on concentrating housing and mixed-use along Milwaukee Street, Cottage Grove Road, and US 51 corridors aligns with the city's missing middle zoning reforms and the BRT network expansion.\n\n**May 18 update:** The Southeast Area Plan and Southwest Area Plan were formally introduced to the Common Council on May 5, 2026. After introduction, the plans are referred to relevant Boards, Commissions and Committees for review and potential modifications before returning to the full Council for final approval — tentatively scheduled for June 23. Each committee meeting provides opportunity for public comment. Area Plans guide long-term land use, housing, transit, streets, bike paths, and community facilities decisions.",
       "policy_domains": [
         "Housing & Land Use",
         "Transportation & Transit",
@@ -198,7 +198,7 @@
       "governing_body": "Madison Common Council",
       "governing_body_type": "city_council",
       "meeting_date": "2026-06-23",
-      "summary": "⚡ NEW (May 5, 2026): The Southwest Area Plan was also submitted alongside the Southeast Area Plan for final review and adoption. Both plans were introduced to Common Council on May 5.\n\nThe Southwest Area Plan covers Madison's western growth corridor and includes recommendations for housing development, commercial investment, and transportation infrastructure. Together, the two area plans represent a comprehensive planning update for Madison's southern growth areas.\n\nBoth plans will go through the same committee review process with public hearings before returning to Common Council for adoption, tentatively scheduled for June 23.\n\n**May 17 update:** The Southwest Area Plan Final Draft was also submitted alongside the Southeast plan and introduced to Council on May 5. Both plans are now in committee review. Council adoption vote: June 23 — 37 DAYS AWAY. Together, these two area plans represent a comprehensive planning update for Madison's southern growth areas — shaping housing density, transit connections, and commercial development for the next decade.",
+      "summary": "⚡ NEW (May 5, 2026): The Southwest Area Plan was also submitted alongside the Southeast Area Plan for final review and adoption. Both plans were introduced to Common Council on May 5.\n\nThe Southwest Area Plan covers Madison's western growth corridor and includes recommendations for housing development, commercial investment, and transportation infrastructure. Together, the two area plans represent a comprehensive planning update for Madison's southern growth areas.\n\nBoth plans will go through the same committee review process with public hearings before returning to Common Council for adoption, tentatively scheduled for June 23.\n\n**May 17 update:** The Southwest Area Plan Final Draft was also submitted alongside the Southeast plan and introduced to Council on May 5. Both plans are now in committee review. Council adoption vote: June 23 — 37 DAYS AWAY. Together, these two area plans represent a comprehensive planning update for Madison's southern growth areas — shaping housing density, transit connections, and commercial development for the next decade.\n\n**May 18 update:** The Southeast Area Plan and Southwest Area Plan were formally introduced to the Common Council on May 5, 2026. After introduction, the plans are referred to relevant Boards, Commissions and Committees for review and potential modifications before returning to the full Council for final approval — tentatively scheduled for June 23. Each committee meeting provides opportunity for public comment. Area Plans guide long-term land use, housing, transit, streets, bike paths, and community facilities decisions.",
       "policy_domains": [
         "Housing & Land Use",
         "Transportation & Transit"
@@ -253,6 +253,28 @@
       "impact_score": 30,
       "quadrant": "background",
       "why_it_matters_to_you": "Sustained funding for homeless shelters is critical for addressing Madison's homelessness challenges, and the intergovernmental partnership with Dane County demonstrates collaborative approaches to this regional issue."
+    },
+    {
+      "id": "mad-regent-street-geometry",
+      "title": "Regent Street Roadway Geometry — Randall Ave to Park Street Redesign",
+      "governing_body": "Madison Common Council",
+      "governing_body_type": "city_council",
+      "meeting_date": null,
+      "summary": "NEW (May 2026): The Madison Common Council is considering approved roadway geometry for Regent Street between Randall Avenue and Park Street. This segment is a key connector between the UW-Madison campus area and Park Street commercial corridor. Roadway geometry decisions determine lane widths, bike infrastructure, pedestrian crossings, and transit accommodations — directly shaping the safety and accessibility of one of Madison's most heavily-used corridors. The redesign likely addresses safety concerns and multimodal access along the corridor.",
+      "policy_domains": ["Transportation & Transit", "Public Safety"],
+      "decision_type": "vote",
+      "geographic_scope": "neighborhood",
+      "public_comment": {
+        "available": true,
+        "deadline": null,
+        "instructions": "Monitor madison.legistar.com for hearing dates and public comment opportunities."
+      },
+      "estimated_contestedness": "low",
+      "importance_score": 55,
+      "impact_score": 40,
+      "quadrant": "background",
+      "why_it_matters_to_you": "Street design determines how people move through the city. Regent Street near UW campus is heavily used by pedestrians, cyclists, and transit riders. Good roadway geometry — protected bike lanes, adequate pedestrian crossings, transit priority — makes dense neighborhoods more livable and reduces car dependency. Worth monitoring for whether the redesign prioritizes multimodal access.",
+      "source_url": "https://madison.legistar.com/"
     }
   ]
 }
