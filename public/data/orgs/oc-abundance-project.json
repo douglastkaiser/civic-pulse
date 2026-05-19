@@ -39,7 +39,7 @@
       "priority": "high",
       "importance_score": 85,
       "impact_score": 75,
-      "summary": "Use California Community Care Licensing data + Census ACS data (children under 5) + First 5 OC investment data to map childcare deserts across Orange County. Identify where licensed childcare capacity is insufficient relative to the population of young children. Track how First 5 OC's $50M+ annual budget is being deployed \u2014 is it expanding capacity in deserts or maintaining existing programs in already-served areas? Advocate for childcare facility zoning reform in cities with the worst gaps.\n\nOC has unique dynamics: high demand (affluent families competing for spots), high costs ($1,404/month average for daycare), and significant geographic variation (coastal cities vs. inland cities, newer developments vs. older neighborhoods). The desert map makes this visible and actionable.\n\n\u26a1 MAY 17 UPDATE: \u26a1 VOTER REGISTRATION DEADLINE MAY 18 (TODAY \u2014 URGENT). The June 2 primary shapes who controls childcare policy at county and state levels. The next governor controls California's childcare mandates. The Board of Supervisors controls the county's $10.8B budget including childcare funding. Builder's Remedy applications in OC (696 units in Orange alone) will create new residential density that needs childcare infrastructure \u2014 the desert mapping should incorporate planned RHNA development sites to anticipate future demand.",
+      "summary": "Use California Community Care Licensing data + Census ACS data (children under 5) + First 5 OC investment data to map childcare deserts across Orange County. Identify where licensed childcare capacity is insufficient relative to the population of young children. Track how First 5 OC's $50M+ annual budget is being deployed \u2014 is it expanding capacity in deserts or maintaining existing programs in already-served areas? Advocate for childcare facility zoning reform in cities with the worst gaps.\n\nOC has unique dynamics: high demand (affluent families competing for spots), high costs ($1,404/month average for daycare), and significant geographic variation (coastal cities vs. inland cities, newer developments vs. older neighborhoods). The desert map makes this visible and actionable.\n\n\u26a1 MAY 17 UPDATE: \u26a1 VOTER REGISTRATION DEADLINE PASSED (May 18). The June 2 primary shapes who controls childcare policy at county and state levels. The next governor controls California's childcare mandates. The Board of Supervisors controls the county's $10.8B budget including childcare funding. Builder's Remedy applications in OC (696 units in Orange alone) will create new residential density that needs childcare infrastructure \u2014 the desert mapping should incorporate planned RHNA development sites to anticipate future demand.",
       "theory_of_change": "You can't fix what you can't see. A childcare desert map makes geographic disparities in childcare access visceral and concrete \u2014 every parent can see whether their neighborhood is served. First 5 OC funding accountability follows naturally: are they investing where the need is greatest? The map becomes the advocacy tool that enables targeted policy asks at specific city councils and the Board of Supervisors.",
       "next_actions": [
         "Compile California Community Care Licensing provider database for Orange County",
@@ -329,17 +329,17 @@
         "impact": "high"
       },
       {
-        "action": "Attend Kennedy Commission 2026 Affordable Housing Awards (May 14) — network with family-serving organizations and learn about family-sized housing projects",
+        "action": "Follow up on Kennedy Commission 2026 Affordable Housing Awards (May 14 — PAST) — connect with family-serving organizations and track family-sized housing projects discussed",
         "owner": "Steering committee",
-        "deadline": "2026-05-14",
+        "deadline": "2026-05-26",
         "effort": "3 hours",
         "impact": "medium"
       },
       {
-        "action": "Ensure voter registration outreach before MAY 18 deadline — Board of Supervisors majority directly affects childcare and family policy funding",
+        "action": "Voter registration deadline PASSED (May 18). Shift to GOTV — encourage early ballot return for June 2 primary (14 DAYS). Board of Supervisors majority directly affects childcare and family policy funding",
         "owner": "All members",
-        "deadline": "2026-05-18",
-        "effort": "1 hour",
+        "deadline": "2026-06-02",
+        "effort": "2 hours",
         "impact": "high"
       }
     ],

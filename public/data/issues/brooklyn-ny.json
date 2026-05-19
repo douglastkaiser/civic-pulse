@@ -1,5 +1,5 @@
 {
-  "last_scraped": "2026-05-18T12:00:00Z",
+  "last_scraped": "2026-05-19T12:00:00Z",
   "issues": [
     {
       "id": "nyc-atlantic-ave-rezoning",
@@ -115,7 +115,7 @@
       "governing_body": "New York City Council / Dept. of City Planning",
       "governing_body_type": "city_council",
       "meeting_date": null,
-      "summary": "ONGOING (May 2026): New York City's landmark City of Yes for Housing Opportunity zoning reform — adopted in late 2024 — continues implementation across all five boroughs. The reform eliminated parking mandates citywide, allowed accessory dwelling units (ADUs) on most residential lots, and created new pathways for affordable housing production. In Brooklyn, the Atlantic Avenue Mixed-Use Plan (approved April 2026, 4,600 units) is the first major test of the post-City of Yes framework at neighborhood scale. Citywide, the reform is projected to add 80,000+ new housing units over the next 15 years. Implementation challenges include navigating community board opposition, securing construction financing in a high-interest-rate environment, and ensuring that new development includes genuinely affordable units rather than just market-rate luxury housing.",
+      "summary": "ONGOING (May 2026): New York City's landmark City of Yes for Housing Opportunity zoning reform — adopted in late 2024 — continues implementation across all five boroughs. The reform eliminated parking mandates citywide, allowed accessory dwelling units (ADUs) on most residential lots, and created new pathways for affordable housing production. In Brooklyn, the Atlantic Avenue Mixed-Use Plan (approved April 2026, 4,600 units) is the first major test of the post-City of Yes framework at neighborhood scale. Citywide, the reform is projected to add 80,000+ new housing units over the next 15 years. Implementation challenges include navigating community board opposition, securing construction financing in a high-interest-rate environment, and ensuring that new development includes genuinely affordable units rather than just market-rate luxury housing.\n\n**May 19 update:** NYC has seen 23% more new housing permits in the first year of City of Yes compared to the prior year. Office-to-residential conversions are a major driver — more than 12,000 homes are currently in the pipeline from office conversions, including over 3,000 permanently affordable units, streamlined by City of Yes reforms and the state's new 467-M tax incentive. Park Slope and Prospect Heights in Brooklyn have seen among the largest increases in maximum allowable square footage under City of Yes.",
       "policy_domains": ["Housing & Land Use", "Transportation & Transit", "Economic Development"],
       "decision_type": "discussion",
       "geographic_scope": "citywide",
@@ -124,7 +124,7 @@
         "instructions": "Policy adopted. Monitor individual project applications and community board proceedings for implementation progress."
       },
       "estimated_contestedness": "medium",
-      "importance_score": 88,
+      "importance_score": 90,
       "impact_score": 60,
       "quadrant": "act_now",
       "why_it_matters_to_you": "City of Yes is the single most important housing policy change in NYC in decades — and now the question is whether it actually gets built. The 80,000+ unit projection is transformative if realized. Brooklyn is ground zero for implementation, with the Atlantic Avenue plan as the flagship. As a YIMBY donor, this is where your money has the highest expected value: supporting pro-housing candidates and advocacy organizations that defend City of Yes from rollback attempts and accelerate implementation.",

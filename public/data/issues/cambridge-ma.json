@@ -1,5 +1,5 @@
 {
-  "last_scraped": "2026-05-18T12:00:00Z",
+  "last_scraped": "2026-05-19T12:00:00Z",
   "issues": [
     {
       "id": "cam-social-housing-task-force",
@@ -29,7 +29,7 @@
       "governing_body": "Cambridge City Council",
       "governing_body_type": "city_council",
       "meeting_date": null,
-      "summary": "ONGOING (May 2026): One year after Cambridge's sweeping zoning overhaul (February 2025 vote, 8-1), the city is seeing increased interest in multifamily housing development but limited completed projects so far. The zoning reform allows new multi-family housing, up to four stories, to be built city-wide by right — the most significant change to Cambridge's development code in decades. Officials now estimate 4,880 new units could result from the reform, far exceeding the original conservative estimate of just 350 units over 15 years. However, rising interest rates, construction costs, and the natural development timeline mean that most new units are still in the permitting pipeline rather than under construction. The reform eliminated Cambridge's legacy of exclusionary single-family-only zoning, making the city a national model for YIMBY zoning reform alongside Minneapolis and Austin.",
+      "summary": "ONGOING (May 2026): One year after Cambridge's sweeping zoning overhaul (February 2025 vote, 8-1), the city is seeing increased interest in multifamily housing development but limited completed projects so far. The zoning reform allows new multi-family housing, up to four stories, to be built city-wide by right — the most significant change to Cambridge's development code in decades. Officials now estimate 4,880 new units could result from the reform, far exceeding the original conservative estimate of just 350 units over 15 years. However, rising interest rates, construction costs, and the natural development timeline mean that most new units are still in the permitting pipeline rather than under construction. The reform eliminated Cambridge's legacy of exclusionary single-family-only zoning, making the city a national model for YIMBY zoning reform alongside Minneapolis and Austin.\n\n**May 19 update:** LEGAL THREAT: Developer Patrick W. Barrett III filed a lawsuit in December 2025 challenging Cambridge's inclusionary zoning policy as an unconstitutional taking under the Fifth Amendment. Massachusetts Attorney General Andrea Campbell formally intervened in April 2026 to defend the policy, warning it could have sweeping implications for the 140+ municipalities across Massachusetts with similar inclusionary zoning policies. Judge Turano-Flores set November 13, 2026 as the fact discovery deadline and January 13, 2027 for expert discovery. A ruling against Cambridge could unravel affordable housing policies statewide — making this case as important as the zoning reform itself.",
       "policy_domains": ["Housing & Land Use", "Economic Development"],
       "decision_type": "discussion",
       "geographic_scope": "citywide",
@@ -41,7 +41,7 @@
       "importance_score": 88,
       "impact_score": 55,
       "quadrant": "watch",
-      "why_it_matters_to_you": "Cambridge's zoning reform is one of the most important YIMBY victories in the Northeast. The 4,880-unit projection — 14x the original estimate — validates the thesis that removing regulatory barriers unlocks significant housing production. But the implementation phase is where reforms succeed or fail: monitor whether projects actually get built, whether neighborhood opposition creates de facto barriers despite the by-right zoning, and whether the affordability provisions generate enough income-restricted units. This is the evidence base for future reform in Boston, Somerville, and other Massachusetts cities.",
+      "why_it_matters_to_you": "Cambridge's zoning reform is one of the most important YIMBY victories in the Northeast. The 4,880-unit projection — 14x the original estimate — validates the thesis that removing regulatory barriers unlocks significant housing production. But the implementation phase is where reforms succeed or fail: monitor whether projects actually get built, whether neighborhood opposition creates de facto barriers despite the by-right zoning, and whether the affordability provisions generate enough income-restricted units. This is the evidence base for future reform in Boston, Somerville, and other Massachusetts cities. CRITICAL LEGAL RISK: The Barrett v. Cambridge lawsuit challenging inclusionary zoning as an unconstitutional taking could, if successful, invalidate affordable housing requirements in 140+ Massachusetts municipalities. The AG's intervention signals the stakes. Track the case timeline — fact discovery deadline November 13, 2026; expert discovery January 13, 2027.",
       "source_url": "https://www.thecrimson.com/article/2026/3/26/cambridge-housing-development-report/"
     },
     {

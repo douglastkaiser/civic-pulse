@@ -1,5 +1,5 @@
 {
-  "last_scraped": "2026-05-18T12:00:00Z",
+  "last_scraped": "2026-05-19T12:00:00Z",
   "issues": [
     {
       "id": "brk-annual-town-meeting-2026",
@@ -7,20 +7,20 @@
       "governing_body": "Brookline Town Meeting",
       "governing_body_type": "town_meeting",
       "meeting_date": "2026-05-26",
-      "summary": "⚡ URGENT (May 18, 2026): Brookline's 2026 Annual Town Meeting begins Tuesday May 26 at 7:00pm in the Brookline High School Auditorium. The warrant contains 25 articles including the Town budget, 10 articles proposing changes to general or zoning bylaws, and 6 resolution articles.\n\nKEY DEADLINES:\n• ⚡ TODAY (May 18): Deadline to file proposed amendments to Articles 3 and 8 by noon\n• May 22 by 9am: Motions for articles heard on the first night (May 26) must be filed\n• Reserved evenings: May 26, 27, 28, June 2, 3, 4\n\nThe meeting will be held in hybrid format with a remote attendance option, though organizers strongly encourage in-person attendance. The Combined Report has been posted with recommendations from the Select Board and Advisory Committee on each article.\n\nThis is Brookline's primary democratic institution — all major policy decisions flow through Town Meeting, including zoning changes that determine housing production capacity.",
+      "summary": "⚡ URGENT (May 19, 2026): Brookline's 2026 Annual Town Meeting begins Tuesday May 26 at 7:00pm in the Brookline High School Auditorium — 7 DAYS AWAY. The warrant contains 25 articles including the Town budget, 10 articles proposing changes to general or zoning bylaws, and 6 resolution articles. The Select Board has added a Special Town Meeting within the Annual, adding 2 articles to consider Chestnut Hill West rezoning.\n\nKEY DEADLINES:\n• PASSED (May 18): Deadline to file proposed amendments to Articles 3 and 8 (noon) — this deadline has passed\n• ⚡ TOMORROW (May 20) by noon: Combined Report Supplement deadline\n• ⚡ TOMORROW (May 20) 6-8pm: DPW Public Forum on Zoom\n• May 22 by 9am: Motions for articles heard on the first night (May 26) must be filed\n• ⚡ May 26: Town Meeting begins — 7 DAYS AWAY\n• Reserved evenings: May 26, 27, 28, June 2, 3, 4\n\nThe meeting will be held in hybrid format with a remote attendance option, though organizers strongly encourage in-person attendance. The Combined Report has been posted with recommendations from the Select Board and Advisory Committee on each article.\n\nThis is Brookline's primary democratic institution — all major policy decisions flow through Town Meeting, including zoning changes that determine housing production capacity.",
       "policy_domains": ["Government Transparency", "Housing & Land Use", "Taxation & Public Finance"],
       "decision_type": "vote",
       "geographic_scope": "citywide",
       "public_comment": {
         "available": true,
-        "deadline": "2026-05-18T17:00:00Z",
-        "instructions": "⚡ Amendment deadline for Articles 3 and 8: TODAY (May 18) by noon. Motions for first-night articles: May 22 by 9am. Town Meeting members can attend in person or remotely. Warrant and Combined Report available at brooklinema.gov."
+        "deadline": "2026-05-26T23:00:00Z",
+        "instructions": "Amendment deadline for Articles 3 and 8 has PASSED. ⚡ TOMORROW (May 20): DPW Public Forum 6-8pm on Zoom; Combined Report Supplement deadline at noon. Motions for first-night articles: May 22 by 9am. Town Meeting begins May 26 — 7 DAYS AWAY. Town Meeting members can attend in person or remotely. Warrant and Combined Report available at brooklinema.gov."
       },
       "estimated_contestedness": "medium",
       "importance_score": 88,
       "impact_score": 75,
       "quadrant": "act_now",
-      "why_it_matters_to_you": "This is Brookline's most important democratic event of the year — 10 of the 25 articles propose changes to general or zoning bylaws, directly affecting housing production capacity. The hybrid format lowers the barrier to participation. If you're a Town Meeting member, attendance (in person or remote) is how you influence local policy. The zoning articles are particularly important: they determine whether Brookline continues to evolve toward more housing or remains locked in its historically NIMBY posture. ⚡ TODAY is the amendment deadline for Articles 3 and 8.",
+      "why_it_matters_to_you": "This is Brookline's most important democratic event of the year — 10 of the 25 articles propose changes to general or zoning bylaws, directly affecting housing production capacity. The Select Board added a Special Town Meeting with 2 articles on Chestnut Hill West rezoning, raising the stakes further. The hybrid format lowers the barrier to participation. If you're a Town Meeting member, attendance (in person or remote) is how you influence local policy. The zoning articles are particularly important: they determine whether Brookline continues to evolve toward more housing or remains locked in its historically NIMBY posture. ⚡ DPW Public Forum is TOMORROW (May 20) 6-8pm on Zoom. Town Meeting starts in 7 DAYS (May 26).",
       "source_url": "https://www.brooklinema.gov/m/newsflash/Home/Detail/2554"
     },
     {
@@ -51,7 +51,7 @@
       "governing_body": "Brookline Town Meeting / Massachusetts EOHLC",
       "governing_body_type": "town_meeting",
       "meeting_date": null,
-      "summary": "ONGOING (2026): Brookline, like all MBTA-adjacent communities in Massachusetts, must comply with the MBTA Communities Act (Section 3A of the Zoning Act), which requires communities served by the MBTA to zone for multifamily housing near transit stations. Brookline has Green Line stops (Brookline Village, Brookline Hills, Beaconsfield, Reservoir, Chestnut Hill) and must designate areas where multifamily housing is allowed by right. Compliance has been a major flashpoint — some Town Meeting members have pushed back against the state mandate, viewing it as an infringement on local control. However, non-compliance risks loss of state funding for housing, infrastructure, and other programs. The zoning articles in the May 2026 Town Meeting warrant may include provisions related to MBTA Communities Act compliance.",
+      "summary": "ONGOING (2026): Brookline, like all MBTA-adjacent communities in Massachusetts, must comply with the MBTA Communities Act (Section 3A of the Zoning Act), which requires communities served by the MBTA to zone for multifamily housing near transit stations. Brookline has Green Line stops (Brookline Village, Brookline Hills, Beaconsfield, Reservoir, Chestnut Hill) and must designate areas where multifamily housing is allowed by right. Compliance has been a major flashpoint — some Town Meeting members have pushed back against the state mandate, viewing it as an infringement on local control. However, non-compliance risks loss of state funding for housing, infrastructure, and other programs. The zoning articles in the May 2026 Town Meeting warrant may include provisions related to MBTA Communities Act compliance.\n\n**May 19 update:** Town Meeting zoning articles on MAY 26 (7 DAYS AWAY) may include MBTA Communities provisions. With the Select Board also adding a Special Town Meeting to consider Chestnut Hill West rezoning, the compliance question is directly on the agenda. This is the key vote to watch.",
       "policy_domains": ["Housing & Land Use", "Transportation & Transit"],
       "decision_type": "discussion",
       "geographic_scope": "citywide",
