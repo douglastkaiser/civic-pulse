@@ -1,5 +1,5 @@
 {
-  "last_scraped": "2026-05-23T12:00:00Z",
+  "last_scraped": "2026-05-24T12:00:00Z",
   "issues": [
     {
       "id": "nyc-atlantic-ave-rezoning",
@@ -7,7 +7,7 @@
       "governing_body": "New York City Council",
       "governing_body_type": "city_council",
       "meeting_date": "2026-04-15",
-      "summary": "NEW (April 2026): The New York City Council voted to approve the Atlantic Avenue Mixed Use Plan (AAMUP), a major rezoning spanning Council Members Crystal Hudson and Chi Ossé's districts in Brooklyn. The plan will deliver 4,600 new units of housing, approximately 1,900 of which will be permanently affordable. The rezoning covers a corridor along Atlantic Avenue in the Fort Greene, Clinton Hill, Prospect Heights, and Crown Heights neighborhoods. This is one of the largest neighborhood rezonings in NYC in recent years and a major test of the City of Yes housing framework in practice. The plan includes provisions for community facilities, commercial space, and open space requirements alongside the residential development.",
+      "summary": "NEW (April 2026): The New York City Council voted to approve the Atlantic Avenue Mixed Use Plan (AAMUP), a major rezoning spanning Council Members Crystal Hudson and Chi Ossé's districts in Brooklyn. The plan will deliver 4,600 new units of housing, approximately 1,900 of which will be permanently affordable. The rezoning covers a corridor along Atlantic Avenue in the Fort Greene, Clinton Hill, Prospect Heights, and Crown Heights neighborhoods. This is one of the largest neighborhood rezonings in NYC in recent years and a major test of the City of Yes housing framework in practice. The plan includes provisions for community facilities, commercial space, and open space requirements alongside the residential development.\n\n**May 24 update:** ⚡ MAJOR: Mayor Mamdani's administration announced on May 20 its first comprehensive neighborhood plans — the 'South of Prospect Plan' targets rezoning along McDonald Avenue and Coney Island Avenue corridors south of Prospect Park in Brooklyn. The plan will allow taller buildings and more housing along these transit-rich corridors, including near the proposed Interborough Express (IBX) light rail. Community engagement begins this summer with zoning concepts expected in 2027. This is the Mamdani administration's first major rezoning initiative and continues the pro-housing trajectory that began with the Atlantic Avenue plan. Additionally, Governor Hochul announced an RFP for 300 new housing units on underutilized MTA land in Crown Heights — made possible by the AAMUP rezoning.",
       "policy_domains": ["Housing & Land Use", "Economic Development"],
       "decision_type": "vote",
       "geographic_scope": "district",
