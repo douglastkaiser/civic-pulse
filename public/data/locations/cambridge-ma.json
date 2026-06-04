@@ -1,6 +1,6 @@
 {
   "id": "cambridge-ma",
-  "last_updated": "2026-03-16T12:00:00Z",
+  "last_updated": "2026-06-04T12:00:00Z",
   "governing_bodies": [
     {
       "name": "Cambridge City Council",
@@ -29,6 +29,6 @@
       }
     ]
   },
-  "key_political_dynamics": "Cambridge's proportional representation system makes its politics unique — council elections are citywide with ranked choice voting, creating unusual coalition dynamics. Housing is the dominant local issue, with tension between Kendall Square tech growth and residential neighborhood preservation. The MBTA Communities Act requires Cambridge to zone for more housing near transit — compliance has been contentious statewide. Massachusetts has been active on housing/zoning reform at the state level.",
+  "key_political_dynamics": "Cambridge's proportional representation system makes its politics unique — council elections are citywide with ranked choice voting, creating unusual coalition dynamics. Housing is the dominant local issue, with tension between Kendall Square tech growth and residential neighborhood preservation. The MBTA Communities Act requires Cambridge to zone for more housing near transit — compliance has been contentious statewide. Massachusetts has been active on housing/zoning reform at the state level.\n\nJune 4, 2026 updates: MBTA Communities Act 5-year report (January 2026): nearly 7,000 new units in pipeline across 34 compliant communities. Cambridge already compliant via pre-existing zoning. Only 30% of units within half-mile of transit.",
   "needs_enrichment": true
 }

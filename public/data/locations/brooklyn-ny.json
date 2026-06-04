@@ -1,6 +1,6 @@
 {
   "id": "brooklyn-ny",
-  "last_updated": "2026-03-16T12:00:00Z",
+  "last_updated": "2026-06-04T12:00:00Z",
   "governing_bodies": [
     {
       "name": "New York City Council",
@@ -29,7 +29,7 @@
       }
     ]
   },
-  "key_political_dynamics": "NYC housing politics are dominated by City of Yes implementation, individual neighborhood rezonings, and the perennial tension between development and community preservation. Brooklyn has some of the most contested local politics in the city. The effective altruist community is concentrated in Brooklyn and has growing but still nascent political engagement at the local level.",
+  "key_political_dynamics": "NYC housing politics are dominated by City of Yes implementation, individual neighborhood rezonings, and the perennial tension between development and community preservation. Brooklyn has some of the most contested local politics in the city. The effective altruist community is concentrated in Brooklyn and has growing but still nascent political engagement at the local level.\n\nJune 4, 2026 updates: City of Yes 12 months in — 23% more new homes, 12,000+ units in pipeline from office conversions. Park Slope and Prospect Heights seeing largest increases in allowable square footage.",
   "needs_enrichment": true,
   "enrichment_notes": "Need specific address to determine: city council district, state assembly/senate districts, community board. Location data is skeleton-level."
 }

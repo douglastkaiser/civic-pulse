@@ -1,6 +1,6 @@
 {
   "id": "madison-wi",
-  "last_updated": "2026-03-16T12:00:00Z",
+  "last_updated": "2026-06-04T12:00:00Z",
   "governing_bodies": [
     {
       "name": "Madison Common Council",
@@ -33,7 +33,7 @@
       }
     ]
   },
-  "key_political_dynamics": "Madison is one of the most progressive cities in the Midwest, dominated by the UW-Madison community. Local politics often focus on education funding, policing reform, and environmental issues. Housing is an emerging issue as the city grows. Wisconsin state politics feature a Democratic governor (Evers) working against a historically gerrymandered (now redrawn) legislature. State-level education funding and Medicaid expansion are key ongoing fights.",
+  "key_political_dynamics": "Madison is one of the most progressive cities in the Midwest, dominated by the UW-Madison community. Local politics often focus on education funding, policing reform, and environmental issues. Housing is an emerging issue as the city grows. Wisconsin state politics feature a Democratic governor (Evers) working against a historically gerrymandered (now redrawn) legislature. State-level education funding and Medicaid expansion are key ongoing fights.\n\nJune 4, 2026 updates: HOUSING OVERHAUL IN PROGRESS. Missing middle housing zoning overhaul approved — the most significant land use reform in years. PD rezoning outreach running April-June 2026. Housing Forward plan targets 15,000 units by 2030, with 25% affordable. 425 new rental units approved, 260+ permanently affordable.",
   "needs_enrichment": true,
   "enrichment_notes": "Need specific address for alder district and state legislative districts. Madison uses Legistar — scraper should work."
 }
