@@ -2,15 +2,15 @@
   "locations": {
     "austin-78702": {
       "landscape_scraped": "2026-06-05T12:00:00Z",
-      "issues_scraped": "2026-07-07T12:00:00Z",
-      "issues_scored": "2026-07-07T12:00:00Z",
+      "issues_scraped": "2026-07-08T12:00:00Z",
+      "issues_scored": "2026-07-08T12:00:00Z",
       "next_steps_generated": "2026-06-05T12:00:00Z",
       "needs_rescrape": false
     },
     "orange-92868": {
       "landscape_scraped": "2026-06-05T12:00:00Z",
-      "issues_scraped": "2026-07-07T12:00:00Z",
-      "issues_scored": "2026-07-07T12:00:00Z",
+      "issues_scraped": "2026-07-08T12:00:00Z",
+      "issues_scored": "2026-07-08T12:00:00Z",
       "next_steps_generated": "2026-06-05T12:00:00Z",
       "needs_rescrape": false
     }
@@ -25,8 +25,8 @@
       "manifesto_generated": "2026-03-16T12:00:00Z",
       "manifesto_inputs_complete": true,
       "location_scraped": "2026-07-06T10:10:28.975458+00:00",
-      "issues_scraped": "2026-07-07T12:00:00Z",
-      "issues_scored": "2026-07-07T12:00:00Z",
+      "issues_scraped": "2026-07-08T12:00:00Z",
+      "issues_scored": "2026-07-08T12:00:00Z",
       "next_steps_generated": "2026-06-05T12:00:00Z",
       "needs_rescrape": "2026-07-06T10:10:28.976068+00:00",
       "needs_manifesto_update": false
@@ -35,8 +35,8 @@
       "manifesto_generated": "2026-03-16T12:00:00Z",
       "manifesto_inputs_complete": false,
       "location_scraped": "2026-07-06T10:10:28.976966+00:00",
-      "issues_scraped": "2026-07-07T12:00:00Z",
-      "issues_scored": "2026-07-07T12:00:00Z",
+      "issues_scraped": "2026-07-08T12:00:00Z",
+      "issues_scored": "2026-07-08T12:00:00Z",
       "next_steps_generated": null,
       "needs_rescrape": "2026-07-06T10:10:28.977493+00:00",
       "needs_manifesto_update": true
@@ -45,8 +45,8 @@
       "manifesto_generated": "2026-03-16T12:00:00Z",
       "manifesto_inputs_complete": false,
       "location_scraped": "2026-07-06T10:10:29.952667+00:00",
-      "issues_scraped": "2026-07-07T12:00:00Z",
-      "issues_scored": "2026-07-07T12:00:00Z",
+      "issues_scraped": "2026-07-08T12:00:00Z",
+      "issues_scored": "2026-07-08T12:00:00Z",
       "next_steps_generated": null,
       "needs_rescrape": false,
       "needs_manifesto_update": true
@@ -55,8 +55,8 @@
       "manifesto_generated": "2026-03-16T12:00:00Z",
       "manifesto_inputs_complete": false,
       "location_scraped": "2026-07-06T10:11:02.401633+00:00",
-      "issues_scraped": "2026-07-07T12:00:00Z",
-      "issues_scored": "2026-07-07T12:00:00Z",
+      "issues_scraped": "2026-07-08T12:00:00Z",
+      "issues_scored": "2026-07-08T12:00:00Z",
       "next_steps_generated": null,
       "needs_rescrape": "2026-07-06T10:11:02.402213+00:00",
       "needs_manifesto_update": true
@@ -65,14 +65,14 @@
       "manifesto_generated": "2026-03-16T12:00:00Z",
       "manifesto_inputs_complete": false,
       "location_scraped": "2026-07-06T10:11:02.403072+00:00",
-      "issues_scraped": "2026-07-07T12:00:00Z",
-      "issues_scored": "2026-07-07T12:00:00Z",
+      "issues_scraped": "2026-07-08T12:00:00Z",
+      "issues_scored": "2026-07-08T12:00:00Z",
       "next_steps_generated": null,
       "needs_rescrape": "2026-07-06T10:11:02.403527+00:00",
       "needs_manifesto_update": true
     }
   },
-  "last_full_run": "2026-07-07T12:00:00Z",
+  "last_full_run": "2026-07-08T12:00:00Z",
   "last_run_status": "success",
   "last_run_errors": []
 }
