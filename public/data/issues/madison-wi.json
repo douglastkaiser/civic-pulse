@@ -1,257 +1,158 @@
 {
-  "last_scraped": "2026-07-07T12:00:00Z",
+  "last_scraped": "2026-07-13T09:18:02.046658+00:00",
   "issues": [
     {
-      "id": "budget-rules-2026",
-      "title": "2026 Budget Rules and Procedures",
+      "id": "gregory-st-setback-variance",
+      "title": "Side Yard Setback Variance - 3524 Gregory St",
+      "governing_body": "Zoning Board of Appeals",
+      "governing_body_type": "administrative_board",
+      "meeting_date": null,
+      "summary": "A property owner at 3524 Gregory St in Alder District #13 is requesting a side yard setback variance to add an addition to a single-family home. This is a routine zoning variance petition that will be heard by the Zoning Board of Appeals.",
+      "policy_domains": [
+        "Housing & Land Use",
+        "Zoning & Development"
+      ],
+      "decision_type": "petition",
+      "geographic_scope": "neighborhood",
+      "public_comment": {
+        "available": false,
+        "deadline": null,
+        "instructions": "Contact Zoning Board of Appeals or city planning department for hearing details"
+      },
+      "estimated_contestedness": "low",
+      "importance_score": 15,
+      "impact_score": 5,
+      "quadrant": "background",
+      "why_it_matters_to_you": "This is a single-property variance with minimal citywide impact. Unless you live in District #13 or have specific concerns about neighborhood character, this is routine administrative business.",
+      "source_url": "https://madison.legistar.com/LegislativeDetail.aspx?ID=5236945&GUID=F6A4B363-02D3-404D-AB95-1CA3135C80B8"
+    },
+    {
+      "id": "ely-place-historic-district-appeal",
+      "title": "Appeal of Landmarks Commission Approval - 113 Ely Place Land Division",
       "governing_body": "Madison Common Council",
       "governing_body_type": "city_council",
-      "meeting_date": "2025-09-16",
-      "summary": "Establishes procedural rules for Common Council deliberations on the city's 2026 capital and operating budgets. Already passed in September 2025, this item sets the framework for how budget discussions occur.\n\n**June 28 update:** FY2027 budget engagement sessions held in June. New Common Council President Sabrina Madison (District 17) leading budget process. Three budget engagement sessions completed this month.\n\n**June 29 update:** Common Council adopted Southwest and Southeast Area Plans on June 23. Council authorized purchase of 200 acres in Burke for future parkland ($6M Park Land Acquisition Funds) — area joins city in 2036. Door Creek Watershed Study contract extended through January 2027. Christine Knapp appointed General Manager of Madison Water Utility. Budget engagement sessions continuing.\n\n**June 30 update:** SW/SE Area Plans adopted June 23. 200-acre Burke parkland purchase authorized ($6M Park Land Acquisition Funds; city/county cost-sharing). Area joins city in 2036; park planning begins after annexation. Door Creek Watershed Study contract extended through January 2027. Christine Knapp appointed General Manager of Madison Water Utility. Extreme heat warning issued — city resources deployed. Budget engagement sessions continuing.\n\n**July 1 update:** ⚡ Excessive Heat Warning through TODAY 7PM — heat index up to 106°F. ⚡ UW-Madison broken chilled water line forced closure of 23 buildings plus partial closure of 11 more (June 30); repairs expected to take at least one month; summer classes relocated. Cooling centers open (Veterans Memorial Coliseum, Madison College shelter, all Madison Public Libraries); Metro Transit providing free rides to cooling centers. City faces $11M shortfall for 2027 ($472.1M revenue vs $483.2M expenditures); Mayor Rhodes-Conway directed all agencies to prepare up to 2% budget reductions (~$9M). Next budget engagement session July 26. Christine Knapp confirmation vote expected July 7 or July 21. Next council meetings: July 7, July 21.\n\n**July 2 update:** ⚡ Extreme Heat Warning EXTENDED through July 2 10PM (originally through July 1 7PM). Heat dome affecting 250M+ Americans heading into July 4 weekend. ⚡ UW-Madison CORRECTION: 34 buildings affected total (23 fully closed including Bascom Hall, Science Hall, Grainger Hall; 11 partially open) — not 23 as previously reported. Chilled water line from Charter Street Heating Plant broke June 17, releasing ~40,000 gallons of lake water. ~30 temporary chillers being installed across campus. ⚡ Board of Regents had approved nearly $6M for chilled water infrastructure repairs on June 4 — just 26 days before the AC failure. Repairs still expected to take at least one month. Christine Knapp confirmed as new Madison Water Utility General Manager (appointed June 25; starts August 31 pending Council approval). Budget shortfall projection growing: expenditures expected to exceed state ERIP limit by $7.2M; structural deficit expected to grow $6-7M annually. Next council meetings: July 7, July 21.\n\n**July 3 update:** July 4 holiday TOMORROW — city offices closed. Heat wave continues heading into July 4 weekend. UW-Madison chilled water repairs ongoing — ~30 temporary chillers installed across 34 affected buildings. Christine Knapp starts as Madison Water Utility GM August 31 (pending Council approval). Next council meetings: July 7 (4 DAYS), July 21.\n\n**July 4 update:** Independence Day — city offices closed. Heat wave continues across the Midwest; excessive heat warnings through the weekend. UW-Madison chilled water repairs ongoing — ~30 temporary chillers installed across 34 affected buildings. Christine Knapp starts as Madison Water Utility GM August 31 (pending Council approval). City faces $11M shortfall for 2027; agencies preparing 2% budget reductions. Next council meetings: July 7 (3 DAYS), July 21.\n\n**July 5 update:** Extended holiday weekend — offices closed. Next council meeting July 7 (2 DAYS). City faces $11M shortfall for 2027; agencies preparing 2% budget reductions. FY2026 operating budget: $452.5M (4.6% increase). Christine Knapp starts as Madison Water Utility GM August 31. Heat wave continues across Midwest. Next meeting after July 7: July 21.\n\n**July 7 update:** Common Council meeting TONIGHT at 6:30 PM in Room 201 of City-County Building. City faces $11M shortfall for 2027 — District 19 alder analysis frames as ~$7.2M problem after ~$4M covered from reserves. Binding constraint is state expenditure restraint program (ERIP) cap. Mayor directed all departments to propose 2% reductions (~$9M). No new positions or supplemental programs allowed. Initial budget requests due July 17 (10 DAYS); Executive Budget in October. Christine Knapp (Cedar Rapids Water Division, 9 years) confirmed as Madison Water Utility GM — starts August 31, pending Council contract approval. Seven major development proposals up for summer 2026 approval.",
+      "meeting_date": "2026-07-21",
+      "summary": "An appeal has been filed against the Landmarks Commission's approval of a land division at 113 Ely Place in the University Heights Historic District. The Common Council will review whether the land division complies with historic preservation standards. This is coming to a council vote on July 21, 2026.",
       "policy_domains": [
-        "Taxation & Public Finance",
-        "Government Transparency"
+        "Housing & Land Use",
+        "Historic Preservation",
+        "Community Character"
       ],
       "decision_type": "vote",
+      "geographic_scope": "neighborhood",
+      "public_comment": {
+        "available": true,
+        "deadline": "2026-07-21",
+        "instructions": "Public comment accepted at Common Council meeting on July 21, 2026. Check Madison.legistar.com for meeting details."
+      },
+      "estimated_contestedness": "medium",
+      "importance_score": 25,
+      "impact_score": 20,
+      "quadrant": "watch",
+      "why_it_matters_to_you": "This touches on housing development and community preservation—both topics where you value stability. However, since you're persuadable on housing if framed right, this represents the kind of nuanced decision (balancing growth vs. preservation) that aligns with your pragmatic approach.",
+      "source_url": "https://madison.legistar.com/LegislativeDetail.aspx?ID=5237023&GUID=9E0F730A-D058-4CC9-B593-1A3A069CE58D"
+    },
+    {
+      "id": "downtown-area-plan",
+      "title": "Downtown Area Plan Review",
+      "governing_body": "Madison Arts Commission",
+      "governing_body_type": "advisory_commission",
+      "meeting_date": null,
+      "summary": "The Madison Arts Commission is reviewing the Downtown Area Plan, currently in committee. This plan likely addresses arts, culture, and public space in Madison's downtown core.",
+      "policy_domains": [
+        "Parks & Public Spaces",
+        "Arts & Culture",
+        "Downtown Development"
+      ],
+      "decision_type": "discussion",
       "geographic_scope": "citywide",
       "public_comment": {
         "available": false,
         "deadline": null,
-        "instructions": "Item already enacted as RES-25-00505"
-      },
-      "estimated_contestedness": "low",
-      "importance_score": 35,
-      "impact_score": 15,
-      "quadrant": "background",
-      "why_it_matters_to_you": "Budget procedures affect how city priorities are set and debated, but this is a procedural matter now in the past with low immediate salience for a low-engagement voter.",
-      "source_url": "https://madison.legistar.com/"
-    },
-    {
-      "id": "language-access-update",
-      "title": "Language Access Program and OIM Update",
-      "governing_body": "Disability Rights Commission",
-      "governing_body_type": "advisory_commission",
-      "meeting_date": null,
-      "summary": "Discussion of the city's Language Access Program and Office of Immigrant and Multicultural Affairs. Currently in committee review, focused on ensuring city services are accessible to non-English speakers.\n\n**June 28 update:** Language access program continues. Office of Immigrant Affairs operational. Common Council held Juneteenth recognition June 23 — President Sabrina Madison highlighted youth leaders.",
-      "policy_domains": [
-        "Civil Rights & Social Equity",
-        "Immigration"
-      ],
-      "decision_type": "discussion",
-      "geographic_scope": "citywide",
-      "public_comment": {
-        "available": true,
-        "deadline": null,
-        "instructions": "Contact dtlaseca2@cityofmadison.com or attend Disability Rights Commission meeting"
-      },
-      "estimated_contestedness": "low",
-      "importance_score": 45,
-      "impact_score": 20,
-      "quadrant": "background",
-      "why_it_matters_to_you": "Aligns with your values of equity and inclusion, but this is an advisory commission item with limited direct impact on city decisions. Suitable for monitoring rather than engagement.",
-      "source_url": "https://madison.legistar.com/"
-    },
-    {
-      "id": "reasonable-accommodations-employees",
-      "title": "Reasonable Accommodations for City Employees",
-      "governing_body": "Disability Rights Commission",
-      "governing_body_type": "advisory_commission",
-      "meeting_date": null,
-      "summary": "Review of policies for reasonable workplace accommodations for city employees with disabilities. In committee, focused on ensuring compliance and effectiveness of accommodation processes.\n\n**June 28 update:** Reasonable accommodations policy implementation continues under new Common Council leadership.",
-      "policy_domains": [
-        "Civil Rights & Social Equity",
-        "Government Transparency"
-      ],
-      "decision_type": "discussion",
-      "geographic_scope": "citywide",
-      "public_comment": {
-        "available": true,
-        "deadline": null,
-        "instructions": "Contact dtlaseca2@cityofmadison.com or attend Disability Rights Commission meeting"
-      },
-      "estimated_contestedness": "low",
-      "importance_score": 35,
-      "impact_score": 15,
-      "quadrant": "background",
-      "why_it_matters_to_you": "Reflects your collective values and support for equitable treatment, but this is an internal HR policy matter with low salience for most residents.",
-      "source_url": "https://madison.legistar.com/"
-    },
-    {
-      "id": "safe-routes-school-strategic",
-      "title": "Safe Routes to School Strategic Plan",
-      "governing_body": "Disability Rights Commission",
-      "governing_body_type": "advisory_commission",
-      "meeting_date": null,
-      "summary": "Discussion of safe pedestrian and bicycle routes for school children, with attention to accessibility for students with disabilities. Connects transportation safety to educational equity.\n\n**June 28 update:** Safe routes to school strategic plan advancing. Common Council adopted Southwest and Southeast Area Plans on June 23 — transportation planning implications for school access.",
-      "policy_domains": [
-        "Public Education",
-        "Transportation & Transit",
-        "Public Safety"
-      ],
-      "decision_type": "discussion",
-      "geographic_scope": "citywide",
-      "public_comment": {
-        "available": true,
-        "deadline": null,
-        "instructions": "Contact mgibson@cityofmadison.com or attend Disability Rights Commission meeting"
-      },
-      "estimated_contestedness": "low",
-      "importance_score": 62,
-      "impact_score": 25,
-      "quadrant": "watch",
-      "why_it_matters_to_you": "Directly affects student safety and school access—two high-salience issues for you. This advisory commission input could influence broader city policy on school transportation and walking routes.",
-      "source_url": "https://madison.legistar.com/"
-    },
-    {
-      "id": "housing-transitional-populations",
-      "title": "Housing Update: Supports for Transitional Housing Populations",
-      "governing_body": "Disability Rights Commission",
-      "governing_body_type": "advisory_commission",
-      "meeting_date": null,
-      "summary": "Review of housing support programs for people experiencing homelessness or in transitional housing, with focus on accessibility and disability inclusion. Connects to Madison's Housing Forward plan. Update (June 23, 2026): The City is proceeding with the planned development rezoning process (June-August 2026) — replacing single-family and two-family Planned Development zoning with conventional zoning districts. Public outreach continues through June. Madison's Housing Forward plan targets 15,000 new units by 2030 with 25% affordable. The 2024 zoning overhaul eliminated minimum backyard space requirements, removed ADU bedroom limits, and allowed up to 1,000 sq ft ADUs.\n\n**June 28 update:** Housing supports for transitional populations continuing. Budget engagement sessions in June included housing discussion. Common Council adopted SW/SE area plans June 23.",
-      "policy_domains": [
-        "Housing & Land Use",
-        "Civil Rights & Social Equity"
-      ],
-      "decision_type": "discussion",
-      "geographic_scope": "citywide",
-      "public_comment": {
-        "available": true,
-        "deadline": null,
-        "instructions": "Contact mgibson@cityofmadison.com or attend Disability Rights Commission meeting"
-      },
-      "estimated_contestedness": "medium",
-      "importance_score": 55,
-      "impact_score": 20,
-      "quadrant": "watch",
-      "why_it_matters_to_you": "Housing is an emerging priority for you, and this touches on both affordability and equity. However, as an advisory commission item, your direct influence is limited.",
-      "source_url": "https://madison.legistar.com/"
-    },
-    {
-      "id": "drc-workplan-2026",
-      "title": "Disability Rights Commission Workplan",
-      "governing_body": "Disability Rights Commission",
-      "governing_body_type": "advisory_commission",
-      "meeting_date": null,
-      "summary": "Annual workplan outlining the Disability Rights Commission's priorities and initiatives for the year. Sets agenda for disability rights advocacy within city government.\n\n**June 28 update:** Disability Rights Commission annual workplan implementation continues under new Common Council leadership (President Sabrina Madison, District 17).",
-      "policy_domains": [
-        "Civil Rights & Social Equity",
-        "Government Transparency"
-      ],
-      "decision_type": "discussion",
-      "geographic_scope": "citywide",
-      "public_comment": {
-        "available": true,
-        "deadline": null,
-        "instructions": "Contact dtlaseca2@cityofmadison.com or attend Disability Rights Commission meeting"
-      },
-      "estimated_contestedness": "low",
-      "importance_score": 40,
-      "impact_score": 15,
-      "quadrant": "background",
-      "why_it_matters_to_you": "Reflects your values but is primarily an internal planning item with limited public visibility or direct impact on city policy decisions.",
-      "source_url": "https://madison.legistar.com/"
-    },
-    {
-      "id": "police-civilian-oversight-june-2026",
-      "title": "Police Civilian Oversight Board - Public Comment (June 18, 2026)",
-      "governing_body": "Police Civilian Oversight Board",
-      "governing_body_type": "advisory_board",
-      "meeting_date": "2026-06-18",
-      "summary": "Public comment period for the Police Civilian Oversight Board. Allows residents to provide input on police accountability, oversight, and related issues.\n\n**June 28 update:** Police civilian oversight board operational. Alder Lankella held virtual learning session June 17 with Interim Independent Police Monitor Aeiramique Glass.",
-      "policy_domains": [
-        "Public Safety",
-        "Civil Rights & Social Equity",
-        "Government Transparency"
-      ],
-      "decision_type": "discussion",
-      "geographic_scope": "citywide",
-      "public_comment": {
-        "available": true,
-        "deadline": null,
-        "instructions": "Contact cnjoku@cityofmadison.com for details on public comment procedures"
-      },
-      "estimated_contestedness": "medium",
-      "importance_score": 50,
-      "impact_score": 30,
-      "quadrant": "know",
-      "why_it_matters_to_you": "Police accountability and civil rights are important to progressive Madison voters. Though you don't attend meetings, this is an accessible way to understand what oversight mechanisms exist and what community concerns are being raised.",
-      "source_url": "https://madison.legistar.com/"
-    },
-    {
-      "id": "cherokee-demolition-permit",
-      "title": "4301 Cherokee Drive - Institutional Building Demolition Permit (District 10)",
-      "governing_body": "Landmarks Commission",
-      "governing_body_type": "advisory_commission",
-      "meeting_date": null,
-      "summary": "Consideration of a demolition permit for an institutional building at 4301 Cherokee Drive. Landmarks Commission reviews whether the structure warrants preservation or if demolition can proceed.\n\n**June 28 update:** 4301 Cherokee Drive institutional building demolition permit — monitor for permit status and timeline.",
-      "policy_domains": [
-        "Housing & Land Use",
-        "Parks & Public Spaces"
-      ],
-      "decision_type": "vote",
-      "geographic_scope": "district",
-      "public_comment": {
-        "available": true,
-        "deadline": null,
-        "instructions": "Contact lheiser-ertel@cityofmadison.com to provide input on demolition review"
-      },
-      "estimated_contestedness": "medium",
-      "importance_score": 42,
-      "impact_score": 25,
-      "quadrant": "background",
-      "why_it_matters_to_you": "Historic preservation and land use are important to community character, but without knowing the building's significance or replacement plans, this is a localized matter with uncertain importance to your broader housing and development views.",
-      "source_url": "https://madison.legistar.com/"
-    },
-    {
-      "id": "pflaum-demolition-permit",
-      "title": "502 Pflaum Road - Institutional Building Demolition Permit (District 15)",
-      "governing_body": "Landmarks Commission",
-      "governing_body_type": "advisory_commission",
-      "meeting_date": null,
-      "summary": "Consideration of a demolition permit for an institutional building at 502 Pflaum Road. Landmarks Commission review of preservation versus demolition.\n\n**June 28 update:** 502 Pflaum Road institutional building demolition permit — monitor for permit status and timeline.",
-      "policy_domains": [
-        "Housing & Land Use",
-        "Parks & Public Spaces"
-      ],
-      "decision_type": "vote",
-      "geographic_scope": "district",
-      "public_comment": {
-        "available": true,
-        "deadline": null,
-        "instructions": "Contact lheiser-ertel@cityofmadison.com to provide input on demolition review"
-      },
-      "estimated_contestedness": "medium",
-      "importance_score": 42,
-      "impact_score": 25,
-      "quadrant": "background",
-      "why_it_matters_to_you": "Similar to Cherokee Drive demolition—a land use decision with unclear broader implications without knowing the building's context and future plans.",
-      "source_url": "https://madison.legistar.com/"
-    },
-    {
-      "id": "ev-parking-variance-withdrawn",
-      "title": "EV Ready Parking Variance - Airport Parking Lots (Withdrawn)",
-      "governing_body": "Zoning Board of Appeals",
-      "governing_body_type": "board",
-      "meeting_date": null,
-      "summary": "Variance request from EV-ready parking space requirements for airport surface parking lots. Request was withdrawn on June 18, 2026, so no action is needed.\n\n**June 28 update:** EV ready parking variance request withdrawn. No further action required.",
-      "policy_domains": [
-        "Environmental Protection",
-        "Economic Development"
-      ],
-      "decision_type": "vote",
-      "geographic_scope": "district",
-      "public_comment": {
-        "available": false,
-        "deadline": null,
-        "instructions": "Item withdrawn; no further action expected"
+        "instructions": "Contact Madison Arts Commission for meeting schedule and public comment opportunities"
       },
       "estimated_contestedness": "low",
       "importance_score": 30,
       "impact_score": 10,
+      "quadrant": "watch",
+      "why_it_matters_to_you": "Downtown revitalization affects community character and quality of life—areas you care about. However, this is early-stage and in a primarily advisory body, so your direct influence is limited at this point.",
+      "source_url": "https://madison.legistar.com/LegislativeDetail.aspx?ID=5237104&GUID=64108149-9AAD-4D90-8AAD-8A40958CADF6"
+    },
+    {
+      "id": "parman-terrace-transportation",
+      "title": "Public Works Transportation Projects Review - Parman Terrace (Cul-de-Sac to Odana Rd)",
+      "governing_body": "Transportation Commission",
+      "governing_body_type": "advisory_commission",
+      "meeting_date": null,
+      "summary": "The Transportation Commission is reviewing a public works transportation project on Parman Terrace, involving street work from the cul-de-sac to Odana Road. This is in committee and appears to address infrastructure planning or street improvements.",
+      "policy_domains": [
+        "Transportation & Transit",
+        "Infrastructure"
+      ],
+      "decision_type": "discussion",
+      "geographic_scope": "neighborhood",
+      "public_comment": {
+        "available": false,
+        "deadline": null,
+        "instructions": "Contact Transportation Commission for meeting schedule"
+      },
+      "estimated_contestedness": "low",
+      "importance_score": 20,
+      "impact_score": 15,
       "quadrant": "background",
-      "why_it_matters_to_you": "This touched on environmental priorities (EV infrastructure) but the request was withdrawn, making it moot. Not requiring your attention.",
-      "source_url": "https://madison.legistar.com/"
+      "why_it_matters_to_you": "This is a neighborhood-level infrastructure project. Unless you live on or near Parman Terrace, this has limited salience to your broader civic interests.",
+      "source_url": "https://madison.legistar.com/LegislativeDetail.aspx?ID=5237182&GUID=18C6648E-BF9B-4422-BBFE-CCDD0183F604"
+    },
+    {
+      "id": "no-right-on-red-review",
+      "title": "No Right on Red Review and Discussion",
+      "governing_body": "Transportation Commission",
+      "governing_body_type": "advisory_commission",
+      "meeting_date": null,
+      "summary": "The Transportation Commission is discussing a potential policy on 'No Right on Red' traffic regulations. This would restrict right turns at red lights in certain locations to improve pedestrian and bicycle safety. The item has been in committee since April 24, 2026.",
+      "policy_domains": [
+        "Transportation & Transit",
+        "Public Safety",
+        "Pedestrian & Bicycle Safety"
+      ],
+      "decision_type": "discussion",
+      "geographic_scope": "citywide",
+      "public_comment": {
+        "available": false,
+        "deadline": null,
+        "instructions": "Contact Transportation Commission for meeting schedule and public comment opportunities"
+      },
+      "estimated_contestedness": "medium",
+      "importance_score": 35,
+      "impact_score": 25,
+      "quadrant": "watch",
+      "why_it_matters_to_you": "This touches on both safety and collective good (protecting pedestrians)—values you hold. However, it's still in early discussion with no imminent vote, so it's worth monitoring but doesn't require immediate action.",
+      "source_url": "https://madison.legistar.com/LegislativeDetail.aspx?ID=5236232&GUID=21BF8F82-DC63-4FCF-877A-7D002DDC7E8F"
+    },
+    {
+      "id": "council-meeting-formats-2027",
+      "title": "Common Council Meeting Formats Through September 2027",
+      "governing_body": "Madison Common Council",
+      "governing_body_type": "city_council",
+      "meeting_date": "2027-05-04",
+      "summary": "The Council Office has issued a series of reports scheduling and confirming the meeting formats (hybrid virtual and in-person at City-County Building Room 201) for Madison Common Council meetings through September 21, 2027. These are procedural scheduling matters.",
+      "policy_domains": [
+        "Government Transparency",
+        "Civic Engagement"
+      ],
+      "decision_type": "discussion",
+      "geographic_scope": "citywide",
+      "public_comment": {
+        "available": false,
+        "deadline": null,
+        "instructions": "These are procedural/scheduling items; public comment not typically applicable"
+      },
+      "estimated_contestedness": "low",
+      "importance_score": 20,
+      "impact_score": 30,
+      "quadrant": "know",
+      "why_it_matters_to_you": "The hybrid format (virtual + in-person) aligns with your low engagement appetite—you can participate without attending in person if issues matter to you. This is useful logistical information but not a substantive policy issue.",
+      "source_url": "https://madison.legistar.com/LegislativeDetail.aspx?ID=5237259&GUID=E7AC2B82-3D5A-4681-B3F9-5970E0C98667"
     }
   ]
 }
