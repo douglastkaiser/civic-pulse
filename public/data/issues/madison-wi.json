@@ -1,158 +1,303 @@
 {
-  "last_scraped": "2026-07-13T09:18:02.046658+00:00",
+  "last_scraped": "2026-07-20T08:51:11.960268+00:00",
   "issues": [
     {
-      "id": "gregory-st-setback-variance",
-      "title": "Side Yard Setback Variance - 3524 Gregory St",
-      "governing_body": "Zoning Board of Appeals",
-      "governing_body_type": "administrative_board",
+      "id": "mixed-use-108-n-leon",
+      "title": "Mixed-Use Development at 108 N Leon Street (124 units)",
+      "governing_body": "Madison Plan Commission",
+      "governing_body_type": "city_commission",
       "meeting_date": null,
-      "summary": "A property owner at 3524 Gregory St in Alder District #13 is requesting a side yard setback variance to add an addition to a single-family home. This is a routine zoning variance petition that will be heard by the Zoning Board of Appeals.",
+      "summary": "Consideration of a four-story mixed-use building with 124 dwelling units and 4,500 sq ft of commercial space in the CC-T District. Requires conditional use approval for reduced non-residential ground-floor frontage and unit count exceeding 60.",
       "policy_domains": [
         "Housing & Land Use",
-        "Zoning & Development"
+        "Economic Development"
       ],
-      "decision_type": "petition",
-      "geographic_scope": "neighborhood",
+      "decision_type": "vote",
+      "geographic_scope": "district",
+      "public_comment": {
+        "available": true,
+        "deadline": null,
+        "instructions": "Public hearing pending before Plan Commission; written comments to tparks@cityofmadison.com"
+      },
+      "estimated_contestedness": "medium",
+      "importance_score": 65,
+      "impact_score": 30,
+      "quadrant": "watch",
+      "why_it_matters_to_you": "This housing project directly supports Madison's Housing Forward plan (15,000 units by 2030) and addresses your concern about housing costs. As a low-engagement voter, you can observe how the city is addressing affordable housing through new development.",
+      "source_url": "https://madison.legistar.com/LegislativeDetail.aspx?ID=4917659"
+    },
+    {
+      "id": "cherokee-heights-middle-school",
+      "title": "Cherokee Heights Middle School Replacement Building (District 10)",
+      "governing_body": "Madison Plan Commission",
+      "governing_body_type": "city_commission",
+      "meeting_date": null,
+      "summary": "Conditional use approval for construction of a new public school building to replace Cherokee Heights Middle School. Requires approval for school use and building size exceeding 10,000 sq ft in a residential district.",
+      "policy_domains": [
+        "Public Education",
+        "Housing & Land Use"
+      ],
+      "decision_type": "vote",
+      "geographic_scope": "district",
+      "public_comment": {
+        "available": true,
+        "deadline": null,
+        "instructions": "Public hearing scheduled; written comments to tparks@cityofmadison.com"
+      },
+      "estimated_contestedness": "low",
+      "importance_score": 80,
+      "impact_score": 25,
+      "quadrant": "watch",
+      "why_it_matters_to_you": "Public Education is your top priority (85/100 salience). This project invests in school infrastructure, directly supporting your value of education. Most voters support school modernization, making this a low-conflict item worth monitoring.",
+      "source_url": "https://madison.legistar.com/LegislativeDetail.aspx?ID=4914819"
+    },
+    {
+      "id": "sennett-middle-school",
+      "title": "Sennett Middle School Replacement Building (District 15)",
+      "governing_body": "Madison Plan Commission",
+      "governing_body_type": "city_commission",
+      "meeting_date": null,
+      "summary": "Conditional use approval for construction of a new Sennett Middle School building in a Campus-Institutional District. Requires approval for building construction without a full campus master plan.",
+      "policy_domains": [
+        "Public Education",
+        "Housing & Land Use"
+      ],
+      "decision_type": "vote",
+      "geographic_scope": "district",
+      "public_comment": {
+        "available": true,
+        "deadline": null,
+        "instructions": "Public hearing scheduled; written comments to tparks@cityofmadison.com"
+      },
+      "estimated_contestedness": "low",
+      "importance_score": 80,
+      "impact_score": 25,
+      "quadrant": "watch",
+      "why_it_matters_to_you": "Another school infrastructure investment aligned with your education focus. Modern school facilities support student outcomes, which matters significantly to your political values.",
+      "source_url": "https://madison.legistar.com/LegislativeDetail.aspx?ID=4914820"
+    },
+    {
+      "id": "public-health-budget-2027",
+      "title": "2027 Public Health Madison & Dane County Budget Proposal",
+      "governing_body": "Board of Health for Madison and Dane County",
+      "governing_body_type": "county_commission",
+      "meeting_date": null,
+      "summary": "Proposed budget for Public Health operations in 2027. Currently in referral stage for committee review and council deliberation.",
+      "policy_domains": [
+        "Healthcare Access",
+        "Public Finance"
+      ],
+      "decision_type": "vote",
+      "geographic_scope": "countywide",
+      "public_comment": {
+        "available": true,
+        "deadline": null,
+        "instructions": "Budget hearings typically held during council review; contact Board of Health or your alder for details"
+      },
+      "estimated_contestedness": "low",
+      "importance_score": 75,
+      "impact_score": 20,
+      "quadrant": "background",
+      "why_it_matters_to_you": "Healthcare access is your second-highest priority (80/100). Budget decisions determine public health funding and service levels. However, with low engagement appetite, you may want to monitor final outcomes rather than engage directly.",
+      "source_url": "https://madison.legistar.com/LegislativeDetail.aspx?ID=4914754"
+    },
+    {
+      "id": "alliant-exhibition-hall-expansion",
+      "title": "Alliant Energy Center Exhibition Hall Additions (District 14)",
+      "governing_body": "Madison Plan Commission",
+      "governing_body_type": "city_commission",
+      "meeting_date": null,
+      "summary": "Conditional use approval for auditorium additions to the Exhibition Hall at Alliant Energy Center. Requires approval for public facility expansion in Parks and Recreation District.",
+      "policy_domains": [
+        "Parks & Public Spaces",
+        "Economic Development"
+      ],
+      "decision_type": "vote",
+      "geographic_scope": "district",
+      "public_comment": {
+        "available": true,
+        "deadline": null,
+        "instructions": "Public hearing scheduled; written comments to tparks@cityofmadison.com"
+      },
+      "estimated_contestedness": "low",
+      "importance_score": 35,
+      "impact_score": 20,
+      "quadrant": "background",
+      "why_it_matters_to_you": "Lower salience for you (Parks: 55/100, Economic Development: 40/100). This is a quality-of-life amenity expansion but not central to your core priorities.",
+      "source_url": "https://madison.legistar.com/LegislativeDetail.aspx?ID=4914817"
+    },
+    {
+      "id": "parking-permits-pd-alteration",
+      "title": "Residential Parking Permit Amendment (101-109 N Franklin, 510 E Wilson)",
+      "governing_body": "Madison Plan Commission",
+      "governing_body_type": "city_commission",
+      "meeting_date": null,
+      "summary": "Planned Development District amendment to remove restrictions on residential parking permits for downtown mixed-use buildings. Addresses access and livability for residents in PD developments.",
+      "policy_domains": [
+        "Housing & Land Use",
+        "Transportation & Transit"
+      ],
+      "decision_type": "vote",
+      "geographic_scope": "district",
+      "public_comment": {
+        "available": true,
+        "deadline": null,
+        "instructions": "Public hearing scheduled; written comments to tparks@cityofmadison.com"
+      },
+      "estimated_contestedness": "medium",
+      "importance_score": 45,
+      "impact_score": 25,
+      "quadrant": "background",
+      "why_it_matters_to_you": "Touches on housing policy and resident access. Your profile is persuadable on housing if framed around livability and equity, but this is a narrow technical issue unlikely to activate strong interest.",
+      "source_url": "https://madison.legistar.com/LegislativeDetail.aspx?ID=4914757"
+    },
+    {
+      "id": "oscar-avenue-setback-ordinance",
+      "title": "Oscar Avenue Setback Ordinance Amendment (District 12)",
+      "governing_body": "Madison Plan Commission",
+      "governing_body_type": "city_commission",
+      "meeting_date": "2026-07-07",
+      "summary": "Proposed amendment to remove part of a setback line on Oscar Avenue. Technical land-use adjustment to zoning code affecting commercial development constraints.",
+      "policy_domains": [
+        "Housing & Land Use",
+        "Economic Development"
+      ],
+      "decision_type": "vote",
+      "geographic_scope": "district",
+      "public_comment": {
+        "available": true,
+        "deadline": null,
+        "instructions": "Public hearing occurred on 2026-07-07; written comments to mglaeser@cityofmadison.com"
+      },
+      "estimated_contestedness": "low",
+      "importance_score": 25,
+      "impact_score": 15,
+      "quadrant": "background",
+      "why_it_matters_to_you": "Technical zoning matter with limited direct impact on housing affordability or education. Low relevance to your stated priorities.",
+      "source_url": "https://madison.legistar.com/LegislativeDetail.aspx?ID=4914758"
+    },
+    {
+      "id": "cherokee-heights-demolition",
+      "title": "Cherokee Heights Middle School Demolition Permit (District 10)",
+      "governing_body": "Madison Landmarks Commission",
+      "governing_body_type": "city_commission",
+      "meeting_date": null,
+      "summary": "Demolition permit for the existing Cherokee Heights Middle School building. Already approved by Landmarks Commission as of 2026-07-17.",
+      "policy_domains": [
+        "Public Education"
+      ],
+      "decision_type": "vote",
+      "geographic_scope": "district",
       "public_comment": {
         "available": false,
         "deadline": null,
-        "instructions": "Contact Zoning Board of Appeals or city planning department for hearing details"
+        "instructions": "Decision already approved"
       },
       "estimated_contestedness": "low",
-      "importance_score": 15,
+      "importance_score": 60,
       "impact_score": 5,
       "quadrant": "background",
-      "why_it_matters_to_you": "This is a single-property variance with minimal citywide impact. Unless you live in District #13 or have specific concerns about neighborhood character, this is routine administrative business.",
-      "source_url": "https://madison.legistar.com/LegislativeDetail.aspx?ID=5236945&GUID=F6A4B363-02D3-404D-AB95-1CA3135C80B8"
+      "why_it_matters_to_you": "Part of school modernization (supporting your education priority), but the decision is already made. Only relevant if you want historical context on the school replacement project.",
+      "source_url": "https://madison.legistar.com/LegislativeDetail.aspx?ID=4914756"
     },
     {
-      "id": "ely-place-historic-district-appeal",
-      "title": "Appeal of Landmarks Commission Approval - 113 Ely Place Land Division",
-      "governing_body": "Madison Common Council",
-      "governing_body_type": "city_council",
-      "meeting_date": "2026-07-21",
-      "summary": "An appeal has been filed against the Landmarks Commission's approval of a land division at 113 Ely Place in the University Heights Historic District. The Common Council will review whether the land division complies with historic preservation standards. This is coming to a council vote on July 21, 2026.",
-      "policy_domains": [
-        "Housing & Land Use",
-        "Historic Preservation",
-        "Community Character"
-      ],
-      "decision_type": "vote",
-      "geographic_scope": "neighborhood",
-      "public_comment": {
-        "available": true,
-        "deadline": "2026-07-21",
-        "instructions": "Public comment accepted at Common Council meeting on July 21, 2026. Check Madison.legistar.com for meeting details."
-      },
-      "estimated_contestedness": "medium",
-      "importance_score": 25,
-      "impact_score": 20,
-      "quadrant": "watch",
-      "why_it_matters_to_you": "This touches on housing development and community preservation—both topics where you value stability. However, since you're persuadable on housing if framed right, this represents the kind of nuanced decision (balancing growth vs. preservation) that aligns with your pragmatic approach.",
-      "source_url": "https://madison.legistar.com/LegislativeDetail.aspx?ID=5237023&GUID=9E0F730A-D058-4CC9-B593-1A3A069CE58D"
-    },
-    {
-      "id": "downtown-area-plan",
-      "title": "Downtown Area Plan Review",
-      "governing_body": "Madison Arts Commission",
-      "governing_body_type": "advisory_commission",
+      "id": "disability-rights-alder-bcc-goals",
+      "title": "Discussion of Alder and BCC Goals (Disability Rights Commission)",
+      "governing_body": "Madison Disability Rights Commission",
+      "governing_body_type": "city_commission",
       "meeting_date": null,
-      "summary": "The Madison Arts Commission is reviewing the Downtown Area Plan, currently in committee. This plan likely addresses arts, culture, and public space in Madison's downtown core.",
+      "summary": "Commission discussion of goals and priorities for city alder and Board of Community Connections coordination. In-committee discussion item.",
       "policy_domains": [
-        "Parks & Public Spaces",
-        "Arts & Culture",
-        "Downtown Development"
+        "Civil Rights & Social Equity",
+        "Government Transparency"
       ],
       "decision_type": "discussion",
       "geographic_scope": "citywide",
       "public_comment": {
         "available": false,
         "deadline": null,
-        "instructions": "Contact Madison Arts Commission for meeting schedule and public comment opportunities"
+        "instructions": "In-committee discussion; no public comment period typically available"
+      },
+      "estimated_contestedness": "low",
+      "importance_score": 45,
+      "impact_score": 15,
+      "quadrant": "background",
+      "why_it_matters_to_you": "Relevant to civil rights and equity (65/100 salience), but this is an internal commission discussion with limited direct impact. Worth monitoring if specific policies emerge.",
+      "source_url": "https://madison.legistar.com/LegislativeDetail.aspx?ID=4917658"
+    },
+    {
+      "id": "disability-rights-emergency-planning",
+      "title": "Accessible and Inclusive Emergency Planning (Disability Rights Commission)",
+      "governing_body": "Madison Disability Rights Commission",
+      "governing_body_type": "city_commission",
+      "meeting_date": null,
+      "summary": "Commission discussion on making emergency planning more accessible and inclusive for people with disabilities. In-committee item for ongoing deliberation.",
+      "policy_domains": [
+        "Civil Rights & Social Equity",
+        "Public Safety"
+      ],
+      "decision_type": "discussion",
+      "geographic_scope": "citywide",
+      "public_comment": {
+        "available": false,
+        "deadline": null,
+        "instructions": "In-committee discussion; direct engagement unlikely unless item moves to public hearing"
+      },
+      "estimated_contestedness": "low",
+      "importance_score": 50,
+      "impact_score": 20,
+      "quadrant": "background",
+      "why_it_matters_to_you": "Aligns with your collective/equity values and civil rights salience (65/100), but this is foundational policy work unlikely to require public input soon.",
+      "source_url": "https://madison.legistar.com/LegislativeDetail.aspx?ID=4917657"
+    },
+    {
+      "id": "motorized-vehicles-parks",
+      "title": "Other Motorized Vehicles in Parks and Pedestrian Paths (Disability Rights Commission)",
+      "governing_body": "Madison Disability Rights Commission",
+      "governing_body_type": "city_commission",
+      "meeting_date": null,
+      "summary": "Commission discussion on policies governing motorized vehicles (mobility aids, e-scooters, etc.) in public parks and pedestrian paths. In-committee item.",
+      "policy_domains": [
+        "Civil Rights & Social Equity",
+        "Parks & Public Spaces"
+      ],
+      "decision_type": "discussion",
+      "geographic_scope": "citywide",
+      "public_comment": {
+        "available": false,
+        "deadline": null,
+        "instructions": "In-committee discussion; no immediate public engagement opportunity"
+      },
+      "estimated_contestedness": "low",
+      "importance_score": 40,
+      "impact_score": 20,
+      "quadrant": "background",
+      "why_it_matters_to_you": "Touches equity and parks (both moderate salience for you), but framed as a disability access issue. Worth tracking if it produces concrete policy changes.",
+      "source_url": "https://madison.legistar.com/LegislativeDetail.aspx?ID=4917656"
+    },
+    {
+      "id": "plan-commission-public-comment",
+      "title": "Plan Commission Public Comment Period (Standing Procedure)",
+      "governing_body": "Madison Plan Commission",
+      "governing_body_type": "city_commission",
+      "meeting_date": null,
+      "summary": "Standing agenda item for general public comment at Plan Commission meetings. Allows community members to address matters not otherwise listed on agenda.",
+      "policy_domains": [
+        "Government Transparency"
+      ],
+      "decision_type": "discussion",
+      "geographic_scope": "citywide",
+      "public_comment": {
+        "available": true,
+        "deadline": null,
+        "instructions": "Public comment available at all Plan Commission meetings; contact tparks@cityofmadison.com for scheduling"
       },
       "estimated_contestedness": "low",
       "importance_score": 30,
-      "impact_score": 10,
-      "quadrant": "watch",
-      "why_it_matters_to_you": "Downtown revitalization affects community character and quality of life—areas you care about. However, this is early-stage and in a primarily advisory body, so your direct influence is limited at this point.",
-      "source_url": "https://madison.legistar.com/LegislativeDetail.aspx?ID=5237104&GUID=64108149-9AAD-4D90-8AAD-8A40958CADF6"
-    },
-    {
-      "id": "parman-terrace-transportation",
-      "title": "Public Works Transportation Projects Review - Parman Terrace (Cul-de-Sac to Odana Rd)",
-      "governing_body": "Transportation Commission",
-      "governing_body_type": "advisory_commission",
-      "meeting_date": null,
-      "summary": "The Transportation Commission is reviewing a public works transportation project on Parman Terrace, involving street work from the cul-de-sac to Odana Road. This is in committee and appears to address infrastructure planning or street improvements.",
-      "policy_domains": [
-        "Transportation & Transit",
-        "Infrastructure"
-      ],
-      "decision_type": "discussion",
-      "geographic_scope": "neighborhood",
-      "public_comment": {
-        "available": false,
-        "deadline": null,
-        "instructions": "Contact Transportation Commission for meeting schedule"
-      },
-      "estimated_contestedness": "low",
-      "importance_score": 20,
-      "impact_score": 15,
-      "quadrant": "background",
-      "why_it_matters_to_you": "This is a neighborhood-level infrastructure project. Unless you live on or near Parman Terrace, this has limited salience to your broader civic interests.",
-      "source_url": "https://madison.legistar.com/LegislativeDetail.aspx?ID=5237182&GUID=18C6648E-BF9B-4422-BBFE-CCDD0183F604"
-    },
-    {
-      "id": "no-right-on-red-review",
-      "title": "No Right on Red Review and Discussion",
-      "governing_body": "Transportation Commission",
-      "governing_body_type": "advisory_commission",
-      "meeting_date": null,
-      "summary": "The Transportation Commission is discussing a potential policy on 'No Right on Red' traffic regulations. This would restrict right turns at red lights in certain locations to improve pedestrian and bicycle safety. The item has been in committee since April 24, 2026.",
-      "policy_domains": [
-        "Transportation & Transit",
-        "Public Safety",
-        "Pedestrian & Bicycle Safety"
-      ],
-      "decision_type": "discussion",
-      "geographic_scope": "citywide",
-      "public_comment": {
-        "available": false,
-        "deadline": null,
-        "instructions": "Contact Transportation Commission for meeting schedule and public comment opportunities"
-      },
-      "estimated_contestedness": "medium",
-      "importance_score": 35,
-      "impact_score": 25,
-      "quadrant": "watch",
-      "why_it_matters_to_you": "This touches on both safety and collective good (protecting pedestrians)—values you hold. However, it's still in early discussion with no imminent vote, so it's worth monitoring but doesn't require immediate action.",
-      "source_url": "https://madison.legistar.com/LegislativeDetail.aspx?ID=5236232&GUID=21BF8F82-DC63-4FCF-877A-7D002DDC7E8F"
-    },
-    {
-      "id": "council-meeting-formats-2027",
-      "title": "Common Council Meeting Formats Through September 2027",
-      "governing_body": "Madison Common Council",
-      "governing_body_type": "city_council",
-      "meeting_date": "2027-05-04",
-      "summary": "The Council Office has issued a series of reports scheduling and confirming the meeting formats (hybrid virtual and in-person at City-County Building Room 201) for Madison Common Council meetings through September 21, 2027. These are procedural scheduling matters.",
-      "policy_domains": [
-        "Government Transparency",
-        "Civic Engagement"
-      ],
-      "decision_type": "discussion",
-      "geographic_scope": "citywide",
-      "public_comment": {
-        "available": false,
-        "deadline": null,
-        "instructions": "These are procedural/scheduling items; public comment not typically applicable"
-      },
-      "estimated_contestedness": "low",
-      "importance_score": 20,
-      "impact_score": 30,
+      "impact_score": 40,
       "quadrant": "know",
-      "why_it_matters_to_you": "The hybrid format (virtual + in-person) aligns with your low engagement appetite—you can participate without attending in person if issues matter to you. This is useful logistical information but not a substantive policy issue.",
-      "source_url": "https://madison.legistar.com/LegislativeDetail.aspx?ID=5237259&GUID=E7AC2B82-3D5A-4681-B3F9-5970E0C98667"
+      "why_it_matters_to_you": "This is a mechanism for your voice if you choose to engage on specific Plan Commission items. Low importance score reflects your low engagement appetite, but high impact if you decide to comment on housing or school projects.",
+      "source_url": "https://madison.legistar.com/LegislativeDetail.aspx?ID=4734868"
     }
   ]
 }
