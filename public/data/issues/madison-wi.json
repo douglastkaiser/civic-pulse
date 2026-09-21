@@ -1,258 +1,260 @@
 {
-  "last_scraped": "2026-09-07T11:27:48.793136+00:00",
+  "last_scraped": "2026-09-21T11:51:57.065725+00:00",
   "issues": [
     {
-      "id": "esa-hud-enforcement",
-      "title": "Emotional Support Animals (ESA) and HUD Enforcement Guidance",
-      "governing_body": "Equal Opportunities Commission",
+      "id": "water-resource-permits-public-works",
+      "title": "Water Resource Impacts Review for Public Works Projects",
+      "governing_body": "Board of Public Works",
+      "governing_body_type": "city_commission",
+      "meeting_date": null,
+      "summary": "The City Engineer is reporting on a review of water resource impacts and permit requirements for public works construction projects. This addresses environmental protection and sustainable infrastructure practices in Madison.",
+      "policy_domains": [
+        "Water & Natural Resources",
+        "Environmental Protection",
+        "Public Infrastructure"
+      ],
+      "decision_type": "discussion",
+      "geographic_scope": "citywide",
+      "public_comment": {
+        "available": false,
+        "deadline": null,
+        "instructions": "Check Board of Public Works meeting agenda for public comment procedures"
+      },
+      "estimated_contestedness": "low",
+      "importance_score": 62,
+      "impact_score": 15,
+      "quadrant": "watch",
+      "why_it_matters_to_you": "Environmental protection is one of your top concerns (75 salience), and this review ensures public works projects minimize water resource impacts and comply with environmental standards you value.",
+      "source_url": "https://madison.legistar.com/"
+    },
+    {
+      "id": "metro-paratransit-accessibility",
+      "title": "Metro Transit and Paratransit Discussion",
+      "governing_body": "Disability Rights Commission",
       "governing_body_type": "advisory_commission",
-      "meeting_date": "2026-09-10",
-      "summary": "The EOC is discussing recent HUD guidance on emotional support animal enforcement in housing contexts. This touches on fair housing compliance and disability accommodations, balancing legitimate ESA protections against fraudulent claims.",
+      "meeting_date": "2026-09-20",
+      "summary": "The Disability Rights Commission is discussing metro transit and paratransit services, focusing on accessibility and service quality for people with disabilities. This connects to both transportation equity and disability rights advocacy.",
+      "policy_domains": [
+        "Transportation & Transit",
+        "Civil Rights & Social Equity",
+        "Public Services"
+      ],
+      "decision_type": "discussion",
+      "geographic_scope": "citywide",
+      "public_comment": {
+        "available": false,
+        "deadline": null,
+        "instructions": "Contact Disability Rights Commission for meeting details"
+      },
+      "estimated_contestedness": "low",
+      "importance_score": 58,
+      "impact_score": 20,
+      "quadrant": "watch",
+      "why_it_matters_to_you": "Transportation (50 salience) and civil rights/equity (65 salience) matter to you. Accessible paratransit ensures equitable service for all community members, aligning with your collective values.",
+      "source_url": "https://madison.legistar.com/"
+    },
+    {
+      "id": "mlk-humanitarian-award-commission",
+      "title": "MLK Humanitarian Award Commission—Public Comment (September 28, 2026)",
+      "governing_body": "Humanitarian Award Commission, Reverend Doctor Martin Luther King, Jr.",
+      "governing_body_type": "advisory_commission",
+      "meeting_date": "2026-09-28",
+      "summary": "Public comment period for the MLK Humanitarian Award Commission. This body selects annual award recipients who exemplify Dr. King's humanitarian ideals and contributions to civil rights and social justice.",
       "policy_domains": [
         "Civil Rights & Social Equity",
-        "Housing & Land Use",
+        "Community Recognition"
+      ],
+      "decision_type": "discussion",
+      "geographic_scope": "citywide",
+      "public_comment": {
+        "available": true,
+        "deadline": "2026-09-28",
+        "instructions": "Contact mgibson@cityofmadison.com for public comment details"
+      },
+      "estimated_contestedness": "low",
+      "importance_score": 45,
+      "impact_score": 10,
+      "quadrant": "background",
+      "why_it_matters_to_you": "While civil rights and equity align with your values (65 salience), this is primarily a ceremonial award process with limited direct policy impact, though it reflects community values you share.",
+      "source_url": "https://madison.legistar.com/"
+    },
+    {
+      "id": "mlk-award-2026-timeline",
+      "title": "2026 MLK Humanitarian Award Timeline",
+      "governing_body": "Humanitarian Award Commission, Reverend Doctor Martin Luther King, Jr.",
+      "governing_body_type": "advisory_commission",
+      "meeting_date": null,
+      "summary": "The MLK Commission is establishing the timeline for the 2026 award cycle, including nomination periods and selection deadlines.",
+      "policy_domains": [
+        "Civil Rights & Social Equity",
+        "Community Recognition"
+      ],
+      "decision_type": "discussion",
+      "geographic_scope": "citywide",
+      "public_comment": {
+        "available": false,
+        "deadline": null,
+        "instructions": "Contact mgibson@cityofmadison.com"
+      },
+      "estimated_contestedness": "low",
+      "importance_score": 30,
+      "impact_score": 5,
+      "quadrant": "background",
+      "why_it_matters_to_you": "Procedural item with minimal direct impact on policy outcomes; primarily administrative scheduling for a ceremonial award process.",
+      "source_url": "https://madison.legistar.com/"
+    },
+    {
+      "id": "mlk-commission-retreat",
+      "title": "MLK Commission Discussion and Retreat",
+      "governing_body": "Humanitarian Award Commission, Reverend Doctor Martin Luther King, Jr.",
+      "governing_body_type": "advisory_commission",
+      "meeting_date": null,
+      "summary": "The MLK Commission is planning a retreat and discussion session for internal strategic planning and governance.",
+      "policy_domains": [
+        "Civil Rights & Social Equity",
+        "Government Administration"
+      ],
+      "decision_type": "discussion",
+      "geographic_scope": "citywide",
+      "public_comment": {
+        "available": false,
+        "deadline": null,
+        "instructions": "Contact mgibson@cityofmadison.com"
+      },
+      "estimated_contestedness": "low",
+      "importance_score": 25,
+      "impact_score": 5,
+      "quadrant": "background",
+      "why_it_matters_to_you": "Internal commission planning with no direct public policy implications; primarily administrative and organizational in nature.",
+      "source_url": "https://madison.legistar.com/"
+    },
+    {
+      "id": "mlk-commission-vacancies",
+      "title": "MLK Commission Vacancies",
+      "governing_body": "Humanitarian Award Commission, Reverend Doctor Martin Luther King, Jr.",
+      "governing_body_type": "advisory_commission",
+      "meeting_date": null,
+      "summary": "The MLK Commission has open positions and is seeking applications or appointments to fill vacancies.",
+      "policy_domains": [
+        "Civil Rights & Social Equity",
+        "Government Administration"
+      ],
+      "decision_type": "discussion",
+      "geographic_scope": "citywide",
+      "public_comment": {
+        "available": false,
+        "deadline": null,
+        "instructions": "Contact mgibson@cityofmadison.com for appointment opportunities"
+      },
+      "estimated_contestedness": "low",
+      "importance_score": 28,
+      "impact_score": 25,
+      "quadrant": "background",
+      "why_it_matters_to_you": "If you're interested in deeper civic engagement around civil rights and equity (65 salience), this offers a volunteer opportunity—though your profile indicates low engagement appetite (0-1 hrs/week).",
+      "source_url": "https://madison.legistar.com/"
+    },
+    {
+      "id": "mlk-nominations-open",
+      "title": "MLK Humanitarian Award Nomination Open Update",
+      "governing_body": "Humanitarian Award Commission, Reverend Doctor Martin Luther King, Jr.",
+      "governing_body_type": "advisory_commission",
+      "meeting_date": null,
+      "summary": "Update on the opening of nominations for the 2026 MLK Humanitarian Award, inviting community members to nominate individuals exemplifying Dr. King's legacy.",
+      "policy_domains": [
+        "Civil Rights & Social Equity",
+        "Community Recognition"
+      ],
+      "decision_type": "discussion",
+      "geographic_scope": "citywide",
+      "public_comment": {
+        "available": false,
+        "deadline": null,
+        "instructions": "Contact mgibson@cityofmadison.com for nomination procedures"
+      },
+      "estimated_contestedness": "low",
+      "importance_score": 35,
+      "impact_score": 30,
+      "quadrant": "background",
+      "why_it_matters_to_you": "This invites community participation in recognizing civil rights leaders, which aligns with your values, though the time commitment is minimal and your engagement appetite is limited.",
+      "source_url": "https://madison.legistar.com/"
+    },
+    {
+      "id": "disability-rights-paratransit",
+      "title": "Disability Rights Commission—Metro Transit and Paratransit Discussion (Duplicate)",
+      "governing_body": "Disability Rights Commission",
+      "governing_body_type": "advisory_commission",
+      "meeting_date": "2026-09-20",
+      "summary": "Follow-up discussion on metro transit accessibility and paratransit service quality, ensuring transportation equity for people with disabilities.",
+      "policy_domains": [
+        "Transportation & Transit",
+        "Civil Rights & Social Equity",
+        "Accessibility"
+      ],
+      "decision_type": "discussion",
+      "geographic_scope": "citywide",
+      "public_comment": {
+        "available": false,
+        "deadline": null,
+        "instructions": "Contact Disability Rights Commission for meeting details"
+      },
+      "estimated_contestedness": "low",
+      "importance_score": 58,
+      "impact_score": 20,
+      "quadrant": "watch",
+      "why_it_matters_to_you": "Accessibility and equitable transportation align with your collective/social values and civil rights priorities (50 and 65 salience respectively).",
+      "source_url": "https://madison.legistar.com/"
+    },
+    {
+      "id": "disability-parking-update",
+      "title": "Disability Rights Commission—Parking Division Update",
+      "governing_body": "Disability Rights Commission",
+      "governing_body_type": "advisory_commission",
+      "meeting_date": "2026-09-20",
+      "summary": "The Parking Division is providing an update to the Disability Rights Commission on accessible parking policies and implementation.",
+      "policy_domains": [
+        "Accessibility",
+        "Civil Rights & Social Equity",
+        "Transportation & Transit"
+      ],
+      "decision_type": "discussion",
+      "geographic_scope": "citywide",
+      "public_comment": {
+        "available": false,
+        "deadline": null,
+        "instructions": "Contact mgibson@cityofmadison.com"
+      },
+      "estimated_contestedness": "low",
+      "importance_score": 45,
+      "impact_score": 15,
+      "quadrant": "background",
+      "why_it_matters_to_you": "Accessible parking affects equitable community access, which aligns with your civil rights values (65 salience), though this is a routine operational update.",
+      "source_url": "https://madison.legistar.com/"
+    },
+    {
+      "id": "disability-inclusive-meeting-practices",
+      "title": "Disability Rights Commission—Inclusive Meeting Practices Updates",
+      "governing_body": "Disability Rights Commission",
+      "governing_body_type": "advisory_commission",
+      "meeting_date": "2026-09-20",
+      "summary": "The DRC is reviewing and updating its own meeting accessibility and inclusive practices to ensure all community members can participate fully.",
+      "policy_domains": [
+        "Accessibility",
+        "Civil Rights & Social Equity",
         "Government Transparency"
       ],
       "decision_type": "discussion",
       "geographic_scope": "citywide",
       "public_comment": {
-        "available": true,
-        "deadline": "2026-09-10",
-        "instructions": "Public comments available at Equal Opportunities Commission meeting on September 10, 2026"
-      },
-      "estimated_contestedness": "medium",
-      "importance_score": 35,
-      "impact_score": 15,
-      "quadrant": "background",
-      "why_it_matters_to_you": "This involves fair housing and disability accommodations, which align with your collective/equity values, but it's a specialized issue unlikely to affect you directly as a median voter with low engagement appetite.",
-      "source_url": "https://madison.legistar.com/LegislativeDetail.aspx?ID=5783754&GUID=EBA003E6-2E95-46A4-B413-641B4EEFB6EF"
-    },
-    {
-      "id": "independent-monitor-budget",
-      "title": "Office of the Independent Monitor Budget Amendment",
-      "governing_body": "Finance Committee / Common Council",
-      "governing_body_type": "city_council_committee",
-      "meeting_date": "2026-09-08",
-      "summary": "Resolution to transfer $28,500 from contingent reserves to the Office of the Independent Monitor for additional staffing and services, plus directive to account for critical incident response costs (July 22 – Sept 8, 2026). Reflects recent police oversight activity.",
-      "policy_domains": [
-        "Public Safety",
-        "Government Transparency",
-        "Civil Rights & Social Equity"
-      ],
-      "decision_type": "vote",
-      "geographic_scope": "citywide",
-      "public_comment": {
-        "available": true,
-        "deadline": "2026-09-08",
-        "instructions": "Common Council meeting on September 8, 2026"
-      },
-      "estimated_contestedness": "medium",
-      "importance_score": 55,
-      "impact_score": 20,
-      "quadrant": "watch",
-      "why_it_matters_to_you": "Police accountability and transparency matter to you as someone who values equity and collective oversight, though your low engagement means you're unlikely to testify or attend. This is an important indicator of how Madison handles police oversight.",
-      "source_url": "https://madison.legistar.com/LegislativeDetail.aspx?ID=5783750&GUID=D86D4FDB-B807-44C5-A6A4-C3A6250D3C85"
-    },
-    {
-      "id": "willy-street-stabilization",
-      "title": "Willy Street Business Stabilization Program",
-      "governing_body": "Finance Committee / Common Council",
-      "governing_body_type": "city_council_committee",
-      "meeting_date": "2026-09-08",
-      "summary": "Resolution transferring $75,000 to create a Williamson Street Business Stabilization Support Program (District 6). Follows recent street challenges and aims to support local business recovery.",
-      "policy_domains": [
-        "Economic Development",
-        "Community Development"
-      ],
-      "decision_type": "vote",
-      "geographic_scope": "district",
-      "public_comment": {
-        "available": true,
-        "deadline": "2026-09-08",
-        "instructions": "Common Council meeting on September 8, 2026"
-      },
-      "estimated_contestedness": "low",
-      "importance_score": 30,
-      "impact_score": 25,
-      "quadrant": "background",
-      "why_it_matters_to_you": "This is a neighborhood stabilization effort that reflects pragmatic community-oriented values, but unless you're in District 6 or a frequent Willy Street patron, it has limited direct salience for you.",
-      "source_url": "https://madison.legistar.com/LegislativeDetail.aspx?ID=5783735&GUID=C7C3807D-65D2-46EC-89F0-28403072BB33"
-    },
-    {
-      "id": "mcdowell-rezoning",
-      "title": "McDowell Drive Rezoning (District 1)",
-      "governing_body": "Plan Commission / Common Council",
-      "governing_body_type": "city_council_committee",
-      "meeting_date": "2026-09-08",
-      "summary": "Zoning change for 8302 McDowell Drive from Temporary Agricultural to mixed-use districts (TR-U1, TR-U2, CC-T). Part of Madison's ongoing housing and land-use transformation.",
-      "policy_domains": [
-        "Housing & Land Use",
-        "Economic Development"
-      ],
-      "decision_type": "vote",
-      "geographic_scope": "district",
-      "public_comment": {
-        "available": true,
-        "deadline": "2026-09-08",
-        "instructions": "Plan Commission and Common Council meetings"
-      },
-      "estimated_contestedness": "low",
-      "importance_score": 40,
-      "impact_score": 30,
-      "quadrant": "background",
-      "why_it_matters_to_you": "Housing expansion aligns with Madison's Housing Forward goals and could affect affordability, but you haven't formed strong opinions on zoning/density, and this is a single northeast District 1 site unlikely to materially shift citywide housing costs.",
-      "source_url": "https://madison.legistar.com/LegislativeDetail.aspx?ID=5783706&GUID=27737B1F-76DC-4407-8AD3-49904C8CDF0D"
-    },
-    {
-      "id": "ely-place-landmarks-appeal",
-      "title": "Appeal of Landmarks Commission Approval – 113 Ely Place",
-      "governing_body": "Common Council",
-      "governing_body_type": "city_council",
-      "meeting_date": "2026-09-08",
-      "summary": "An appeal challenging the Landmarks Commission's approval of a land division in the University Heights Historic District. Hearing is recessed and continuing, reflecting ongoing neighborhood preservation concerns.",
-      "policy_domains": [
-        "Housing & Land Use",
-        "Parks & Public Spaces"
-      ],
-      "decision_type": "vote",
-      "geographic_scope": "neighborhood",
-      "public_comment": {
-        "available": true,
-        "deadline": "2026-09-08",
-        "instructions": "Common Council recessed public hearing on September 8, 2026"
-      },
-      "estimated_contestedness": "medium",
-      "importance_score": 35,
-      "impact_score": 20,
-      "quadrant": "background",
-      "why_it_matters_to_you": "Historic preservation reflects your slight preference for preservation over growth, but this is a narrow neighborhood property dispute unlikely to affect you directly unless you live in University Heights.",
-      "source_url": "https://madison.legistar.com/LegislativeDetail.aspx?ID=5783723&GUID=9E0F730A-D058-4CC9-B593-1A3A069CE58D"
-    },
-    {
-      "id": "wonder-bar-landmark",
-      "title": "Landmark Nomination – 222 E Olin Avenue (Wonder Bar)",
-      "governing_body": "Landmarks Commission / Common Council",
-      "governing_body_type": "city_council_committee",
-      "meeting_date": "2026-09-08",
-      "summary": "Resolution approving landmark status for the Wonder Bar at 222 E Olin Avenue (District 14). Protects a cultural establishment from demolition or radical alteration.",
-      "policy_domains": [
-        "Parks & Public Spaces",
-        "Community Development"
-      ],
-      "decision_type": "vote",
-      "geographic_scope": "neighborhood",
-      "public_comment": {
-        "available": true,
-        "deadline": "2026-09-08",
-        "instructions": "Landmarks Commission and Common Council public hearings"
-      },
-      "estimated_contestedness": "low",
-      "importance_score": 25,
-      "impact_score": 10,
-      "quadrant": "background",
-      "why_it_matters_to_you": "Historic and cultural preservation is modest salience for you; this is a targeted neighborhood issue with community value but unlikely to directly affect your day-to-day life.",
-      "source_url": "https://madison.legistar.com/LegislativeDetail.aspx?ID=5783741&GUID=33735380-0656-496A-81C6-43E269FC6009"
-    },
-    {
-      "id": "wiedenbeck-dobelin-landmark",
-      "title": "Landmark Nomination Amendment – 619 W Mifflin Street (Wiedenbeck-Dobelin Warehouse)",
-      "governing_body": "Landmarks Commission / Common Council",
-      "governing_body_type": "city_council_committee",
-      "meeting_date": "2026-09-08",
-      "summary": "Resolution to amend an existing landmark nomination for the Wiedenbeck-Dobelin Warehouse in District 4. Technical refinement to preservation protections.",
-      "policy_domains": [
-        "Parks & Public Spaces"
-      ],
-      "decision_type": "vote",
-      "geographic_scope": "neighborhood",
-      "public_comment": {
-        "available": true,
-        "deadline": "2026-09-08",
-        "instructions": "Landmarks Commission and Common Council hearings"
-      },
-      "estimated_contestedness": "low",
-      "importance_score": 20,
-      "impact_score": 10,
-      "quadrant": "background",
-      "why_it_matters_to_you": "This is a routine technical landmark amendment with minimal relevance to your broader policy interests unless you live in or frequently visit District 4.",
-      "source_url": "https://madison.legistar.com/LegislativeDetail.aspx?ID=5783686&GUID=41D09CFE-865B-491D-9BB8-6B6390F52A5C"
-    },
-    {
-      "id": "state-street-public-art",
-      "title": "State Street Campus Garage/Hawthorne Court Public Art Commission",
-      "governing_body": "Planning Division / Finance Committee",
-      "governing_body_type": "city_council_committee",
-      "meeting_date": "2026-08-04",
-      "summary": "Resolution approving design and authorizing an agreement with StudioKCA for a site-specific public art installation at the State Street Campus Garage (District 2). Already passed and enacted (RES-26-00445).",
-      "policy_domains": [
-        "Parks & Public Spaces",
-        "Community Development"
-      ],
-      "decision_type": "vote",
-      "geographic_scope": "neighborhood",
-      "public_comment": {
         "available": false,
         "deadline": null,
-        "instructions": "Already enacted; public comment period closed"
+        "instructions": "Contact mgibson@cityofmadison.com"
       },
       "estimated_contestedness": "low",
-      "importance_score": 20,
-      "impact_score": 5,
+      "importance_score": 42,
+      "impact_score": 12,
       "quadrant": "background",
-      "why_it_matters_to_you": "Public art supports community aesthetics and downtown vitality, which you value, but this is a completed action with no remaining engagement opportunity.",
-      "source_url": "https://madison.legistar.com/LegislativeDetail.aspx?ID=5783677&GUID=49E9DA85-B49C-4E0F-9607-74C5EA9DACDB"
-    },
-    {
-      "id": "pcob-reporting-ordinance",
-      "title": "Police Civilian Oversight Board and Independent Monitor Reporting Requirements",
-      "governing_body": "Attorney's Office / Common Council",
-      "governing_body_type": "city_council",
-      "meeting_date": "2026-08-04",
-      "summary": "Ordinance to add public reporting requirements for the Office of the Independent Monitor and Police Civilian Oversight Board. Withdrawn on August 4, 2026, but represents ongoing police accountability transparency efforts.",
-      "policy_domains": [
-        "Public Safety",
-        "Government Transparency",
-        "Civil Rights & Social Equity"
-      ],
-      "decision_type": "vote",
-      "geographic_scope": "citywide",
-      "public_comment": {
-        "available": false,
-        "deadline": null,
-        "instructions": "Item withdrawn; no further action"
-      },
-      "estimated_contestedness": "medium",
-      "importance_score": 50,
-      "impact_score": 15,
-      "quadrant": "watch",
-      "why_it_matters_to_you": "Government transparency and police oversight matter to you, but the withdrawal of this ordinance reduces its immediate salience. Watch for reintroduction or alternative accountability measures.",
-      "source_url": "https://madison.legistar.com/LegislativeDetail.aspx?ID=5783666&GUID=70BEE4E5-050A-4FBB-9046-23A1B7D126ED"
-    },
-    {
-      "id": "pcob-presentation",
-      "title": "PCOB and Independent Monitor Next Steps Presentation",
-      "governing_body": "Common Council",
-      "governing_body_type": "city_council",
-      "meeting_date": "2026-08-04",
-      "summary": "Council President Sabrina Madison presented next steps regarding the Police Civilian Oversight Board and Office of the Independent Monitor. Status of police accountability infrastructure and governance.",
-      "policy_domains": [
-        "Public Safety",
-        "Government Transparency",
-        "Civil Rights & Social Equity"
-      ],
-      "decision_type": "discussion",
-      "geographic_scope": "citywide",
-      "public_comment": {
-        "available": false,
-        "deadline": null,
-        "instructions": "Presentation already delivered; available in meeting minutes/recording"
-      },
-      "estimated_contestedness": "low",
-      "importance_score": 45,
-      "impact_score": 10,
-      "quadrant": "watch",
-      "why_it_matters_to_you": "Police oversight is important to you as someone concerned with equity and community safety, but presentations are informational; your ability to influence the outcome is limited.",
-      "source_url": "https://madison.legistar.com/LegislativeDetail.aspx?ID=5783717&GUID=5D99DC63-7A9C-473E-A317-D857EED10372"
+      "why_it_matters_to_you": "Process improvements for accessibility reflect your values around inclusive democracy and social equity, though this is internal governance focused.",
+      "source_url": "https://madison.legistar.com/"
     }
   ]
 }
