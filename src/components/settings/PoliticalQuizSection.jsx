@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
 import { getUserProfile, saveUserProfile } from '../../lib/userStore'
-import { saveApiKey, getApiKey, clearApiKey } from '../../lib/apiKeyStore'
 import { generateProfile } from '../../lib/profileGenerator'
 import { VALUE_DIMENSIONS, ISSUE_DOMAINS, ENGAGEMENT_QUESTIONS } from './QuizQuestions'
 
@@ -23,8 +22,6 @@ function initEngagement() {
 }
 
 export default function PoliticalQuizSection({ user }) {
-  const [apiKey, setApiKey] = useState('')
-  const [showKey, setShowKey] = useState(false)
   const [freeformText, setFreeformText] = useState('')
   const [values, setValues] = useState(initValues)
   const [issueSalience, setIssueSalience] = useState(initSalience)
@@ -36,9 +33,6 @@ export default function PoliticalQuizSection({ user }) {
 
   // Load existing quiz answers and API key on mount
   useEffect(() => {
-    const stored = getApiKey()
-    if (stored) setApiKey(stored)
-
     getUserProfile(user.uid).then(profile => {
       if (profile?.quiz_answers) {
         const qa = profile.quiz_answers
@@ -51,23 +45,7 @@ export default function PoliticalQuizSection({ user }) {
     }).catch(() => setLoaded(true))
   }, [user.uid])
 
-  const handleApiKeySave = () => {
-    saveApiKey(apiKey)
-  }
-
-  const handleApiKeyClear = () => {
-    setApiKey('')
-    clearApiKey()
-  }
-
-  const isValidKey = apiKey.startsWith('sk-ant-')
-
   const handleRegenerate = async () => {
-    if (!isValidKey) {
-      setError('Please enter a valid Anthropic API key (starts with sk-ant-).')
-      return
-    }
-
     setGenerating(true)
     setError(null)
     setSuccess(false)
@@ -75,11 +53,8 @@ export default function PoliticalQuizSection({ user }) {
     const quizAnswers = { freeformText, values, issueSalience, engagement }
 
     try {
-      // Save API key
-      saveApiKey(apiKey)
-
       // Generate profile via Claude
-      const generated = await generateProfile(quizAnswers, apiKey)
+      const generated = await generateProfile(quizAnswers)
 
       // Save to Firestore
       await saveUserProfile(user.uid, {
@@ -118,54 +93,7 @@ export default function PoliticalQuizSection({ user }) {
         Describe your political views and priorities. Click "Regenerate Profile" to create your personalized dashboard using AI.
       </p>
 
-      {/* API Key */}
-      <div className="mb-8 bg-bg-panel border border-border rounded-lg p-4">
-        <h3 className="font-mono text-xs font-bold text-text-primary tracking-wide mb-2">
-          ANTHROPIC API KEY
-        </h3>
-        <p className="text-xs text-text-tertiary mb-3">
-          Your key is stored locally in your browser and used only to generate your profile. It is never sent to our servers.
-        </p>
-        <div className="flex gap-2 items-center">
-          <div className="relative flex-1">
-            <input
-              type={showKey ? 'text' : 'password'}
-              value={apiKey}
-              onChange={e => setApiKey(e.target.value)}
-              placeholder="sk-ant-..."
-              disabled={generating}
-              className="w-full px-3 py-2 text-sm font-mono bg-bg-elevated border border-border rounded text-text-primary placeholder:text-text-tertiary focus:outline-none focus:border-accent-blue/50 disabled:opacity-50"
-            />
-            <button
-              type="button"
-              onClick={() => setShowKey(!showKey)}
-              className="absolute right-2 top-1/2 -translate-y-1/2 text-xs text-text-tertiary hover:text-text-secondary font-mono"
-            >
-              {showKey ? 'HIDE' : 'SHOW'}
-            </button>
-          </div>
-          <button
-            onClick={handleApiKeySave}
-            disabled={!apiKey || generating}
-            className="px-3 py-2 text-xs font-mono rounded border border-border text-text-secondary hover:text-accent-blue hover:border-accent-blue/30 transition-colors disabled:opacity-50"
-          >
-            Save
-          </button>
-          <button
-            onClick={handleApiKeyClear}
-            disabled={generating}
-            className="px-3 py-2 text-xs font-mono rounded border border-border text-text-secondary hover:text-accent-red hover:border-accent-red/30 transition-colors disabled:opacity-50"
-          >
-            Clear
-          </button>
-        </div>
-        {apiKey && !isValidKey && (
-          <p className="text-xs text-accent-red mt-2 font-mono">
-            Key should start with "sk-ant-"
-          </p>
-        )}
-      </div>
-
+      <p className="text-sm text-text-secondary mb-6">Optional AI enrichment uses your quiz responses through an authenticated service. No API key is needed. Local issues and saved actions work without a generated profile.</p>
       {/* Freeform Write-Up */}
       <div className="mb-8 bg-bg-panel border border-border rounded-lg p-4">
         <h3 className="font-mono text-xs font-bold text-text-primary tracking-wide mb-2">
@@ -299,13 +227,11 @@ export default function PoliticalQuizSection({ user }) {
       {/* Regenerate Button */}
       <button
         onClick={handleRegenerate}
-        disabled={generating || !isValidKey}
+        disabled={generating}
         className={`w-full py-3 px-4 font-mono text-sm font-bold rounded-lg border-2 transition-all duration-150 ${
           generating
             ? 'bg-accent-blue/10 text-accent-blue border-accent-blue/30 cursor-wait'
-            : !isValidKey
-              ? 'bg-bg-elevated text-text-tertiary border-border cursor-not-allowed'
-              : 'bg-accent-blue/15 text-accent-blue border-accent-blue/40 hover:bg-accent-blue/25 hover:border-accent-blue/60'
+            : 'bg-accent-blue/15 text-accent-blue border-accent-blue/40 hover:bg-accent-blue/25 hover:border-accent-blue/60'
         }`}
       >
         {generating ? (
@@ -317,11 +243,7 @@ export default function PoliticalQuizSection({ user }) {
           'REGENERATE PROFILE'
         )}
       </button>
-      {!isValidKey && !error && (
-        <p className="text-xs text-text-tertiary font-mono mt-2 text-center">
-          Enter a valid API key above to enable profile generation.
-        </p>
-      )}
+
     </section>
   )
 }

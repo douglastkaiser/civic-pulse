@@ -7,12 +7,14 @@ const AuthContext = createContext(null)
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(null)
   const [loading, setLoading] = useState(true)
+  const [error, setError] = useState(null)
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (firebaseUser) => {
       setUser(firebaseUser)
       setLoading(false)
-    })
+      setError(null)
+    }, () => { setLoading(false); setError('Sign-in services are unavailable. Please retry.') })
     return unsubscribe
   }, [])
 
@@ -21,7 +23,7 @@ export function AuthProvider({ children }) {
   const signOut = () => firebaseSignOut(auth)
 
   return (
-    <AuthContext.Provider value={{ user, loading, signInWithGoogle, signOut }}>
+    <AuthContext.Provider value={{ user, loading, error, signInWithGoogle, signOut }}>
       {children}
     </AuthContext.Provider>
   )

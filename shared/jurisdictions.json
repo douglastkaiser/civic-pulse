@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "jurisdictions": [
+    {
+      "id": "austin-78702",
+      "label": "Austin, TX",
+      "timezone": "America/Chicago",
+      "coverage": "partial",
+      "source": {
+        "type": "legistar",
+        "base_url": "https://webapi.legistar.com/v1/austintexas",
+        "documentation_url": "https://webapi.legistar.com/Help"
+      },
+      "organizations": [
+        "austin-yimby-action",
+        "austin-abundance-project",
+        "austin-safe-and-sound"
+      ]
+    },
+    {
+      "id": "orange-92868",
+      "label": "Orange County, CA",
+      "timezone": "America/Los_Angeles",
+      "coverage": "snapshot",
+      "source": null,
+      "organizations": [
+        "oc-housing-now",
+        "oc-purple-accountability",
+        "oc-abundance-project"
+      ]
+    }
+  ]
+}

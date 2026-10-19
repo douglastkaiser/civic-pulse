@@ -6,23 +6,45 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test --test-isolation=none tests/contracts.test.js tests/calendar.test.js",
+    "test:pipeline": "python -m unittest discover -s tests -p 'test_*.py'",
+    "validate:data": "python scripts/validate_data.py",
+    "test:rules": "firebase emulators:exec --only firestore --project demo-civic-pulse \"node --test --test-isolation=none tests/firestore.rules.test.js\"",
+    "test:browser": "playwright test",
+    "test:integration": "firebase emulators:exec --only auth,firestore,functions --project demo-civic-pulse \"node --test --test-isolation=none tests/functions.integration.test.js\"",
+    "check": "npm run lint && npm run typecheck && npm test && npm run test:pipeline && npm run validate:data && npm run build",
+    "test:resident": "firebase emulators:exec --only auth,firestore,functions --project demo-civic-pulse \"VITE_USE_EMULATORS=true TEST_EMULATORS=true playwright test\""
   },
   "dependencies": {
     "firebase": "^12.11.0",
-    "plotly.js": "^2.35.0",
+    "firebase-admin": "^14.5.0",
+    "firebase-functions": "^7.4.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-plotly.js": "^2.6.0",
     "react-router-dom": "^7.13.1"
   },
   "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "@firebase/rules-unit-testing": "^5.0.2",
+    "@playwright/test": "^1.64.1",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.4",
     "autoprefixer": "^10.4.20",
+    "eslint": "^9.39.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "firebase-tools": "^15.34.0",
     "postcss": "^8.4.49",
+    "prettier": "^3.9.10",
     "tailwindcss": "^3.4.17",
+    "typescript": "^7.0.2",
     "vite": "^6.0.5"
+  },
+  "main": "functions/index.js",
+  "engines": {
+    "node": ">=22"
   }
 }

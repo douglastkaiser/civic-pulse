@@ -1,3 +1,6 @@
+import registry from '../../shared/jurisdictions.json'
+import { fetchJSON as requestJSON } from './request'
+import { validateIssueCollection, validateFreshness } from '../../shared/contracts.js'
 import { loadDynamicLocation, loadDynamicIssues } from './locationStore'
 import { loadOrgFromFirestore } from './orgStore'
 import { normalizeLocationBridgeProvenance, normalizeOrgBridgeProvenance } from './bridgeProvenance'
@@ -14,22 +17,14 @@ export const PROFILE_IDS = [
 
 export const PROFILE_ID = 'doug'
 
-export const ORG_IDS_BY_LOCATION = {
-  'austin-78702': ['austin-yimby-action', 'austin-abundance-project', 'austin-safe-and-sound'],
-  'orange-92868': ['oc-housing-now', 'oc-purple-accountability', 'oc-abundance-project'],
-}
+export const ORG_IDS_BY_LOCATION = Object.fromEntries(registry.jurisdictions.map(j => [j.id, j.organizations]))
 
-export const LOCATION_LABELS = {
-  'austin-78702': 'Austin, TX',
-  'orange-92868': 'Orange County, CA',
-}
+export const LOCATION_LABELS = Object.fromEntries(registry.jurisdictions.map(j => [j.id, j.label]))
 
 export const ORG_IDS = Object.values(ORG_IDS_BY_LOCATION).flat()
 
-async function fetchJSON(path) {
-  const res = await fetch(`${BASE}data/${path}`)
-  if (!res.ok) throw new Error(`Failed to fetch ${path}: ${res.status}`)
-  return res.json()
+function fetchJSON(path, options) {
+  return requestJSON(`${BASE}data/${path}`, options)
 }
 
 export function loadProfile(id) {
@@ -43,15 +38,15 @@ export function loadLocation(id) {
   return loadDynamicLocation(id).then(normalizeLocationBridgeProvenance)
 }
 
-export function loadIssues(id) {
+export function loadIssues(id, options = {}) {
   if (LOCATION_LABELS[id]) {
-    return fetchJSON(`issues/${id}.json`)
+    return fetchJSON(`issues/${id}.json`, { ...options, validate: validateIssueCollection })
   }
-  return loadDynamicIssues(id)
+  return loadDynamicIssues(id).then(validateIssueCollection)
 }
 
 export function loadFreshness() {
-  return fetchJSON('meta/freshness.json')
+  return fetchJSON('meta/freshness.json', { validate: validateFreshness })
 }
 
 export async function loadAllProfiles() {
@@ -66,7 +61,8 @@ export async function loadOrg(orgId) {
   try {
     const org = await fetchJSON(`orgs/${orgId}.json`)
     return normalizeOrgBridgeProvenance(org)
-  } catch {
+  } catch (error) {
+    if (error.status !== 404) throw error
     // Static JSON not found — try Firestore for user-created orgs
     const firestoreOrg = await loadOrgFromFirestore(orgId)
     if (firestoreOrg) return normalizeOrgBridgeProvenance(firestoreOrg)

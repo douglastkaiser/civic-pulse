@@ -1,6 +1,8 @@
+import { useAuth } from '../lib/auth'
+import { getUserProfile } from '../lib/userStore'
 import { useState, useEffect, useMemo } from 'react'
 import { useParams } from 'react-router-dom'
-import { loadProfile, loadOfficials, PROFILE_ID } from '../lib/data'
+import { loadOfficials } from '../lib/data'
 import { applyWeightedAlignments } from '../lib/alignmentWeighting'
 import ExportButton from './shared/ExportButton'
 import HierarchyTree from './officials/HierarchyTree'
@@ -10,8 +12,11 @@ import ContextTooltip from './shared/ContextTooltip'
 
 export default function OfficialsPage() {
   const { locationId } = useParams()
+  const { user } = useAuth()
   const [profile, setProfile] = useState(null)
   const [officials, setOfficials] = useState(null)
+  const [loadError, setLoadError] = useState(false)
+  const [retry, setRetry] = useState(0)
   const [loading, setLoading] = useState(true)
   const [locationLoading, setLocationLoading] = useState(false)
   const [selectedOfficialId, setSelectedOfficialId] = useState(null)
@@ -20,15 +25,22 @@ export default function OfficialsPage() {
 
   // Load profile for manifesto data
   useEffect(() => {
-    loadProfile(PROFILE_ID)
-      .then(setProfile)
+    setProfile(null)
+    if (!user?.uid) return
+    let active = true
+    getUserProfile(user.uid)
+      .then(value => { if (active) setProfile(value) })
       .catch((err) => console.error('Failed to load profile:', err))
-  }, [])
+    return () => { active = false }
+  }, [user?.uid])
 
   // Load officials for location from URL
   useEffect(() => {
     if (!locationId) return
 
+    let active = true
+    setLoadError(false)
+    setOfficials(null)
     setLoading(true)
     setLocationLoading(true)
     setSelectedOfficialId(null)
@@ -36,17 +48,21 @@ export default function OfficialsPage() {
 
     loadOfficials(locationId)
       .then((data) => {
+        if (!active) return
         setOfficials(data)
         setLoading(false)
         setLocationLoading(false)
       })
       .catch((err) => {
+        if (!active) return
+        setLoadError(true)
         console.error('Failed to load officials:', err)
         setOfficials(null)
         setLoading(false)
         setLocationLoading(false)
       })
-  }, [locationId])
+    return () => { active = false }
+  }, [locationId, retry])
 
   // Apply weighted alignment scores when toggled
   const enrichedOfficials = useMemo(() => {
@@ -106,6 +122,8 @@ export default function OfficialsPage() {
       },
     }
   }
+
+  if (loadError) return <div className="page-wrap"><p role="alert">The officials reference could not be loaded.</p><button className="civic-button mt-4" onClick={() => setRetry(v => v + 1)}>Try again</button></div>
 
   if (loading) {
     return (

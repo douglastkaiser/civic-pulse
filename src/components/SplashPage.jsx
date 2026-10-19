@@ -1,3 +1,5 @@
+import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import { useAuth } from '../lib/auth'
 
 const features = [
@@ -29,15 +31,18 @@ const features = [
 
 export default function SplashPage() {
   const { signInWithGoogle } = useAuth()
+  const [error, setError] = useState(null)
+  const [busy, setBusy] = useState(false)
 
   const handleSignIn = async () => {
+    setError(null); setBusy(true)
     try {
       await signInWithGoogle()
     } catch (err) {
       if (err.code !== 'auth/popup-closed-by-user') {
-        console.error('Sign-in error:', err)
+        setError('Sign-in could not finish. Please try again or allow the sign-in popup.')
       }
-    }
+    } finally { setBusy(false) }
   }
 
   return (
@@ -48,14 +53,15 @@ export default function SplashPage() {
           CIVIC PULSE
         </h1>
         <p className="text-text-secondary text-lg md:text-xl max-w-xl mb-2 font-sans">
-          Political intelligence for local civic engagement
+          Understand your community. Take a useful next step.
         </p>
         <p className="text-text-tertiary text-sm max-w-md mb-10 font-sans">
-          Monitor your local government, map it against your priorities, and get actionable insights — all private to you.
+          Explore local decisions, follow what matters to you, and keep your next action close.
         </p>
 
         <button
           onClick={handleSignIn}
+          disabled={busy}
           className="flex items-center gap-3 px-6 py-3 bg-bg-panel border-2 border-border rounded-lg shadow-sm hover:shadow-md hover:border-accent-blue/40 transition-all duration-200 group"
         >
           <svg className="w-5 h-5" viewBox="0 0 24 24">
@@ -80,6 +86,9 @@ export default function SplashPage() {
             Sign in with Google
           </span>
         </button>
+        <Link to="/explore" className="text-accent-blue underline mt-6">Explore local issues without an account</Link>
+        <Link to="/demo" className="text-accent-blue underline mt-3">Try an example resident briefing</Link>
+        {error && <p role="alert" className="text-accent-red mt-4">{error}</p>}
       </header>
 
       {/* Features */}

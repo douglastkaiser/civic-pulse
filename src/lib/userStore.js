@@ -11,7 +11,7 @@ export async function getUserProfile(uid) {
 }
 
 export async function saveUserProfile(uid, data) {
-  await setDoc(userDoc(uid), { ...data, updatedAt: serverTimestamp() }, { merge: true })
+  await setDoc(userDoc(uid), { ...data, schema_version: 1, updatedAt: serverTimestamp() }, { merge: true })
 }
 
 export function emptyProfile(user) {

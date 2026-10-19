@@ -1,13 +1,10 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import { execSync } from 'child_process'
-
-const commitHash = execSync('git rev-parse --short HEAD').toString().trim()
 
 export default defineConfig({
   plugins: [react()],
-  base: '/civic-pulse/',
+  base: process.env.VITE_BASE_PATH || '/civic-pulse/',
   define: {
-    __COMMIT_HASH__: JSON.stringify(commitHash),
+    __COMMIT_HASH__: JSON.stringify(process.env.GITHUB_SHA?.slice(0, 7) || 'local'),
   },
 })

@@ -116,7 +116,7 @@ export default function NextStepsPanel({ profile, nextSteps }) {
               Next steps not yet generated
             </div>
             <div className="text-text-tertiary text-xs mt-1">
-              Complete the profile questionnaire and run the pipeline.
+              Explore local issues to choose a next step, or add your interests in Profile.
             </div>
           </div>
         </div>

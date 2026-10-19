@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from 'react'
-import { loadProfile, loadFreshness, loadLocation, PROFILE_ID } from '../lib/data'
+import { loadLocation } from '../lib/data'
 import { useAuth } from '../lib/auth'
 import { getUserProfile } from '../lib/userStore'
 import ManifestoPanel from './ManifestoPanel'
@@ -225,17 +225,11 @@ export default function PersonalDashboard() {
       try {
         // Try loading the user's Firestore profile first
         const userProfile = await getUserProfile(user.uid)
-        if (userProfile?.manifesto) {
+        if (userProfile) {
           loadedProfile = userProfile
           setProfile(userProfile)
         } else {
-          // Fall back to static profile data if it exists
-          const [prof] = await Promise.all([
-            loadProfile(PROFILE_ID),
-            loadFreshness(),
-          ])
-          loadedProfile = prof
-          setProfile(prof)
+          setIsEmpty(true)
         }
       } catch {
         // No static data and no Firestore data → empty state
@@ -324,7 +318,7 @@ export default function PersonalDashboard() {
   const getExportData = () => ({
     export_type: 'personal_political_profile',
     exported_at: new Date().toISOString(),
-    profile_id: PROFILE_ID,
+    profile_id: user.uid,
     display_name: profile.display_name,
     political_context: profile.political_context,
     values: profile.values,

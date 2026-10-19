@@ -249,7 +249,7 @@ function HoverTooltip({ position, mousePos, containerRef }) {
       setVisible(false)
     }
     return () => { if (timerRef.current) clearTimeout(timerRef.current) }
-  }, [position?.id])
+  }, [position])
 
   if (!visible || !position || !containerRef.current) return null
 

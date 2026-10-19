@@ -1,0 +1,62 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() { return request.auth != null; }
+    function self(uid) { return signedIn() && request.auth.uid == uid; }
+    function orgMember(orgId) {
+      return signedIn() && (get(/databases/$(database)/documents/organizations/$(orgId)).data.createdBy == request.auth.uid || request.auth.uid in get(/databases/$(database)/documents/organizations/$(orgId)).data.memberIds);
+    }
+    function orgEditor(orgId) {
+      let org = get(/databases/$(database)/documents/organizations/$(orgId)).data;
+      return signedIn() && (org.createdBy == request.auth.uid || org.members.get(request.auth.uid, '') == 'organizer');
+    }
+    match /users/{uid} {
+      allow read: if self(uid);
+      allow delete: if false;
+      allow create, update: if self(uid)
+        && request.resource.data.keys().hasOnly(['schema_version', 'preferences', 'locations', 'display_name', 'email', 'photoURL', 'values', 'issue_salience', 'manifesto', 'political_compass', 'political_positions', 'political_context', 'engagement_appetite', 'quiz_answers', 'manifesto_inputs_complete', 'createdAt', 'updatedAt']);
+      match /actions/{actionId} {
+        allow read, delete: if self(uid);
+        allow create, update: if self(uid)
+          && request.resource.data.keys().hasOnly(['schema_version', 'issueId', 'locationId', 'title', 'state', 'notes', 'createdAt', 'updatedAt'])
+          && request.resource.data.schema_version == 1
+          && request.resource.data.issueId is string && request.resource.data.issueId.size() <= 300
+          && request.resource.data.locationId is string && request.resource.data.locationId.size() <= 100
+          && request.resource.data.title is string && request.resource.data.title.size() <= 2000
+          && request.resource.data.notes is string && request.resource.data.notes.size() <= 4000
+          && request.resource.data.state in ['saved', 'planned', 'completed', 'dismissed']
+          && (request.method == 'create' || (request.resource.data.issueId == resource.data.issueId && request.resource.data.locationId == resource.data.locationId));
+      }
+      // Usage reservations, generation results, and delivery leases are server-owned.
+      match /{document=**} { allow read, write: if false; }
+    }
+    match /organizations/{orgId} {
+      allow read: if signedIn() && (resource.data.createdBy == request.auth.uid || request.auth.uid in resource.data.get('memberIds', []));
+      allow create: if signedIn() && request.resource.data.createdBy == request.auth.uid
+        && request.resource.data.memberIds == [request.auth.uid]
+        && request.resource.data.members.keys().hasOnly([request.auth.uid]) && request.resource.data.members[request.auth.uid] == 'owner'
+        && request.resource.data.name is string && request.resource.data.name.size() <= 200
+        && request.resource.data.mission is string && request.resource.data.mission.size() <= 10000;
+      allow update: if orgEditor(orgId)
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['name', 'mission', 'tagline', 'campaigns', 'updatedAt']);
+      allow delete: if false;
+      match /tasks/{taskId} {
+        allow read: if orgMember(orgId);
+        // The callable service validates assignments and records activity atomically.
+        allow write: if false;
+      }
+      match /activity/{eventId} { allow read: if orgMember(orgId); allow write: if false; }
+    }
+    // Published snapshots contain an explicit allowlist of public fields, copied by the server.
+    match /publicOrganizations/{orgId} { allow read: if true; allow write: if false; }
+    match /locations/{locationId} { allow read: if true; allow write: if false; }
+    match /locationIssues/{locationId} { allow read: if true; allow write: if false; }
+    match /locationRegistry/{id} { allow read: if true; allow write: if false; }
+    match /coverageRequests/{id} {
+      allow create: if signedIn() && request.resource.data.keys().hasOnly(['uid', 'city', 'state', 'zip', 'createdAt']) && request.resource.data.uid == request.auth.uid && request.resource.data.city is string && request.resource.data.city.size() <= 100 && request.resource.data.state is string && request.resource.data.state.size() <= 100 && request.resource.data.zip.matches('^[0-9]{5}$');
+      allow read: if signedIn() && resource.data.uid == request.auth.uid;
+      allow update, delete: if false;
+    }
+    match /{document=**} { allow read, write: if false; }
+  }
+}

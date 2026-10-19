@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import { loadOrg } from '../lib/data'
+import { loadOrg, ORG_IDS } from '../lib/data'
+import { loadPublicOrg } from '../lib/orgStore'
 
 const priorityColor = {
   high: 'text-accent-red',
@@ -22,7 +23,9 @@ export default function OrgPublicView() {
 
   useEffect(() => {
     setLoading(true)
-    loadOrg(orgId)
+    setError(null)
+    const loader = ORG_IDS.includes(orgId) ? loadOrg : loadPublicOrg
+    loader(orgId)
       .then((data) => { setOrg(data); setLoading(false) })
       .catch(() => { setError('Organization not found'); setLoading(false) })
   }, [orgId])

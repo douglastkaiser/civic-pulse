@@ -1,33 +1,63 @@
-import { doc, getDoc, setDoc, deleteDoc, collection, query, where, getDocs, serverTimestamp } from 'firebase/firestore'
-import { db } from './firebase'
-
-const COLLECTION = 'organizations'
-
+import {
+  doc,
+  getDoc,
+  setDoc,
+  collection,
+  query,
+  where,
+  getDocs,
+  serverTimestamp,
+} from 'firebase/firestore'
+import { db, auth } from './firebase'
+import { callService } from './service'
 export async function saveOrg(uid, orgData) {
-  const ref = doc(db, COLLECTION, orgData.id)
-  await setDoc(ref, {
+  await setDoc(doc(db, 'organizations', orgData.id), {
     ...orgData,
+    schema_version: 1,
     createdBy: uid,
+    memberIds: [uid],
+    members: { [uid]: 'owner' },
+    memberLabels: {
+      [uid]:
+        auth.currentUser?.displayName ||
+        auth.currentUser?.email ||
+        'Organization owner',
+    },
     createdAt: serverTimestamp(),
     updatedAt: serverTimestamp(),
   })
-  window.dispatchEvent(new Event('org-created'))
 }
-
 export async function loadOrgFromFirestore(orgId) {
-  const ref = doc(db, COLLECTION, orgId)
-  const snap = await getDoc(ref)
+  const snap = await getDoc(doc(db, 'organizations', orgId))
   return snap.exists() ? snap.data() : null
 }
-
-export async function loadUserOrgs(uid) {
-  const q = query(collection(db, COLLECTION), where('createdBy', '==', uid))
-  const snap = await getDocs(q)
-  return snap.docs.map((d) => d.data())
+export async function loadPublicOrg(orgId) {
+  const snap = await getDoc(doc(db, 'publicOrganizations', orgId))
+  if (!snap.exists())
+    throw new Error('This organization has not published a public page.')
+  return snap.data()
 }
-
-export async function deleteOrg(orgId) {
-  const ref = doc(db, COLLECTION, orgId)
-  await deleteDoc(ref)
-  window.dispatchEvent(new Event('org-created'))
+export async function loadUserOrgs(uid) {
+  const [owned, member] = await Promise.all([
+    getDocs(
+      query(collection(db, 'organizations'), where('createdBy', '==', uid))
+    ),
+    getDocs(
+      query(
+        collection(db, 'organizations'),
+        where('memberIds', 'array-contains', uid)
+      )
+    ),
+  ])
+  return [
+    ...new Map(
+      [...owned.docs, ...member.docs].map((d) => [
+        d.id,
+        { ...d.data(), id: d.id },
+      ])
+    ).values(),
+  ]
+}
+export function deleteOrg(orgId) {
+  return callService('manageOrganization', { operation: 'delete', orgId })
 }

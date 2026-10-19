@@ -1,139 +1,20 @@
-import { useState, useMemo } from 'react'
-import Plot from 'react-plotly.js'
+import { useState } from 'react'
 import ContextTooltip from './shared/ContextTooltip'
 import DetailModal from './shared/DetailModal'
-import { useTheme } from '../lib/theme'
-import { getThemeColors, getCssVar } from '../lib/themeColors'
-
-function getMarkerSize(issue) {
-  if (!issue.meeting_date) return 12
-  const daysUntil = Math.ceil(
-    (new Date(issue.meeting_date) - Date.now()) / (1000 * 60 * 60 * 24)
-  )
-  if (daysUntil <= 7) return 20
-  if (daysUntil <= 30) return 16
-  if (daysUntil <= 90) return 13
-  return 10
-}
 
 function MatrixPlot({ issues, selectedIssueId, onSelectIssue }) {
-  const { theme } = useTheme()
-
-  const quadrantColorMap = {
-    act_now: '--quad-act',
-    know: '--quad-know',
-    watch: '--quad-watch',
-    background: '--quad-bg',
-  }
-
-  const data = useMemo(() => {
-    if (!issues?.length) return []
-    const tc = getThemeColors()
-
-    return [
-      {
-        x: issues.map((i) => i.importance_score),
-        y: issues.map((i) => i.impact_score),
-        text: issues.map((i) => i.title),
-        customdata: issues.map((i) => i.id),
-        hovertemplate:
-          '<b>%{text}</b><br>Importance: %{x}<br>Impact: %{y}<extra></extra>',
-        mode: 'markers',
-        type: 'scatter',
-        marker: {
-          size: issues.map(getMarkerSize),
-          color: issues.map((i) => getCssVar(quadrantColorMap[i.quadrant] || '--quad-bg')),
-          line: {
-            color: issues.map((i) =>
-              i.id === selectedIssueId ? tc.textPrimary : 'transparent'
-            ),
-            width: issues.map((i) => (i.id === selectedIssueId ? 2 : 0)),
-          },
-          opacity: 0.85,
-        },
-      },
-    ]
-  }, [issues, selectedIssueId, theme])
-
-  const layout = useMemo(
-    () => {
-      const tc = getThemeColors()
-      return {
-        paper_bgcolor: 'transparent',
-        plot_bgcolor: 'transparent',
-        margin: { t: 30, r: 20, b: 50, l: 50 },
-        xaxis: {
-          title: { text: 'Importance', font: { size: 11 } },
-          range: [0, 100],
-          gridcolor: tc.border,
-          zerolinecolor: tc.border,
-          color: tc.textSecondary,
-          dtick: 25,
-        },
-        yaxis: {
-          title: { text: 'Impact', font: { size: 11 } },
-          range: [0, 100],
-          gridcolor: tc.border,
-          zerolinecolor: tc.border,
-          color: tc.textSecondary,
-          dtick: 25,
-        },
-        font: {
-          family: tc.fontMono + ', monospace',
-          color: tc.textSecondary,
-          size: 10,
-        },
-        shapes: [
-          {
-            type: 'line',
-            x0: 50, x1: 50, y0: 0, y1: 100,
-            line: { color: tc.border, width: 1, dash: 'dash' },
-          },
-          {
-            type: 'line',
-            x0: 0, x1: 100, y0: 50, y1: 50,
-            line: { color: tc.border, width: 1, dash: 'dash' },
-          },
-        ],
-        annotations: [
-          { x: 75, y: 95, text: 'ACT NOW', showarrow: false, font: { color: tc.quadAct, size: 9 } },
-          { x: 25, y: 95, text: 'KNOW', showarrow: false, font: { color: tc.quadKnow, size: 9 } },
-          { x: 75, y: 5, text: 'WATCH', showarrow: false, font: { color: tc.quadWatch, size: 9 } },
-          { x: 25, y: 5, text: 'BACKGROUND', showarrow: false, font: { color: tc.quadBg, size: 9 } },
-        ],
-        dragmode: false,
-        hovermode: 'closest',
-      }
-    },
-    [theme]
-  )
-
-  const config = useMemo(
-    () => ({
-      displayModeBar: false,
-      responsive: true,
-    }),
-    []
-  )
-
-  const handleClick = (event) => {
-    if (event.points?.[0]) {
-      const issueId = event.points[0].customdata
-      onSelectIssue?.(issueId)
-    }
-  }
-
-  return (
-    <Plot
-      data={data}
-      layout={layout}
-      config={config}
-      onClick={handleClick}
-      useResizeHandler
-      className="w-full h-full"
-      style={{ width: '100%', height: '100%' }}
-    />
-  )
+  const scored = (issues || []).filter(i => Number.isFinite(i.importance_score) && Number.isFinite(i.impact_score))
+  return <div className="w-full h-full overflow-auto">
+    <svg viewBox="0 0 400 280" className="w-full max-h-96" role="img" aria-label="Archived importance and impact scores; use the issue list below to select a record.">
+      <rect x="40" y="10" width="340" height="230" fill="rgb(var(--bg-elevated))" rx="8" />
+      <path d="M210 10V240M40 125H380" stroke="rgb(var(--border))" strokeDasharray="4" />
+      <text x="210" y="270" textAnchor="middle" fill="rgb(var(--text-secondary))" fontSize="12">Recorded importance</text>
+      <text x="15" y="125" transform="rotate(-90, 15, 125)" textAnchor="middle" fill="rgb(var(--text-secondary))" fontSize="12">Recorded impact estimate</text>
+      {scored.map(issue => <circle key={issue.id} cx={40 + Math.max(0, Math.min(100, issue.importance_score)) * 3.4} cy={240 - Math.max(0, Math.min(100, issue.impact_score)) * 2.3} r={issue.id === selectedIssueId ? 7 : 5} fill="rgb(var(--accent-blue))" opacity=".75"><title>{issue.title}: importance {issue.importance_score}, impact {issue.impact_score}</title></circle>)}
+    </svg>
+    <ul className="text-sm space-y-1">{scored.map(issue => <li key={issue.id}><button className={`text-left px-2 py-1 rounded ${issue.id === selectedIssueId ? 'bg-accent-blue/10' : ''}`} onClick={() => onSelectIssue?.(issue.id)}>{issue.title} · {issue.importance_score} / {issue.impact_score}</button></li>)}</ul>
+    {!scored.length && <p className="text-sm text-text-secondary p-3">No archived scores are available. Explore the source records to choose an action.</p>}
+  </div>
 }
 
 export default function PriorityMatrix({ issues, onSelectIssue, selectedIssueId }) {
@@ -146,7 +27,7 @@ export default function PriorityMatrix({ issues, onSelectIssue, selectedIssueId 
           <h2 className="font-mono text-sm font-bold text-text-primary tracking-wide">
             PRIORITY MATRIX
           </h2>
-          <ContextTooltip text="Issues are plotted by how much they align with your stated values (importance) vs. how much leverage you have to affect the outcome (impact). Top-right quadrant items are where your time is best spent." />
+          <ContextTooltip text="These archived estimates are not personalized to your current profile. They are unverified analysis, not measured influence." />
           <button
             onClick={() => setModalOpen(true)}
             className="ml-auto text-xs text-text-tertiary hover:text-accent-blue font-mono transition-colors px-1.5 py-0.5 rounded hover:bg-bg-elevated"
@@ -168,7 +49,7 @@ export default function PriorityMatrix({ issues, onSelectIssue, selectedIssueId 
             <div className="text-center">
               <div className="text-text-tertiary text-sm font-mono mb-2">No issues data</div>
               <div className="text-text-tertiary text-xs">
-                Run the pipeline to populate issues for this location.
+                Coverage is still being established for this area.
               </div>
             </div>
           </div>
@@ -182,7 +63,7 @@ export default function PriorityMatrix({ issues, onSelectIssue, selectedIssueId 
         title="PRIORITY MATRIX"
       >
         <div className="flex items-center gap-2 mb-4">
-          <ContextTooltip text="Issues are plotted by how much they align with your stated values (importance) vs. how much leverage you have to affect the outcome (impact). Top-right quadrant items are where your time is best spent." />
+          <ContextTooltip text="These archived estimates are not personalized to your current profile. They are unverified analysis, not measured influence." />
         </div>
         {issues?.length > 0 ? (
           <div style={{ height: '70vh' }}>

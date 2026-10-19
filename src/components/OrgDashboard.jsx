@@ -1,3 +1,4 @@
+import OrganizationWorkspace from './org/OrganizationWorkspace'
 import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { ORG_IDS_BY_LOCATION, loadOrg } from '../lib/data'
@@ -15,6 +16,12 @@ import BridgeBuildingPanel from './bridge/BridgeBuildingPanel'
 import { getCssVar } from '../lib/themeColors'
 
 export default function OrgDashboard() {
+  const { orgId } = useParams()
+  const isStatic = Object.values(ORG_IDS_BY_LOCATION).flat().includes(orgId)
+  return isStatic ? <StaticOrgDashboard /> : <OrganizationWorkspace key={orgId} orgId={orgId} />
+}
+
+function StaticOrgDashboard() {
   const { orgId } = useParams()
   const [org, setOrg] = useState(null)
   const [loading, setLoading] = useState(true)

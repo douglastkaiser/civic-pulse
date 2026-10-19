@@ -1,6 +1,8 @@
+import { useAuth } from '../lib/auth'
+import { getUserProfile } from '../lib/userStore'
 import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
-import { loadProfile, loadLocation, loadIssues, PROFILE_ID } from '../lib/data'
+import { loadLocation, loadIssues } from '../lib/data'
 import LocationPanel from './LocationPanel'
 import PriorityMatrix from './PriorityMatrix'
 import IssueFeed from './IssueFeed'
@@ -13,9 +15,12 @@ import { getCssVar } from '../lib/themeColors'
 
 export default function LocationPage() {
   const { locationId } = useParams()
+  const { user } = useAuth()
   const [profile, setProfile] = useState(null)
   const [location, setLocation] = useState(null)
   const [issuesData, setIssuesData] = useState(null)
+  const [loadError, setLoadError] = useState(false)
+  const [retry, setRetry] = useState(0)
   const [loading, setLoading] = useState(true)
   const [locationLoading, setLocationLoading] = useState(false)
   const [selectedIssueId, setSelectedIssueId] = useState(null)
@@ -23,15 +28,23 @@ export default function LocationPage() {
 
   // Load profile for political compass user data
   useEffect(() => {
-    loadProfile(PROFILE_ID)
-      .then(setProfile)
+    setProfile(null)
+    if (!user?.uid) return
+    let active = true
+    getUserProfile(user.uid)
+      .then(value => { if (active) setProfile(value) })
       .catch((err) => console.error('Failed to load profile:', err))
-  }, [])
+    return () => { active = false }
+  }, [user?.uid])
 
   // Load location-specific data when locationId changes
   useEffect(() => {
     if (!locationId) return
 
+    let active = true
+    setLoadError(false)
+    setLocation(null)
+    setIssuesData(null)
     setLoading(true)
     setLocationLoading(true)
     setSelectedIssueId(null)
@@ -41,17 +54,23 @@ export default function LocationPage() {
       loadIssues(locationId),
     ])
       .then(([loc, iss]) => {
+        if (!active) return
         setLocation(loc)
         setIssuesData(iss)
         setLoading(false)
         setLocationLoading(false)
       })
       .catch((err) => {
+        if (!active) return
+        setLoadError(true)
         console.error('Failed to load location data:', err)
         setLoading(false)
         setLocationLoading(false)
       })
-  }, [locationId])
+    return () => { active = false }
+  }, [locationId, retry])
+
+  if (loadError) return <div className="page-wrap"><p role="alert">The area reference could not be loaded.</p><button className="civic-button mt-4" onClick={() => setRetry(v => v + 1)}>Try again</button></div>
 
   if (loading) {
     return (
@@ -145,7 +164,7 @@ export default function LocationPage() {
   const getExportData = () => ({
     export_type: 'location_landscape',
     exported_at: new Date().toISOString(),
-    profile_id: PROFILE_ID,
+    profile_id: user?.uid || null,
     active_location: activeLocation,
     location_data: location,
     issues: issuesData,

@@ -4,3 +4,11 @@ dist
 .env.local
 *.log
 .DS_Store
+
+.firebase
+*-debug.log
+playwright-report
+test-results
+__pycache__
+.env.*
+!.env.example

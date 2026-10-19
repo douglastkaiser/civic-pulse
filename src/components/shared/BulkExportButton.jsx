@@ -1,14 +1,17 @@
+import { useAuth } from '../../lib/auth'
+import { exportResident } from '../../lib/residentStore'
 import { useState } from 'react'
-import { loadAllProfiles, loadAllOrgs, loadOfficials, LOCATION_LABELS } from '../../lib/data'
+import { loadAllOrgs, loadOfficials, LOCATION_LABELS } from '../../lib/data'
 
 export default function BulkExportButton() {
+  const { user } = useAuth()
   const [exporting, setExporting] = useState(false)
 
   const handleExport = async () => {
     setExporting(true)
     try {
       const [profiles, orgs, ...officialsResults] = await Promise.all([
-        loadAllProfiles(),
+        exportResident(user.uid),
         loadAllOrgs(),
         ...Object.keys(LOCATION_LABELS).map((id) => loadOfficials(id).catch(() => null)),
       ])
@@ -42,7 +45,7 @@ export default function BulkExportButton() {
       onClick={handleExport}
       disabled={exporting}
       className="text-xs text-text-tertiary hover:text-accent-blue font-mono transition-colors px-2 py-1 rounded border border-border hover:border-accent-blue/30 disabled:opacity-50 disabled:cursor-not-allowed"
-      title="Export all profiles and orgs as JSON"
+      title="Export your data and public reference organizations"
     >
       {exporting ? 'Exporting...' : 'Export All JSON'}
     </button>

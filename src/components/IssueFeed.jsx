@@ -43,8 +43,8 @@ export default function IssueFeed({ issues, onSelectIssue, selectedIssueId }) {
         </h2>
         <div className="flex-1 flex items-center justify-center">
           <div className="text-center">
-            <div className="text-text-tertiary text-sm font-mono">No issues scraped yet</div>
-            <div className="text-text-tertiary text-xs mt-1">Run pipeline to populate.</div>
+            <div className="text-text-tertiary text-sm font-mono">No local issues are available yet</div>
+            <div className="text-text-tertiary text-xs mt-1">Coverage is still being established. Check back later.</div>
           </div>
         </div>
       </div>

@@ -1,6 +1,7 @@
 export function getFreshnessColor(isoTimestamp) {
   if (!isoTimestamp) return 'gray'
   const age = Date.now() - new Date(isoTimestamp).getTime()
+  if (!Number.isFinite(age) || age < 0) return 'gray'
   const hours = age / (1000 * 60 * 60)
   if (hours < 24) return 'green'
   if (hours < 24 * 7) return 'yellow'
@@ -10,6 +11,7 @@ export function getFreshnessColor(isoTimestamp) {
 export function getFreshnessLabel(isoTimestamp) {
   if (!isoTimestamp) return 'Never'
   const age = Date.now() - new Date(isoTimestamp).getTime()
+  if (!Number.isFinite(age) || age < 0) return 'Unknown'
   const minutes = Math.floor(age / (1000 * 60))
   if (minutes < 60) return `${minutes}m ago`
   const hours = Math.floor(minutes / 60)
