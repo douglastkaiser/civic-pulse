@@ -6,11 +6,11 @@
       "issues_scored": "2026-07-08T12:00:00Z",
       "next_steps_generated": "2026-06-05T12:00:00Z",
       "needs_rescrape": false,
-      "last_attempt_at": "2026-10-29T18:55:09.032362+00:00",
+      "last_attempt_at": "2026-10-30T18:32:10.876309+00:00",
       "status": "updated",
-      "last_successful_fetch_at": "2026-10-29T18:55:10.567253+00:00",
+      "last_successful_fetch_at": "2026-10-30T18:32:14.892922+00:00",
       "error": null,
-      "record_count": 168
+      "record_count": 164
     },
     "orange-92868": {
       "landscape_scraped": "2026-06-05T12:00:00Z",
@@ -18,7 +18,7 @@
       "issues_scored": "2026-07-08T12:00:00Z",
       "next_steps_generated": "2026-06-05T12:00:00Z",
       "needs_rescrape": true,
-      "last_attempt_at": "2026-10-29T18:55:10.618101+00:00",
+      "last_attempt_at": "2026-10-30T18:32:14.945844+00:00",
       "status": "unsupported",
       "error": "Automated source is not configured."
     }
@@ -80,7 +80,7 @@
       "needs_manifesto_update": true
     }
   },
-  "last_full_run": "2026-10-29T18:55:10.619096+00:00",
+  "last_full_run": "2026-10-30T18:32:14.946836+00:00",
   "last_run_status": "partial",
   "last_run_errors": [],
   "schema_version": 1
